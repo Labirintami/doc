@@ -1,8 +1,8 @@
 ---
-id: configuration
+# id: configuration
 title: Configuring Diagram
-sidebar_label: Configuring Diagram
-slug: /common_guides__configuration.html
+# sidebar_label: Configuring Diagram
+# slug: /common_guides__configuration.html
 ---
 
 --------------

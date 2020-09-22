@@ -1,8 +1,8 @@
 ---
-id: initialization
+# id: initialization
 title: Creating dhtmlxDiagram
-sidebar_label: Creating dhtmlxDiagram
-slug: /common_guides__initialization.html
+# sidebar_label: Creating dhtmlxDiagram
+# slug: /common_guides__initialization.html
 ---
 
 In this article we will discuss the stages of adding dhtmlxDiagram on a page. This process presupposes several simple steps:

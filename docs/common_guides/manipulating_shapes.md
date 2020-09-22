@@ -1,8 +1,8 @@
 ---
-id: manipulating_shapes
+# id: manipulating_shapes
 title: Manipulating Shapes
-sidebar_label: Manipulating Shapes
-slug: /common_guides__manipulating_shapes.html
+# sidebar_label: Manipulating Shapes
+# slug: /common_guides__manipulating_shapes.html
 ---
 
 It is easy to manipulate the shapes of dhtmlxDiagram via the component's API. You can perform a range of operations over shapes, in particular:

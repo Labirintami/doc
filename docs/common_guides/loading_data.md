@@ -1,8 +1,8 @@
 ---
-id: loading_data
+# id: loading_data
 title: Loading and Storing Data
-sidebar_label: Loading and Storing Data
-slug: /common_guides__loading_data.html
+# sidebar_label: Loading and Storing Data
+# slug: /common_guides__loading_data.html
 ---
 
 You can populate Diagram and Org Chart with data in the following ways:

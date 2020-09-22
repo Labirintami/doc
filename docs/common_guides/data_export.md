@@ -1,8 +1,8 @@
 ---
-id: data_export
+# id: data_export
 title: Exporting Diagram
-sidebar_label: Exporting Diagram
-slug: /common_guides__data_export.html
+# sidebar_label: Exporting Diagram
+# slug: /common_guides__data_export.html
 ---
 
 You can easily export a diagram into the PDF or PNG format. Check the related sections for details.
