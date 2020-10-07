@@ -16,6 +16,24 @@ module.exports = {
             id: "overview",
         },
         {
+            type: "category",
+            label: "API",
+            // collapsed: false,
+            items: [
+                "api/richtext",
+                // "guides/configuration",
+                // "guides/localization",
+                // "guides/loading_data",
+                // "guides/working_with_richtext",
+                // "guides/customization",
+                // "guides/event_handling",
+                // "guides/react_integration",
+                // "guides/angular_integration",
+                // "guides/vuejs_integration",
+
+            ],
+        },
+        {
             type: "doc",
             id: "whats_new",
         },
