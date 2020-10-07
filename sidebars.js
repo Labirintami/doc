@@ -1,44 +1,41 @@
 // module.exports = {
 //     someSidebar: {
-//         Docusaurus: ['doc1', 'doc2', 'doc3'],
-//         Features: ['mdx'],
+//         Docusaurus: ["doc1", "doc2", "doc3"],
+//         Features: ["mdx"],
 //     },
 // };
 
 
 module.exports = {
     docs: [{
-            type: 'category',
-            label: 'Overview',
-            items: ['overview'],
-            collapsed: false,
+            type: "doc",
+            id: "how_to_start",
         },
         {
-            type: 'category',
-            label: 'Common guides',
+            type: "doc",
+            id: "overview",
+        },
+        {
+            type: "doc",
+            id: "whats_new",
+        },
+        {
+            type: "category",
+            label: "Guides",
             collapsed: false,
             items: [
-                'common_guides/сreating_dhtmlxdiagram',
-                'common_guides/configuration',
-                'common_guides/loading_data',
-                'common_guides/manipulating_shapes',
-                'common_guides/working_with_diagram',
-                'common_guides/data_export',
+                "guides/initialization",
+                "guides/configuration",
+                "guides/localization",
+                "guides/loading_data",
+                "guides/working_with_richtext",
+                "guides/customization",
+                "guides/event_handling",
+                "guides/react_integration",
+                "guides/angular_integration",
+                "guides/vuejs_integration",
 
             ],
         },
-        {
-            type: 'category',
-            label: 'Diagram guides',
-            collapsed: false,
-            items: [
-                'diagram_guides/data_format',
-                // 'diagram_guides/shapes_arrows_list',
-                // 'diagram_guides/customization',
-                // 'diagram_guides/editor_mode',
-
-            ],
-        },
-
     ],
 }
