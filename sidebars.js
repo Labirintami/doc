@@ -20,16 +20,26 @@ module.exports = {
             label: "API",
             // collapsed: false,
             items: [
-                "api/richtext",
-                // "guides/configuration",
-                // "guides/localization",
-                // "guides/loading_data",
-                // "guides/working_with_richtext",
-                // "guides/customization",
-                // "guides/event_handling",
-                // "guides/react_integration",
-                // "guides/angular_integration",
-                // "guides/vuejs_integration",
+                "api/overview",
+                "api/methods",
+                "api/events_bus",
+                "api/events",
+                "api/properties",
+
+                // {
+                //     type: "category",
+                //     label: "Methods",
+                //     items: [
+                //         "api/richtext_destructor",
+                //         "api/richtext_exitfullscreen",
+                //         "api/richtext_fullscreen",
+                //         "api/richtext_geteditorapi",
+                //         "api/richtext_getvalue",
+                //         "api/richtext_getstats",
+                //         "api/richtext_paint",
+                //         "api/richtext_setvalue"
+                //     ],
+                // }
 
             ],
         },

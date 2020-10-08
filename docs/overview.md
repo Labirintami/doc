@@ -1,6 +1,6 @@
 ---
-sidebar_label: Overview
-title: dhtmlxRichText Overview
+sidebar_label: RichText Overview
+title: RichText Overview
 slug: /
 ---
 
