@@ -1,5 +1,7 @@
-Initialization
-==================
+---
+sidebar_label: Initialization
+title: Initialization
+---
 
 The current article will guide you through simple steps you need to take in order to insert a compact text editor into your application. All in all, you should complete just three steps:
 

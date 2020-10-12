@@ -1,5 +1,7 @@
-Integration with React
-=========================
+---
+sidebar_label: Integration with React
+title: Integration with React
+---
 
 You can use dhtmlxRichText in an application created with the [React](https://reactjs.org/) framework. [Check the demo on Github](https://github.com/DHTMLX/react-widgets).
 

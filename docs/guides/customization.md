@@ -1,5 +1,7 @@
-Customization
-================
+---
+sidebar_label: Customization
+title: Customization
+---
 
 You can customize the appearance and structure of toolbar, change the settings of controls and use any icon pack instead of the default one.
 

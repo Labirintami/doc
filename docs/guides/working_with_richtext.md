@@ -1,5 +1,7 @@
-Working with RichText
-========================
+---
+sidebar_label: Working with RichText
+title: Working with RichText
+---
 
 The API of dhtmlxRichText includes a basic set of methods that let you perform operations on the component. You can serialize edited text into either HTML or Markdown formats, get the number of the typed characters and enter/exit the full screen mode of the editor on the fly.
 

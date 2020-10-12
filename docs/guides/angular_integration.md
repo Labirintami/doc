@@ -1,5 +1,7 @@
-Integration with Angular
-==========================
+---
+sidebar_label: Integration with Angular
+title: Integration with Angular
+---
 
 You can use dhtmlxRichText in an application created with the [Angular](https://vuejs.org/) framework. [Check the demo on Github](https://github.com/DHTMLX/angular-widgets).
 
