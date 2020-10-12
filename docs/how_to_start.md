@@ -6,7 +6,7 @@ title: How to Start
 RichText editor will make text editing quick and comfortable due to the inbuilt set of handy formatting tools.
 Follow this comprehensive and easy-to-reproduce tutorial to create RichText editor on a page and start working with it.
 
-<!-- ![RichTextEditor](classic_mode.png) -->
+ <img alt="DHTMLX RichText Classic Mode" src={require('./assets/classic_mode.png').default} />
 
 Step 1. Include source files
 --------------------------
