@@ -1,7 +1,6 @@
 ---
 sidebar_label: RichText Overview
 title: RichText Overview
-slug: /
 ---
 
 
@@ -20,12 +19,14 @@ The toolbar of Richtext is [easily configurable](configuration.md#toolbar). It c
 The default toolbar includes 6 blocks of controls. They are: "undo", "style", "decoration", "colors", "align" and "link":
 
 <!-- ![Default toolbar](default_toolbar.png) -->
+ <img alt="" src={require('./assets/default_toolbar.png').default} />
 
 - full toolbar
 
 The full toolbar includes all the default blocks and additional "clear", "stats" and "fullscreen" blocks:
 
 <!-- ![Full toolbar](full_toolbar.png) -->
+ <img alt="" src={require('./assets/full_toolbar.png').default} />
 
 You can [adjust the look and feel of the toolbar](customization.md) to meet your requirements.
 
@@ -38,10 +39,12 @@ dhtmlxRichText can work with content in [two modes](configuration.md#modesofedit
 - "classic"
 
 <!-- ![Classic mode](classic_mode.png) -->
+ <img alt="" src={require('./assets/classic_mode.png').default} />
 
 - "document"
 
 <!-- ![Document mode](doc_mode.png) -->
+ <img alt="" src={require('./assets/doc_mode.png').default} />
 
 [Read more](configuration.md#modesofediting) about setting the mode you like best.
 
@@ -54,27 +57,33 @@ The RichText editor supports [parsing](loading_data.md#addingcontentintoeditor) 
 - HTML format
 
 <!-- ![HTML format](html_format.png) -->
+ <img alt="" src={require('./assets/html_format.png').default} />
 
 - Markdown format
 
 <!-- ![Markdown format](markdown_format.png) -->
+ <img alt="" src={require('./assets/markdown_format.png').default} />
 
 Integration
 -------------
 
 Rich Text can be integrated with other JavaScript frameworks. There are related guides and demos available for:
 
-- angular_integration.md
-- react_integration.md
-- vuejs_integration.md
+- [Integration with Angular](react_integration.md)
+- [Integration with React](react_integration.md)
+- [Integration with Vue.js](vuejs_integration.md)
 
 
-What's Next
------------
 
-It's high time to embed RichText into your application to enrich it with editing abilities. The how_to_start.md tutorial is ready to help your on your way.
+
+
+
+<!-- What's Next todo
+----------- -->
+
+<!-- It's high time to embed RichText into your application to enrich it with editing abilities. The how_to_start.md tutorial is ready to help your on your way.
 
 To learn the features of dhtmlxRichText, check other helpful resources:
 
 - api/refs/richtext.md
-- guides.md
+- guides.md -->

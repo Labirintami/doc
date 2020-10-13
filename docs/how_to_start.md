@@ -1,6 +1,7 @@
 ---
 sidebar_label: How to Start
 title: How to Start
+slug: /
 ---
 
 RichText editor will make text editing quick and comfortable due to the inbuilt set of handy formatting tools.
@@ -19,8 +20,7 @@ You need to include the following two files:
 - the JS file of dhtmlxRichText
 - the CSS file of dhtmlxRichText
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <!DOCTYPE html>
 <html>
 
@@ -46,8 +46,7 @@ At this step you can add RichText on a page. There are two easy steps:
 - Open the *index.html* file and create a DIV container in it.
 - Initialize dhtmlxRichText in the container with the help of the `dhx.Richtext` constructor. As parameters of the constructor function, pass the container you've created above and the configuration object of RichText:
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <!DOCTYPE html>
 <html>
 
@@ -90,13 +89,13 @@ Step 4. Setting content (optional)
 If necessary, you can parse some text in the HTML or Markdown format on the RichText initialization. Read more about this feature in the [related article](loading_data.md).
 
 
-What's Next
---------------
+<!-- What's Next todo  -->
+<!-- -------------- -->
 
-Well, that's all. You can start working with texts in the RichText editor you've just created. 
+<!-- Well, that's all. You can start working with texts in the RichText editor you've just created. 
 
 If you're still eager to continue investigating the structure and backstage of dhtmlxRichText, these are the materials you will be interested in:
 
 - overview.md
 - guides.md
-- api/refs/richtext.md
+- api/refs/richtext.md -->
