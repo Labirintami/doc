@@ -9,22 +9,25 @@ set of controls.
 Format of content
 ------------------
 
-###HTML format
+### HTML format
 
 Rich Text supports standard HTML format, so you can use all habitual formatting tags. The image below presents the result of parsing a text in the HTML format into the Rich Text editor:
 
 <!-- ![HTML format](html_format.png) -->
+<img alt="" src={require('./../assets/html_format.png').default} />
 
-###Markdown format
+### Markdown format
 
 For parsing of a Markdown-formatted text, dhtmlxRichtext uses the [Marked.js](https://github.com/markedjs/marked) markdown parser.
 For now the component supports basic formatting elements of the Markdown syntax. Check the cheat sheet below:
 
 <!-- ![Markdown cheat sheet](markdown_cheatsheet.png) -->
+<img alt="" src={require('./../assets/markdown_cheatsheet.png').default} />
 
 The following image demonstrates the result of parsing a text in the Markdown format into the Rich Text editor:
 
 <!-- ![Markdown format](markdown_format.png) -->
+<img alt="" src={require('./../assets/markdown_format.png').default} />
 
 Adding content into editor
 ------------------
@@ -46,11 +49,13 @@ var htmlText = `<h1>Meet DHTMLX Rich Text Editor!</h1>` +
 richtext.setValue(htmlText);
 ~~~
 
-{{sample 01_init/03_set_html_value.html}}
+<!-- {{sample 01_init/03_set_html_value.html}} todo -->
 
 - adding Markdown content
 
-{{note Please note that for a text in the Markdown format you need to define paragraphs by empty lines.}}
+:::caution
+Please note that for a text in the Markdown format you need to define paragraphs by empty lines.
+:::
 
 ~~~js
 var mdText = `# Meet DHTMLX Rich Text Editor!
@@ -62,10 +67,10 @@ This demo will show you a customizable **JavaScript rich text editor**.
 richtext.setValue(mdText,"markdown");
 ~~~
 
-{{sample 01_init/04_set_markdown_value.html}}
+<!-- {{sample 01_init/04_set_markdown_value.html}} todo -->
 
-Related articles
---------------------
+<!-- Related articles todo -->
+<!-- --------------------
 
-To learn about how to get edited text in HTML and Markdown formats, read the working_with_richtext.md guide.
+To learn about how to get edited text in HTML and Markdown formats, read the working_with_richtext.md guide. -->
 

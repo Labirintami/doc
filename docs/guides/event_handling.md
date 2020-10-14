@@ -1,6 +1,6 @@
 ---
 sidebar_label: Event Handling
-title: EEvent Handling
+title: Event Handling
 ---
 
 ## Attaching Event Listeners
@@ -13,9 +13,11 @@ richtext.events.on("Change", function(action,canUndo,canRedo){
 });
 ~~~
 
-{{sample 05_events/01_events.html}}
+<!-- {{sample 05_events/01_events.html}} todo -->
 
-{{note The names of events are case-insensitive.}}
+:::caution
+The names of events are case-insensitive.
+:::
 
 ## Detaching Event Listeners
 

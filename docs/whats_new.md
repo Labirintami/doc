@@ -16,7 +16,7 @@ Version 1.1.2
 
 <span class="rel_date">released on February 13, 2020</span>
 
-###Fixes
+#### Fixes
 
 - Issues with interaction between the HTML form and controls of Toolbar
 
@@ -25,7 +25,7 @@ Version 1.1.1
 
 <span class="rel_date">released on March 6, 2019</span>
 
-###Fixes
+### Fixes
 
 - Fix the bug with Toolbar items
 - Fix z-index for the full screen mode 
@@ -58,7 +58,7 @@ Version 1.0.1
 
 <span class="rel_date">released on December 19, 2018</span>
 
-###Fixes
+### Fixes
 
 - Incorrect undo behavior with the setValue method
 - Issue with the link background on switching between links 
@@ -70,7 +70,7 @@ Version 1.0
 
 <span class="rel_date">released on December 13, 2018</span>
 
-###Initial functionality
+### Initial functionality
 
 - Basic operations for real-time text editing 
 - Two [working modes](configuration.md#workingmodes): "classic" and "document"

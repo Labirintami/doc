@@ -19,7 +19,7 @@ To save the edited text, make use of the api/richtext_getvalue.md method. The me
 var content = richtext.getValue("markdown");
 ~~~
 
-{{sample 03_usage/01_get_value.html}}
+<!-- {{sample 03_usage/01_get_value.html}} todo -->
 
 If you are in two minds about how to add content into the RichText editor, there is the loading_data.md article.
 
@@ -29,6 +29,7 @@ Statistics
 RichText editor allows you to show statistics about the edited text. There is the **Statistics** control in the toolbar that serves for this purpose:
 
 <!-- ![Statistics control](stats_control.png) -->
+<img alt="" src={require('./../assets/stats_control.png').default} />
 
 ### Getting statistics
 
@@ -48,7 +49,7 @@ The method returns an object with available statistical data about the text edit
 
 You can also get each field of statistical data separately, as it described below.
 
-####Characters
+#### Characters
 
 To return the count of characters typed into the editor, use the **chars** property:  
 
@@ -56,7 +57,7 @@ To return the count of characters typed into the editor, use the **chars** prope
 var chars = richtext.getStats().chars;
 ~~~
 
-####Words
+#### Words
 
 To return the count of words typed into the editor, use the **words** property:  
 
@@ -88,7 +89,7 @@ function calc() {
 }
 ~~~
 
-{{sample 03_usage/02_get_stats.html}}
+<!-- {{sample 03_usage/02_get_stats.html}} todo -->
 
 <h3 id="customstats">Custom statistics</h3> 
 
@@ -128,8 +129,9 @@ var rich = new dhx.Richtext("rich", {
 ~~~
 
 <!-- ![Custom statistics](custom_stats.png) -->
+<img alt="" src={require('./../assets/custom_stats.png').default} />
 
-{{sample 02_configuration/04_custom_stats.html}}
+<!-- {{sample 02_configuration/04_custom_stats.html}} todo -->
 
 
 Full screen mode
@@ -157,14 +159,14 @@ var EditorAPI = richtext.getEditorAPI();
 
 The list of methods included into the object returned by the **getEditorAPI()** method is the following:
 
-- api/editor_api/add.md 
+<!-- - api/editor_api/add.md todo
 - api/editor_api/getmodel.md
 - api/editor_api/getposition.md
 - api/editor_api/getselection.md
 - api/editor_api/remove.md 
 - api/editor_api/setmodel.md
 - api/editor_api/setselection.md
-- api/editor_api/update.md 
+- api/editor_api/update.md  -->
 
 For example, to add a text into the RichText editor, use the following code:
 
@@ -172,7 +174,7 @@ For example, to add a text into the RichText editor, use the following code:
 richtext.getEditorAPI().add("text");
 ~~~
 
-{{sample 06_editor_api/06_add.html}}
+<!-- {{sample 06_editor_api/06_add.html}} todo -->
 
 
 

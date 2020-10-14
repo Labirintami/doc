@@ -9,7 +9,7 @@ The current article will guide you through simple steps you need to take in orde
 2. [Create a container for RichText](#creatingcontainer).
 3. [Initialize RichText with the object constructor](#initializingrichtext).
 
-~~~html
+~~~html 
 <!DOCTYPE html>
 <html>
 	<head>
@@ -39,8 +39,7 @@ To create dhtmlxRichText, you need to include 2 source files on your page:
 
 Make sure that you set correct relative paths to these files:
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <script type="text/javascript" src="codebase/richtext.js"></script>  
 <link rel="stylesheet" href="codebase/richtext.css">
 ~~~
@@ -58,8 +57,7 @@ Creating container
 
 Add a container for RichText and give it an id, for example "richtext_container":
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <div id="richtext_container"></div>
 ~~~
 
@@ -92,6 +90,6 @@ var richtext = new dhx.Richtext("richtext_container", {
 });
 ~~~
 
-{{sample	02_configuration/01_modes.html}}
+<!-- {{sample	02_configuration/01_modes.html}} todo -->
 
 

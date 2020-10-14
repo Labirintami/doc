@@ -28,47 +28,43 @@ Parameters:
 ### Methods
 
 
-| Name                                             | Description                                        |
-|--------------------------------------------------|----------------------------------------------------|
-| [destructor](api/richtext_destructor.md)         | releases occupied resources                        |
-| [exitFullScreen](api/richtext_exitfullscreen.md) | exits the full screen mode                         |
-| [fullScreen](api/richtext_fullscreen.md)         | enters the full screen mode                        |
-| [getEditorAPI](api/richtext_geteditorapi.md)     | returns the full list of the editor API            |
-| [getValue](api/richtext_getvalue.md)             | gets the content entered into the RichText editor  |
-| [getStats](api/richtext_getstats.md)             | returns statistics on the entered content          |
-| [paint](api/richtext_paint.md)                   | repaints RichText                                  |
-| [setValue](api/richtext_setvalue.md)             | sets the provided content into the RichText editor |                               
+| Name                             | Description                                        |
+|----------------------------------|----------------------------------------------------|
+| [destructor](api/methods.md#destructor)     | releases occupied resources                        |
+| [exitFullScreen](api/methods.md#exitfullscreen) | exits the full screen mode                         |
+| [fullScreen](api/methods.md#fullscreen)     | enters the full screen mode                        |
+| [getEditorAPI](api/methods.md#geteditorapi)   | returns the full list of the editor API            |
+| [getValue](api/methods.md#getvalue)       | gets the content entered into the RichText editor  |
+| [getStats](api/methods.md#getstats)       | returns statistics on the entered content          |
+| [paint](api/methods.md#paint)          | repaints RichText                                  |
+| [setValue](api/methods.md#setvalue)       | sets the provided content into the RichText editor |                          
                                  
 
 #### Events Bus
 
-| Name                           | Description                                                                     |
-|--------------------------------|---------------------------------------------------------------------------------|
-| [detach](api/events/detach.md) | detaches a handler from an event (which was attached before by the on() method) |
-| [fire](api/events/fire.md)     | triggers an inner event                                                         |
-| [on](api/events/on.md)         | attaches a handler to an inner event of Vault                                   |
+| Name                        | Description                                                                     |
+|-----------------------------|---------------------------------------------------------------------------------|
+| [detach](api/events_bus.md#detach) | detaches a handler from an event (which was attached before by the on() method) |
+| [fire](api/events_bus.md#fire)   | triggers an inner event                                                         |
+| [on](api/events_bus.md#on)     | attaches a handler to an inner event of Vault                                   |
 
 
 ### Events
 
-| Name                                                       | Description                                            |
-|------------------------------------------------------------|--------------------------------------------------------|
-| [Action](api/richtext_action_event.md)                     | fires on any action in the editor                      |
-| [Change](api/richtext_change_event.md)                     | fires on any change in the editor                      |
-| [selectionChange](api/richtext_selectionchange_event.md)   | fires on change of selection by a user                 |
-| [selectionRefresh](api/richtext_selectionrefresh_event.md) | fires on automatic returning of cursor into the editor |
+| Name                              | Description                                            |
+|-----------------------------------|--------------------------------------------------------|
+| [Action](api/events.md#action)           | fires on any action in the editor                      |
+| [Change](api/events.md#change)           | fires on any change in the editor                      |
+| [selectionChange](api/events.md#selectionchange)  | fires on change of selection by a user                 |
+| [selectionRefresh](api/events.md#selectionrefresh) | fires on automatic returning of cursor into the editor |
 
 
 
 ### Properties
 
-| Name                                      | Description                                                            |
-|-------------------------------------------|------------------------------------------------------------------------|
-| [customStats](api/richtext_customstats_config.md)   | defines the logic of displaying custom statistics                      |
-| [mode](api/richtext_mode_config.md)          | the working mode of the RichText editor                                |
-| [toolbarBlocks](api/richtext_toolbarblocks_config.md) | specifies blocks of buttons that will be shown in the Richtext toolbar |
-
-
-
-
+| Name                               | Description                                                            |
+|------------------------------------|------------------------------------------------------------------------|
+| [customStats](api/properties.md#customstats)   | defines the logic of displaying custom statistics                      |
+| [mode](api/properties.md#mode)          | the working mode of the RichText editor                                |
+| [toolbarBlocks](api/properties.md#toolbarblocks) | specifies blocks of buttons that will be shown in the Richtext toolbar |
 

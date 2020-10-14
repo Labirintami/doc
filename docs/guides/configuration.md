@@ -13,10 +13,12 @@ There are two modes of RichText editor between which you can select to get the b
 - "classic"
 
 <!-- ![Classic mode](classic_mode.png) -->
+ <img alt="" src={require('./../assets/classic_mode.png').default} />
 
 - "document"
 
 <!-- ![Document mode](doc_mode.png) -->
+ <img alt="" src={require('./../assets/doc_mode.png').default} />
 
 To specify the desired mode, you need to define it in the api/richtext_mode_config.md option of the Richtext configuration object during initialization of the component:
 
@@ -26,7 +28,7 @@ var richtext = new dhx.Richtext("rich", {
 });
 ~~~
 
-{{sample 02_configuration/01_modes.html}}
+<!-- {{sample 02_configuration/01_modes.html}} todo -->
 
 Toolbar
 ------------
@@ -55,8 +57,9 @@ var richtext = new dhx.Richtext(document.body, {
 ~~~
 
 <!-- ![Default toolbar](default_toolbar.png) -->
+ <img alt="" src={require('./../assets/default_toolbar.png').default} />
 
-{{sample 01_init/01_basic.html}}
+<!-- {{sample 01_init/01_basic.html}} todo -->
 
 You can add several more blocks to make the full toolbar: 
 
@@ -75,9 +78,10 @@ var richtext = new dhx.Richtext(document.body, {
 ~~~
 
 <!-- ![Full toolbar](full_toolbar.png) -->
+ <img alt="" src={require('./../assets/full_toolbar.png').default} />
 
 
-{{sample 02_configuration/03_full_toolbar.html}}
+<!-- {{sample 02_configuration/03_full_toolbar.html}} todo -->
 
 ###Short toolbar definition
 
@@ -106,8 +110,9 @@ var richtext = new dhx.Richtext(document.body, {
 ~~~
 
 <!-- ![Custom toolbar](custom_toolbar.png) -->
+ <img alt="" src={require('./../assets/custom_toolbar.png').default} />
 
-{{sample  02_configuration/02_toolbar_blocks.html}}
+<!-- {{sample  02_configuration/02_toolbar_blocks.html}} todo -->
 
 Toolbar is [highly customizable](customization.md). You can add new controls, change the icons of controls and apply the desired icon pack. 
 

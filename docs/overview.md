@@ -69,9 +69,13 @@ Integration
 
 Rich Text can be integrated with other JavaScript frameworks. There are related guides and demos available for:
 
-- [Integration with Angular](react_integration.md)
-- [Integration with React](react_integration.md)
+- [Integration with Angular](guides/react_integration.md)
+- [Integration with React](guides/react_integration.md)
 - [Integration with Vue.js](vuejs_integration.md)
+
+I am referencing a [document](doc1.md). Reference to another [document in a folder](folder/doc3.md).
+
+[Relative document](../doc2.md) referencing works as well.
 
 
 

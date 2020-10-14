@@ -6,6 +6,7 @@ title: Localization
 You have a possibility to present the interface of the RichText editor in any language you wish. You just need to translate the corresponding strings for labels and tooltips and apply a ready locale to the component.
 
 <!-- ![Localized RichText](richtext_locale.png) -->
+ <img alt="" src={require('./../assets/richtext_locale.png').default} />
 
 Default locale
 -----------------
@@ -100,5 +101,5 @@ dhx.i18n.setLocale("richtext", de);
 var richtext = new dhx.Richtext("richtext_container");
 ~~~
 
-{{sample 01_init/02_locale.html}}
+<!-- {{sample 01_init/02_locale.html}} todo -->
 
