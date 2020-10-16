@@ -38,10 +38,10 @@ Version 1.1
 
 ### New functionality
 
-- [API for working with text in the editor](working_with_richtext.md#editorapi) 
-- [Advanced statistics](working_with_richtext.md#statistics)
-- Ability to show [custom statistics](working_with_richtext.md#customstats)
-- Block quote and Statistics [toolbar controls](configuration.md#toolbar) 
+- [API for working with text in the editor](guides/working_with_richtext.md#editorapi) 
+- [Advanced statistics](guides/working_with_richtext.md#statistics)
+- Ability to show [custom statistics](guides/working_with_richtext.md#customstats)
+- Block quote and Statistics [toolbar controls](guides/configuration.md#toolbar) 
 
 ### Updates
 
@@ -73,9 +73,9 @@ Version 1.0
 ### Initial functionality
 
 - Basic operations for real-time text editing 
-- Two [working modes](configuration.md#workingmodes): "classic" and "document"
-- Data [parsing](loading_data.md) and [serialization](working_with_richtext.md#gettingcontentfromeditor) in HTML and Markdown formats
-- [Full screen mode](working_with_richtext.md#fullscreenmode)
+- Two [working modes](guides/configuration.md#workingmodes): "classic" and "document"
+- Data [parsing](loading_data.md) and [serialization](guides/working_with_richtext.md#gettingcontentfromeditor) in HTML and Markdown formats
+- [Full screen mode](guides/working_with_richtext.md#fullscreenmode)
 - Cross browser compatibility
 - IE11+ support
 

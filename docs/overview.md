@@ -12,7 +12,7 @@ such popular JavaScript frameworks as Angular, React and Vue.js.
 Toolbar structure
 --------------------
 
-The toolbar of Richtext is [easily configurable](configuration.md#toolbar). It contains several blocks of controls and their number depends on the chosen type of toolbar:
+The toolbar of Richtext is [easily configurable](guides/configuration.md#toolbar). It contains several blocks of controls and their number depends on the chosen type of toolbar:
 
 - default toolbar
 
@@ -28,13 +28,13 @@ The full toolbar includes all the default blocks and additional "clear", "stats"
 <!-- ![Full toolbar](full_toolbar.png) -->
  <img alt="" src={require('./assets/full_toolbar.png').default} />
 
-You can [adjust the look and feel of the toolbar](customization.md) to meet your requirements.
+You can [adjust the look and feel of the toolbar](guides/customization.md) to meet your requirements.
 
 
 Two working modes 
 ---------------------
 
-dhtmlxRichText can work with content in [two modes](configuration.md#modesofediting). You can choose the most suitable mode to feel comfortable while editing text. The modes are:
+dhtmlxRichText can work with content in two modes. You can choose the most suitable mode to feel comfortable while editing text. The modes are:
 
 - "classic"
 
@@ -46,13 +46,13 @@ dhtmlxRichText can work with content in [two modes](configuration.md#modesofedit
 <!-- ![Document mode](doc_mode.png) -->
  <img alt="" src={require('./assets/doc_mode.png').default} />
 
-[Read more](configuration.md#modesofediting) about setting the mode you like best.
+[Read more](guides/configuration.md#modesofediting) about setting the mode you like best.
 
 Supported formats
 ----------------
 
-The RichText editor supports [parsing](loading_data.md#addingcontentintoeditor) and [serialization](working_with_richtext.md#gettingcontentfromeditor) of content in the 
-[HTML and Markdown formats](loading_data.md#formatofcontent).
+The RichText editor supports [parsing](guides/loading_data.md#addingcontentintoeditor) and [serialization](guides/working_with_richtext.md#gettingcontentfromeditor) of content in the 
+[HTML and Markdown formats](guides/loading_data.md#formatofcontent).
 
 - HTML format
 

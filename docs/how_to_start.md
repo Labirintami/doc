@@ -13,7 +13,7 @@ Step 1. Include source files
 --------------------------
 
 First create an HTML file with the name *index.html*. Then include the source files of dhtmlxRichText into this file. 
-[Have a look at the structure of RichText package](initialization.md#includingsourcefiles).
+[Have a look at the structure of RichText package](guides/initialization.md#including-source-files).
 
 You need to include the following two files:
 
@@ -71,7 +71,7 @@ Step 3. RichText Configuration
 
 Now it's time to define the desired configuration options to make RichText meet you needs.
 
-RichText provides several options that let you adjust the toolbar appearance and behavior as well as choose the most suitable mode of work with a document. [Learn all the available settings](api/refs/richtext_props.md).
+RichText provides several options that let you adjust the toolbar appearance and behavior as well as choose the most suitable mode of work with a document. [Learn all the available settings](api/properties.md).
 
 For example, you can specify the *document* mode of RichText displaying:
 
@@ -81,12 +81,12 @@ var rich = new dhx.Richtext("richtext_container", {
 });
 ~~~
 
-There is a [detailed description of available RichText configuration settings](configuration.md). 
+There is a [detailed description of available RichText configuration settings](guides/configuration.md). 
 
 Step 4. Setting content (optional)
 -------------------------
 
-If necessary, you can parse some text in the HTML or Markdown format on the RichText initialization. Read more about this feature in the [related article](loading_data.md).
+If necessary, you can parse some text in the HTML or Markdown format on the RichText initialization. Read more about this feature in the [related article](guides/loading_data.md).
 
 
 <!-- What's Next todo  -->

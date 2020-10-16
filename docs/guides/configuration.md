@@ -33,7 +33,7 @@ var richtext = new dhx.Richtext("rich", {
 Toolbar
 ------------
 
-###Default toolbar
+### Default toolbar
 
 The RichText toolbar consists of several blocks of controls that can be changed according to your needs. By default, there are the following blocks of controls in the toolbar: 
 
@@ -83,7 +83,7 @@ var richtext = new dhx.Richtext(document.body, {
 
 <!-- {{sample 02_configuration/03_full_toolbar.html}} todo -->
 
-###Short toolbar definition
+### Short toolbar definition
 
 There is also a possibility to specify the default set of buttons via the *"default"* definition in the **toolbarBlocks** array, like this:
 
@@ -97,7 +97,7 @@ var richtext = new dhx.Richtext(document.body, {
 where the "default" string includes the default set of controls: *"undo"*, *"style"*, *"decoration"*, *"colors"*, *"align"* and *"link"*.
 
 
-###Custom toolbar
+### Custom toolbar
 
 You can specify your own structure of the toolbar by enumerating the necessary elements of the **toolbarBlocks** array in the desired order, for example:
 
