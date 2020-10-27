@@ -1,5 +1,7 @@
 # Website
 
+https://elegant-lichterman-77a8ef.netlify.app/docs/
+
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
 ### Installation
