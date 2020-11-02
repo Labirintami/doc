@@ -79,4 +79,4 @@ Version 1.0
 - Cross browser compatibility
 - IE11+ support
 
-<iframe width="675" height="380" src="https://snippet.dhtmlx.com/5ign6fyy?mode=result" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="675" height="380" src="https://snippet.dhtmlx.com/basic?mode=result" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
