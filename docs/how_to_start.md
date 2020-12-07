@@ -4,7 +4,7 @@ title: How to Start
 slug: /
 ---
 
-RichText editor will make text editing quick and comfortable due to the inbuilt set of handy formatting tools.
+Test RichText editor will make text editing quick and comfortable due to the inbuilt set of handy formatting tools.
 Follow this comprehensive and easy-to-reproduce tutorial to create RichText editor on a page and start working with it.
 
  <img alt="DHTMLX RichText Classic Mode" src={require('./assets/classic_mode.png').default} />
