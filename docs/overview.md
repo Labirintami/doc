@@ -34,7 +34,7 @@ You can [adjust the look and feel of the toolbar](guides/customization.md) to me
 Two working modes 
 ---------------------
 
-dhtmlxRichText can work with content in two modes. You can choose the most suitable mode to feel comfortable while editing text. The modes are:
+dhtmlxRichText can work with content in [two modes](guides/configuration.md). You can choose the most suitable mode to feel comfortable while editing text. The modes are:
 
 - "classic"
 
@@ -46,13 +46,13 @@ dhtmlxRichText can work with content in two modes. You can choose the most suita
 <!-- ![Document mode](doc_mode.png) -->
  <img alt="" src={require('./assets/doc_mode.png').default} />
 
-[Read more](guides/configuration.md#modesofediting) about setting the mode you like best.
+[Read more](guides/configuration#modesofediting) about setting the mode you like best.
 
 Supported formats
 ----------------
 
-The RichText editor supports [parsing](guides/loading_data.md#addingcontentintoeditor) and [serialization](guides/working_with_richtext.md#gettingcontentfromeditor) of content in the 
-[HTML and Markdown formats](guides/loading_data.md#formatofcontent).
+The RichText editor supports [parsing](guides/loading_data.md/#adding-content-into-editor) and [serialization](guides/working_with_richtext.md#getting-content-from-editor) of content in the 
+[HTML and Markdown formats](guides/loading_data.md#format-of-content).
 
 - HTML format
 
@@ -69,25 +69,16 @@ Integration
 
 Rich Text can be integrated with other JavaScript frameworks. There are related guides and demos available for:
 
-- [Integration with Angular](guides/react_integration.md)
+- [Integration with Angular](guides/angular_integration.md)
 - [Integration with React](guides/react_integration.md)
-- [Integration with Vue.js](vuejs_integration.md)
-
-I am referencing a [document](doc1.md). Reference to another [document in a folder](folder/doc3.md).
-
-[Relative document](../doc2.md) referencing works as well.
+- [Integration with Vue.js](guides/vuejs_integration.md)
 
 
-
-
-
-
-<!-- What's Next todo
------------ -->
-
-<!-- It's high time to embed RichText into your application to enrich it with editing abilities. The how_to_start.md tutorial is ready to help your on your way.
+What's Next
+-----------
+It's high time to embed RichText into your application to enrich it with editing abilities. The [How to start](../docs/how_to_start.md) tutorial is ready to help your on your way.
 
 To learn the features of dhtmlxRichText, check other helpful resources:
 
-- api/refs/richtext.md
-- guides.md -->
+- [API Reference](../docs/api/overview.md)
+- [Guides](guides/configuration.md)
