@@ -90,6 +90,6 @@ var richtext = new dhx.Richtext("richtext_container", {
 });
 ~~~
 
-[Rich Text. Modes](https://snippet.dhtmlx.com/pdh5buvg)
+**Related sample**: [Rich Text. Modes](https://snippet.dhtmlx.com/pdh5buvg)
 
 
