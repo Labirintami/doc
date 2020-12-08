@@ -8,7 +8,7 @@ title: Properties
 
 Defines the logic of displaying custom statistics
 
-`varray customStats;`
+`array customStats;`
 
 <!-- :::note &nbsp;
 void clear();
