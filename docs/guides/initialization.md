@@ -69,8 +69,8 @@ Initialize RichText with the `dhx.Richtext` object constructor. The constructor 
 - the HTML container for RichText,
 - an object with configuration properties. See the full list below.
 
-{{snippet	index.html}}
-~~~js
+
+~~~js title="index.html"
 // creating dhtmlxRichText
 var richtext = new dhx.Richtext("richtext_container", {// config options});
 ~~~
