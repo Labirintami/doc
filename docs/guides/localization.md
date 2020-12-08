@@ -43,7 +43,7 @@ var en = {
 	h6: "Heading 6",
 	p: "Normal text",
 	blockquote: "Block quote",
-    	stats: "Statistics",
+    stats: "Statistics",
 	chars: "chars",
 	charsExlSpace: "charsExlSpace",
 	words: "words" 
@@ -86,9 +86,9 @@ var de = {
 	h5: "Überschrift 5",
 	h6: "Überschrift 6",
 	p: "Normaler Text",
-    	blockquote: "Blockzitat",
-    	stats: "Statistiken",
-    	chars: "Zeichen",  
+    blockquote: "Blockzitat",
+    stats: "Statistiken",
+    chars: "Zeichen",  
 	charsExlSpace: "Zeichen ohne Leerzeichen", 
 	words: "Wörter"    
 };
