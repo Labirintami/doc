@@ -79,7 +79,7 @@ var richtext = new dhx.Richtext("richtext_container", {// config options});
 
 This is a list of properties that you can specify in the Richtext configuration object:
 
-- [**mode**](configuration.md#workingmodes) - (*string*) the working mode of RichText. Can be either "default" or "document".
+- [**mode**](configuration.md#working-modes) - (*string*) the working mode of RichText. Can be either "default" or "document".
 - [**toolbarBlocks**](configuration.md#toolbar) - (*array*) specifies blocks of buttons that will be shown in the Richtext toolbar
 
 You can set configuration options during initialization as the second parameter of the constructor:
@@ -90,6 +90,6 @@ var richtext = new dhx.Richtext("richtext_container", {
 });
 ~~~
 
-<!-- {{sample	02_configuration/01_modes.html}} todo -->
+[Rich Text. Modes](https://snippet.dhtmlx.com/pdh5buvg)
 
 
