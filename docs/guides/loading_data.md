@@ -53,7 +53,7 @@ richtext.setValue(htmlText);
 
 - adding Markdown content
 
-:::caution
+:::note
 Please note that for a text in the Markdown format you need to define paragraphs by empty lines.
 :::
 
