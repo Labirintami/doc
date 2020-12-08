@@ -8,6 +8,10 @@ module.exports = {
     organizationName: 'facebook', // Usually your GitHub org/user name.
     projectName: 'docusaurus', // Usually your repo name.
     themeConfig: {
+        prism: {
+            theme: require('prism-react-renderer/themes/github'),
+            darkTheme: require('prism-react-renderer/themes/dracula'),
+        },
         navbar: {
             title: 'My Site',
             logo: {
