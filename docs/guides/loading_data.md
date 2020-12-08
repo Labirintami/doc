@@ -32,7 +32,7 @@ The following image demonstrates the result of parsing a text in the Markdown fo
 Adding content into editor
 ------------------
 
-In order to add some text content into the RichText, make use of the api/richtext_setvalue.md method. The method takes two parameters:
+In order to add some text content into the RichText, make use of the [setValue](api/richtext_setvalue.md) method. The method takes two parameters:
 
 - **value** - (*string*) a string with the content you want to add into the editor in either HTML or Markdown format
 - **mode** - (*string*) optional, the format of text parsing: "html" (default) or "markdown"
@@ -49,7 +49,7 @@ var htmlText = `<h1>Meet DHTMLX Rich Text Editor!</h1>` +
 richtext.setValue(htmlText);
 ~~~
 
-<!-- {{sample 01_init/03_set_html_value.html}} todo -->
+[**RichText. Setting HTML content**](https://snippet.dhtmlx.com/57v7n2kp)
 
 - adding Markdown content
 
@@ -67,10 +67,10 @@ This demo will show you a customizable **JavaScript rich text editor**.
 richtext.setValue(mdText,"markdown");
 ~~~
 
-<!-- {{sample 01_init/04_set_markdown_value.html}} todo -->
+[**RichText. Set Markdown Value**](https://snippet.dhtmlx.com/9jf91qn9)
 
-<!-- Related articles todo -->
-<!-- --------------------
+Related articles
+--------------------
 
-To learn about how to get edited text in HTML and Markdown formats, read the working_with_richtext.md guide. -->
+To learn about how to get edited text in HTML and Markdown formats, read the [Working with Rich Text](working_with_richtext.md) guide.
 
