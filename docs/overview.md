@@ -51,8 +51,8 @@ dhtmlxRichText can work with content in [two modes](guides/configuration.md). Yo
 Supported formats
 ----------------
 
-The RichText editor supports [parsing](guides/loading_data/#adding-content-into-editor) and [serialization](guides/working_with_richtext#getting-content-from-editor) of content in the 
-[HTML and Markdown formats](guides/loading_data#format-of-content).
+The RichText editor supports [parsing](guides/loading_data.md/#adding-content-into-editor) and [serialization](guides/working_with_richtext.md#getting-content-from-editor) of content in the 
+[HTML and Markdown formats](guides/loading_data.md#format-of-content).
 
 - HTML format
 
@@ -69,9 +69,9 @@ Integration
 
 Rich Text can be integrated with other JavaScript frameworks. There are related guides and demos available for:
 
-- [Integration with Angular](guides/angular_integration)
-- [Integration with React](guides/react_integration)
-- [Integration with Vue.js](guides/vuejs_integration)
+- [Integration with Angular](guides/angular_integration.md)
+- [Integration with React](guides/react_integration.md)
+- [Integration with Vue.js](guides/vuejs_integration.md)
 
 
 What's Next todo
