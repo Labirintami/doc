@@ -81,4 +81,4 @@ It's high time to embed RichText into your application to enrich it with editing
 To learn the features of dhtmlxRichText, check other helpful resources:
 
 - [API Reference](../docs/api/overview.md)
-- [Guides](../docs/guides)
+- [Guides](guides/configuration.md)
