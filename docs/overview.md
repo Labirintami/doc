@@ -74,7 +74,7 @@ Rich Text can be integrated with other JavaScript frameworks. There are related 
 - [Integration with Vue.js](guides/vuejs_integration.md)
 
 
-What's Next todo
+What's Next
 -----------
 It's high time to embed RichText into your application to enrich it with editing abilities. The [How to start](../docs/how_to_start.md) tutorial is ready to help your on your way.
 
