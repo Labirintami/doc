@@ -72,7 +72,9 @@ Initialize RichText with the `dhx.Richtext` object constructor. The constructor 
 
 ~~~js title="index.html"
 // creating dhtmlxRichText
-var richtext = new dhx.Richtext("richtext_container", {// config options});
+var richtext = new dhx.Richtext("richtext_container", {
+	// config options
+});
 ~~~
 
 ### <span id="config">Configuration properties</span>
