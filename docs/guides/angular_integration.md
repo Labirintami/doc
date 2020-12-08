@@ -3,9 +3,9 @@ sidebar_label: Integration with Angular
 title: Integration with Angular
 ---
 
-You can use dhtmlxRichText in an application created with the [Angular](https://vuejs.org/) framework. [Check the demo on Github](https://github.com/DHTMLX/angular-widgets).
+You can use dhtmlxRichText in an application created with the [Angular](https://angular.io/) framework. [Check the demo on Github](https://github.com/DHTMLX/angular-widgets).
 
-:::caution 
+:::note 
 Please note that the implementation provided below is not the only way to use dhtmlxRichText in a Angular-based application. It gives you initial schema of the integration and implies further 
 extension of the app functionality depending on your goals.
 :::
@@ -17,7 +17,7 @@ To add RichText package into your Angular-based app you need to [download the co
 Then include **richtext.js** and **richtext.css** files into a page. 
 Make sure that you set correct relative paths to these files:
 
-~~~html title="ndex.html"
+~~~html title="index.html"
 <script type="text/javascript" src="codebase/richtext.js"></script>  
 <link rel="stylesheet" href="codebase/richtext.css">
 ~~~

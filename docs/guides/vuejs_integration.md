@@ -5,7 +5,7 @@ title: Integration with Vue.js
 
 You can use dhtmlxRichText in an application created with the [Vue.js](https://vuejs.org/) framework. [Check the demo on Github](https://github.com/DHTMLX/vuejs-widgets).
 
-:::caution 
+:::note 
 Please note that the implementation provided below is not the only way to use dhtmlxRichText in a Vue.js-based application. It gives you initial schema of integration and implies further 
 extension of the app functionality depending on your goals.
 :::
