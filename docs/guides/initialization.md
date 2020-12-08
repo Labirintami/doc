@@ -5,9 +5,9 @@ title: Initialization
 
 The current article will guide you through simple steps you need to take in order to insert a compact text editor into your application. All in all, you should complete just three steps:
 
-1. [Include the RichText source files on a page](#includingsourcefiles).
-2. [Create a container for RichText](#creatingcontainer).
-3. [Initialize RichText with the object constructor](#initializingrichtext).
+1. [Include the RichText source files on a page](#including-source-files).
+2. [Create a container for RichText](#creating-container).
+3. [Initialize RichText with the object constructor](#initializing-richtext).
 
 ~~~html 
 <!DOCTYPE html>
