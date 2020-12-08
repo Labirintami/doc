@@ -76,9 +76,9 @@ Rich Text can be integrated with other JavaScript frameworks. There are related 
 
 What's Next todo
 -----------
-It's high time to embed RichText into your application to enrich it with editing abilities. The [How to start](../) tutorial is ready to help your on your way.
+It's high time to embed RichText into your application to enrich it with editing abilities. The [How to start](../docs/) tutorial is ready to help your on your way.
 
-To learn the features of dhtmlxRichText, check other helpful resources:
+--To learn the features of dhtmlxRichText, check other helpful resources:
 
-- api/refs/richtext.md
-- guides.md -->
+- [API Reference](../api/overview)
+- [Guides]guides.md -->
