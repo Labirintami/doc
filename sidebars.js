@@ -21,6 +21,7 @@ module.exports = {
             // collapsed: false,
             items: [
                 "api/overview",
+                "api/editor_api_methods",
                 "api/methods",
                 "api/events_bus",
                 "api/events",
