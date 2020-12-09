@@ -87,13 +87,13 @@ The returned EditorAPI method contains a list of methods you can use to apply di
 					<li><b>type</b> - (<i>string</i>) the type of a text block: "text" (a string) | "textnode" (a text node) | "full" (a data model);</li>
 					<li><b>data</b> - (<i>string|object|array</i>) the content of a text block. It can be:
 						<ul>
-							<li>- a simple <b>string</b> with text;</li>
-							<li>- a text node as an <b>object</b> that includes:
+							<li>a simple <b>string</b> with text;</li>
+							<li>a text node as an <b>object</b> that includes:
 								<ul>
 									<li>a text as a <i>string</i>;</li>
 									<li>an <i>object</i> with style properties.</li>
 								</ul>
-							<li>- a data model as an <b>array</b>. It contains objects with styles and text nodes. Each text node includes:
+							<li>a data model as an <b>array</b>. It contains objects with styles and text nodes. Each text node includes:
 								<ul>
 									<li>an <i>array</i> with text nodes objects (each of them contains two <i>key:value</i> values for a text string and an object with style settings, as described above)</li>
 									<li>a style <i>object</i></li>
@@ -112,16 +112,16 @@ The returned EditorAPI method contains a list of methods you can use to apply di
 					<li><b>range</b> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
 					<li><b>left</b> - (<i>object</i>) the left coordinate of selection, contains the following properties:
 						<ul>
-							<li>- <b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
-							<li>- <b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li>- <b>offset</b> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
+							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
 						</ul>
 					</li>
 					<li><b>right</b> - (<i>object</i>) the right coordinate of selection, contains the following properties:
 						<ul>
-							<li>- <b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
-							<li>- <b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li>- <b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <b>getSelection</b> method instead of passing the second parameter.</li>
+							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <b>getSelection</b> method instead of passing the second parameter.</li>
 						</ul>
 					</li>
 				</ul>
