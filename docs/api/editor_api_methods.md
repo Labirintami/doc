@@ -80,20 +80,56 @@ The returned EditorAPI method contains a list of methods you can use to apply di
 	</thead>
 	<tbody>
 		<tr>
-			<td rowspan="2"><code>config</code></td>
-			<td rowspan="2"><code>object</code></td>
-			<td>an object with available statistical data about edited text:
-			<ul><li>as an <i>object</i> contains <b>min</b> and <b>max</b> properties, to apply desired CSS classes to cells with minimal|maximal values in a column </li>
-            <li>as a <i>function</i> takes several parameters:
-            <ol>- <b>cell</b> - (<i>string</i>) the value of a cell</ol>
-            <ol>- <b>columnCells</b> - (<i>array</i>) an array of all cell values in the specified column</ol>
-            <ol>- <b>row</b> - (<i>object</i>) an object with all cells in a row</ol>
-            <ol>- <b>col</b> - (<i>object</i>) the config of a column (see the <b>columns</b> config)</ol>
-            </li></ul>
+			<td><code>config</code></td>
+			<td><code>string|object</code></td>
+			<td>a <i>string</i> with a text or a text block as an <i>object</i>. If set as an object, the parameter includes:
+				<ul>
+					<li><b>type</b> - (<i>string</i>) the type of a text block: "text" (a string) | "textnode" (a text node) | "full" (a data model);</li>
+					<li><b>data</b> - (<i>string|object|array</i>) the content of a text block. It can be:
+						<ul>
+							<li>- a simple <b>string</b> with text;</li>
+							<li>- a text node as an <b>object</b> that includes:
+								<ul>
+									<li>a text as a <i>string</i>;</li>
+									<li>an <i>object</i> with style properties.</li>
+								</ul>
+							<li>- a data model as an <b>array</b>. It contains objects with styles and text nodes. Each text node includes:
+								<ul>
+									<li>an <i>array</i> with text nodes objects (each of them contains two <i>key:value</i> values for a text string and an object with style settings, as described above)</li>
+									<li>a style <i>object</i></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td><code>selection</code></td>
+			<td><code>object</code></td>
+			<td>optional, text selection (its position relative to all other text). Includes the following attributes:
+				<ul>
+					<li><b>range</b> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
+					<li><b>left</b> - (<i>object</i>) the left coordinate of selection, contains the following properties:
+						<ul>
+							<li>- <b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li>- <b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li>- <b>offset</b> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
+						</ul>
+					</li>
+					<li><b>right</b> - (<i>object</i>) the right coordinate of selection, contains the following properties:
+						<ul>
+							<li>- <b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li>- <b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li>- <b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <b>getSelection</b> method instead of passing the second parameter.</li>
+						</ul>
+					</li>
+				</ul>
 			</td>
 		</tr>
 	</tbody>
 </table>
+
 ___
 
 ## `getValue`
