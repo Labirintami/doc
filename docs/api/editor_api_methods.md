@@ -93,6 +93,7 @@ The returned EditorAPI method contains a list of methods you can use to apply di
 									<li>a text as a <i>string</i>;</li>
 									<li>an <i>object</i> with style properties.</li>
 								</ul>
+							</li>
 							<li>a data model as an <b>array</b>. It contains objects with styles and text nodes. Each text node includes:
 								<ul>
 									<li>an <i>array</i> with text nodes objects (each of them contains two <i>key:value</i> values for a text string and an object with style settings, as described above)</li>
