@@ -70,7 +70,22 @@ rich.getEditorAPI().add({type:"full",data:[
 
 The returned EditorAPI method contains a list of methods you can use to apply different operations to the editor. Check the list of editor API methods below.
 
-<table><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td><code>object</code></td><td>an object with available statistical data about edited text</td></tr></tbody></table>
+<table>
+	<thead>
+		<tr>
+			<th>Parameter</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><code>config</code></td>
+			<td><code>object</code></td>
+			<td>an object with available statistical data about edited text</td>
+		</tr>
+	</tbody>
+</table>
 ___
 
 ## `getValue`
