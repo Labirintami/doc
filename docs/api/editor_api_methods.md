@@ -12,7 +12,7 @@ Adds a new text into the editor
 
 | Parameter   | Type            | Description                                                           |
 |-------------|-----------------|-----------------------------------------------------------------------|
-| `config`    | `string|object` | a string with a text or a text block as an object. Check the details |
+| `config`    | `string,object` | a string with a text or a text block as an object. Check the details |
 | `selection` | `object`        | optional, text selection (its position relative to all other text). Check the details |
 
 ```js 
@@ -80,9 +80,17 @@ The returned EditorAPI method contains a list of methods you can use to apply di
 	</thead>
 	<tbody>
 		<tr>
-			<td><code>config</code></td>
-			<td><code>object</code></td>
-			<td>an object with available statistical data about edited text</td>
+			<td rowspan="2"><code>config</code></td>
+			<td rowspan="2"><code>object</code></td>
+			<td>an object with available statistical data about edited text:
+			<ul><li>as an <i>object</i> contains <b>min</b> and <b>max</b> properties, to apply desired CSS classes to cells with minimal|maximal values in a column </li>
+            <li>as a <i>function</i> takes several parameters:
+            <ol>- <b>cell</b> - (<i>string</i>) the value of a cell</ol>
+            <ol>- <b>columnCells</b> - (<i>array</i>) an array of all cell values in the specified column</ol>
+            <ol>- <b>row</b> - (<i>object</i>) an object with all cells in a row</ol>
+            <ol>- <b>col</b> - (<i>object</i>) the config of a column (see the <b>columns</b> config)</ol>
+            </li></ul>
+			</td>
 		</tr>
 	</tbody>
 </table>
