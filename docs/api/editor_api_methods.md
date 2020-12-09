@@ -132,29 +132,60 @@ The returned EditorAPI method contains a list of methods you can use to apply di
 
 ___
 
-## `getValue`
+## `getModel`
 
-Returns the content of the RichText editor in the chosen format
+Returns the data model of the entered text in the JSON format
 
-`string getValue( [string mode] );`
-
-
-| Parameter | Type     | Description                                                           |
-|-----------|----------|-----------------------------------------------------------------------|
-| `mode`    | `string` | the format of returned content:"html" (default), "markdown" or "text" |
+`array getModel();`
 
 **Returns:**
 
 | Type     | Description                        |
 |----------|------------------------------------|
-| `string` | the content of the RichText editor |
+| `array` | the data model of the entered text |
 
 
 
 ```js 
-// getting content in the markdown format
-var content = richtext.getValue("markdown");
+var model = rich.getEditorAPI().getModel();
 ```
+
+**Related sample:** [RichText. Get Model](https://snippet.dhtmlx.com/ef6uolvq)
+
+#### Details:
+
+The returned value is an array of the following type:
+
+```js
+[
+    {
+        "style": {
+            "style": "h1"
+        },
+        "textNodes": [
+            {
+                "style": {},
+                "text": "Hello "
+            },
+            {
+                "style": {
+                    "italic": true
+                },
+                "text": "world"
+            },
+            {
+                "style": {},
+                "text": "!"
+            }
+        ]
+    }
+]
+```
+
+It contains objects with styles and text nodes. Each text node includes:
+
+- an <i>array</i> with text nodes objects (each of them contains two <i>key:value</i> pairs for a text string and an object with style settings)
+- a style <i>object</i>
 ___
 
 ## `getStats`
