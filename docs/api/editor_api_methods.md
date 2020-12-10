@@ -15,6 +15,8 @@ Adds a new text into the editor
 | `config`    | `string,object` | a string with a text or a text block as an object. Check the details |
 | `selection` | `object`        | optional, text selection (its position relative to all other text). Check the details |
 
+**Example**
+
 ```js 
 // adding simple text
 richtext.getEditorAPI().add("text");
@@ -64,7 +66,8 @@ rich.getEditorAPI().add({type:"full",data:[
     }
 ]});
 ```
-**Related sample:** [RichText. Add](https://snippet.dhtmlx.com/6dmccf0l)
+
+**Related samples:** [RichText. Add](https://snippet.dhtmlx.com/6dmccf0l)
 
 #### Details
 
@@ -145,13 +148,13 @@ Returns the data model of the entered text in the JSON format
 |----------|------------------------------------|
 | `array` | the data model of the entered text |
 
-
+**Example**
 
 ```js 
 var model = rich.getEditorAPI().getModel();
 ```
 
-**Related sample:** [RichText. Get Model](https://snippet.dhtmlx.com/ef6uolvq)
+**Related samples:**  [RichText. Get Model](https://snippet.dhtmlx.com/ef6uolvq)
 
 #### Details:
 
@@ -189,127 +192,380 @@ It contains objects with styles and text nodes. Each text node includes:
 - a style <i>object</i>
 ___
 
-## `getStats`
+## `getPosition`
 
-Returns statistics about the entered content
+Returns the position of text selection relative to the browser window
 
-`object getStats();`
+`object getPosition();`
 
 **Returns:**
 
 | Type     | Description                                                 |
 |----------|-------------------------------------------------------------|
-| `object` | an object with available statistical data about edited text |
+| `object` | the position of text selection relative to the browser window|
 
+**Example**
 
 ```js 
-var chars = richtext.getStats(); 
-// -> {chars: 467, words: 80, charsExlSpace: 393}
+var position = rich.getEditorAPI().getPosition();
 ```
 
-Related samples:
-Getting statistics. //todo
+**Related samples:** [RichText. Get Position](https://snippet.dhtmlx.com/nv42vsjg)
 
 #### Details
-Getting separate statistical data fields
-You can get each field of statistical data separately, as it's described below.
 
-**Characters**
+The returned value is an object of the following type:
 
-To return the count of characters typed into the editor, use the chars property of the getStats method.
+~~~js
+{
+    "xStart": 402.5,
+    "yStart": 172,
+    "xEnd": 461.5,
+    "yEnd": 172
+}
+~~~
 
-```js 
-var chars = richtext.getStats().chars;
-```
+where:
 
-Words
-To return the count of words typed into the editor, use the words property of the getStats method.
-
-```js 
-var chars = richtext.getStats().words;
-```
-
-To return the count of characters typed into the editor excluding the number of spaces, use the charsExlSpace property of the getStats method.
-
-```js 
-var chars = richtext.getStats().charsExlSpace;
-```
-
-### Getting custom statistics
-It is also possible to display custom statistics via the customStats configuration option for any other text items, e.g. the number of sentences:
-
-```js 
-var rich = new dhx.Richtext("rich", {
-    customStats: [
-        {
-           name: "chars"
-        },
-        {
-           name: "words"
-        },
-        {
-           name: "sentences",
-           cb: function(text) {
-               var rawSentences = text.split(/[.?!]+/);
-               var count = 0;
-               for (var i=0; i<rawSentences.length; i++) {
-                   if (rawSentences[i].length > 0) {
-                       count += 1;
-                   }
-               }
-               return count;
-           }
-        }
-    ],
-    toolbarBlocks: ["default", "stats"]
-});
-```
+- **xStart** - the X coordinate of the selection start
+- **yStart** - the Y coordinate of the selection start
+- **xEnd** - the X coordinate of the selection end
+- **yEnd** - the Y coordinate of the selection end
 ___
 
-## `paint`
+## `getSelection`
 
-Repaints RichText
+Returns the position of text selection relative to all other text
 
-`void paint();`
+`object getSelection();`
+
+**Returns:**
+
+| Type     | Description                                                 |
+|----------|-------------------------------------------------------------|
+| `object` | the position of text selection relative to all other text     |
+
+**Example**
 
 ```js 
-richtext.paint();
+var selection = rich.getEditorAPI().getSelection();
 ```
+
+**Related samples:** [RichText. Get Selection](https://snippet.dhtmlx.com/se4p4vin)
+
+#### Details
+
+The returned value is an object of the following type:
+
+~~~js
+{
+    "left": {
+        "blockIndex": 0,
+        "textIndex": 0,
+        "offset": 8
+    },
+    "right": {
+        "blockIndex": 0,
+        "textIndex": 0,
+        "offset": 12
+    },
+    "range": true
+}
+~~~
+
+where:
+
+<table>
+	<tbody>
+			<ul>
+					<li><b>range</b> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
+					<li><b>left</b> - (<i>object</i>) the left coordinate of selection, contains the following properties:
+						<ul>
+							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
+						</ul>
+					</li>
+					<li><b>right</b> - (<i>object</i>) the right coordinate of selection, contains the following properties:
+						<ul>
+							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <b>getSelection</b> method instead of passing the second parameter.</li>
+						</ul>
+					</li>
+				</ul>
+	</tbody>
+</table>
+
 ___
 
-## `setValue`
+## `remove`
 
-Adds content into the RichText editor
+Removes a selected text
 
-`void setValue(string value,string mode);`
+`void remove( [object selection] );`
 
 | Parameter | Type     | Description                                                                   |
 |-----------|----------|-------------------------------------------------------------------------------|
-| `value`   | `string` | the context you want to add into the editor in either HTML or Markdown format |
-| `mode`    | `string` | optional, the format of text parsing: "html" or "markdown"                    |
+| `selection`   | `object` | optional, text selection (its position relative to all other text). Check the details |
+
+**Example**
 
 ```js 
-var htmlText = `<h1>Meet DHTMLX Rich Text Editor!</h1>` +
-`<p>This demo will show you a customizable JavaScript rich text editor.</p>` +
-`<p><i>To learn more, read </i><a href="http://docs"><i>documentation</i></a></p>.`
+var api = rich.getEditorAPI();
  
-// adding HTML content
-richtext.setValue(htmlText);
+rich.getEditorAPI().remove(api.getSelection());
 ```
 
-**Details**
-An example of adding Markdown content is given below:
+**Related samples:** [RichText. Remove](https://snippet.dhtmlx.com/0vzuwyk1)
+
+#### Details
+
+Check the detailed description of the parameter:
+
+<table>
+	<tbody>
+		<tr>
+			<td><code>selection</code></td>
+			<td><code>object</code></td>
+			<td>optional, text selection (its position relative to all other text). Includes the following attributes:
+				<ul>
+					<li><b>range</b> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
+					<li><b>left</b> - (<i>object</i>) the left coordinate of selection, contains the following properties:
+						<ul>
+							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
+						</ul>
+					</li>
+					<li><b>right</b> - (<i>object</i>) the right coordinate of selection, contains the following properties:
+						<ul>
+							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <b>getSelection</b> method instead of passing the second parameter.</li>
+						</ul>
+					</li>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+___
+
+## `setModel`
+
+Sets a structured text with styles (a data model as JSON) for the editor
+
+`void setModel(array structure, [object selection] );`
+
+| Parameter | Type     | Description                                                                   |
+|-----------|----------|-------------------------------------------------------------------------------|
+| `structure`   | `array` | an array of objects with styles and text nodes. Check the details |
+| `selection`   | `object` | optional, text selection (its position relative to all other text). Check the details |
+
+**Example**
 
 ```js 
-var mdText = `# Meet DHTMLX Rich Text Editor!
- 
-This demo will show you a customizable **JavaScript rich text editor**.
- 
-*To learn more, read [documentation](http://docs)*.`
- 
-richtext.setValue(mdText,"markdown");
+richtext.getEditorAPI().setModel([
+    {
+        "style": {
+            "style": "h1"
+        },
+        "textNodes": [
+            {
+                "style": {},
+                "text": "Hello "
+            },
+            {
+                "style": {
+                    "italic": true
+                },
+                "text": "world"
+            },
+            {
+                "style": {},
+                "text": "!"
+            }
+        ]
+    }
+]);
 ```
 
-:::caution
-Please note that for a text in the Markdown format you need to define paragraphs by empty lines.
-:::
+**Related samples:** [RichText. Set Model](https://snippet.dhtmlx.com/37ffpg6t)
+
+#### Details 
+
+Check the detailed description of parameters:
+
+<table>
+	<tbody>
+		<tr>
+			<td><code>structure</code></td>
+			<td><code>array</code></td>
+			<td>an array of objects with styles and text nodes. Each text node includes:
+				<ul>
+					<li>an <i>array</i> with text nodes objects (each of them contains two <i>key:value</i> pairs for a text string and an object with style settings)</li>
+					<li>a style <i>object</i></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td><code>selection</code></td>
+			<td><code>object</code></td>
+			<td>optional, text selection (its position relative to all other text). Includes the following attributes:
+				<ul>
+					<li><b>range</b> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
+					<li><b>left</b> - (<i>object</i>) the left coordinate of selection, contains the following properties:
+						<ul>
+							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
+						</ul>
+					</li>
+					<li><b>right</b> - (<i>object</i>) the right coordinate of selection, contains the following properties:
+						<ul>
+							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <b>getSelection</b> method instead of passing the second parameter.</li>
+						</ul>
+					</li>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+___
+
+## `setSelection`
+
+Applies selection to the specified text position
+
+`void setSelection(object selection);`
+
+| Parameter | Type     | Description                                                                   |
+|-----------|----------|-------------------------------------------------------------------------------|
+| `selection`   | `object` | the position of text selection relative to all other text                  |
+
+
+**Example**
+
+~~~js
+richtext.getEditorAPI().setSelection({
+    "left": {
+        "blockIndex": 0,
+        "textIndex": 0,
+        "offset": 0
+    },
+    "right": {
+        "blockIndex": 0,
+        "textIndex": 0,
+        "offset": 9
+    },
+    "range": true
+});
+~~~
+
+**Related samples:** [RichText. Set Selection](https://snippet.dhtmlx.com/2uvls0y9)
+
+#### Details
+
+Check the detailed description of the parameter:
+
+<table>
+	<tbody>
+		<tr>
+			<td><code>selection</code></td>
+			<td><code>object</code></td>
+			<td>the position of text selection relative to all other text. Includes the following attributes:
+				<ul>
+					<li><b>range</b> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
+					<li><b>left</b> - (<i>object</i>) the left coordinate of selection, contains the following properties:
+						<ul>
+							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
+						</ul>
+					</li>
+					<li><b>right</b> - (<i>object</i>) the right coordinate of selection, contains the following properties:
+						<ul>
+							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <b>getSelection</b> method instead of passing the second parameter.</li>
+						</ul>
+					</li>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+___
+
+## `update`
+
+Modifies the entered text
+
+`void update(object config, [object selection] );`
+
+| Parameter | Type     | Description                                                                   |
+|-----------|----------|-------------------------------------------------------------------------------|
+| `config`   | `object` | an object with details of updating. Check the details                         |
+| `selection`   | `object` | optional, text selection (its position relative to all other text). Check the details |
+
+**Example**
+
+```js 
+var api = rich.getEditorAPI();
+ 
+rich.getEditorAPI().update({
+    modifier: "color",
+    value: "#BB2B1A"
+  }, api.getSelection());
+});
+```
+
+**Related samples:** [RichText. Update](https://snippet.dhtmlx.com/6kf43fmz)
+
+#### Details:
+
+Check the detailed description of parameters:
+
+<table>
+	<tbody>
+		<tr>
+			<td><code>config</code></td>
+			<td><code>object</code></td>
+			<td>an object with details of updating. It contains two parameters:
+				<ul>
+					<li><b>modifier</b> - (<i>object</i>) an object with a set of styling options that will be updated;</li>
+					<li><b>value</b> - (<i>any</i>) the value of the modifier.</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td><code>selection</code></td>
+			<td><code>object</code></td>
+			<td>optional, text selection (its position relative to all other text). Includes the following attributes:
+				<ul>
+					<li><b>range</b> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
+					<li><b>left</b> - (<i>object</i>) the left coordinate of selection, contains the following properties:
+						<ul>
+							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
+						</ul>
+					</li>
+					<li><b>right</b> - (<i>object</i>) the right coordinate of selection, contains the following properties:
+						<ul>
+							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <b>getSelection</b> method instead of passing the second parameter.</li>
+						</ul>
+					</li>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
