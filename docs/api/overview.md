@@ -18,12 +18,12 @@ Parameters:
 - an object with configuration properties (check below)
 
 
-<!-- <div class='h2'>Objects</div> todo
+### Objects
 
-- [config](api/refs/richtext_props.md)
-- [events](api/refs/events_methods.md)
-- [EditorAPI](api/refs/editor_api_methods.md)
-- toolbar -->
+- [config](api/properties.md)
+- [events](api/events.md)
+- [EditorAPI](api/editor_api_methods.md)
+- toolbar
 
 ### Methods
 

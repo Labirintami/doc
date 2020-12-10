@@ -26,7 +26,7 @@ var richtext = new dhx.Richtext("rich", {
 });
 ~~~
 
-[**RichText. Modes**](https://snippet.dhtmlx.com/pdh5buvg)
+**Related sample:** [Modes](https://snippet.dhtmlx.com/pdh5buvg)
 
 Toolbar
 ------------
@@ -56,7 +56,7 @@ var richtext = new dhx.Richtext(document.body, {
 
  <img alt="" src={require('./../assets/default_toolbar.png').default} />
 
-[**RichText. Initialization**](https://snippet.dhtmlx.com/32jtemtm)
+**Related sample:** [Initialization](https://snippet.dhtmlx.com/32jtemtm)
 
 You can add several more blocks to make the full toolbar: 
 
@@ -77,7 +77,7 @@ var richtext = new dhx.Richtext(document.body, {
  <img alt="" src={require('./../assets/full_toolbar.png').default} />
 
 
-[**RichText. Full Toolbar**](https://snippet.dhtmlx.com/5yga5ce1)
+**Related sample:** [Full Toolbar](https://snippet.dhtmlx.com/5yga5ce1)
 
 ### Short toolbar definition
 
@@ -108,7 +108,7 @@ var richtext = new dhx.Richtext(document.body, {
 <!-- ![Custom toolbar](custom_toolbar.png) -->
  <img alt="" src={require('./../assets/custom_toolbar.png').default} />
 
-[**RichText. Toolbar Blocks**](https://snippet.dhtmlx.com/yp7en22d)
+**Related sample:** [Toolbar Blocks](https://snippet.dhtmlx.com/yp7en22d)
 
 Toolbar is [highly customizable](customization.md). You can add new controls, change the icons of controls and apply the desired icon pack. 
 

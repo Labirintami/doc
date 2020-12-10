@@ -10,7 +10,7 @@ Getting content from editor
 
 After you've entered the necessary text into the editor and formatted it to your taste, you can save the result in any of [supported formats](loading_data.md#formatofcontent).
 
-To save the edited text, make use of the [getValue()](../api/methods.md#getvalue) method. The method takes an only parameter:
+To save the edited text, make use of the [getValue()](api/methods.md#getvalue) method. The method takes an only parameter:
 
 - **mode** - (*string*) the format the text should be saved in: "html", "markdown" or "text" (for a plain text). "html" is used by default
 
@@ -19,9 +19,9 @@ To save the edited text, make use of the [getValue()](../api/methods.md#getvalue
 var content = richtext.getValue("markdown");
 ~~~
 
-[**RichText. Get Value**](https://snippet.dhtmlx.com/ujx3c71j)
+**Related sample:** [RichText. Get Value](https://snippet.dhtmlx.com/ujx3c71j)
 
-If you are in two minds about how to add content into the RichText editor, there is the loading_data.md article.
+If you are in two minds about how to add content into the RichText editor, there is the [Setting Content](loading_data.md) article.
 
 Statistics
 ---------------------
@@ -33,7 +33,7 @@ RichText editor allows you to show statistics about the edited text. There is th
 
 ### Getting statistics
 
-You can provide users with information about the number of characters, words and characters excluding spaces with the help of the [getStats()](..api/methods.md#getstats) method. 
+You can provide users with information about the number of characters, words and characters excluding spaces with the help of the [getStats()](api/methods.md#getstats) method. 
 
 ~~~js
 var stats = richtext.getStats();
@@ -45,7 +45,7 @@ The method returns an object with available statistical data about the text edit
 {chars: 467, words: 80, charsExlSpace: 393}
 ~~~
 
-[**RichText. Get Stats**](https://snippet.dhtmlx.com/3qdbktwo)
+**Related sample:** [RichText. Get Stats](https://snippet.dhtmlx.com/3qdbktwo)
 
 You can also get each field of statistical data separately, as it described below.
 
@@ -75,7 +75,7 @@ var chars = richtext.getStats().charsExlSpace;
 
 ### How to display statistics
 
-Using the [getStats()](..api/methods.md#getstats) method you can display info on the number of entered characters in any part of your application. For example, in a separate container by a click on a button:
+Using the [getStats()](api/methods.md#getstats) method you can display info on the number of entered characters in any part of your application. For example, in a separate container by a click on a button:
 
 ~~~js
 <button onclick="calc()" class="dhx_btn dhx_btn--flat">Characters Count</button>
@@ -89,11 +89,11 @@ function calc() {
 }
 ~~~
 
-[**RichText. Get Stats**](https://snippet.dhtmlx.com/3qdbktwo)
+**Related sample:** [RichText. Get Stats](https://snippet.dhtmlx.com/3qdbktwo)
 
-<h3 id="customstats">Custom statistics</h3> 
+### Custom statistics 
 
-Besides the default statistical data, you can display any custom data via the [customStats](../api/properties.md#customstats) configuration option. Set an array with necessary statistical parameters as a value of this option. 
+Besides the default statistical data, you can display any custom data via the [customStats](api/properties.md#customstats) configuration option. Set an array with necessary statistical parameters as a value of this option. 
 Each parameter represents an object with two properties:
 
 - **name** - (*string*) the name of the field that should be displayed
@@ -131,13 +131,13 @@ var rich = new dhx.Richtext("rich", {
 <!-- ![Custom statistics](custom_stats.png) -->
 <img alt="" src={require('./../assets/custom_stats.png').default} />
 
-[**RichText. Custom Stats**](https://snippet.dhtmlx.com/u1734epz)
+**Related sample:** [RichText. Custom Stats](https://snippet.dhtmlx.com/u1734epz)
 
 
 Full screen mode
 -------------------
 
-You can enter/exit the full screen mode for the Rich text editor with the help of the corresponding API methods: [fullScreen()](../api/methods.md#fullscreen) and [exitFullScreen()](../api/methods.md#exitfullscreen):
+You can enter/exit the full screen mode for the Rich text editor with the help of the corresponding API methods: [fullScreen()](../api/methods.md#fullscreen) and [exitFullScreen()](api/methods.md#exitfullscreen):
 
 ~~~js
 // enter full screen
@@ -150,7 +150,7 @@ richtext.exitFullScreen();
 Editor API
 -----------
 
-The editor of RichText contains a set of methods that make it easy to work with text on the fly. In order to get access to the API of the editor, call the [getEditorAPI()](../api/methods.md#geteditorapi) method.
+The editor of RichText contains a set of methods that make it easy to work with text on the fly. In order to get access to the API of the editor, call the [getEditorAPI()](api/methods.md#geteditorapi) method.
 It returns an object with all available methods.
 
 ~~~js
@@ -159,14 +159,14 @@ var EditorAPI = richtext.getEditorAPI();
 
 The list of methods included into the object returned by the **getEditorAPI()** method is the following:
 
-<!-- - api/editor_api/add.md todo
-- api/editor_api/getmodel.md
-- api/editor_api/getposition.md
-- api/editor_api/getselection.md
-- api/editor_api/remove.md 
-- api/editor_api/setmodel.md
-- api/editor_api/setselection.md
-- api/editor_api/update.md  -->
+- [add()](api/editor_api_methods.md#add)
+- [getModel()](api/editor_api_methods.md#getmodel)
+- [getPosition()](api/editor_api_methods.md#getposition)
+- [getSelection()](api/editor_api_methods.md#getselection)
+- [remove()](api/editor_api_methods.md#remove)
+- [setModel()](api/editor_api_methods.md#setmodel)
+- [setSelection()](api/editor_api_methods.md#setselection)
+- [update()](api/editor_api_methods.md#update)
 
 For example, to add a text into the RichText editor, use the following code:
 
@@ -174,7 +174,7 @@ For example, to add a text into the RichText editor, use the following code:
 richtext.getEditorAPI().add("text");
 ~~~
 
-[**RichText. Add**](https://snippet.dhtmlx.com/6dmccf0l)
+**Related sample:**  [RichText. Add](https://snippet.dhtmlx.com/6dmccf0l)
 
 
 

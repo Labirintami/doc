@@ -101,5 +101,5 @@ dhx.i18n.setLocale("richtext", de);
 var richtext = new dhx.Richtext("richtext_container");
 ~~~
 
-[**RichText. Localization**](https://snippet.dhtmlx.com/vhvl57zj)
+**Related sample:** [Localization](https://snippet.dhtmlx.com/vhvl57zj)
 

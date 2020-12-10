@@ -49,7 +49,7 @@ var htmlText = `<h1>Meet DHTMLX Rich Text Editor!</h1>` +
 richtext.setValue(htmlText);
 ~~~
 
-[**RichText. Setting HTML content**](https://snippet.dhtmlx.com/57v7n2kp)
+**Related sample:** [Setting HTML content](https://snippet.dhtmlx.com/57v7n2kp)
 
 - adding Markdown content
 
@@ -67,7 +67,7 @@ This demo will show you a customizable **JavaScript rich text editor**.
 richtext.setValue(mdText,"markdown");
 ~~~
 
-[**RichText. Set Markdown Value**](https://snippet.dhtmlx.com/9jf91qn9)
+**Related sample:** [Set Markdown Value](https://snippet.dhtmlx.com/9jf91qn9)
 
 Related articles
 --------------------

@@ -3,7 +3,6 @@ sidebar_label: Editor API
 title: Editor API
 ---
 
-Test
 ## `add`
 
 Adds a new text into the editor

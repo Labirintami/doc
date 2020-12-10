@@ -23,7 +23,7 @@ after the source files of dhtmlxRichText as follows:
     crossorigin="anonymous">
 ~~~
 
-<!-- {{sample 04_customization/01_custom_icons.html}} todo -->
+**Related sample:** [Custom Icons](https://snippet.dhtmlx.com/oxu04enu)
 
 Then you can use the name of the icon as the value of the **icon** property in the object with the control parameters for toolbar. See details below.
 
@@ -127,7 +127,7 @@ Toolbar
 
 ### Default controls
 
-The [default toolbar](overview.md#toolbar) contains the following blocks of controls:
+The [default toolbar](overview.md#toolbar-structure) contains the following blocks of controls:
 
 - the **Undo** block 
 	- the *Undo* button (id:"undo")
@@ -185,7 +185,7 @@ richtext.toolbar.data.add({
 }, 24);
 ~~~
 
-<!-- {{sample  04_customization/02_custom_button.html}} todo -->
+**Related sample:** [Custom Button](https://snippet.dhtmlx.com/xlpa1tj7)
 
 
 ### Updating controls
@@ -212,7 +212,7 @@ for (var i=0; i<icons.length; i++) {
 }
 ~~~
 
-<!-- {{sample	04_customization/01_custom_icons.html}} todo -->
+**Related sample:** [Custom Icons](https://snippet.dhtmlx.com/oxu04enu)
 
 ### Deleting controls
 

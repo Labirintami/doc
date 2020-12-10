@@ -5,7 +5,7 @@ title: Event Handling
 
 ## Attaching Event Listeners
 
-You can attach event listeners with the [richtext.events.on()](api/events/on.md) method:
+You can attach event listeners with the [richtext.events.on()](api/events_bus.md#on) method:
 
 ~~~js
 richtext.events.on("Change", function(action,canUndo,canRedo){
@@ -13,15 +13,15 @@ richtext.events.on("Change", function(action,canUndo,canRedo){
 });
 ~~~
 
-<!-- {{sample 05_events/01_events.html}} todo -->
+**Related sample:** [RichText. Events](https://snippet.dhtmlx.com/sb5qipjz)
 
-:::caution
+:::note
 The names of events are case-insensitive.
 :::
 
 ## Detaching Event Listeners
 
-To detach events, use [richtext.events.detach()](api/events/detach.md):
+To detach events, use [richtext.events.detach()](api/events_bus.md#detach):
 
 ~~~js
 var change = richtext.events.on("Change", function(action,canUndo,canRedo){
@@ -32,12 +32,12 @@ richtext.events.detach(change);
 
 ## Calling Events
 
-To call events, use [richtext.events.fire()](api/events/fire.md):
+To call events, use [richtext.events.fire()](api/events_bus.md#fire):
 
 ~~~js
 richtext.events.fire("name",args);
 // where args is an array of arguments
 ~~~
 
-The list of events is available in the [API section](api/refs/richtext_events.md).
+The list of events is available in the [API section](api/events.md).
 

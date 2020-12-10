@@ -46,12 +46,12 @@ dhtmlxRichText can work with content in [two modes](guides/configuration.md). Yo
 <!-- ![Document mode](doc_mode.png) -->
  <img alt="" src={require('./assets/doc_mode.png').default} />
 
-[Read more](guides/configuration#modesofediting) about setting the mode you like best.
+[Read more](guides/configuration.md#working-modes) about setting the mode you like best.
 
 Supported formats
 ----------------
 
-The RichText editor supports [parsing](guides/loading_data.md/#adding-content-into-editor) and [serialization](guides/working_with_richtext.md#getting-content-from-editor) of content in the 
+The RichText editor supports [parsing](guides/loading_data.md#adding-content-into-editor) and [serialization](guides/working_with_richtext.md#getting-content-from-editor) of content in the 
 [HTML and Markdown formats](guides/loading_data.md#format-of-content).
 
 - HTML format
@@ -80,5 +80,5 @@ It's high time to embed RichText into your application to enrich it with editing
 
 To learn the features of dhtmlxRichText, check other helpful resources:
 
-- [API Reference](../docs/api/overview.md)
+- [API Reference](api/overview.md)
 - [Guides](guides/configuration.md)

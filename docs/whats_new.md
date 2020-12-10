@@ -16,7 +16,7 @@ Version 1.1.2
 
 <span class="rel_date">released on February 13, 2020</span>
 
-#### Fixes
+### Fixes
 
 - Issues with interaction between the HTML form and controls of Toolbar
 
@@ -45,7 +45,7 @@ Version 1.1
 
 ### Updates
 
-- Ability to [return content in the plain "text" format](api/richtext_getvalue.md) 
+- Ability to [return content in the plain "text" format](api/methods.md#getvalue) 
 
 ### Fixes
 
@@ -74,9 +74,8 @@ Version 1.0
 
 - Basic operations for real-time text editing 
 - Two [working modes](guides/configuration.md#workingmodes): "classic" and "document"
-- Data [parsing](loading_data.md) and [serialization](guides/working_with_richtext.md#gettingcontentfromeditor) in HTML and Markdown formats
+- Data [parsing](guides/loading_data.md) and [serialization](guides/working_with_richtext.md#gettingcontentfromeditor) in HTML and Markdown formats
 - [Full screen mode](guides/working_with_richtext.md#fullscreenmode)
 - Cross browser compatibility
 - IE11+ support
 
-<iframe width="675" height="380" src="https://snippet.dhtmlx.com/basic?mode=result" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

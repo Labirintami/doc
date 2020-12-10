@@ -27,3 +27,9 @@
     margin: 0 calc(-1 * var(--ifm-pre-padding));
     padding: 0 var(--ifm-pre-padding);
 }
+
+.rel_date{
+	color: #a0a0a0;
+    font-size: 15px;
+    margin-left: 20px;
+}
