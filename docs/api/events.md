@@ -4,12 +4,8 @@ title: Events
 ---
 
 :::info
-
-**Related samples**
-RichText Events. //todo
-
+Check **Related samples** [RichText Events](https://snippet.dhtmlx.com/sb5qipjz)
 :::
-___
 
 ## `Action`
 
@@ -21,7 +17,7 @@ Fires on any action in the editor
 |----------------|-----------|-----------------------------------------------------|
 | `action`       | `string`  | the name of an action                               |
 | `data`         | `any`     | optional, the edited data                           |
-| `restoreFocus` | `boolean` | toptional, defines whether focus should be restored |
+| `restoreFocus` | `boolean` | optional, defines whether focus should be restored |
 
 
 ```js 
@@ -33,17 +29,17 @@ rich.events.on("Action", function(action){
 #### Details
 The list of possible actions is given below:
 
-- add - add a character
-- remove - remove a character
-- update - update styles of text
-- undo - revert the last action
-- redo - re-apply the last reverted action
-- copy - copy text
-- paste - paste text
-- cut - cut text
-- clear - clear the editor
-- parse - parse text
-- selectAll - select all text
+- **add** - add a character
+- **remove** - remove a character
+- **update** - update styles of text
+- **undo** - revert the last action
+- **redo** - re-apply the last reverted action
+- **copy** - copy text
+- **paste** - paste text
+- **cut** - cut text
+- **clear** - clear the editor
+- **parse** - parse text
+- **selectAll** - select all text
 ___
 
 ## `Change`
@@ -65,23 +61,21 @@ richtext.events.on("Change", function(action){
 });
 ```
 
-**Related samples**
-RichText Events.
-
 #### Details
+
 The list of possible actions is given below:
 
-- add - add a character
-- remove - remove a character
-- update - update styles of text
-- undo - revert the last action
-- redo - re-apply the last reverted action
-- copy - copy text
-- paste - paste text
-- cut - cut text
-- clear - clear the editor
-- parse - parse text
-- selectAll - select all text
+- **add** - add a character
+- **remove** - remove a character
+- **update** - update styles of text
+- **undo** - revert the last action
+- **redo** - re-apply the last reverted action
+- **copy** - copy text
+- **paste** - paste text
+- **cut** - cut text
+- **clear** - clear the editor
+- **parse** - parse text
+- **selectAll** - select all text
 ___
 
 ## `selectionChange`
@@ -105,12 +99,12 @@ The *state* object represents a hash of the following *key:value* properties:
 
 - **range** - (*boolean*) defines whether the selection includes one character (*false*), or a range of them (*true*)
 - **left** - (*object*) the left coordinate of selection, contains the following properties:
-	- **blockIndex** - (*number*) the index of a text block (a text line), enumeration starts from 0
-	- **textIndex** - (*number*) the index of a text node (a text with common styling), enumeration starts from 0
+    - **blockIndex** - (*number*) the index of a text block (a text line), enumeration starts from 0
+    - **textIndex** - (*number*) the index of a text node (a text with common styling), enumeration starts from 0
     - **offset** - (*number*) the number of the first character within a text node in the selection
 - **right** - (*object*) the right coordinate of selection, contains the following properties:
-	- **blockIndex** - (*number*) the index of a text block (a text line), enumeration starts from 0
-	- **textIndex** - (*number*) the index of a text node (a text with common styling), enumeration starts from 0
+    - **blockIndex** - (*number*) the index of a text block (a text line), enumeration starts from 0
+    - **textIndex** - (*number*) the index of a text node (a text with common styling), enumeration starts from 0
     - **offset** - (*number*) the number of the last character within a text node in the selection
 
 ```js 
@@ -135,13 +129,5 @@ richtext.events.on("selectionRefresh", function(){
     console.log("Selection is refreshed");
 });
 ```
-___
 
-## Related sample
 
-:::info
-
-**Related sample**
-RichText Events. //todo
-
-:::

@@ -14,7 +14,6 @@ Adds a new text into the editor
 | `config`    | `string,object` | a string with a text or a text block as an object. Check the details |
 | `selection` | `object`        | optional, text selection (its position relative to all other text). Check the details |
 
-**Example**
 
 ```js 
 // adding simple text
@@ -124,7 +123,7 @@ The returned EditorAPI method contains a list of methods you can use to apply di
 						<ul>
 							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
 							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <b>getSelection</b> method instead of passing the second parameter.</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
 						</ul>
 					</li>
 				</ul>
@@ -147,7 +146,6 @@ Returns the data model of the entered text in the JSON format
 |----------|------------------------------------|
 | `array` | the data model of the entered text |
 
-**Example**
 
 ```js 
 var model = rich.getEditorAPI().getModel();
@@ -203,7 +201,6 @@ Returns the position of text selection relative to the browser window
 |----------|-------------------------------------------------------------|
 | `object` | the position of text selection relative to the browser window|
 
-**Example**
 
 ```js 
 var position = rich.getEditorAPI().getPosition();
@@ -244,7 +241,6 @@ Returns the position of text selection relative to all other text
 |----------|-------------------------------------------------------------|
 | `object` | the position of text selection relative to all other text     |
 
-**Example**
 
 ```js 
 var selection = rich.getEditorAPI().getSelection();
@@ -289,7 +285,7 @@ where:
 						<ul>
 							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
 							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <b>getSelection</b> method instead of passing the second parameter.</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
 						</ul>
 					</li>
 				</ul>
@@ -308,7 +304,6 @@ Removes a selected text
 |-----------|----------|-------------------------------------------------------------------------------|
 | `selection`   | `object` | optional, text selection (its position relative to all other text). Check the details |
 
-**Example**
 
 ```js 
 var api = rich.getEditorAPI();
@@ -341,7 +336,7 @@ Check the detailed description of the parameter:
 						<ul>
 							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
 							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <b>getSelection</b> method instead of passing the second parameter.</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
 						</ul>
 					</li>
 				</ul>
@@ -363,7 +358,6 @@ Sets a structured text with styles (a data model as JSON) for the editor
 | `structure`   | `array` | an array of objects with styles and text nodes. Check the details |
 | `selection`   | `object` | optional, text selection (its position relative to all other text). Check the details |
 
-**Example**
 
 ```js 
 richtext.getEditorAPI().setModel([
@@ -426,7 +420,7 @@ Check the detailed description of parameters:
 						<ul>
 							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
 							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <b>getSelection</b> method instead of passing the second parameter.</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
 						</ul>
 					</li>
 				</ul>
@@ -447,8 +441,6 @@ Applies selection to the specified text position
 |-----------|----------|-------------------------------------------------------------------------------|
 | `selection`   | `object` | the position of text selection relative to all other text                  |
 
-
-**Example**
 
 ~~~js
 richtext.getEditorAPI().setSelection({
@@ -491,7 +483,7 @@ Check the detailed description of the parameter:
 						<ul>
 							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
 							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <b>getSelection</b> method instead of passing the second parameter.</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
 						</ul>
 					</li>
 				</ul>
@@ -513,16 +505,17 @@ Modifies the entered text
 | `config`   | `object` | an object with details of updating. Check the details                         |
 | `selection`   | `object` | optional, text selection (its position relative to all other text). Check the details |
 
-**Example**
 
 ```js 
 var api = rich.getEditorAPI();
  
-rich.getEditorAPI().update({
-    modifier: "color",
-    value: "#BB2B1A"
-  }, api.getSelection());
-});
+rich.getEditorAPI().update(
+	{
+    	modifier: "color",
+    	value: "#BB2B1A"
+  	}, 
+	api.getSelection()
+);
 ```
 
 **Related samples:** [RichText. Update](https://snippet.dhtmlx.com/6kf43fmz)
@@ -560,7 +553,7 @@ Check the detailed description of parameters:
 						<ul>
 							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
 							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <b>getSelection</b> method instead of passing the second parameter.</li>
+							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
 						</ul>
 					</li>
 				</ul>
