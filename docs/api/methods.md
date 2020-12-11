@@ -42,6 +42,8 @@ ___
 
 ## `getEditorAPI`
 
+Returns an object with editor API methods
+
 `object getEditorAPI();`
 
 **Returns:** 
@@ -56,7 +58,16 @@ var EditorAPI = richtext.getEditorAPI();
 ```
 
 #### Details
-The returned object contains a list of methods you can use to apply different operations to the editor. Check the list of editor API methods below.
+The returned object contains a list of methods you can use to apply different operations to the editor. Check the list of editor API methods:
+
+- [add()](api/editor_api_methods.md#add)
+- [getModel()](api/editor_api_methods.md#getmodel)
+- [getPosition()](api/editor_api_methods.md#getposition)
+- [getSelection()](api/editor_api_methods.md#getselection)
+- [remove()](api/editor_api_methods.md#remove)
+- [setModel()](api/editor_api_methods.md#setmodel)
+- [setSelection()](api/editor_api_methods.md#setselection)
+- [update()](api/editor_api_methods.md#update)
 
 ___
 
@@ -88,7 +99,7 @@ You can get each field of statistical data separately, as it's described below.
 
 **Characters**
 
-To return the count of characters typed into the editor, use the `chars` property of the getStats method.
+To return the count of characters typed into the editor, use the `chars` property of the `getStats()` method.
 
 ```js 
 var chars = richtext.getStats().chars;
@@ -96,7 +107,7 @@ var chars = richtext.getStats().chars;
 
 **Words**
 
-To return the count of words typed into the editor, use the `words` property of the getStats method.
+To return the count of words typed into the editor, use the `words` property of the `getStats()` method.
 
 ```js 
 var words = richtext.getStats().words;
@@ -104,7 +115,7 @@ var words = richtext.getStats().words;
 
 **Characters without spaces**
 
-To return the count of characters typed into the editor excluding the number of spaces, use the `charsExlSpace` property of the getStats method.
+To return the count of characters typed into the editor excluding the number of spaces, use the `charsExlSpace` property of the `getStats()` method.
 
 ```js 
 var chars = richtext.getStats().charsExlSpace;
@@ -213,5 +224,5 @@ richtext.setValue(mdText,"markdown");
 ```
 
 :::note
-Please note that for a text in the Markdown format you need to define paragraphs by empty lines.
+Note, that for a text in the Markdown format you need to define paragraphs by empty lines.
 :::

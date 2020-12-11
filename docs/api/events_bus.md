@@ -52,7 +52,7 @@ Triggers an inner even
 
 | Type | Description                                                               |
 |-----------|--------------------------------------------------------------------|
-| `boolean` | false, if some of the event handlers return false. Otherwise, true |
+| `boolean` | *false*, if some of the event handlers return *false*. Otherwise, *true* |
 
 ```js 
 richtext.events.on("CustomEvent", function(param1, param2){

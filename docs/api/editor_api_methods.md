@@ -69,7 +69,7 @@ richtext.getEditorAPI().add({type:"full",data:[
 
 #### Details
 
-The returned EditorAPI method contains a list of methods you can use to apply different operations to the editor. Check the list of editor API methods below.
+Check the detailed description of parameters:
 
 <table>
 	<thead>

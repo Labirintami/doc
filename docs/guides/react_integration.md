@@ -6,7 +6,7 @@ title: Integration with React
 You can use dhtmlxRichText in an application created with the [React](https://reactjs.org/) framework. [Check the demo on Github](https://github.com/DHTMLX/react-widgets).
 
 :::note
-Please note that the implementation provided below is not the only way to use dhtmlxRichText in a React-based application. It gives you initial schema of the integration and implies further 
+Note, that the implementation provided below is not the only way to use dhtmlxRichText in a React-based application. It gives you initial schema of the integration and implies further 
 extension of the app functionality depending on your goals.
 :::
 
@@ -39,7 +39,7 @@ In this variant RichText configuration and data are held inside of the React com
 class Richtext extends Component {
     render() {
         return (
-            <div ref={el => this.el = el} className="widget-box" style={{width:800,height:400}}></div>
+            <div ref={el => this.el = el} className="widget-box" style="width:800,height:400;"></div>
         );
     }
 }
@@ -49,11 +49,11 @@ class Richtext extends Component {
 
 ~~~js title="RichText.js"
 class RichText extends Component {
-  componentDidMount() {
-    this.richtext = new Richtext(this.el, {
-      toolbarBlocks: ["default", "clear", "fullscreen"]
-    });
-  }
+    componentDidMount() {
+        this.richtext = new Richtext(this.el, {
+            toolbarBlocks: ["default", "clear", "fullscreen"]
+        });
+    }
 }
 ~~~
 
@@ -113,7 +113,7 @@ Thus the `props` configuration option will be applied to the RichText widget con
 ~~~js title="RichText2.js"
 render() {
 	return (
-      <div ref={el => this.el = el} className="widget-box" style={{width:800,height:400}}></div>
+      <div ref={el => this.el = el} className="widget-box" style="width:800,height:400;"></div>
     );
 }
 ~~~
@@ -142,7 +142,7 @@ RichtextComponent.defaultProps = {
 }
 ~~~
 
-Since the properties of RichText are exposed they are available to work with outside the component. In the example below the "document" mode is set for the richtext:
+Since the properties of RichText are exposed they are available to work with outside the component. In the example below the `"document"` mode is set for the richtext:
 
 ~~~js title="BasicSample.js"
 <div className='app-box'>

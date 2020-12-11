@@ -73,7 +73,7 @@ Now it's time to define the desired configuration options to make RichText meet 
 
 RichText provides several options that let you adjust the toolbar appearance and behavior as well as choose the most suitable mode of work with a document. [Learn all the available settings](api/properties.md).
 
-For example, you can specify the *"document"* mode of RichText displaying:
+For example, you can specify the `"document"` mode of RichText displaying:
 
 ~~~js
 var rich = new dhx.Richtext("richtext_container", {

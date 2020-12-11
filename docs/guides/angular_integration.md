@@ -6,7 +6,7 @@ title: Integration with Angular
 You can use dhtmlxRichText in an application created with the [Angular](https://angular.io/) framework. [Check the demo on Github](https://github.com/DHTMLX/angular-widgets).
 
 :::note 
-Please note that the implementation provided below is not the only way to use dhtmlxRichText in a Angular-based application. It gives you initial schema of the integration and implies further 
+Note, that the implementation provided below is not the only way to use dhtmlxRichText in a Angular-based application. It gives you initial schema of the integration and implies further 
 extension of the app functionality depending on your goals.
 :::
 
@@ -130,14 +130,14 @@ export class RichtextComponent implements OnInit, OnDestroy {
 }
 ~~~
 
-The properties of RichText are exposed and available to work with outside the component. In the example below the "document" mode is specified for richtext:
+The properties of RichText are exposed and available to work with outside the component. In the example below the `"document"` mode is specified for richtext:
 
 ~~~js title="BasicSample.ts"
 @Component({
-    template: `
-<div class='app-box'>
-    <app-richtext mode='document' class='wide-size'></app-richtext>
-</div>`
+  template: `
+    <div class='app-box'>
+        <app-richtext mode='document' class='wide-size'></app-richtext>
+    </div>`
 }}
 ~~~
 
@@ -170,8 +170,7 @@ export class RichtextComponent implements OnInit, OnDestroy {
 
 After that you can use the ready wrappers in other parts of application. 
 
-- Create a `DataSample.ts` file and describe the methods you want to use while working with the richtext. In the example below the `updateMarkdown` and `updateHTML` methods are added for updating the 
-the content of the RichText editor:
+- Create a `DataSample.ts` file and describe the methods you want to use while working with the richtext. In the example below the `updateMarkdown` and `updateHTML` methods are added for updating the content of the RichText editor:
 
 ~~~js title="DataSample.ts"
 export class RichtextDataSampleComponent  {
@@ -190,13 +189,13 @@ export class RichtextDataSampleComponent  {
 
 ~~~js title="DataSample.ts"
 @Component({
-    template: `
-<div class='app-box'>
-    <app-richtext value='{{html}}' class='wide-size' 
-        (change)="updateHTML($event)"></app-richtext>
-    <app-richtext value='{{markdown}}' dataType='markdown' class='wide-size' 
-        (change)="updateMarkdown($event)"></app-richtext>
-</div>`
+  template: `
+    <div class='app-box'>
+        <app-richtext value='{{html}}' class='wide-size' 
+            (change)="updateHTML($event)"></app-richtext>
+        <app-richtext value='{{markdown}}' dataType='markdown' class='wide-size' 
+            (change)="updateMarkdown($event)"></app-richtext>
+    </div>`
 })
 ~~~
 

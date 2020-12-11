@@ -50,7 +50,7 @@ The `button` object has the following properties:
 - `twoState` -  the flag that defines whether a button can be used in two states
 - `active` - the state of a button activity: *true* - active, *false* - inactive
 - `multiClick` - defines the behavior of the Undo/Redo buttons: 
-	- *true* - all the actions are reverted/re-applied one by one when the Undo/Redo button is clicked and held
+    - *true* - all the actions are reverted/re-applied one by one when the Undo/Redo button is clicked and held
     - *false* - one action is reverted/re-applied on each click of the Undo/Redo button
 
 #### Custom Button
@@ -88,7 +88,7 @@ richtext.toolbar.data.add({
 }, 2);
 ~~~
 
-For a custom HTML button:
+For a custom button:
 
 ~~~js
 richtext.toolbar.data.add({
@@ -131,34 +131,34 @@ Toolbar
 The [default toolbar](overview.md#toolbar-structure) contains the following blocks of controls:
 
 - the **Undo** block 
-	- the *Undo* button (id:"undo")
+    - the *Undo* button (id:"undo")
     - the *Redo* button (id:"redo")    
 - the **Style** block
-	- the *Font family* button (id:"font-family")
+    - the *Font family* button (id:"font-family")
     - the *Font size* button (id:"font-size")
     - the *Style* button (id:"style")
-    	- the *Base text* option (id:"style-p")
+        - the *Base text* option (id:"style-p")
         - the *Heading 1* option (id:"style-h1")
         - the *Heading 2* option (id:"style-h2")
         - the *Heading 3* option (id:"style-h3")
         - the *Heading 4* option (id:"style-h4")
         - the *Heading 5* option (id:"style-h5")
         - the *Heading 6* option (id:"style-h6")     
-	- the *Block quote* button (id:"blockquote")
+    - the *Block quote* button (id:"blockquote")
 - the **Decoration** block 
-	- the *Bold* button (id:"bold")
+    - the *Bold* button (id:"bold")
     - the *Italic* button (id:"italic")
     - the *Strike* button (id:"strike")
     - the *Underline* button (id:"underline")
 - the **Colors** block
-	- the *Text color* button (id:"color") 
+    - the *Text color* button (id:"color") 
     - the *Background color* button (id:"background")
 - the **Align** block
-	- the *Align left* button (id: "align-left")
+    - the *Align left* button (id: "align-left")
     - the *Align center* button (id: "align-center")
     - the *Align right* button (id: "align-right")
 - the **Link** block
-	- the *Link* button (id:"link")
+    - the *Link* button (id:"link")
 
     
 It is also possible to add the blocks enumerated below to get the full toolbar:

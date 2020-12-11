@@ -35,7 +35,7 @@ Adding content into editor
 In order to add some text content into the RichText, make use of the [setValue()](../api/methods.md#setvalue) method. The method takes two parameters:
 
 - `value` - (*string*) a string with the content you want to add into the editor in either HTML or Markdown format
-- `mode` - (*string*) optional, the format of text parsing: "html" (default) or "markdown"
+- `mode` - (*string*) optional, the format of text parsing: `"html"` (default) or `"markdown"`
 
 Below you can find examples of loading text in both available formats:
 
@@ -54,7 +54,7 @@ richtext.setValue(htmlText);
 - adding Markdown content
 
 :::note
-Please note that for a text in the Markdown format you need to define paragraphs by empty lines.
+Note, that for a text in the Markdown format you need to define paragraphs by empty lines.
 :::
 
 ~~~js

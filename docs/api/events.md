@@ -95,6 +95,8 @@ richtext.events.on("selectionChange", function(state){
 });
 ```
 
+#### Details
+
 The `state` object represents a hash of the following *key:value* properties:
 
 - `range` - (*boolean*) defines whether the selection includes one character (*false*), or a range of them (*true*)
@@ -106,6 +108,8 @@ The `state` object represents a hash of the following *key:value* properties:
     - `blockIndex` - (*number*) the index of a text block (a text line), enumeration starts from 0
     - `textIndex` - (*number*) the index of a text node (a text with common styling), enumeration starts from 0
     - `offset` - (*number*) the number of the last character within a text node in the selection
+
+For example:
 
 ```js 
 richtext.events.on("selectionChange", function({
