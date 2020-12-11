@@ -208,7 +208,7 @@ class DataSample extends Component {
             <div className='app-box'>
                 <p>HTML serialize</p>
                 <RichtextComponent value={this.state.html} 
-        	          onChange={val => this.updateHTML(val)}>></RichtextComponent>
+        	          onChange={val => this.updateHTML(val)}></RichtextComponent>
 
                 <hr />
                 <p>Markdown serialize</p>
