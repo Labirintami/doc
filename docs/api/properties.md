@@ -11,7 +11,7 @@ Defines the logic of displaying custom statistics
 `array customStats;`
 
 ```js 
-var rich = new dhx.Richtext("rich", {
+var richtext = new dhx.Richtext("richtext_container", {
     customStats: [
         {
             name: "chars"
@@ -43,8 +43,8 @@ var rich = new dhx.Richtext("rich", {
 
 Each field of statistical data represents an object with two properties:
 
-- **name** - (*string*) the name of the field that should be displayed
-- **callback** - (*function*) a function that implements the logic of counting entries of the specified field
+- `name` - (*string*) the name of the field that should be displayed
+- `callback` - (*function*) a function that implements the logic of counting entries of the specified field
 ___
 
 ## `mode`
@@ -91,7 +91,7 @@ var richtext = new dhx.RichText("richtext_container", {
 
 ### Full toolbar
 
-The full toolbar contains several more blocks: "clear", "fullscreen", and "stats":
+The full toolbar contains several more blocks: `"clear"`, `"fullscreen"`, and `"stats"`:
 
 ~~~js
 var richtext = new dhx.RichText(document.body, {
@@ -107,7 +107,7 @@ var richtext = new dhx.RichText(document.body, {
 
 ### Short toolbar definition
 
-The default set of buttons can be specified via the *"default"* definition in the **toolbarBlocks** array, like this:
+The default set of buttons can be specified via the `"default"` definition in the `toolbarBlocks` array, like this:
 
 ~~~js
 var richtext = new dhx.RichText(document.body, {

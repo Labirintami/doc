@@ -14,7 +14,7 @@ extension of the app functionality depending on your goals.
 
 To add RichText package into your Vue.js-based app you need to [download the component package](https://dhtmlx.com/docs/products/dhtmlxRichText/download.shtml) and unpack it into a folder of your project.
 
-Then include **richtext.js** and **richtext.css** files into a page. 
+Then include `richtext.js` and `richtext.css` files into a page. 
 Make sure that you set correct relative paths to these files:
 
 ~~~html title="index.html"
@@ -33,11 +33,11 @@ In this variant RichText configuration and data are held inside of the Vie compo
 
 #### RichText initialization
 
-- Create a *RichText.vue* file and add a container for RichText inside the **&lt;template&gt;&lt;/template&gt;** tags. Define the name of the container in the **ref** attribute:
+- Create a `RichText.vue` file and add a container for RichText inside the `<template></template>` tags. Define the name of the container in the `ref` attribute:
 
 ~~~js title="RichText.vue"
 <template>
-	<div ref="container" class="widget-box"></div>
+	  <div ref="container" class="widget-box"></div>
 </template>
 ~~~
 
@@ -46,11 +46,11 @@ In this variant RichText configuration and data are held inside of the Vie compo
 ~~~js title="RichText.vue"
 <script>
 export default {
-  mounted: function() {
-    this.richtext = new Richtext(this.$refs.container, {
-      	toolbarBlocks: ["default", "clear", "fullscreen"]
-    });
-  }
+    mounted: function() {
+        this.richtext = new Richtext(this.$refs.container, {
+      	    toolbarBlocks: ["default", "clear", "fullscreen"]
+        });
+    }
 };
 </script>
 ~~~
@@ -62,14 +62,14 @@ export default {
 ~~~js title="RichText.vue"
 <script>
 export default {
-  mounted: function() {
-    this.richtext = new Richtext(this.$refs.container, {
-      	toolbarBlocks: ["default", "clear", "fullscreen"]
-    });
-    this.richtext.toolbar.data.add({
-		value:"MyAction"
-	});
-  }
+    mounted: function() {
+        this.richtext = new Richtext(this.$refs.container, {
+      	    toolbarBlocks: ["default", "clear", "fullscreen"]
+        });
+        this.richtext.toolbar.data.add({
+            value:"MyAction"
+        });
+    }
 };
 </script>
 ~~~
@@ -81,11 +81,11 @@ This variant adds flexibility in the control over RichText data and configuratio
 
 #### RichText initialization
 
-- The first step is the same. Create a file, let it be *RichText2.vue* this time, and add a container for the RichText inside the **&lt;template&gt;&lt;/template&gt;** tags:
+- The first step is the same. Create a file, let it be `RichText2.vue` this time, and add a container for the RichText inside the `<template></template>` tags:
 
 ~~~js title="RichText.vue"
 <template>
-	<div ref="container" class="widget-box"></div>
+	  <div ref="container" class="widget-box"></div>
 </template>
 ~~~
 
@@ -94,35 +94,35 @@ This variant adds flexibility in the control over RichText data and configuratio
 ~~~js title="RichText.vue"
 <script>
 export default {
-  mounted: function() {
-    this.richtext = new Richtext(this.$refs.container, {
-      mode: this.mode,
-      css: this.css
-    });
-  }
+    mounted: function() {
+        this.richtext = new Richtext(this.$refs.container, {
+            mode: this.mode,
+            css: this.css
+        });
+    }
 };
 </script>
 ~~~
 
 #### Working with configuration options
 
-- Set the list of used RichText configuration properties and their types in the **props** configuration option:
+- Set the list of used RichText configuration properties and their types in the `props` configuration option:
 
 ~~~js title="RichText.vue"
 <script>
 export default {
-  props: {
-      css: String,
-      mode: {type: String, default: "classic"},
-      value: String,
-      dataType: {type: String, default: "html"}
-  },
-  mounted: function() {
-    this.richtext = new Richtext(this.$refs.container, {
-      mode: this.mode,
-      css: this.css
-    });
-  }
+    props: {
+        css: String,
+        mode: {type: String, default: "classic"},
+        value: String,
+        dataType: {type: String, default: "html"}
+    },
+    mounted: function() {
+        this.richtext = new Richtext(this.$refs.container, {
+            mode: this.mode,
+            css: this.css
+        });
+    }
 };
 </script>
 ~~~
@@ -134,7 +134,7 @@ The properties of RichText are exposed and available to work with outside the co
 ~~~js title="BasicSample.vue"
 <template>
 <div class='app-box'>
-	 <Richtext mode="document"></Richtext>
+	  <Richtext mode="document"></Richtext>
 </div>
 </template>
 ~~~
@@ -144,52 +144,51 @@ The properties of RichText are exposed and available to work with outside the co
 
 This variant of using RichText in a Vue.js application allows working with its API moving all calls of methods and event handlers into a separate file. 
 
-First, you can add a couple of wrappers for convenient work with RichText API. The example below shows how you can wrap actions for
-setting RichText value and handling the *change* event taking into account the type of data:
+First, you can add a couple of wrappers for convenient work with RichText API. The example below shows how you can wrap actions for setting RichText value and handling the `change` event taking into account the type of data:
 
 ~~~js title="RichText2.vue"
 export default {
-  props: {
-      css: String,
-      mode: {type: String, default: "classic"},
-      value: String,
-      dataType: {type: String, default: "html"}
-  },
-  mounted: function() {
-    this.richtext = new Richtext(this.$refs.container, {
-      mode: this.mode,
-      css: this.css
-    });
-    if (this.value) {
-      this.richtext.setValue(this.value, this.dataType);
+    props: {
+        css: String,
+        mode: {type: String, default: "classic"},
+        value: String,
+        dataType: {type: String, default: "html"}
+    },
+    mounted: function() {
+        this.richtext = new Richtext(this.$refs.container, {
+            mode: this.mode,
+            css: this.css
+        });
+        if (this.value) {
+            this.richtext.setValue(this.value, this.dataType);
+        }
+        this.richtext.events.on("change", () => {
+            this.$emit("change", this.richtext.getValue(this.dataType));
+        });
     }
-    this.richtext.events.on("change", () => {
-      this.$emit("change", this.richtext.getValue(this.dataType));
-    });
-  }
 }
 ~~~
 
 After that you can use the ready wrappers in other parts of application. 
 
-- Create a *DataSample.vue* file and describe the methods you want to use while working with the richtext. In the example below the *updateMarkdown* and *updateHTML* methods are added for updating the 
+- Create a `DataSample.vue` file and describe the methods you want to use while working with the richtext. In the example below the `updateMarkdown` and `updateHTML` methods are added for updating the 
 the content of the RichText editor:
 
 ~~~js title="DataSample.vue"
 <script>
 import Richtext from "./Richtext.vue";
 export default {
-  components: {
-    Richtext
-  },
-  methods: {
-    updateHTML(val) {
-      this.html = val;
+    components: {
+        Richtext
     },
-    updateMarkdown(val) {
-      this.markdown = val;
+    methods: {
+        updateHTML(val) {
+            this.html = val;
+        },
+        updateMarkdown(val) {
+            this.markdown = val;
+        }
     }
-  }
 }
 </script>
 ~~~
@@ -199,11 +198,11 @@ export default {
 ~~~js title="DataSample.vue"
 <template>
 <div class='app-box'>
-  <p>HTML serialize</p>
-  <Richtext :value="html" v-on:change="updateHTML"></Richtext>
-  <p>Markdown serialize</p>
-  <Richtext :value="markdown" dataType=markdown 
-  			 v-on:change="updateMarkdown"></Richtext>
+    <p>HTML serialize</p>
+    <Richtext :value="html" v-on:change="updateHTML"></Richtext>
+    <p>Markdown serialize</p>
+    <Richtext :value="markdown" dataType=markdown 
+  	    v-on:change="updateMarkdown"></Richtext>
 </div>
 </template>
 ~~~

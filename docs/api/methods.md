@@ -56,7 +56,7 @@ var EditorAPI = richtext.getEditorAPI();
 ```
 
 #### Details
-The returned EditorAPI method contains a list of methods you can use to apply different operations to the editor. Check the list of editor API methods below.
+The returned object contains a list of methods you can use to apply different operations to the editor. Check the list of editor API methods below.
 
 ___
 
@@ -88,7 +88,7 @@ You can get each field of statistical data separately, as it's described below.
 
 **Characters**
 
-To return the count of characters typed into the editor, use the chars property of the getStats method.
+To return the count of characters typed into the editor, use the `chars` property of the getStats method.
 
 ```js 
 var chars = richtext.getStats().chars;
@@ -96,25 +96,25 @@ var chars = richtext.getStats().chars;
 
 **Words**
 
-To return the count of words typed into the editor, use the words property of the getStats method.
+To return the count of words typed into the editor, use the `words` property of the getStats method.
 
 ```js 
-var chars = richtext.getStats().words;
+var words = richtext.getStats().words;
 ```
 
 **Characters without spaces**
 
-To return the count of characters typed into the editor excluding the number of spaces, use the charsExlSpace property of the getStats method.
+To return the count of characters typed into the editor excluding the number of spaces, use the `charsExlSpace` property of the getStats method.
 
 ```js 
 var chars = richtext.getStats().charsExlSpace;
 ```
 
 ### Getting custom statistics
-It is also possible to display custom statistics via the customStats configuration option for any other text items, e.g. the number of sentences:
+It is also possible to display custom statistics via the `customStats` configuration option for any other text items, e.g. the number of sentences:
 
 ```js 
-var rich = new dhx.Richtext("rich", {
+var richtext = new dhx.Richtext("rich", {
     customStats: [ 
         {
            name: "chars"
@@ -151,7 +151,7 @@ Returns the content of the RichText editor in the chosen format
 
 | Parameter | Type     | Description                                                           |
 |-----------|----------|-----------------------------------------------------------------------|
-| `mode`    | `string` | the format of returned content:"html" (default), "markdown" or "text" |
+| `mode`    | `string` | the format of returned content:`"html"` (default), `"markdown"` or `"text"` |
 
 **Returns:**
 
@@ -187,7 +187,7 @@ Adds content into the RichText editor
 | Parameter | Type     | Description                                                                   |
 |-----------|----------|-------------------------------------------------------------------------------|
 | `value`   | `string` | the context you want to add into the editor in either HTML or Markdown format |
-| `mode`    | `string` | optional, the format of text parsing: "html" or "markdown"                    |
+| `mode`    | `string` | optional, the format of text parsing: `"html"` or `"markdown"`                   |
 
 ```js 
 var htmlText = `<h1>Meet DHTMLX Rich Text Editor!</h1>` +

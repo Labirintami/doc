@@ -12,7 +12,7 @@ Follow this comprehensive and easy-to-reproduce tutorial to create RichText edit
 Step 1. Include source files
 --------------------------
 
-First create an HTML file with the name *index.html*. Then include the source files of dhtmlxRichText into this file. 
+First create an HTML file with the name `index.html`. Then include the source files of dhtmlxRichText into this file. 
 [Have a look at the structure of RichText package](guides/initialization.md#including-source-files).
 
 You need to include the following two files:
@@ -43,7 +43,7 @@ Step 2. Create RichText
 
 At this step you can add RichText on a page. There are two easy steps:
 
-- Open the *index.html* file and create a DIV container in it.
+- Open the `index.html` file and create a DIV container in it.
 - Initialize dhtmlxRichText in the container with the help of the `dhx.Richtext` constructor. As parameters of the constructor function, pass the container you've created above and the configuration object of RichText:
 
 ~~~html title="index.html"
@@ -73,7 +73,7 @@ Now it's time to define the desired configuration options to make RichText meet 
 
 RichText provides several options that let you adjust the toolbar appearance and behavior as well as choose the most suitable mode of work with a document. [Learn all the available settings](api/properties.md).
 
-For example, you can specify the *document* mode of RichText displaying:
+For example, you can specify the *"document"* mode of RichText displaying:
 
 ~~~js
 var rich = new dhx.Richtext("richtext_container", {

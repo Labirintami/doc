@@ -21,7 +21,7 @@ There are two modes of RichText editor between which you can select to get the b
 To specify the desired mode, you need to define it in the [mode](../api/properties.md#mode) option of the Richtext configuration object during initialization of the component:
 
 ~~~js
-var richtext = new dhx.Richtext("rich", {
+var richtext = new dhx.Richtext("richtext_container", {
 	mode: "document"
 });
 ~~~
@@ -35,12 +35,12 @@ Toolbar
 
 The RichText toolbar consists of several blocks of controls that can be changed according to your needs. By default, there are the following blocks of controls in the toolbar: 
 
-- *"undo"* - to undo/redo recent actions
-- *"style"* - to change the font, font size, turn plain text into a heading and vice versa, and make a quote out of the text
-- *"decoration"* - to make text bold, italic, underlined or strike-through
-- *"colors"* - to change the color of the text or its background
-- *"align"* - to adjust the alignment of the text on a page
-- *"link"* - to add a link into the text
+- `"undo"` - to undo/redo recent actions
+- `"style"` - to change the font, font size, turn plain text into a heading and vice versa, and make a quote out of the text
+- `"decoration"` - to make text bold, italic, underlined or strike-through
+- `"colors"` - to change the color of the text or its background
+- `"align"` - to adjust the alignment of the text on a page
+- `"link"` - to add a link into the text
 
 The structure of toolbar is defined via the [toolbarBlocks](../api/properties.md#toolbarblocks) configuration option of the component, which is an array with strings presenting the names of controls.
 
@@ -60,9 +60,9 @@ var richtext = new dhx.Richtext(document.body, {
 
 You can add several more blocks to make the full toolbar: 
 
-- *"clear"* - to clear formatting applied to the text
-- *"fullscreen"* - to enter/exit the full screen mode
-- *"stats"* - to display statistics about the text: the count of words, characters and characters excluding spaces or some custom statistical data
+- `"clear"` - to clear formatting applied to the text
+- `"fullscreen"` - to enter/exit the full screen mode
+- `"stats"` - to display statistics about the text: the count of words, characters and characters excluding spaces or some custom statistical data
     
 ~~~js
 var richtext = new dhx.Richtext(document.body, {
@@ -81,7 +81,7 @@ var richtext = new dhx.Richtext(document.body, {
 
 ### Short toolbar definition
 
-There is also a possibility to specify the default set of buttons via the *"default"* definition in the **toolbarBlocks** array, like this:
+There is also a possibility to specify the default set of buttons via the `"default"` definition in the  `toolbarBlocks` array, like this:
 
 ~~~js
 var richtext = new dhx.Richtext(document.body, {
@@ -90,12 +90,12 @@ var richtext = new dhx.Richtext(document.body, {
 });
 ~~~
 
-where the "default" string includes the default set of controls: *"undo"*, *"style"*, *"decoration"*, *"colors"*, *"align"* and *"link"*.
+where the "default" string includes the default set of controls: `"undo"`, `"style"`, `"decoration"`, `"colors"`, `"align"` and `"link"`.
 
 
 ### Custom toolbar
 
-You can specify your own structure of the toolbar by enumerating the necessary elements of the **toolbarBlocks** array in the desired order, for example:
+You can specify your own structure of the toolbar by enumerating the necessary elements of the `toolbarBlocks` array in the desired order, for example:
 
 ~~~js
 var richtext = new dhx.Richtext(document.body, {

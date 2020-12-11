@@ -6,7 +6,7 @@ title: Events Bus
 
 ## `detach`
 
-Detaches a handler from an event (which was attached before by the on() method)
+Detaches a handler from an event (which was attached before by the `on()` method)
 
 `void detach(string name, [any context] );`
 
@@ -24,7 +24,8 @@ richtext.events.detach("Change");
 ```
 
 #### Details
-By default detach() removes all event handlers from the target event. You can detach particular event handlers by using the context marker.
+
+By default `detach()` removes all event handlers from the target event. You can detach particular event handlers by using the context marker.
 
 ```js 
 var marker = "any"; // you can use any string|object value

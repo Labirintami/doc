@@ -7,13 +7,18 @@
 
 
 module.exports = {
-    docs: [{
-            type: "doc",
-            id: "how_to_start",
-        },
+    docs: [
         {
             type: "doc",
             id: "overview",
+        },
+        {
+            type: "doc",
+            id: "whats_new",
+        },
+        {
+            type: "doc",
+            id: "how_to_start",
         },
         {
             type: "category",
@@ -21,11 +26,11 @@ module.exports = {
             // collapsed: false,
             items: [
                 "api/overview",
-                "api/editor_api_methods",
                 "api/methods",
                 "api/events_bus",
                 "api/events",
                 "api/properties",
+                "api/editor_api_methods",
 
                 // {
                 //     type: "category",
@@ -45,10 +50,6 @@ module.exports = {
             ],
         },
         {
-            type: "doc",
-            id: "whats_new",
-        },
-        {
             type: "category",
             label: "Guides",
             collapsed: false,
@@ -60,10 +61,9 @@ module.exports = {
                 "guides/working_with_richtext",
                 "guides/customization",
                 "guides/event_handling",
-                "guides/react_integration",
                 "guides/angular_integration",
+                "guides/react_integration",
                 "guides/vuejs_integration",
-
             ],
         },
     ],

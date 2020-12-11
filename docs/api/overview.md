@@ -44,7 +44,7 @@ Parameters:
 
 | Name                        | Description                                                                     |
 |-----------------------------|---------------------------------------------------------------------------------|
-| [detach](api/events_bus.md#detach) | detaches a handler from an event (which was attached before by the on() method) |
+| [detach](api/events_bus.md#detach) | detaches a handler from an event (which was attached before by the `on()` method) |
 | [fire](api/events_bus.md#fire)   | triggers an inner event                                                         |
 | [on](api/events_bus.md#on)     | attaches a handler to an inner event of Vault                                   |
 
@@ -64,7 +64,7 @@ Parameters:
 
 | Name                               | Description                                                            |
 |------------------------------------|------------------------------------------------------------------------|
-| [customStats](api/properties.md#customstats)   | defines the logic of displaying custom statistics                      |
+| [customStats](api/properties.md#customstats)   | defines the logic of displaying custom statistics          |
 | [mode](api/properties.md#mode)          | the working mode of the RichText editor                                |
 | [toolbarBlocks](api/properties.md#toolbarblocks) | specifies blocks of buttons that will be shown in the Richtext toolbar |
 

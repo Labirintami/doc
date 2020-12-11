@@ -25,57 +25,57 @@ after the source files of dhtmlxRichText as follows:
 
 **Related sample:** [Custom Icons](https://snippet.dhtmlx.com/oxu04enu)
 
-Then you can use the name of the icon as the value of the **icon** property in the object with the control parameters for toolbar. See details below.
+Then you can use the name of the icon as the value of the `icon` property in the object with the control parameters for toolbar. See details below.
 
 Controls
 -------------
 
 ### Types
 
-There are the following types of controls you can add: *button*, *customHTMLButton*, *separator* and *spacer*.
+There are the following types of controls you can add: `button`, `customButton`, `separator` and `spacer`.
 
 #### Button
 
-The **button** object has the following properties:
+The `button` object has the following properties:
 
-- **type** - the type of a button, set it to "button"
-- **id** - the id of a button
-- **icon** - the name of an icon from the used icon font
-- **hotkey** - the name of the hot key for a button
-- **value** - the value of a button
-- **tooltip** - the tooltip of a button
-- **count** - the counter of a button
-- **items** - an array of nested controls
-- **group** - defines the name of a group of controls a button belongs to. If one of the buttons in the group becomes active, all others automatically become inactive
-- **twoState** -  the flag that defines whether a button can be used in two states
-- **active** - the state of a button activity: *true* - active, *false* - inactive
-- **multiClick** - defines the behavior of the Undo/Redo buttons: 
+- `type` - the type of a button, set it to "button"
+- `id` - the id of a button
+- `icon` - the name of an icon from the used icon font
+- `hotkey` - the name of the hot key for a button
+- `value` - the value of a button
+- `tooltip` - the tooltip of a button
+- `count` - the counter of a button
+- `items` - an array of nested controls
+- `group` - defines the name of a group of controls a button belongs to. If one of the buttons in the group becomes active, all others automatically become inactive
+- `twoState` -  the flag that defines whether a button can be used in two states
+- `active` - the state of a button activity: *true* - active, *false* - inactive
+- `multiClick` - defines the behavior of the Undo/Redo buttons: 
 	- *true* - all the actions are reverted/re-applied one by one when the Undo/Redo button is clicked and held
     - *false* - one action is reverted/re-applied on each click of the Undo/Redo button
 
-#### Custom HTML Button
+#### Custom Button
 
-The **customButton** object has the following properties:
+The `customButton` object has the following properties:
 
-- **type** - the item type, set it to "customButton"
-- **id** - the id of a button
-- **html** - a string with HTML that should be inserted into the button
-- **twoState** -  the flag that defines whether a button can be used in two states
-- **active** - the state of a button activity: *true* - active, *false* - inactive
-- **value** - the value of a button
-- **count** - the counter of a button
+- `type` - the item type, set it to "customButton"
+- `id` - the id of a button
+- `html` - a string with HTML that should be inserted into the button
+- `twoState` -  the flag that defines whether a button can be used in two states
+- `active` - the state of a button activity: *true* - active, *false* - inactive
+- `value` - the value of a button
+- `count` - the counter of a button
 
 ### Work with controls
 
-The data collection API of the **toolbar** allows you to manipulate the controls, namely to add custom controls, remove the controls you don't need, or update the controls, e.g. change their icons.
+The data collection API of the `toolbar` allows you to manipulate the controls, namely to add custom controls, remove the controls you don't need, or update the controls, e.g. change their icons.
 
 #### Adding controls
 
-To add a new control, apply the **richtext.{name}.data.add()** method. It takes the parameters below:
+To add a new control, apply the `richtext.{name}.data.add()` method. It takes the parameters below:
 
-- **config** - (*object*) an object with the control config
-- **index** - (*number*) the index of the position to place the control into
-- **parent** - (*string*) the id of a parent control (for the *menuItem* type)
+- `config` - (*object*) an object with the control config
+- `index` - (*number*) the index of the position to place the control into
+- `parent` - (*string*) the id of a parent control (for the *menuItem* type)
 
 For a button:
 
@@ -92,7 +92,7 @@ For a custom HTML button:
 
 ~~~js
 richtext.toolbar.data.add({
-	type: "customHTMLButton", 
+	type: "customButton", 
     id: "htmlbutton-id",
     value: "Some value",
     icon: "icon-name"
@@ -101,7 +101,8 @@ richtext.toolbar.data.add({
 
 #### Updating controls
 
-You can change the icon of the control and its other config options via the **richtext.{name}.data.update()** method. It takes two parameters:
+You can change the icon of the control and its other config options via the   
+`richtext.{name}.data.update()` method. It takes two parameters:
 
 - the id of the control
 - an object with new configuration of the control
@@ -114,7 +115,7 @@ richtext.toolbar.data.update("add", {
 
 #### Deleting controls
 
-To remove a control, make use of the **richtext.{name}.data.remove()** method. Pass the id of the control that should be removed to the method:
+To remove a control, make use of the `richtext.{name}.data.remove()` method. Pass the id of the control that should be removed to the method:
 
 ~~~js
 richtext.toolbar.data.remove("control-id");

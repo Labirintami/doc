@@ -48,8 +48,7 @@ The structure of the RichText package is the following:
 
 - **sources** - the source code files of the library; they are easy-to-read and are mostly intended for debugging;
 - **codebase** - the obfuscated code files of the library; they are much smaller and intended for use in production. **Include these files in your apps when they are ready**;
-- **samples** - the code samples;
-- **docs** - the full documentation of the component.
+- **samples** - the code samples.
 
 
 Creating container 

@@ -14,7 +14,7 @@ extension of the app functionality depending on your goals.
 
 To add RichText package into your React-based app you need to [download the component package](https://dhtmlx.com/docs/products/dhtmlxRichText/download.shtml) and unpack it into a folder of your project.
 
-Then include **richtext.js** and **richtext.css** files into a page. 
+Then include `richtext.js` and `richtext.css` files into a page. 
 Make sure that you set correct relative paths to these files:
 
 ~~~html title="index.html"
@@ -33,15 +33,15 @@ In this variant RichText configuration and data are held inside of the React com
 
 #### RichText initialization
 
-- Create a *RichText.js* file, then create the *RichText* class and add a container for RichText using the **render()** function. Store the reference to the container in the **el** property:
+- Create a `RichText.js` file, then create the `RichText` class and add a container for RichText using the `render()` function. Store the reference to the container in the `el` property:
 
 ~~~js title="RichText.js"
 class Richtext extends Component {
-  render() {
-	return (
-      <div ref={el => this.el = el} className="widget-box" style={{width:800,height:400}}></div>
-    );
-  }
+    render() {
+        return (
+            <div ref={el => this.el = el} className="widget-box" style={{width:800,height:400}}></div>
+        );
+    }
 }
 ~~~
 
@@ -64,14 +64,14 @@ class RichText extends Component {
 
 ~~~js title="RichText.js"
 class RichText extends Component {
-  componentDidMount() {
-    this.richtext = new Richtext(this.el, {
-      toolbarBlocks: ["default", "clear", "fullscreen"]
-    });
-    this.richtext.toolbar.data.add({
-        value:"MyAction"
-    });
-  }
+    componentDidMount() {
+        this.richtext = new Richtext(this.el, {
+            toolbarBlocks: ["default", "clear", "fullscreen"]
+        });
+        this.richtext.toolbar.data.add({
+            value:"MyAction"
+        });
+    }
 }
 ~~~
 
@@ -82,15 +82,15 @@ This variant adds flexibility in the control over RichText data and configuratio
 
 #### RichText initialization
 
-- The first step is the same. Create a file, let it be *RichText2.js* this time, and add the *RichText* class and use the `new RichText` constructor to initialize RichText.
+- The first step is the same. Create a file, let it be `RichText2.js` this time, and add the `RichText` class and use the `new RichText` constructor to initialize RichText.
 
 ~~~js title="RichText2.js"
 class RichTextComponent extends Component {
-  componentDidMount() {
-    this.richtext = new Richtext(this.el, {
-      // config here
-    });
-  }
+    componentDidMount() {
+        this.richtext = new Richtext(this.el, {
+            // config here
+        });
+    }  
 }
 ~~~
 
@@ -98,17 +98,17 @@ class RichTextComponent extends Component {
 
 ~~~js
 class RichTextComponent extends Component {
-  componentDidMount() {
-    this.richtext = new Richtext(this.el, {
-      mode: this.props.mode
-    });
-  }
+    componentDidMount() {
+        this.richtext = new Richtext(this.el, {
+            mode: this.props.mode
+        });
+    }
 }
 ~~~
 
-Thus the **props** configuration option will be applied to the RichText widget configuration.
+Thus the `props` configuration option will be applied to the RichText widget configuration.
 
-- Then create a container for RichText using the **render()** function:
+- Then create a container for RichText using the `render()` function:
 
 ~~~js title="RichText2.js"
 render() {
@@ -120,33 +120,33 @@ render() {
 
 #### Working with configuration options
 
-- Set the list of used RichText configuration properties and their types in the **props** configuration option:
+- Set the list of used RichText configuration properties and their types in the `props` configuration option:
 
 ~~~js title="RichText2.js"
 class RichtextComponent extends Component {
-  componentDidMount() {
-    this.richtext = new Richtext(this.el, {
-      mode: this.props.mode
-    });
+    componentDidMount() {
+        this.richtext = new Richtext(this.el, {
+            mode: this.props.mode
+        });
+    }
 }
 RichtextComponent.propTypes = {
-  mode: PropTypes.string,
-  value: PropTypes.string,
-  dataType: PropTypes.string,
-  onChange: PropTypes.func
+    mode: PropTypes.string,
+    value: PropTypes.string,
+    dataType: PropTypes.string,
+    onChange: PropTypes.func
 };
 RichtextComponent.defaultProps = {
-  mode: "classic",
-  dataType: "html"
+    mode: "classic",
+    dataType: "html"
 }
 ~~~
-
 
 Since the properties of RichText are exposed they are available to work with outside the component. In the example below the "document" mode is set for the richtext:
 
 ~~~js title="BasicSample.js"
 <div className='app-box'>
-	 <Richtext mode="document"></Richtext>
+	  <Richtext mode="document"></Richtext>
 </div>
 ~~~
 
@@ -155,48 +155,46 @@ Since the properties of RichText are exposed they are available to work with out
 
 This variant of using RichText in a React application allows working with its API moving all calls of methods and event handlers into a separate file. 
 
-First, you can add a couple of wrappers for convenient work with RichText API. The example below shows how you can wrap actions for
-setting RichText value and handling the *change* event taking into account the type of data:
+First, you can add a couple of wrappers for convenient work with RichText API. The example below shows how you can wrap actions for setting RichText value and handling the `change` event taking into account the type of data:
 
 ~~~js title="RichText2.js"
 class RichtextComponent extends Component {
-  componentDidMount() {
-    this.richtext = new Richtext(this.el, {
-      mode: this.props.mode
-    });
+    componentDidMount() {
+        this.richtext = new Richtext(this.el, {
+            mode: this.props.mode
+        });
 
-    if (this.props.value) {
-      this.richtext.setValue(this.props.value, this.props.dataType);
+        if (this.props.value) {
+            this.richtext.setValue(this.props.value, this.props.dataType);
+        }
+        if (this.props.onChange) {
+            this.richtext.events.on("change", () => {
+                this.props.onChange(this.richtext.getValue(this.props.dataType));
+            });
+        }
     }
-    if (this.props.onChange) {
-      this.richtext.events.on("change", () => {
-        this.props.onChange(this.richtext.getValue(this.props.dataType));
-      });
-    }
-  }
 }
 ~~~
 
 After that you can use the ready wrappers in other parts of application. 
 
-- Create a *DataSample.js* file and describe the methods you want to use while working with the richtext. In the example below the *updateMarkdown* and *updateHTML* methods are added for updating the 
-the content of the RichText editor:
+- Create a `DataSample.js` file and describe the methods you want to use while working with the richtext. In the example below the `updateMarkdown` and `updateHTML` methods are added for updating the the content of the RichText editor:
 
 ~~~js title="DataSample.js"
 class DataSample extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      html: '',
-      markdown: ``
+    constructor(props) {
+        super(props);
+        this.state = {
+            html: '',
+            markdown: ``
+        }
     }
-  }
-  updateMarkdown(value) {
-    this.setState({...this.state, markdown: value});
-  }
-  updateHTML(value) {
-    this.setState({...this.state, html: value});
-  }
+    updateMarkdown(value) {
+        this.setState({...this.state, markdown: value});
+    }
+    updateHTML(value) {
+        this.setState({...this.state, html: value});
+    }
 }
 ~~~
 
@@ -204,22 +202,22 @@ class DataSample extends Component {
 
 ~~~js title="DataSample.js"
 class DataSample extends Component {
-   ...   
-   render() {
-    return (
-      <div className='app-box'>
-        <p>HTML serialize</p>
-        <RichtextComponent value={this.state.html} 
-        	onChange={val => this.updateHTML(val)}>></RichtextComponent>
+    ...   
+    render() {
+        return (
+            <div className='app-box'>
+                <p>HTML serialize</p>
+                <RichtextComponent value={this.state.html} 
+        	          onChange={val => this.updateHTML(val)}>></RichtextComponent>
 
-        <hr />
-        <p>Markdown serialize</p>
-        <RichtextComponent value={this.state.markdown} dataType="markdown" 
-        	onChange={val => this.updateMarkdown(val)}></RichtextComponent>
-      </div>
-    );
-   ...
-  }
+                <hr />
+                <p>Markdown serialize</p>
+                <RichtextComponent value={this.state.markdown} dataType="markdown" 
+        	          onChange={val => this.updateMarkdown(val)}></RichtextComponent>
+            </div>
+        );
+        ...
+    }
 }
 ~~~
 

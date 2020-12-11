@@ -10,6 +10,8 @@
 
 /* You can override the default Infima variables here. */
 
+
+
 :root {
     --ifm-color-primary: #25c2a0;
     --ifm-color-primary-dark: rgb(33, 175, 144);
@@ -38,3 +40,4 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     font-size: 15px;
     margin-left: 20px;
 }
+

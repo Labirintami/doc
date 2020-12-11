@@ -19,10 +19,10 @@ Adds a new text into the editor
 // adding simple text
 richtext.getEditorAPI().add("text");
 // or
-rich.getEditorAPI().add({type:"text",data:"text"});
+richtext.getEditorAPI().add({type:"text",data:"text"});
  
 // adding a text node with style into the predefined position
-rich.getEditorAPI().add({
+richtext.getEditorAPI().add({
     type: "textnode",
     data: {
         text: "Hello world",
@@ -40,7 +40,7 @@ rich.getEditorAPI().add({
 });
  
 // adding a data model
-rich.getEditorAPI().add({type:"full",data:[
+richtext.getEditorAPI().add({type:"full",data:[
     {
         "style": {
             "style": "h1"
@@ -83,22 +83,23 @@ The returned EditorAPI method contains a list of methods you can use to apply di
 		<tr>
 			<td><code>config</code></td>
 			<td><code>string|object</code></td>
-			<td>a <i>string</i> with a text or a text block as an <i>object</i>. If set as an object, the parameter includes:
+			<td>a <code>string</code> with a text or a text block as an <code>object</code>.
+			If set as an <code>object</code>, the parameter includes:
 				<ul>
-					<li><b>type</b> - (<i>string</i>) the type of a text block: "text" (a string) | "textnode" (a text node) | "full" (a data model);</li>
-					<li><b>data</b> - (<i>string|object|array</i>) the content of a text block. It can be:
+					<li><code>type</code> - (<i>string</i>) the type of a text block: "text" (a string) | "textnode" (a text node) | "full" (a data model);</li>
+					<li><code>data</code> - (<i>string|object|array</i>) the content of a text block. It can be:
 						<ul>
-							<li>a simple <b>string</b> with text;</li>
-							<li>a text node as an <b>object</b> that includes:
+							<li>a simple <code>string</code> with text;</li>
+							<li>a text node as an <code>object</code> that includes:
 								<ul>
-									<li>a text as a <i>string</i>;</li>
-									<li>an <i>object</i> with style properties.</li>
+									<li>a text as a <code>string</code>;</li>
+									<li>an <code>object</code> with style properties.</li>
 								</ul>
 							</li>
-							<li>a data model as an <b>array</b>. It contains objects with styles and text nodes. Each text node includes:
+							<li>a data model as an <code>array</code>. It contains objects with styles and text nodes. Each text node includes:
 								<ul>
-									<li>an <i>array</i> with text nodes objects (each of them contains two <i>key:value</i> values for a text string and an object with style settings, as described above)</li>
-									<li>a style <i>object</i></li>
+									<li>an <code>array</code> with text nodes objects (each of them contains two <i>key:value</i> values for a text string and an object with style settings, as described above)</li>
+									<li>a style <code>object</code></li>
 								</ul>
 							</li>
 						</ul>
@@ -111,19 +112,19 @@ The returned EditorAPI method contains a list of methods you can use to apply di
 			<td><code>object</code></td>
 			<td>optional, text selection (its position relative to all other text). Includes the following attributes:
 				<ul>
-					<li><b>range</b> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
-					<li><b>left</b> - (<i>object</i>) the left coordinate of selection, contains the following properties:
+					<li><code>range</code> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
+					<li><code>left</code> - (<i>object</i>) the left coordinate of selection, contains the following properties:
 						<ul>
-							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
-							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
+							<li><code>blockIndex</code> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><code>textIndex</code> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><code>offset</code> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
 						</ul>
 					</li>
-					<li><b>right</b> - (<i>object</i>) the right coordinate of selection, contains the following properties:
+					<li><code>right</code> - (<i>object</i>) the right coordinate of selection, contains the following properties:
 						<ul>
-							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
-							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
+							<li><code>blockIndex</code> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><code>textIndex</code> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><code>offset</code> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
 						</ul>
 					</li>
 				</ul>
@@ -148,7 +149,7 @@ Returns the data model of the entered text in the JSON format
 
 
 ```js 
-var model = rich.getEditorAPI().getModel();
+var model = richtext.getEditorAPI().getModel();
 ```
 
 **Related samples:**  [RichText. Get Model](https://snippet.dhtmlx.com/ef6uolvq)
@@ -185,8 +186,8 @@ The returned value is an array of the following type:
 
 It contains objects with styles and text nodes. Each text node includes:
 
-- an <i>array</i> with text nodes objects (each of them contains two <i>key:value</i> pairs for a text string and an object with style settings)
-- a style <i>object</i>
+- an <code>array</code> with text nodes objects (each of them contains two <i>key:value</i> pairs for a text string and an object with style settings)
+- a style <code>object</code>
 ___
 
 ## `getPosition`
@@ -203,7 +204,7 @@ Returns the position of text selection relative to the browser window
 
 
 ```js 
-var position = rich.getEditorAPI().getPosition();
+var position = richtext.getEditorAPI().getPosition();
 ```
 
 **Related samples:** [RichText. Get Position](https://snippet.dhtmlx.com/nv42vsjg)
@@ -223,10 +224,10 @@ The returned value is an object of the following type:
 
 where:
 
-- **xStart** - the X coordinate of the selection start
-- **yStart** - the Y coordinate of the selection start
-- **xEnd** - the X coordinate of the selection end
-- **yEnd** - the Y coordinate of the selection end
+- `xStart` - the X coordinate of the selection start
+- `yStart` - the Y coordinate of the selection start
+- `xEnd` - the X coordinate of the selection end
+- `yEnd` - the Y coordinate of the selection end
 ___
 
 ## `getSelection`
@@ -243,7 +244,7 @@ Returns the position of text selection relative to all other text
 
 
 ```js 
-var selection = rich.getEditorAPI().getSelection();
+var selection = richtext.getEditorAPI().getSelection();
 ```
 
 **Related samples:** [RichText. Get Selection](https://snippet.dhtmlx.com/se4p4vin)
@@ -273,19 +274,19 @@ where:
 <table>
 	<tbody>
 			<ul>
-					<li><b>range</b> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
-					<li><b>left</b> - (<i>object</i>) the left coordinate of selection, contains the following properties:
+					<li><code>range</code> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
+					<li><code>left</code> - (<i>object</i>) the left coordinate of selection, contains the following properties:
 						<ul>
-							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
-							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
+							<li><code>blockIndex</code> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><code>textIndex</code> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><code>offset</code> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
 						</ul>
 					</li>
-					<li><b>right</b> - (<i>object</i>) the right coordinate of selection, contains the following properties:
+					<li><code>right</code> - (<i>object</i>) the right coordinate of selection, contains the following properties:
 						<ul>
-							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
-							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
+							<li><code>blockIndex</code> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><code>textIndex</code> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><code>offset</code> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
 						</ul>
 					</li>
 				</ul>
@@ -306,9 +307,9 @@ Removes a selected text
 
 
 ```js 
-var api = rich.getEditorAPI();
+var api = richtext.getEditorAPI();
  
-rich.getEditorAPI().remove(api.getSelection());
+richtext.getEditorAPI().remove(api.getSelection());
 ```
 
 **Related samples:** [RichText. Remove](https://snippet.dhtmlx.com/0vzuwyk1)
@@ -324,19 +325,19 @@ Check the detailed description of the parameter:
 			<td><code>object</code></td>
 			<td>optional, text selection (its position relative to all other text). Includes the following attributes:
 				<ul>
-					<li><b>range</b> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
-					<li><b>left</b> - (<i>object</i>) the left coordinate of selection, contains the following properties:
+					<li><code>range</code> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
+					<li><code>left</code> - (<i>object</i>) the left coordinate of selection, contains the following properties:
 						<ul>
-							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
-							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
+							<li><code>blockIndex</code> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><code>textIndex</code> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><code>offset</code> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
 						</ul>
 					</li>
-					<li><b>right</b> - (<i>object</i>) the right coordinate of selection, contains the following properties:
+					<li><code>right</code> - (<i>object</i>) the right coordinate of selection, contains the following properties:
 						<ul>
-							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
-							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
+							<li><code>blockIndex</code> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><code>textIndex</code> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><code>offset</code> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
 						</ul>
 					</li>
 				</ul>
@@ -398,8 +399,8 @@ Check the detailed description of parameters:
 			<td><code>array</code></td>
 			<td>an array of objects with styles and text nodes. Each text node includes:
 				<ul>
-					<li>an <i>array</i> with text nodes objects (each of them contains two <i>key:value</i> pairs for a text string and an object with style settings)</li>
-					<li>a style <i>object</i></li>
+					<li>an <code>array</code> with text nodes objects (each of them contains two <i>key:value</i> pairs for a text string and an object with style settings)</li>
+					<li>a style <code>object</code></li>
 				</ul>
 			</td>
 		</tr>
@@ -408,19 +409,19 @@ Check the detailed description of parameters:
 			<td><code>object</code></td>
 			<td>optional, text selection (its position relative to all other text). Includes the following attributes:
 				<ul>
-					<li><b>range</b> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
-					<li><b>left</b> - (<i>object</i>) the left coordinate of selection, contains the following properties:
+					<li><code>range</code> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
+					<li><code>left</code> - (<i>object</i>) the left coordinate of selection, contains the following properties:
 						<ul>
-							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
-							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
+							<li><code>blockIndex</code> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><code>textIndex</code> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><code>offset</code> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
 						</ul>
 					</li>
-					<li><b>right</b> - (<i>object</i>) the right coordinate of selection, contains the following properties:
+					<li><code>right</code> - (<i>object</i>) the right coordinate of selection, contains the following properties:
 						<ul>
-							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
-							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
+							<li><code>blockIndex</code> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><code>textIndex</code> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><code>offset</code> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
 						</ul>
 					</li>
 				</ul>
@@ -471,19 +472,19 @@ Check the detailed description of the parameter:
 			<td><code>object</code></td>
 			<td>the position of text selection relative to all other text. Includes the following attributes:
 				<ul>
-					<li><b>range</b> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
-					<li><b>left</b> - (<i>object</i>) the left coordinate of selection, contains the following properties:
+					<li><code>range</code> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
+					<li><code>left</code> - (<i>object</i>) the left coordinate of selection, contains the following properties:
 						<ul>
-							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
-							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
+							<li><code>blockIndex</code> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><code>textIndex</code> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><code>offset</code> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
 						</ul>
 					</li>
-					<li><b>right</b> - (<i>object</i>) the right coordinate of selection, contains the following properties:
+					<li><code>right</code> - (<i>object</i>) the right coordinate of selection, contains the following properties:
 						<ul>
-							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
-							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
+							<li><code>blockIndex</code> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><code>textIndex</code> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><code>offset</code> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
 						</ul>
 					</li>
 				</ul>
@@ -507,9 +508,9 @@ Modifies the entered text
 
 
 ```js 
-var api = rich.getEditorAPI();
+var api = richtext.getEditorAPI();
  
-rich.getEditorAPI().update(
+richtext.getEditorAPI().update(
 	{
     	modifier: "color",
     	value: "#BB2B1A"
@@ -531,8 +532,8 @@ Check the detailed description of parameters:
 			<td><code>object</code></td>
 			<td>an object with details of updating. It contains two parameters:
 				<ul>
-					<li><b>modifier</b> - (<i>object</i>) an object with a set of styling options that will be updated;</li>
-					<li><b>value</b> - (<i>any</i>) the value of the modifier.</li>
+					<li><code>modifier</code> - (<i>object</i>) an object with a set of styling options that will be updated;</li>
+					<li><code>value</code> - (<i>any</i>) the value of the modifier.</li>
 				</ul>
 			</td>
 		</tr>
@@ -541,19 +542,19 @@ Check the detailed description of parameters:
 			<td><code>object</code></td>
 			<td>optional, text selection (its position relative to all other text). Includes the following attributes:
 				<ul>
-					<li><b>range</b> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
-					<li><b>left</b> - (<i>object</i>) the left coordinate of selection, contains the following properties:
+					<li><code>range</code> - (<i>boolean</i>) defines whether the selection includes one character (<i>false</i>), or a range of them (<i>true</i>).</li>
+					<li><code>left</code> - (<i>object</i>) the left coordinate of selection, contains the following properties:
 						<ul>
-							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
-							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
+							<li><code>blockIndex</code> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><code>textIndex</code> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><code>offset</code> - (<i>number</i>) the number of the first character within a text node in the selection.</li>
 						</ul>
 					</li>
-					<li><b>right</b> - (<i>object</i>) the right coordinate of selection, contains the following properties:
+					<li><code>right</code> - (<i>object</i>) the right coordinate of selection, contains the following properties:
 						<ul>
-							<li><b>blockIndex</b> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
-							<li><b>textIndex</b> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
-							<li><b>offset</b> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
+							<li><code>blockIndex</code> - (<i>number</i>) the index of a text block (a text line), enumeration starts from 0;</li>
+							<li><code>textIndex</code> - (<i>number</i>) the index of a text node (a text with common styling), enumeration starts from 0;</li>
+							<li><code>offset</code> - (<i>number</i>) the number of the last character within a text node in the selection. You can also call the <a href="https://richtext-doc.netlify.app/docs/api/editor_api_methods#getselection">getSelection</a> method instead of passing the second parameter.</li>
 						</ul>
 					</li>
 				</ul>

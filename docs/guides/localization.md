@@ -94,7 +94,7 @@ var de = {
 };
 ~~~
 
-- apply the new locale by calling the **dhx.i18n.setLocale()** method before initializing RichText:
+- apply the new locale by calling the `dhx.i18n.setLocale()` method before initializing RichText:
 
 ~~~js
 dhx.i18n.setLocale("richtext", de);
