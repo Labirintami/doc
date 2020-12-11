@@ -103,7 +103,7 @@ export class RichtextComponent implements OnInit, OnDestroy {
   	ngOnInit() {
       	this.richtext = new Richtext(this.container.nativeElement, {
       	    mode: this.mode
-    	  });
+        });
     }   
 }
 ~~~
@@ -138,7 +138,7 @@ The properties of RichText are exposed and available to work with outside the co
     <div class='app-box'>
         <app-richtext mode='document' class='wide-size'></app-richtext>
     </div>`
-}}
+})
 ~~~
 
 #### Working with RichText API
