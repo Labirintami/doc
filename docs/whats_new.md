@@ -3,14 +3,6 @@ sidebar_label: What's new
 title: What's new
 ---
 
-<!-- <style>
-.rel_date{
-	color: #a0a0a0;
-    font-size: 13px;
-    margin-left: 20px;
-}
-</style> -->
-
 Version 1.1.2
 ---------------
 

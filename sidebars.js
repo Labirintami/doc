@@ -1,29 +1,16 @@
-// module.exports = {
-//     someSidebar: {
-//         Docusaurus: ["doc1", "doc2", "doc3"],
-//         Features: ["mdx"],
-//     },
-// };
-
-
 module.exports = {
-    docs: [
+    docs: [{
+            type: "doc",
+            id: "how_to_start",
+        },
         {
             type: "doc",
             id: "overview",
         },
         {
-            type: "doc",
-            id: "whats_new",
-        },
-        {
-            type: "doc",
-            id: "how_to_start",
-        },
-        {
             type: "category",
             label: "API",
-            // collapsed: false,
+            collapsed: false,
             items: [
                 "api/overview",
                 "api/methods",
@@ -31,23 +18,11 @@ module.exports = {
                 "api/events",
                 "api/properties",
                 "api/editor_api_methods",
-
-                // {
-                //     type: "category",
-                //     label: "Methods",
-                //     items: [
-                //         "api/richtext_destructor",
-                //         "api/richtext_exitfullscreen",
-                //         "api/richtext_fullscreen",
-                //         "api/richtext_geteditorapi",
-                //         "api/richtext_getvalue",
-                //         "api/richtext_getstats",
-                //         "api/richtext_paint",
-                //         "api/richtext_setvalue"
-                //     ],
-                // }
-
             ],
+        },
+        {
+            type: "doc",
+            id: "whats_new",
         },
         {
             type: "category",

@@ -23,18 +23,16 @@ You need to include the following two files:
 ~~~html title="index.html"
 <!DOCTYPE html>
 <html>
-
-<head>
-	<title>How to Start with dhtmlxRichText</title>
-	<script type="text/javascript" src="../../codebase/richtext.js"></script>
-	<link rel="stylesheet" href="../../codebase/richtext.css">
-</head>
-
-<body>
-	<script>
-       // your code will be here
-	</script>
-</body>
+	<head>
+		<title>How to Start with dhtmlxRichText</title>
+		<script type="text/javascript" src="../../codebase/richtext.js"></script>
+		<link rel="stylesheet" href="../../codebase/richtext.css">
+	</head>
+	<body>
+		<script>
+		// your code will be here
+		</script>
+	</body>
 </html>
 ~~~
 
@@ -49,20 +47,19 @@ At this step you can add RichText on a page. There are two easy steps:
 ~~~html title="index.html"
 <!DOCTYPE html>
 <html>
-
-<head>
-	<title>How to Start with dhtmlxRichText</title>
-	<script type="text/javascript" src="../../codebase/richtext.js"></script>
-	<link rel="stylesheet" href="../../codebase/richtext.css">
-</head>
-<body>
-	<div id="richtext_container"></div>
-	<script>
-        var richtext = new dhx.Richtext("richtext_container", {
-			// config options
-		});
-	</script>
-</body>
+	<head>
+		<title>How to Start with dhtmlxRichText</title>
+		<script type="text/javascript" src="../../codebase/richtext.js"></script>
+		<link rel="stylesheet" href="../../codebase/richtext.css">
+	</head>
+	<body>
+		<div id="richtext_container"></div>
+		<script>
+			var richtext = new dhx.Richtext("richtext_container", {
+				// config options
+			});
+		</script>
+	</body>
 </html>
 ~~~
 
@@ -87,15 +84,3 @@ Step 4. Setting content (optional)
 -------------------------
 
 If necessary, you can parse some text in the HTML or Markdown format on the RichText initialization. Read more about this feature in the [related article](guides/loading_data.md).
-
-
-<!-- What's Next todo  -->
-<!-- -------------- -->
-
-<!-- Well, that's all. You can start working with texts in the RichText editor you've just created. 
-
-If you're still eager to continue investigating the structure and backstage of dhtmlxRichText, these are the materials you will be interested in:
-
-- overview.md
-- guides.md
-- api/refs/richtext.md -->

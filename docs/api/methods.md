@@ -89,7 +89,7 @@ var chars = richtext.getStats();
 // -> {chars: 467, words: 80, charsExlSpace: 393}
 ```
 
-**Related samples:** [RichText. Get Stats](https://snippet.dhtmlx.com/3qdbktwo)
+**Related samples:** [Get Stats](https://snippet.dhtmlx.com/3qdbktwo)
 
 #### Details
 

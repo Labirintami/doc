@@ -19,7 +19,7 @@ To save the edited text, make use of the [getValue()](api/methods.md#getvalue) m
 var content = richtext.getValue("markdown");
 ~~~
 
-**Related sample:** [RichText. Get Value](https://snippet.dhtmlx.com/ujx3c71j)
+**Related sample:** [Get Value](https://snippet.dhtmlx.com/ujx3c71j)
 
 If you are in two minds about how to add content into the RichText editor, there is the [Setting Content](loading_data.md) article.
 
@@ -45,7 +45,7 @@ The method returns an object with available statistical data about the text edit
 {chars: 467, words: 80, charsExlSpace: 393}
 ~~~
 
-**Related sample:** [RichText. Get Stats](https://snippet.dhtmlx.com/3qdbktwo)
+**Related sample:** [Get Stats](https://snippet.dhtmlx.com/3qdbktwo)
 
 You can also get each field of statistical data separately, as it described below.
 
@@ -89,7 +89,7 @@ function calc() {
 }
 ~~~
 
-**Related sample:** [RichText. Get Stats](https://snippet.dhtmlx.com/3qdbktwo)
+**Related sample:** [Get Stats](https://snippet.dhtmlx.com/3qdbktwo)
 
 ### Custom statistics 
 
@@ -131,7 +131,7 @@ var richtext = new dhx.Richtext("richtext_container", {
 <!-- ![Custom statistics](custom_stats.png) -->
 <img alt="" src={require('./../assets/custom_stats.png').default} />
 
-**Related sample:** [RichText. Custom Stats](https://snippet.dhtmlx.com/u1734epz)
+**Related sample:** [Custom Stats](https://snippet.dhtmlx.com/u1734epz)
 
 
 Full screen mode
@@ -174,7 +174,7 @@ For example, to add a text into the RichText editor, use the following code:
 richtext.getEditorAPI().add("text");
 ~~~
 
-**Related sample:**  [RichText. Add](https://snippet.dhtmlx.com/6dmccf0l)
+**Related sample:**  [Add](https://snippet.dhtmlx.com/6dmccf0l)
 
 
 
