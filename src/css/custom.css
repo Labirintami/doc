@@ -61,6 +61,24 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 /* end Search input styles */
 
 
+/* styles for tables */
+
+table th {
+    text-align: left;
+}
+
+table th:first-child {
+    width: 20%;
+}
+
+table th:last-child {
+    width: 650px;
+}
+
+
+/* end styles for tables */
+
+
 /* Change the appearance of mobile navigation */
 
 @media (max-width: 996px) {
