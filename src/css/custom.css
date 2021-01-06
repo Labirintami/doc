@@ -79,6 +79,16 @@ table th:last-child {
 /* end styles for tables */
 
 
+/* indent for imgs */
+
+img {
+    margin-bottom: var(--ifm-leading);
+}
+
+
+/* end indent for imgs */
+
+
 /* Change the appearance of mobile navigation */
 
 @media (max-width: 996px) {
