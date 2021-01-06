@@ -29,9 +29,11 @@ module.exports = {
             logo: {
                 alt: 'DHTMLX RichText Documenattion',
                 src: 'img/dhtmlx_logo.svg',
+                href: 'https://docs.dhtmlx.com/',
+
             },
             items: [{
-                    label: 'Samples',
+                    label: 'Examples',
                     href: 'https://docs.dhtmlx.com/richtext/samples/',
                     position: 'right',
                 },
@@ -79,7 +81,10 @@ module.exports = {
                 },
                 {
                     title: 'Community',
-                    items: [
+                    items: [{
+                            label: 'GitHub',
+                            href: 'https://github.com/DHTMLX',
+                        },
 
                         {
                             label: 'Youtube',
@@ -94,9 +99,10 @@ module.exports = {
                             href: 'https://twitter.com/dhtmlx',
                         },
                         {
-                            label: 'GitHub',
-                            href: 'https://github.com/DHTMLX',
+                            label: 'Linkedin',
+                            href: 'https://www.linkedin.com/groups/3345009/',
                         },
+
                     ],
                 },
                 {
@@ -108,6 +114,10 @@ module.exports = {
                         {
                             label: 'Contact us',
                             href: 'https://dhtmlx.com/docs/contact.shtml',
+                        },
+                        {
+                            label: 'Licensing',
+                            href: 'https://dhtmlx.com/docs/products/dhtmlxRichText/#editions-licenses',
                         },
                     ],
                 },
