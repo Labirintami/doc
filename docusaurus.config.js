@@ -30,64 +30,88 @@ module.exports = {
                 alt: 'DHTMLX RichText Documenattion',
                 src: 'img/dhtmlx_logo.svg',
             },
-            items: [
-                // {
-                //     to: 'docs/',
-                //     activeBasePath: 'docs',
-                //     label: 'Docs',
-                //     position: 'left',
-                // },
-                // { to: 'blog', label: 'Blog', position: 'left' },
+            items: [{
+                    label: 'Samples',
+                    href: 'https://docs.dhtmlx.com/richtext/samples/',
+                    position: 'right',
+                },
                 {
-                    href: 'https://github.com/Labirintami/doc',
-                    label: 'GitHub',
+                    label: 'Forum',
+                    href: 'https://forum.dhtmlx.com/c/widgets/richtext',
+                    position: 'right'
+                },
+                {
+                    label: 'Support',
+                    href: 'https://dhtmlx.com/docs/technical-support.shtml',
+                    position: 'right',
+                },
+                {
+                    label: 'Download RichText',
+                    href: 'https://dhtmlx.com/docs/products/dhtmlxRichText/download.shtml',
                     position: 'right',
                 },
             ],
         },
         footer: {
             style: 'dark',
-            // links: [{
-            //         title: 'Docs',
-            //         items: [{
-            //                 label: 'Style Guide',
-            //                 to: 'docs/',
-            //             },
-            //             {
-            //                 label: 'Second Doc',
-            //                 to: 'docs/doc2/',
-            //             },
-            //         ],
-            //     },
-            //     {
-            //         title: 'Community',
-            //         items: [{
-            //                 label: 'Stack Overflow',
-            //                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            //             },
-            //             {
-            //                 label: 'Discord',
-            //                 href: 'https://discordapp.com/invite/docusaurus',
-            //             },
-            //             {
-            //                 label: 'Twitter',
-            //                 href: 'https://twitter.com/docusaurus',
-            //             },
-            //         ],
-            //     },
-            //     {
-            //         title: 'More',
-            //         items: [{
-            //                 label: 'Blog',
-            //                 to: 'blog',
-            //             },
-            //             {
-            //                 label: 'GitHub',
-            //                 href: 'https://github.com/facebook/docusaurus',
-            //             },
-            //         ],
-            //     },
-            // ],
+            links: [{
+                    title: 'Development center',
+                    items: [{
+                            label: 'Download RichText',
+                            href: 'https://dhtmlx.com/docs/products/dhtmlxRichText/download.shtml',
+                            position: 'right',
+                        },
+                        {
+                            label: 'Examples',
+                            href: 'https://docs.dhtmlx.com/richtext/samples/',
+                            position: 'right',
+                        },
+                        {
+                            label: 'Blog',
+                            href: 'https://dhtmlx.com/blog/tag/richtext/',
+                        },
+                        {
+                            label: 'Forum',
+                            href: 'https://forum.dhtmlx.com/c/widgets/richtext',
+                            position: 'right'
+                        },
+                    ],
+                },
+                {
+                    title: 'Community',
+                    items: [
+
+                        {
+                            label: 'Youtube',
+                            href: 'https://www.youtube.com/user/dhtmlx',
+                        },
+                        {
+                            label: 'Facebook',
+                            href: 'https://www.facebook.com/dhtmlx',
+                        },
+                        {
+                            label: 'Twitter',
+                            href: 'https://twitter.com/dhtmlx',
+                        },
+                        {
+                            label: 'GitHub',
+                            href: 'https://github.com/DHTMLX',
+                        },
+                    ],
+                },
+                {
+                    title: 'Company',
+                    items: [{
+                            label: 'About us',
+                            href: 'https://dhtmlx.com/docs/company.shtml',
+                        },
+                        {
+                            label: 'Contact us',
+                            href: 'https://dhtmlx.com/docs/contact.shtml',
+                        },
+                    ],
+                },
+            ],
             copyright: `Copyright © ${new Date().getFullYear()} DHTMLX, Inc. Built with Docusaurus.`,
         },
     },
