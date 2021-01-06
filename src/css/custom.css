@@ -10,8 +10,6 @@
 
 /* You can override the default Infima variables here. */
 
-
-
 :root {
     --ifm-color-primary: #25c2a0;
     --ifm-color-primary-dark: rgb(33, 175, 144);
@@ -21,6 +19,7 @@
     --ifm-color-primary-lighter: rgb(102, 212, 189);
     --ifm-color-primary-lightest: rgb(146, 224, 208);
     --ifm-color-feedback-background: #fff;
+    --dhx-color-brand: #2095F3;
 }
 
 .docusaurus-highlight-code-line {
@@ -30,14 +29,51 @@
     padding: 0 var(--ifm-pre-padding);
 }
 
-/* If you have a different syntax highlighting theme for dark mode. */
-html[data-theme='dark'] .docusaurus-highlight-code-line {
-    background-color:  rgb(122, 124, 126); /* Color which works with dark mode syntax highlighting theme */
-  }
 
-.rel_date{
-	color: #a0a0a0;
+/* If you have a different syntax highlighting theme for dark mode. */
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+    background-color: rgb(122, 124, 126);
+    /* Color which works with dark mode syntax highlighting theme */
+}
+
+
+/* Search input styles */
+
+.rel_date {
+    color: #a0a0a0;
     font-size: 15px;
     margin-left: 20px;
 }
 
+.DocSearch-Button {
+    order: -1;
+    margin-right: 10px!important;
+}
+
+.DocSearch-Button-Placeholder {
+    flex-basis: 70%;
+    text-align: left;
+    width: 160px;
+}
+
+
+/* end Search input styles */
+
+
+/* Change the appearance of mobile navigation */
+
+@media (max-width: 996px) {
+    .navbar__toggle {
+        display: none;
+    }
+    .menu--responsive .menu__button {
+        border-radius: 100px;
+        padding: 15px;
+        background: var(--dhx-color-brand);
+        color: var(--ifm-color-feedback-background);
+    }
+}
+
+
+/* end change the appearance of mobile navigation */

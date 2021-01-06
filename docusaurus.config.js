@@ -8,7 +8,33 @@ module.exports = {
     organizationName: 'labirintami', // Usually your GitHub org/user name.
     projectName: 'doc', // Usually your repo name.
     themeConfig: {
+        colorMode: {
+            // "light" | "dark"
+            defaultMode: 'light',
+
+            // Hides the switch in the navbar
+            // Useful if you want to support a single color mode
+            disableSwitch: false,
+
+            // Should we use the prefers-color-scheme media-query,
+            // using user system preferences, instead of the hardcoded defaultMode
+            respectPrefersColorScheme: true,
+
+            // Dark/light switch icon options
+            switchConfig: {
+                darkIcon: '🌙',
+                darkIconStyle: {
+                    marginLeft: '0px',
+                },
+                lightIcon: '☀️',
+                lightIconStyle: {
+                    marginLeft: '0px',
+                },
+            },
+        },
         algolia: {
+            // This is a read-only, search-only key served directly by the front-end, managed by Algolia via their
+            // free DocSearch program. The key is not sensitive. See https://docsearch.algolia.com/ for more details.
             apiKey: '421aa9b07cc441097c4db7f264b63a6b',
             indexName: 'richtext',
 
@@ -25,9 +51,9 @@ module.exports = {
             darkTheme: require('prism-react-renderer/themes/dracula'),
         },
         navbar: {
-            title: 'RichText Documenattion',
+            title: 'RichText Documenation',
             logo: {
-                alt: 'DHTMLX RichText Documenattion',
+                alt: 'DHTMLX RichText Documenation',
                 src: 'img/dhtmlx_logo.svg',
                 href: 'https://docs.dhtmlx.com/',
 
@@ -48,7 +74,7 @@ module.exports = {
                     position: 'right',
                 },
                 {
-                    label: 'Download RichText',
+                    label: 'Download',
                     href: 'https://dhtmlx.com/docs/products/dhtmlxRichText/download.shtml',
                     position: 'right',
                 },
