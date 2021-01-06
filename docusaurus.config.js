@@ -8,6 +8,18 @@ module.exports = {
     organizationName: 'labirintami', // Usually your GitHub org/user name.
     projectName: 'doc', // Usually your repo name.
     themeConfig: {
+        algolia: {
+            apiKey: '421aa9b07cc441097c4db7f264b63a6b',
+            indexName: 'richtext',
+
+            // Optional: see doc section bellow
+            contextualSearch: true,
+
+            // Optional: Algolia search parameters
+            searchParameters: {},
+
+            //... other Algolia params
+        },
         prism: {
             theme: require('prism-react-renderer/themes/github'),
             darkTheme: require('prism-react-renderer/themes/dracula'),
