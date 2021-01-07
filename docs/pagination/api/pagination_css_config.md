@@ -9,16 +9,17 @@ adds style classes to the pagination
 
 @type: string
 
-@example: 
+~~~js
 <style>
 	.custom_class {
-		margin: 0;
+		margin: 0px;
 	}
 
 	.custom_class button span.dxi {
 		color: #5858E3;
 	}
 </style>
+~~~
 
 const pagination = new dhx.Pagination("pagination_container", {
     css: "custom_class" 

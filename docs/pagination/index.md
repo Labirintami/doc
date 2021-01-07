@@ -1,9 +1,11 @@
 Pagination
 =========
 
+```js shielding
 {{pronote
 The Pagination component is available in the **PRO** version only.
 }}
+
 
 dhtmlxPagination helps to divide large amount of data into groups and display them on discrete pages. 
 The component is easy-to-use and provides handy navigation that allows you to quickly jump to a desired page. dhtmlxPagination is available in combination with data components like DataView, List, Grid, Tree, Treegrid. Check [online samples for dhtmlxPagination](https://docs.dhtmlx.com/suite/samples/pagination/).
@@ -25,6 +27,8 @@ The component is easy-to-use and provides handy navigation that allows you to qu
 
 <div class="h2">Guides</div>
 
+
+
 <table class='guide-table'>
 	<tbody>
 	<tr>
@@ -44,7 +48,7 @@ The component is easy-to-use and provides handy navigation that allows you to qu
 </table>
 
 
- @index:
+ @ index:
 - pagination/api/refs/pagination.md
 - pagination/init.md
 - pagination/configuration.md
@@ -52,7 +56,8 @@ The component is easy-to-use and provides handy navigation that allows you to qu
 - pagination/customization.md
 - pagination/handling_events.md
 
-@metadescr:
+@ metadescr:
 
+@ edition:pro
 
-@edition:pro
+```
