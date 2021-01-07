@@ -19,7 +19,6 @@ ___
 
 Exits the full screen mode
 
-
 `void exitFullScreen();`
 
 
