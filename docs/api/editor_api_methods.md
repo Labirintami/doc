@@ -14,7 +14,6 @@ Adds a new text into the editor
 | `config`    | `string,object` | a string with a text or a text block as an object. Check the details |
 | `selection` | `object`        | optional, text selection (its position relative to all other text). Check the details |
 
-
 ```js 
 // adding simple text
 richtext.getEditorAPI().add("text");
