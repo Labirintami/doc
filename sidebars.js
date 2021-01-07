@@ -14,6 +14,7 @@ module.exports = {
             items: [
                 "api/overview",
                 "api/methods",
+                "api/methods-alt",
                 "api/events_bus",
                 "api/events",
                 "api/properties",
