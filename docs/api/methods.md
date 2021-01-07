@@ -25,6 +25,7 @@ Exits the full screen mode
 ```js 
 richtext.exitFullScreen();
 ```
+
 ___
 
 ## `fullScreen`
