@@ -1,5 +1,5 @@
 ---
 sidebar_label: Index
-title: Index
+title: index
 slug: /
 ---

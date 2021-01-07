@@ -3,7 +3,7 @@ module.exports = {
     tagline: 'DHTMLX RichText Documentation',
     url: 'https://richtext-doc.netlify.app/',
     baseUrl: '/',
-    onBrokenLinks: 'ignore',
+    onBrokenLinks: 'log',
     favicon: 'img/favicon.ico',
     organizationName: 'labirintami', // Usually your GitHub org/user name.
     projectName: 'doc', // Usually your repo name.
