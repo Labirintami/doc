@@ -1,0 +1,29 @@
+weekStart
+=============
+
+@short: 
+sets the starting day of the week
+
+
+@default:
+"sunday"
+
+
+@type: string
+
+@example: 
+var calendar = new dhx.Calendar("calendar_container", {
+    weekStart:"monday"
+});
+
+
+@template:	api_config
+@descr: 
+
+
+@related:
+calendar/how_to_start.md#initializecalendar
+calendar/configuring.md#startoftheweek
+
+
+@relatedsample: https://snippet.dhtmlx.com/kaxmurh9	Calendar. Week Start
