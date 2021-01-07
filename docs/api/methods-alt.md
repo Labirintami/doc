@@ -34,6 +34,7 @@ Exits the full screen mode.
 richtext.exitFullScreen();
 ```
 
+
 ___
 
 ## richtext.fullScreen();
