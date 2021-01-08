@@ -86,17 +86,6 @@ module.exports = {
         },
         // end Calendar 
 
-
-
-
-
-
-
-
-
-
-
-
         //Chart
         {
             type: "category",
@@ -160,12 +149,6 @@ module.exports = {
             ],
         },
         // end Chart 
-
-
-
-
-
-
 
         //Colorpicker
         {
@@ -243,7 +226,6 @@ module.exports = {
             ],
         },
         // end ColorPicker 
-
 
         //Combobox
         {
@@ -333,83 +315,14 @@ module.exports = {
         },
         // end Combobox 
 
-        // | | | | | | |--->dataview
 
-        // | | | | | | | |--->api
-        // | | | | | | | | |--->dataview_setfocusindex_method.md
-        // | | | | | | | | |--->dataview_keynavigation_config.md
-        // | | | | | | | | |--->dataview_dragmode_config.md
-        // | | | | | | | | |--->dataview_afterdrag_event.md
-        // | | | | | | | | |--->dataview_getfocusitem_method.md
-        // | | | | | | | | |--->dataview_click_event.md
-        // | | | | | | | | |--->dataview_dragstart_event.md
-        // | | | | | | | | |--->dataview_dragin_event.md
-        // | | | | | | | | |--->dataview_editing_config.md
-        // | | | | | | | | |--->dataview_destructor_method.md
-        // | | | | | | | | |--->dataview_itemmouseover_event.md
-        // | | | | | | | | |--->dataview_height_config.md
-        // | | | | | | | | |--->dataview_dragcopy_config.md
-        // | | | | | | | | |--->dataview_paint_method.md
-        // | | | | | | | | |--->dataview_beforeeditstart_event.md
-        // | | | | | | | | |--->dataview_multiselectionmode_config.md
-        // | | | | | | | | |--->dataview_itemheight_config.md
-        // | | | | | | | | |--->dataview_afterdrop_event.md
-        // | | | | | | | | |--->dataview_css_config.md
-        // | | | | | | | | |--->dataview_template_config.md
-        // | | | | | | | | |--->dataview_dragout_event.md
-        // | | | | | | | | |--->dataview_selection_config.md
-        // | | | | | | | | |--->dataview_edit_method.md
-        // | | | | | | | | |--->dataview_beforedrag_event.md
-        // | | | | | | | | |--->dataview_beforeeditend_event.md
-        // | | | | | | | | |--->dataview_doubleclick_event.md
-        // | | | | | | | | |--->dataview_edititem_method.md
-        // | | | | | | | | |--->dataview_gap_config.md
-        // | | | | | | | | |--->dataview_aftereditstart_event.md
-        // | | | | | | | | |--->dataview_selection_object.md
-        // | | | | | | | | |--->refs
-        // | | | | | | | | | |--->dataview_properties.md
-        // | | | | | | | | | |--->selection_events.md
-        // | | | | | | | | | |--->dataview_events.md
-        // | | | | | | | | | |--->selection_methods.md          //структура отличается
-        // | | | | | | | | | |--->dataview.md
-        // | | | | | | | | | |--->dataview_methods.md
-        // | | | | | | | | |--->dataview_focuschange_event.md
-        // | | | | | | | | |--->dataview_contextmenu_event.md
-        // | | | | | | | | |--->dataview_eventhandlers_config.md
-        // | | | | | | | | |--->dataview_aftereditend_event.md
-        // | | | | | | | | |--->dataview_itemrightclick_event.md
-        // | | | | | | | | |--->dataview_disableselection_method.md
-        // | | | | | | | | |--->selection
-        // | | | | | | | | | |--->selection_afterunselect_event.md
-        // | | | | | | | | | |--->selection_beforeselect_event.md
-        // | | | | | | | | | |--->selection_beforeunselect_event.md
-        // | | | | | | | | | |--->selection_afterselect_event.md
-        // | | | | | | | | | |--->selection_enable_method.md
-        // | | | | | | | | | |--->selection_disable_method.md
-        // | | | | | | | | |--->dataview_itemsinrow_config.md
-        // | | | | | | | | |--->dataview_multiselection_config.md
-        // | | | | | | | | |--->dataview_beforedrop_event.md
-        // | | | | | | | | |--->dataview_enableselection_method.md
-        // | | | | | | | | |--->dataview_getfocusindex_method.md
-        // | | | | | | | | |--->dataview_canceldrop_event.md
-        // | | | | | | | | |--->dataview_setfocus_method.md
-        // | | | | | | | | |--->dataview_getfocus_method.md
-        // | | | | | | | | |--->dataview_candrop_event.md
-        // | | | | | | | | |--->dataview_editable_config.md
-        // | | | | | | | | |--->dataview_data_config.md
-        // | | | | | | | | |--->dataview_data_object.md
-        // | | | | | | | |--->events.md
-        // | | | | | | | |--->initialization.md
-        // | | | | | | | |--->api.md
-        // | | | | | | | |--->customization.md
-        // | | | | | | | |--->usage_selection.md
-        // | | | | | | | |--->migration.md
-        // | | | | | | | |--->manipulating_data.md
-        // | | | | | | | |--->data_loading.md
-        // | | | | | | | |--->index.md
-        // | | | | | | | |--->configuration.md
-
-
+        // | | | | | | | | -- - > selection |
+        // | | | | | | | | | -- - > selection_afterunselect_event.md |
+        // | | | | | | | | | -- - > selection_beforeselect_event.md |
+        // | | | | | | | | | -- - > selection_beforeunselect_event.md |
+        // | | | | | | | | | -- - > selection_afterselect_event.md |
+        // | | | | | | | | | -- - > selection_enable_method.md |
+        // | | | | | | | | | -- - > selection_disable_method.md
 
 
 
@@ -419,17 +332,16 @@ module.exports = {
             label: "Dataview",
             collapsed: true,
             items: [
-                "calendar/how_to_start",
-                "calendar/operating_calendar",
-                "calendar/datepicker",
-                "calendar/api",
-                "calendar/handling_events",
-                "calendar/customization",
-                "calendar/localizing_calendar",
-                "calendar/migration",
-                "calendar/index",
-                "calendar/migration_1",
-                "calendar/configuring",
+                "dataview/events",
+                "dataview/initialization",
+                "dataview/api",
+                "dataview/customization",
+                "dataview/usage_selection",
+                "dataview/migration",
+                "dataview/manipulating_data",
+                "dataview/data_loading",
+                "dataview/index",
+                "dataview/configuration",
                 {
                     type: "category",
                     label: "API",
@@ -441,14 +353,17 @@ module.exports = {
                             label: "Methods",
                             collapsed: true,
                             items: [
-                                "calendar/api/calendar_link_method",
-                                "calendar/api/calendar_clear_method",
-                                "calendar/api/calendar_paint_method",
-                                "calendar/api/calendar_getcurrentmode_method",
-                                "calendar/api/calendar_getvalue_method",
-                                "calendar/api/calendar_setvalue_method",
-                                "calendar/api/calendar_showdate_method",
-                                "calendar/api/calendar_destructor_method",
+                                "dataview/api/dataview_setfocusindex_method",
+                                "dataview/api/dataview_setfocus_method",
+                                "dataview/api/dataview_getfocus_method",
+                                "dataview/api/dataview_getfocusitem_method",
+                                "dataview/api/dataview_destructor_method",
+                                "dataview/api/dataview_paint_method",
+                                "dataview/api/dataview_enableselection_method",
+                                "dataview/api/dataview_getfocusindex_method",
+                                "dataview/api/dataview_edit_method",
+                                "dataview/api/dataview_edititem_method",
+                                "dataview/api/dataview_disableselection_method",
                             ],
                         },
                         {
@@ -456,14 +371,26 @@ module.exports = {
                             label: "Events",
                             collapsed: true,
                             items: [
-                                "calendar/api/calendar_change_event",
-                                "calendar/api/calendar_datehover_event",
-                                "calendar/api/calendar_cancelclick_event",
-                                "calendar/api/calendar_modechange_event",
-                                "calendar/api/calendar_yearselected_event",
-                                "calendar/api/calendar_monthselected_event",
-                                "calendar/api/calendar_datemouseover_event",
-                                "calendar/api/calendar_beforechange_event",
+                                "dataview/api/dataview_click_event",
+                                "dataview/api/dataview_dragstart_event",
+                                "dataview/api/dataview_dragin_event",
+                                "dataview/api/dataview_itemmouseover_event",
+                                "dataview/api/dataview_beforeeditstart_event",
+                                "dataview/api/dataview_afterdrop_event",
+                                "dataview/api/dataview_dragout_event",
+                                "dataview/api/dataview_beforedrag_event",
+                                "dataview/api/dataview_beforeeditend_event",
+                                "dataview/api/dataview_doubleclick_event",
+                                "dataview/api/dataview_aftereditstart_event",
+                                "dataview/api/dataview_focuschange_event",
+                                "dataview/api/dataview_contextmenu_event",
+                                "dataview/api/dataview_aftereditend_event",
+                                "dataview/api/dataview_itemrightclick_event",
+                                "dataview/api/dataview_beforedrop_event",
+                                "dataview/api/dataview_canceldrop_event",
+                                "dataview/api/dataview_candrop_event",
+                                "dataview/api/dataview_data_object", //todo
+                                "dataview/api/dataview_selection_object", //todo
                             ],
                         },
                         {
@@ -471,22 +398,23 @@ module.exports = {
                             label: "Properties",
                             collapsed: true,
                             items: [
-                                "calendar/api/calendar_date_config",
-                                "calendar/api/calendar_thismonthonly_config",
-                                "calendar/api/calendar_disableddates_config",
-                                "calendar/api/calendar_weeknumbers_config",
-                                "calendar/api/calendar_dateformat_config",
-                                "calendar/api/calendar_timepicker_config",
-                                "calendar/api/calendar_timeformat_config",
-                                "calendar/api/calendar_block_config",
-                                "calendar/api/calendar_value_config",
-                                "calendar/api/calendar_view_config",
-                                "calendar/api/calendar_weekstart_config",
-                                "calendar/api/calendar_css_config",
-                                "calendar/api/calendar_mode_config",
-                                "calendar/api/calendar_mark_config",
-                                "calendar/api/calendar_range_config",
-                                "calendar/api/calendar_width_config",
+                                "dataview/api/dataview_gap_config",
+                                "dataview/api/dataview_selection_config",
+                                "dataview/api/dataview_multiselectionmode_config",
+                                "dataview/api/dataview_itemheight_config",
+                                "dataview/api/dataview_itemsinrow_config",
+                                "dataview/api/dataview_css_config",
+                                "dataview/api/dataview_template_config",
+                                "dataview/api/dataview_eventhandlers_config",
+                                "dataview/api/dataview_multiselection_config",
+                                "dataview/api/dataview_editing_config",
+                                "dataview/api/dataview_height_config",
+                                "dataview/api/dataview_dragcopy_config",
+                                "dataview/api/dataview_editable_config",
+                                "dataview/api/dataview_keynavigation_config",
+                                "dataview/api/dataview_dragmode_config",
+                                "dataview/api/dataview_afterdrag_event",
+                                "dataview/api/dataview_data_config",
                             ],
                         },
                     ],
@@ -496,7 +424,7 @@ module.exports = {
         // end Dataview 
 
 
-        // аццки большое количество файлов в форме
+        // !!!! todo аццки большое количество файлов в форме
 
 
         //Form
@@ -581,142 +509,17 @@ module.exports = {
         },
         // end Form 
 
-        // | | | | | | |--->grid
-
-        // | | | | | | | |--->api
-        // | | | | | | | | |--->grid_cancelrowdrop_event.md
-        // | | | | | | | | |--->grid_footercellrightclick_event.md
-        // | | | | | | | | |--->grid_resizable_config.md
-        // | | | | | | | | |--->grid_beforerowdrag_event.md
-        // | | | | | | | | |--->grid_rowheight_config.md
-        // | | | | | | | | |--->grid_editend_method.md
-        // | | | | | | | | |--->grid_beforeeditstart_event.md
-        // | | | | | | | | |--->grid_getspan_method.md
-        // | | | | | | | | |--->grid_getsortingstate_method.md
-        // | | | | | | | | |--->grid_dragrowin_event.md
-        // | | | | | | | | |--->grid_showcolumn_method.md
-        // | | | | | | | | |--->grid_headersort_config.md
-        // | | | | | | | | |--->grid_cellrightclick_event.md
-        // | | | | | | | | |--->grid_keynavigation_config.md
-        // | | | | | | | | |--->grid_beforerowshow_event.md
-        // | | | | | | | | |--->grid_height_config.md
-        // | | | | | | | | |--->grid_headercellmouseover_event.md
-        // | | | | | | | | |--->grid_setcolumns_method.md
-        // | | | | | | | | |--->grid_canrowdrop_event.md
-        // | | | | | | | | |--->grid_afterrowdrag_event.md
-        // | | | | | | | | |--->grid_fittocontainer_config.md
-        // | | | | | | | | |--->grid_headercellclick_event.md
-        // | | | | | | | | |--->grid_getcellrect_method.md
-        // | | | | | | | | |--->grid_beforecolumndrop_event.md
-        // | | | | | | | | |--->grid_addcellcss_method.md
-        // | | | | | | | | |--->grid_sort_event.md
-        // | | | | | | | | |--->grid_beforecolumnhide_event.md
-        // | | | | | | | | |--->grid_afterrowshow_event.md
-        // | | | | | | | | |--->grid_getcolumn_method.md
-        // | | | | | | | | |--->grid_htmlenable_config.md
-        // | | | | | | | | |--->grid_adjustcolumnwidth_method.md
-        // | | | | | | | | |--->grid_beforerowdrop_event.md
-        // | | | | | | | | |--->grid_beforeresizestart_event.md
-        // | | | | | | | | |--->grid_scroll_method.md
-        // | | | | | | | | |--->grid_selection_config.md
-        // | | | | | | | | |--->grid_beforerowhide_event.md
-        // | | | | | | | | |--->grid_headerrowheight_config.md
-        // | | | | | | | | |--->grid_iscolumnhidden_method.md
-        // | | | | | | | | |--->grid_rowcss_config.md
-        // | | | | | | | | |--->grid_headercellmousedown_event.md
-        // | | | | | | | | |--->grid_headerinput_event.md
-        // | | | | | | | | |--->grid_removecellcss_method.md
-        // | | | | | | | | |--->grid_leftsplit_config.md
-        // | | | | | | | | |--->grid_paint_method.md
-        // | | | | | | | | |--->grid_addrowcss_method.md
-        // | | | | | | | | |--->grid_filterchange_event.md
-        // | | | | | | | | |--->grid_tooltip_config.md
-        // | | | | | | | | |--->grid_removespan_method.md
-        // | | | | | | | | |--->grid_editcell_method.md
-        // | | | | | | | | |--->grid_afterrowdrop_event.md
-        // | | | | | | | | |--->grid_columns_config.md
-        // | | | | | | | | |--->grid_editable_config.md
-        // | | | | | | | | |--->grid_dragcolumnout_event.md
-        // | | | | | | | | |--->grid_beforecolumnshow_event.md
-        // | | | | | | | | |--->grid_afterrowhide_event.md
-        // | | | | | | | | |--->grid_dragrowout_event.md
-        // | | | | | | | | |--->grid_dragrowstart_event.md
-        // | | | | | | | | |--->grid_css_config.md
-        // | | | | | | | | |--->grid_editing_config.md
-        // | | | | | | | | |--->grid_beforecolumndrag_event.md
-        // | | | | | | | | |--->grid_scroll_event.md
-        // | | | | | | | | |--->grid_columnsautowidth_config.md
-        // | | | | | | | | |--->grid_hiderow_method.md
-        // | | | | | | | | |--->grid_destructor_method.md
-        // | | | | | | | | |--->grid_footercellclick_event.md
-        // | | | | | | | | |--->grid_aftercolumndrag_event.md
-        // | | | | | | | | |--->grid_data_object.md
-        // | | | | | | | | |--->grid_splitat_config.md
-        // | | | | | | | | |--->grid_spans_config.md
-        // | | | | | | | | |--->grid_multiselection_config.md
-        // | | | | | | | | |--->grid_data_config.md
-        // | | | | | | | | |--->grid_dragcolumnin_event.md
-        // | | | | | | | | |--->grid_addspan_method.md
-        // | | | | | | | | |--->grid_expand_event.md
-        // | | | | | | | | |--->grid_aftereditstart_event.md
-        // | | | | | | | | |--->grid_sortable_config.md
-        // | | | | | | | | |--->grid_autoemptyrow_config.md
-        // | | | | | | | | |--->grid_aftercolumnshow_event.md
-        // | | | | | | | | |--->grid_adjust_config.md
-        // | | | | | | | | |--->grid_dragmode_config.md
-        // | | | | | | | | |--->grid_cancolumndrop_event.md
-        // | | | | | | | | |--->refs
-        // | | | | | | | | | |--->grid_methods.md
-        // | | | | | | | | | |--->grid_properties.md
-        // | | | | | | | | | |--->selection_events.md
-        // | | | | | | | | | |--->selection_methods.md
-        // | | | | | | | | | |--->grid.md
-        // | | | | | | | | | |--->grid_events.md
-        // | | | | | | | | |--->grid_resize_event.md
-        // | | | | | | | | |--->grid_eventhandlers_config.md
-        // | | | | | | | | |--->grid_cellmouseover_event.md
-        // | | | | | | | | |--->grid_autowidth_config.md
-        // | | | | | | | | |--->grid_footercellmousedown_event.md
-        // | | | | | | | | |--->grid_cellclick_event.md
-        // | | | | | | | | |--->grid_dragitem_config.md
-        // | | | | | | | | |--->grid_aftereditend_event.md
-        // | | | | | | | | |--->grid_aftercolumndrop_event.md
-        // | | | | | | | | |--->grid_dragcolumnstart_event.md
-        // | | | | | | | | |--->selection
-        // | | | | | | | | | |--->selection_afterunselect_event.md
-        // | | | | | | | | | |--->selection_beforeselect_event.md
-        // | | | | | | | | | |--->selection_beforeunselect_event.md
-        // | | | | | | | | | |--->selection_getcell_method.md
-        // | | | | | | | | | |--->selection_getcells_method.md
-        // | | | | | | | | | |--->selection_afterselect_event.md
-        // | | | | | | | | | |--->selection_removecell_method.md
-        // | | | | | | | | | |--->selection_enable_method.md
-        // | | | | | | | | | |--->selection_disable_method.md
-        // | | | | | | | | | |--->selection_setcell_method.md
-        // | | | | | | | | |--->grid_afterresizeend_event.md
-        // | | | | | | | | |--->grid_aftercolumnhide_event.md
-        // | | | | | | | | |--->grid_getheaderfilter_method.md
-        // | | | | | | | | |--->grid_showrow_method.md
-        // | | | | | | | | |--->grid_cancelcolumndrop_event.md
-        // | | | | | | | | |--->grid_dragcopy_config.md
-        // | | | | | | | | |--->grid_beforekeydown_event.md
-        // | | | | | | | | |--->grid_export_object.md
-        // | | | | | | | | |--->grid_width_config.md
-        // | | | | | | | | |--->grid_headercellrightclick_event.md
-        // | | | | | | | | |--->grid_footercelldblclick_event.md
-        // | | | | | | | | |--->grid_removerowcss_method.md
-        // | | | | | | | | |--->grid_beforeeditend_event.md
-        // | | | | | | | | |--->grid_footerrowheight_config.md
-        // | | | | | | | | |--->grid_scrollto_method.md
-        // | | | | | | | | |--->grid_celldblclick_event.md
-        // | | | | | | | | |--->grid_getscrollstate_method.md
-        // | | | | | | | | |--->grid_footercellmouseover_event.md
-        // | | | | | | | | |--->grid_afterkeydown_event.md
-        // | | | | | | | | |--->grid_headercelldblclick_event.md
-        // | | | | | | | | |--->grid_isrowhidden_method.md
-        // | | | | | | | | |--->grid_edit_method.md
-        // | | | | | | | | |--->grid_hidecolumn_method.md
-        // | | | | | | | | |--->grid_cellmousedown_event.md
+        // | | | | | | | | -- - > selection |
+        // | | | | | | | | | -- - > selection_afterunselect_event.md |
+        // | | | | | | | | | -- - > selection_beforeselect_event.md |
+        // | | | | | | | | | -- - > selection_beforeunselect_event.md |
+        // | | | | | | | | | -- - > selection_getcell_method.md |
+        // | | | | | | | | | -- - > selection_getcells_method.md |
+        // | | | | | | | | | -- - > selection_afterselect_event.md |
+        // | | | | | | | | | -- - > selection_removecell_method.md |
+        // | | | | | | | | | -- - > selection_enable_method.md |
+        // | | | | | | | | | -- - > selection_disable_method.md |
+        // | | | | | | | | | -- - > selection_setcell_method.md |
 
 
         //Grid
@@ -747,14 +550,34 @@ module.exports = {
                             label: "Methods",
                             collapsed: true,
                             items: [
-                                "calendar/api/calendar_link_method",
-                                "calendar/api/calendar_clear_method",
-                                "calendar/api/calendar_paint_method",
-                                "calendar/api/calendar_getcurrentmode_method",
-                                "calendar/api/calendar_getvalue_method",
-                                "calendar/api/calendar_setvalue_method",
-                                "calendar/api/calendar_showdate_method",
-                                "calendar/api/calendar_destructor_method",
+                                "grid/api/grid_getsortingstate_method",
+                                "grid/api/grid_isrowhidden_method",
+                                "grid/api/grid_edit_method",
+                                "grid/api/grid_hidecolumn_method",
+                                "grid/api/grid_cellmousedown_event",
+                                "grid/api/grid_editend_method",
+                                "grid/api/grid_showcolumn_method",
+                                "grid/api/grid_getscrollstate_method",
+                                "grid/api/grid_getspan_method",
+                                "grid/api/grid_scrollto_method",
+                                "grid/api/grid_setcolumns_method",
+                                "grid/api/grid_addcellcss_method",
+                                "grid/api/grid_getcolumn_method",
+                                "grid/api/grid_adjustcolumnwidth_method",
+                                "grid/api/grid_showrow_method",
+                                "grid/api/grid_getheaderfilter_method",
+                                "grid/api/grid_getcellrect_method",
+                                "grid/api/grid_scroll_method",
+                                "grid/api/grid_iscolumnhidden_method",
+                                "grid/api/grid_paint_method",
+                                "grid/api/grid_addrowcss_method",
+                                "grid/api/grid_removerowcss_method",
+                                "grid/api/grid_removecellcss_method",
+                                "grid/api/grid_removespan_method",
+                                "grid/api/grid_editcell_method",
+                                "grid/api/grid_hiderow_method",
+                                "grid/api/grid_destructor_method",
+                                "grid/api/grid_addspan_method",
                             ],
                         },
                         {
@@ -762,14 +585,62 @@ module.exports = {
                             label: "Events",
                             collapsed: true,
                             items: [
-                                "calendar/api/calendar_change_event",
-                                "calendar/api/calendar_datehover_event",
-                                "calendar/api/calendar_cancelclick_event",
-                                "calendar/api/calendar_modechange_event",
-                                "calendar/api/calendar_yearselected_event",
-                                "calendar/api/calendar_monthselected_event",
-                                "calendar/api/calendar_datemouseover_event",
-                                "calendar/api/calendar_beforechange_event",
+                                "grid/api/grid_cancelrowdrop_event",
+                                "grid/api/grid_footercellrightclick_event",
+                                "grid/api/grid_beforerowdrag_event",
+                                "grid/api/grid_beforeeditstart_event",
+                                "grid/api/grid_dragrowin_event",
+                                "grid/api/grid_cellrightclick_event",
+                                "grid/api/grid_beforerowshow_event",
+                                "grid/api/grid_headercellmouseover_event",
+                                "grid/api/grid_canrowdrop_event",
+                                "grid/api/grid_afterrowdrag_event",
+                                "grid/api/grid_headercellclick_event",
+                                "grid/api/grid_beforecolumndrop_event",
+                                "grid/api/grid_sort_event",
+                                "grid/api/grid_beforecolumnhide_event",
+                                "grid/api/grid_afterrowshow_event",
+                                "grid/api/grid_beforerowdrop_event",
+                                "grid/api/grid_beforeresizestart_event",
+                                "grid/api/grid_beforerowhide_event",
+                                "grid/api/grid_headercellmousedown_event",
+                                "grid/api/grid_headerinput_event",
+                                "grid/api/grid_filterchange_event",
+                                "grid/api/grid_afterrowdrop_event",
+                                "grid/api/grid_dragcolumnout_event",
+                                "grid/api/grid_beforecolumnshow_event",
+                                "grid/api/grid_afterrowhide_event",
+                                "grid/api/grid_dragrowout_event",
+                                "grid/api/grid_dragrowstart_event",
+                                "grid/api/grid_beforecolumndrag_event",
+                                "grid/api/grid_scroll_event",
+                                "grid/api/grid_footercellclick_event",
+                                "grid/api/grid_aftercolumndrag_event",
+                                "grid/api/grid_dragcolumnin_event",
+                                "grid/api/grid_expand_event",
+                                "grid/api/grid_aftereditstart_event",
+                                "grid/api/grid_aftercolumnshow_event",
+                                "grid/api/grid_cancolumndrop_event",
+                                "grid/api/grid_resize_event",
+                                "grid/api/grid_cellmouseover_event",
+                                "grid/api/grid_footercellmousedown_event",
+                                "grid/api/grid_cellclick_event",
+                                "grid/api/grid_aftereditend_event",
+                                "grid/api/grid_aftercolumndrop_event",
+                                "grid/api/grid_dragcolumnstart_event",
+                                "grid/api/grid_afterresizeend_event",
+                                "grid/api/grid_aftercolumnhide_event",
+                                "grid/api/grid_cancelcolumndrop_event",
+                                "grid/api/grid_beforekeydown_event",
+                                "grid/api/grid_headercellrightclick_event",
+                                "grid/api/grid_footercelldblclick_event",
+                                "grid/api/grid_beforeeditend_event",
+                                "grid/api/grid_celldblclick_event",
+                                "grid/api/grid_footercellmouseover_event",
+                                "grid/api/grid_afterkeydown_event",
+                                "grid/api/grid_headercelldblclick_event",
+                                "grid/api/grid_export_object", //todo
+                                "grid/api/grid_data_object", // todo
                             ],
                         },
                         {
@@ -777,22 +648,37 @@ module.exports = {
                             label: "Properties",
                             collapsed: true,
                             items: [
-                                "calendar/api/calendar_date_config",
-                                "calendar/api/calendar_thismonthonly_config",
-                                "calendar/api/calendar_disableddates_config",
-                                "calendar/api/calendar_weeknumbers_config",
-                                "calendar/api/calendar_dateformat_config",
-                                "calendar/api/calendar_timepicker_config",
-                                "calendar/api/calendar_timeformat_config",
-                                "calendar/api/calendar_block_config",
-                                "calendar/api/calendar_value_config",
-                                "calendar/api/calendar_view_config",
-                                "calendar/api/calendar_weekstart_config",
-                                "calendar/api/calendar_css_config",
-                                "calendar/api/calendar_mode_config",
-                                "calendar/api/calendar_mark_config",
-                                "calendar/api/calendar_range_config",
-                                "calendar/api/calendar_width_config",
+                                "grid/api/grid_columnsautowidth_config",
+                                "grid/api/grid_css_config",
+                                "grid/api/grid_editing_config",
+                                "grid/api/grid_adjust_config",
+                                "grid/api/grid_dragmode_config",
+                                "grid/api/grid_columns_config",
+                                "grid/api/grid_editable_config",
+                                "grid/api/grid_sortable_config",
+                                "grid/api/grid_autoemptyrow_config",
+                                "grid/api/grid_eventhandlers_config",
+                                "grid/api/grid_tooltip_config",
+                                "grid/api/grid_splitat_config",
+                                "grid/api/grid_spans_config",
+                                "grid/api/grid_multiselection_config",
+                                "grid/api/grid_data_config",
+                                "grid/api/grid_dragitem_config",
+                                "grid/api/grid_autowidth_config",
+                                "grid/api/grid_dragcopy_config",
+                                "grid/api/grid_leftsplit_config",
+                                "grid/api/grid_selection_config",
+                                "grid/api/grid_headerrowheight_config",
+                                "grid/api/grid_rowcss_config",
+                                "grid/api/grid_htmlenable_config",
+                                "grid/api/grid_fittocontainer_config",
+                                "grid/api/grid_width_config",
+                                "grid/api/grid_headersort_config",
+                                "grid/api/grid_height_config",
+                                "grid/api/grid_rowheight_config",
+                                "grid/api/grid_keynavigation_config",
+                                "grid/api/grid_footerrowheight_config",
+                                "grid/api/grid_resizable_config",
                             ],
                         },
                     ],
@@ -800,15 +686,6 @@ module.exports = {
             ],
         },
         // end Grid 
-
-
-
-
-
-
-
-
-
 
         //Layout
         {
@@ -921,50 +798,6 @@ module.exports = {
         // end Layout 
 
 
-
-
-
-        // | | | | | | |--->list
-
-        // | | | | | | | |--->api
-        // | | | | | | | | |--->list_setfocus_method.md
-        // | | | | | | | | |--->list_getfocus_method.md
-        // | | | | | | | | |--->list_candrop_event.md
-        // | | | | | | | | |--->list_css_config.md
-        // | | | | | | | | |--->list_beforedrop_event.md
-        // | | | | | | | | |--->list_editable_config.md
-        // | | | | | | | | |--->list_canceldrop_event.md
-        // | | | | | | | | |--->list_multiselection_config.md
-        // | | | | | | | | |--->list_edititem_method.md
-        // | | | | | | | | |--->list_disableselection_method.md
-        // | | | | | | | | |--->list_dropbehaviour_config.md
-        // | | | | | | | | |--->list_selection_config.md
-        // | | | | | | | | |--->list_beforedrag_event.md
-        // | | | | | | | | |--->list_setfocusindex_method.md
-        // | | | | | | | | |--->list_destructor_method.md
-        // | | | | | | | | |--->list_itemheight_config.md
-        // | | | | | | | | |--->list_selection_object.md
-        // | | | | | | | | |--->list_keynavigation_config.md
-        // | | | | | | | | |--->list_beforeeditend_event.md
-        // | | | | | | | | |--->list_click_event.md
-        // | | | | | | | | |--->list_dragcopy_config.md
-        // | | | | | | | | |--->list_dragout_event.md
-        // | | | | | | | | |--->list_contextmenu_event.md
-        // | | | | | | | | |--->list_virtual_config.md
-        // | | | | | | | | |--->list_focuschange_event.md
-        // | | | | | | | | |--->list_afterdrop_event.md
-        // | | | | | | | | |--->list_doubleclick_event.md
-        // | | | | | | | | |--->list_data_object.md
-        // | | | | | | | | |--->list_beforeeditstart_event.md
-        // | | | | | | | | |--->list_multiselectionmode_config.md
-        // | | | | | | | | |--->list_getfocusindex_method.md
-
-        // | | | | | | | | |--->list_paint_method.md
-        // | | | | | | | | |--->list_height_config.md
-        // | | | | | | | | |--->list_itemmouseover_event.md
-        // | | | | | | | | |--->list_data_config.md
-        // | | | | | | | | |--->list_template_config.md
-        // | | | | | | | | |--->list_dragin_event.md
         // | | | | | | | | |--->selection
         // | | | | | | | | | |--->selection_afterunselect_event.md
         // | | | | | | | | | |--->selection_beforeselect_event.md
@@ -972,17 +805,6 @@ module.exports = {
         // | | | | | | | | | |--->selection_afterselect_event.md
         // | | | | | | | | | |--->selection_enable_method.md
         // | | | | | | | | | |--->selection_disable_method.md
-        // | | | | | | | | |--->list_enableselection_method.md
-        // | | | | | | | | |--->list_getfocusitem_method.md
-        // | | | | | | | | |--->list_itemrightclick_event.md
-        // | | | | | | | | |--->list_edit_method.md
-        // | | | | | | | | |--->list_editing_config.md
-        // | | | | | | | | |--->list_eventhandlers_config.md
-        // | | | | | | | | |--->list_afterdrag_event.md
-        // | | | | | | | | |--->list_dragstart_event.md
-        // | | | | | | | | |--->list_aftereditend_event.md
-        // | | | | | | | | |--->list_dragmode_config.md
-        // | | | | | | | | |--->list_aftereditstart_event.md
 
 
 
@@ -1014,14 +836,17 @@ module.exports = {
                             label: "Methods",
                             collapsed: true,
                             items: [
-                                "calendar/api/calendar_link_method",
-                                "calendar/api/calendar_clear_method",
-                                "calendar/api/calendar_paint_method",
-                                "calendar/api/calendar_getcurrentmode_method",
-                                "calendar/api/calendar_getvalue_method",
-                                "calendar/api/calendar_setvalue_method",
-                                "calendar/api/calendar_showdate_method",
-                                "calendar/api/calendar_destructor_method",
+                                "list/api/list_setfocus_method",
+                                "list/api/list_getfocus_method",
+                                "list/api/list_getfocusindex_method",
+                                "list/api/list_paint_method",
+                                "list/api/list_enableselection_method",
+                                "list/api/list_edit_method",
+                                "list/api/list_getfocusitem_method",
+                                "list/api/list_disableselection_method",
+                                "list/api/list_setfocusindex_method",
+                                "list/api/list_destructor_method",
+                                "list/api/list_edititem_method",
                             ],
                         },
                         {
@@ -1029,14 +854,27 @@ module.exports = {
                             label: "Events",
                             collapsed: true,
                             items: [
-                                "calendar/api/calendar_change_event",
-                                "calendar/api/calendar_datehover_event",
-                                "calendar/api/calendar_cancelclick_event",
-                                "calendar/api/calendar_modechange_event",
-                                "calendar/api/calendar_yearselected_event",
-                                "calendar/api/calendar_monthselected_event",
-                                "calendar/api/calendar_datemouseover_event",
-                                "calendar/api/calendar_beforechange_event",
+                                "list/api/list_candrop_event",
+                                "list/api/list_beforedrop_event",
+                                "list/api/list_canceldrop_event",
+                                "list/api/list_beforedrag_event",
+                                "list/api/list_selection_object",
+                                "list/api/list_beforeeditend_event",
+                                "list/api/list_click_event",
+                                "list/api/list_dragout_event",
+                                "list/api/list_contextmenu_event",
+                                "list/api/list_focuschange_event",
+                                "list/api/list_afterdrop_event",
+                                "list/api/list_doubleclick_event",
+                                "list/api/list_beforeeditstart_event",
+                                "list/api/list_itemmouseover_event",
+                                "list/api/list_dragin_event",
+                                "list/api/list_itemrightclick_event",
+                                "list/api/list_afterdrag_event",
+                                "list/api/list_dragstart_event",
+                                "list/api/list_aftereditend_event",
+                                "list/api/list_aftereditstart_event",
+                                "list/api/list_data_object", //todo
                             ],
                         },
                         {
@@ -1044,22 +882,22 @@ module.exports = {
                             label: "Properties",
                             collapsed: true,
                             items: [
-                                "calendar/api/calendar_date_config",
-                                "calendar/api/calendar_thismonthonly_config",
-                                "calendar/api/calendar_disableddates_config",
-                                "calendar/api/calendar_weeknumbers_config",
-                                "calendar/api/calendar_dateformat_config",
-                                "calendar/api/calendar_timepicker_config",
-                                "calendar/api/calendar_timeformat_config",
-                                "calendar/api/calendar_block_config",
-                                "calendar/api/calendar_value_config",
-                                "calendar/api/calendar_view_config",
-                                "calendar/api/calendar_weekstart_config",
-                                "calendar/api/calendar_css_config",
-                                "calendar/api/calendar_mode_config",
-                                "calendar/api/calendar_mark_config",
-                                "calendar/api/calendar_range_config",
-                                "calendar/api/calendar_width_config",
+                                "list/api/list_multiselectionmode_config",
+                                "list/api/list_height_config",
+                                "list/api/list_virtual_config",
+                                "list/api/list_dragcopy_config",
+                                "list/api/list_itemheight_config",
+                                "list/api/list_keynavigation_config",
+                                "list/api/list_editable_config",
+                                "list/api/list_css_config",
+                                "list/api/list_multiselection_config",
+                                "list/api/list_dropbehaviour_config",
+                                "list/api/list_selection_config",
+                                "list/api/list_data_config",
+                                "list/api/list_template_config",
+                                "list/api/list_editing_config",
+                                "list/api/list_eventhandlers_config",
+                                "list/api/list_dragmode_config",
                             ],
                         },
                     ],
@@ -1067,8 +905,6 @@ module.exports = {
             ],
         },
         // end List 
-
-
 
         //Menu
         {
@@ -1144,12 +980,6 @@ module.exports = {
             ],
         },
         // end Menu 
-
-
-
-
-
-
 
         //Message //???? todo где API????
         {
@@ -1228,6 +1058,7 @@ module.exports = {
             ],
         },
         // end Message 
+
         //Pagination
         {
             type: "category",
@@ -1285,19 +1116,6 @@ module.exports = {
             ],
         },
         // end Pagination
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         //Popup
         {
@@ -1362,9 +1180,6 @@ module.exports = {
             ],
         },
         // end Popup 
-
-
-
 
         //Ribbon
         {
@@ -1450,20 +1265,6 @@ module.exports = {
             ],
         },
         // end Ribbon 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         //Sidebar
         {
@@ -1569,18 +1370,6 @@ module.exports = {
         },
         // end Sidebar 
 
-
-
-
-
-
-
-
-
-
-
-
-
         //Slider
         {
             type: "category",
@@ -1662,17 +1451,6 @@ module.exports = {
             ],
         },
         // end Slider 
-
-
-
-
-
-
-
-
-
-
-
 
         //Tabbar
         {
@@ -1756,17 +1534,6 @@ module.exports = {
             ],
         },
         // end Tabbar 
-
-
-
-
-
-
-
-
-
-
-
 
         //Timepicker
         {
@@ -1927,61 +1694,6 @@ module.exports = {
         // end Toolbar 
 
 
-
-        // |
-        // | | | | | | | -- - > api |
-        // | | | | | | | | -- - > tree_candrop_event.md |
-        // | | | | | | | | -- - > tree_itemdblclick_event.md |
-        // | | | | | | | | -- - > tree_beforedrag_event.md |
-        // | | | | | | | | -- - > tree_selection_config.md |
-        // | | | | | | | | -- - > tree_dragstart_event.md |
-        // | | | | | | | | -- - > tree_afterdrag_event.md |
-        // | | | | | | | | -- - > tree_dragmode_config.md |
-        // | | | | | | | | -- - > tree_itemclick_event.md |
-        // | | | | | | | | -- - > tree_dropbehaviour_config.md |
-        // | | | | | | | | -- - > tree_getchecked_method.md |
-        // | | | | | | | | -- - > tree_editing_config.md |
-        // | | | | | | | | -- - > tree_keynavigation_config.md |
-        // | | | | | | | | -- - > tree_openall_method.md |
-        // | | | | | | | | -- - > tree_checkbox_config.md |
-        // | | | | | | | | -- - > tree_open_method.md |
-        // | | | | | | | | -- - > tree_css_config.md |
-        // | | | | | | | | -- - > tree_toggle_method.md |
-        // | | | | | | | | -- - > tree_focuschange_event.md |
-        // | | | | | | | | -- - > tree_rootid_config.md |
-        // | | | | | | | | -- - > tree_beforedrop_event.md |
-        // | | | | | | | | -- - > tree_uncheckitemnew_method.md |
-        // | | | | | | | | -- - > tree_canceldrop_event.md |
-        // | | | | | | | | -- - > tree_afterdrop_event.md |
-        // | | | | | | | | -- - > tree_uncheckitem_method.md |
-        // | | | | | | | | -- - > tree_paint_method.md |
-        // | | | | | | | | -- - > tree_afterexpand_event.md |
-        // | | | | | | | | -- - > tree_autoload_config.md |
-        // | | | | | | | | -- - > tree_collapse_method.md |
-        // | | | | | | | | -- - > tree_beforeexpand_event.md |
-        // | | | | | | | | -- - > tree_dragcopy_config.md |
-        // | | | | | | | | -- - > tree_dragin_event.md |
-        // | | | | | | | | -- - > tree_setstate_method.md |
-        // | | | | | | | | -- - > tree_getstate_method.md |
-        // | | | | | | | | -- - > tree_itemrightclick_event.md |
-        // | | | | | | | | -- - > tree_dragout_event.md |
-        // | | | | | | | | -- - > tree_expand_method.md |
-        // | | | | | | | | -- - > tree_isfolder_config.md |
-        // | | | | | | | | -- - > tree_focusitem_method.md |
-        // | | | | | | | | -- - > tree_beforecollapse_event.md |
-        // | | | | | | | | -- - > tree_aftereditend_event.md |
-        // | | | | | | | | -- - > refs |
-        // | | | | | | | | | -- - > tree_properties.md |
-        // | | | | | | | | | -- - > tree_events.md |
-        // | | | | | | | | | -- - > selection_events.md |
-        // | | | | | | | | | -- - > selection_methods.md |
-        // | | | | | | | | | -- - > tree_methods.md |
-        // | | | | | | | | | -- - > tree.md |
-        // | | | | | | | | -- - > tree_edititem_method.md |
-        // | | | | | | | | -- - > tree_destructor_method.md |
-        // | | | | | | | | -- - > tree_itemcontextmenu_event.md |
-        // | | | | | | | | -- - > tree_beforeeditstart_event.md |
-        // | | | | | | | | -- - > tree_aftereditstart_event.md |
         // | | | | | | | | -- - > selection |
         // | | | | | | | | | -- - > selection_afterunselect_event.md |
         // | | | | | | | | | -- - > selection_beforeselect_event.md |
@@ -1989,19 +1701,6 @@ module.exports = {
         // | | | | | | | | | -- - > selection_afterselect_event.md |
         // | | | | | | | | | -- - > selection_enable_method.md |
         // | | | | | | | | | -- - > selection_disable_method.md |
-        // | | | | | | | | -- - > tree_data_object.md |
-        // | | | | | | | | -- - > tree_icon_config.md |
-        // | | | | | | | | -- - > tree_expandall_method.md |
-        // | | | | | | | | -- - > tree_closeall_method.md |
-        // | | | | | | | | -- - > tree_close_method.md |
-        // | | | | | | | | -- - > tree_data_config.md |
-        // | | | | | | | | -- - > tree_editable_config.md |
-        // | | | | | | | | -- - > tree_checkitem_method.md |
-        // | | | | | | | | -- - > tree_collapseall_method.md |
-        // | | | | | | | | -- - > tree_beforeeditend_event.md |
-        // | | | | | | | | -- - > tree_aftercollapse_event.md
-
-
 
 
         //Tree
@@ -2042,14 +1741,25 @@ module.exports = {
                             label: "Methods",
                             collapsed: true,
                             items: [
-                                "calendar/api/calendar_link_method",
-                                "calendar/api/calendar_clear_method",
-                                "calendar/api/calendar_paint_method",
-                                "calendar/api/calendar_getcurrentmode_method",
-                                "calendar/api/calendar_getvalue_method",
-                                "calendar/api/calendar_setvalue_method",
-                                "calendar/api/calendar_showdate_method",
-                                "calendar/api/calendar_destructor_method",
+                                "tree/api/tree_getchecked_method",
+                                "tree/api/tree_uncheckitemnew_method",
+                                "tree/api/tree_uncheckitem_method",
+                                "tree/api/tree_paint_method",
+                                "tree/api/tree_focusitem_method",
+                                "tree/api/tree_openall_method",
+                                "tree/api/tree_toggle_method",
+                                "tree/api/tree_open_method",
+                                "tree/api/tree_collapse_method",
+                                "tree/api/tree_setstate_method",
+                                "tree/api/tree_getstate_method",
+                                "tree/api/tree_expand_method",
+                                "tree/api/tree_edititem_method",
+                                "tree/api/tree_destructor_method",
+                                "tree/api/tree_expandall_method",
+                                "tree/api/tree_closeall_method",
+                                "tree/api/tree_close_method",
+                                "tree/api/tree_checkitem_method",
+                                "tree/api/tree_collapseall_method",
                             ],
                         },
                         {
@@ -2057,14 +1767,29 @@ module.exports = {
                             label: "Events",
                             collapsed: true,
                             items: [
-                                "calendar/api/calendar_change_event",
-                                "calendar/api/calendar_datehover_event",
-                                "calendar/api/calendar_cancelclick_event",
-                                "calendar/api/calendar_modechange_event",
-                                "calendar/api/calendar_yearselected_event",
-                                "calendar/api/calendar_monthselected_event",
-                                "calendar/api/calendar_datemouseover_event",
-                                "calendar/api/calendar_beforechange_event",
+                                "tree/api/tree_candrop_event",
+                                "tree/api/tree_itemdblclick_event",
+                                "tree/api/tree_beforedrag_event",
+                                "tree/api/tree_dragstart_event",
+                                "tree/api/tree_afterdrag_event",
+                                "tree/api/tree_itemclick_event",
+                                "tree/api/tree_focuschange_event",
+                                "tree/api/tree_beforedrop_event",
+                                "tree/api/tree_canceldrop_event",
+                                "tree/api/tree_afterdrop_event",
+                                "tree/api/tree_afterexpand_event",
+                                "tree/api/tree_beforeexpand_event",
+                                "tree/api/tree_dragin_event",
+                                "tree/api/tree_itemrightclick_event",
+                                "tree/api/tree_dragout_event",
+                                "tree/api/tree_beforecollapse_event",
+                                "tree/api/tree_aftereditend_event",
+                                "tree/api/tree_itemcontextmenu_event",
+                                "tree/api/tree_beforeeditstart_event",
+                                "tree/api/tree_aftereditstart_event",
+                                "tree/api/tree_beforeeditend_event",
+                                "tree/api/tree_aftercollapse_event",
+                                "tree/api/tree_data_object", //
                             ],
                         },
                         {
@@ -2072,22 +1797,20 @@ module.exports = {
                             label: "Properties",
                             collapsed: true,
                             items: [
-                                "calendar/api/calendar_date_config",
-                                "calendar/api/calendar_thismonthonly_config",
-                                "calendar/api/calendar_disableddates_config",
-                                "calendar/api/calendar_weeknumbers_config",
-                                "calendar/api/calendar_dateformat_config",
-                                "calendar/api/calendar_timepicker_config",
-                                "calendar/api/calendar_timeformat_config",
-                                "calendar/api/calendar_block_config",
-                                "calendar/api/calendar_value_config",
-                                "calendar/api/calendar_view_config",
-                                "calendar/api/calendar_weekstart_config",
-                                "calendar/api/calendar_css_config",
-                                "calendar/api/calendar_mode_config",
-                                "calendar/api/calendar_mark_config",
-                                "calendar/api/calendar_range_config",
-                                "calendar/api/calendar_width_config",
+                                "tree/api/tree_selection_config",
+                                "tree/api/tree_isfolder_config",
+                                "tree/api/tree_icon_config",
+                                "tree/api/tree_autoload_config",
+                                "tree/api/tree_dragcopy_config",
+                                "tree/api/tree_rootid_config",
+                                "tree/api/tree_dragmode_config",
+                                "tree/api/tree_dropbehaviour_config",
+                                "tree/api/tree_editing_config",
+                                "tree/api/tree_keynavigation_config",
+                                "tree/api/tree_checkbox_config",
+                                "tree/api/tree_css_config",
+                                "tree/api/tree_data_config",
+                                "tree/api/tree_editable_config",
                             ],
                         },
                     ],
@@ -2097,104 +1820,7 @@ module.exports = {
         // end Tree 
 
 
-        //         | | | | | | |--->treegrid
-        // | | | | | | | |--->api
-        // | | | | | | | | |--->treegrid_footercellrightclick_event.md
-        // | | | | | | | | |--->treegrid_beforecolumndrag_event.md
-        // | | | | | | | | |--->treegrid_autowidth_config.md
-        // | | | | | | | | |--->treegrid_scroll_event.md
-        // | | | | | | | | |--->treegrid_editable_config.md
-        // | | | | | | | | |--->treegrid_destructor_method.md
-        // | | | | | | | | |--->treegrid_afterresizeend_event.md
-        // | | | | | | | | |--->treegrid_beforeeditstart_event.md
-        // | | | | | | | | |--->treegrid_beforecolumnshow_event.md
-        // | | | | | | | | |--->treegrid_headerinput_event.md
-        // | | | | | | | | |--->treegrid_footercellmousedown_event.md
-        // | | | | | | | | |--->treegrid_adjustcolumnwidth_method.md
-        // | | | | | | | | |--->treegrid_paint_method.md
-        // | | | | | | | | |--->treegrid_dragcolumnin_event.md
-        // | | | | | | | | |--->treegrid_expandall_method.md
-        // | | | | | | | | |--->treegrid_removespan_method.md
-        // | | | | | | | | |--->treegrid_beforerowshow_event.md
-        // | | | | | | | | |--->treegrid_beforerowdrag_event.md
-        // | | | | | | | | |--->treegrid_collapseall_method.md
-        // | | | | | | | | |--->treegrid_headercellclick_event.md
-        // | | | | | | | | |--->treegrid_htmlenable_config.md
-        // | | | | | | | | |--->treegrid_fittocontainer_config.md
-        // | | | | | | | | |--->treegrid_cancelrowdrop_event.md
-        // | | | | | | | | |--->treegrid_editcell_method.md
-        // | | | | | | | | |--->treegrid_getspan_method.md
-        // | | | | | | | | |--->treegrid_export_object.md
-        // | | | | | | | | |--->treegrid_headerrowheight_config.md
-        // | | | | | | | | |--->treegrid_editend_method.md
-        // | | | | | | | | |--->treegrid_beforecollapse_event.md
-        // | | | | | | | | |--->treegrid_isrowhidden_method.md
-        // | | | | | | | | |--->treegrid_beforecolumndrop_event.md
-        // | | | | | | | | |--->treegrid_hiderow_method.md
-        // | | | | | | | | |--->treegrid_addcellcss_method.md
-        // | | | | | | | | |--->treegrid_iscolumnhidden_method.md
-        // | | | | | | | | |--->treegrid_editing_config.md
-        // | | | | | | | | |--->treegrid_beforecolumnhide_event.md
-        // | | | | | | | | |--->treegrid_adjust_config.md
-        // | | | | | | | | |--->treegrid_dragcolumnout_event.md
-        // | | | | | | | | |--->treegrid_setcolumns_method.md
-        // | | | | | | | | |--->treegrid_aftereditstart_event.md
-        // | | | | | | | | |--->treegrid_beforeresizestart_event.md
-        // | | | | | | | | |--->treegrid_celldblclick_event.md
-        // | | | | | | | | |--->treegrid_columns_config.md
-        // | | | | | | | | |--->treegrid_getsortingstate_method.md
-        // | | | | | | | | |--->treegrid_headersort_config.md
-        // | | | | | | | | |--->treegrid_tooltip_config.md
-        // | | | | | | | | |--->treegrid_showcolumn_method.md
-        // | | | | | | | | |--->treegrid_footercellclick_event.md
-        // | | | | | | | | |--->treegrid_footercellmouseover_event.md
-        // | | | | | | | | |--->treegrid_columnsautowidth_config.md
-        // | | | | | | | | |--->treegrid_beforerowdrop_event.md
-        // | | | | | | | | |--->treegrid_aftereditend_event.md
-        // | | | | | | | | |--->treegrid_beforerowhide_event.md
-        // | | | | | | | | |--->treegrid_dragrowin_event.md
-        // | | | | | | | | |--->treegrid_eventhandlers_config.md
-        // | | | | | | | | |--->treegrid_scrollto_method.md
-        // | | | | | | | | |--->treegrid_headercellmouseover_event.md
-        // | | | | | | | | |--->treegrid_cellmouseover_event.md
-        // | | | | | | | | |--->treegrid_grouptitletemplate_config.md
-        // | | | | | | | | |--->treegrid_aftercolumnshow_event.md
-        // | | | | | | | | |--->treegrid_getcolumn_method.md
-        // | | | | | | | | |--->treegrid_sort_event.md
-        // | | | | | | | | |--->treegrid_afterrowshow_event.md
-        // | | | | | | | | |--->treegrid_hidecolumn_method.md
-        // | | | | | | | | |--->treegrid_canrowdrop_event.md
-        // | | | | | | | | |--->treegrid_afterrowdrag_event.md
-        // | | | | | | | | |--->treegrid_headercelldblclick_event.md
-        // | | | | | | | | |--->treegrid_footerrowheight_config.md
-        // | | | | | | | | |--->treegrid_aftercolumndrag_event.md
-        // | | | | | | | | |--->treegrid_getcellrect_method.md
-        // | | | | | | | | |--->treegrid_removecellcss_method.md
-        // | | | | | | | | |--->treegrid_cancolumndrop_event.md
-        // | | | | | | | | |--->treegrid_groupby_method.md
-        // | | | | | | | | |--->treegrid_dragcopy_config.md
-        // | | | | | | | | |--->treegrid_width_config.md
-        // | | | | | | | | |--->treegrid_addspan_method.md
-        // | | | | | | | | |--->treegrid_autoemptyrow_config.md
-        // | | | | | | | | |--->treegrid_scroll_method.md
-        // | | | | | | | | |--->refs
-        // | | | | | | | | | |--->treegrid.md
-        // | | | | | | | | | |--->treegrid_events.md
-        // | | | | | | | | | |--->selection_events.md
-        // | | | | | | | | | |--->selection_methods.md
-        // | | | | | | | | | |--->treegrid_methods.md
-        // | | | | | | | | | |--->treegrid_properties.md
-        // | | | | | | | | |--->treegrid_data_config.md
-        // | | | | | | | | |--->treegrid_rowheight_config.md
-        // | | | | | | | | |--->treegrid_resizable_config.md
-        // | | | | | | | | |--->treegrid_beforeexpand_event.md
-        // | | | | | | | | |--->treegrid_getheaderfilter_method.md
-        // | | | | | | | | |--->treegrid_cancelcolumndrop_event.md
-        // | | | | | | | | |--->treegrid_footercelldblclick_event.md
-        // | | | | | | | | |--->treegrid_collapse_method.md
-        // | | | | | | | | |--->treegrid_splitat_config.md
-        // | | | | | | | | |--->treegrid_rowcss_config.md
-        // | | | | | | | | |--->treegrid_data_object.md
+
         // | | | | | | | | |--->selection
         // | | | | | | | | | |--->selection_afterunselect_event.md
         // | | | | | | | | | |--->selection_beforeselect_event.md
@@ -2205,41 +1831,6 @@ module.exports = {
         // | | | | | | | | | |--->selection_enable_method.md
         // | | | | | | | | | |--->selection_disable_method.md
         // | | | | | | | | | |--->selection_setcell_method.md
-        // | | | | | | | | |--->treegrid_edit_method.md
-        // | | | | | | | | |--->treegrid_headercellmousedown_event.md
-        // | | | | | | | | |--->treegrid_cellmousedown_event.md
-        // | | | | | | | | |--->treegrid_dragmode_config.md
-        // | | | | | | | | |--->treegrid_resize_event.md
-        // | | | | | | | | |--->treegrid_afterrowdrop_event.md
-        // | | | | | | | | |--->treegrid_aftercolumnhide_event.md
-        // | | | | | | | | |--->treegrid_aftercollapse_event.md
-        // | | | | | | | | |--->treegrid_beforeeditend_event.md
-        // | | | | | | | | |--->treegrid_cellclick_event.md
-        // | | | | | | | | |--->treegrid_dragitem_config.md
-        // | | | | | | | | |--->treegrid_dragcolumnstart_event.md
-        // | | | | | | | | |--->treegrid_afterrowhide_event.md
-        // | | | | | | | | |--->treegrid_aftercolumndrop_event.md
-        // | | | | | | | | |--->treegrid_dragrowout_event.md
-        // | | | | | | | | |--->treegrid_css_config.md
-        // | | | | | | | | |--->treegrid_dragrowstart_event.md
-        // | | | | | | | | |--->treegrid_headercellrightclick_event.md
-        // | | | | | | | | |--->treegrid_afterexpand_event.md
-        // | | | | | | | | |--->treegrid_cellrightclick_event.md
-        // | | | | | | | | |--->treegrid_leftsplit_config.md
-        // | | | | | | | | |--->treegrid_filterchange_event.md
-        // | | | | | | | | |--->treegrid_removerowcss_method.md
-        // | | | | | | | | |--->treegrid_expand_event.md
-        // | | | | | | | | |--->treegrid_addrowcss_method.md
-        // | | | | | | | | |--->treegrid_spans_config.md
-        // | | | | | | | | |--->treegrid_sortable_config.md
-        // | | | | | | | | |--->treegrid_showrow_method.md
-        // | | | | | | | | |--->treegrid_getscrollstate_method.md
-        // | | | | | | | | |--->treegrid_height_config.md
-        // | | | | | | | | |--->treegrid_selection_config.md
-        // | | | | | | | | |--->treegrid_ungroup_method.md
-        // | | | | | | | | |--->treegrid_expand_method.md
-
-
 
 
 
@@ -2270,14 +1861,39 @@ module.exports = {
                             label: "Methods",
                             collapsed: true,
                             items: [
-                                "calendar/api/calendar_link_method",
-                                "calendar/api/calendar_clear_method",
-                                "calendar/api/calendar_paint_method",
-                                "calendar/api/calendar_getcurrentmode_method",
-                                "calendar/api/calendar_getvalue_method",
-                                "calendar/api/calendar_setvalue_method",
-                                "calendar/api/calendar_showdate_method",
-                                "calendar/api/calendar_destructor_method",
+                                "treegrid/api/treegrid_destructor_method",
+                                "treegrid/api/treegrid_adjustcolumnwidth_method",
+                                "treegrid/api/treegrid_paint_method",
+                                "treegrid/api/treegrid_ungroup_method",
+                                "treegrid/api/treegrid_expand_method",
+                                "treegrid/api/treegrid_expandall_method",
+                                "treegrid/api/treegrid_removespan_method",
+                                "treegrid/api/treegrid_collapseall_method",
+                                "treegrid/api/treegrid_editcell_method",
+                                "treegrid/api/treegrid_getspan_method",
+                                "treegrid/api/treegrid_showrow_method",
+                                "treegrid/api/treegrid_getscrollstate_method",
+                                "treegrid/api/treegrid_addrowcss_method",
+                                "treegrid/api/treegrid_editend_method",
+                                "treegrid/api/treegrid_isrowhidden_method",
+                                "treegrid/api/treegrid_getsortingstate_method",
+                                "treegrid/api/treegrid_scrollto_method",
+                                "treegrid/api/treegrid_showcolumn_method",
+                                "treegrid/api/treegrid_hidecolumn_method",
+                                "treegrid/api/treegrid_getcolumn_method",
+                                "treegrid/api/treegrid_getcellrect_method",
+                                "treegrid/api/treegrid_removecellcss_method",
+                                "treegrid/api/treegrid_groupby_method",
+                                "treegrid/api/treegrid_addspan_method",
+                                "treegrid/api/treegrid_scroll_method",
+                                "treegrid/api/treegrid_getheaderfilter_method",
+                                "treegrid/api/treegrid_collapse_method",
+                                "treegrid/api/treegrid_edit_method",
+                                "treegrid/api/treegrid_removerowcss_method",
+                                "treegrid/api/treegrid_hiderow_method",
+                                "treegrid/api/treegrid_addcellcss_method",
+                                "treegrid/api/treegrid_iscolumnhidden_method",
+                                "treegrid/api/treegrid_setcolumns_method",
                             ],
                         },
                         {
@@ -2285,14 +1901,66 @@ module.exports = {
                             label: "Events",
                             collapsed: true,
                             items: [
-                                "calendar/api/calendar_change_event",
-                                "calendar/api/calendar_datehover_event",
-                                "calendar/api/calendar_cancelclick_event",
-                                "calendar/api/calendar_modechange_event",
-                                "calendar/api/calendar_yearselected_event",
-                                "calendar/api/calendar_monthselected_event",
-                                "calendar/api/calendar_datemouseover_event",
-                                "calendar/api/calendar_beforechange_event",
+                                "treegrid/api/treegrid_footercellrightclick_event",
+                                "treegrid/api/treegrid_beforecolumndrag_event",
+                                "treegrid/api/treegrid_scroll_event",
+                                "treegrid/api/treegrid_afterresizeend_event",
+                                "treegrid/api/treegrid_beforeeditstart_event",
+                                "treegrid/api/treegrid_beforecolumnshow_event",
+                                "treegrid/api/treegrid_headerinput_event",
+                                "treegrid/api/treegrid_footercellmousedown_event",
+                                "treegrid/api/treegrid_dragcolumnin_event",
+                                "treegrid/api/treegrid_beforerowshow_event",
+                                "treegrid/api/treegrid_beforerowdrag_event",
+                                "treegrid/api/treegrid_headercellclick_event",
+                                "treegrid/api/treegrid_cancelrowdrop_event",
+                                "treegrid/api/treegrid_beforecollapse_event",
+                                "treegrid/api/treegrid_beforecolumndrop_event",
+                                "treegrid/api/treegrid_beforecolumnhide_event",
+                                "treegrid/api/treegrid_dragcolumnout_event",
+                                "treegrid/api/treegrid_aftereditstart_event",
+                                "treegrid/api/treegrid_beforeresizestart_event",
+                                "treegrid/api/treegrid_celldblclick_event",
+                                "treegrid/api/treegrid_footercellclick_event",
+                                "treegrid/api/treegrid_footercellmouseover_event",
+                                "treegrid/api/treegrid_beforerowdrop_event",
+                                "treegrid/api/treegrid_aftereditend_event",
+                                "treegrid/api/treegrid_beforerowhide_event",
+                                "treegrid/api/treegrid_dragrowin_event",
+                                "treegrid/api/treegrid_headercellmouseover_event",
+                                "treegrid/api/treegrid_cellmouseover_event",
+                                "treegrid/api/treegrid_aftercolumnshow_event",
+                                "treegrid/api/treegrid_sort_event",
+                                "treegrid/api/treegrid_afterrowshow_event",
+                                "treegrid/api/treegrid_canrowdrop_event",
+                                "treegrid/api/treegrid_afterrowdrag_event",
+                                "treegrid/api/treegrid_headercelldblclick_event",
+                                "treegrid/api/treegrid_aftercolumndrag_event",
+                                "treegrid/api/treegrid_cancolumndrop_event",
+                                "treegrid/api/treegrid_beforeexpand_event",
+                                "treegrid/api/treegrid_cancelcolumndrop_event",
+                                "treegrid/api/treegrid_footercelldblclick_event",
+                                "treegrid/api/treegrid_headercellmousedown_event",
+                                "treegrid/api/treegrid_cellmousedown_event",
+                                "treegrid/api/treegrid_resize_event",
+                                "treegrid/api/treegrid_afterrowdrop_event",
+                                "treegrid/api/treegrid_aftercolumnhide_event",
+                                "treegrid/api/treegrid_aftercollapse_event",
+                                "treegrid/api/treegrid_beforeeditend_event",
+                                "treegrid/api/treegrid_cellclick_event",
+                                "treegrid/api/treegrid_dragcolumnstart_event",
+                                "treegrid/api/treegrid_afterrowhide_event",
+                                "treegrid/api/treegrid_aftercolumndrop_event",
+                                "treegrid/api/treegrid_dragrowout_event",
+                                "treegrid/api/treegrid_dragrowstart_event",
+                                "treegrid/api/treegrid_headercellrightclick_event",
+                                "treegrid/api/treegrid_afterexpand_event",
+                                "treegrid/api/treegrid_cellrightclick_event",
+                                "treegrid/api/treegrid_filterchange_event",
+                                "treegrid/api/treegrid_expand_event",
+                                "treegrid/api/treegrid_export_object", //todo
+                                "treegrid/api/treegrid_data_object", //todo
+
                             ],
                         },
                         {
@@ -2300,22 +1968,36 @@ module.exports = {
                             label: "Properties",
                             collapsed: true,
                             items: [
-                                "calendar/api/calendar_date_config",
-                                "calendar/api/calendar_thismonthonly_config",
-                                "calendar/api/calendar_disableddates_config",
-                                "calendar/api/calendar_weeknumbers_config",
-                                "calendar/api/calendar_dateformat_config",
-                                "calendar/api/calendar_timepicker_config",
-                                "calendar/api/calendar_timeformat_config",
-                                "calendar/api/calendar_block_config",
-                                "calendar/api/calendar_value_config",
-                                "calendar/api/calendar_view_config",
-                                "calendar/api/calendar_weekstart_config",
-                                "calendar/api/calendar_css_config",
-                                "calendar/api/calendar_mode_config",
-                                "calendar/api/calendar_mark_config",
-                                "calendar/api/calendar_range_config",
-                                "calendar/api/calendar_width_config",
+                                "treegrid/api/treegrid_adjust_config",
+                                "treegrid/api/treegrid_editing_config",
+                                "treegrid/api/treegrid_leftsplit_config",
+                                "treegrid/api/treegrid_css_config",
+                                "treegrid/api/treegrid_dragitem_config",
+                                "treegrid/api/treegrid_dragmode_config",
+                                "treegrid/api/treegrid_splitat_config",
+                                "treegrid/api/treegrid_rowcss_config",
+                                "treegrid/api/treegrid_data_config",
+                                "treegrid/api/treegrid_rowheight_config",
+                                "treegrid/api/treegrid_resizable_config",
+                                "treegrid/api/treegrid_autoemptyrow_config",
+                                "treegrid/api/treegrid_dragcopy_config",
+                                "treegrid/api/treegrid_width_config",
+                                "treegrid/api/treegrid_footerrowheight_config",
+                                "treegrid/api/treegrid_grouptitletemplate_config",
+                                "treegrid/api/treegrid_eventhandlers_config",
+                                "treegrid/api/treegrid_columnsautowidth_config",
+                                "treegrid/api/treegrid_spans_config",
+                                "treegrid/api/treegrid_sortable_config",
+                                "treegrid/api/treegrid_height_config",
+                                "treegrid/api/treegrid_selection_config",
+                                "treegrid/api/treegrid_headerrowheight_config",
+                                "treegrid/api/treegrid_columns_config",
+                                "treegrid/api/treegrid_headersort_config",
+                                "treegrid/api/treegrid_tooltip_config",
+                                "treegrid/api/treegrid_autowidth_config",
+                                "treegrid/api/treegrid_editable_config",
+                                "treegrid/api/treegrid_htmlenable_config",
+                                "treegrid/api/treegrid_fittocontainer_config",
                             ],
                         },
                     ],
@@ -2323,18 +2005,6 @@ module.exports = {
             ],
         },
         // end TreeGrid 
-
-
-
-
-
-
-
-
-
-
-
-
 
         //Window
         {
