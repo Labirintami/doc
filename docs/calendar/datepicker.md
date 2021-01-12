@@ -5,7 +5,7 @@ DatePicker
 
 You can use dhtmlxCalendar as a date picker by putting it inside a popup. 
 
-![Date picker](calendar/date_picker.png)
+![Date picker](./../assets/calendar/date_picker.png)
 
 First, you should create a popup and then attach a calendar into it. Follow the steps below:
 

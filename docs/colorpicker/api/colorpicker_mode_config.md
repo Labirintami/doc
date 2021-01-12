@@ -1,0 +1,25 @@
+mode
+=============
+
+@short: specifies the mode of displaying a colorpicker
+
+
+
+@values: "palette", "picker"
+
+@type: string
+
+@example: 
+var colorpicker = new dhx.Colorpicker("colorpicker", {
+	mode: "palette",
+	css: "dhx_widget--bordered"
+});
+
+@relatedsample: https://snippet.dhtmlx.com/add0g4je	Colorpicker. Colorpicker Modes
+
+@template:	api_config
+@descr: 
+
+@related: colorpicker/how_to_start.md#initializecolorpicker
+
+@changelog: added in v6.4

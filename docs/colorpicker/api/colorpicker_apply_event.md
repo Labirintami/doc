@@ -1,0 +1,21 @@
+apply
+=============
+
+@short: fires on clicking the "Select" button
+
+
+
+
+@example:
+colorpicker.events.on("Apply", function() {
+    // your logic here
+});
+
+
+@template: api_event
+@descr:
+
+@relatedsample: https://snippet.dhtmlx.com/fllgaabo	Colorpicker. Events
+
+@changelog: added in v6.4
+

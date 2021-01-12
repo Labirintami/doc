@@ -86,69 +86,69 @@ module.exports = {
         },
         // end Calendar 
 
-        //Chart
-        {
-            type: "category",
-            label: "Chart",
-            collapsed: true,
-            items: [
-                "chart/configuration_properties",
-                "chart/events",
-                "chart/charts_overview",
-                "chart/initialization",
-                "chart/api",
-                "chart/chart_initialization",
-                "chart/customization",
-                "chart/usage",
-                "chart/migration",
-                "chart/data_loading",
-                "chart/index",
-                {
-                    type: "category",
-                    label: "API",
-                    collapsed: true,
-                    items: [
-                        "calendar/api/api_overview", //todo //todo
-                        {
-                            type: "category",
-                            label: "Methods",
-                            collapsed: true,
-                            items: [
-                                "chart/api/chart_getseries_method",
-                                "chart/api/chart_eachseries_method",
-                                "chart/api/chart_destructor_method",
-                                "chart/api/chart_paint_method",
-                                "chart/api/chart_setconfig_method",
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Events",
-                            collapsed: true,
-                            items: [
-                                "chart/api/chart_toggleseries_event",
-                                "chart/api/chart_serieclick_event",
-                                "chart/api/chart_resize_event",
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Properties",
-                            collapsed: true,
-                            items: [
-                                "chart/api/chart_css_config",
-                                "chart/api/chart_series_config",
-                                "chart/api/chart_type_config",
-                                "chart/api/chart_maxpoints_config",
-                                "chart/api/chart_scales_config",
-                                "chart/api/chart_legend_config",
-                            ],
-                        },
-                    ],
-                },
-            ],
-        },
-        // end Chart 
+        // //Chart
+        // {
+        //     type: "category",
+        //     label: "Chart",
+        //     collapsed: true,
+        //     items: [
+        //         "chart/configuration_properties",
+        //         "chart/events",
+        //         "chart/charts_overview",
+        //         "chart/initialization",
+        //         "chart/api",
+        //         "chart/chart_initialization",
+        //         "chart/customization",
+        //         "chart/usage",
+        //         "chart/migration",
+        //         "chart/data_loading",
+        //         "chart/index",
+        //         {
+        //             type: "category",
+        //             label: "API",
+        //             collapsed: true,
+        //             items: [
+        //                 "calendar/api/api_overview", //todo //todo
+        //                 {
+        //                     type: "category",
+        //                     label: "Methods",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "chart/api/chart_getseries_method",
+        //                         "chart/api/chart_eachseries_method",
+        //                         "chart/api/chart_destructor_method",
+        //                         "chart/api/chart_paint_method",
+        //                         "chart/api/chart_setconfig_method",
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Events",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "chart/api/chart_toggleseries_event",
+        //                         "chart/api/chart_serieclick_event",
+        //                         "chart/api/chart_resize_event",
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Properties",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "chart/api/chart_css_config",
+        //                         "chart/api/chart_series_config",
+        //                         "chart/api/chart_type_config",
+        //                         "chart/api/chart_maxpoints_config",
+        //                         "chart/api/chart_scales_config",
+        //                         "chart/api/chart_legend_config",
+        //                     ],
+        //                 },
+        //             ],
+        //         },
+        //     ],
+        // },
+        // // end Chart 
 
         //Colorpicker
         {
@@ -248,7 +248,7 @@ module.exports = {
                     label: "API",
                     collapsed: true,
                     items: [
-                        "calendar/api/api_overview", //todo 
+                        // "calendar/api/api_overview", //todo 
                         {
                             type: "category",
                             label: "Methods",
@@ -315,17 +315,6 @@ module.exports = {
         },
         // end Combobox 
 
-
-        // | | | | | | | | -- - > selection |
-        // | | | | | | | | | -- - > selection_afterunselect_event.md |
-        // | | | | | | | | | -- - > selection_beforeselect_event.md |
-        // | | | | | | | | | -- - > selection_beforeunselect_event.md |
-        // | | | | | | | | | -- - > selection_afterselect_event.md |
-        // | | | | | | | | | -- - > selection_enable_method.md |
-        // | | | | | | | | | -- - > selection_disable_method.md
-
-
-
         //Dataview
         {
             type: "category",
@@ -347,7 +336,7 @@ module.exports = {
                     label: "API",
                     collapsed: true,
                     items: [
-                        "calendar/api/api_overview", //todo 
+                        // "calendar/api/api_overview", //todo 
                         {
                             type: "category",
                             label: "Methods",
@@ -417,110 +406,123 @@ module.exports = {
                                 "dataview/api/dataview_data_config",
                             ],
                         },
+                        {
+                            type: "category",
+                            label: "Selection API",
+                            collapsed: true,
+                            items: [{
+                                    type: "category",
+                                    label: "Selection Methods",
+                                    collapsed: true,
+                                    items: [
+                                        "dataview/api/selection/selection_enable_method",
+                                        "dataview/api/selection/selection_disable_method",
+                                    ],
+                                },
+                                {
+                                    type: "category",
+                                    label: "Selection Events",
+                                    collapsed: true,
+                                    items: [
+                                        "dataview/api/selection/selection_afterunselect_event",
+                                        "dataview/api/selection/selection_beforeselect_event",
+                                        "dataview/api/selection/selection_beforeunselect_event",
+                                        "dataview/api/selection/selection_afterselect_event",
+
+                                    ],
+                                },
+                            ],
+                        },
                     ],
                 },
             ],
         },
         // end Dataview 
 
+        // // !!!! todo аццки большое количество файлов в форме
 
-        // !!!! todo аццки большое количество файлов в форме
 
-
-        //Form
-        {
-            type: "category",
-            label: "Form",
-            collapsed: true,
-            items: [
-                "calendar/how_to_start",
-                "calendar/operating_calendar",
-                "calendar/datepicker",
-                "calendar/api",
-                "calendar/handling_events",
-                "calendar/customization",
-                "calendar/localizing_calendar",
-                "calendar/migration",
-                "calendar/index",
-                "calendar/migration_1",
-                "calendar/configuring",
-                {
-                    type: "category",
-                    label: "API",
-                    collapsed: true,
-                    items: [
-                        "calendar/api/api_overview", //todo
-                        {
-                            type: "category",
-                            label: "Methods",
-                            collapsed: true,
-                            items: [
-                                "calendar/api/calendar_link_method",
-                                "calendar/api/calendar_clear_method",
-                                "calendar/api/calendar_paint_method",
-                                "calendar/api/calendar_getcurrentmode_method",
-                                "calendar/api/calendar_getvalue_method",
-                                "calendar/api/calendar_setvalue_method",
-                                "calendar/api/calendar_showdate_method",
-                                "calendar/api/calendar_destructor_method",
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Events",
-                            collapsed: true,
-                            items: [
-                                "calendar/api/calendar_change_event",
-                                "calendar/api/calendar_datehover_event",
-                                "calendar/api/calendar_cancelclick_event",
-                                "calendar/api/calendar_modechange_event",
-                                "calendar/api/calendar_yearselected_event",
-                                "calendar/api/calendar_monthselected_event",
-                                "calendar/api/calendar_datemouseover_event",
-                                "calendar/api/calendar_beforechange_event",
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Properties",
-                            collapsed: true,
-                            items: [
-                                "calendar/api/calendar_date_config",
-                                "calendar/api/calendar_thismonthonly_config",
-                                "calendar/api/calendar_disableddates_config",
-                                "calendar/api/calendar_weeknumbers_config",
-                                "calendar/api/calendar_dateformat_config",
-                                "calendar/api/calendar_timepicker_config",
-                                "calendar/api/calendar_timeformat_config",
-                                "calendar/api/calendar_block_config",
-                                "calendar/api/calendar_value_config",
-                                "calendar/api/calendar_view_config",
-                                "calendar/api/calendar_weekstart_config",
-                                "calendar/api/calendar_css_config",
-                                "calendar/api/calendar_mode_config",
-                                "calendar/api/calendar_mark_config",
-                                "calendar/api/calendar_range_config",
-                                "calendar/api/calendar_width_config",
-                            ],
-                        },
-                    ],
-                },
-            ],
-        },
-        // end Form 
-
-        // | | | | | | | | -- - > selection |
-        // | | | | | | | | | -- - > selection_afterunselect_event.md |
-        // | | | | | | | | | -- - > selection_beforeselect_event.md |
-        // | | | | | | | | | -- - > selection_beforeunselect_event.md |
-        // | | | | | | | | | -- - > selection_getcell_method.md |
-        // | | | | | | | | | -- - > selection_getcells_method.md |
-        // | | | | | | | | | -- - > selection_afterselect_event.md |
-        // | | | | | | | | | -- - > selection_removecell_method.md |
-        // | | | | | | | | | -- - > selection_enable_method.md |
-        // | | | | | | | | | -- - > selection_disable_method.md |
-        // | | | | | | | | | -- - > selection_setcell_method.md |
-
+        // //Form
+        // {
+        //     type: "category",
+        //     label: "Form",
+        //     collapsed: true,
+        //     items: [
+        //         "calendar/how_to_start",
+        //         "calendar/operating_calendar",
+        //         "calendar/datepicker",
+        //         "calendar/api",
+        //         "calendar/handling_events",
+        //         "calendar/customization",
+        //         "calendar/localizing_calendar",
+        //         "calendar/migration",
+        //         "calendar/index",
+        //         "calendar/migration_1",
+        //         "calendar/configuring",
+        //         {
+        //             type: "category",
+        //             label: "API",
+        //             collapsed: true,
+        //             items: [
+        //                 "calendar/api/api_overview", //todo
+        //                 {
+        //                     type: "category",
+        //                     label: "Methods",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "calendar/api/calendar_link_method",
+        //                         "calendar/api/calendar_clear_method",
+        //                         "calendar/api/calendar_paint_method",
+        //                         "calendar/api/calendar_getcurrentmode_method",
+        //                         "calendar/api/calendar_getvalue_method",
+        //                         "calendar/api/calendar_setvalue_method",
+        //                         "calendar/api/calendar_showdate_method",
+        //                         "calendar/api/calendar_destructor_method",
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Events",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "calendar/api/calendar_change_event",
+        //                         "calendar/api/calendar_datehover_event",
+        //                         "calendar/api/calendar_cancelclick_event",
+        //                         "calendar/api/calendar_modechange_event",
+        //                         "calendar/api/calendar_yearselected_event",
+        //                         "calendar/api/calendar_monthselected_event",
+        //                         "calendar/api/calendar_datemouseover_event",
+        //                         "calendar/api/calendar_beforechange_event",
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Properties",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "calendar/api/calendar_date_config",
+        //                         "calendar/api/calendar_thismonthonly_config",
+        //                         "calendar/api/calendar_disableddates_config",
+        //                         "calendar/api/calendar_weeknumbers_config",
+        //                         "calendar/api/calendar_dateformat_config",
+        //                         "calendar/api/calendar_timepicker_config",
+        //                         "calendar/api/calendar_timeformat_config",
+        //                         "calendar/api/calendar_block_config",
+        //                         "calendar/api/calendar_value_config",
+        //                         "calendar/api/calendar_view_config",
+        //                         "calendar/api/calendar_weekstart_config",
+        //                         "calendar/api/calendar_css_config",
+        //                         "calendar/api/calendar_mode_config",
+        //                         "calendar/api/calendar_mark_config",
+        //                         "calendar/api/calendar_range_config",
+        //                         "calendar/api/calendar_width_config",
+        //                     ],
+        //                 },
+        //             ],
+        //         },
+        //     ],
+        // },
+        // // end Form 
 
         //Grid
         {
@@ -544,7 +546,7 @@ module.exports = {
                     label: "API",
                     collapsed: true,
                     items: [
-                        "calendar/api/api_overview", //todo 
+                        // "calendar/api/api_overview", //todo 
                         {
                             type: "category",
                             label: "Methods",
@@ -797,7 +799,6 @@ module.exports = {
         },
         // end Layout 
 
-
         // | | | | | | | | |--->selection
         // | | | | | | | | | |--->selection_afterunselect_event.md
         // | | | | | | | | | |--->selection_beforeselect_event.md
@@ -906,158 +907,176 @@ module.exports = {
         },
         // end List 
 
-        //Menu
-        {
-            type: "category",
-            label: "Menu",
-            collapsed: true,
-            items: [
-                "menu/configuring_menu_items",
-                "menu/creating_context_menu",
-                "menu/how_to_start",
-                "menu/whats_new",
-                "menu/api",
-                "menu/from_script",
-                "menu/configuring_menu",
-                "menu/work_with_menu",
-                "menu/handling_events",
-                "menu/context_menu_old",
-                "menu/migration",
-                "menu/fa_icons",
-                "menu/index",
-                {
-                    type: "category",
-                    label: "API",
-                    collapsed: true,
-                    items: [
-                        "calendar/api/api_overview", //todo //todo
-                        {
-                            type: "category",
-                            label: "Methods",
-                            collapsed: true,
-                            items: [
-                                "menu/api/menu_getselected_method",
-                                "menu/api/menu_disable_method",
-                                "menu/api/menu_isdisabled_method",
-                                "menu/api/menu_unselect_method",
-                                "menu/api/menu_isselected_method",
-                                "menu/api/menu_hide_method",
-                                "menu/api/menu_paint_method",
-                                "menu/api/menu_show_method",
-                                "menu/api/menu_enable_method",
-                                "menu/api/menu_destructor_method",
-                                "menu/api/menu_showat_method",
-                                "menu/api/menu_select_method",
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Events",
-                            collapsed: true,
-                            items: [
-                                "menu/api/menu_afterhide_event",
-                                "menu/api/menu_inputblur_event",
-                                "menu/api/menu_click_event",
-                                "menu/api/menu_inputfocus_event",
-                                "menu/api/menu_beforehide_event",
-                                "menu/api/menu_openmenu_event",
-                                "menu/api/menu_inputcreated_event",
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Properties",
-                            collapsed: true,
-                            items: [
-                                "menu/api/menu_data_config",
-                                "menu/api/menu_menucss_config",
-                                "menu/api/menu_navigationtype_config",
-                                "menu/api/menu_css_config",
-                            ],
-                        },
-                    ],
-                },
-            ],
-        },
-        // end Menu 
+        // // | | | | | | | | -- - > selection |
+        // // | | | | | | | | | -- - > selection_afterunselect_event.md |
+        // // | | | | | | | | | -- - > selection_beforeselect_event.md |
+        // // | | | | | | | | | -- - > selection_beforeunselect_event.md |
+        // // | | | | | | | | | -- - > selection_getcell_method.md |
+        // // | | | | | | | | | -- - > selection_getcells_method.md |
+        // // | | | | | | | | | -- - > selection_afterselect_event.md |
+        // // | | | | | | | | | -- - > selection_removecell_method.md |
+        // // | | | | | | | | | -- - > selection_enable_method.md |
+        // // | | | | | | | | | -- - > selection_disable_method.md |
+        // // | | | | | | | | | -- - > selection_setcell_method.md |
 
-        //Message //???? todo где API????
-        {
-            type: "category",
-            label: "Message",
-            collapsed: true,
-            items: [
-                "message/overview",
-                "message/customization",
-                "message/temp_api_message",
-                "message/creating_message",
-                "message/migration",
-                "message/index",
-                "message/configuration",
-                {
-                    type: "category",
-                    label: "API",
-                    collapsed: true,
-                    items: [
-                        "calendar/api/api_overview", //todo //todo
-                        {
-                            type: "category",
-                            label: "Methods",
-                            collapsed: true,
-                            items: [
-                                "calendar/api/calendar_link_method",
-                                "calendar/api/calendar_clear_method",
-                                "calendar/api/calendar_paint_method",
-                                "calendar/api/calendar_getcurrentmode_method",
-                                "calendar/api/calendar_getvalue_method",
-                                "calendar/api/calendar_setvalue_method",
-                                "calendar/api/calendar_showdate_method",
-                                "calendar/api/calendar_destructor_method",
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Events",
-                            collapsed: true,
-                            items: [
-                                "calendar/api/calendar_change_event",
-                                "calendar/api/calendar_datehover_event",
-                                "calendar/api/calendar_cancelclick_event",
-                                "calendar/api/calendar_modechange_event",
-                                "calendar/api/calendar_yearselected_event",
-                                "calendar/api/calendar_monthselected_event",
-                                "calendar/api/calendar_datemouseover_event",
-                                "calendar/api/calendar_beforechange_event",
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Properties",
-                            collapsed: true,
-                            items: [
-                                "calendar/api/calendar_date_config",
-                                "calendar/api/calendar_thismonthonly_config",
-                                "calendar/api/calendar_disableddates_config",
-                                "calendar/api/calendar_weeknumbers_config",
-                                "calendar/api/calendar_dateformat_config",
-                                "calendar/api/calendar_timepicker_config",
-                                "calendar/api/calendar_timeformat_config",
-                                "calendar/api/calendar_block_config",
-                                "calendar/api/calendar_value_config",
-                                "calendar/api/calendar_view_config",
-                                "calendar/api/calendar_weekstart_config",
-                                "calendar/api/calendar_css_config",
-                                "calendar/api/calendar_mode_config",
-                                "calendar/api/calendar_mark_config",
-                                "calendar/api/calendar_range_config",
-                                "calendar/api/calendar_width_config",
-                            ],
-                        },
-                    ],
-                },
-            ],
-        },
-        // end Message 
+
+
+
+
+
+        // //Menu
+        // {
+        //     type: "category",
+        //     label: "Menu",
+        //     collapsed: true,
+        //     items: [
+        //         "menu/configuring_menu_items",
+        //         "menu/creating_context_menu",
+        //         "menu/how_to_start",
+        //         "menu/whats_new",
+        //         "menu/api",
+        //         "menu/from_script",
+        //         "menu/configuring_menu",
+        //         "menu/work_with_menu",
+        //         "menu/handling_events",
+        //         "menu/context_menu_old",
+        //         "menu/migration",
+        //         "menu/fa_icons",
+        //         "menu/index",
+        //         {
+        //             type: "category",
+        //             label: "API",
+        //             collapsed: true,
+        //             items: [
+        //                 "calendar/api/api_overview", //todo //todo
+        //                 {
+        //                     type: "category",
+        //                     label: "Methods",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "menu/api/menu_getselected_method",
+        //                         "menu/api/menu_disable_method",
+        //                         "menu/api/menu_isdisabled_method",
+        //                         "menu/api/menu_unselect_method",
+        //                         "menu/api/menu_isselected_method",
+        //                         "menu/api/menu_hide_method",
+        //                         "menu/api/menu_paint_method",
+        //                         "menu/api/menu_show_method",
+        //                         "menu/api/menu_enable_method",
+        //                         "menu/api/menu_destructor_method",
+        //                         "menu/api/menu_showat_method",
+        //                         "menu/api/menu_select_method",
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Events",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "menu/api/menu_afterhide_event",
+        //                         "menu/api/menu_inputblur_event",
+        //                         "menu/api/menu_click_event",
+        //                         "menu/api/menu_inputfocus_event",
+        //                         "menu/api/menu_beforehide_event",
+        //                         "menu/api/menu_openmenu_event",
+        //                         "menu/api/menu_inputcreated_event",
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Properties",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "menu/api/menu_data_config",
+        //                         "menu/api/menu_menucss_config",
+        //                         "menu/api/menu_navigationtype_config",
+        //                         "menu/api/menu_css_config",
+        //                     ],
+        //                 },
+        //             ],
+        //         },
+        //     ],
+        // },
+        // // end Menu 
+
+        // //Message //???? todo где API????
+        // {
+        //     type: "category",
+        //     label: "Message",
+        //     collapsed: true,
+        //     items: [
+        //         "message/overview",
+        //         "message/customization",
+        //         "message/temp_api_message",
+        //         "message/creating_message",
+        //         "message/migration",
+        //         "message/index",
+        //         "message/configuration",
+        //         {
+        //             type: "category",
+        //             label: "API",
+        //             collapsed: true,
+        //             items: [
+        //                 "calendar/api/api_overview", //todo //todo
+        //                 {
+        //                     type: "category",
+        //                     label: "Methods",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "calendar/api/calendar_link_method",
+        //                         "calendar/api/calendar_clear_method",
+        //                         "calendar/api/calendar_paint_method",
+        //                         "calendar/api/calendar_getcurrentmode_method",
+        //                         "calendar/api/calendar_getvalue_method",
+        //                         "calendar/api/calendar_setvalue_method",
+        //                         "calendar/api/calendar_showdate_method",
+        //                         "calendar/api/calendar_destructor_method",
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Events",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "calendar/api/calendar_change_event",
+        //                         "calendar/api/calendar_datehover_event",
+        //                         "calendar/api/calendar_cancelclick_event",
+        //                         "calendar/api/calendar_modechange_event",
+        //                         "calendar/api/calendar_yearselected_event",
+        //                         "calendar/api/calendar_monthselected_event",
+        //                         "calendar/api/calendar_datemouseover_event",
+        //                         "calendar/api/calendar_beforechange_event",
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Properties",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "calendar/api/calendar_date_config",
+        //                         "calendar/api/calendar_thismonthonly_config",
+        //                         "calendar/api/calendar_disableddates_config",
+        //                         "calendar/api/calendar_weeknumbers_config",
+        //                         "calendar/api/calendar_dateformat_config",
+        //                         "calendar/api/calendar_timepicker_config",
+        //                         "calendar/api/calendar_timeformat_config",
+        //                         "calendar/api/calendar_block_config",
+        //                         "calendar/api/calendar_value_config",
+        //                         "calendar/api/calendar_view_config",
+        //                         "calendar/api/calendar_weekstart_config",
+        //                         "calendar/api/calendar_css_config",
+        //                         "calendar/api/calendar_mode_config",
+        //                         "calendar/api/calendar_mark_config",
+        //                         "calendar/api/calendar_range_config",
+        //                         "calendar/api/calendar_width_config",
+        //                     ],
+        //                 },
+        //             ],
+        //         },
+        //     ],
+        // },
+        // // end Message 
+
 
         //Pagination
         {
@@ -1181,276 +1200,277 @@ module.exports = {
         },
         // end Popup 
 
-        //Ribbon
-        {
-            type: "category",
-            label: "Ribbon",
-            collapsed: true,
-            items: [
-                "ribbon/controls",
-                "ribbon/selectbutton",
-                "ribbon/regular_button",
-                "ribbon/loading_json",
-                "ribbon/icon_button",
-                "ribbon/spacer",
-                "ribbon/image_button_text",
-                "ribbon/how_to_start",
-                "ribbon/text",
-                "ribbon/image_button",
-                "ribbon/input",
-                "ribbon/api",
-                "ribbon/button",
-                "ribbon/handling_events",
-                "ribbon/title",
-                "ribbon/block",
-                "ribbon/migration",
-                "ribbon/operating_ribbon",
-                "ribbon/fa_icons",
-                "ribbon/navitem",
-                "ribbon/index",
-                "ribbon/menu_item",
-                "ribbon/separator",
-                "ribbon/customhtmlbutton",
-                {
-                    type: "category",
-                    label: "API",
-                    collapsed: true,
-                    items: [
-                        "calendar/api/api_overview", //todo //todo
+        // //Ribbon
+        // {
+        //     type: "category",
+        //     label: "Ribbon",
+        //     collapsed: true,
+        //     items: [
+        //         "ribbon/controls",
+        //         "ribbon/selectbutton",
+        //         "ribbon/regular_button",
+        //         "ribbon/loading_json",
+        //         "ribbon/icon_button",
+        //         "ribbon/spacer",
+        //         "ribbon/image_button_text",
+        //         "ribbon/how_to_start",
+        //         "ribbon/text",
+        //         "ribbon/image_button",
+        //         "ribbon/input",
+        //         "ribbon/api",
+        //         "ribbon/button",
+        //         "ribbon/handling_events",
+        //         "ribbon/title",
+        //         "ribbon/block",
+        //         "ribbon/migration",
+        //         "ribbon/operating_ribbon",
+        //         "ribbon/fa_icons",
+        //         "ribbon/navitem",
+        //         "ribbon/index",
+        //         "ribbon/menu_item",
+        //         "ribbon/separator",
+        //         "ribbon/customhtmlbutton",
+        //         {
+        //             type: "category",
+        //             label: "API",
+        //             collapsed: true,
+        //             items: [
+        //                 "calendar/api/api_overview", //todo //todo
 
-                        {
-                            type: "category",
-                            label: "Methods",
-                            collapsed: true,
-                            items: [
-                                "ribbon/api/ribbon_enable_method",
-                                "ribbon/api/ribbon_isdisabled_method",
-                                "ribbon/api/ribbon_isselected_method",
-                                "ribbon/api/ribbon_setstate_method",
-                                "ribbon/api/ribbon_getstate_method",
-                                "ribbon/api/ribbon_disable_method",
-                                "ribbon/api/ribbon_hide_method",
-                                "ribbon/api/ribbon_select_method",
-                                "ribbon/api/ribbon_getselected_method",
-                                "ribbon/api/ribbon_unselect_method",
-                                "ribbon/api/ribbon_show_method",
-                                "ribbon/api/ribbon_destructor_method",
-                                "ribbon/api/ribbon_paint_method",
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Events",
-                            collapsed: true,
-                            items: [
-                                "ribbon/api/ribbon_inputfocus_event",
-                                "ribbon/api/ribbon_inputcreated_event",
-                                "ribbon/api/ribbon_click_event",
-                                "ribbon/api/ribbon_openmenu_event",
-                                "ribbon/api/ribbon_inputblur_event",
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Properties",
-                            collapsed: true,
-                            items: [
-                                "ribbon/api/ribbon_css_config",
-                                "ribbon/api/ribbon_data_config",
-                                "ribbon/api/ribbon_menucss_config",
-                            ],
-                        },
-                    ],
-                },
-            ],
-        },
-        // end Ribbon 
+        //                 {
+        //                     type: "category",
+        //                     label: "Methods",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "ribbon/api/ribbon_enable_method",
+        //                         "ribbon/api/ribbon_isdisabled_method",
+        //                         "ribbon/api/ribbon_isselected_method",
+        //                         "ribbon/api/ribbon_setstate_method",
+        //                         "ribbon/api/ribbon_getstate_method",
+        //                         "ribbon/api/ribbon_disable_method",
+        //                         "ribbon/api/ribbon_hide_method",
+        //                         "ribbon/api/ribbon_select_method",
+        //                         "ribbon/api/ribbon_getselected_method",
+        //                         "ribbon/api/ribbon_unselect_method",
+        //                         "ribbon/api/ribbon_show_method",
+        //                         "ribbon/api/ribbon_destructor_method",
+        //                         "ribbon/api/ribbon_paint_method",
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Events",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "ribbon/api/ribbon_inputfocus_event",
+        //                         "ribbon/api/ribbon_inputcreated_event",
+        //                         "ribbon/api/ribbon_click_event",
+        //                         "ribbon/api/ribbon_openmenu_event",
+        //                         "ribbon/api/ribbon_inputblur_event",
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Properties",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "ribbon/api/ribbon_css_config",
+        //                         "ribbon/api/ribbon_data_config",
+        //                         "ribbon/api/ribbon_menucss_config",
+        //                     ],
+        //                 },
+        //             ],
+        //         },
+        //     ],
+        // },
+        // // end Ribbon 
 
-        //Sidebar
-        {
-            type: "category",
-            label: "Sidebar",
-            collapsed: true,
-            items: [
-                "sidebar/controls",
-                "sidebar/selectbutton",
-                "sidebar/attach_urls",
-                "sidebar/events",
-                "sidebar/spacer",
-                "sidebar/attach_components",
-                "sidebar/image_button",
-                "sidebar/input",
-                "sidebar/sidebar_config",
-                "sidebar/api",
-                "sidebar/menuitem",
-                "sidebar/button",
-                "sidebar/customization",
-                "sidebar/single_cell",
-                "sidebar/title",
-                "sidebar/attach_html",
-                "sidebar/views",
-                "sidebar/progress",
-                "sidebar/migration",
-                "sidebar/init",
-                "sidebar/coloring_text_selection",
-                "sidebar/work_with_sidebar",
-                "sidebar/data_loading",
-                "sidebar/attach_mtb",
-                "sidebar/navitem",
-                "sidebar/index",
-                "sidebar/items_config",
-                "sidebar/attach_google_map",
-                "sidebar/separator",
-                "sidebar/customhtmlbutton",
-                {
-                    type: "category",
-                    label: "API",
-                    collapsed: true,
-                    items: [
-                        "calendar/api/api_overview", //todo //todo
+        // //Sidebar
+        // {
+        //     type: "category",
+        //     label: "Sidebar",
+        //     collapsed: true,
+        //     items: [
+        //         "sidebar/controls",
+        //         "sidebar/selectbutton",
+        //         "sidebar/attach_urls",
+        //         "sidebar/events",
+        //         "sidebar/spacer",
+        //         "sidebar/attach_components",
+        //         "sidebar/image_button",
+        //         "sidebar/input",
+        //         "sidebar/sidebar_config",
+        //         "sidebar/api",
+        //         "sidebar/menuitem",
+        //         "sidebar/button",
+        //         "sidebar/customization",
+        //         "sidebar/single_cell",
+        //         "sidebar/title",
+        //         "sidebar/attach_html",
+        //         "sidebar/views",
+        //         "sidebar/progress",
+        //         "sidebar/migration",
+        //         "sidebar/init",
+        //         "sidebar/coloring_text_selection",
+        //         "sidebar/work_with_sidebar",
+        //         "sidebar/data_loading",
+        //         "sidebar/attach_mtb",
+        //         "sidebar/navitem",
+        //         "sidebar/index",
+        //         "sidebar/items_config",
+        //         "sidebar/attach_google_map",
+        //         "sidebar/separator",
+        //         "sidebar/customhtmlbutton",
+        //         {
+        //             type: "category",
+        //             label: "API",
+        //             collapsed: true,
+        //             items: [
+        //                 "calendar/api/api_overview", //todo //todo
 
-                        {
-                            type: "category",
-                            label: "Methods",
-                            collapsed: true,
-                            items: [
-                                "sidebar/api/sidebar_expand_method",
-                                "sidebar/api/sidebar_destructor_method",
-                                "sidebar/api/sidebar_iscollapsed_method",
-                                "sidebar/api/sidebar_hide_method",
-                                "sidebar/api/sidebar_getselected_method",
-                                "sidebar/api/sidebar_paint_method",
-                                "sidebar/api/sidebar_disable_method",
-                                "sidebar/api/sidebar_select_method",
-                                "sidebar/api/sidebar_unselect_method",
-                                "sidebar/api/sidebar_isselected_method",
-                                "sidebar/api/sidebar_toggle_method",
-                                "sidebar/api/sidebar_isdisabled_method",
-                                "sidebar/api/sidebar_collapse_method",
-                                "sidebar/api/sidebar_show_method",
-                                "sidebar/api/sidebar_enable_method",
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Events",
-                            collapsed: true,
-                            items: [
-                                "sidebar/api/sidebar_aftercollapse_event",
-                                "sidebar/api/sidebar_openmenu_event",
-                                "sidebar/api/sidebar_beforeexpand_event",
-                                "sidebar/api/sidebar_beforecollapse_event",
-                                "sidebar/api/sidebar_inputfocus_event",
-                                "sidebar/api/sidebar_inputcreated_event",
-                                "sidebar/api/sidebar_toggle_event",
-                                "sidebar/api/sidebar_afterexpand_event",
-                                "sidebar/api/sidebar_inputblur_event",
-                                "sidebar/api/sidebar_afterhide_event",
-                                "sidebar/api/sidebar_click_event",
-                                "sidebar/api/sidebar_beforehide_event",
-                                "sidebar/api/sidebar_data_object", //todo что это?
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Properties",
-                            collapsed: true,
-                            items: [
-                                "sidebar/api/sidebar_width_config",
-                                "sidebar/api/sidebar_minwidth_config",
-                                "sidebar/api/sidebar_collapsed_config",
-                                "sidebar/api/sidebar_css_config",
-                                "sidebar/api/sidebar_menucss_config",
-                                "sidebar/api/sidebar_data_config",
-                            ],
-                        },
-                    ],
-                },
-            ],
-        },
-        // end Sidebar 
+        //                 {
+        //                     type: "category",
+        //                     label: "Methods",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "sidebar/api/sidebar_expand_method",
+        //                         "sidebar/api/sidebar_destructor_method",
+        //                         "sidebar/api/sidebar_iscollapsed_method",
+        //                         "sidebar/api/sidebar_hide_method",
+        //                         "sidebar/api/sidebar_getselected_method",
+        //                         "sidebar/api/sidebar_paint_method",
+        //                         "sidebar/api/sidebar_disable_method",
+        //                         "sidebar/api/sidebar_select_method",
+        //                         "sidebar/api/sidebar_unselect_method",
+        //                         "sidebar/api/sidebar_isselected_method",
+        //                         "sidebar/api/sidebar_toggle_method",
+        //                         "sidebar/api/sidebar_isdisabled_method",
+        //                         "sidebar/api/sidebar_collapse_method",
+        //                         "sidebar/api/sidebar_show_method",
+        //                         "sidebar/api/sidebar_enable_method",
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Events",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "sidebar/api/sidebar_aftercollapse_event",
+        //                         "sidebar/api/sidebar_openmenu_event",
+        //                         "sidebar/api/sidebar_beforeexpand_event",
+        //                         "sidebar/api/sidebar_beforecollapse_event",
+        //                         "sidebar/api/sidebar_inputfocus_event",
+        //                         "sidebar/api/sidebar_inputcreated_event",
+        //                         "sidebar/api/sidebar_toggle_event",
+        //                         "sidebar/api/sidebar_afterexpand_event",
+        //                         "sidebar/api/sidebar_inputblur_event",
+        //                         "sidebar/api/sidebar_afterhide_event",
+        //                         "sidebar/api/sidebar_click_event",
+        //                         "sidebar/api/sidebar_beforehide_event",
+        //                         "sidebar/api/sidebar_data_object", //todo что это?
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Properties",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "sidebar/api/sidebar_width_config",
+        //                         "sidebar/api/sidebar_minwidth_config",
+        //                         "sidebar/api/sidebar_collapsed_config",
+        //                         "sidebar/api/sidebar_css_config",
+        //                         "sidebar/api/sidebar_menucss_config",
+        //                         "sidebar/api/sidebar_data_config",
+        //                     ],
+        //                 },
+        //             ],
+        //         },
+        //     ],
+        // },
+        // // end Sidebar 
 
-        //Slider
-        {
-            type: "category",
-            label: "Slider",
-            collapsed: true,
-            items: [
-                "slider/skinning_slider",
-                "slider/temp_api_slider",
-                "slider/configuring_slider",
-                "slider/initializing_slider",
-                "slider/handling_events",
-                "slider/customization",
-                "slider/usage",
-                "slider/migration",
-                "slider/range_slider",
-                "slider/constructor",
-                "slider/index",
-                "slider/migration_1",
-                {
-                    type: "category",
-                    label: "API",
-                    collapsed: true,
-                    items: [
-                        "calendar/api/api_overview", //todo //todo
+        // //Slider
+        // {
+        //     type: "category",
+        //     label: "Slider",
+        //     collapsed: true,
+        //     items: [
+        //         "slider/skinning_slider",
+        //         "slider/temp_api_slider",
+        //         "slider/configuring_slider",
+        //         "slider/initializing_slider",
+        //         "slider/handling_events",
+        //         "slider/customization",
+        //         "slider/usage",
+        //         "slider/migration",
+        //         "slider/range_slider",
+        //         "slider/constructor",
+        //         "slider/index",
+        //         "slider/migration_1",
+        //         {
+        //             type: "category",
+        //             label: "API",
+        //             collapsed: true,
+        //             items: [
+        //                 "calendar/api/api_overview", //todo //todo
 
-                        {
-                            type: "category",
-                            label: "Methods",
-                            collapsed: true,
-                            items: [
-                                "slider/api/slider_setvalue_method",
-                                "slider/api/slider_getvalue_method",
-                                "slider/api/slider_disable_method",
-                                "slider/api/slider_paint_method",
-                                "slider/api/slider_destructor_method",
-                                "slider/api/slider_enable_method",
-                                "slider/api/slider_isdisabled_method",
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Events",
-                            collapsed: true,
-                            items: [
-                                "slider/api/slider_change_event",
-                                "slider/api/slider_mousedown_event",
-                                "slider/api/slider_mouseup_event",
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Properties",
-                            collapsed: true,
-                            items: [
-                                "slider/api/slider_ticktemplate_config",
-                                "slider/api/slider_helpmessage_config",
-                                "slider/api/slider_thumblabel_config",
-                                "slider/api/slider_help_config",
-                                "slider/api/slider_max_config",
-                                "slider/api/slider_majortick_config",
-                                "slider/api/slider_tick_config",
-                                "slider/api/slider_css_config",
-                                "slider/api/slider_min_config",
-                                "slider/api/slider_value_config",
-                                "slider/api/slider_labelwidth_config",
-                                "slider/api/slider_range_config",
-                                "slider/api/slider_tooltip_config",
-                                "slider/api/slider_labelinline_config",
-                                "slider/api/slider_hiddenlabel_config",
-                                "slider/api/slider_labelposition_config",
-                                "slider/api/slider_label_config",
-                                "slider/api/slider_step_config",
-                                "slider/api/slider_mode_config",
-                                "slider/api/slider_inverse_config",
-                            ],
-                        },
-                    ],
-                },
-            ],
-        },
-        // end Slider 
+        //                 {
+        //                     type: "category",
+        //                     label: "Methods",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "slider/api/slider_setvalue_method",
+        //                         "slider/api/slider_getvalue_method",
+        //                         "slider/api/slider_disable_method",
+        //                         "slider/api/slider_paint_method",
+        //                         "slider/api/slider_destructor_method",
+        //                         "slider/api/slider_enable_method",
+        //                         "slider/api/slider_isdisabled_method",
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Events",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "slider/api/slider_change_event",
+        //                         "slider/api/slider_mousedown_event",
+        //                         "slider/api/slider_mouseup_event",
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Properties",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "slider/api/slider_ticktemplate_config",
+        //                         "slider/api/slider_helpmessage_config",
+        //                         "slider/api/slider_thumblabel_config",
+        //                         "slider/api/slider_help_config",
+        //                         "slider/api/slider_max_config",
+        //                         "slider/api/slider_majortick_config",
+        //                         "slider/api/slider_tick_config",
+        //                         "slider/api/slider_css_config",
+        //                         "slider/api/slider_min_config",
+        //                         "slider/api/slider_value_config",
+        //                         "slider/api/slider_labelwidth_config",
+        //                         "slider/api/slider_range_config",
+        //                         "slider/api/slider_tooltip_config",
+        //                         "slider/api/slider_labelinline_config",
+        //                         "slider/api/slider_hiddenlabel_config",
+        //                         "slider/api/slider_labelposition_config",
+        //                         "slider/api/slider_label_config",
+        //                         "slider/api/slider_step_config",
+        //                         "slider/api/slider_mode_config",
+        //                         "slider/api/slider_inverse_config",
+        //                     ],
+        //                 },
+        //             ],
+        //         },
+        //     ],
+        // },
+        // // end Slider 
+
 
         //Tabbar
         {
@@ -1604,222 +1624,220 @@ module.exports = {
         },
         // end Timepicker 
 
-        //Toolbar
-        {
-            type: "category",
-            label: "Toolbar",
-            collapsed: true,
-            items: [
-                "toolbar/selectbutton",
-                "toolbar/regular_button",
-                "toolbar/icon_button",
-                "toolbar/object_constructor",
-                "toolbar/spacer",
-                "toolbar/controls_list",
-                "toolbar/dhxbutton",
-                "toolbar/common_methods",
-                "toolbar/image_button_text",
-                "toolbar/how_to_start",
-                "toolbar/text",
-                "toolbar/image_button",
-                "toolbar/input",
-                "toolbar/api",
-                "toolbar/menuitem",
-                "toolbar/button",
-                "toolbar/handling_events",
-                "toolbar/customization",
-                "toolbar/block",
-                "toolbar/load_data",
-                "toolbar/migration",
-                "toolbar/navitem",
-                "toolbar/index",
-                "toolbar/menu_item",
-                "toolbar/separator",
-                "toolbar/customhtmlbutton",
-                {
-                    type: "category",
-                    label: "API",
-                    collapsed: true,
-                    items: [
-                        "calendar/api/api_overview", //todo //todo
-                        {
-                            type: "category",
-                            label: "Methods",
-                            collapsed: true,
-                            items: [
-                                "toolbar/api/toolbar_hide_method",
-                                "toolbar/api/toolbar_isselected_method",
-                                "toolbar/api/toolbar_isdisabled_method",
-                                "toolbar/api/toolbar_unselect_method",
-                                "toolbar/api/toolbar_destructor_method",
-                                "toolbar/api/toolbar_show_method",
-                                "toolbar/api/toolbar_select_method",
-                                "toolbar/api/toolbar_disable_method",
-                                "toolbar/api/toolbar_getselected_method",
-                                "toolbar/api/toolbar_paint_method",
-                                "toolbar/api/toolbar_getstate_method",
-                                "toolbar/api/toolbar_setstate_method",
-                                "toolbar/api/toolbar_enable_method",
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Events",
-                            collapsed: true,
-                            items: [
-                                "toolbar/api/toolbar_beforehide_event",
-                                "toolbar/api/toolbar_openmenu_event",
-                                "toolbar/api/toolbar_afterhide_event",
-                                "toolbar/api/toolbar_inputblur_event",
-                                "toolbar/api/toolbar_inputfocus_event",
-                                "toolbar/api/toolbar_inputcreated_event",
-                                "toolbar/api/toolbar_click_event",
-                                "toolbar/api/toolbar_data_object", //todo
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Properties",
-                            collapsed: true,
-                            items: [
-                                "toolbar/api/toolbar_data_config",
-                                "toolbar/api/toolbar_menucss_config",
-                                "toolbar/api/toolbar_css_config",
-                            ],
-                        },
-                    ],
-                },
-            ],
-        },
-        // end Toolbar 
+        // //Toolbar
+        // {
+        //     type: "category",
+        //     label: "Toolbar",
+        //     collapsed: true,
+        //     items: [
+        //         "toolbar/selectbutton",
+        //         "toolbar/regular_button",
+        //         "toolbar/icon_button",
+        //         "toolbar/object_constructor",
+        //         "toolbar/spacer",
+        //         "toolbar/controls_list",
+        //         "toolbar/dhxbutton",
+        //         "toolbar/common_methods",
+        //         "toolbar/image_button_text",
+        //         "toolbar/how_to_start",
+        //         "toolbar/text",
+        //         "toolbar/image_button",
+        //         "toolbar/input",
+        //         "toolbar/api",
+        //         "toolbar/menuitem",
+        //         "toolbar/button",
+        //         "toolbar/handling_events",
+        //         "toolbar/customization",
+        //         "toolbar/block",
+        //         "toolbar/load_data",
+        //         "toolbar/migration",
+        //         "toolbar/navitem",
+        //         "toolbar/index",
+        //         "toolbar/menu_item",
+        //         "toolbar/separator",
+        //         "toolbar/customhtmlbutton",
+        //         {
+        //             type: "category",
+        //             label: "API",
+        //             collapsed: true,
+        //             items: [
+        //                 "calendar/api/api_overview", //todo //todo
+        //                 {
+        //                     type: "category",
+        //                     label: "Methods",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "toolbar/api/toolbar_hide_method",
+        //                         "toolbar/api/toolbar_isselected_method",
+        //                         "toolbar/api/toolbar_isdisabled_method",
+        //                         "toolbar/api/toolbar_unselect_method",
+        //                         "toolbar/api/toolbar_destructor_method",
+        //                         "toolbar/api/toolbar_show_method",
+        //                         "toolbar/api/toolbar_select_method",
+        //                         "toolbar/api/toolbar_disable_method",
+        //                         "toolbar/api/toolbar_getselected_method",
+        //                         "toolbar/api/toolbar_paint_method",
+        //                         "toolbar/api/toolbar_getstate_method",
+        //                         "toolbar/api/toolbar_setstate_method",
+        //                         "toolbar/api/toolbar_enable_method",
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Events",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "toolbar/api/toolbar_beforehide_event",
+        //                         "toolbar/api/toolbar_openmenu_event",
+        //                         "toolbar/api/toolbar_afterhide_event",
+        //                         "toolbar/api/toolbar_inputblur_event",
+        //                         "toolbar/api/toolbar_inputfocus_event",
+        //                         "toolbar/api/toolbar_inputcreated_event",
+        //                         "toolbar/api/toolbar_click_event",
+        //                         "toolbar/api/toolbar_data_object", //todo
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Properties",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "toolbar/api/toolbar_data_config",
+        //                         "toolbar/api/toolbar_menucss_config",
+        //                         "toolbar/api/toolbar_css_config",
+        //                     ],
+        //                 },
+        //             ],
+        //         },
+        //     ],
+        // },
+        // // end Toolbar 
 
 
-        // | | | | | | | | -- - > selection |
-        // | | | | | | | | | -- - > selection_afterunselect_event.md |
-        // | | | | | | | | | -- - > selection_beforeselect_event.md |
-        // | | | | | | | | | -- - > selection_beforeunselect_event.md |
-        // | | | | | | | | | -- - > selection_afterselect_event.md |
-        // | | | | | | | | | -- - > selection_enable_method.md |
-        // | | | | | | | | | -- - > selection_disable_method.md |
+        // // | | | | | | | | -- - > selection |
+        // // | | | | | | | | | -- - > selection_afterunselect_event.md |
+        // // | | | | | | | | | -- - > selection_beforeselect_event.md |
+        // // | | | | | | | | | -- - > selection_beforeunselect_event.md |
+        // // | | | | | | | | | -- - > selection_afterselect_event.md |
+        // // | | | | | | | | | -- - > selection_enable_method.md |
+        // // | | | | | | | | | -- - > selection_disable_method.md |
 
 
-        //Tree
-        {
-            type: "category",
-            label: "Tree",
-            collapsed: true,
-            items: [
-                "tree/compatibility_with_other_dhtmlx_components",
-                "tree/loading_data",
-                "tree/serialization_caching_and_removing_tree",
-                "tree/searching_and_sorting_in_tree",
-                "tree/work_with_tree",
-                "tree/navigation_and_selection_in_tree",
-                "tree/increasing_tree_s_performance",
-                "tree/api",
-                "tree/syntax_templates",
-                "tree/usage_selection",
-                "tree/setting_tree_appearance",
-                "tree/simultaneous_server_update",
-                "tree/initialization_of_dhtmlxtree",
-                "tree/events_handling",
-                "tree/migration",
-                "tree/checkboxes_manipulation",
-                "tree/drag_and_drop_handling",
-                "tree/nodes_manipulation",
-                "tree/index",
-                "tree/configuration",
-                "tree/radio_buttons_manipulation",
-                {
-                    type: "category",
-                    label: "API",
-                    collapsed: true,
-                    items: [
-                        "calendar/api/api_overview", //todo //todo
-                        {
-                            type: "category",
-                            label: "Methods",
-                            collapsed: true,
-                            items: [
-                                "tree/api/tree_getchecked_method",
-                                "tree/api/tree_uncheckitemnew_method",
-                                "tree/api/tree_uncheckitem_method",
-                                "tree/api/tree_paint_method",
-                                "tree/api/tree_focusitem_method",
-                                "tree/api/tree_openall_method",
-                                "tree/api/tree_toggle_method",
-                                "tree/api/tree_open_method",
-                                "tree/api/tree_collapse_method",
-                                "tree/api/tree_setstate_method",
-                                "tree/api/tree_getstate_method",
-                                "tree/api/tree_expand_method",
-                                "tree/api/tree_edititem_method",
-                                "tree/api/tree_destructor_method",
-                                "tree/api/tree_expandall_method",
-                                "tree/api/tree_closeall_method",
-                                "tree/api/tree_close_method",
-                                "tree/api/tree_checkitem_method",
-                                "tree/api/tree_collapseall_method",
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Events",
-                            collapsed: true,
-                            items: [
-                                "tree/api/tree_candrop_event",
-                                "tree/api/tree_itemdblclick_event",
-                                "tree/api/tree_beforedrag_event",
-                                "tree/api/tree_dragstart_event",
-                                "tree/api/tree_afterdrag_event",
-                                "tree/api/tree_itemclick_event",
-                                "tree/api/tree_focuschange_event",
-                                "tree/api/tree_beforedrop_event",
-                                "tree/api/tree_canceldrop_event",
-                                "tree/api/tree_afterdrop_event",
-                                "tree/api/tree_afterexpand_event",
-                                "tree/api/tree_beforeexpand_event",
-                                "tree/api/tree_dragin_event",
-                                "tree/api/tree_itemrightclick_event",
-                                "tree/api/tree_dragout_event",
-                                "tree/api/tree_beforecollapse_event",
-                                "tree/api/tree_aftereditend_event",
-                                "tree/api/tree_itemcontextmenu_event",
-                                "tree/api/tree_beforeeditstart_event",
-                                "tree/api/tree_aftereditstart_event",
-                                "tree/api/tree_beforeeditend_event",
-                                "tree/api/tree_aftercollapse_event",
-                                "tree/api/tree_data_object", //
-                            ],
-                        },
-                        {
-                            type: "category",
-                            label: "Properties",
-                            collapsed: true,
-                            items: [
-                                "tree/api/tree_selection_config",
-                                "tree/api/tree_isfolder_config",
-                                "tree/api/tree_icon_config",
-                                "tree/api/tree_autoload_config",
-                                "tree/api/tree_dragcopy_config",
-                                "tree/api/tree_rootid_config",
-                                "tree/api/tree_dragmode_config",
-                                "tree/api/tree_dropbehaviour_config",
-                                "tree/api/tree_editing_config",
-                                "tree/api/tree_keynavigation_config",
-                                "tree/api/tree_checkbox_config",
-                                "tree/api/tree_css_config",
-                                "tree/api/tree_data_config",
-                                "tree/api/tree_editable_config",
-                            ],
-                        },
-                    ],
-                },
-            ],
-        },
-        // end Tree 
-
-
+        // //Tree
+        // {
+        //     type: "category",
+        //     label: "Tree",
+        //     collapsed: true,
+        //     items: [
+        //         "tree/compatibility_with_other_dhtmlx_components",
+        //         "tree/loading_data",
+        //         "tree/serialization_caching_and_removing_tree",
+        //         "tree/searching_and_sorting_in_tree",
+        //         "tree/work_with_tree",
+        //         "tree/navigation_and_selection_in_tree",
+        //         "tree/increasing_tree_s_performance",
+        //         "tree/api",
+        //         "tree/syntax_templates",
+        //         "tree/usage_selection",
+        //         "tree/setting_tree_appearance",
+        //         "tree/simultaneous_server_update",
+        //         "tree/initialization_of_dhtmlxtree",
+        //         "tree/events_handling",
+        //         "tree/migration",
+        //         "tree/checkboxes_manipulation",
+        //         "tree/drag_and_drop_handling",
+        //         "tree/nodes_manipulation",
+        //         "tree/index",
+        //         "tree/configuration",
+        //         "tree/radio_buttons_manipulation",
+        //         {
+        //             type: "category",
+        //             label: "API",
+        //             collapsed: true,
+        //             items: [
+        //                 "calendar/api/api_overview", //todo //todo
+        //                 {
+        //                     type: "category",
+        //                     label: "Methods",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "tree/api/tree_getchecked_method",
+        //                         "tree/api/tree_uncheckitemnew_method",
+        //                         "tree/api/tree_uncheckitem_method",
+        //                         "tree/api/tree_paint_method",
+        //                         "tree/api/tree_focusitem_method",
+        //                         "tree/api/tree_openall_method",
+        //                         "tree/api/tree_toggle_method",
+        //                         "tree/api/tree_open_method",
+        //                         "tree/api/tree_collapse_method",
+        //                         "tree/api/tree_setstate_method",
+        //                         "tree/api/tree_getstate_method",
+        //                         "tree/api/tree_expand_method",
+        //                         "tree/api/tree_edititem_method",
+        //                         "tree/api/tree_destructor_method",
+        //                         "tree/api/tree_expandall_method",
+        //                         "tree/api/tree_closeall_method",
+        //                         "tree/api/tree_close_method",
+        //                         "tree/api/tree_checkitem_method",
+        //                         "tree/api/tree_collapseall_method",
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Events",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "tree/api/tree_candrop_event",
+        //                         "tree/api/tree_itemdblclick_event",
+        //                         "tree/api/tree_beforedrag_event",
+        //                         "tree/api/tree_dragstart_event",
+        //                         "tree/api/tree_afterdrag_event",
+        //                         "tree/api/tree_itemclick_event",
+        //                         "tree/api/tree_focuschange_event",
+        //                         "tree/api/tree_beforedrop_event",
+        //                         "tree/api/tree_canceldrop_event",
+        //                         "tree/api/tree_afterdrop_event",
+        //                         "tree/api/tree_afterexpand_event",
+        //                         "tree/api/tree_beforeexpand_event",
+        //                         "tree/api/tree_dragin_event",
+        //                         "tree/api/tree_itemrightclick_event",
+        //                         "tree/api/tree_dragout_event",
+        //                         "tree/api/tree_beforecollapse_event",
+        //                         "tree/api/tree_aftereditend_event",
+        //                         "tree/api/tree_itemcontextmenu_event",
+        //                         "tree/api/tree_beforeeditstart_event",
+        //                         "tree/api/tree_aftereditstart_event",
+        //                         "tree/api/tree_beforeeditend_event",
+        //                         "tree/api/tree_aftercollapse_event",
+        //                         "tree/api/tree_data_object", //
+        //                     ],
+        //                 },
+        //                 {
+        //                     type: "category",
+        //                     label: "Properties",
+        //                     collapsed: true,
+        //                     items: [
+        //                         "tree/api/tree_selection_config",
+        //                         "tree/api/tree_isfolder_config",
+        //                         "tree/api/tree_icon_config",
+        //                         "tree/api/tree_autoload_config",
+        //                         "tree/api/tree_dragcopy_config",
+        //                         "tree/api/tree_rootid_config",
+        //                         "tree/api/tree_dragmode_config",
+        //                         "tree/api/tree_dropbehaviour_config",
+        //                         "tree/api/tree_editing_config",
+        //                         "tree/api/tree_keynavigation_config",
+        //                         "tree/api/tree_checkbox_config",
+        //                         "tree/api/tree_css_config",
+        //                         "tree/api/tree_data_config",
+        //                         "tree/api/tree_editable_config",
+        //                     ],
+        //                 },
+        //             ],
+        //         },
+        //     ],
+        // },
+        // // end Tree 
 
         // | | | | | | | | |--->selection
         // | | | | | | | | | |--->selection_afterunselect_event.md
@@ -2092,5 +2110,6 @@ module.exports = {
             ],
         },
         // end Window 
+
     ],
 }
