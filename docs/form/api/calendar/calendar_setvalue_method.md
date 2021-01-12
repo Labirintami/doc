@@ -1,5 +1,8 @@
-setValue
-=============
+
+---
+sidebar_label: setValue
+title: setValue
+---          
 
 @short: sets a date in a DatePicker control
 

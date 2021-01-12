@@ -1,5 +1,8 @@
 removeAll
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:clears the component of all controls
 

@@ -1,5 +1,8 @@
-keyNavigation
-=============
+
+---
+sidebar_label: keyNavigation
+title: keyNavigation
+---          
 
 @short: enables keyboard navigation in Grid
 

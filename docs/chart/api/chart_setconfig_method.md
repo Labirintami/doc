@@ -1,5 +1,8 @@
-setConfig
-=============
+
+---
+sidebar_label: setConfig
+title: setConfig
+---          
 
 @short: sets configuration of a chart
 

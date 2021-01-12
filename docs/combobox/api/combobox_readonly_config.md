@@ -1,5 +1,8 @@
-readOnly
-=============
+
+---
+sidebar_label: readOnly
+title: readOnly
+---          
 
 @short: 
 makes Combo Box readonly

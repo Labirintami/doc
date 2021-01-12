@@ -1,5 +1,8 @@
-Migration to Newer Versions
-===========
+
+---
+sidebar_label: Migration to Newer Versions
+title: Migration to Newer Versions
+---          
 6.3 -> 6.4 
 ---------------
 ```todo

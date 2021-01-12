@@ -1,5 +1,8 @@
-Calendar 
-=============
+ 
+---
+sidebar_label: Calendar
+title: Calendar
+---          
 ```todo
 
 dhtmlxCalendar is a component that allows users to view and select dates. You can create calendar in one of 4 modes: days, months, years, or as a timepicker.

@@ -1,5 +1,8 @@
-clearValidate
-=============
+
+---
+sidebar_label: clearValidate
+title: clearValidate
+---          
 
 @short: clears validation of a ColorPicker control
 

@@ -1,5 +1,8 @@
-afterResizeEnd
-=============
+
+---
+sidebar_label: afterResizeEnd
+title: afterResizeEnd
+---          
 
 @short: fires after resizing of a column is ended
 

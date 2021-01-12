@@ -1,5 +1,8 @@
-removeAll
-=============
+
+---
+sidebar_label: removeAll
+title: removeAll
+---          
 
 
 @short:

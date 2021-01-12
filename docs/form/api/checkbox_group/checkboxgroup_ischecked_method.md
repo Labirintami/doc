@@ -1,5 +1,8 @@
-isChecked
-=============
+
+---
+sidebar_label: isChecked
+title: isChecked
+---          
 
 @short: checks whether a checkbox of the CheckboxGroup control is checked
 

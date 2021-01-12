@@ -1,5 +1,8 @@
 isFolder
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 defines whether an item should be rendered as a folder

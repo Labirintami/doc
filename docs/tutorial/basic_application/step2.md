@@ -1,5 +1,8 @@
 Step 2. Specify the Layout
-===========================
+---
+sidebar_label: 
+title: 
+---          
 
 Our application will have the following structure:
 

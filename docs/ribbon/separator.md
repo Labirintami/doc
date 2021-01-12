@@ -1,5 +1,8 @@
 Separator
-=========
+---
+sidebar_label: 
+title: 
+---          
 
 This is a control that adds a line separating items/groups of items from each other.
 

@@ -1,5 +1,8 @@
-setValue
-=============
+
+---
+sidebar_label: setValue
+title: setValue
+---          
 
 @short: selects option(s) in ComboBox
 

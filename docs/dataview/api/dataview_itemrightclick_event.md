@@ -1,5 +1,8 @@
-itemRightClick
-=============
+
+---
+sidebar_label: itemRightClick
+title: itemRightClick
+---          
 
 @short: fires on right clicking an item 
 

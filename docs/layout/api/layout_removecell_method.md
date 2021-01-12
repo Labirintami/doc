@@ -1,5 +1,8 @@
 removeCell
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: removes a specified cell
 

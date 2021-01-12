@@ -1,5 +1,8 @@
-get
-=====
+
+---
+sidebar_label: get
+title: get
+---          
 
 @short: returns a list of styles by the class name
 

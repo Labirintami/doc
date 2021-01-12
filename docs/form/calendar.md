@@ -1,5 +1,8 @@
-DatePicker
-==============
+
+---
+sidebar_label: DatePicker
+title: DatePicker
+---          
 
 An input with a calendar attached to it for selecting a date.
 

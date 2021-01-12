@@ -1,5 +1,8 @@
-dateFormat
-=============
+
+---
+sidebar_label: dateFormat
+title: dateFormat
+---          
 
 @short: 
 defines the format of dates in Сalendar

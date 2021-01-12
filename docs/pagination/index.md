@@ -1,5 +1,8 @@
 Pagination
-=========
+---
+sidebar_label: 
+title: 
+---          
 
 ```js shielding
 {{pronote

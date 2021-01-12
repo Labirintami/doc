@@ -1,5 +1,8 @@
-clear
-=============
+
+---
+sidebar_label: clear
+title: clear
+---          
 
 @short: clears the value set in the colorpicker and removes focus
 

@@ -1,5 +1,8 @@
 remove
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:removes an item
 

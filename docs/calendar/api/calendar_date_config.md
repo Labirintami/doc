@@ -1,5 +1,8 @@
-date
-=============
+
+---
+sidebar_label: date
+title: date
+---          
 
 @short: 
 defines the date that will be opened when the calendar is created

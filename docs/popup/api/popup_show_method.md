@@ -1,5 +1,8 @@
 show
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: shows a Popup
 

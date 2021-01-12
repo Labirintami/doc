@@ -1,5 +1,8 @@
-destructor
-=============
+
+---
+sidebar_label: destructor
+title: destructor
+---          
 
 @short: removes a calendar instance and releases the occupied resources
 

@@ -1,5 +1,8 @@
 beforeHide
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires before hiding an item of Sidebar

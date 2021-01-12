@@ -1,5 +1,8 @@
-loadError
-==============
+
+---
+sidebar_label: loadError
+title: loadError
+---          
 
 @short: fires when loading of data fails
 	

@@ -1,5 +1,8 @@
 tabAutoWidth
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 defines whether the width of tabs is automatically adjusted to the width of the tabbar container

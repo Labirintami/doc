@@ -1,5 +1,8 @@
-Localization
-=========================
+
+---
+sidebar_label: Localization
+title: Localization
+---          
 
 dhtmlxColorPicker allows you to apply different languages to its interface. You just need to translate the corresponding strings for ColorPicker labels and tooltips and apply a ready locale to the component.
 

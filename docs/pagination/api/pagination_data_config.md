@@ -1,5 +1,8 @@
 data
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 the data collection of a widget to set into the pagination

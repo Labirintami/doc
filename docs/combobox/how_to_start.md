@@ -1,5 +1,8 @@
-Initialization
-==================
+
+---
+sidebar_label: Initialization
+title: Initialization
+---          
 
 This article gives you detailed instructions on how to create dhtmlxCombo on a page. Follow the steps below:
 

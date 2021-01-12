@@ -1,5 +1,8 @@
-selectAllButton
-=============
+
+---
+sidebar_label: selectAllButton
+title: selectAllButton
+---          
 
 @short: 
 defines whether the Select All button should be shown

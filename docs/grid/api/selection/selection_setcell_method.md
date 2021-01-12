@@ -1,5 +1,8 @@
-setCell
-=============
+
+---
+sidebar_label: setCell
+title: setCell
+---          
 
 @short: sets selection to specified cells
 

@@ -1,5 +1,8 @@
 align
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 sets the alignment of content inside a cell

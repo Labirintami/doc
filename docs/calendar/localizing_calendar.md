@@ -1,5 +1,8 @@
-Localization
-===========
+
+---
+sidebar_label: Localization
+title: Localization
+---          
 ```todo
 You can apply different languages to the interface of dhtmlxCalendar. You just need to translate the corresponding strings for Calendar labels and apply a ready locale to the component.
 

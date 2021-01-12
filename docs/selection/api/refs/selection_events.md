@@ -1,5 +1,8 @@
 Events
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 {{api
 - selection/api/after_select_event.md - fires after selecting an item

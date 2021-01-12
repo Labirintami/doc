@@ -1,5 +1,8 @@
-showColumn
-=============
+
+---
+sidebar_label: showColumn
+title: showColumn
+---          
 
 @short: makes a specified column visible on a page
 

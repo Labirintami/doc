@@ -1,5 +1,8 @@
 collapsed
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 defines whether a cell is collapsed

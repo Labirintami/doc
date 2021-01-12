@@ -1,5 +1,8 @@
 inverse
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 enables/disables the inverse slider mode

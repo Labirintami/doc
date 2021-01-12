@@ -1,5 +1,8 @@
 Step 4. Add a Grid
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 ``` todo
 

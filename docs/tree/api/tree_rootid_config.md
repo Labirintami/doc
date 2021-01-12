@@ -1,5 +1,8 @@
 rootId
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: sets the id for the root element
 

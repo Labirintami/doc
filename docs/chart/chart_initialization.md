@@ -1,5 +1,8 @@
-How to Start
-=============
+
+---
+sidebar_label: How to Start
+title: How to Start
+---          
 
 To initialize a chart object in an application, you need to take the following steps:
 

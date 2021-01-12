@@ -1,5 +1,8 @@
 What's New
-================
+---
+sidebar_label: 
+title: 
+---=========
 
 Before updating DHTMLX to the latest version, please check the [Migration to Newer Versions](migration/index.md) guide to avoid possible breakdowns.
 

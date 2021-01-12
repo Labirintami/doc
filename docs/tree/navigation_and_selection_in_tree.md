@@ -1,5 +1,8 @@
 Navigation and Selection in Tree  
-================================
+---
+sidebar_label: 
+title: 
+---          
 
 
 Navigation Manipulation  

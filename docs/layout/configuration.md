@@ -1,5 +1,8 @@
 Configuration
-==============
+---
+sidebar_label: 
+title: 
+---          
 
 - layout/layout_structure.md
 - layout/layout_patterns.md

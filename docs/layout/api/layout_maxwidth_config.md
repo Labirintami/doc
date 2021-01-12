@@ -1,5 +1,8 @@
 maxWidth
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: the maximal width to be set for a cell
 

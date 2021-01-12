@@ -1,5 +1,8 @@
-afterKeyDown
-=============
+
+---
+sidebar_label: afterKeyDown
+title: afterKeyDown
+---          
 
 @short: fires after the user is pressing a shortcut key
 

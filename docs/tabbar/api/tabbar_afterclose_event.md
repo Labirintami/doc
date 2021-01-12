@@ -1,5 +1,8 @@
 afterClose
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires after closing a tab in Tabbar
 

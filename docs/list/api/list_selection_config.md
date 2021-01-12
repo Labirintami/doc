@@ -1,5 +1,8 @@
 selection
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: enables selection of List items
 

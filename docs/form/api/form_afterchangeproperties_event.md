@@ -1,5 +1,8 @@
-afterChangeProperties
-=============
+
+---
+sidebar_label: afterChangeProperties
+title: afterChangeProperties
+---          
 
 @short: fires after configuration attributes of a Form control have been changed dynamically
 

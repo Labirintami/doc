@@ -1,5 +1,8 @@
-Work with Calendar
-====================
+
+---
+sidebar_label: Work with Calendar
+title: Work with Calendar
+---          
 ```todo
 ## Changing calendar mode
 

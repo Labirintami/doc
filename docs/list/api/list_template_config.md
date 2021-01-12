@@ -1,5 +1,8 @@
 template
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 specifies a template for List items

@@ -1,5 +1,8 @@
-palette
-=============
+
+---
+sidebar_label: palette
+title: palette
+---          
 
 @short: 
 contains arrays of colors you want to show in a colorpicker

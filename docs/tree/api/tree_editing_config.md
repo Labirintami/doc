@@ -1,5 +1,8 @@
 editing
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: enables editing of Tree items on a double-click  
 	

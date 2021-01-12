@@ -1,5 +1,8 @@
 Configuration of a cell
-=========================
+---
+sidebar_label: 
+title: 
+---          
 
 ``` todo
 

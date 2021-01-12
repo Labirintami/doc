@@ -1,5 +1,8 @@
-beforeDrop
-=============
+
+---
+sidebar_label: beforeDrop
+title: beforeDrop
+---          
 
 @short:
 fires before the user has finished dragging an item and released the mouse button

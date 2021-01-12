@@ -1,5 +1,8 @@
 on
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 adds handlers to DOM events of a cell

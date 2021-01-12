@@ -1,5 +1,8 @@
 beforeEditEnd
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires before editing of a tree item is finished
 

@@ -1,5 +1,8 @@
 attach
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: attaches a DHTMLX component to a dhtmlxPopup
 

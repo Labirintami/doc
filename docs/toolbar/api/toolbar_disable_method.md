@@ -1,5 +1,8 @@
 disable
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: disables and dims an item(s) of Toolbar
 

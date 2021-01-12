@@ -1,5 +1,8 @@
 Work with Pagination
-=========
+---
+sidebar_label: 
+title: 
+---          
 
 
 Setting/getting the active page

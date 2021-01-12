@@ -1,5 +1,8 @@
 attachHTML
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: adds an HTML content into a dhtmlxLayout cell
 

@@ -1,5 +1,7 @@
-delete
-========
+---
+sidebar_label: delete
+title: delete
+---          
 
 @short: sends a DELETE request to the server
 

@@ -1,5 +1,8 @@
-dragIn
-=============
+
+---
+sidebar_label: dragIn
+title: dragIn
+---          
 
 @short:
 fires when an item is dragged to another potential target

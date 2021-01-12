@@ -1,5 +1,8 @@
 noContent
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 defines whether tabs contain any content

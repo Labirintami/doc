@@ -1,5 +1,8 @@
 eachChild
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:iterates through child items of a control
 

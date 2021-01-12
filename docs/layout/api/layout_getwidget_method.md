@@ -1,5 +1,8 @@
 getWidget
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: returns the widget attached to a layout cell
 

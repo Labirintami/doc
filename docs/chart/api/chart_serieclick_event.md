@@ -1,5 +1,8 @@
-serieClick
-=============
+
+---
+sidebar_label: serieClick
+title: serieClick
+---          
 
 @short:
 fires on clicking a series

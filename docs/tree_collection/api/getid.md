@@ -1,5 +1,8 @@
 getId
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:gets the ID of an item
 

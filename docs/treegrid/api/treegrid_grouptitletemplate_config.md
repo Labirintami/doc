@@ -1,5 +1,8 @@
 groupTitleTemplate
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 sets a template to the title of a group

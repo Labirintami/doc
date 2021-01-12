@@ -1,5 +1,8 @@
 enable
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: enables disabled items of Sidebar
 

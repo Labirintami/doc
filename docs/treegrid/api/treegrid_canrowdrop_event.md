@@ -1,5 +1,8 @@
 canRowDrop
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires when a dragged row is placed over a target row

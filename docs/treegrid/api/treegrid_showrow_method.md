@@ -1,5 +1,8 @@
 showRow
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: makes a specified row visible on a page
 

@@ -1,5 +1,8 @@
-change
-=============
+
+---
+sidebar_label: change
+title: change
+---          
 
 @short:
 fires on changing the value of a control

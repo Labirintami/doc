@@ -1,5 +1,8 @@
 setValue
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: sets value for a TimePicker
 

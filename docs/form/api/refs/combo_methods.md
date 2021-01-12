@@ -1,5 +1,8 @@
 Methods
-==========
+---
+sidebar_label: 
+title: 
+---          
 
 {{api
 - form/api/combo/combo_clear_method.md - clears a value of a Combo control

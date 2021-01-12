@@ -1,5 +1,8 @@
 load
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires when items are loaded in a tree collection
 	

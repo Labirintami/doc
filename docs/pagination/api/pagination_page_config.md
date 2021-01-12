@@ -1,5 +1,8 @@
 page
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 optional, the index of the initial page set in the pagination

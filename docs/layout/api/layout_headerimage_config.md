@@ -1,5 +1,8 @@
 headerImage
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 an image used in the header of a cell

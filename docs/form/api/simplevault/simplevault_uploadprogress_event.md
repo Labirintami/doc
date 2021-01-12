@@ -1,5 +1,8 @@
-uploadProgress
-=============
+
+---
+sidebar_label: uploadProgress
+title: uploadProgress
+---          
 
 @short: fires on each percent of files uploading
  

@@ -1,5 +1,8 @@
-hidden
-=============
+
+---
+sidebar_label: hidden
+title: hidden
+---          
 
 @short: 
 defines whether a form is hidden

@@ -1,5 +1,8 @@
 getPage
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: returns the index of the active page
 

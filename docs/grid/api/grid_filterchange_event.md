@@ -1,5 +1,8 @@
-filterChange
-=============
+
+---
+sidebar_label: filterChange
+title: filterChange
+---          
 
 @short:
 fires on typing text in an input of a column's header

@@ -1,5 +1,8 @@
 expand
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: expands a sidebar
 

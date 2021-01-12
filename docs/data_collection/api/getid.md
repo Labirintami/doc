@@ -1,5 +1,8 @@
-getId
-=========
+
+---
+sidebar_label: getId
+title: getId
+---          
 
 @short:
 returns the id of the item by its index

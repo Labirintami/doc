@@ -1,5 +1,8 @@
-editable
-=============
+
+---
+sidebar_label: editable
+title: editable
+---          
 
 @short: enables editing in DataView
 

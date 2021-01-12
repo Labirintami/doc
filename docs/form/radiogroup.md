@@ -1,5 +1,8 @@
-RadioGroup
-==============
+
+---
+sidebar_label: RadioGroup
+title: RadioGroup
+---          
 
 A control intended for creating groups of Radio buttons.
 

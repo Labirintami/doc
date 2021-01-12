@@ -1,5 +1,8 @@
-getView
-=============
+
+---
+sidebar_label: getView
+title: getView
+---          
 
 @short: returns the currently set view of the colorpicker
 

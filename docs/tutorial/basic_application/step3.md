@@ -1,5 +1,8 @@
 Step 3. Add a Toolbar
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 To present Toolbar on the page we should take 3 simple steps:
 

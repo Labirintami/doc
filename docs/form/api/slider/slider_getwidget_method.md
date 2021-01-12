@@ -1,5 +1,8 @@
-getWidget
-=============
+
+---
+sidebar_label: getWidget
+title: getWidget
+---          
 
 @short: returns the dhtmlxSlider widget attached to a Slider control
 

@@ -1,5 +1,8 @@
 beforeRowDrag
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires before dragging of a row has started
 	

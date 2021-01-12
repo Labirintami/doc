@@ -1,5 +1,8 @@
 getCellRect
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: returns the parameters of a cell
 

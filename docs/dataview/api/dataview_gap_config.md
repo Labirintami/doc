@@ -1,5 +1,8 @@
-gap
-=============
+
+---
+sidebar_label: gap
+title: gap
+---          
 
 @short: 
 sets margins for DataView items

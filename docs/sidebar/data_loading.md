@@ -1,5 +1,8 @@
 Data Loading
-==============
+---
+sidebar_label: 
+title: 
+---          
 
 There are several simple ways of loading data into dhtmlxSidebar:
 

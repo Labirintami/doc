@@ -1,5 +1,8 @@
 Step 6. Edit data in the Grid
-======================================
+---
+sidebar_label: 
+title: 
+---          
 
 We've already studied how to add and display components on the page. 
 

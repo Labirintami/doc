@@ -1,5 +1,8 @@
-Customization
-==================
+
+---
+sidebar_label: Customization
+title: 
+---          
 
 Custom filter for options
 -----------------------

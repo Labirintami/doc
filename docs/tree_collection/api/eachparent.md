@@ -1,5 +1,8 @@
 eachParent
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:iterates through all the parent items (the immediate parent and its parent, etc until the parent is the component itself)
 

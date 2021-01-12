@@ -1,5 +1,8 @@
 Work with Tree
-=================
+---
+sidebar_label: 
+title: 
+---          
 
 Working with checkboxes
 -------------------

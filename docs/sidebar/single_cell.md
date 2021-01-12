@@ -1,5 +1,8 @@
 Single Cell Mode
-===================
+---
+sidebar_label: 
+title: 
+---          
 
 ``` todo
 

@@ -1,5 +1,8 @@
 setPage
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: sets an active page in the related widget
 

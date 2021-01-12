@@ -1,5 +1,8 @@
-validate
-=============
+
+---
+sidebar_label: validate
+title: validate
+---          
 
 @short: validates a Textarea control
 

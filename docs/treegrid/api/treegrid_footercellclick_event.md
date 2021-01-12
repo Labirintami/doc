@@ -1,5 +1,8 @@
 footerCellClick
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires on click on a grid footer cell

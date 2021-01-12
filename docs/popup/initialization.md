@@ -1,5 +1,8 @@
 Initialization
-================
+---
+sidebar_label: 
+title: 
+---          
 
 To add dhtmlxPopup into an application, you need to take the following simple steps:
 

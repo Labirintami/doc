@@ -1,5 +1,8 @@
-range
-=============
+
+---
+sidebar_label: range
+title: range
+---          
 
 @short: enables/disables the possibility to select a range of dates on the calendar
 

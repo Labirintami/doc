@@ -1,5 +1,8 @@
-getCells
-=============
+
+---
+sidebar_label: getCells
+title: getCells
+---          
 
 @short: returns an array with config objects of selected cells
 

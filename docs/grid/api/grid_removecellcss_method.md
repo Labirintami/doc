@@ -1,5 +1,8 @@
-removeCellCss
-=============
+
+---
+sidebar_label: removeCellCss
+title: removeCellCss
+---          
 
 @short: removes a style from a cell
 

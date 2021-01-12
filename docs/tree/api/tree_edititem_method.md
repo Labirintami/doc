@@ -1,5 +1,8 @@
 editItem
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: edits a Tree item
 

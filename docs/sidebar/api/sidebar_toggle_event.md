@@ -1,5 +1,8 @@
 toggle
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires on expanding/collapsing Sidebar

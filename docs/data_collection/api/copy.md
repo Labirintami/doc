@@ -1,5 +1,8 @@
-copy
-=========
+
+---
+sidebar_label: copy
+title: copy
+---          
 
 @short:
 	creates a copy of an item at the defined position

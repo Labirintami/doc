@@ -1,5 +1,8 @@
-reduce
-=======
+
+---
+sidebar_label: reduce
+title: reduce
+---          
 
 @short:
 	reduces the array to a single value

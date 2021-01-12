@@ -1,5 +1,8 @@
 editable
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: enables editing in List
 

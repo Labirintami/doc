@@ -1,5 +1,8 @@
-getWidget
-=============
+
+---
+sidebar_label: getWidget
+title: getWidget
+---          
 
 @short: returns the dhtmlxTimePicker widget attached to a TimePicker control
 

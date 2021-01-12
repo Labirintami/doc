@@ -1,5 +1,8 @@
 afterAdd
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires after adding a new item into a tree collection
 	

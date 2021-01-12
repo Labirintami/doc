@@ -1,5 +1,8 @@
 setSize
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: sets the size of a window
 

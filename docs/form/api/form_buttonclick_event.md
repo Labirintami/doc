@@ -1,5 +1,8 @@
-buttonClick
-=============
+
+---
+sidebar_label: buttonClick
+title: buttonClick
+---          
 
 @short:
 fires after a click on a button in a form

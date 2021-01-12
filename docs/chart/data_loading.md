@@ -1,5 +1,8 @@
-Data Loading
-===============
+
+---
+sidebar_label: Data Loading
+title: Data Loading
+---          
 
 ``` todo
 

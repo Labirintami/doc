@@ -1,5 +1,8 @@
 Slider
-====================
+---
+sidebar_label: 
+title: 
+---          
 
 ``` todo
 

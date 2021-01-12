@@ -1,5 +1,8 @@
 getParent
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: returns the parent of a cell
 

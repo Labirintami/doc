@@ -1,5 +1,8 @@
 afterRowDrag
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires after dragging of a row is finished

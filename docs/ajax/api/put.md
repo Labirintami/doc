@@ -1,5 +1,8 @@
-put
-======
+
+---
+sidebar_label: put
+title: put
+---          
 
 @short: sends a PUT request to the server
 

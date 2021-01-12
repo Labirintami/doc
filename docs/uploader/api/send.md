@@ -1,5 +1,8 @@
 send
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: sends a POST request for file upload to a server-side URL 
 

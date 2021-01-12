@@ -1,5 +1,8 @@
 splitAt
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 sets the number of frozen columns

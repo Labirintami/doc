@@ -1,5 +1,8 @@
 Dynamic Loading
-====================
+---
+sidebar_label: 
+title: 
+---          
 
 {{pronote This functionality requires PRO version of the dhtmlxGrid (or DHTMLX suite) package.}}
 

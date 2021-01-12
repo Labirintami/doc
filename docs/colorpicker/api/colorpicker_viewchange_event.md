@@ -1,5 +1,8 @@
-viewChange
-=============
+
+---
+sidebar_label: viewChange
+title: viewChange
+---          
 
 @short:
 fires on changing the view of ColorPicker

@@ -1,5 +1,8 @@
-dhtmlxCalendar API
-===============
+
+---
+sidebar_label: Calendar API
+title: Calendar API
+---          
 
 ## Constructor
 

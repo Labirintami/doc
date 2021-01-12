@@ -1,5 +1,8 @@
 keyNavigation
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 enables/disables navigation in List by arrow keys

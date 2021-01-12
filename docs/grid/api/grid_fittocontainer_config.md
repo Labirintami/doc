@@ -1,5 +1,8 @@
-fitToContainer
-=============
+
+---
+sidebar_label: fitToContainer
+title: fitToContainer
+---          
 
 @short: 
 makes grid to fit the size of a container

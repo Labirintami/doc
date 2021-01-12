@@ -1,5 +1,8 @@
 tabHeight
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 sets the height of a tab

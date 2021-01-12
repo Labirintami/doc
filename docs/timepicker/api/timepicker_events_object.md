@@ -1,5 +1,8 @@
 events
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 

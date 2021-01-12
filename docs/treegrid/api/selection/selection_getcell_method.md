@@ -1,5 +1,8 @@
 getCell
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: returns the object of a selected cell
 

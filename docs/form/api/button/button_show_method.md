@@ -1,5 +1,8 @@
-show
-=============
+
+---
+sidebar_label: show
+title: show
+---          
 
 @short: shows a Button control on the page
 

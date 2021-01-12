@@ -1,5 +1,8 @@
 Properties
-=========
+---
+sidebar_label: 
+title: 
+---          
 
 {{api
 - chart/api/chart_css_config.md - adds style classes to Chart

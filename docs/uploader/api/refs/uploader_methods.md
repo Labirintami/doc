@@ -1,5 +1,8 @@
 Methods
-===========
+---
+sidebar_label: 
+title: 
+---          
 
 {{api
 - uploader/api/abort.md - cancels upload of a file

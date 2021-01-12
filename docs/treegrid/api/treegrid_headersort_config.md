@@ -1,5 +1,8 @@
 headerSort
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 defines whether sorting on clicking headers of columns is enabled

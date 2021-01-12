@@ -1,5 +1,8 @@
 beforeSelect
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires before selecting a cell
 

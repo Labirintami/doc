@@ -1,5 +1,8 @@
 timeFormat
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 defines what clock format is activated: the 12-hour or 24-hour one

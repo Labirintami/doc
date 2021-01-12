@@ -1,5 +1,8 @@
 labelInline
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 defines whether the label of a slider is rendered on the same level with the trackbar or above it

@@ -1,5 +1,8 @@
-beforeKeyDown
-=============
+
+---
+sidebar_label: beforeKeyDown
+title: beforeKeyDown
+---          
 
 @short: fires before the user is pressing a shortcut key
 

@@ -1,5 +1,8 @@
 isRowHidden
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: checks whether a row is hidden
 

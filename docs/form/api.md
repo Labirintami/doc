@@ -1,5 +1,8 @@
-dhtmlxForm API
-==================
+
+---
+sidebar_label: Form API
+title: Form API
+---          
 
 Constructor
 ----------------

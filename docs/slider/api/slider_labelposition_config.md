@@ -1,5 +1,8 @@
 labelPosition
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: defines the position of a label of a slider
 

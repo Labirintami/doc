@@ -1,5 +1,8 @@
 html
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 sets an HTML content into a window on initialization

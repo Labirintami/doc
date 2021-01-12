@@ -1,5 +1,8 @@
 inputBlur
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires when a control is blurred

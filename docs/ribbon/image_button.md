@@ -1,5 +1,8 @@
 imageButton
-===================
+---
+sidebar_label: 
+title: 
+---          
 
 This is a button with an image. Unlike ribbon/button.md, it does not have a text label, but can also have a badge with a number and can be _twoState_.
 

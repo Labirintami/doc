@@ -1,5 +1,8 @@
-isVisible
-=============
+
+---
+sidebar_label: isVisible
+title: isVisible
+---          
 
 @short: checks whether a Checkbox control is visible on the page
 

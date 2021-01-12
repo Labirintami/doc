@@ -1,5 +1,8 @@
-Textarea
-==========
+
+---
+sidebar_label: Textarea
+title: Textarea
+---          
 
 A control that allows a user to enter a simple multi-line text.
 

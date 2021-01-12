@@ -1,5 +1,8 @@
 beforeEditStart
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires before editing of an item has started
 	

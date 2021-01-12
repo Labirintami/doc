@@ -1,5 +1,8 @@
-changeOptions
-=============
+
+---
+sidebar_label: changeOptions
+title: changeOptions
+---          
 
 @short: fires on changing a list of Select options
  

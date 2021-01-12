@@ -1,5 +1,8 @@
-Chart
-==============
+
+---
+sidebar_label: Chart
+title: Chart
+---          
 
 ``` todo
 

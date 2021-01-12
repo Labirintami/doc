@@ -1,5 +1,8 @@
-save
-=====
+
+---
+sidebar_label: save
+title: save
+---          
 
 @short: sends an AJAX request to the server
 

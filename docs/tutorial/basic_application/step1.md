@@ -1,5 +1,8 @@
 Step 1. Include DHTMLX files 
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 Let's start our tutorial with preparing a file for our future app: 
 

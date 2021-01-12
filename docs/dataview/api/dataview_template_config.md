@@ -1,5 +1,8 @@
-template
-=============
+
+---
+sidebar_label: template
+title: template
+---          
 
 @short: 
 specifies a template for DataView items

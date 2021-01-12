@@ -1,5 +1,8 @@
-setValue
-=============
+
+---
+sidebar_label: setValue
+title: setValue
+---          
 
 @short: selects a color in ColorPicker
 

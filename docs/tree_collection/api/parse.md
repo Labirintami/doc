@@ -1,5 +1,8 @@
 parse
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:loads a collection of items from a local source
 

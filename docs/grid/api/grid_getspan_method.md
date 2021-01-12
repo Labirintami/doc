@@ -1,5 +1,8 @@
-getSpan
-=============
+
+---
+sidebar_label: getSpan
+title: getSpan
+---          
 
 @short: returns an object with spans
 

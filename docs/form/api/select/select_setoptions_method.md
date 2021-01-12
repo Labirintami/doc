@@ -1,5 +1,8 @@
-setOptions
-=============
+
+---
+sidebar_label: setOptions
+title: setOptions
+---          
 
 @short: allows changing a list of Select options dynamically
 

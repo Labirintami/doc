@@ -1,5 +1,8 @@
 uncheckItem
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: unchecks the checkbox of a tree item and all its sub-items
 

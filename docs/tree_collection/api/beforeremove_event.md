@@ -1,5 +1,8 @@
 beforeRemove
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires before removing an item from a tree collection
 	

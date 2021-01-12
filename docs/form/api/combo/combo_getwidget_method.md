@@ -1,5 +1,8 @@
-getWidget
-=============
+
+---
+sidebar_label: getWidget
+title: getWidget
+---          
 
 @short: returns the dhtmlxComboBox widget attached to a Combo control
 

@@ -1,5 +1,8 @@
-isDataLoaded
-========
+
+---
+sidebar_label: isDataLoaded
+title: isDataLoaded
+---          
 
 @short:
 checks whether the specified data range is loaded from the server

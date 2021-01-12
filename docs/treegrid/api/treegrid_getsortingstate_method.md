@@ -1,5 +1,8 @@
 getSortingState
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: returns the current state of sorting data in TreeGrid
 

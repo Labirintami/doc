@@ -1,5 +1,8 @@
-selection
-=============
+
+---
+sidebar_label: selection
+title: selection
+---          
 
 @short: enables selection of DataView items
 

@@ -1,5 +1,8 @@
 getScrollState
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: returns the coordinates of a position a grid has been scrolled to
 

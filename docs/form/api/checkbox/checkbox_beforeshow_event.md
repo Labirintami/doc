@@ -1,5 +1,8 @@
-beforeShow
-=============
+
+---
+sidebar_label: beforeShow
+title: beforeShow
+---          
 
 @short: fires before a control is shown
  

@@ -1,5 +1,8 @@
-value
-=============
+
+---
+sidebar_label: value
+title: value
+---          
 
 @short: 
 selects the day (adds a round blue marker)

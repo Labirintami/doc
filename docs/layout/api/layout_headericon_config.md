@@ -1,5 +1,8 @@
 headerIcon
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 an icon used in the header of a cell

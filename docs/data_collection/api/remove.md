@@ -1,5 +1,8 @@
-remove
-========
+
+---
+sidebar_label: remove
+title: remove
+---          
 
 @short:
 deletes the specified item from the component

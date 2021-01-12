@@ -1,5 +1,8 @@
 close
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: closes a tree item by id
 

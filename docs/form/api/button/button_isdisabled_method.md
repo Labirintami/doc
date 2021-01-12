@@ -1,5 +1,8 @@
-isDisabled
-=============
+
+---
+sidebar_label: isDisabled
+title: isDisabled
+---          
 
 @short: checks whether a Button control is disabled
 

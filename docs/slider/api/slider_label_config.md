@@ -1,5 +1,8 @@
 label
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 specifies the label of a slider

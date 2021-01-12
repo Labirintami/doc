@@ -1,5 +1,8 @@
 padding
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 defines the distance between the content of a cell and the border of tabbar

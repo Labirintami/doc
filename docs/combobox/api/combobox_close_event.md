@@ -1,5 +1,8 @@
-close
-=============
+
+---
+sidebar_label: close
+title: close
+---          
 
 @short:
 fires when a list with options is closed

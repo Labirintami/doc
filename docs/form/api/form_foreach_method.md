@@ -1,5 +1,8 @@
-forEach
-=============
+
+---
+sidebar_label: forEach
+title: forEach
+---          
 
 @short: iterates over all controls of a from
 

@@ -1,5 +1,8 @@
-customColors
-=============
+
+---
+sidebar_label: customColors
+title: customColors
+---          
 
 @short: 
 shows a section with custom colors in the bottom part of ColorPicker

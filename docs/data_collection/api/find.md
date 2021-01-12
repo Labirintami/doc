@@ -1,5 +1,8 @@
-find
-==========
+
+---
+sidebar_label: find
+title: find
+---          
 
 @short:
 finds the item that corresponds to the specified parameters

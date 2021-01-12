@@ -1,5 +1,8 @@
-changeId
-========
+
+---
+sidebar_label: changeId
+title: changeId
+---          
 
 @short:
 changes the id of an element of a data collection

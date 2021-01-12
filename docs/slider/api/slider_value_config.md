@@ -1,5 +1,8 @@
 value
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 the value the thumb will be set at on initialization of the slider

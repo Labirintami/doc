@@ -1,5 +1,8 @@
 tabAlign
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: sets alignment for tabs
 

@@ -1,5 +1,8 @@
 cellMouseDown
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires before releasing the left mouse button when clicking on a grid cell

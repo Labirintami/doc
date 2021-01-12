@@ -1,5 +1,8 @@
-dhtmlxDataView API
-===================
+
+---
+sidebar_label: DataView API
+title: DataView API
+---          
 
 ``` todo
 

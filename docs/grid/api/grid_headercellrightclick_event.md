@@ -1,5 +1,8 @@
-headerCellRightClick
-=============
+
+---
+sidebar_label: headerCellRightClick
+title: headerCellRightClick
+---          
 
 @short:
 fires on right click on a grid header cell

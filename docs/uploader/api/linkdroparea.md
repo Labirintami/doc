@@ -1,5 +1,8 @@
 linkDropArea
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: links an extra area for dropping files for upload to Uploader
 

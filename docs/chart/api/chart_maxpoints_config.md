@@ -1,5 +1,8 @@
-maxPoints
-=============
+
+---
+sidebar_label: maxPoints
+title: maxPoints
+---          
 
 @short: 
 displays an average number of values in case a data set is too large to show all the values in the chart

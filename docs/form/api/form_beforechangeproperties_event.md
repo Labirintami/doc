@@ -1,5 +1,8 @@
-beforeChangeProperties
-=============
+
+---
+sidebar_label: beforeChangeProperties
+title: beforeChangeProperties
+---          
 
 @short: fires before configuration attributes of a Form control are changed dynamically
 

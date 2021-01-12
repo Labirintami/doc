@@ -1,5 +1,8 @@
-rowHeight
-=============
+
+---
+sidebar_label: rowHeight
+title: rowHeight
+---          
 
 @short: 
 defines the height of a row in a grid

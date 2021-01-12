@@ -1,5 +1,8 @@
-rows
-=============
+
+---
+sidebar_label: rows
+title: rows
+---          
 
 @short: arranges controls inside the control group vertically
 

@@ -1,5 +1,8 @@
-getColumn
-=============
+
+---
+sidebar_label: getColumn
+title: getColumn
+---          
 
 @short: returns an object with attributes of a column
 

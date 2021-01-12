@@ -1,5 +1,8 @@
-dragStart
-=============
+
+---
+sidebar_label: dragStart
+title: dragStart
+---          
 
 @short:
 fires when dragging of an item has started 

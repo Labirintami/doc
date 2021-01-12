@@ -1,5 +1,8 @@
-beforeValidate
-=============
+
+---
+sidebar_label: beforeValidate
+title: beforeValidate
+---          
 
 @short: fires before the control value is validated
  

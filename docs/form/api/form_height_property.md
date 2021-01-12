@@ -1,5 +1,8 @@
-height
-=============
+
+---
+sidebar_label: height
+title: height
+---          
 
 @short: sets the height of the control group 
 

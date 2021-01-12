@@ -1,5 +1,8 @@
 Spacer
-======
+---
+sidebar_label: 
+title: 
+---          
 
 This item takes space on the ribbon and is used for aligning controls.
 

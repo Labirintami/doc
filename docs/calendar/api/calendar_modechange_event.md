@@ -1,5 +1,8 @@
-modeChange
-=============
+
+---
+sidebar_label: modeChange
+title: modeChange
+---          
 
 @short:
 fires on change of the calendar mode

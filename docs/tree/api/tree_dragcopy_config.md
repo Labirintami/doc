@@ -1,5 +1,8 @@
 dragCopy
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 defines that an item is copied to a target during drag-n-drop

@@ -1,5 +1,8 @@
-ColorPicker
-===============
+
+---
+sidebar_label: ColorPicker
+title: ColorPicker
+---          
 
 ``` todo
 

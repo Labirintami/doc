@@ -1,5 +1,8 @@
-afterClose
-=============
+
+---
+sidebar_label: afterClose
+title: afterClose
+---          
 
 @short: fires after closing a list with options
 

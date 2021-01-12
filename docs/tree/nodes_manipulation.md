@@ -1,5 +1,8 @@
 Manipulating Nodes  
-=================
+---
+sidebar_label: 
+title: 
+---          
 
 Adding/Removing Items  
 --------------------------

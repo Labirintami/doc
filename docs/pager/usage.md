@@ -1,5 +1,8 @@
 Work with Pager
-=========
+---
+sidebar_label: 
+title: 
+---          
 
 
 Setting/getting the active page

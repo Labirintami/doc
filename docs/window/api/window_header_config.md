@@ -1,5 +1,8 @@
 header
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 adds a header to a window

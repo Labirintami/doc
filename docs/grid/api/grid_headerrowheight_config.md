@@ -1,5 +1,8 @@
-headerRowHeight
-=============
+
+---
+sidebar_label: headerRowHeight
+title: headerRowHeight
+---          
 
 @short: 
 sets the height of rows in the header

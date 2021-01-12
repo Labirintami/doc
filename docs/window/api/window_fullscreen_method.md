@@ -1,5 +1,8 @@
 fullScreen
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: enters the full screen mode
 

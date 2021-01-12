@@ -1,5 +1,8 @@
-Configuration
-================
+
+---
+sidebar_label: Configuration
+title: Configuration
+---          
 
 Disabled mode
 ---------------

@@ -1,5 +1,8 @@
 Properties
-=========
+---
+sidebar_label: 
+title: 
+---          
 
 {{api
 - layout/api/layout_cols_config.md - an array of columns objects

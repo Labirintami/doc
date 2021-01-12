@@ -1,5 +1,8 @@
 DataProxy
-==============
+---
+sidebar_label: 
+title: 
+---          
 
 DataProxy is a helper that enables communication with external datasources. Using the helper allows creating a custom URL and assigning it to a variable that considerably simplifies work with server-side backend.
 

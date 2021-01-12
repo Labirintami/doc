@@ -1,5 +1,8 @@
 destructor
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: removes a Toolbar instance and releases occupied resources
 

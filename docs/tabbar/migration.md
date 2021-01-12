@@ -1,5 +1,8 @@
 Migration to Newer Versions
-===========
+---
+sidebar_label: 
+title: 
+---          
 6.3 -> 6.4 
 ---------------
 

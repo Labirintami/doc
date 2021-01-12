@@ -1,5 +1,8 @@
 checkbox
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 adds checkboxes to tree items

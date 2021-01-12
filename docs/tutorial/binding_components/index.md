@@ -1,5 +1,8 @@
 Binding Components
-======================================
+---
+sidebar_label: 
+title: 
+---          
 
 In the [previous tutorial](tutorial/basic_application/index.md) we've considered how to add a Layout, a Grid, a Toolbar and a Chart on the page. 
 We've also shown you how to load the data into the Grid and the Chart and remove it.

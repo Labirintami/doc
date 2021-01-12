@@ -1,5 +1,8 @@
 clear
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: clears the value set in the timepicker
 

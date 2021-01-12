@@ -1,5 +1,8 @@
 collapseAll
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: collapses all expanded Tree nodes
 

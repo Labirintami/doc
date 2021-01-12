@@ -1,5 +1,8 @@
 title
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 adds some text into the header of a window

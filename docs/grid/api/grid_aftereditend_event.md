@@ -1,5 +1,8 @@
-afterEditEnd
-=============
+
+---
+sidebar_label: afterEditEnd
+title: afterEditEnd
+---          
 
 @short: fires after editing of a cell is ended
 	

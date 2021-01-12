@@ -1,5 +1,8 @@
 beforeRemove
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires before removing a cell
 

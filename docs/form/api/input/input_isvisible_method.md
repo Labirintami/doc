@@ -1,5 +1,8 @@
-isVisible
-=============
+
+---
+sidebar_label: isVisible
+title: isVisible
+---          
 
 @short: checks whether an Input control is visible on the page
 

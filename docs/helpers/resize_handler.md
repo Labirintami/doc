@@ -1,5 +1,8 @@
 Resizer
-================
+---
+sidebar_label: 
+title: 
+---          
 
 The DHTMLX library provides a helper that changes the width and height of the page content based on the window size. 
 

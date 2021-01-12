@@ -1,5 +1,8 @@
 tickTemplate
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 sets a template for rendering values on the scale

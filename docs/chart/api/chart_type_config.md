@@ -1,5 +1,8 @@
-type
-=============
+
+---
+sidebar_label: type
+title: type
+---          
 
 @short: 
 specifies the type of a chart

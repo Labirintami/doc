@@ -1,5 +1,8 @@
 setFocusIndex
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: sets focus to an item according to its index
 

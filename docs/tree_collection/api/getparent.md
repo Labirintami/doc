@@ -1,5 +1,8 @@
 getParent
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:gets the ID of the parent of the control
 

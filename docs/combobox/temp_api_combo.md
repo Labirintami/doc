@@ -1,5 +1,8 @@
-dhtmlxComboBox API 
-==================
+
+---
+sidebar_label: ComboBox API 
+title: ComboBox API 
+---          
 
 Constructor
 ---------------

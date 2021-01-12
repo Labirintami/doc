@@ -1,5 +1,8 @@
 Layout structure
-=====================
+---
+sidebar_label: 
+title: 
+---          
 
 You can use dhtmlxLayout to build the necessary composition of blocks to arrange parts of your application. There are three common types of layout:
 

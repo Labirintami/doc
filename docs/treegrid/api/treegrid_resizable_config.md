@@ -1,5 +1,8 @@
 resizable
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: defines whether columns can be resized
 

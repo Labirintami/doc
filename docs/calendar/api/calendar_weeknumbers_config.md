@@ -1,5 +1,8 @@
-weekNumbers
-=============
+
+---
+sidebar_label: weekNumbers
+title: weekNumbers
+---          
 
 @short: 
 defines whether to show the numbers of weeks

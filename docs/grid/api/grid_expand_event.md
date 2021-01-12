@@ -1,5 +1,8 @@
-expand
-=============
+
+---
+sidebar_label: expand
+title: expand
+---          
 
 @short:
 fires on expanding a treegrid

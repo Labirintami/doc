@@ -1,5 +1,8 @@
 autosend
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:  enables automatic sending of the added file
 	

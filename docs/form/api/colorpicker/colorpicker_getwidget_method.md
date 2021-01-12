@@ -1,5 +1,8 @@
-getWidget
-=============
+
+---
+sidebar_label: getWidget
+title: getWidget
+---          
 
 @short: returns the dhtmlxColorPicker widget attached to a ColorPicker control
 

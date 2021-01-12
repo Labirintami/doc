@@ -1,5 +1,8 @@
-autoWidth
-=============
+
+---
+sidebar_label: autoWidth
+title: autoWidth
+---          
 
 @short: makes grid's columns to fit the size of a grid
 

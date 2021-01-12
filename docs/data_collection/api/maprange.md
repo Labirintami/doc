@@ -1,5 +1,8 @@
-mapRange
-=========
+
+---
+sidebar_label: mapRange
+title: mapRange
+---          
 
 @short:
 returns a new array of the items correspond to the specified parameters

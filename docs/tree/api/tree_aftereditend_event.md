@@ -1,5 +1,8 @@
 afterEditEnd
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires after editing of a tree item is finished
 

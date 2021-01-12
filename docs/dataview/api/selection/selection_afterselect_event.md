@@ -1,5 +1,8 @@
-afterSelect
-=============
+
+---
+sidebar_label: afterSelect
+title: afterSelect
+---          
 
 @short: fires after selecting an item
 

@@ -1,5 +1,8 @@
 css
-=============
+---
+sidebar_label: 
+title: 
+---          
 ```todo
 @short: 
 adds style classes to the pager

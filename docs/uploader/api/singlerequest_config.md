@@ -1,5 +1,8 @@
 singleRequest
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: defines whether files are sent in one request
 	

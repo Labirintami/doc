@@ -1,5 +1,8 @@
 minWidth
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 sets the minimal width of a sidebar in the collapsed state

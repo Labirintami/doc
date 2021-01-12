@@ -1,5 +1,8 @@
-cellClick
-=============
+
+---
+sidebar_label: cellClick
+title: cellClick
+---          
 
 @short:
 fires on click on a grid cell

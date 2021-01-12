@@ -1,5 +1,8 @@
-show
-=============
+
+---
+sidebar_label: show
+title: show
+---          
 
 @short: shows a Checkbox control on the page
 

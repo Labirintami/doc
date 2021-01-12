@@ -1,5 +1,8 @@
 cancelColumnDrop
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires on moving a mouse pointer out of borders of a column while dragging the column

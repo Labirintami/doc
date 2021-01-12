@@ -1,5 +1,8 @@
 Methods
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 {{api
 - selection/api/add.md - selects a specified item

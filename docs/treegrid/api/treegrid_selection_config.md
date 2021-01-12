@@ -1,5 +1,8 @@
 selection
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 enables selection in a grid

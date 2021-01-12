@@ -1,5 +1,8 @@
 id
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 sets the id of a tab

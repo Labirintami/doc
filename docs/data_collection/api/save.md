@@ -1,5 +1,8 @@
-save
-=======
+
+---
+sidebar_label: save
+title: save
+---          
 
 @short:
 	saves changes made in a data collection to the server side

@@ -1,5 +1,8 @@
 itemContextMenu
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires on calling a context menu for a tree item on right click

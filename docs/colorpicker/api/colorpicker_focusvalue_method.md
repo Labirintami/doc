@@ -1,5 +1,8 @@
-focusValue
-=============
+
+---
+sidebar_label: focusValue
+title: focusValue
+---          
 
 @short: sets focus on the specified value
 

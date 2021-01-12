@@ -1,5 +1,8 @@
 addTab
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 
 @short: adds a new tab into a tabbar

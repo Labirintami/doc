@@ -1,5 +1,8 @@
-setColumns
-=============
+
+---
+sidebar_label: setColumns
+title: setColumns
+---          
 
 ``` todo
 

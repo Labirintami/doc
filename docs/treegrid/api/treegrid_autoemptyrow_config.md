@@ -1,5 +1,8 @@
 autoEmptyRow
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 adds an empty row after the last filled row in the Grid

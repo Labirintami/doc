@@ -1,5 +1,8 @@
-Spacer
-======
+
+---
+sidebar_label: Spacer
+title: Spacer
+---          
 
 This item takes space on the form and is used for aligning controls.
 

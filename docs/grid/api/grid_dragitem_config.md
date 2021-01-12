@@ -1,5 +1,8 @@
-dragItem
-=============
+
+---
+sidebar_label: dragItem
+title: dragItem
+---          
 
 @short: enables the possibility to reorder grid columns by drag and drop
 

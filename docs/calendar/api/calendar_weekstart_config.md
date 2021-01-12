@@ -1,5 +1,8 @@
-weekStart
-=============
+
+---
+sidebar_label: weekStart
+title: weekStart
+---          
 
 @short: 
 sets the starting day of the week

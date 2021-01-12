@@ -1,5 +1,8 @@
 disable
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: disables selection of items in List
 

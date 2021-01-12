@@ -1,5 +1,8 @@
 List of Sidebar Controls
-======================
+---
+sidebar_label: 
+title: 
+---          
 
 - sidebar/customhtmlbutton.md
 - sidebar/menuitem.md

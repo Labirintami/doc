@@ -1,5 +1,8 @@
-disabledDates
-=============
+
+---
+sidebar_label: disabledDates
+title: disabledDates
+---          
 
 @short: allows disabling some date intervals, day labels are dimmed
 

@@ -1,5 +1,8 @@
 cell
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: returns the config object of a cell
 

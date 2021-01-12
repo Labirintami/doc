@@ -1,5 +1,8 @@
 beforeApply
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires before saving the timepicker value
 

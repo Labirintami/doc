@@ -1,5 +1,8 @@
 cancelDrop
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires on moving a mouse pointer out of item's borders while dragging the item

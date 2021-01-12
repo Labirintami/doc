@@ -1,5 +1,8 @@
 DataCollection API
-=================
+---
+sidebar_label: 
+title: 
+---          
 
 A set of APIs that allow you to work with data of a component.
 

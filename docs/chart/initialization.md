@@ -1,5 +1,8 @@
-Initialization
-================
+
+---
+sidebar_label: Initialization
+title: Initialization
+---          
 
 To initialize dhtmlxChart in an application, you need to take the following steps:
 

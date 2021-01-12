@@ -1,5 +1,8 @@
-uploadFail
-=============
+
+---
+sidebar_label: uploadFail
+title: uploadFail
+---          
 
 @short: fires if the file upload failed
  

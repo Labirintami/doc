@@ -1,5 +1,8 @@
-series
-=============
+
+---
+sidebar_label: series
+title: series
+---          
 
 ``` todo
 

@@ -1,5 +1,8 @@
-pickerOnly
-=============
+
+---
+sidebar_label: pickerOnly
+title: pickerOnly
+---          
 
 @short: 
 defines whether ColorPicker is shown only in the picker mode

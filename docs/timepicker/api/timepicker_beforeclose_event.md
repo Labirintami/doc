@@ -1,5 +1,8 @@
 beforeClose
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires before closing the timepicker
 

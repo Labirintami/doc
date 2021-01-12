@@ -1,5 +1,8 @@
-beforeRemove
-=============
+
+---
+sidebar_label: beforeRemove
+title: beforeRemove
+---          
 
 @short: fires before removing an item from a data collection
 	

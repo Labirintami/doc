@@ -1,5 +1,8 @@
 Step 5. Add buttons to Toolbar
-===============================
+---
+sidebar_label: 
+title: 
+---          
 
 We've already placed the "Load" and "Clear" buttons into Toolbar in the [previous tutorial](tutorial/basic_application/step3.md). 
 

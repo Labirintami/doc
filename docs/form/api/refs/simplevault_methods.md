@@ -1,5 +1,8 @@
 Methods
-==========
+---
+sidebar_label: 
+title: 
+---          
 
 {{api
 - form/api/simplevault/simplevault_clear_method.md - clears a value of a SimpleVault control

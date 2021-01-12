@@ -1,5 +1,8 @@
-filter
-=============
+
+---
+sidebar_label: filter
+title: filter
+---          
 
 @short: 
 sets a custom function for filtering Combo Box options

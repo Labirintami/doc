@@ -1,5 +1,8 @@
 getSelected
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: returns an array with IDs of selected items
 

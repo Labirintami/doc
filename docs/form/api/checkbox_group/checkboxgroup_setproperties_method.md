@@ -1,5 +1,8 @@
-setProperties
-=============
+
+---
+sidebar_label: setProperties
+title: setProperties
+---          
 
 @short:  allows changing available configuration attributes of the control dynamically
 

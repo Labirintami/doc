@@ -1,5 +1,8 @@
-afterEditStart
-=============
+
+---
+sidebar_label: afterEditStart
+title: afterEditStart
+---          
 
 @short: fires after editing of a cell has started
 	

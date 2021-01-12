@@ -1,5 +1,8 @@
 Searching and Sorting in Tree  
-==============================
+---
+sidebar_label: 
+title: 
+---          
 
 Searching in Tree  
 ----------------------

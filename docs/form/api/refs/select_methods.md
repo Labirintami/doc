@@ -1,5 +1,8 @@
 Methods
-==========
+---
+sidebar_label: 
+title: 
+---          
 
 {{api
 - form/api/select/select_clear_method.md - clears a value of a Select control

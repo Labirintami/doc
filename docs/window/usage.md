@@ -1,5 +1,8 @@
 Work with Window
-==================
+---
+sidebar_label: 
+title: 
+---          
 
 Attaching content
 --------------------

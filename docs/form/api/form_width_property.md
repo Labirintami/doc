@@ -1,5 +1,8 @@
-width
-=============
+
+---
+sidebar_label: width
+title: width
+---          
 
 @short: sets the width of the control group
 

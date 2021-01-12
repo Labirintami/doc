@@ -1,5 +1,8 @@
-timePicker
-=============
+
+---
+sidebar_label: timePicker
+title: timePicker
+---          
 
 @short: 
 adds a timepicker into the calendar

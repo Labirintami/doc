@@ -1,5 +1,8 @@
 views
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 sets an array of views objects

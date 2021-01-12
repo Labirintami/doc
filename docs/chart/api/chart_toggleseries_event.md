@@ -1,5 +1,8 @@
-toggleSeries
-=============
+
+---
+sidebar_label: toggleSeries
+title: toggleSeries
+---          
 
 @short:
 fires on toggle on/off a series in a legend

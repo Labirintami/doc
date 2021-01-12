@@ -1,5 +1,8 @@
 beforeCollapse
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires before collapsing a treegrid
 	

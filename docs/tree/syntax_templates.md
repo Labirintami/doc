@@ -1,5 +1,8 @@
 Syntax Templates  
-==================
+---
+sidebar_label: 
+title: 
+---          
 
 ``` todo
 

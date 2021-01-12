@@ -1,5 +1,8 @@
-Slider
-===========
+
+---
+sidebar_label: Slider
+title: Slider
+---          
 
 A control that allows selecting a numeric value by moving a thumb along a line with a fixed set of options.
 

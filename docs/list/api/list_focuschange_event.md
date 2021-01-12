@@ -1,5 +1,8 @@
 focusChange
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires on moving focus to a new item

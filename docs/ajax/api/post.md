@@ -1,5 +1,8 @@
-post
-=======
+
+---
+sidebar_label: post
+title: post
+---          
 
 @short: sends a POST request to the server
 

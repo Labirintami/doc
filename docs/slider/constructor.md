@@ -1,5 +1,8 @@
 Object Constructor
-====================
+---
+sidebar_label: 
+title: 
+---          
 
 ~~~js
 var mySlider = new dhtmlXSlider({

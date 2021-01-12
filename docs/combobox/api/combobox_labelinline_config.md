@@ -1,5 +1,8 @@
-labelInline
-=============
+
+---
+sidebar_label: labelInline
+title: labelInline
+---          
 
 @short: 
 defines whether a label will be placed in one line with ComboBox

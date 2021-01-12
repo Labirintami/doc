@@ -1,5 +1,8 @@
-afterRemove
-=============
+
+---
+sidebar_label: afterRemove
+title: afterRemove
+---          
 
 @short: fires after removing a new item from a data collection
 	

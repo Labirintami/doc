@@ -1,5 +1,8 @@
-link
-=============
+
+---
+sidebar_label: link
+title: link
+---          
 
 @short: links a calendar to another calendar for selecting a date range
 

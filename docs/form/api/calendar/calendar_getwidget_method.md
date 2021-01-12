@@ -1,5 +1,8 @@
-getWidget
-=============
+
+---
+sidebar_label: getWidget
+title: getWidget
+---          
 
 @short: returns the dhtmlxCalendar widget attached to a DatePicker control
 

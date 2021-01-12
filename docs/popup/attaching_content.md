@@ -1,5 +1,8 @@
 Attaching Content to Popup 
-=============================
+---
+sidebar_label: 
+title: 
+---          
 
 ``` todo
 

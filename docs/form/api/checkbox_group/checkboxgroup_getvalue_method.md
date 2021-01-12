@@ -1,5 +1,8 @@
-getValue
-=============
+
+---
+sidebar_label: getValue
+title: getValue
+---          
 
 @short: returns the current value/state of a checkbox(s)
 

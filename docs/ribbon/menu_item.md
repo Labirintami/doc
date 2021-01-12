@@ -1,5 +1,8 @@
 menuItem Control
-================
+---
+sidebar_label: 
+title: 
+---          
 
 This is a dropdown menu.
 

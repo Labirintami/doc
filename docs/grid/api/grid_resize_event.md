@@ -1,5 +1,8 @@
-resize
-=============
+
+---
+sidebar_label: resize
+title: resize
+---          
 
 @short:fires on resizing a column
 

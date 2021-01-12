@@ -1,5 +1,8 @@
 cellDblClick
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires on double-click on a grid cell

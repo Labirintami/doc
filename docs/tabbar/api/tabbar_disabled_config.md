@@ -1,5 +1,8 @@
 disabled
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: makes a tab/tabs disabled
 

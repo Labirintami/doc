@@ -1,5 +1,8 @@
 send
-=============
+---
+sidebar_label: rows
+title: rows
+---          
 
 @short: sends a form to the server
 

@@ -1,5 +1,8 @@
 getSize
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: gets the size of window
 

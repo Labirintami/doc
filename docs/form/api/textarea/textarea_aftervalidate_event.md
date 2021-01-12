@@ -1,5 +1,8 @@
-afterValidate
-=============
+
+---
+sidebar_label: afterValidate
+title: afterValidate
+---          
 
 @short: fires after the control value is validated
  

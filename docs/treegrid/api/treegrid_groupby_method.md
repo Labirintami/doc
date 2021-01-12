@@ -1,5 +1,8 @@
 groupBy
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: groups grid content either by values of the specified column or by the result of calculation
 

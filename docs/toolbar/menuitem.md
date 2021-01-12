@@ -1,5 +1,8 @@
 MenuItem
-============
+---
+sidebar_label: 
+title: 
+---          
 
 MenuItem is a drop-down list of options, can contain its own sub-menu. 
 

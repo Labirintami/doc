@@ -1,5 +1,8 @@
 afterRowShow
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires after a row is shown on a page
 

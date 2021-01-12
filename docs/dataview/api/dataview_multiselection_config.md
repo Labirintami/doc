@@ -1,5 +1,8 @@
-multiselection
-=============
+
+---
+sidebar_label: multiselection
+title: multiselection
+---          
 
 @short: 
 enables selection of multiple DataView items, sets the mode of multiselection

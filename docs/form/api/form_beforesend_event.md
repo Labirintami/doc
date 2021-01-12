@@ -1,5 +1,8 @@
-beforeSend
-=============
+
+---
+sidebar_label: beforeSend
+title: beforeSend
+---          
 
 @short: fires before a form is sent to the server
 	

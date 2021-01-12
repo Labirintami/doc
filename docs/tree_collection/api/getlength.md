@@ -1,5 +1,8 @@
 getLength
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:counts child items of a control
 

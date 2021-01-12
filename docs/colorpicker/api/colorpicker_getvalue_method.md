@@ -1,5 +1,8 @@
-getValue
-=============
+
+---
+sidebar_label: getValue
+title: getValue
+---          
 
 @short: returns the code of a selected color
 

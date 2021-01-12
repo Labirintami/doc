@@ -1,5 +1,8 @@
-beforeClose
-=============
+
+---
+sidebar_label: beforeClose
+title: beforeClose
+---          
 
 @short: fires before closing a list with options
 

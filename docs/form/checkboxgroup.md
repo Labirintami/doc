@@ -1,5 +1,8 @@
-CheckboxGroup
-============
+
+---
+sidebar_label: CheckboxGroup
+title: CheckboxGroup
+---          
 
 ```todo
 

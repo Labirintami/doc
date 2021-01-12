@@ -1,5 +1,8 @@
-map
-=========
+
+---
+sidebar_label: map
+title: map
+---          
 
 @short:
 iterates through all items of the component

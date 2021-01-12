@@ -1,5 +1,8 @@
 paint
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: repaints Menu on a page
 

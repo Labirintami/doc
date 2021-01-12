@@ -1,5 +1,8 @@
-uploadBegin
-=============
+
+---
+sidebar_label: uploadBegin
+title: uploadBegin
+---          
 
 @short: fires when file upload begins
  

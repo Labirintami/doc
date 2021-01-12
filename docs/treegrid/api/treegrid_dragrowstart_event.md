@@ -1,5 +1,8 @@
 dragRowStart
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires when dragging of a row has started

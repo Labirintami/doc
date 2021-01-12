@@ -1,5 +1,8 @@
 movable
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 defines whether a window is movable

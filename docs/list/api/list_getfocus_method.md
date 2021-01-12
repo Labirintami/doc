@@ -1,5 +1,8 @@
 getFocus
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: returns the id of an item in focus
 

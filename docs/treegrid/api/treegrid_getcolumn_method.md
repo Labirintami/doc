@@ -1,5 +1,8 @@
 getColumn
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 ``` todo
 

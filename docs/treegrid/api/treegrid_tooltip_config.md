@@ -1,5 +1,8 @@
 tooltip
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: enables a tooltip on hovering over the content of a column
 

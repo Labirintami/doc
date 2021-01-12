@@ -1,5 +1,8 @@
-click
-=============
+
+---
+sidebar_label: click
+title: click
+---          
 
 @short:
 fires after a click on a button in a form

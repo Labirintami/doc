@@ -1,5 +1,8 @@
-DataView
-==================
+
+---
+sidebar_label: DataView
+title: DataView
+---          
 
 dhtmlxDataView allows rendering a collection of objects according to a specified template. It will help you to organize data by arranging various objects with similar properties within a common container.
 This component is especially useful, if you're creating an online store or an image gallery, or just want to display a number of similar objects on a page.

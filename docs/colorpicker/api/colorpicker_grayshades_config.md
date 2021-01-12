@@ -1,5 +1,8 @@
-grayShades
-=============
+
+---
+sidebar_label: grayShades
+title: grayShades
+---          
 
 @short: 
 defines whether the section with gray shades is displayed in the palette

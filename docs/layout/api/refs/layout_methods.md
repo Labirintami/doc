@@ -1,5 +1,8 @@
 Methods
-=========
+---
+sidebar_label: 
+title: 
+---          
 
 {{api
 - layout/api/layout_cell_method.md - returns the config object of a cell

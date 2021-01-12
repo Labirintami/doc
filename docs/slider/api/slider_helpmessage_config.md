@@ -1,5 +1,8 @@
 helpMessage
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: adds an icon with a question mark next to Slider
 

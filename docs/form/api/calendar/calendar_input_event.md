@@ -1,5 +1,8 @@
-input
-=============
+
+---
+sidebar_label: input
+title: input
+---          
 
 @short: fires when a user enters the value of a control in the input manually
  

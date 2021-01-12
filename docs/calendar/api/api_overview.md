@@ -3,7 +3,10 @@ sidebar_label: API Overview
 title: Sidebar API Overview
 ---
 Calendar API
-=============
+---
+sidebar_label: 
+title: 
+---          ===
 	
  ## Methods 
 

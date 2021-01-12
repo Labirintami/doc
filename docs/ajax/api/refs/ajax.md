@@ -1,5 +1,8 @@
 AJAX
-==============
+---
+sidebar_label: 
+title: 
+---          
 
 The DHTMLX library provides you with a possibility to use AJAX (Asynchronous Java Script and XML) technique for exchanging data with a web server without reloading the whole page. 
 

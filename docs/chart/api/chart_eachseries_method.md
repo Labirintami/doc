@@ -1,5 +1,8 @@
-eachSeries
-=============
+
+---
+sidebar_label: eachSeries
+title: eachSeries
+---          
 
 @short: iterates over Chart series
 

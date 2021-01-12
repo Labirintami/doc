@@ -1,5 +1,8 @@
 css
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 the name of a CSS class(es) applied to Layout

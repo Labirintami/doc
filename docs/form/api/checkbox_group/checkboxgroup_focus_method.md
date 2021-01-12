@@ -1,5 +1,8 @@
-focus
-=============
+
+---
+sidebar_label: focus
+title: focus
+---          
 
 @short: sets focus to the checkbox of the CheckboxGroup control by its id
 

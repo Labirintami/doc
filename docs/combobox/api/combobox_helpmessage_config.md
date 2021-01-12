@@ -1,5 +1,8 @@
-helpMessage
-=============
+
+---
+sidebar_label: helpMessage
+title: helpMessage
+---          
 
 @short: adds an icon with a question mark next to the Combo input
 

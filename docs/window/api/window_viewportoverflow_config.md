@@ -1,5 +1,8 @@
 viewportOverflow
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 defines whether a window can go beyond borders of a browser

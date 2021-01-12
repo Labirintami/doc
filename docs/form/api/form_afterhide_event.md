@@ -1,5 +1,8 @@
-afterHide
-=============
+
+---
+sidebar_label: afterHide
+title: afterHide
+---          
 
 @short:
 fires after hiding a control of Form

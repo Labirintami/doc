@@ -1,5 +1,8 @@
-focus
-=============
+
+---
+sidebar_label: focus
+title: focus
+---          
 
 @short: sets focus to the radio button of the RadioGroup control by its id
 

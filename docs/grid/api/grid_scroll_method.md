@@ -1,5 +1,8 @@
-scroll
-=============
+
+---
+sidebar_label: scroll
+title: scroll
+---          
 
 @short: scrolls a grid according to specified coordinates
 

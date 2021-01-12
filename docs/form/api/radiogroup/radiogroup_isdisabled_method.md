@@ -1,5 +1,8 @@
-isDisabled
-=============
+
+---
+sidebar_label: isDisabled
+title: isDisabled
+---          
 
 @short: checks whether a RadioGroup control is disabled
 

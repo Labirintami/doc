@@ -1,5 +1,8 @@
-view
-=============
+
+---
+sidebar_label: view
+title: view
+---          
 
 @short: 
 the mode of Calendar initialization

@@ -1,5 +1,8 @@
-align
-=============
+
+---
+sidebar_label: align
+title: align
+---          
 
 @short: sets the alignment of controls inside the control group 
 

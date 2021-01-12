@@ -1,5 +1,8 @@
 paint
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: repaints Tree on a page
 

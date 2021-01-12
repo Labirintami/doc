@@ -1,5 +1,8 @@
-timeFormat
-=============
+
+---
+sidebar_label: timeFormat
+title: timeFormat
+---          
 
 @short: 
 defines the time format for a timepicker in the calendar

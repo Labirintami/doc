@@ -1,5 +1,8 @@
 eventHandlers
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: adds event handlers to HTML elements of a custom template of a TreeGrid cell or to the HTML elements defined in the data set of TreeGrid
 

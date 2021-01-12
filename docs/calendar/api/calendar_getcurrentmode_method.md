@@ -1,5 +1,8 @@
-getCurrentMode
-=============
+
+---
+sidebar_label: getCurrentMode
+title: getCurrentMode
+---          
 
 @short: returns the current mode of displaying Calendar
 

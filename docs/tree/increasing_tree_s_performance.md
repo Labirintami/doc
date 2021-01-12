@@ -1,5 +1,8 @@
 Loading Big Datasets 
-====================================
+---
+sidebar_label: 
+title: 
+---          
 
 
 The following ways of increasing performance when working with huge data sets are introduced in dhtmlxTree:

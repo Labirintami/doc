@@ -1,5 +1,8 @@
-move
-==========
+
+---
+sidebar_label: move
+title: move
+---          
 
 @short:
 	moves an item to the defined position

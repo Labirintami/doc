@@ -1,5 +1,8 @@
-footerCellMouseDown
-=============
+
+---
+sidebar_label: footerCellMouseDown
+title: footerCellMouseDown
+---          
 
 @short:
 fires on moving the mouse pointer over a grid footer cell

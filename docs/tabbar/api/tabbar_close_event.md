@@ -1,5 +1,8 @@
 close
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires on closing a tab

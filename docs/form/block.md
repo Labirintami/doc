@@ -1,5 +1,8 @@
 Block
-===========
+---
+sidebar_label: Block
+title: Block
+---          
 
 A control that allows you to combine a set of Form controls united by some common purpose.
 

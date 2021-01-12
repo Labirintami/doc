@@ -1,5 +1,8 @@
-destructor
-=============
+
+---
+sidebar_label: destructor
+title: destructor
+---          
 
 @short: removes a ComboBox instance and releases occupied resources
 

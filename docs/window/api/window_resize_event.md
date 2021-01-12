@@ -1,5 +1,8 @@
 resize
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires on resizing a window

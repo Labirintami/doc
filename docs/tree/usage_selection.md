@@ -1,5 +1,8 @@
 Work with Selection Object
-====================
+---
+sidebar_label: 
+title: 
+---          
 
 You can manipulate with Tree items via the API of the **selection** object. It is possible to select an item, remove selection, and get the id or even the object of a selected Tree item.
 

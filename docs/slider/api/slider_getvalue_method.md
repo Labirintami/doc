@@ -1,5 +1,8 @@
 getValue
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: returns the current value of Slider
 

@@ -1,5 +1,8 @@
-beforeLazyLoad
-=============
+
+---
+sidebar_label: beforeLazyLoad
+title: beforeLazyLoad
+---          
 
 @short: fires before sending a request to the server
 	

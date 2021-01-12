@@ -1,5 +1,8 @@
 inputWidth
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 optional, sets the width for the input of the pager

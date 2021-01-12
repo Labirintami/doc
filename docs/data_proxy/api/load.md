@@ -1,5 +1,8 @@
-load
-=====
+
+---
+sidebar_label: load
+title: load
+---          
 
 @short: loads data from an external URL
 

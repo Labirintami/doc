@@ -1,5 +1,8 @@
 Input 
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 A text input field with an icon.
 

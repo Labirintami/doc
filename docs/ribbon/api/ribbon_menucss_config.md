@@ -1,5 +1,8 @@
 menuCss
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 adds style classes to all containers of Ribbon controls with nested items

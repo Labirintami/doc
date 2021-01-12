@@ -1,5 +1,8 @@
 How to start with dhtmlxOptimus
-=========================
+---
+sidebar_label: 
+title: 
+---          
 
 This guide gives you step-by-step instructions on how to create a simple application with dhtmlxOptimus.
 

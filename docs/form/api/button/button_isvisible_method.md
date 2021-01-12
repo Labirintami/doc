@@ -1,5 +1,8 @@
-isVisible
-=============
+
+---
+sidebar_label: isVisible
+title: isVisible
+---          
 
 @short: checks whether a Button control is visible on the page
 

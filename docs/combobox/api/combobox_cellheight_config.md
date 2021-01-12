@@ -1,5 +1,8 @@
-cellHeight
-=============
+
+---
+sidebar_label: cellHeight
+title: cellHeight
+---          
 
 @short: 
 sets the height of a cell in the list of options

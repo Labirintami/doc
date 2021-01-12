@@ -1,5 +1,8 @@
 getFocusIndex
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: returns the index of an item in focus
 

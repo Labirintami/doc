@@ -1,5 +1,8 @@
-Initialization
-========================
+
+---
+sidebar_label: Initialization
+title: Initialization
+---          
 
 To initialize dhtmlxDataView on a page, you need to take the following simple steps:
 

@@ -1,5 +1,8 @@
 closable
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: adds close buttons for tabs
 

@@ -1,5 +1,8 @@
-change
-=============
+
+---
+sidebar_label: change
+title: change
+---          
 
 @short:
 fires when a new option is selected

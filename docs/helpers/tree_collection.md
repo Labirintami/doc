@@ -1,5 +1,8 @@
 Tree Collection API
-================
+---
+sidebar_label: 
+title: 
+---          
 
 A set of API methods that allow you to work with data of a component with tree-line structure.
 

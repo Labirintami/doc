@@ -1,5 +1,8 @@
-focus
-=============
+
+---
+sidebar_label: focus
+title: focus
+---          
 
 @short: sets focus in the input without opening a popup with options
 

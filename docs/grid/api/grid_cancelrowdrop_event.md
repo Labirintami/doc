@@ -1,5 +1,8 @@
-cancelRowDrop
-=============
+
+---
+sidebar_label: cancelRowDrop
+title: cancelRowDrop
+---          
 
 @short:
 fires on moving a mouse pointer out of borders of a row while dragging the row

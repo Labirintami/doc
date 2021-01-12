@@ -1,5 +1,8 @@
 Initialization
-======================
+---
+sidebar_label: 
+title: 
+---          
 
 To initialize dhtmlxTreeGrid on a page, you need to take the following simple steps:
 

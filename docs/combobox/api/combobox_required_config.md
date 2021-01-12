@@ -1,5 +1,8 @@
-required
-=============
+
+---
+sidebar_label: required
+title: required
+---          
 
 @short: 
 defines whether the field with Combo box is required (for a form)

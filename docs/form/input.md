@@ -1,5 +1,8 @@
-Input
-=========
+
+---
+sidebar_label: Input
+title: Input
+---          
 
 ``` todo
 

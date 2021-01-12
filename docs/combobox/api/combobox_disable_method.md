@@ -1,5 +1,8 @@
-disable
-=============
+
+---
+sidebar_label: disable
+title: disable
+---          
 
 @short: disables ComboBox on a page
 

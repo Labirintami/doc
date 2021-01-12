@@ -1,5 +1,8 @@
-List of Form Controls
-========================
+
+---
+sidebar_label: List of Form Controls
+title: List of Form Controls
+---          
 
 - form/button.md
 - form/calendar.md

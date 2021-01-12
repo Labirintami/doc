@@ -1,5 +1,8 @@
 mouseDown
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires on pressing the left mouse button over the slider thumb

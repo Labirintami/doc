@@ -1,5 +1,8 @@
-scales
-=============
+
+---
+sidebar_label: scales
+title: scales
+---          
 
 ``` todo
 

@@ -1,5 +1,8 @@
-getIndex
-=============
+
+---
+sidebar_label: getIndex
+title: getIndex
+---          
 
 @short:
 returns the index of the item by its id

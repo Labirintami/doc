@@ -1,5 +1,8 @@
 valueFormat
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: defines the format of the value to be applied when working with TimePicker events
 

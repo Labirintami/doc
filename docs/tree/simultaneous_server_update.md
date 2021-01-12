@@ -1,5 +1,8 @@
 Simultaneous Server Update
-=============================
+---
+sidebar_label: 
+title: 
+---          
 
 dataProcessor Module  
 ------------------------

@@ -1,5 +1,8 @@
 Configuration
-====================
+---
+sidebar_label: 
+title: 
+---          
 
 Actions buttons
 ---------------

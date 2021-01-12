@@ -1,5 +1,8 @@
-load
-=============
+
+---
+sidebar_label: load
+title: load
+---          
 
 @short: fires when items are loaded in a data collection
 	

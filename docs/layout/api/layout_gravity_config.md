@@ -1,5 +1,8 @@
 gravity
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 sets the "weight" of a cell in relation to other cells placed in the same row and within one parent

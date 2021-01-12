@@ -1,5 +1,8 @@
-enable
-=============
+
+---
+sidebar_label: enable
+title: enable
+---          
 
 @short: enables selection of cells in Grid
 

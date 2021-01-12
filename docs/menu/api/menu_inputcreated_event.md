@@ -1,5 +1,8 @@
 inputCreated
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires when a new input is added

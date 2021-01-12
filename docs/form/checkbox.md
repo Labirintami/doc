@@ -1,5 +1,8 @@
-Checkbox
-============
+
+---
+sidebar_label: Checkbox
+title: Checkbox
+---          
 
 ``` todo
 

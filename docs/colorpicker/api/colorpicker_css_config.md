@@ -1,5 +1,8 @@
-css
-=============
+
+---
+sidebar_label: css
+title: css
+---          
 
 @short: 
 adds custom CSS classes to ColorPicker

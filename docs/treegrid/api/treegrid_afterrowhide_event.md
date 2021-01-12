@@ -1,5 +1,8 @@
 afterRowHide
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires after a row is hidden
 

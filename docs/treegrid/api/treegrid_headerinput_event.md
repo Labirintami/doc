@@ -1,5 +1,8 @@
 headerInput
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires on typing text in an input of a column's header

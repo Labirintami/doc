@@ -1,5 +1,8 @@
-footerCellDblClick
-=============
+
+---
+sidebar_label: footerCellDblClick
+title: footerCellDblClick
+---          
 
 @short:
 fires on double-click on a grid footer cell

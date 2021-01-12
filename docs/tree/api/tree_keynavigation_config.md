@@ -1,5 +1,8 @@
 keyNavigation
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 enables key navigation in a tree

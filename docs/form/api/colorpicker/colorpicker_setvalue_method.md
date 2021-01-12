@@ -1,5 +1,8 @@
-setValue
-=============
+
+---
+sidebar_label: setValue
+title: setValue
+---          
 
 @short: sets the value as a string (in the Hex format) for a ColorPicker control
 

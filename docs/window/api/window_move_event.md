@@ -1,5 +1,8 @@
 move
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires on moving a window

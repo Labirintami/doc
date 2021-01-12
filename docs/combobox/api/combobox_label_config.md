@@ -1,5 +1,8 @@
-label
-=============
+
+---
+sidebar_label: label
+title: label
+---          
 
 @short: 
 adds a label for ComboBox

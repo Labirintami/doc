@@ -1,5 +1,8 @@
 thumbLabel
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 enables prompt messages with ticks values on hovering over the slider thumb

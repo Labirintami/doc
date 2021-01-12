@@ -1,5 +1,8 @@
 List of Toolbar Controls
-=========================
+---
+sidebar_label: 
+title: 
+---          
 
 - toolbar/button.md
 - toolbar/customhtmlbutton.md

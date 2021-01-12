@@ -1,5 +1,8 @@
 beforeColumnDrag
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires before dragging of a column has started
 	

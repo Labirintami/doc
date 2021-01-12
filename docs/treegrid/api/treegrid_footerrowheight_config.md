@@ -1,5 +1,8 @@
 footerRowHeight
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 sets the height of rows in the footer

@@ -1,5 +1,8 @@
 beforeExpand
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires before expanding a Layout cell
 

@@ -1,5 +1,8 @@
-showItemsCount
-=============
+
+---
+sidebar_label: showItemsCount
+title: showItemsCount
+---          
 
 @short: 
 shows the total number of selected options

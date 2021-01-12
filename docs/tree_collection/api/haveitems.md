@@ -1,5 +1,8 @@
 haveItems
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:checks whether an item has children
 

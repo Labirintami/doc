@@ -1,5 +1,8 @@
-Initialization
-=============================
+
+---
+sidebar_label: Initialization
+title: Initialization
+---          
 
 To add dhtmlxForm into an application, you need to take the following simple steps:
 

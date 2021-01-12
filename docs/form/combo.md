@@ -1,5 +1,8 @@
-Combo
-==========
+
+---
+sidebar_label: Combo
+title: Combo
+---          
 
 An input that represents an advanced select box with a set of options. It is able to provide suggestions while a user is typing text.
 

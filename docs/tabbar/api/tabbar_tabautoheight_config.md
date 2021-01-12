@@ -1,5 +1,8 @@
 tabAutoHeight
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: defines whether the height of tabs is automatically adjusted to the height of the tabbar container
 

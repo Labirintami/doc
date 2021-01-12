@@ -1,5 +1,8 @@
 html
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 sets HTML content for a tab

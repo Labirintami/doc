@@ -1,5 +1,8 @@
-hideRow
-=============
+
+---
+sidebar_label: hideRow
+title: hideRow
+---          
 
 @short: hides a row of Grid
 

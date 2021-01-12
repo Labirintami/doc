@@ -1,5 +1,8 @@
 pageSize
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 optional, the number of items displayed per page of the related widget

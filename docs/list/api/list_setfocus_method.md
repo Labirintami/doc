@@ -1,5 +1,8 @@
 setFocus
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: sets focus to an item by its id
 

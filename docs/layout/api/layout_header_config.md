@@ -1,5 +1,8 @@
 header
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 adds a header with text for a cell

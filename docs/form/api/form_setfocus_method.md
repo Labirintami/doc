@@ -1,5 +1,8 @@
-setFocus
-=============
+
+---
+sidebar_label: setFocus
+title: setFocus
+---          
 
 @short: sets focus to a Form control by its id
 

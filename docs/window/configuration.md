@@ -1,5 +1,8 @@
 Configuration
-===============
+---
+sidebar_label: 
+title: 
+---          
 
 dhtmlxWindow provides a set of configuration options you can define in the constructor of the component before its initialization. It's possible to set a title into the header of a window, add a footer with controls,
 specify the sizes of a window and decide whether it should be resizable, movable or modal, set some HTML content and define other useful settings to adapt the component to your needs.

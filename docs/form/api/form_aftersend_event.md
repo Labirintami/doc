@@ -1,5 +1,8 @@
-afterSend
-=============
+
+---
+sidebar_label: afterSend
+title: afterSend
+---          
 
 @short: fires after a form is sent to the server
 	

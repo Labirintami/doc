@@ -1,5 +1,8 @@
 mode
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 the direction of the Slider scale

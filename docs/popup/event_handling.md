@@ -1,5 +1,8 @@
 Event Handling
-===============
+---
+sidebar_label: 
+title: 
+---          
 
 ## Attaching event listeners
 

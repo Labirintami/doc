@@ -1,5 +1,8 @@
-isVisible
-=============
+
+---
+sidebar_label: isVisible
+title: isVisible
+---          
 
 @short: checks whether a Slider control is visible on the page
 

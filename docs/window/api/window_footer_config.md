@@ -1,5 +1,8 @@
 footer
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 adds a footer to a window

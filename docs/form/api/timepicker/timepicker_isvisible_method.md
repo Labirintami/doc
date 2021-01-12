@@ -1,5 +1,8 @@
-isVisible
-=============
+
+---
+sidebar_label: isVisible
+title: isVisible
+---          
 
 @short: checks whether a TimePicker control is visible on the page
 

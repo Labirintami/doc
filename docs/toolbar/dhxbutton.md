@@ -1,5 +1,8 @@
 DHXButton
-===========
+---
+sidebar_label: 
+title: 
+---          
 
 ``` todo
 

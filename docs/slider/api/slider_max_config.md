@@ -1,5 +1,8 @@
 max
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 the maximal value of slider

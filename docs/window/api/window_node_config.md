@@ -1,5 +1,8 @@
 node
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 optional, the container for a window or its id

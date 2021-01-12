@@ -1,5 +1,8 @@
 dragColumnStart
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires when dragging of a column has started

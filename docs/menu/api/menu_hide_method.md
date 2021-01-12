@@ -1,5 +1,8 @@
 hide
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: hides an item of Menu
 

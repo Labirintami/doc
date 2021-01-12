@@ -1,5 +1,8 @@
 Optimus Guides
-==========
+---
+sidebar_label: 
+title: 
+---          
 
 {{index
 - optimus_guides/index.md

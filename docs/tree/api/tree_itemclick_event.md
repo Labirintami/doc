@@ -1,5 +1,8 @@
 itemClick
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires on clicking a tree item

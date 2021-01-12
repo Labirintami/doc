@@ -1,5 +1,8 @@
-Work with ColorPicker
-========================
+
+---
+sidebar_label: Work with ColorPicker
+title: Work with ColorPicker
+---          
 
 The API of ColorPicker helps you control the functionality of the component through a set of handy methods.
 

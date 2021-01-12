@@ -1,5 +1,8 @@
-dragOut
-=============
+
+---
+sidebar_label: dragOut
+title: dragOut
+---          
 
 @short:
 fires when an item is dragged out of a potential target

@@ -1,5 +1,8 @@
-getInitialData
-=======
+
+---
+sidebar_label: getInitialData
+title: getInitialData
+---          
 
 @short:
 	returns the initial values of the items of a widget initialized in a data collection

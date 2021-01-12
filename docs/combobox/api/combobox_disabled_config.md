@@ -1,5 +1,8 @@
-disabled
-=============
+
+---
+sidebar_label: disabled
+title: disabled
+---          
 
 @short: 
 makes Combo Box disabled

@@ -1,5 +1,8 @@
 sort
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:sorts controls according to some criteria
 

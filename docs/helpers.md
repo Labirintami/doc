@@ -1,5 +1,8 @@
 Helpers
-==========
+---
+sidebar_label: 
+title: 
+---          
 
 {{index
 - ajax/api/refs/ajax.md

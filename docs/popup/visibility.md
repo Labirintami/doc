@@ -1,5 +1,8 @@
 Managing Popup's Visibility 
-================================
+---
+sidebar_label: 
+title: 
+---          
 
 To manage visibility of a pop-up window you have 3 methods: 
 

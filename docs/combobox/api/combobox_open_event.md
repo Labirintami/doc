@@ -1,5 +1,8 @@
-open
-=============
+
+---
+sidebar_label: open
+title: open
+---          
 
 @short:
 fires when a list with options is opened

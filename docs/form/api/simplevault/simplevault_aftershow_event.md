@@ -1,5 +1,8 @@
-afterShow
-=============
+
+---
+sidebar_label: afterShow
+title: afterShow
+---          
 
 @short: fires after a control is shown
  

@@ -1,5 +1,8 @@
-beforeUploadFile
-=============
+
+---
+sidebar_label: beforeUploadFile
+title: beforeUploadFile
+---          
 
 @short: fires before file upload begins
  

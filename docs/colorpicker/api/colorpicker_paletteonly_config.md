@@ -1,5 +1,8 @@
-paletteOnly
-=============
+
+---
+sidebar_label: paletteOnly
+title: paletteOnly
+---          
 
 @short: 
 defines whether ColorPicker is shown only in the palette mode

@@ -1,5 +1,8 @@
 hideRow
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: hides a row of TreeGrid
 

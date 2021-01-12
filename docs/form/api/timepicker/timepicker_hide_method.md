@@ -1,5 +1,8 @@
-hide
-=============
+
+---
+sidebar_label: hide
+title: hide
+---          
 
 @short: hides a TimePicker control
 

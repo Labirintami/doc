@@ -1,5 +1,8 @@
 Initialization
-====================
+---
+sidebar_label: 
+title: 
+---          
 
 To add a message on a page, you should take the following simple steps:
 

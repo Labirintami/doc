@@ -1,5 +1,8 @@
 serialize
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: serializes the component data into JSON, XML or CSV format
 

@@ -1,5 +1,8 @@
 canColumnDrop
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires when a dragged column is placed over a target column

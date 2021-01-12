@@ -1,5 +1,8 @@
 Drag-n-Drop
-==============
+---
+sidebar_label: 
+title: 
+---          
 
 dhtmlxTree possesses an advanced drag-n-drop functionality. With this feature, it is possible to reorder items in a tree and drag items between trees. To enable drag-n-drop, you should define the drag mode.
 

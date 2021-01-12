@@ -1,5 +1,8 @@
-htmlEnable
-=============
+
+---
+sidebar_label: htmlEnable
+title: htmlEnable
+---          
 
 @short: specifies the HTML content (inner HTML) of Grid columns
 

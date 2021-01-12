@@ -1,5 +1,8 @@
-headerCellMouseOver
-=============
+
+---
+sidebar_label: headerCellMouseOver
+title: headerCellMouseOver
+---          
 
 @short:
 fires on moving the mouse pointer over a grid header cell

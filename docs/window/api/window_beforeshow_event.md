@@ -1,5 +1,8 @@
 beforeShow
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires before a window is shown

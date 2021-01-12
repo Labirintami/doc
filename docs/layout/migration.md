@@ -1,5 +1,8 @@
 Migration from 6.2 to 6.3
-=============================================
+---
+sidebar_label: 
+title: 
+---          
 
 ``` todo
 

@@ -1,5 +1,8 @@
 Data Loading
-==============
+---
+sidebar_label: 
+title: 
+---          
 
 There are several ways of loading List items:
 

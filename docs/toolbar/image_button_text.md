@@ -1,5 +1,8 @@
 imageButtonText Control
-=======================
+---
+sidebar_label: 
+title: 
+---          
 
 ``` todo
 

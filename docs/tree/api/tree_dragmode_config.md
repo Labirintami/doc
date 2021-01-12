@@ -1,5 +1,8 @@
 dragMode
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 enables drag-n-drop in Tree

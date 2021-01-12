@@ -1,5 +1,8 @@
 beforeSelect
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires on selecting an item, but before the item is really selected
 

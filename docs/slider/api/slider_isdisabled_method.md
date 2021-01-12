@@ -1,5 +1,8 @@
 isDisabled
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: checks whether Slider is disabled
 

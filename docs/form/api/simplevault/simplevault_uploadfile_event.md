@@ -1,5 +1,8 @@
-uploadFile
-=============
+
+---
+sidebar_label: uploadFile
+title: uploadFile
+---          
 
 @short: fires when a file has been uploaded
  

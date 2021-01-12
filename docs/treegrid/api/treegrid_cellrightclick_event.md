@@ -1,5 +1,8 @@
 cellRightClick
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires on right click on a grid cell

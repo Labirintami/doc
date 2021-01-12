@@ -1,5 +1,8 @@
-hiddenLabel
-=============
+
+---
+sidebar_label: hiddenLabel
+title: hiddenLabel
+---          
 
 @short: 
 adds a hidden label for a Combo box input that will be used while sending a form to the server

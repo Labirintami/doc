@@ -1,5 +1,8 @@
 focusItem
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: sets focus to a specified tree item
 

@@ -1,5 +1,8 @@
 Methods
-==========
+---
+sidebar_label: 
+title: 
+---          
 
 {{api
 - form/api/checkbox_group/checkboxgroup_clear_method.md - clears a value of a CheckboxGroup control

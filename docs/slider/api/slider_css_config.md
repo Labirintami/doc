@@ -1,5 +1,8 @@
 css
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 adds style classes for the component

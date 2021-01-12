@@ -1,5 +1,8 @@
-getItem
-================
+
+---
+sidebar_label: getItem
+title: getItem
+---          
 
 @short: gives access to the object of Form control
 

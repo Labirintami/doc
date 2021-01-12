@@ -1,5 +1,8 @@
 dragColumnOut
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires when a column is dragged out of a potential target

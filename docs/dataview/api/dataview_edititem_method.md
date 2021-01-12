@@ -1,5 +1,8 @@
-editItem
-=============
+
+---
+sidebar_label: editItem
+title: editItem
+---          
 
 @short:  enables editing of an item
 

@@ -1,5 +1,8 @@
 icon
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 allows adding custom icons for tree items

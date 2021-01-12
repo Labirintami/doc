@@ -1,5 +1,8 @@
 dropBehaviour
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 defines the behaviour of a dragged item

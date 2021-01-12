@@ -1,5 +1,8 @@
-setView
-=============
+
+---
+sidebar_label: setView
+title: setView
+---          
 
 @short: shows colopicker either in the "palette" or in the "picker" view
 

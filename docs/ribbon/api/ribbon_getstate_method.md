@@ -1,5 +1,8 @@
 getState
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: gets current values/states of controls
 

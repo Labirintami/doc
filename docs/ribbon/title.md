@@ -1,5 +1,8 @@
 Title 
-========
+---
+sidebar_label: 
+title: 
+---          
 
 This is an item that contains some text.
 

@@ -1,5 +1,8 @@
-getValue
-=============
+
+---
+sidebar_label: getValue
+title: getValue
+---          
 
 @short: gets id(s) of items from data collection selected in ComboBox
 

@@ -1,5 +1,8 @@
 autoload
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 defines that the structure of a tree is being built while opening items

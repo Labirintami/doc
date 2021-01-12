@@ -1,5 +1,8 @@
 isSaved
-========
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 checks whether the changes made in a tree collection are saved

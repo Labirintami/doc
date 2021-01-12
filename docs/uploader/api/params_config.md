@@ -1,5 +1,8 @@
 params
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:  provides additional parameters for an XMLHttpRequest
 	

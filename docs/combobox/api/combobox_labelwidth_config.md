@@ -1,5 +1,8 @@
-labelWidth
-=============
+
+---
+sidebar_label: labelWidth
+title: labelWidth
+---          
 
 @short: 
 sets the width of a label

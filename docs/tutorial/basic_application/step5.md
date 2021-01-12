@@ -1,5 +1,8 @@
 Step 5. Bind Toolbar to Grid
-=====================================
+---
+sidebar_label: 
+title: 
+---          
 
 At this step we will discuss how to fill and clear the Grid with the help of Toolbar buttons. For this purpose we will use the <b>Click</b> event of the Toolbar:
 

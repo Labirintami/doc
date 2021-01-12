@@ -1,5 +1,8 @@
-remove
-=========
+
+---
+sidebar_label: remove
+title: remove
+---          
 
 @short: removes a class, that was created by cssManager, with all its styles
 

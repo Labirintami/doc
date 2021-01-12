@@ -1,5 +1,8 @@
-contextMenu
-=============
+
+---
+sidebar_label: contextMenu
+title: contextMenu
+---          
 
 @short:
 fires on calling a context menu for an item

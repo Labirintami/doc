@@ -1,5 +1,8 @@
 click
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires after a click on a button or a menu option

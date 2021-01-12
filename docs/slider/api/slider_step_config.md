@@ -1,5 +1,8 @@
 step
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 the step the slider thumb will be moved with

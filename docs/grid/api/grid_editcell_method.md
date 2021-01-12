@@ -1,5 +1,8 @@
-editCell
-=============
+
+---
+sidebar_label: editCell
+title: editCell
+---          
 
 @short: enables editing of a Grid cell
 

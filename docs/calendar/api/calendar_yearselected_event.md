@@ -1,5 +1,8 @@
-yearSelected
-=============
+
+---
+sidebar_label: yearSelected
+title: yearSelected
+---          
 
 @short: fires after a year was selected in the calendar
 

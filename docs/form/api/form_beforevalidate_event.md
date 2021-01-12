@@ -1,5 +1,8 @@
-beforeValidate
-=============
+
+---
+sidebar_label: beforeValidate
+title: beforeValidate
+---          
 
 @short: fires before validation of form fields has started
 

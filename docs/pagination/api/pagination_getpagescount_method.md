@@ -1,5 +1,8 @@
 getPagesCount
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: gets the total number of pages in the pagination
 

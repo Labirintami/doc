@@ -1,5 +1,8 @@
 Step 4. Add a ContextMenu
-======================================
+---
+sidebar_label: 
+title: 
+---          
 In this step we consider how to add and display a context menu on the page.
 
 ##Adding ContextMenu on the page

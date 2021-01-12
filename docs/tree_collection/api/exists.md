@@ -1,5 +1,8 @@
 exists
-========
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 checks whether the specified item exists in the component

@@ -1,5 +1,7 @@
-get
-======
+---
+sidebar_label: get
+title: get
+---          
 
 @short: sends a GET request to the server
 

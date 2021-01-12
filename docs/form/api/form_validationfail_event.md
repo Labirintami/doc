@@ -1,5 +1,8 @@
-validationFail
-=============
+
+---
+sidebar_label: validationFail
+title: validationFail
+---          
 
 @short:
 fires when validation of a form fails

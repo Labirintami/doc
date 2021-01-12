@@ -1,5 +1,8 @@
-placeholder
-=============
+
+---
+sidebar_label: placeholder
+title: placeholder
+---          
 
 @short: 
 sets a placeholder in the input of Combo

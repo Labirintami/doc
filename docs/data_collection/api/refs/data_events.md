@@ -1,5 +1,8 @@
 Events
-===========
+---
+sidebar_label: 
+title: 
+---          
 
 {{api
 - data_collection/api/afteradd_event.md - fires after adding a new item into a data collection

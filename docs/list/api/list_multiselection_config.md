@@ -1,5 +1,8 @@
 multiselection
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 enables selection of multiple List items, sets the mode of multiselection

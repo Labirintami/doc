@@ -1,5 +1,8 @@
 Selection Methods
-=========
+---
+sidebar_label: 
+title: 
+---          
 
 {{api
 - treegrid/api/selection/selection_disable_method.md - disables selection of cells in TreeGrid

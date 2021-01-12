@@ -1,5 +1,8 @@
 addSpan
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: adds a rows/cols span
 

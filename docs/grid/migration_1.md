@@ -1,5 +1,8 @@
-Migration from 5.1 to 6.0
-=================
+
+---
+sidebar_label: Migration from 5.1 to 6.0
+title: Migration from 5.1 to 6.0
+---          
 
 This article will help you to migrate from the [previous version 5.1 of dhtmlxGrid](https://docs.dhtmlx.com/api__refs__dhtmlxgrid.html) to the totally renewed version 6.0. Check the list below to explore all the changes.
 

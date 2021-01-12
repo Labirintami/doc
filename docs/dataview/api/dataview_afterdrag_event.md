@@ -1,5 +1,8 @@
-afterDrag
-=============
+
+---
+sidebar_label: afterDrag
+title: afterDrag
+---          
 
 @short:
 fires after dragging of an item is finished

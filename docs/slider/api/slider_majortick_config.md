@@ -1,5 +1,8 @@
 majorTick
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 sets interval of rendering numeric values on the slider scale

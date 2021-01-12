@@ -1,5 +1,8 @@
-mode
-=============
+
+---
+sidebar_label: mode
+title: mode
+---          
 
 @short: specifies the mode of displaying a colorpicker
 

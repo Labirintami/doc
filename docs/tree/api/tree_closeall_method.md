@@ -1,5 +1,8 @@
 closeAll
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: closes all opened Tree items
 

@@ -1,5 +1,8 @@
 Events
-==========
+---
+sidebar_label: 
+title: 
+---          
 
 {{api
 - form/api/select/select_afterchangeproperties_event.md - fires after configuration attributes of the control have been changed dynamically

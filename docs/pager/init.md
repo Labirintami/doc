@@ -1,5 +1,8 @@
 Initialization
-=========
+---
+sidebar_label: 
+title: 
+---          
 
 To add dhtmlxPager into an application, you need to take the following simple steps:
 

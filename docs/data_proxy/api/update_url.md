@@ -1,5 +1,8 @@
-updateUrl
-=============
+
+---
+sidebar_label: updateUrl
+title: updateUrl
+---          
 updates the initial URL and parameters that were specified when initializing proxy
 
 

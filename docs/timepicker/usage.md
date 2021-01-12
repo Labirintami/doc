@@ -1,5 +1,8 @@
 Work with TimePicker
-=======================
+---
+sidebar_label: 
+title: 
+---          
 
 You can change the value of the TimePicker or get its current value via the related API methods.
 

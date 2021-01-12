@@ -1,5 +1,8 @@
 Block 
-========
+---
+sidebar_label: 
+title: 
+---          
 
 The Block control is used for grouping related controls.
  

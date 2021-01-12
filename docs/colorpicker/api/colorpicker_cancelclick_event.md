@@ -1,5 +1,8 @@
-cancelClick
-=============
+
+---
+sidebar_label: cancelClick
+title: cancelClick
+---          
 
 @short:
 fires on clicking the "Cancel" button

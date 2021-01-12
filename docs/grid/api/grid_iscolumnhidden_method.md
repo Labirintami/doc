@@ -1,5 +1,8 @@
-isColumnHidden
-=============
+
+---
+sidebar_label: isColumnHidden
+title: isColumnHidden
+---          
 
 @short: checks whether a column is hidden
 

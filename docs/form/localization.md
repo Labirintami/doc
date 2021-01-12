@@ -1,5 +1,8 @@
-Localization
-==============
+
+---
+sidebar_label: Localization
+title: Localization
+---          
 
 You can apply different languages to the interface of dhtmlxForm, specifically to its SimpleVault control. You just need to translate the corresponding strings for Form labels and apply a ready locale to the component.
 

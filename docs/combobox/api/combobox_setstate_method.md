@@ -1,5 +1,8 @@
-setState
-=============
+
+---
+sidebar_label: setState
+title: setState
+---          
 
 @short: sets the state of ComboBox, used for validation
 

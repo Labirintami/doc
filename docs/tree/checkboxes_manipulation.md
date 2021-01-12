@@ -1,5 +1,8 @@
 Manipulating Checkboxes
-==========================
+---
+sidebar_label: 
+title: 
+---          
 
 dhtmlxTree operates an advanced checkbox system. Besides usual two-state checkboxes (checked/unchecked item), 
 there is a possibility to use three-state checkboxes with a "partly checked" value.

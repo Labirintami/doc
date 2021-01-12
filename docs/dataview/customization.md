@@ -1,5 +1,8 @@
-Customization
-==================
+
+---
+sidebar_label: Customization
+title: Customization
+---          
 
 Сustom styling of widget
 ----------------

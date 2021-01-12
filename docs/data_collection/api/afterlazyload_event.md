@@ -1,5 +1,8 @@
-afterLazyLoad
-=============
+
+---
+sidebar_label: afterLazyLoad
+title: afterLazyLoad
+---          
 
 @short: fires after getting a response from the server
 	

@@ -1,5 +1,8 @@
 Step 7. Display data in the Chart
-=================================
+---
+sidebar_label: 
+title: 
+---          
 
 Before displaying data in the chart we need to process grid data.
 

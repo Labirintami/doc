@@ -1,5 +1,8 @@
-add
-========
+
+---
+sidebar_label: add
+title: add
+---          
 
 @short:
 	adds a new item to the component

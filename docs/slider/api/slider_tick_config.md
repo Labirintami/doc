@@ -1,5 +1,8 @@
 tick
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 sets the interval of steps for rendering the slider scale

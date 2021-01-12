@@ -1,5 +1,7 @@
-add
-===
+---
+sidebar_label: add
+title: add
+---  
 
 @short: creates a new class with a list of styles
 

@@ -1,5 +1,8 @@
 itemDblClick
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires on double-clicking a tree item

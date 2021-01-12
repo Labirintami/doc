@@ -1,5 +1,8 @@
-afterUnSelect
-=============
+
+---
+sidebar_label: afterUnSelect
+title: afterUnSelect
+---          
 
 @short: fires after unselecting a cell
 

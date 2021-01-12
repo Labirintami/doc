@@ -1,5 +1,8 @@
-Initialization
-===============================
+
+---
+sidebar_label: Initialization
+title: Initialization
+---          
 
 There are two ways of initializing dhtmlxColorPicker: inside a container or inside a popup. Both ways are described below in detail.
 

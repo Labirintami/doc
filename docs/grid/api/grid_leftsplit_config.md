@@ -1,5 +1,8 @@
-leftSplit
-=============
+
+---
+sidebar_label: leftSplit
+title: leftSplit
+---          
 
 @short: 
 sets the number of frozen columns

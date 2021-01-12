@@ -1,5 +1,8 @@
 collapse
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: collapses a specified cell
 

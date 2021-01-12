@@ -1,5 +1,8 @@
 getActive
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: gets the id of the active tab
 

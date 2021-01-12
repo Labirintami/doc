@@ -1,5 +1,8 @@
-beforeEditEnd
-=============
+
+---
+sidebar_label: beforeEditEnd
+title: beforeEditEnd
+---          
 
 @short:
 fires before editing of an item is completed

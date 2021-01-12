@@ -1,5 +1,8 @@
 minHeight
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 sets the minimal height of a window

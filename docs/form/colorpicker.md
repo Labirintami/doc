@@ -1,5 +1,8 @@
-ColorPicker
-=================
+
+---
+sidebar_label: ColorPicker
+title: ColorPicker
+---          
 
 An input with a color picker attached to it for selecting a color.
 

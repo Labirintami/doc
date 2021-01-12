@@ -1,5 +1,8 @@
-getSeries
-=============
+
+---
+sidebar_label: getSeries
+title: getSeries
+---          
 
 @short: returns an object with configuration of a specified series
 

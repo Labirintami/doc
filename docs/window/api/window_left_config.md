@@ -1,5 +1,8 @@
 left
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 the left coordinate of a window position

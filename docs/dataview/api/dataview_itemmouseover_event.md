@@ -1,5 +1,8 @@
-itemMouseOver
-=============
+
+---
+sidebar_label: itemMouseOver
+title: itemMouseOver
+---          
 
 @short: fires on moving the mouse pointer over an item 
 

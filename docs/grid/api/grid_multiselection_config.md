@@ -1,5 +1,8 @@
-multiselection
-=============
+
+---
+sidebar_label: multiselection
+title: multiselection
+---          
 
 @short: enables multi-row/multi-cell selection in Grid
 

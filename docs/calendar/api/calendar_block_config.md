@@ -1,5 +1,8 @@
-block
-=============
+
+---
+sidebar_label: block
+title: block
+---          
 
 @short: 
 allows disabling some date intervals, day labels are dimmed

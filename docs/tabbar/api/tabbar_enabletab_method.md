@@ -1,5 +1,8 @@
 enableTab
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: enables a disabled tab
 

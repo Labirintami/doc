@@ -1,5 +1,8 @@
 multiselectionMode
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 sets the mode of multiselection

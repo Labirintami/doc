@@ -1,5 +1,8 @@
 resizable
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 defines whether a window can be resized

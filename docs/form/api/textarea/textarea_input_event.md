@@ -1,5 +1,8 @@
-input
-=============
+
+---
+sidebar_label: input
+title: input
+---          
 
 @short: fires when a user types some text in the textarea
  

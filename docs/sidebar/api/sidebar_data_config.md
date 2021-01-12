@@ -1,5 +1,8 @@
 data
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 specifies an array of data objects to set into Sidebar

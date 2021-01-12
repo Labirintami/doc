@@ -1,5 +1,8 @@
 Text Control
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 This is an item with a text label.
 

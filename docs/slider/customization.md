@@ -1,5 +1,8 @@
 Customization
-====================
+---
+sidebar_label: 
+title: 
+---          
 
 Styling 
 -----------

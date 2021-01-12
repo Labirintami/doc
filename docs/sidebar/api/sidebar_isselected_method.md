@@ -1,5 +1,8 @@
 isSelected
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: checks whether a specified Sidebar item is selected
 

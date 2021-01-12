@@ -1,5 +1,8 @@
 getFocusItem
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: returns the object of an item in focus
 

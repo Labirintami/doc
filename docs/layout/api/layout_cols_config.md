@@ -1,5 +1,8 @@
 cols
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 an array of columns objects

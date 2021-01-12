@@ -1,5 +1,8 @@
-sort
-==========
+
+---
+sidebar_label: sort
+title: sort
+---          
 
 @short:
 sorts data items in a component

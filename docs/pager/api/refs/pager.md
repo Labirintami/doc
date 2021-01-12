@@ -1,5 +1,8 @@
 Pager API
-=============
+---
+sidebar_label: 
+title: 
+---          
 	
 <div class='h2'>Methods</div>
 

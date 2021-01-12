@@ -1,5 +1,8 @@
 Migration from 5.1 to 6.0
-============
+---
+sidebar_label: 
+title: 
+---          
 
 ```todo
 

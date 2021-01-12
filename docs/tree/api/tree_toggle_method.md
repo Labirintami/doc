@@ -1,5 +1,8 @@
 toggle
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: opens/closes a tree item by id
 

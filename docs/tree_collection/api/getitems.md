@@ -1,5 +1,8 @@
 getItems
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:gets the child items of a control
 

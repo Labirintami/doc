@@ -1,5 +1,8 @@
-getProperties
-=============
+
+---
+sidebar_label: getProperties
+title: getProperties
+---          
 
 ``` todo
 

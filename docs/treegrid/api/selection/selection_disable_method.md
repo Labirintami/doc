@@ -1,5 +1,8 @@
 disable
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: disables selection of cells in Grid
 

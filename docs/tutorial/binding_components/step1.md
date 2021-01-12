@@ -1,5 +1,8 @@
 Step 1. Add a Window
-======================================
+---
+sidebar_label: 
+title: 
+---          
 
 Let’s see how to add a window on the page in two steps: 
 

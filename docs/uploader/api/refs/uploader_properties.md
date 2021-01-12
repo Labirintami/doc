@@ -1,5 +1,8 @@
 Properties
-==============
+---
+sidebar_label: 
+title: 
+---          
 
 {{api
 - uploader/api/autosend_config.md - enables/disables automatic sending of an added file

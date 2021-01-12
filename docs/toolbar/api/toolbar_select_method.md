@@ -1,5 +1,8 @@
 select
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: selects a specified item of Toolbar
 

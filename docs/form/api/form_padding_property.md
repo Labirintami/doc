@@ -1,5 +1,8 @@
-padding
-=============
+
+---
+sidebar_label: padding
+title: padding
+---          
 
 @short: sets padding for content inside the control group
 

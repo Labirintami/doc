@@ -1,5 +1,8 @@
 mouseUp
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires on releasing the left mouse button over the slider thumb

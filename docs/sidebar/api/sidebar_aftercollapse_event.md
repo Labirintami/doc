@@ -1,5 +1,8 @@
 afterCollapse
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires after collapsing a sidebar
 

@@ -1,5 +1,8 @@
 canDrop
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires when a dragged item is over a target item

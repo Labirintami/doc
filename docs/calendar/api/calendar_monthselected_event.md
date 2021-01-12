@@ -1,5 +1,8 @@
-monthSelected
-=============
+
+---
+sidebar_label: monthSelected
+title: monthSelected
+---          
 
 @short: fires after a month was selected in the calendar
 

@@ -1,5 +1,8 @@
 beforeResizeStart
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires before resizing of a column has started
 

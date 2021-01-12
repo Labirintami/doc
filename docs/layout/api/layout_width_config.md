@@ -1,5 +1,8 @@
 width
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 sets the width of a cell

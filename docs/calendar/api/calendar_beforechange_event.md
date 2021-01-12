@@ -1,5 +1,8 @@
-beforeChange
-=============
+
+---
+sidebar_label: beforeChange
+title: beforeChange
+---          
 
 @short:
 fires before the change of date selection

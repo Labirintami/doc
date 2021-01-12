@@ -1,5 +1,8 @@
-update
-========
+
+---
+sidebar_label: update
+title: update
+---          
 
 @short: updates properties of the item
 	

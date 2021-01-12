@@ -1,5 +1,8 @@
-setProperties
-=============
+
+---
+sidebar_label: setProperties
+title: setProperties
+---          
 
 ``` todo
 

@@ -1,5 +1,8 @@
 afterHide
-==============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires after hiding an item of Toolbar

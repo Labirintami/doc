@@ -1,5 +1,8 @@
 headerDoubleClick
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires on double clicking the header of a window

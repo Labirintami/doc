@@ -1,5 +1,8 @@
 beforeUnSelect
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires before unselecting a cell
 

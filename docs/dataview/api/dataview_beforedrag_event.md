@@ -1,5 +1,8 @@
-beforeDrag
-=============
+
+---
+sidebar_label: beforeDrag
+title: beforeDrag
+---          
 
 @short:
 fires before dragging of an item has started 

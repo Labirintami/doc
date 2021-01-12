@@ -1,5 +1,8 @@
-Text
-==============
+
+---
+sidebar_label: Text
+title: Text
+---          
 
 ```todo
 

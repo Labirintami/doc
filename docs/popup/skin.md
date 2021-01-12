@@ -1,5 +1,8 @@
 Skinning Popup
-==============================
+---
+sidebar_label: 
+title: 
+---          
 
 ``` todo
 

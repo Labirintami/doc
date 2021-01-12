@@ -1,5 +1,8 @@
 updateFromResponse
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:  updates file attributes with data from a server response
 	

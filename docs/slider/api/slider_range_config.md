@@ -1,5 +1,8 @@
 range
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 enables/disables the possibility to select a range of values on the slider

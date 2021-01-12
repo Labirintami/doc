@@ -1,5 +1,8 @@
-getLength
-=======
+
+---
+sidebar_label: getLength
+title: getLength
+---          
 
 @short:
 	returns the number of all elements of a data collection

@@ -1,5 +1,8 @@
-removeCell
-=============
+
+---
+sidebar_label: removeCell
+title: removeCell
+---          
 
 @short: unselects previously selected cells
 

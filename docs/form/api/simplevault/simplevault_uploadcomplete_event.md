@@ -1,5 +1,8 @@
-uploadComplete
-=============
+
+---
+sidebar_label: uploadComplete
+title: uploadComplete
+---          
 
 @short: fires when upload is completed
  

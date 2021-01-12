@@ -1,5 +1,8 @@
 Using DHTMLX with TypeScript
-==============================
+---
+sidebar_label: 
+title: 
+---          
 
 ``` todo
 

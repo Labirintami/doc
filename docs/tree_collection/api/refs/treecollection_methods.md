@@ -1,5 +1,8 @@
 Methods
-==============
+---
+sidebar_label: 
+title: 
+---          
 
 {{api
 - tree_collection/api/add.md - adds an item to a component

@@ -1,5 +1,8 @@
-Migration 
-===========
+ 
+---
+sidebar_label: Migration
+title: Migration
+---          
 5.1 -> 6.0 
 ---------------
 

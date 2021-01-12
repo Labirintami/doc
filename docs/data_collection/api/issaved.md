@@ -1,5 +1,8 @@
-isSaved
-========
+
+---
+sidebar_label: isSaved
+title: isSaved
+---          
 
 @short:
 checks whether the changes made in a data collection are saved

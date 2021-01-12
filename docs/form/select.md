@@ -1,5 +1,8 @@
-Select
-==========
+
+---
+sidebar_label: Select
+title: Select
+---          
 
 An advanced select box that provides a set of options to choose from.
 

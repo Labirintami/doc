@@ -1,5 +1,8 @@
 List of Ribbon Controls
-========================
+---
+sidebar_label: 
+title: 
+---          
 
 - ribbon/block.md
 - ribbon/button.md

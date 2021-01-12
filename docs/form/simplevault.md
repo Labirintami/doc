@@ -1,5 +1,8 @@
-SimpleVault
-==============
+
+---
+sidebar_label: SimpleVault
+title: SimpleVault
+---          
 
 A handy control for quick and easy uploading of a file or a set of files.
 

@@ -1,5 +1,8 @@
-afterAdd
-=============
+
+---
+sidebar_label: afterAdd
+title: afterAdd
+---          
 
 @short: fires after adding a new item into a data collection
 	

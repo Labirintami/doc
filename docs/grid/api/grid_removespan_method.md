@@ -1,5 +1,8 @@
-removeSpan
-=============
+
+---
+sidebar_label: removeSpan
+title: removeSpan
+---          
 
 @short: removes a cols/rows span
 

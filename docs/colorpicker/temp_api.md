@@ -1,5 +1,8 @@
-dhtmlxColorPicker API 
-==============
+
+---
+sidebar_label: ColorPicker API 
+title: ColorPicker API 
+---          
 
 Constructor
 ---------------

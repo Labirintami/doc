@@ -1,5 +1,8 @@
 isVisible
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: checks whether a cell is visible
 

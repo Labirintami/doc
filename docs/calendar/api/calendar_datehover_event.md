@@ -1,5 +1,8 @@
-dateHover
-=============
+
+---
+sidebar_label: dateHover
+title: dateHover
+---          
 
 @short:
 fires when the mouse pointer is over a date

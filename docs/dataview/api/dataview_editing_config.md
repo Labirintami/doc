@@ -1,5 +1,8 @@
-editing
-=============
+
+---
+sidebar_label: editing
+title: editing
+---          
 
 @short: 
 enables editing in DataView

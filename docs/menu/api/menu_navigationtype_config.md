@@ -1,5 +1,8 @@
 navigationType
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 defines the action that opens menu options

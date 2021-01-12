@@ -1,5 +1,8 @@
 Initialization
-=================
+---
+sidebar_label: 
+title: 
+---          
 
 To initialize dhtmlxTree on a page, you need to take the following simple steps:
 

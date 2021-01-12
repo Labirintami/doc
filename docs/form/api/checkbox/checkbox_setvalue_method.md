@@ -1,5 +1,8 @@
-setValue
-=============
+
+---
+sidebar_label: setValue
+title: setValue
+---          
 
 @short: sets the state for a Checkbox control
 

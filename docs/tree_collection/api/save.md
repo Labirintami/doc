@@ -1,5 +1,8 @@
 save
-=======
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 	saves changes made in a tree collection to the server side

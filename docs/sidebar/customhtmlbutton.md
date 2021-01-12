@@ -1,5 +1,8 @@
 Custom HTML
-======================
+---
+sidebar_label: 
+title: 
+---          
 
 This is an item that contains any custom HTML content (for example, an image, icon or other element).
 

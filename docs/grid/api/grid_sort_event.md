@@ -1,5 +1,8 @@
-sort
-=============
+
+---
+sidebar_label: sort
+title: sort
+---          
 
 @short:
 fires on sorting a column by clicking on its header

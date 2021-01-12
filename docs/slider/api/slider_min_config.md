@@ -1,5 +1,8 @@
 min
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 the minimal value of slider

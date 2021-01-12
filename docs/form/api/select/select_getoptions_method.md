@@ -1,5 +1,8 @@
-getOptions
-=============
+
+---
+sidebar_label: getOptions
+title: getOptions
+---          
 
 @short: returns an array of Select options
 

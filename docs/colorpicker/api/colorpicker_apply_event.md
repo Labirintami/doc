@@ -1,5 +1,8 @@
-apply
-=============
+
+---
+sidebar_label: apply
+title: apply
+---          
 
 @short: fires on clicking the "Select" button
 

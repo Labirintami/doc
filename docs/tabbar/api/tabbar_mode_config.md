@@ -1,5 +1,8 @@
 mode
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 specifies the mode of displaying a tabbar

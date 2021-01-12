@@ -1,5 +1,8 @@
 afterColumnDrop
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires before the user has finished dragging a column but after the mouse button is released

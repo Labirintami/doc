@@ -1,5 +1,8 @@
 Methods
-==============
+---
+sidebar_label: 
+title: 
+---          
 
 {{api
 - data_collection/api/add.md - adds a new item to the component

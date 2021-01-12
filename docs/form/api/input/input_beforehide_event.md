@@ -1,5 +1,8 @@
-beforeHide
-=============
+
+---
+sidebar_label: beforeHide
+title: beforeHide
+---          
 
 @short: fires before a control is hidden
  

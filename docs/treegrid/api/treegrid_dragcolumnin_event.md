@@ -1,5 +1,8 @@
 dragColumnIn
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short:
 fires when a column is dragged to another potential target

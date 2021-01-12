@@ -1,5 +1,8 @@
 collapsed
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: 
 defines that a sidebar is initialized in the collapsed state

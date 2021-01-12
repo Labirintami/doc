@@ -1,5 +1,8 @@
-beforeRowShow
-=============
+
+---
+sidebar_label: beforeRowShow
+title: beforeRowShow
+---          
 
 @short: fires before a row is shown on a page
 

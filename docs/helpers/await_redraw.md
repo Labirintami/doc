@@ -1,5 +1,8 @@
 AwaitRedraw
-================
+---
+sidebar_label: 
+title: 
+---          
 
 DHTMLX AwaitRedraw is a helper that allows implementing specified actions for a component as soon as possible after it is redrawn. 
 

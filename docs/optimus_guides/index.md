@@ -1,5 +1,8 @@
 DHTMLX Optimus Framework
-=========================
+---
+sidebar_label: 
+title: 
+---          
 
 ```todo
 

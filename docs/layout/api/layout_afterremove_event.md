@@ -1,5 +1,8 @@
 afterRemove
-=============
+---
+sidebar_label: 
+title: 
+---          
 
 @short: fires after removing a cell
 

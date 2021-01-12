@@ -1,5 +1,8 @@
-title
-=============
+
+---
+sidebar_label: title
+title: title
+---          
 
 @short: specifies the title of the control group
 

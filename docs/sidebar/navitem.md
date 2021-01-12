@@ -1,5 +1,8 @@
 NavItem
-============
+---
+sidebar_label: 
+title: 
+---          
 
 This is a default control for navigation-related components, can contain any other controls as nested items. 
 

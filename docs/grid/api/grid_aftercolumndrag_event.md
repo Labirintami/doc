@@ -1,5 +1,8 @@
-afterColumnDrag
-=============
+
+---
+sidebar_label: afterColumnDrag
+title: afterColumnDrag
+---          
 
 @short:
 fires after dragging of a column is finished

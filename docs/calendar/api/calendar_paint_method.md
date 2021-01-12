@@ -1,5 +1,8 @@
-paint
-=============
+
+---
+sidebar_label: paint
+title: paint
+---          
 
 @short: repaints a calendar on a page
 

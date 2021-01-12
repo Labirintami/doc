@@ -1,5 +1,8 @@
-cols
-=============
+
+---
+sidebar_label: cols
+title: cols
+---          
 
 @short: arranges controls inside the control group horizontally
 

@@ -1,5 +1,8 @@
-thisMonthOnly
-=============
+
+---
+sidebar_label: thisMonthOnly
+title: thisMonthOnly
+---          
 
 @short: 
 hides dates of the previous/next months relative to the currently displayed one
