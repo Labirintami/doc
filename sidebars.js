@@ -799,14 +799,6 @@ module.exports = {
         },
         // end Layout 
 
-        // | | | | | | | | |--->selection
-        // | | | | | | | | | |--->selection_afterunselect_event.md
-        // | | | | | | | | | |--->selection_beforeselect_event.md
-        // | | | | | | | | | |--->selection_beforeunselect_event.md
-        // | | | | | | | | | |--->selection_afterselect_event.md
-        // | | | | | | | | | |--->selection_enable_method.md
-        // | | | | | | | | | |--->selection_disable_method.md
-
 
 
         //List
@@ -901,27 +893,57 @@ module.exports = {
                                 "list/api/list_dragmode_config",
                             ],
                         },
+
+                        {
+                            type: "category",
+                            label: "Selection API",
+                            collapsed: true,
+                            items: [
+
+                                {
+                                    type: "category",
+                                    label: "Methods",
+                                    collapsed: true,
+                                    items: [
+                                        "list/api/selection/selection_enable_method",
+                                        "list/api/selection/selection_disable_method",
+
+                                    ],
+                                },
+
+                                {
+                                    type: "category",
+                                    label: "Events",
+                                    collapsed: true,
+                                    items: [
+                                        "list/api/selection/selection_afterunselect_event",
+                                        "list/api/selection/selection_beforeselect_event",
+                                        "list/api/selection/selection_beforeunselect_event",
+                                        "list/api/selection/selection_afterselect_event",
+                                    ],
+                                },
+
+                            ],
+                        },
                     ],
                 },
             ],
         },
         // end List 
 
-        // // | | | | | | | | -- - > selection |
-        // // | | | | | | | | | -- - > selection_afterunselect_event.md |
-        // // | | | | | | | | | -- - > selection_beforeselect_event.md |
-        // // | | | | | | | | | -- - > selection_beforeunselect_event.md |
-        // // | | | | | | | | | -- - > selection_getcell_method.md |
-        // // | | | | | | | | | -- - > selection_getcells_method.md |
-        // // | | | | | | | | | -- - > selection_afterselect_event.md |
-        // // | | | | | | | | | -- - > selection_removecell_method.md |
-        // // | | | | | | | | | -- - > selection_enable_method.md |
-        // // | | | | | | | | | -- - > selection_disable_method.md |
-        // // | | | | | | | | | -- - > selection_setcell_method.md |
 
 
+        // "menu/api/selection_afterunselect_event",
+        // "menu/api/selection_beforeselect_event",
+        // "menu/api/selection_beforeunselect_event",
+        // "menu/api/selection_afterselect_event",
 
-
+        // "menu/api/selection_getcell_method",
+        // "menu/api/selection_getcells_method",
+        // "menu/api/selection_removecell_method",
+        // "menu/api/selection_enable_method",
+        // "menu/api/selection_disable_method",
+        // "menu/api/selection_setcell_method",
 
 
         //Menu
@@ -991,6 +1013,32 @@ module.exports = {
                                 "menu/api/menu_menucss_config",
                                 "menu/api/menu_navigationtype_config",
                                 "menu/api/menu_css_config",
+                            ],
+                        },
+                        {
+                            type: "category",
+                            label: "Selection API",
+                            collapsed: true,
+                            items: [
+
+                                {
+                                    type: "category",
+                                    label: "Methods",
+                                    collapsed: true,
+                                    items: [
+
+                                    ],
+                                },
+
+                                {
+                                    type: "category",
+                                    label: "Events",
+                                    collapsed: true,
+                                    items: [
+
+                                    ],
+                                },
+
                             ],
                         },
                     ],
@@ -1714,13 +1762,6 @@ module.exports = {
         // end Toolbar 
 
 
-        // | | | | | | | | -- - > selection |
-        // | | | | | | | | | -- - > selection_afterunselect_event.md |
-        // | | | | | | | | | -- - > selection_beforeselect_event.md |
-        // | | | | | | | | | -- - > selection_beforeunselect_event.md |
-        // | | | | | | | | | -- - > selection_afterselect_event.md |
-        // | | | | | | | | | -- - > selection_enable_method.md |
-        // | | | | | | | | | -- - > selection_disable_method.md |
 
 
         //Tree
@@ -1833,22 +1874,46 @@ module.exports = {
                                 "tree/api/tree_editable_config",
                             ],
                         },
+                        {
+                            type: "category",
+                            label: "Selection API",
+                            collapsed: true,
+                            items: [
+
+                                {
+                                    type: "category",
+                                    label: "Methods",
+                                    collapsed: true,
+                                    items: [
+                                        "tree/api/selection/selection_enable_method",
+                                        "tree/api/selection/selection_disable_method",
+                                    ],
+                                },
+
+                                {
+                                    type: "category",
+                                    label: "Events",
+                                    collapsed: true,
+                                    items: [
+                                        "tree/api/selection/selection_afterunselect_event",
+                                        "tree/api/selection/selection_beforeselect_event",
+                                        "tree/api/selection/selection_beforeunselect_event",
+                                        "tree/api/selection/selection_afterselect_event",
+                                    ],
+                                },
+
+                            ],
+                        },
                     ],
                 },
             ],
         },
         // end Tree 
 
-        // | | | | | | | | |--->selection
-        // | | | | | | | | | |--->selection_afterunselect_event.md
-        // | | | | | | | | | |--->selection_beforeselect_event.md
-        // | | | | | | | | | |--->selection_beforeunselect_event.md
-        // | | | | | | | | | |--->selection_getcell_method.md
-        // | | | | | | | | | |--->selection_afterselect_event.md
-        // | | | | | | | | | |--->selection_removecell_method.md
-        // | | | | | | | | | |--->selection_enable_method.md
-        // | | | | | | | | | |--->selection_disable_method.md
-        // | | | | | | | | | |--->selection_setcell_method.md
+
+
+
+
 
 
 
@@ -2018,6 +2083,39 @@ module.exports = {
                                 "treegrid/api/treegrid_fittocontainer_config",
                             ],
                         },
+                        {
+                            type: "category",
+                            label: "Selection API",
+                            collapsed: true,
+                            items: [
+
+                                {
+                                    type: "category",
+                                    label: "Methods",
+                                    collapsed: true,
+                                    items: [
+                                        "treegrid/api/selection/selection_afterunselect_event",
+                                        "treegrid/api/selection/selection_beforeselect_event",
+                                        "treegrid/api/selection/selection_beforeunselect_event",
+                                        "treegrid/api/selection/selection_afterselect_event",
+                                    ],
+                                },
+
+                                {
+                                    type: "category",
+                                    label: "Events",
+                                    collapsed: true,
+                                    items: [
+                                        "treegrid/api/selection/selection_getcell_method",
+                                        "treegrid/api/selection/selection_removecell_method",
+                                        "treegrid/api/selection/selection_enable_method",
+                                        "treegrid/api/selection/selection_disable_method",
+                                        "treegrid/api/selection/selection_setcell_method",
+                                    ],
+                                },
+
+                            ],
+                        },
                     ],
                 },
             ],
@@ -2110,6 +2208,86 @@ module.exports = {
             ],
         },
         // end Window 
+
+        //Helpers todo
+        {
+            type: "category",
+            label: "Helpers",
+            collapsed: false,
+            items: [
+
+
+                {
+                    type: "category",
+                    label: "API",
+                    collapsed: true,
+                    items: [
+                        "calendar/api/api_overview", //todo //todo
+                        {
+                            type: "category",
+                            label: "Methods",
+                            collapsed: true,
+                            items: [
+                                "window/api/window_setfullscreen_method",
+                                "window/api/window_getcontainer_method",
+                                "window/api/window_destructor_method",
+                                "window/api/window_show_method",
+                                "window/api/window_isvisible_method",
+                                "window/api/window_attachhtml_method",
+                                "window/api/window_setposition_method",
+                                "window/api/window_fullscreen_method",
+                                "window/api/window_setsize_method",
+                                "window/api/window_hide_method",
+                                "window/api/window_getposition_method",
+                                "window/api/window_getwidget_method",
+                                "window/api/window_paint_method",
+                                "window/api/window_attach_method",
+                                "window/api/window_getsize_method",
+                            ],
+                        },
+                        {
+                            type: "category",
+                            label: "Events",
+                            collapsed: true,
+                            items: [
+                                "window/api/window_headerdoubleclick_event",
+                                "window/api/window_resize_event",
+                                "window/api/window_beforeshow_event",
+                                "window/api/window_aftershow_event",
+                                "window/api/window_beforehide_event",
+                                "window/api/window_move_event",
+                                "window/api/window_afterhide_event",
+                            ],
+                        },
+                        {
+                            type: "category",
+                            label: "Properties",
+                            collapsed: true,
+                            items: [
+                                "window/api/window_footer_config",
+                                "window/api/window_title_config",
+                                "window/api/window_left_config",
+                                "window/api/window_css_config",
+                                "window/api/window_top_config",
+                                "window/api/window_header_config",
+                                "window/api/window_width_config",
+                                "window/api/window_minwidth_config",
+                                "window/api/window_minheight_config",
+                                "window/api/window_node_config",
+                                "window/api/window_resizable_config",
+                                "window/api/window_modal_config",
+                                "window/api/window_height_config",
+                                "window/api/window_movable_config",
+                                "window/api/window_viewportoverflow_config",
+                                "window/api/window_closable_config",
+                                "window/api/window_html_config",
+                            ],
+                        },
+                    ],
+                },
+            ],
+        },
+        // end Helpers 
 
     ],
 }
