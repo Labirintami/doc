@@ -1,7 +1,7 @@
-htmlEnable
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: htmlEnable
+title: htmlEnable
 ---          
 
 @short: specifies the HTML content (inner HTML) of TreeGrid columns

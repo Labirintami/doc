@@ -1,7 +1,7 @@
-Menu
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Menu
+title: Menu
 ---          
 
 dhtmlxMenu is a component that provides an easy way to add a drop down menu to user's projects. This component is highly customizable and supports a wide range of features. dhtmlxMenu component can be a good navigation aid to web sites, help systems, etc. Check [online samples for dhtmlxMenu](https://docs.dhtmlx.com/suite/samples/menu/). 

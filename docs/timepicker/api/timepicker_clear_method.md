@@ -1,7 +1,7 @@
-clear
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: clear
+title: clear
 ---          
 
 @short: clears the value set in the timepicker

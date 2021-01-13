@@ -1,7 +1,7 @@
-beforeCollapse
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: beforeCollapse
+title: beforeCollapse
 ---          
 
 @short: fires before a cell is collapsed

@@ -1,7 +1,7 @@
-majorTick
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: majorTick
+title: majorTick
 ---          
 
 @short: 

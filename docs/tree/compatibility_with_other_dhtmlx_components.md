@@ -1,7 +1,7 @@
-Compatibility with Other DHTMLX Components
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Compatibility with Other DHTMLX Components
+title: Compatibility with Other DHTMLX Components
 ---          
 
 Enabling Context Menu  

@@ -1,7 +1,7 @@
-toggle
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: toggle
+title: toggle
 ---          
 
 @short: expands/collapses a Layout cell

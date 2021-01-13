@@ -1,7 +1,7 @@
-headerHeight
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: headerHeight
+title: headerHeight
 ---          
 
 @short: 

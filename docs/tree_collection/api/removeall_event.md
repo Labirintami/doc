@@ -1,7 +1,7 @@
-removeAll
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: removeAll
+title: removeAll
 ---          
 
 @short: fires when all items are removed from a tree collection

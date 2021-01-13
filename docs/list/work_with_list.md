@@ -1,7 +1,8 @@
-Work with List
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Work with List
+title: Work with List
+
 ---          
 
 ``` todo

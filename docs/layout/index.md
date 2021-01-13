@@ -1,7 +1,7 @@
-Layout
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Layout
+title: Layout
 ---          
 
 ``` todo

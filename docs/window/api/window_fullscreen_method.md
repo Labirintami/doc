@@ -1,7 +1,7 @@
-fullScreen
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: fullScreen
+title: fullScreen
 ---          
 
 @short: enters the full screen mode

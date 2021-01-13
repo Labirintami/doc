@@ -1,7 +1,7 @@
-resizable
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: resizable
+title: resizable
 ---          
 
 @short: 

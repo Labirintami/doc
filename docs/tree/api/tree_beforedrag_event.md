@@ -1,7 +1,7 @@
-beforeDrag
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: beforeDrag
+title: beforeDrag
 ---          
 
 @short:

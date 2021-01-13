@@ -1,7 +1,7 @@
-Work with TreeGrid
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Work with TreeGrid
+title: Work with TreeGrid
 ---          
 
 ``` todo

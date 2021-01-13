@@ -1,7 +1,7 @@
-afterEditStart
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: afterEditStart
+title: afterEditStart
 ---          
 
 @short: fires after editing of a tree item has started

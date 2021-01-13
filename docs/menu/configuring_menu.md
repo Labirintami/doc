@@ -1,7 +1,7 @@
-Menu Controls
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Menu Controls
+title: Menu Controls
 ---          
 
 ``` todo

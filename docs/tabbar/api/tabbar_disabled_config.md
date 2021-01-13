@@ -1,7 +1,7 @@
-disabled
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: disabled
+title: disabled
 ---          
 
 @short: makes a tab/tabs disabled

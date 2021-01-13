@@ -1,7 +1,7 @@
-pageSize
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: pageSize
+title: pageSize
 ---          
 
 @short: 

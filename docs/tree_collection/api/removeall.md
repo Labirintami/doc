@@ -1,7 +1,7 @@
-removeAll
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: removeAll
+title: removeAll
 ---          
 
 @short:clears the component of all controls

@@ -1,7 +1,7 @@
-Pager
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Pager
+title: Pager
 ---          
 
 ```todo

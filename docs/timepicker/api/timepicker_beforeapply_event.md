@@ -1,7 +1,7 @@
-beforeApply
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: beforeApply
+title: beforeApply
 ---          
 
 @short: fires before saving the timepicker value

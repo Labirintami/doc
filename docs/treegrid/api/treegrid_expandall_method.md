@@ -1,7 +1,7 @@
-expandAll
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: expandAll
+title: expandAll
 ---          
 
 @short: expands all collapsed tree nodes

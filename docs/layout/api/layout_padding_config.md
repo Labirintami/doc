@@ -1,7 +1,7 @@
-padding
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: padding
+title: padding
 ---          
 
 @short: 

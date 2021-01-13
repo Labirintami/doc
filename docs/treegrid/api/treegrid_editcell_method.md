@@ -1,7 +1,7 @@
-editCell
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: editCell
+title: editCell
 ---          
 
 @short: enables editing of a TreeGrid cell

@@ -1,7 +1,7 @@
-closeButtons
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: closeButtons
+title: closeButtons
 ---          
 
 @short: 

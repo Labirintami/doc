@@ -1,7 +1,7 @@
-autoWidth
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: autoWidth
+title: autoWidth
 ---          
 
 @short: makes treegrid's columns to fit the size of a treegrid

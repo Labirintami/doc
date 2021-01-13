@@ -1,7 +1,7 @@
-noContent
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: noContent
+title: noContent
 ---          
 
 @short: 

@@ -1,7 +1,7 @@
-afterDrag
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: afterDrag
+title: afterDrag
 ---          
 
 @short:

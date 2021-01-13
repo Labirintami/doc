@@ -1,7 +1,7 @@
-collapsable
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: collapsable
+title: collapsable
 ---          
 
 @short: 

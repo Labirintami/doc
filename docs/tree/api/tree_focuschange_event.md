@@ -1,7 +1,7 @@
-focusChange
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: focusChange
+title: focusChange
 ---          
 
 @short: fires on moving focus to a new item

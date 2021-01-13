@@ -1,7 +1,7 @@
-hidden
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: hidden
+title: hidden
 ---          
 
 @short: 

@@ -1,7 +1,7 @@
-headerImage
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: headerImage
+title: headerImage
 ---          
 
 @short: 

@@ -1,7 +1,7 @@
-hideColumn
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: hideColumn
+title: hideColumn
 ---          
 
 @short: hides a column of Grid

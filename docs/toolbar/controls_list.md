@@ -1,7 +1,7 @@
-List of Toolbar Controls
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: List of Toolbar Controls
+title: List of Toolbar Controls
 ---          
 
 - toolbar/button.md

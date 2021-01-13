@@ -1,7 +1,7 @@
-dhtmlxSlider API
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Slider API
+title: Slider API
 ---          
 
 Constructor

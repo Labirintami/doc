@@ -1,7 +1,7 @@
-afterRemove
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: afterRemove
+title: afterRemove
 ---          
 
 @short: fires after removing a cell

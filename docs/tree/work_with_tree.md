@@ -1,7 +1,7 @@
-Work with Tree
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Work with Tree
+title: Work with Tree
 ---          
 
 Working with checkboxes

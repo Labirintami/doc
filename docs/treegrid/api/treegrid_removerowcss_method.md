@@ -1,7 +1,7 @@
-removeRowCss
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: removeRowCss
+title: removeRowCss
 ---          
 
 @short: removes a style from a row

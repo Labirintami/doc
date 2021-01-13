@@ -1,7 +1,7 @@
-attach
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: attach
+title: attach
 ---          
 
 @short: attaches a DHTMLX component into a Layout cell

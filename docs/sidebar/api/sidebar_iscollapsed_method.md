@@ -1,7 +1,7 @@
-isCollapsed
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: isCollapsed
+title: isCollapsed
 ---          
 
 @short: checks whether Sidebar is collapsed

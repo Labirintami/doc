@@ -1,7 +1,7 @@
-beforeEditEnd
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: beforeEditEnd
+title: beforeEditEnd
 ---          
 
 @short: fires before editing of a cell is ended

@@ -1,7 +1,7 @@
-modal
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: modal
+title: modal
 ---          
 
 @short: 

@@ -1,7 +1,7 @@
-dragItem
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: dragItem
+title: dragItem
 ---          
 
 @short: enables the possibility to reorder treegrid columns by drag and drop

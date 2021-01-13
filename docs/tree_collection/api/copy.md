@@ -1,7 +1,7 @@
-copy
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: copy
+title: copy
 ---          
 
 @short:adds a copy of an item and places it in the specified position

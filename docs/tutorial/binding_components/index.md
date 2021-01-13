@@ -1,7 +1,7 @@
-Binding Components
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Binding Components
+title: Binding Components
 ---          
 
 In the [previous tutorial](tutorial/basic_application/index.md) we've considered how to add a Layout, a Grid, a Toolbar and a Chart on the page. 

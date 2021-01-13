@@ -1,7 +1,7 @@
-align
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: align
+title: align
 ---          
 
 @short: 

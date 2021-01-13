@@ -1,7 +1,7 @@
-beforeAdd
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: beforeAdd
+title: beforeAdd
 ---          
 
 @short: fires before adding a new item into a tree collection

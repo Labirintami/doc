@@ -1,7 +1,7 @@
-beforeColumnHide
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: beforeColumnHide
+title: beforeColumnHide
 ---          
 
 @short: fires before a column is hidden

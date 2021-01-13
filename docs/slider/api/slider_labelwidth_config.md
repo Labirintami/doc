@@ -1,7 +1,7 @@
-labelWidth
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: labelWidth
+title: labelWidth
 ---          
 
 @short: 

@@ -1,7 +1,7 @@
-getChecked
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getChecked
+title: getChecked
 ---          
 
 @short: gets all checked tree items

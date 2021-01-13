@@ -1,7 +1,7 @@
-Input 
+ 
 ---
-sidebar_label: 
-title: 
+sidebar_label: Input
+title: Input
 ---          
 
 ``` todo

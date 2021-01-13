@@ -1,7 +1,7 @@
-getParent
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getParent
+title: getParent
 ---          
 
 @short: returns the parent of a cell

@@ -1,7 +1,7 @@
-Skinning Slider
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Skinning Slider
+title: Skinning Slider
 ---          
 
 The skin can be set for dhtmlxSlider in one of the following ways:

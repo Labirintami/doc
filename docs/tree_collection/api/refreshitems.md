@@ -1,7 +1,7 @@
-refreshItems
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: refreshItems
+title: refreshItems
 ---          
 
 @short:refreshes child items of a control

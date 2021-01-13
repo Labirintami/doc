@@ -1,7 +1,7 @@
-dhtmlxMenu API
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Menu API
+title: Menu API
 ---          
 
 Constructor

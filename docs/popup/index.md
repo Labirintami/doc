@@ -1,7 +1,7 @@
-Popup
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Popup
+title: Popup
 ---          
 
 ``` todo

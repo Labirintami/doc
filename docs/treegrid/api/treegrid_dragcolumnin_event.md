@@ -1,7 +1,7 @@
-dragColumnIn
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: dragColumnIn
+title: dragColumnIn
 ---          
 
 @short:

@@ -1,7 +1,7 @@
-footerCellDblClick
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: footerCellDblClick
+title: footerCellDblClick
 ---          
 
 @short:

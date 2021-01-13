@@ -1,7 +1,7 @@
-Selection Object API
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Selection Object API
+title: Selection Object API
 ---          
 
 A set of APIs that allow you to work with the Selection object. Applicable to DataView, List, Tree.

@@ -1,7 +1,7 @@
-isDisabled
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: isDisabled
+title: isDisabled
 ---          
 
 @short: checks whether a tab is disabled

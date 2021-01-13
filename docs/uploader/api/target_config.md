@@ -1,7 +1,7 @@
-target
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: target
+title: target
 ---          
 
 @short: sets an URL to the server-side script that will process file upload

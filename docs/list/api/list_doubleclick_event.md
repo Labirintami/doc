@@ -1,7 +1,7 @@
-doubleClick
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: doubleClick
+title: doubleClick
 ---          
 
 @short:

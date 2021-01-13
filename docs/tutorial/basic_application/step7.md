@@ -1,7 +1,7 @@
-Step 7. Display data in the Chart
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Step 7. Display Data in the Chart
+title: Step 7. Display Data in the Chart
 ---          
 
 Before displaying data in the chart we need to process grid data.

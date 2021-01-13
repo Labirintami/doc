@@ -1,7 +1,7 @@
-checkItem
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: checkItem
+title: checkItem
 ---          
 
 @short: checks the checkbox of a tree item and all its sub-items

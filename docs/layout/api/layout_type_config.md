@@ -1,7 +1,7 @@
-type
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: type
+title: type
 ---          
 
 @short: defines the type of borders between cells inside a layout

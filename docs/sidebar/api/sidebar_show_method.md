@@ -1,7 +1,7 @@
-show
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: show
+title: show
 ---          
 
 @short: shows items of Sidebar

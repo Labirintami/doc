@@ -1,7 +1,7 @@
-getSize
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getSize
+title: getSize
 ---          
 
 @short: gets the size of window

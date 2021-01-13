@@ -1,7 +1,7 @@
-Tabbar
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Tabbar
+title: Tabbar
 ---          
 
 ``` todo

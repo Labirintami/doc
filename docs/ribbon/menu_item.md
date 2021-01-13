@@ -1,7 +1,7 @@
-menuItem Control
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: menuItem Control
+title: menuItem Control
 ---          
 
 This is a dropdown menu.

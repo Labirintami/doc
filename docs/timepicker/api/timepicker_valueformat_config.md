@@ -1,7 +1,7 @@
-valueFormat
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: valueFormat
+title: valueFormat
 ---          
 
 @short: defines the format of the value to be applied when working with TimePicker events

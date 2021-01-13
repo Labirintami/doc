@@ -1,7 +1,7 @@
-afterColumnHide
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: afterColumnHide
+title: afterColumnHide
 ---          
 
 @short: fires after a column is hidden

@@ -1,7 +1,7 @@
-Navigation and Selection in Tree  
+ 
 ---
-sidebar_label: 
-title: 
+sidebar_label: Navigation and Selection in Tree 
+title: Navigation and Selection in Tree 
 ---          
 
 

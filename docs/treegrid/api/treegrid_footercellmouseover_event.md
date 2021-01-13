@@ -1,7 +1,7 @@
-footerCellMouseOver
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: footerCellMouseOver
+title: footerCellMouseOver
 ---          
 
 @short:

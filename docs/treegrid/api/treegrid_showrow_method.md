@@ -1,7 +1,7 @@
-showRow
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: showRow
+title: showRow
 ---          
 
 @short: makes a specified row visible on a page

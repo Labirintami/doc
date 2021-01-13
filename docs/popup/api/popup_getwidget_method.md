@@ -1,7 +1,7 @@
-getWidget
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getWidget
+title: getWidget
 ---          
 
 @short: returns the widget attached to Popup

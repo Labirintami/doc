@@ -1,7 +1,7 @@
-editing
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: editing
+title: editing
 ---          
 
 @short: 

@@ -1,7 +1,7 @@
-groupBy
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: groupBy
+title: groupBy
 ---          
 
 @short: groups grid content either by values of the specified column or by the result of calculation

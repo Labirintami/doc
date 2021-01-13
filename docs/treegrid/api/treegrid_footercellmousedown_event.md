@@ -1,7 +1,7 @@
-footerCellMouseDown
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: footerCellMouseDown
+title: footerCellMouseDown
 ---          
 
 @short:

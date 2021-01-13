@@ -1,7 +1,7 @@
-adjustColumnWidth
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: adjustColumnWidth
+title: adjustColumnWidth
 ---          
 
 @short: adjusts the width of a column to make all its content visible

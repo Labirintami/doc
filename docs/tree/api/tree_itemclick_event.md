@@ -1,7 +1,7 @@
-itemClick
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: itemClick
+title: itemClick
 ---          
 
 @short:

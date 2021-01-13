@@ -1,7 +1,7 @@
-Toolbar
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Toolbar
+title: Toolbar
 ---          
 
 ``` todo

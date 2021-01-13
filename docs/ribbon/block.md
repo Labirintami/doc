@@ -1,7 +1,7 @@
-Block 
+ 
 ---
-sidebar_label: 
-title: 
+sidebar_label: Block
+title: Block
 ---          
 
 The Block control is used for grouping related controls.

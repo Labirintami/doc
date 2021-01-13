@@ -1,7 +1,7 @@
-imageButtonText Control
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: imageButtonText Control
+title: imageButtonText Control
 ---          
 
 ``` todo

@@ -1,7 +1,7 @@
-fitToContainer
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: fitToContainer
+title: fitToContainer
 ---          
 
 @short: 

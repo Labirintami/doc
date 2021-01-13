@@ -1,7 +1,7 @@
-canColumnDrop
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: canColumnDrop
+title: canColumnDrop
 ---          
 
 @short:

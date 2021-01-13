@@ -1,7 +1,7 @@
-beforeColumnShow
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: beforeColumnShow
+title: beforeColumnShow
 ---          
 
 @short: fires before a column is shown on a page

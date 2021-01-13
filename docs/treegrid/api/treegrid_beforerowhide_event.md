@@ -1,7 +1,7 @@
-beforeRowHide
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: beforeRowHide
+title: beforeRowHide
 ---          
 
 @short: fires before a row is hidden

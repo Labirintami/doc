@@ -1,7 +1,7 @@
-Window
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Window
+title: Window
 ---          
 
 ``` todo

@@ -1,7 +1,7 @@
-sort
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: sort
+title: sort
 ---          
 
 @short:sorts controls according to some criteria

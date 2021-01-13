@@ -1,7 +1,7 @@
-open
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: open
+title: open
 ---          
 
 @short: opens a tree item by id

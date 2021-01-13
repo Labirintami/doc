@@ -1,7 +1,7 @@
-collapse
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: collapse
+title: collapse
 ---          
 
 @short: collapses a tree node by id

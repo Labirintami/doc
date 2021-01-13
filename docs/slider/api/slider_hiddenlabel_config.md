@@ -1,7 +1,7 @@
-hiddenLabel
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: hiddenLabel
+title: hiddenLabel
 ---          
 
 @short: 

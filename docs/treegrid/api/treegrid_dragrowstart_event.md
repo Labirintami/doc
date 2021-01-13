@@ -1,7 +1,7 @@
-dragRowStart
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: dragRowStart
+title: dragRowStart
 ---          
 
 @short:

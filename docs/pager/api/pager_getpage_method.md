@@ -1,7 +1,7 @@
-getPage
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getPage
+title: getPage
 ---          
 
 @short: returns the index of the active page

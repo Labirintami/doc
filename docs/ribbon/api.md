@@ -1,7 +1,7 @@
-dhtmlxRibbon API
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Ribbon API
+title: Ribbon API
 ---          
 
 ## Constructor

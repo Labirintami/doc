@@ -1,7 +1,7 @@
-dragOut
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: dragOut
+title: dragOut
 ---          
 
 @short:

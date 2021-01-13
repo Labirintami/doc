@@ -1,7 +1,7 @@
-beforeExpand
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: beforeExpand
+title: beforeExpand
 ---          
 
 @short: fires before expanding a sidebar

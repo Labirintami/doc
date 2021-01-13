@@ -1,7 +1,7 @@
-Migration
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Migration
+title: Migration
 ---          
 
 ## Removed API

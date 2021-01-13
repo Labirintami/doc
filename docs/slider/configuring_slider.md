@@ -1,7 +1,7 @@
-Configuration
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Configuration
+title: Configuration
 ---          
 
 Initial value

@@ -1,7 +1,7 @@
-disableSelection
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: disableSelection
+title: disableSelection
 ---          
 
 @short: disables selection of items in List

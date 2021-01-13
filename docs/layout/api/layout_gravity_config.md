@@ -1,7 +1,7 @@
-gravity
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: gravity
+title: gravity
 ---          
 
 @short: 

@@ -1,7 +1,7 @@
-Ribbon
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Ribbon
+title: Ribbon
 ---          
 
 ``` todo

@@ -1,7 +1,7 @@
-Configuration of a cell
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Configuration of a Cell
+title: Configuration of a Cell
 ---          
 
 ``` todo

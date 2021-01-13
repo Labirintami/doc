@@ -1,7 +1,7 @@
-getPosition
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getPosition
+title: getPosition
 ---          
 
 @short: gets the position of a window

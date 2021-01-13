@@ -1,7 +1,7 @@
-itemDblClick
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: itemDblClick
+title: itemDblClick
 ---          
 
 @short:

@@ -1,7 +1,7 @@
-dhtmlxLayout API
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Layout API
+title: Layout API
 ---          
 
 ``` todo

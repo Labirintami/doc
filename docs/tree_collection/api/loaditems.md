@@ -1,7 +1,7 @@
-loadItems
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: loadItems
+title: loadItems
 ---          
 
 @short:loads child items of a control from a file

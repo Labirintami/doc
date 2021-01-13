@@ -1,7 +1,7 @@
-Title 
+ 
 ---
-sidebar_label: 
-title: 
+sidebar_label: Title
+title: Title
 ---          
 
 This is an item that contains some text.

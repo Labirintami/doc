@@ -1,7 +1,7 @@
-Step 1. Include DHTMLX files 
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Step 1. Include DHTMLX Files 
+title: Step 1. Include DHTMLX Files 
 ---          
 
 Let's start our tutorial with preparing a file for our future app: 

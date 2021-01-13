@@ -1,7 +1,7 @@
-inverse
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: inverse
+title: inverse
 ---          
 
 @short: 

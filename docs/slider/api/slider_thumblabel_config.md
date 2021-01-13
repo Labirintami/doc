@@ -1,7 +1,7 @@
-thumbLabel
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: thumbLabel
+title: thumbLabel
 ---          
 
 @short: 

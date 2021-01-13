@@ -1,7 +1,7 @@
-Step 2. Bind Window to Grid
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Step 2. Bind Window to Grid
+title: Step 2. Bind Window to Grid
 ---          
 
 To apply changes made in a grid row through the form in the window we need to process clicking on the "Apply" or "Cancel" buttons.

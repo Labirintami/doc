@@ -1,7 +1,7 @@
-dragMode
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: dragMode
+title: dragMode
 ---          
 
 @short: 

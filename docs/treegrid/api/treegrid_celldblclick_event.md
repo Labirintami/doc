@@ -1,7 +1,7 @@
-cellDblClick
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: cellDblClick
+title: cellDblClick
 ---          
 
 @short:

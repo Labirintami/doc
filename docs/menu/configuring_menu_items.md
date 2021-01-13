@@ -1,7 +1,7 @@
-List of Menu Controls
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: List of Menu Controls
+title: List of Menu Controls
 ---          
 
 In this article you'll find the controls you can use in dhtmlxMenu. Their descriptions contain lists of attributes and examples of adding the controls into Menu on the fly.

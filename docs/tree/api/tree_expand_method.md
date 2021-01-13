@@ -1,7 +1,7 @@
-expand
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: expand
+title: expand
 ---          
 
 @short: expands a tree item by id

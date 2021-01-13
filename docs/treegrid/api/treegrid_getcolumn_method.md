@@ -1,7 +1,7 @@
-getColumn
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getColumn
+title: getColumn
 ---          
 
 ``` todo

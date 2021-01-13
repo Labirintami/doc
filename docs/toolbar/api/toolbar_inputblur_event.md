@@ -1,7 +1,7 @@
-inputBlur
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: inputBlur
+title: inputBlur
 ---          
 
 @short:

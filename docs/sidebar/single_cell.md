@@ -1,7 +1,7 @@
-Single Cell Mode
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Single Cell Mode
+title: Single Cell Mode
 ---          
 
 ``` todo

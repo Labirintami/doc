@@ -1,7 +1,7 @@
-headerInput
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: headerInput
+title: headerInput
 ---          
 
 @short:

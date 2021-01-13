@@ -1,7 +1,7 @@
-afterAdd
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: afterAdd
+title: afterAdd
 ---          
 
 @short: fires after adding a new cell

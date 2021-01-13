@@ -1,7 +1,7 @@
-afterClose
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: afterClose
+title: afterClose
 ---          
 
 @short: fires after closing a tab in Tabbar

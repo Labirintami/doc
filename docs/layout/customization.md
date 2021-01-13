@@ -1,7 +1,7 @@
-Customization
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Customization
+title: Customization
 ---          
 
 Styling Layout cells

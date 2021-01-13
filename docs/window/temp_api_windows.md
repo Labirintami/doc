@@ -1,6 +1,6 @@
-dhtmlxWindow API 
+
 ---
-sidebar_label: 
+sidebar_label: Window API 
 title: 
 ---          
 

@@ -1,7 +1,7 @@
-label
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: label
+title: label
 ---          
 
 @short: 

@@ -1,7 +1,7 @@
-Customization
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Customization
+title: Customization
 ---          
 
 There is a possibility to make changes in the look and feel of a message box or a tooltip. You can either create a new CSS class or use a CSS class that DHTMLX library provides.

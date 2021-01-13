@@ -1,7 +1,7 @@
-getSpan
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getSpan
+title: getSpan
 ---          
 
 @short: returns an object with spans

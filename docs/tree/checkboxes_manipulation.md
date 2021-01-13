@@ -1,7 +1,7 @@
-Manipulating Checkboxes
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Manipulating Checkboxes
+title: Manipulating Checkboxes
 ---          
 
 dhtmlxTree operates an advanced checkbox system. Besides usual two-state checkboxes (checked/unchecked item), 

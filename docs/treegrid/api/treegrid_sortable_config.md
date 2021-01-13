@@ -1,7 +1,7 @@
-sortable
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: sortable
+title: sortable
 ---          
 
 @short: defines whether sorting on clicking headers of columns is enabled

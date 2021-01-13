@@ -1,7 +1,7 @@
-columns
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: columns
+title: columns
 ---          
 
 ``` todo

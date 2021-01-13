@@ -1,7 +1,7 @@
-setColumns
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: setColumns
+title: setColumns
 ---          
 
 ``` todo

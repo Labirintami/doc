@@ -1,7 +1,7 @@
-Loading Data
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Loading Data
+title: Loading Data
 ---          
 
 ``` todo

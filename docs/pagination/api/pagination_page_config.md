@@ -1,7 +1,7 @@
-page
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: page
+title: page
 ---          
 
 @short: 

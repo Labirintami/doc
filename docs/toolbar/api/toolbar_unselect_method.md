@@ -1,7 +1,7 @@
-unselect
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: unselect
+title: unselect
 ---          
 
 @short: unselects a selected Toolbar item

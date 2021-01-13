@@ -1,7 +1,7 @@
-config
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: config
+title: config
 ---          
 
 @short: 

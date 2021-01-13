@@ -1,7 +1,7 @@
-SelectButton
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: SelectButton
+title: SelectButton
 ---          
 
 This is a button that contains a drop-down list of options.

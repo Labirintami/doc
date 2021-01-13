@@ -1,7 +1,7 @@
-cancelColumnDrop
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: cancelColumnDrop
+title: cancelColumnDrop
 ---          
 
 @short:

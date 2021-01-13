@@ -1,7 +1,7 @@
-events
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: events
+title: events
 ---          
 
 @short: 

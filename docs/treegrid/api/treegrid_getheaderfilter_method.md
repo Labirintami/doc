@@ -1,7 +1,7 @@
-getHeaderFilter
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getHeaderFilter
+title: getHeaderFilter
 ---          
 
 @short: returns an object of the header filter by column id

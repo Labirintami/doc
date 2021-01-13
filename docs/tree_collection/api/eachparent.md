@@ -1,7 +1,7 @@
-eachParent
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: eachParent
+title: eachParent
 ---          
 
 @short:iterates through all the parent items (the immediate parent and its parent, etc until the parent is the component itself)

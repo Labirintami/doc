@@ -1,7 +1,7 @@
-scrollTo
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: scrollTo
+title: scrollTo
 ---          
 
 @short: scrolls a grid to a specified cell

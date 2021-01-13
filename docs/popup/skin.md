@@ -1,7 +1,7 @@
-Skinning Popup
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Skinning Popup
+title: Skinning Popup
 ---          
 
 ``` todo

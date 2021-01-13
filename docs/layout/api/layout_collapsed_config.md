@@ -1,7 +1,7 @@
-collapsed
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: collapsed
+title: collapsed
 ---          
 
 @short: 

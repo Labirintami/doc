@@ -1,7 +1,7 @@
-adjust
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: adjust
+title: adjust
 ---          
 
 @short: defines whether the width of columns is automatically adjusted to the width of their content

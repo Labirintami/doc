@@ -1,7 +1,7 @@
-splitAt
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: splitAt
+title: splitAt
 ---          
 
 @short: 

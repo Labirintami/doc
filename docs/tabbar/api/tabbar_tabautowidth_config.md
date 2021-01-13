@@ -1,7 +1,7 @@
-tabAutoWidth
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: tabAutoWidth
+title: tabAutoWidth
 ---          
 
 @short: 

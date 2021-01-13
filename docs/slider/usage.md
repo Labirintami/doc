@@ -1,7 +1,7 @@
-Work with Slider
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Work with Slider
+title: Work with Slider
 ---          
 
 The Slider API helps you control the functionality of the component through a set of handy methods.

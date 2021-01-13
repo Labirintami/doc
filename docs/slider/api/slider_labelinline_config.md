@@ -1,7 +1,7 @@
-labelInline
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: labelInline
+title: labelInline
 ---          
 
 @short: 

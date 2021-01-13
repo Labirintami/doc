@@ -1,7 +1,7 @@
-minWidth
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: minWidth
+title: minWidth
 ---          
 
 @short: 

@@ -1,7 +1,7 @@
-dragRowOut
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: dragRowOut
+title: dragRowOut
 ---          
 
 

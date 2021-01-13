@@ -1,7 +1,7 @@
-headerCellRightClick
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: headerCellRightClick
+title: headerCellRightClick
 ---          
 
 @short:

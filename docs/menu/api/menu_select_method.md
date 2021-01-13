@@ -1,7 +1,7 @@
-select
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: select
+title: select
 ---          
 
 @short: selects a specified item of Menu

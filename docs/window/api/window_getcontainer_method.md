@@ -1,7 +1,7 @@
-getContainer
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getContainer
+title: getContainer
 ---          
 
 @short: returns the HTML element of Window

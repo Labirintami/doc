@@ -1,7 +1,7 @@
-Syntax Templates  
+ 
 ---
-sidebar_label: 
-title: 
+sidebar_label: Syntax Templates 
+title: Syntax Templates 
 ---          
 
 ``` todo

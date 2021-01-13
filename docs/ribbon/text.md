@@ -1,7 +1,7 @@
-Text Control
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Text Control
+title: Text Control
 ---          
 
 This is an item with a text label.

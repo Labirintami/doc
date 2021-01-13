@@ -1,7 +1,7 @@
-Migration to Newer Versions
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Migration to Newer Versions
+title: Migration to Newer Versions
 ---          
 
 6.5 -> 7.0

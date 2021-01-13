@@ -1,7 +1,7 @@
-Manipulating Nodes  
+ 
 ---
-sidebar_label: 
-title: 
+sidebar_label: Manipulating Nodes 
+title: Manipulating Nodes 
 ---          
 
 Adding/Removing Items  

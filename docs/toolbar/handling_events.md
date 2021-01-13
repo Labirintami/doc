@@ -1,7 +1,7 @@
-Event Handling
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Event Handling
+title: Event Handling
 ---          
 
 ``` todo

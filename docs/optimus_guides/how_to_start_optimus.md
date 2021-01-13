@@ -1,7 +1,7 @@
-How to start with dhtmlxOptimus
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: How to start with Optimus
+title: How to start with Optimus
 ---          
 
 This guide gives you step-by-step instructions on how to create a simple application with dhtmlxOptimus.

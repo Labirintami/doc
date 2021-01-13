@@ -1,7 +1,7 @@
-afterCollapse
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: afterCollapse
+title: afterCollapse
 ---          
 
 @short: fires after collapsing a treegrid

@@ -1,7 +1,7 @@
-afterApply
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: afterApply
+title: afterApply
 ---          
 
 @short: fires after saving the timepicker value

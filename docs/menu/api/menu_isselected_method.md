@@ -1,7 +1,7 @@
-isSelected
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: isSelected
+title: isSelected
 ---          
 
 @short: checks whether a specified Menu item is selected

@@ -1,7 +1,7 @@
-Work with Tabbar
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Work with Tabbar
+title: Work with Tabbar
 ---          
 
 ``` todo

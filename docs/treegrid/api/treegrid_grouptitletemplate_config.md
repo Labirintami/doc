@@ -1,7 +1,7 @@
-groupTitleTemplate
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: groupTitleTemplate
+title: groupTitleTemplate
 ---          
 
 @short: 

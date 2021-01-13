@@ -1,7 +1,7 @@
-List of Ribbon Controls
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: List of Ribbon Controls
+title: List of Ribbon Controls
 ---          
 
 - ribbon/block.md

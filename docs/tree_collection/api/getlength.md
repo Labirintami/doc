@@ -1,7 +1,7 @@
-getLength
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getLength
+title: getLength
 ---          
 
 @short:counts child items of a control

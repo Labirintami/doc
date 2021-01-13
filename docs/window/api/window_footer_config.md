@@ -1,7 +1,7 @@
-footer
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: footer
+title: footer
 ---          
 
 @short: 

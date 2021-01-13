@@ -1,7 +1,7 @@
-regularButton 
+ 
 ---
-sidebar_label: 
-title: 
+sidebar_label: regularButton
+title: regularButton
 ---          
 
 This is a material design button that has two varieties: default and 'flat'.

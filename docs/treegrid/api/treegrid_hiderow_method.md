@@ -1,7 +1,7 @@
-hideRow
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: hideRow
+title: hideRow
 ---          
 
 @short: hides a row of TreeGrid

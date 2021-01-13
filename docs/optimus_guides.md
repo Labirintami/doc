@@ -1,7 +1,7 @@
-Optimus Guides
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Optimus Guides
+title: Optimus Guides
 ---          
 
 {{index

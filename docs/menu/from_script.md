@@ -1,7 +1,7 @@
-Data Loading
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Data Loading
+title: Data Loading
 ---          
 
 There are several simple ways of loading options into dhtmlxMenu:

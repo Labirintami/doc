@@ -1,7 +1,7 @@
-disable
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: disable
+title: disable
 ---          
 
 @short: disables and dims an item(s) of Toolbar

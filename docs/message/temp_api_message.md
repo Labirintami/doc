@@ -1,5 +1,5 @@
-Temporary API Reference
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Temporary API Reference
+title: Temporary API Reference
 ---          

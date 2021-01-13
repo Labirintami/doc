@@ -1,7 +1,7 @@
-Button 
+ 
 ---
-sidebar_label: 
-title: 
+sidebar_label: Button
+title: Button
 ---          
 
 This is a simple button that can have an icon. Button can have two states and a badge with a number, which can be useful for displaying the number of new messages, etc.

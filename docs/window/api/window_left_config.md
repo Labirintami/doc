@@ -1,7 +1,7 @@
-left
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: left
+title: left
 ---          
 
 @short: 

@@ -1,7 +1,7 @@
 
 ---
 sidebar_label: Customization
-title: 
+title: Customization
 ---          
 
 Custom filter for options

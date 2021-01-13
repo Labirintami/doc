@@ -1,7 +1,7 @@
-getActive
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getActive
+title: getActive
 ---          
 
 @short: gets the id of the active tab

@@ -1,7 +1,7 @@
-closable
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: closable
+title: closable
 ---          
 
 @short: 

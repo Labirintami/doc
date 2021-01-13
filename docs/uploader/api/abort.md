@@ -1,7 +1,7 @@
-abort
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: abort
+title: abort
 ---          
 
 @short: cancels the upload of a file(s)

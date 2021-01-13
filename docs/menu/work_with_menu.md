@@ -1,7 +1,7 @@
-Work with Menu
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Work with Menu
+title: Work with Menu
 ---          
 
 ``` todo

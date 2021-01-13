@@ -1,7 +1,7 @@
-beforeShow
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: beforeShow
+title: beforeShow
 ---          
 
 @short:

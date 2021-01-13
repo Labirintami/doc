@@ -1,6 +1,6 @@
-dhtmlxToolbar API
+
 ---
-sidebar_label: 
+sidebar_label: Toolbar API
 title: 
 ---          
 

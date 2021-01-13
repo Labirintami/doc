@@ -1,7 +1,7 @@
-Events
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Events
+title: Events
 ---          
 
 {{api

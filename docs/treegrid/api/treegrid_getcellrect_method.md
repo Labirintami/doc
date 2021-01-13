@@ -1,7 +1,7 @@
-getCellRect
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getCellRect
+title: getCellRect
 ---          
 
 @short: returns the parameters of a cell

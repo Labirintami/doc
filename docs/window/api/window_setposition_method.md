@@ -1,7 +1,7 @@
-setPosition
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: setPosition
+title: setPosition
 ---          
 
 @short: sets the position of a window

@@ -1,7 +1,7 @@
-afterShow
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: afterShow
+title: afterShow
 ---          
 
 @short: fires after a cell is shown

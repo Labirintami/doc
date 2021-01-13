@@ -1,7 +1,7 @@
-Initialization
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Initialization
+title: Initialization
 ---          
 
 To initialize dhtmlxTimePicker on a page, you need to take the following simple steps:

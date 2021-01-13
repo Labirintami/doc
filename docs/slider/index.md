@@ -1,7 +1,7 @@
-Slider
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Slider
+title: Slider
 ---          
 
 ``` todo

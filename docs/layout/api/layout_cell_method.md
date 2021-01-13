@@ -1,7 +1,7 @@
-cell
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: cell
+title: cell
 ---          
 
 @short: returns the config object of a cell

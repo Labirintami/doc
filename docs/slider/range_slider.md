@@ -1,7 +1,7 @@
-Range Mode
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Range Mode
+title: Range Mode
 ---          
 
 ``` todo

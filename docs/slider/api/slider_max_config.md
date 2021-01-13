@@ -1,7 +1,7 @@
-max
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: max
+title: max
 ---          
 
 @short: 

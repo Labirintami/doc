@@ -1,7 +1,7 @@
-navigationType
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: navigationType
+title: navigationType
 ---          
 
 @short: 

@@ -1,7 +1,7 @@
-CSS classes of base elements
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: CSS classes of base elements
+title: CSS classes of base elements
 ---          
 
 ``` todo

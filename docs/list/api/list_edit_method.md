@@ -1,7 +1,7 @@
-edit
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: edit
+title: edit
 ---          
 
 @short: enables editing of an item

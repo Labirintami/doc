@@ -1,7 +1,7 @@
-Work with Pagination
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Work with Pagination
+title: Work with Pagination
 ---          
 
 

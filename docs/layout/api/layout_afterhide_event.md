@@ -1,7 +1,7 @@
-afterHide
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: afterHide
+title: afterHide
 ---          
 
 @short: fires after a cell is hidden

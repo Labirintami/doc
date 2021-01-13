@@ -1,7 +1,7 @@
-afterCollapse
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: afterCollapse
+title: afterCollapse
 ---          
 
 @short: fires after a cell is collapsed

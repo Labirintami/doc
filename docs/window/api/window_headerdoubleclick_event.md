@@ -1,7 +1,7 @@
-headerDoubleClick
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: headerDoubleClick
+title: headerDoubleClick
 ---          
 
 @short:

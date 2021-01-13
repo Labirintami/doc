@@ -1,7 +1,7 @@
-Overview of Message Boxes
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Overview of Message Boxes
+title: Overview of Message Boxes
 ---          
 
 ``` todo

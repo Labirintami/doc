@@ -1,7 +1,7 @@
-What's New
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: What's New
+title: What's New
 ---          
 
 @todo:write

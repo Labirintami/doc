@@ -1,7 +1,7 @@
-activeTab
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: activeTab
+title: activeTab
 ---          
 
 @short: sets the currently active tab

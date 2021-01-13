@@ -1,7 +1,7 @@
-Work with Sidebar
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Work with Sidebar
+title: Work with Sidebar
 ---          
 
 Adding a tooltip to a control

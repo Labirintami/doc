@@ -1,7 +1,7 @@
-inputWidth
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: inputWidth
+title: inputWidth
 ---          
 
 @short: 

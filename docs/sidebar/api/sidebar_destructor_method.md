@@ -1,7 +1,7 @@
-destructor
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: destructor
+title: destructor
 ---          
 
 @short: removes a Sidebar instance and releases occupied resources

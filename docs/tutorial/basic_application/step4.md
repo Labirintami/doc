@@ -1,7 +1,7 @@
-Step 4. Add a Grid
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Step 4. Add a Grid
+title: Step 4. Add a Grid
 ---          
 
 ``` todo

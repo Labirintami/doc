@@ -1,7 +1,7 @@
-maxWidth
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: maxWidth
+title: maxWidth
 ---          
 
 @short: the maximal width to be set for a cell

@@ -1,7 +1,7 @@
-afterExpand
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: afterExpand
+title: afterExpand
 ---          
 
 @short: fires after expanding a treegrid

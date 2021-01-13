@@ -1,7 +1,7 @@
-tickTemplate
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: tickTemplate
+title: tickTemplate
 ---          
 
 @short: 

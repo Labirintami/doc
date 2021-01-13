@@ -1,7 +1,7 @@
-removeTab
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: removeTab
+title: removeTab
 ---          
 
 @short: removes a tab from a tabbar

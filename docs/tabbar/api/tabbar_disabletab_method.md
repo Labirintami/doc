@@ -1,7 +1,7 @@
-disableTab
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: disableTab
+title: disableTab
 ---          
 
 @short: disables a tab on a page

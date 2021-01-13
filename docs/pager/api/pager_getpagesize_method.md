@@ -1,7 +1,7 @@
-getPageSize
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getPageSize
+title: getPageSize
 ---          
 
 @short: returns the number of items displayed per page of the related widget

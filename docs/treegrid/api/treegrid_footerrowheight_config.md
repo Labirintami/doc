@@ -1,7 +1,7 @@
-footerRowHeight
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: footerRowHeight
+title: footerRowHeight
 ---          
 
 @short: 

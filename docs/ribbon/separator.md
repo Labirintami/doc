@@ -1,7 +1,7 @@
-Separator
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Separator
+title: Separator
 ---          
 
 This is a control that adds a line separating items/groups of items from each other.

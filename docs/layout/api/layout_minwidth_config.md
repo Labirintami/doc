@@ -1,7 +1,7 @@
-minWidth
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: minWidth
+title: minWidth
 ---          
 
 @short: the minimal width to be set for a cell

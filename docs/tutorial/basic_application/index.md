@@ -1,7 +1,7 @@
-Basic Application
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Basic Application
+title: Basic Application
 ---          
 This tutorial describes how to create a basic application  and helps to understand the main principles of working with DHTMLX components. 
 It covers a number of issues related to adding components on a page, displaying data on a page, interaction of components with each other.

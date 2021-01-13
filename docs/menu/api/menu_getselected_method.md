@@ -1,7 +1,7 @@
-getSelected
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getSelected
+title: getSelected
 ---          
 
 @short: returns an array of IDs of selected items

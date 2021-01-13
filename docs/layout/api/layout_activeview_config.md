@@ -1,7 +1,7 @@
-activeView
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: activeView
+title: activeView
 ---          
 
 @short: 

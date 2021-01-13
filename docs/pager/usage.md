@@ -1,7 +1,7 @@
-Work with Pager
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Work with Pager
+title: Work with Pager
 ---          
 
 

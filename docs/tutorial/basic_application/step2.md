@@ -1,7 +1,7 @@
-Step 2. Specify the Layout
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Step 2. Specify the Layout
+title: Step 2. Specify the Layout
 ---          
 
 Our application will have the following structure:

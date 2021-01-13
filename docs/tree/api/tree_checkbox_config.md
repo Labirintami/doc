@@ -1,7 +1,7 @@
-checkbox
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: checkbox
+title: checkbox
 ---          
 
 @short: 

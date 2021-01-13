@@ -1,7 +1,7 @@
-Using DHTMLX with TypeScript
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Using DHTMLX with TypeScript
+title: Using DHTMLX with TypeScript
 ---          
 
 ``` todo

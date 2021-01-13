@@ -1,7 +1,7 @@
-Uploader
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Uploader
+title: Uploader
 ---          
 
 The API set for controlling the work of the Uploader object.

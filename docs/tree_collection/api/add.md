@@ -1,7 +1,7 @@
-add
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: add
+title: add
 ---          
 
 @short:adds an item to a component

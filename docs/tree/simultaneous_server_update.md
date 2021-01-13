@@ -1,7 +1,7 @@
-Simultaneous Server Update
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Simultaneous Server Update
+title: Simultaneous Server Update
 ---          
 
 dataProcessor Module  

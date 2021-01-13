@@ -1,7 +1,7 @@
-List of Sidebar Controls
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: List of Sidebar Controls
+title: List of Sidebar Controls
 ---          
 
 - sidebar/customhtmlbutton.md

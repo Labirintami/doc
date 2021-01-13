@@ -1,7 +1,7 @@
-apply
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: apply
+title: apply
 ---          
 
 @short: fires on saving the timepicker value

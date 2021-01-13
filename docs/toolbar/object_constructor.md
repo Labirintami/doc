@@ -1,7 +1,7 @@
-Object Constructor
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Object Constructor
+title: Object Constructor
 ---          
 
 Initialize Toolbar with the object constructor:

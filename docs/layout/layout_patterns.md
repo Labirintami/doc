@@ -1,7 +1,7 @@
-Layout patterns
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Layout Patterns
+title: Layout Patterns
 ---          
 
 Layout patterns are predefined combinations of [rows and columns](layout/layout_structure.md) that provide you with various options of arranging cells inside of a layout in a neat structure.

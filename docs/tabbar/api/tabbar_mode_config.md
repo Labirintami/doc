@@ -1,7 +1,7 @@
-mode
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: mode
+title: mode
 ---          
 
 @short: 

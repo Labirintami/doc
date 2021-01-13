@@ -1,7 +1,7 @@
-getIndex
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getIndex
+title: getIndex
 ---          
 
 @short:gets the current position of an item

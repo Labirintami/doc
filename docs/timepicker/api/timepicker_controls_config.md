@@ -1,7 +1,7 @@
-controls
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: controls
+title: controls
 ---          
 
 @short: defines whether a timepicker is equipped with the Close and Save buttons

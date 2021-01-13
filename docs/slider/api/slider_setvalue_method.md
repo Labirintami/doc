@@ -1,7 +1,7 @@
-setValue
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: setValue
+title: setValue
 ---          
 
 @short: sets a value for the slider

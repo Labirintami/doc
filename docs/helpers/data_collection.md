@@ -1,7 +1,7 @@
-Data Collection
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Data Collection
+title: Data Collection
 ---          
 
 A set of APIs that allow you to work with data of a component.

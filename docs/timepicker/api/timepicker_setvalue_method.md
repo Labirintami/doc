@@ -1,7 +1,7 @@
-setValue
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: setValue
+title: setValue
 ---          
 
 @short: sets value for a TimePicker

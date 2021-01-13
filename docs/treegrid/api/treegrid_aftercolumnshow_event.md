@@ -1,7 +1,7 @@
-afterColumnShow
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: afterColumnShow
+title: afterColumnShow
 ---          
 
 @short: fires after a column is shown

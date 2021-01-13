@@ -1,7 +1,7 @@
-getId
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getId
+title: getId
 ---          
 
 @short: returns the id of a tab by its index

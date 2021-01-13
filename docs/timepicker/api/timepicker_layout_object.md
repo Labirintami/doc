@@ -1,7 +1,7 @@
-layout
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: layout
+title: layout
 ---          
 
 @short: 

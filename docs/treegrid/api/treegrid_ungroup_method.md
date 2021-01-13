@@ -1,7 +1,7 @@
-ungroup
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: ungroup
+title: ungroup
 ---          
 
 @short: ungroups the grid to return it into the plain view

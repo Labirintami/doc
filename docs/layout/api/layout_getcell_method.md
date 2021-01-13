@@ -1,7 +1,7 @@
-getCell
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getCell
+title: getCell
 ---          
 
 @short: returns the config object of a cell

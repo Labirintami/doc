@@ -1,7 +1,7 @@
-dhtmlxTabbar API
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Tabbar API
+title: Tabbar API
 ---          
 
 Constructor

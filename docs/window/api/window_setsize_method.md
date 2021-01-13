@@ -1,7 +1,7 @@
-setSize
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: setSize
+title: setSize
 ---          
 
 @short: sets the size of a window

@@ -1,7 +1,7 @@
-paint
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: paint
+title: paint
 ---          
 
 @short: repaints Layout on a page

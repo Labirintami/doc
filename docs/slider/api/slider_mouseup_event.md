@@ -1,7 +1,7 @@
-mouseUp
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: mouseUp
+title: mouseUp
 ---          
 
 @short:

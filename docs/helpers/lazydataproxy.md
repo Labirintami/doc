@@ -1,7 +1,7 @@
-Dynamic Loading
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Dynamic Loading
+title: Dynamic Loading
 ---          
 
 {{pronote This functionality requires PRO version of the dhtmlxGrid (or DHTMLX suite) package.}}

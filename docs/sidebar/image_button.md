@@ -1,7 +1,7 @@
-ImageButton 
+ 
 ---
-sidebar_label: 
-title: 
+sidebar_label: ImageButton
+title: ImageButton
 ---          
 
 This is a button with an image. Unlike sidebar/button.md, it does not have a text label, but cal also have a badge with a number and can be two state.

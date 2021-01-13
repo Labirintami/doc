@@ -1,7 +1,7 @@
-dhtmlxSidebar API
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Sidebar API
+title: Sidebar API
 ---          
 
 ``` todo

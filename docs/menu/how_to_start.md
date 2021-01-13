@@ -1,7 +1,7 @@
-Initialization
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Initialization
+title: Initialization
 ---          
 
 To add dhtmlxMenu into an application, you need to take the following simple steps:

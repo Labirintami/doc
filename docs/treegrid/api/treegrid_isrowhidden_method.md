@@ -1,7 +1,7 @@
-isRowHidden
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: isRowHidden
+title: isRowHidden
 ---          
 
 @short: checks whether a row is hidden

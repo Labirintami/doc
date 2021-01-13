@@ -1,7 +1,7 @@
-Manipulating Radio Buttons
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Manipulating Radio Buttons
+title: Manipulating Radio Buttons
 ---          
 
 Enabling/Disabling Radio Buttons  

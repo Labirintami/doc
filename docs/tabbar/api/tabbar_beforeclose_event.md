@@ -1,7 +1,7 @@
-beforeClose
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: beforeClose
+title: beforeClose
 ---          
 
 @short: fires before closing a tab in Tabbar

@@ -1,7 +1,7 @@
-Separator 
+ 
 ---
-sidebar_label: 
-title: 
+sidebar_label: Separator
+title: Separator
 ---          
 
 ``` todo

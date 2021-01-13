@@ -1,7 +1,7 @@
-beforeHide
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: beforeHide
+title: beforeHide
 ---          
 
 @short:

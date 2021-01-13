@@ -1,7 +1,7 @@
-getValue
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: getValue
+title: getValue
 ---          
 
 @short: returns the current value of a TimePicker

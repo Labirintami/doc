@@ -1,7 +1,7 @@
-Step 1. Add a Window
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Step 1. Add a Window
+title: Step 1. Add a Window
 ---          
 
 Let’s see how to add a window on the page in two steps: 

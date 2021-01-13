@@ -1,7 +1,7 @@
-DHXButton
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: DHXButton
+title: DHXButton
 ---          
 
 ``` todo

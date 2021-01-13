@@ -1,7 +1,7 @@
-Methods
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Methods
+title: Methods
 ---          
 
 {{api

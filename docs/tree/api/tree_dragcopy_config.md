@@ -1,7 +1,7 @@
-dragCopy
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: dragCopy
+title: dragCopy
 ---          
 
 @short: 

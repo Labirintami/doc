@@ -1,7 +1,7 @@
-openAll
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: openAll
+title: openAll
 ---          
 
 @short: opens all closed tree items

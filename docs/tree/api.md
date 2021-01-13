@@ -1,7 +1,7 @@
-dhtmlxTree API
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Tree API
+title: Tree API
 ---          
 
 ``` todo

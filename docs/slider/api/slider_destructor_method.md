@@ -1,7 +1,7 @@
-destructor
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: destructor
+title: destructor
 ---          
 
 @short: removes a slider instance and releases occupied resources

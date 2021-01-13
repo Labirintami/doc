@@ -1,7 +1,7 @@
-click
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: click
+title: click
 ---          
 
 @short:

@@ -1,7 +1,7 @@
-Work with TimePicker
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Work with TimePicker
+title: Work with TimePicker
 ---          
 
 You can change the value of the TimePicker or get its current value via the related API methods.

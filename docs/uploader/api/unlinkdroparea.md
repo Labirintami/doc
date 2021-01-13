@@ -1,7 +1,7 @@
-unlinkDropArea
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: unlinkDropArea
+title: unlinkDropArea
 ---          
 
 @short: unlinks an extra drop area from Uploader

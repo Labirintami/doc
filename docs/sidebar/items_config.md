@@ -1,7 +1,7 @@
-Configuring Items
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Configuring Items
+title: Configuring Items
 ---          
 
 ``` todo

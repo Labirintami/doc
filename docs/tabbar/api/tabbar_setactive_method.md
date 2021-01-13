@@ -1,7 +1,7 @@
-setActive
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: setActive
+title: setActive
 ---          
 
 @short: sets an active tab

@@ -1,7 +1,7 @@
-Message
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Message
+title: Message
 ---          
 
 ```todo

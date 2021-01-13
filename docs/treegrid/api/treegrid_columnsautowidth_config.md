@@ -1,7 +1,7 @@
-columnsAutoWidth
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: columnsAutoWidth
+title: columnsAutoWidth
 ---          
 
 @short: 

@@ -1,7 +1,7 @@
-enable
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: enable
+title: enable
 ---          
 
 @short: enables disabled items of Sidebar

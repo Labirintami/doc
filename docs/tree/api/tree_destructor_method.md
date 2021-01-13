@@ -1,7 +1,7 @@
-destructor
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: destructor
+title: destructor
 ---          
 
 @short: releases the occupied resources

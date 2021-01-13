@@ -1,7 +1,7 @@
-Work with Popup
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Work with Popup
+title: Work with Popup
 ---          
 
 ``` todo

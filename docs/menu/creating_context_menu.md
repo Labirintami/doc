@@ -1,7 +1,7 @@
-Context Menu
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Context Menu
+title: Context Menu
 ---          
 
 ``` todo

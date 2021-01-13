@@ -1,7 +1,7 @@
-isFolder
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: isFolder
+title: isFolder
 ---          
 
 @short: 

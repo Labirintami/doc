@@ -1,7 +1,7 @@
-Pagination
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Pagination
+title: Pagination
 ---          
 
 ```js shielding

@@ -1,7 +1,7 @@
-Step 3. Add Form into Window 
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Step 3. Add Form into Window 
+title: Step 3. Add Form into Window 
 ---          
 
 ``` todo

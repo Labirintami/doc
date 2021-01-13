@@ -1,7 +1,7 @@
-afterSelect
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: afterSelect
+title: afterSelect
 ---          
 
 @short:

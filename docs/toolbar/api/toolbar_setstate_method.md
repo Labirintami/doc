@@ -1,7 +1,7 @@
-setState
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: setState
+title: setState
 ---          
 
 @short: sets values/states of controls

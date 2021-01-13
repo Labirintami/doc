@@ -1,7 +1,7 @@
-Default Icons
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Default Icons
+title: Default Icons
 ---          
 
 ``` todo

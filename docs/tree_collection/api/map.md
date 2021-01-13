@@ -1,7 +1,7 @@
-map
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: map
+title: map
 ---          
 
 @short:iterates through items

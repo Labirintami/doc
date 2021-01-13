@@ -1,7 +1,7 @@
-dhtmlxTimePicker API 
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: TimePicker API 
+title: TimePicker API 
 ---          
 
 Constructor

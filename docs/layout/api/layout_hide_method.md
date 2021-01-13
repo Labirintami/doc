@@ -1,7 +1,7 @@
-hide
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: hide
+title: hide
 ---          
 
 @short: hides a specified cell

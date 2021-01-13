@@ -1,7 +1,7 @@
-value
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: value
+title: value
 ---          
 
 ``` todo

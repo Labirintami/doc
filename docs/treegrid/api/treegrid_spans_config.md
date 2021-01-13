@@ -1,7 +1,7 @@
-spans
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: spans
+title: spans
 ---          
 
 @short: 

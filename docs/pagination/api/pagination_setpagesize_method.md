@@ -1,7 +1,7 @@
-setPageSize
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: setPageSize
+title: setPageSize
 ---          
 
 @short: sets the number of items displayed on a page of the related widget

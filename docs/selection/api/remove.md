@@ -1,7 +1,7 @@
-remove
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: remove
+title: remove
 ---          
 
 @short:

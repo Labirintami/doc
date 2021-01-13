@@ -1,7 +1,7 @@
-afterColumnDrop
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: afterColumnDrop
+title: afterColumnDrop
 ---          
 
 @short:

@@ -1,7 +1,7 @@
-Button 
+ 
 ---
-sidebar_label: 
-title: 
+sidebar_label: Button
+title: Button
 ---          
 
 ``` todo

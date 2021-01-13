@@ -1,7 +1,7 @@
-Touch Support
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Touch Support
+title: Touch Support
 ---          
 
 Since version 7.0 and upper, the dhtmlxSuite library provides the built-in Touch support that should work out of the box. As a result, the interaction with the DHTMLX-based apps on touch devices becomes more comfy and predictable. 

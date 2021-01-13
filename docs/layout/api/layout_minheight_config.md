@@ -1,7 +1,7 @@
-minHeight
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: minHeight
+title: minHeight
 ---          
 
 @short: the minimal height to be set for a cell

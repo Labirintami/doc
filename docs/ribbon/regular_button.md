@@ -1,7 +1,7 @@
-regularButton Control
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: regularButton Control
+title: regularButton Control
 ---          
 
 ``` todo

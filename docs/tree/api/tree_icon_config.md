@@ -1,7 +1,7 @@
-icon
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: icon
+title: icon
 ---          
 
 @short: 

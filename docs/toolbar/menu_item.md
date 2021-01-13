@@ -1,7 +1,7 @@
-MenuItem 
+ 
 ---
-sidebar_label: 
-title: 
+sidebar_label: MenuItem
+title: MenuItem
 ---          
 
 ``` todo

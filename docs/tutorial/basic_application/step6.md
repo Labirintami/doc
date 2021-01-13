@@ -1,7 +1,7 @@
-Step 6. Add a Chart
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: Step 6. Add a Chart
+title: Step 6. Add a Chart
 ---          
 
 It's time to add a chart on the page. 

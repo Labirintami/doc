@@ -1,7 +1,7 @@
-load
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: load
+title: load
 ---          
 
 @short:loads items from a file

@@ -1,7 +1,7 @@
-tabAlign
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: tabAlign
+title: tabAlign
 ---          
 
 @short: sets alignment for tabs

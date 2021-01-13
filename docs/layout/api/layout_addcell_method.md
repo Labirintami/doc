@@ -1,7 +1,7 @@
-addCell
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: addCell
+title: addCell
 ---          
 
 @short: adds a new cell into a layout

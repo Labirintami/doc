@@ -1,7 +1,7 @@
-updateFromResponse
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: updateFromResponse
+title: updateFromResponse
 ---          
 
 @short:  updates file attributes with data from a server response

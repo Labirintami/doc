@@ -1,7 +1,7 @@
-maxHeight
+
 ---
-sidebar_label: 
-title: 
+sidebar_label: maxHeight
+title: maxHeight
 ---          
 
 @short: the maximal height to be set for a cell
