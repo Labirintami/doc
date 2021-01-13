@@ -1,7 +1,6 @@
-Timepicker API
 ---
-sidebar_label: 
-title: 
+sidebar_label: Timepicker API
+title: Timepicker API
 ---          
 	
 <div class='h2'>Methods</div>
