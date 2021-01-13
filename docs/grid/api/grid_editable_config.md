@@ -1,7 +1,5 @@
-
 ---
-sidebar_label: editable
-title: editable
+sidebar_ditable
 ---          
 
 @short: enables editing in Grid columns

@@ -1,4 +1,3 @@
-
 ---
 sidebar_label: Data Collection
 title: Data Collection

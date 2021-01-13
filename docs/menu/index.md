@@ -1,4 +1,3 @@
-
 ---
 sidebar_label: Menu
 title: Menu

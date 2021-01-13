@@ -1,4 +1,3 @@
-
 ---
 sidebar_label: DataView API
 title: DataView API

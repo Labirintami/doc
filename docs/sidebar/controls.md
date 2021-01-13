@@ -1,4 +1,3 @@
-
 ---
 sidebar_label: List of Sidebar Controls
 title: List of Sidebar Controls

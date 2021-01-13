@@ -1,4 +1,3 @@
-
 ---
 sidebar_label: Default Icons
 title: Default Icons

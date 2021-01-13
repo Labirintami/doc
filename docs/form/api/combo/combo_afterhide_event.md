@@ -1,7 +1,5 @@
-
 ---
-sidebar_label: afterHide
-title: afterHide
+sidebar_fterHide
 ---          
 
 @short: fires after a control is hidden

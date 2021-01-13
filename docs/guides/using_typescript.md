@@ -1,4 +1,3 @@
-
 ---
 sidebar_label: Using DHTMLX with TypeScript
 title: Using DHTMLX with TypeScript

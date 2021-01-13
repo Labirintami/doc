@@ -1,7 +1,5 @@
-
 ---
-sidebar_label: getValue
-title: getValue
+sidebar_etValue
 ---          
 
 @short: returns the current value of a RadioGroup control

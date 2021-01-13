@@ -1,4 +1,3 @@
-
 ---
 sidebar_label: Ribbon
 title: Ribbon

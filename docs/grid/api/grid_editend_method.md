@@ -1,7 +1,5 @@
-
 ---
-sidebar_label: editEnd
-title: editEnd
+sidebar_ditEnd
 ---          
 
 @short: finishes editing in a cell

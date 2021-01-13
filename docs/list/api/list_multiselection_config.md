@@ -1,7 +1,5 @@
-
 ---
-sidebar_label: multiselection
-title: multiselection
+sidebar_ultiselection
 ---          
 
 @short: 

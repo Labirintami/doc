@@ -1,4 +1,3 @@
-
 ---
 sidebar_label: Window
 title: Window

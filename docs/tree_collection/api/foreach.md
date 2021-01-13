@@ -1,7 +1,5 @@
-
 ---
-sidebar_label: forEach
-title: forEach
+sidebar_orEach
 ---          
 
 @short: iterates over all items of a tree collection
