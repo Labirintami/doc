@@ -8,7 +8,8 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "serve": "docusaurus serve"
+    "serve": "docusaurus serve",
+    "parse": "node parser.js && docusaurus start"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.64",
@@ -29,5 +30,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "docusaurus-plugin-sass": "^0.1.11",
+    "fs-extra": "^9.1.0",
+    "globby": "^11.0.2",
+    "webpack-cli": "^4.4.0"
   }
 }
