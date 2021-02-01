@@ -1,0 +1,56 @@
+---
+sidebar_label: hide
+title: hide
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ hides items of Sidebar
+
+
+
+</Short>
+
+
+
+- ids 		string,array		optional, an ID or an array of IDs of items
+
+
+
+~~~js
+
+sidebar.hide("search");
+// several at a time
+sidebar.hide(["search","currentButton","edit"]);
+
+
+~~~
+ api_method
+
+<Descr>
+
+Starting from v7.0, it is possible to hide all items at once by using the method without the parameter:
+
+~~~js
+// hides all Sidebar items
+sidebar.hide();
+~~~
+
+
+
+</Descr>
+
+
+ sidebar/work_with_sidebar.md#hidingandshowingcontrols
+
+
+
+https://snippet.dhtmlx.com/5hsowdoy	Sidebar. Show/Hide
+
+
+
+

@@ -1,0 +1,38 @@
+---
+sidebar_label: abort
+title: abort
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ cancels the upload of a file(s)
+
+
+</Short>
+
+
+
+
+* id	 string 		optional, the ID of a file
+
+
+~~~js
+
+vault.uploader.abort("file_id");
+
+~~~
+ api_method
+
+<Descr>
+
+If the parameter isn't passed, the method cancels upload of all files in the queue.
+
+
+
+
+</Descr>
+

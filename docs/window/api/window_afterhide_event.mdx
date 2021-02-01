@@ -1,0 +1,62 @@
+---
+sidebar_label: afterHide
+title: afterHide
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+``` todo
+
+
+<Short>
+
+fires after a window is hidden
+
+
+</Short>
+
+
+
+- position  object      an object with coordinates of the window's position
+- events    Event       a native event object
+
+~~~js
+
+dhxWindow.events.on("AfterHide", function(position, events){
+    console.log("A window is hidden", events);
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+The <strong>position</strong> parameter contains two attributes:
+
+- <strong>left</strong> - (*number*)	the left coordinate of the window's position (in pixels)
+- <strong>top</strong> - (*number*)	the top coordinate of the window's position (in pixels)
+
+When the user closes the window by clicking on the Close icon (when the <a href="https://docs.dhtmlx.com/suite/window__api__window_closable_config.html">closable</a> option is enabled), the native event object will be passed into the second argument.
+
+<br/>
+Note, the event fires in 2 cases:
+
+1. While calling the [hide](/window/api/window_hide_method) method
+2. While the [closable](/window/api/window_closable_config) option is enabled and a user clicks on the Close icon
+
+
+
+</Descr>
+
+
+ https://snippet.dhtmlx.com/jfu4upwd	Window. Events
+
+ window/handling_events.md
+
+ 
+The <strong>position</strong> and <strong>events</strong> parameters have been added in v7.0.
+
+``` todo

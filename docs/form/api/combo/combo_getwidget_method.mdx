@@ -1,0 +1,47 @@
+---
+sidebar_label: getWidget
+title: getWidget
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ returns the dhtmlxComboBox widget attached to a Combo control
+
+
+
+
+</Short>
+
+
+
+param   object    the dhtmlxCombo widget
+
+~~~js
+
+var combo = form.getItem("combo").getWidget();  
+// -> dhtmlxComboBox
+
+
+~~~
+ api_method
+
+<Descr>
+
+It is possible to use methods of dhtmlxComboBox via the <strong>getWidget()</strong> method of a Combo control.
+
+For example, you can set focus in the Combo input without opening a popup with options. To do this, you need to get the widget attached to the Combo control and then use the [focus()](/combo/api/combobox_focus_method) method of this widget.
+
+~~~js
+var combo = form.getItem("combo_id").getWidget();  // -> ComboBox
+combo.focus(); // sets focus in the input
+~~~
+
+
+
+
+</Descr>
+

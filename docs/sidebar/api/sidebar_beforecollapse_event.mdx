@@ -1,0 +1,43 @@
+---
+sidebar_label: beforeCollapse
+title: beforeCollapse
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires before collapsing a sidebar
+
+
+
+</Short>
+
+
+
+param   boolean         false - to prevent collapsing a sidebar, otherwise - true
+
+~~~js
+
+sidebar.events.on("BeforeCollapse", function() {
+    // your logic here
+    return false;
+});
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+</Descr>
+
+
+ https://snippet.dhtmlx.com/qfddiu3i	Sidebar. Events
+
+ added in v6.4
+
+ sidebar/events.md

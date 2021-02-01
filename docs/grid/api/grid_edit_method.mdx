@@ -1,0 +1,53 @@
+---
+sidebar_label: edit
+title: edit
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ enables editing of a Grid cell
+
+
+
+</Short>
+
+
+
+- row 		string				the id of a row
+- col 		string 				the id of a column
+
+
+
+~~~js
+
+grid.edit(grid.data.getId(0),"project");
+
+
+~~~
+ api_method
+
+<Descr>
+
+
+
+
+</Descr>
+
+
+
+grid/03_usage/09_editing.html
+
+ grid/api/grid_editend_method.md
+
+
+added in v6.1
+
+ instead of it, you can use the [editCell()](/grid/api/grid_editcell_method) method:
+
+~~~js
+grid.editCell(grid.data.getId(0),"project");
+~~~

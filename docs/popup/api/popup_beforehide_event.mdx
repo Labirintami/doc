@@ -1,0 +1,50 @@
+---
+sidebar_label: beforeHide
+title: beforeHide
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+
+fires before a popup is hidden
+
+
+</Short>
+
+
+
+- fromOuterClick		boolean			true, for a click outside a popup, otherwise - false
+- e						Event			the native mouse event
+
+
+- result		boolean			true to hide a popup, false to block hiding a popup
+
+~~~js
+
+popup.events.on("BeforeHide", function(fromOuterClick,e){
+    console.log("A popup will be hidden");
+    return true;
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+The event is blockable. Return *false* to block hiding a popup.
+
+
+</Descr>
+
+
+
+https://snippet.dhtmlx.com/ro2lza9t	Popup. Events
+https://snippet.dhtmlx.com/aocef9cv	Popup. Prevent Hide
+
+
+ popup/event_handling.md

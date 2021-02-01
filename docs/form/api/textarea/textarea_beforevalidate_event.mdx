@@ -1,0 +1,45 @@
+---
+sidebar_label: beforeValidate
+title: beforeValidate
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires before the control value is validated
+ 
+
+
+</Short>
+
+
+
+- value       string  the value to be validated
+
+
+param   boolean     false - to cancel the default action of the event, otherwise true
+
+~~~js
+
+form.getItem("textarea").events.on("BeforeValidate", function(value) {
+    console.log("BeforeValidate", value);
+    return true;
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+</Descr>
+
+
+ form/api/textarea/textarea_validate_method.md
+
+ added in v7.0

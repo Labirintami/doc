@@ -1,0 +1,56 @@
+---
+sidebar_label: actions
+title: actions
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ 
+defines whether a timepicker is equipped with the Close and Save buttons
+
+
+
+</Short>
+
+
+<strong>Default value: </strong> 
+false
+
+
+
+<Type>
+ boolean
+
+
+</Type>
+
+
+~~~js
+ 
+var timepicker = new dhx.Timepicker("timepicker", {
+	actions: true
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+
+
+</Descr>
+
+
+ instead of it, you can use the timepicker/api/timepicker_controls_config.md property:
+~~~js
+var timepicker = new dhx.Timepicker("timepicker", {
+	controls: true
+});
+~~~
+
+

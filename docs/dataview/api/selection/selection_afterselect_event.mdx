@@ -1,0 +1,56 @@
+---
+sidebar_label: afterSelect
+title: afterSelect
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires after selecting an item
+
+
+
+</Short>
+
+
+
+- id    string  the id of an item
+
+
+
+
+~~~js
+
+dataview.selection.events.on("AfterSelect", function(id) {
+    console.log(id);
+});
+
+~~~
+ api_method
+
+<Descr>
+
+Starting from v7.0, you can also apply the simplified version of the event:
+
+~~~js
+dataview.events.on("AfterSelect", function(id) {
+    console.log(id);
+});
+~~~
+
+
+</Descr>
+
+
+ 
+dataview/api/selection/selection_enable_method.md
+dataview/api/dataview_selection_config.md 
+
+
+
+
+
+

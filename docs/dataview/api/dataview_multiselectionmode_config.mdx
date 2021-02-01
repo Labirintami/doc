@@ -1,0 +1,64 @@
+---
+sidebar_label: multiselectionMode
+title: multiselectionMode
+---
+
+import { Short, Type, Descr, Note } from '@site/src/components';
+
+          
+
+
+<Short>
+ 
+sets the mode of multiselection
+
+
+
+</Short>
+
+
+<strong>Default value: </strong> 
+"ctrlClick"
+"click","ctrlClick"
+
+
+<Type>
+ string
+
+
+</Type>
+
+
+~~~js
+ 
+var dataview = new dhx.DataView("dataview", {
+	multiselection:true,
+	multiselectionMode:"click"   
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+:::note
+This configuration option requires the dataview/api/dataview_multiselection_config.md property to be enabled.1
+:::
+
+
+</Descr>
+
+
+
+dataview/02_configuration/06_multiselection.html
+
+dataview/api/dataview_multiselection_config.md
+
+ use the dataview/api/dataview_multiselection_config.md property instead:
+
+~~~js
+var dataview = new dhx.DataView("dataview", {
+	multiselection:"ctrlClick"  
+});
+~~~

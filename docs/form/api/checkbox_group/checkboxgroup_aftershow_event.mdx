@@ -1,0 +1,40 @@
+---
+sidebar_label: afterShow
+title: afterShow
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires after a control is shown
+ 
+
+
+</Short>
+
+
+
+- value     object     the current value of the control. The object contains a set of <i>key:value</i> pairs where <i>key</i> is the id of a checkbox and <i>value</i> is the value/state of a checkbox.
+
+
+
+~~~js
+
+form.getItem("CheckboxGroup").events.on("AfterShow", function(value) {
+    console.log("AfterShow", value);
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+
+</Descr>
+

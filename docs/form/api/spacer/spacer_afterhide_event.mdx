@@ -1,0 +1,41 @@
+---
+sidebar_label: afterHide
+title: afterHide
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires after a control is hidden
+ 
+
+
+</Short>
+
+
+
+- value     undefined   the current value of the control, null
+- init      boolean     true, if the event is triggered on the control initialization
+
+
+~~~js
+
+form.getItem("spacer").events.on("AfterHide", function(value, init) {
+    console.log("AfterHide", value, init);
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+
+
+</Descr>
+

@@ -1,0 +1,80 @@
+---
+sidebar_label: isFolder
+title: isFolder
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ 
+defines whether an item should be rendered as a folder
+
+
+
+
+
+</Short>
+
+
+
+<Type>
+ function
+
+
+</Type>
+
+
+~~~js
+ 
+var tree = new dhx.Tree("tree", {isFolder: function() {
+	return true;
+}});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+The config option can be used to create custom folders in a tree.
+
+
+</Descr>
+
+
+ tree/02_configuration/03_custom_folders.html
+
+ tree/initialization_of_dhtmlxtree.md#initializetree
+tree/configuration.md#customfolders
+
+ instead of it, you can set the <strong>icon</strong> property in the [configuration of a tree item](/tree/api/tree_data_config) to render a tree item as a custom folder:
+
+~~~js
+var tree = new dhx.Tree("tree", {
+    data:[
+        {
+            "value": "Books",
+            "id": "Books",
+            "opened": true,
+			"items": [
+				{
+					"value": "Lawrence Block",
+					"id": "Lawrence Block",
+					"icon": { /*!*/
+						"folder": "fas fa-book", /*!*/
+						"openFolder": "fas fa-book-open", /*!*/
+						"file": "fas fa-file" /*!*/
+					}
+				}
+			]
+		},
+		{
+			"value": "Ian Rankin",
+			"id": "Ian Rankin"
+		}
+	]
+}
+~~~

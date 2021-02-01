@@ -1,0 +1,42 @@
+---
+sidebar_label: afterChangeProperties
+title: afterChangeProperties
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires after configuration attributes of the control have been changed dynamically
+
+
+
+</Short>
+
+
+
+- properties     object      an object with configuration attributes of the control and their new values
+
+~~~js
+
+form.getItem("text").events.on("AfterChangeProperties", function(properties) {
+    console.log("AfterChangeProperties", properties);
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+</Descr>
+
+
+ form/api/text/text_setproperties_method.md
+
+ added in v7.0
+

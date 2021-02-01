@@ -1,0 +1,63 @@
+---
+sidebar_label: data
+title: data
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ 
+specifies an array of data objects to set into Sidebar
+
+
+
+
+
+</Short>
+
+
+
+<Type>
+ array
+
+
+</Type>
+
+
+~~~js
+ 
+var sidebar = dhx.Sidebar("sidebar_container", {
+    data: [
+    	{
+			"id": "dashboard",
+            "value": "Dashboard",
+            "icon": "mdi mdi-view-dashboard"
+		},
+		{
+        	"id": "statistics",
+        	"value": "Statistics",
+        	"icon": "mdi mdi-chart-line"
+		}
+	]
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+
+
+</Descr>
+
+
+ 
+https://snippet.dhtmlx.com/y8y7iw42	Sidebar. Config Data
+https://snippet.dhtmlx.com/f4wo06yo	Sidebar. Init With External Data
+
+ sidebar/data_loading.md
+

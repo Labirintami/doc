@@ -1,0 +1,39 @@
+---
+sidebar_label: getItem
+title: getItem
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+
+returns the object of a selected item
+
+
+</Short>
+
+
+
+- item		object|array		the object of a selected item
+
+
+~~~js
+
+var item = tree.selection.getItem();
+// -> {value: "Books", id: "Books", opened: true, …}
+
+
+~~~
+ api_method
+
+<Descr>
+
+Starting from v7.0, the method can also return an array of selected items if the <strong>multiselection</strong> property of List or DataView is enabled.
+
+
+
+</Descr>
+

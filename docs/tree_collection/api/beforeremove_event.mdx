@@ -1,0 +1,46 @@
+---
+sidebar_label: beforeRemove
+title: beforeRemove
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires before removing an item from a tree collection
+	
+
+</Short>
+
+
+
+- removedItem		object			the object of an item to remove
+
+
+- result		boolean		true/false to remove/not remove an item from a data collection
+
+~~~js
+
+data.events.on("BeforeRemove", function(removedItem){
+	console.log("An item will be removed");
+    return true;
+});
+
+
+~~~
+	api_event
+
+<Descr>
+
+
+
+
+
+</Descr>
+
+
+tree_collection/api/afterremove_event.md
+	
+

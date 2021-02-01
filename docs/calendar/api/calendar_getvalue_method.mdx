@@ -1,0 +1,64 @@
+---
+sidebar_label: getValue
+title: getValue
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ returns the selected date
+
+
+
+</Short>
+
+
+
+- asDate	boolean		defines whether a date will be returned as a Date object
+
+
+- date		Date,Date[],string,string[]		the selected date
+
+
+~~~js
+
+
+var date = calendar.getValue(); // -> "03/06/19"
+
+var date = calendar.getValue(true); // -> Fri Jan 11 2019 18:09:15 GMT+0300
+
+// for a range calendar as an array of Date values 
+var date = calendar.getValue(true); 
+// -> [Mon Jun 03 2019 00:00:00 GMT+0300, Wed Jun 19 2019 00:00:00 GMT+0300]
+
+// for a range calendar as an array of string values 
+var date = calendar.getValue(); // ->  ["03/06/19", "19/06/19"]
+
+
+~~~
+ api_method
+
+<Descr>
+
+
+
+
+
+</Descr>
+
+
+
+
+
+
+calendar/api/calendar_setvalue_method.md
+
+
+calendar/operating_calendar.md#gettingselecteddate
+calendar/configuring.md#rangemode
+
+
+https://snippet.dhtmlx.com/k2vrfqj0	Calendar. Getting Selected Date

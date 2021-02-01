@@ -1,0 +1,52 @@
+---
+sidebar_label: beforeSend
+title: beforeSend
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires before a form is sent to the server
+	
+
+</Short>
+
+
+
+
+
+
+- result		boolean			true/false, to allow/forbid a form sending to the server
+
+~~~js
+
+form.events.on("BeforeSend", function(){
+   // your logic here
+   return true;
+});
+
+
+~~~
+	api_event
+
+<Descr>
+
+The event is blockable. Return *false* to prevent a form sending to the server.
+
+
+
+</Descr>
+
+
+ 
+form/api/form_aftersend_event.md
+form/api/form_send_method.md
+	
+
+
+
+
+ added in v6.1

@@ -1,0 +1,48 @@
+---
+sidebar_label: beforeEditEnd
+title: beforeEditEnd
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires before editing of a tree item is finished
+
+
+</Short>
+
+
+ 
+
+- value     string  the value of an item
+- id        string  the id of an item
+
+
+- result	boolean		false - to block closing of an editor, otherwise true
+
+
+~~~js
+
+tree.events.on("BeforeEditEnd", function(value, id) {
+    // your logic here
+    return false;
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+</Descr>
+
+
+ tree/05_events/01_events.html
+
+ added in v7.0
+

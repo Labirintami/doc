@@ -1,0 +1,42 @@
+---
+sidebar_label: modeChange
+title: modeChange
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires on changing the mode of the colorpicker
+
+
+</Short>
+
+
+
+- mode	string		the colorpicker mode ("palette", "picker")
+
+
+~~~js
+
+colorpicker.events.on("ModeChange", function(mode) {
+   console.log("Selected mode: " + mode); 
+});
+
+ 
+ 
+~~~
+ api_event
+
+<Descr>
+
+
+
+</Descr>
+
+
+ https://snippet.dhtmlx.com/fllgaabo	Colorpicker. Events
+
+ added in v6.4

@@ -1,0 +1,72 @@
+---
+sidebar_label: title
+title: title
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ specifies the title of the control group
+
+
+</Short>
+
+
+
+<Type>
+ string
+
+
+</Type>
+
+
+~~~js
+ 
+var form = new dhx.Form("form_container", {
+	css: "dhx_widget--bordered",
+	title: "Form", /*!*/ // title for rows
+    rows: [
+        {
+            title: "Controls", /*!*/ // title for cols
+            css: "dhx_layout-cell--bordered",
+            cols: [{
+                type: "checkbox",
+                label: "start",
+                name: "align",
+                labelInline: true,
+                value: "start",
+                checked: true
+            },
+            {
+                type: "checkbox",
+                label: "center",
+                name: "align",
+                labelInline: true,
+                value: "center"
+            }]
+        }
+    ]
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+
+
+
+</Descr>
+
+
+
+https://snippet.dhtmlx.com/1pzybtja	Form. Blocks
+
+ added in v6.4
+
+ form/how_to_start.md#initializeform
+form/configuration.md#title

@@ -1,0 +1,41 @@
+---
+sidebar_label: afterShow
+title: afterShow
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires after a control is shown
+ 
+
+
+</Short>
+
+
+
+- value     undefined     the current value of the control, null
+
+
+
+~~~js
+
+form.getItem("spacer").events.on("AfterShow", function(value) {
+    console.log("AfterShow", value);
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+
+
+</Descr>
+

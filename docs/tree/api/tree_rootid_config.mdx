@@ -1,0 +1,53 @@
+---
+sidebar_label: rootId
+title: rootId
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ sets the id for the root element
+
+
+
+
+
+
+</Short>
+
+
+
+<Type>
+ string
+
+
+</Type>
+
+
+~~~js
+ 
+const tree = new dhx.Tree("tree_container", {
+    rootId: "root"
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+By default, the root element takes the id of a Tree container.
+
+~~~js
+const tree = new dhx.Tree("tree_container");
+tree.data.getRoot() -> "tree_container"
+~~~
+
+
+</Descr>
+
+
+ added in v7.0

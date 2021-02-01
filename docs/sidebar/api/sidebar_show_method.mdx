@@ -1,0 +1,53 @@
+---
+sidebar_label: show
+title: show
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ shows items of Sidebar
+
+
+
+</Short>
+
+
+
+- ids 		string,array		optional, an ID or an array of IDs of items
+
+
+
+~~~js
+
+sidebar.show("search");
+// several at a time
+sidebar.show(["search","currentButton","edit"]);
+
+
+~~~
+ api_method
+
+<Descr>
+
+Starting from v7.0, it is possible to show all items on the page at once by using the method without the parameter:
+
+~~~js
+// shows all Sidebar items
+sidebar.show();
+~~~
+
+
+</Descr>
+
+
+ sidebar/work_with_sidebar.md#hidingandshowingcontrols
+
+ https://snippet.dhtmlx.com/5hsowdoy	Sidebar. Show/Hide
+
+
+
+

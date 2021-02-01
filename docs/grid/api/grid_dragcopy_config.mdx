@@ -1,0 +1,58 @@
+---
+sidebar_label: dragCopy
+title: dragCopy
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ 
+defines that a row is copied to a target during drag-n-drop
+
+
+
+
+
+</Short>
+
+
+
+<Type>
+ boolean
+
+
+</Type>
+
+
+~~~js
+ 
+var source = new dhx.Grid("grid-source", {
+    columns: [// columns config],
+    dragMode: "source", 
+    dragCopy: true
+});
+var target = new dhx.Grid("grid-target", {
+    columns: [// columns config],
+    dragMode: "target", 
+    dragCopy: true
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+
+
+</Descr>
+
+
+ https://snippet.dhtmlx.com/23slivyz	Grid. Setup Drag Copy
+
+ grid/initialization.md#initializegrid
+
+ grid/api/grid_dragmode_config.md

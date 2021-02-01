@@ -1,0 +1,69 @@
+---
+sidebar_label: on
+title: on
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ 
+adds handlers to DOM events of a cell
+
+
+</Short>
+
+
+
+<Type>
+ object
+
+
+</Type>
+
+
+~~~js
+ 
+// adds a click event handler to the element of a cell
+const layout = new dhx.Layout("layout_container", {
+	height: "100%", 
+	rows: [
+		{ 
+			html:"<div class='my-element' style='height:100%;width:100%'></div>", 
+			on: {
+				click: (event) => alert("my-element")
+			}
+		},
+	]
+});
+
+// or
+// adds a click event handler to the element inside a cell by selector
+const layout = new dhx.Layout("layout_container", {
+	height: "100%", 
+	rows: [
+		{ 
+			html:"<div class='my-element' style='height:100%;width:100%'></div>", 
+			on: {
+				click: {
+					".my-element": (event) => alert("my-element")
+				}
+			}
+		},
+	]
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+
+
+</Descr>
+
+
+ layout/init.md#initializelayout

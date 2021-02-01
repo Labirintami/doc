@@ -1,0 +1,67 @@
+---
+sidebar_label: getState
+title: getState
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ gets current values/states of controls
+
+
+
+</Short>
+
+
+
+- id    string|number   optional, the id of a Toolbar control
+
+
+
+- state		string|boolean|object		the value/state of the control, or an object with IDs of controls and their values/states
+
+
+~~~js
+
+var state1 = toolbar.getState("search"); 
+// -> "toolbar"
+
+var state2 = toolbar.getState(); 
+// -> {"search":"toolbar","edit":true,"align":"right"}
+
+
+~~~
+ api_method
+
+<Descr>
+
+Starting from v7.0, the method can return the value/state of the control by its id:
+
+~~~js
+var state1 = toolbar.getState("search"); // -> "toolbar"
+
+var state2 = toolbar.getState("edit"); // -> true/false
+~~~
+
+If id of a control is not passed to the method, the method returns an object with IDs of controls and their values/states:
+
+~~~js
+var state = toolbar.getState(); 
+// -> {"search":"toolbar","edit":true,"align":"right"}
+~~~
+
+
+
+</Descr>
+
+
+ https://snippet.dhtmlx.com/kvttdgad	Toolbar. Get State
+
+ toolbar/common_methods.md#settinggettingvaluesandstates
+
+
+The ability to pass the <strong>id</strong> parameter to the method is added in v7.0.
+

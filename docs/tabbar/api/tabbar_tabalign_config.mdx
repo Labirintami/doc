@@ -1,0 +1,59 @@
+---
+sidebar_label: tabAlign
+title: tabAlign
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ sets alignment for tabs
+
+
+
+</Short>
+
+
+
+"left" | "start" | "center" | "middle" | "right" | "end"
+
+
+
+<Type>
+ string
+
+
+</Type>
+
+
+~~~js
+ 
+var tabbar = new dhx.Tabbar("tabbar_container", {
+    views:[
+        { tab: "left", css:"panel flex", header:"Left"},
+        { tab: "west", css:"panel flex", header:"West"},
+        { tab: "east", css:"panel flex", header:"East"},
+        { tab: "right", css:"panel flex", header:"Right" }
+    ],
+    tabAlign: "right" /*!*/
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+
+
+</Descr>
+
+
+ added in v7.0
+
+ tabbar/02_configuration/09_tab_align.html
+
+ tabbar/configuring_tabbar.md#alignment
+

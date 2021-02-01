@@ -1,0 +1,46 @@
+---
+sidebar_label: getWidget
+title: getWidget
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ returns the dhtmlxTimePicker widget attached to a TimePicker control
+
+
+
+
+</Short>
+
+
+
+param   object    the dhtmlxTimePicker widget
+
+~~~js
+
+var timepicker = form.getItem("timepicker").getWidget();  
+// -> dhtmlxTimePicker
+
+
+~~~
+ api_method
+
+<Descr>
+
+It is possible to use methods of dhtmlxTimePicker via the <strong>getWidget()</strong> method of a TimePicker control.
+
+For example, you can set value for a TimePicker control. To do this, you need to get the widget attached to the TimePicker control and then use the [setValue()](/timepicker/api/timepicker_setvalue_method) method of this widget.
+
+~~~js
+var timepicker = form.getItem("timepicker").getWidget();  // -> TimePicker
+timepicker.setValue("00:39"); //set the value as a string
+~~~
+
+
+
+</Descr>
+

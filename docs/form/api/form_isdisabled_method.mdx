@@ -1,0 +1,51 @@
+---
+sidebar_label: isDisabled
+title: isDisabled
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ checks whether a form is disabled
+
+
+
+
+</Short>
+
+
+
+- param	boolean     true, if a form is disabled, otherwise false
+
+
+~~~js
+
+form.isDisabled(); // -> true/false
+
+
+~~~
+ api_method
+
+<Descr>
+
+To check whether a form control is disabled, pass either the name of the control or its id (if the name attribute is not defined in the config of the control) as a parameter to the <strong>isDisabled()</strong> method:
+
+~~~js
+form.isDisabled("combo"); // -> true/false
+~~~
+
+
+</Descr>
+
+
+ form/work_with_form.md#checkingifaformisdisabled
+
+ form/api/form_disable_method.md
+form/api/form_enable_method.md
+
+ added in v6.4
+
+ https://snippet.dhtmlx.com/lthu8p6p	Form. Is Disabled

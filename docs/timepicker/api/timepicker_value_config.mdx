@@ -1,0 +1,91 @@
+---
+sidebar_label: value
+title: value
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+``` todo
+
+
+<Short>
+ the time value to be set on initialization of the timepicker
+
+
+
+
+
+
+</Short>
+
+
+
+<Type>
+ Date|number|string|array|object
+
+
+</Type>
+
+
+~~~js
+
+// the value as a Date object 
+var timepicker = new dhx.Timepicker("timepicker", {
+	value: new Date()
+});
+
+// the value as a number
+var timepicker = new dhx.Timepicker("timepicker", {
+	value: 1232151545
+});
+
+// the value as a string
+var timepicker = new dhx.Timepicker("timepicker", {
+	value: "22:30"
+});
+
+// the value as an array
+var timepicker = new dhx.Timepicker("timepicker", {
+	value: [6,20,"AM"]
+});
+
+// the value as an object
+var timepicker = new dhx.Timepicker("timepicker", {
+	value: {hour: 10, minute: 50, AM: true}
+});
+
+
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+1\. The value of timepicker set as an <strong>array</strong> should have the following elements:
+
+- the hour value
+- the minutes value
+- the "AM/PM" identifier for 12-hour format as a string
+
+2\. The value set as an <strong>object</strong>:
+
+- for the 24-hour format contains *key:value* pairs for hours, minutes and their values: <br/>{hour: 0, minute: 39}
+- for the 12-hour format contains *key:value* pairs for hours, minutes, am/pm identifiers and their values: <br/>{hour: 6, minute: 0, AM: true}
+
+3\. The date set as a <strong>number</strong> is the number of milliseconds since January 1, 1970, 00:00:00 UTC returned by the [getTime()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime)
+method of the <strong>Date</strong> object.
+
+
+</Descr>
+
+
+ timepicker/02_configuration/03_value.html
+
+ timepicker/configuration.md#initialvalue
+
+ added in v7.0
+
+``` todo

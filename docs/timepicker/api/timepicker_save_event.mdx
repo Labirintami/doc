@@ -1,0 +1,47 @@
+---
+sidebar_label: save
+title: save
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+
+fires on saving the timepicker value
+
+
+
+
+</Short>
+
+
+~~~js
+
+timepicker.events.on("Save", function(){
+	console.log("The value of a timepicker "+timepicker.getValue()+ " has been saved");
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+
+</Descr>
+
+
+ timepicker/05_events/01_events.html
+
+ instead of it, use the timepicker/api/timepicker_apply_event.md event:
+
+~~~js
+timepicker.events.on("Apply", function(){
+	console.log("The value of a timepicker "+timepicker.getValue()+ " has been saved");
+});
+~~~

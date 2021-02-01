@@ -1,0 +1,52 @@
+---
+sidebar_label: Event Handling
+title: Event Handling
+---
+
+import { Note } from '@site/src/components';
+
+          
+
+## Attaching event listeners
+
+You can attach event listeners with the <strong>colorpicker.events.on()</strong> method:
+
+~~~js
+colorpicker.events.on("ModeChange", function(mode) {
+   console.log("Selected mode: " + mode); 
+});
+~~~
+
+:::note
+The names of events are case-insensitive.1
+:::
+
+https://snippet.dhtmlx.com/fllgaabo	Colorpicker. Events
+
+## Detaching event listeners
+
+To detach events, use <strong>colorpicker.events.detach()</strong>:
+
+~~~js
+colorpicker.events.on("ModeChange", function(mode) {
+   console.log("Selected mode: " + mode); 
+});
+
+colorpicker.events.detach("ModeChange");
+~~~
+
+## Calling events
+
+To call events, use <strong>colorpicker.events.fire()</strong>:
+
+~~~js
+colorpicker.events.fire("name",args);
+// where args is an array of arguments
+~~~
+
+## The list of events
+
+The full list of events is available in the related [API section](/colorpicker/api/refs/colorpicker_events).
+
+
+

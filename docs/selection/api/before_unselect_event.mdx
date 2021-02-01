@@ -1,0 +1,43 @@
+---
+sidebar_label: beforeUnSelect
+title: beforeUnSelect
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+
+	fires on unselecting an item, but before the item is really unselected
+
+
+</Short>
+
+
+
+- id		string		the id of an item
+
+
+- param		boolean		false - to prevent unselecting of an item, otherwise - true
+
+~~~js
+
+selection.events.on("BeforeUnSelect", function(id){
+    // your logic here
+    return false;
+});
+
+
+~~~
+	api_method
+
+<Descr>
+
+
+
+
+
+</Descr>
+

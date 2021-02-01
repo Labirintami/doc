@@ -1,0 +1,57 @@
+---
+sidebar_label: beforeSelect
+title: beforeSelect
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires on selecting an item, but before the item is really selected
+
+
+
+</Short>
+
+
+
+- id    string  the id of an item
+
+
+param   boolean     false - to prevent selecting of an item, otherwise - true
+
+
+~~~js
+
+tree.selection.events.on("BeforeSelect", function(id) {
+    console.log(id);
+    return false;
+});
+
+~~~
+ api_method
+
+<Descr>
+
+Starting from v7.0, you can also apply the simplified version of the event:
+
+~~~js
+tree.events.on("BeforeSelect", function(id) {
+    console.log(id);
+    return false;
+});
+~~~
+
+
+</Descr>
+
+
+ 
+tree/api/selection/selection_enable_method.md
+tree/api/tree_selection_config.md
+
+
+
+

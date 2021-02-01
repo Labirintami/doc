@@ -1,0 +1,58 @@
+---
+sidebar_label: validate
+title: validate
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ validates form fields
+
+
+
+</Short>
+
+
+
+- silent    boolean     optional, if true - the method will return the result of validation without calling validation events and without modifying the form visually
+
+
+
+- result	boolean 	the result of validation: true, if a form is valid, otherwise - false
+
+
+~~~js
+
+var result = form.validate(true); // -> true/false
+
+
+~~~
+ api_method
+
+<Descr>
+
+Starting with v7.0, the method validates only [the required fields or the fields that contain validation rules](/form/work_with_form#validatingform).
+
+Calling without the <strong>silent</strong> parameter, the method invokes the [BeforeValidate](/form/api/form_beforevalidate_event) and [AfterValidate](/form/api/form_aftervalidate_event) events and modifies the form visually.
+
+~~~js
+var result = form.validate(); // -> true/false
+~~~
+
+
+
+</Descr>
+
+
+
+https://snippet.dhtmlx.com/pmz0zk16	Form. Validate
+
+
+form/work_with_form.md#validatingform
+
+
+The <strong>silent</strong> parameter is added in v7.0.
+

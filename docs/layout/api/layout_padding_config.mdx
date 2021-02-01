@@ -1,0 +1,62 @@
+---
+sidebar_label: padding
+title: padding
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ 
+defines the distance between a cell and the border of layout
+
+
+
+
+
+</Short>
+
+
+
+<Type>
+ string,number
+
+
+</Type>
+
+
+~~~js
+ 
+var layout = new dhx.Layout("layout_container",{
+	padding: 10,
+	css: "dhx_layout-cell--bordered",
+	cols: [
+		{
+            padding: 10,
+            css: "dhx_layout-cell--bordered",
+            html: "First Block"
+        },
+        {
+            padding: 10,
+            css: "dhx_layout-cell--bordered",
+            html: "Second Block"
+        }
+    ]
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+
+
+</Descr>
+
+
+ layout/init.md#initializelayout
+
+ https://snippet.dhtmlx.com/tk6tpwwv	Layout. Padding

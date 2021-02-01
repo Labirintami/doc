@@ -1,0 +1,53 @@
+---
+sidebar_label: hide
+title: hide
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ hides an item of Ribbon
+
+
+
+</Short>
+
+
+
+- ids 		string,array	optional, an ID or an array of IDs of items
+
+
+
+~~~js
+
+ribbon.hide("save_btn");
+// several at a time
+ribbon.hide(["cancel_btn","del_btn"]);
+
+
+~~~
+ api_method
+
+<Descr>
+
+Starting from v7.0, it is possible to hide all items at once by using the method without the parameter:
+
+~~~js
+// hides all Ribbon items
+ribbon.hide();
+~~~
+
+
+</Descr>
+
+
+ https://snippet.dhtmlx.com/1jkf7954	Ribbon. Show/Hide Ribbon Item
+
+ ribbon/operating_ribbon.md#hidingandshowingcontrols
+
+
+
+

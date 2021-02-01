@@ -1,0 +1,72 @@
+---
+sidebar_label: groupBy
+title: groupBy
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ groups grid content either by values of the specified column or by the result of calculation
+
+
+
+</Short>
+
+
+
+- param    string|function   the id of the column or the rule of grouping     
+
+
+
+~~~js
+
+//Grouping by values of the specified column
+treegrid.groupBy("age");
+
+//Grouping by the result of calculation
+treegrid.groupBy(function (item) {
+	if (!item.area || item.area < 0) {
+		return "N.A.";
+	}
+	if (item.area < 25000) {
+		return "Small";
+	} else if (item.area < 60000) {
+		return "Medium";
+	}
+	return "Big";
+});
+
+
+~~~
+ api_method
+
+<Descr>
+
+
+The method takes one parameter, which can be:
+
+- <strong>id</strong> - (*string*) the id of the column 
+- a function with a rule of grouping data.The function returns the name of a group and takes one parameter:
+    - <strong>item</strong> - a data item
+
+
+You can set a template to the title of the group via the treegrid/api/treegrid_grouptitletemplate_config.md configuration option.
+
+
+
+</Descr>
+
+
+ treegrid/03_usage/15_group_by.html
+
+ treegrid/usage.md#groupingdata
+ treegrid/api/treegrid_grouptitletemplate_config.md
+treegrid/api/treegrid_ungroup_method.md
+
+
+
+added in v6.5
+

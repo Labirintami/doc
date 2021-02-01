@@ -1,0 +1,62 @@
+---
+sidebar_label: getSeries
+title: getSeries
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ returns an object with configuration of a specified series
+
+
+
+</Short>
+
+
+
+- id	string		the id of a series
+
+
+- series	object		 an object with configuration of a series
+
+
+~~~js
+
+var config = chart.getSeries("A");
+/* => 
+{
+    "strokeWidth": 2, "active": true,
+    "tooltip": true, "paddings": 5,
+    "color": "none", "fill": "none",
+    "pointType": "circle", "id": "A",
+    "value": "company A", "pointColor": "blue",
+    "type": "radar",
+    "scales": [
+        "radial"
+    ]
+}
+*/
+
+
+~~~
+ api_method
+
+<Descr>
+
+
+
+
+</Descr>
+
+
+
+chart/usage.md#gettingseriesconfiguration
+
+ https://snippet.dhtmlx.com/9jtscd9q	Chart. Get Series
+
+
+
+

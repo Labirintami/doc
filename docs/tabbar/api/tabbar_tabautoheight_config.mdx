@@ -1,0 +1,61 @@
+---
+sidebar_label: tabAutoHeight
+title: tabAutoHeight
+---
+
+import { Short, Type, Descr, Note } from '@site/src/components';
+
+          
+
+
+<Short>
+ defines whether the height of tabs is automatically adjusted to the height of the tabbar container
+
+
+
+
+
+
+</Short>
+
+
+
+<Type>
+ boolean
+
+
+</Type>
+
+
+~~~js
+ 
+var tabbar = new dhx.Tabbar("tabbar_container", {
+    views:[
+        { tab: "left", css:"panel flex", header:"Left"},
+        { tab: "west", css:"panel flex", header:"West"},
+        { tab: "east", css:"panel flex", header:"East"},
+        { tab: "right", css:"panel flex", header:"Right" }
+    ],
+    tabAutoHeight: true, /*!*/
+    mode: "right"
+});
+
+
+~~~
+	api_config
+
+<Descr>
+
+:::note
+The property can be applicable when [mode](/tabbar/api/tabbar_mode_config) is set to "right" or "left". 1
+:::
+
+
+</Descr>
+
+
+ added in v7.0
+
+ tabbar/02_configuration/08_tab_auto_height.html
+
+ tabbar/configuring_tabbar.md#autosizefortabs

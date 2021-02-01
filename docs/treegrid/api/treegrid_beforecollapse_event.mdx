@@ -1,0 +1,49 @@
+---
+sidebar_label: beforeCollapse
+title: beforeCollapse
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires before collapsing a treegrid
+	
+
+</Short>
+
+
+
+- rowId			string,number		the id of a collapsed row
+
+
+
+- result		boolean		false - to block collapsing a treegrid, otherwise true
+
+~~~js
+
+treeGrid.events.on("BeforeCollapse", function(rowId) {
+    // your logic here
+    return false;
+});
+
+
+~~~
+	api_event
+
+<Descr>
+
+
+
+
+
+
+</Descr>
+
+
+
+https://snippet.dhtmlx.com/sgwnxshe	TreeGrid. TreeGrid Events	
+
+ added in v6.4

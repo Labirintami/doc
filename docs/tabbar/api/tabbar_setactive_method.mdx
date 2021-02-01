@@ -1,0 +1,57 @@
+---
+sidebar_label: setActive
+title: setActive
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ sets an active tab
+
+
+
+</Short>
+
+
+
+- id 		string		the id of a tab
+
+
+
+~~~js
+
+var tabbar = new dhx.Tabbar("tabbar_container", {
+    mode: "top",            
+    views:[
+        { id: "1", tab: "tab-1", css:"panel flex"},
+        { id: "2", tab: "tab-2", css:"panel flex"},
+        { id: "3", tab: "tab-3", css:"panel flex"},
+        { id: "4", tab: "tab-4", css:"panel flex"}
+    ]
+});
+ 
+tabbar.setActive("2");
+
+
+~~~
+ api_method
+
+<Descr>
+
+
+
+</Descr>
+
+
+ https://snippet.dhtmlx.com/u9ryz38f	Tabbar. Set Active
+
+ tabbar/api/tabbar_getactive_method.md
+
+ tabbar/work_with_tabbar.md#settinggettingtheactivetab
+
+
+
+

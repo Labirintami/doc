@@ -1,0 +1,84 @@
+---
+sidebar_label: gravity
+title: gravity
+---
+
+import { Short, Type, Descr, Note } from '@site/src/components';
+
+          
+
+
+<Short>
+ 
+sets the "weight" of a cell in relation to other cells placed in the same row and within one parent
+
+
+
+
+</Short>
+
+
+
+<Type>
+ number
+
+
+</Type>
+
+
+~~~js
+ 
+var layout = dhx.Layout("layout_container", {
+	css: "dhx_widget--bordered",
+	rows: [
+		{
+			id: "1",
+			cols: [
+				{
+					id: "1.1",
+					css: "dhx_layout-cell--border_left dhx_layout-cell--border_right",
+					html: "1.1",
+                    gravity: 2 /*!*/
+				},
+				{
+					id: "1.2",
+					css: "dhx_layout-cell--border_left dhx_layout-cell--border_right",
+					html: "1.2",
+                    gravity: 1 /*!*/
+				},
+				{
+					id: "1.3",
+					css: "dhx_layout-cell--border_left dhx_layout-cell--border_right",
+					html: "1.3",
+                    gravity: 3 /*!*/
+				}
+			]
+		}
+    ]
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+:::note
+You can use the <strong>gravity</strong> property only when a cell has no specified sizes - width and height, otherwise - the property does not work.1
+::: 
+
+If you specify the property for a cell, its size will be adjusted regarding the sizes of the cells that are in the same row, within the same parent and have <strong>gravity</strong> in their configuration.  
+
+The negative number set as a value to the <strong>gravity</strong> property is equated to zero.  
+
+
+</Descr>
+
+
+
+layout/02_configuration/09_gravity.html
+
+ layout/init.md#initializelayout
+
+
+The property is updated in v7.0. For more information, see [Migration article](/migration/index#65270).

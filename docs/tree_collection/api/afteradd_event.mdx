@@ -1,0 +1,43 @@
+---
+sidebar_label: afterAdd
+title: afterAdd
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires after adding a new item into a tree collection
+	
+
+</Short>
+
+
+
+- newItem		object			the object of an added item
+
+
+~~~js
+
+data.events.on("AfterAdd", function(newItem){
+	console.log("A new item is added");
+});
+
+
+~~~
+	api_event
+
+<Descr>
+
+
+
+
+
+</Descr>
+
+
+tree_collection/api/beforeadd_event.md
+
+

@@ -1,0 +1,54 @@
+---
+sidebar_label: showAt
+title: showAt
+---
+
+import { Short, Descr, Note } from '@site/src/components';
+
+          
+
+
+<Short>
+ shows a context menu
+
+
+
+</Short>
+
+
+
+- element 			HTMLElement,Event,string		 	a master HTML element (or its id) or the mouse event that will trigger the context menu
+- direction 		string								a place where the context menu will be shown relative to the element
+
+
+
+~~~js
+
+var cmenu = new dhx.ContextMenu();
+document.querySelector('#menu').oncontextmenu = function(e) {
+    e.preventDefault();
+    cmenu.showAt("menu", 'right');    
+}
+
+
+~~~
+ api_method
+
+<Descr>
+
+:::note
+This is the method of [Context Menu](/menu/creating_context_menu).1
+:::
+
+
+</Descr>
+
+
+
+menu/creating_context_menu.md
+
+
+
+
+
+ https://snippet.dhtmlx.com/9xfpymlg	Menu. Show At

@@ -1,0 +1,54 @@
+---
+sidebar_label: cell
+title: cell
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ returns the config object of a cell
+
+
+
+</Short>
+
+
+
+- id	string		the id of a cell
+
+
+- config		object		the config object of a cell
+
+
+~~~js
+
+layout.cell("1");
+
+
+~~~
+ api_method
+
+<Descr>
+
+A returned object looks like this:
+
+~~~js
+{gravity: true, header: "Cell 1", id: "1"}
+~~~
+
+
+</Descr>
+
+
+ instead of it, you can use the layout/api/layout_getcell_method.md method:
+~~~js
+layout.getcell("toolbar");
+~~~
+
+
+
+
+

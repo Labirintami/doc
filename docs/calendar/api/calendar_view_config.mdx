@@ -1,0 +1,60 @@
+---
+sidebar_label: view
+title: view
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ 
+the mode of Calendar initialization
+
+
+</Short>
+
+
+
+"calendar","month","year","timepicker"
+
+<strong>Default value: </strong> 
+"calendar"
+
+
+
+<Type>
+ string
+
+
+</Type>
+
+
+~~~js
+ 
+var calendar = new dhx.Calendar("calendar_container", {
+    view: "month"
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+
+
+</Descr>
+
+
+
+calendar/configuring.md#calendarmodes
+
+
+ instead of it, you can use the calendar/api/calendar_mode_config.md property:
+~~~js
+var calendar = new dhx.Calendar("calendar_container", {
+    mode: "month"
+});
+~~~

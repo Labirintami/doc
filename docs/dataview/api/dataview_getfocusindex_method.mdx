@@ -1,0 +1,57 @@
+---
+sidebar_label: getFocusIndex
+title: getFocusIndex
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ returns the index of the item in focus
+
+
+
+</Short>
+
+
+
+
+
+
+- index		number		the index of the item in focus
+
+
+~~~js
+
+var index = dataview.getFocusIndex(); // -> 1
+
+
+~~~
+ api_method
+
+<Descr>
+
+
+
+</Descr>
+
+
+ To get the index of a DataView item in focus you can get the id of an item using the [getFocus()](/dataview/api/dataview_getfocus_method) method and pass this id as a parameter of the data_collection/api/getindex.md method of Data Collection:
+~~~js
+var id = dataview.getFocus();
+var index = dataview.data.getIndex(id);
+~~~
+
+But we recommend you to use the [getFocus()](/dataview/api/dataview_getfocus_method) method instead:
+
+~~~js
+dataview.getFocus();
+~~~
+
+
+
+
+
+

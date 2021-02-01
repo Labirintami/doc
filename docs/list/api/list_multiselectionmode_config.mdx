@@ -1,0 +1,64 @@
+---
+sidebar_label: multiselectionMode
+title: multiselectionMode
+---
+
+import { Short, Type, Descr, Note } from '@site/src/components';
+
+          
+
+
+<Short>
+ 
+sets the mode of multiselection
+
+
+
+</Short>
+
+
+
+<Type>
+ string
+
+</Type>
+
+
+<strong>Default value: </strong> "ctrlClick"
+"click","ctrlClick"
+
+~~~js
+ 
+var list = new dhx.List("list", {
+	multiselection:true,
+	multiselectionMode:"click"   
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+:::note
+This configuration option requires the list/api/list_multiselection_config.md property to be enabled.1
+:::
+
+
+</Descr>
+
+
+
+list/02_configuration/04_multiselection.html
+
+
+
+ list/configuration.md#multipleselectionofitems
+
+ use the list/api/list_multiselection_config.md property instead:
+
+~~~js
+var list = new dhx.List("list", {
+	multiselection:"ctrlClick"   
+});
+~~~

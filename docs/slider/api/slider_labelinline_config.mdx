@@ -1,0 +1,56 @@
+---
+sidebar_label: labelInline
+title: labelInline
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ 
+defines whether the label of a slider is rendered on the same level with the trackbar or above it
+
+
+
+</Short>
+
+
+<strong>Default value: </strong> 
+false
+
+
+
+<Type>
+ boolean
+
+
+</Type>
+
+
+~~~js
+ 
+var slider = new dhx.Slider("slider_container", { 
+   labelInline:true 
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+
+
+</Descr>
+
+
+ instead of it, use the slider/api/slider_labelposition_config.md property:
+
+~~~js
+var slider = new dhx.Slider("slider_container", { 
+   labelPosition:"left" 
+});
+~~~
+

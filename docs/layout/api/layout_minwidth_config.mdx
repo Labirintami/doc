@@ -1,0 +1,56 @@
+---
+sidebar_label: minWidth
+title: minWidth
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ the minimal width to be set for a cell
+
+
+
+
+
+
+</Short>
+
+
+
+<Type>
+ number,string
+
+
+</Type>
+
+
+~~~js
+ 
+var layout = new dhx.Layout("layout_container", {
+    cols: [
+      { header: "Cell header", minWidth: "400px"}
+    ]
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+In case both <strong>width</strong> and <strong>minWidth</strong> properties are set in the configuration of a cell, the <strong>minWidth</strong> option is a priority.
+
+
+</Descr>
+
+
+ added in v7.0
+
+
+layout/api/layout_width_config.md
+layout/api/layout_maxwidth_config.md
+
+ layout/cell_configuration.md#cellsize

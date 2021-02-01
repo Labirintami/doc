@@ -1,0 +1,50 @@
+---
+sidebar_label: setCell
+title: setCell
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ sets selection to a specified cell
+
+
+
+</Short>
+
+
+
+- row     object    an object with a cell to be selected
+- column  object    the config of a column
+
+
+
+~~~js
+
+var row = treegrid.data.getItem(treegrid.data.getId(0));
+var column = treegrid.getColumn("population");
+treegrid.selection.setCell(row, column);
+
+
+~~~
+ api_method
+
+<Descr>
+
+
+
+
+</Descr>
+
+
+ treegrid/usage_selection.md#settingselectiontoacell
+
+ 
+treegrid/api/selection/selection_enable_method.md
+treegrid/api/selection/selection_removecell_method.md
+
+
+

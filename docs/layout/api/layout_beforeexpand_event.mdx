@@ -1,0 +1,47 @@
+---
+sidebar_label: beforeExpand
+title: beforeExpand
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires before expanding a Layout cell
+
+
+</Short>
+
+
+
+- id		string		the id of a cell
+
+
+param       boolean     false - to block expanding a cell, otherwise true
+
+~~~js
+
+layout.events.on("BeforeExpand", function(id){
+	// your logic here
+    return false;
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+</Descr>
+
+
+ https://snippet.dhtmlx.com/fyxw0map	Layout. Events
+
+
+added in v6.4
+
+

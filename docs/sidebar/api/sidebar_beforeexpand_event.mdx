@@ -1,0 +1,44 @@
+---
+sidebar_label: beforeExpand
+title: beforeExpand
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires before expanding a sidebar
+
+
+</Short>
+
+
+ 
+param       boolean     false - to prevent expanding a sidebar, otherwise - false
+
+
+~~~js
+
+sidebar.events.on("BeforeExpand", function() {
+    // your logic here
+    return true;
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+</Descr>
+
+
+ https://snippet.dhtmlx.com/qfddiu3i	Sidebar. Events
+
+ added in v6.4
+
+ sidebar/events.md

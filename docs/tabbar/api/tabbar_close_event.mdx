@@ -1,0 +1,47 @@
+---
+sidebar_label: close
+title: close
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+
+fires on closing a tab
+
+
+</Short>
+
+
+
+- id 		string		the id of a closed tab
+
+
+~~~js
+
+tabbar.events.on("Close", function(id){
+    console.log(id);
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+</Descr>
+
+
+instead of it, you can use the tabbar/api/tabbar_afterclose_event.md event:
+
+~~~js
+tabbar.events.on("AfterClose", function(id){
+    console.log(id);
+});
+~~~
+

@@ -1,0 +1,57 @@
+---
+sidebar_label: keyNavigation
+title: keyNavigation
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ enables keyboard navigation in Grid
+
+
+
+
+</Short>
+
+
+
+<Type>
+ boolean
+
+
+</Type>
+
+
+<strong>Default value: </strong> true
+
+~~~js
+ 
+var grid = new dhx.Grid("grid", {
+	columns: [// columns config],
+	data: dataset,
+	selection: "complex", 
+    editing: true, 
+	keyNavigation: true /*!*/
+});
+
+~~~
+	api_config
+
+<Descr>
+ 
+You need to set the [selection](/grid/api/grid_selection_config) and [editable](/grid/api/grid_editable_config) properties in the configuration object of Grid to enable all available shortcut keys.  Read the details in the [Key Navigation](/grid/configuration#keyboardnavigation) article.
+
+
+
+</Descr>
+
+
+ https://snippet.dhtmlx.com/y9kdk0md	Grid. Key Navigation
+
+ grid/initialization.md#initializegrid
+grid/configuration.md#keyboardnavigation
+
+ added in v6.3

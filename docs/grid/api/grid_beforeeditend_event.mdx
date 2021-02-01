@@ -1,0 +1,53 @@
+---
+sidebar_label: beforeEditEnd
+title: beforeEditEnd
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires before editing of a cell is completed
+	
+
+</Short>
+
+
+
+- value			string		the new value of a cell
+- row			object		an object with a row configuration
+- column		object		an object with a column configuration
+
+
+
+- result	boolean		false - to prevent closing of an editor, otherwise true
+
+
+~~~js
+
+grid.events.on("BeforeEditEnd", function(value,row,column){
+	// your logic here
+    return false;
+});
+
+
+~~~
+	api_event
+
+<Descr>
+
+
+
+
+
+
+</Descr>
+
+
+
+https://snippet.dhtmlx.com/9zeyp4ds	Grid. Events	
+
+ added in v6.1
+

@@ -1,0 +1,55 @@
+---
+sidebar_label: addCell
+title: addCell
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ adds a new tab into a tabbar
+
+
+
+</Short>
+
+
+
+- view 		object		an object of a tab 
+- index 	number		the position to add a tab into
+
+
+
+~~~js
+
+tabbar.addCell({tab: "tab-" + nextTab++, css:"panel flex"}, 0);
+
+
+~~~
+ api_method
+
+<Descr>
+
+The <strong>view</strong> object may include the following properties:
+
+- <strong>tab</strong> - the name of a tab
+- <strong>tabCss</strong> - the name of the CSS class used for a tab
+- <strong>css</strong> - the name of the CSS class used for a cell
+- <strong>header</strong> - the header of a cell
+
+
+</Descr>
+
+
+ instead of it, you can use the tabbar/api/tabbar_addtab_method.md method:
+
+~~~js
+tabbar.addTab({tab: "tab-" + nextTab++, css:"panel flex"}, 0);
+~~~
+
+
+
+
+

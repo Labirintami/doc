@@ -1,0 +1,46 @@
+---
+sidebar_label: beforeChangeProperties
+title: beforeChangeProperties
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires before configuration attributes of a Form control are changed dynamically
+
+
+</Short>
+
+
+
+- name|id   string      the name (or id, if the name is not specified) of the Form control
+- properties     object      an object with configuration attributes of the control and their new values
+
+
+param   boolean     false - to cancel the default action of the event, otherwise true
+
+~~~js
+
+form.events.on("BeforeChangeProperties", function(name, properties) {
+    console.log("BeforeChangeProperties", name, properties);
+    return true;
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+</Descr>
+
+
+ form/api/form_setproperties_method.md
+
+ added in v7.0
+

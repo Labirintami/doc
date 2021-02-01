@@ -1,0 +1,42 @@
+---
+sidebar_label: click
+title: click
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+
+fires on clicking an item
+
+
+</Short>
+
+
+
+- id		string,number			the id of a clicked item
+- e			Event					a native event object
+
+
+~~~js
+
+list.events.on("Click", function(id, e){
+    console.log("The item with the id "+ list.selection.getId(id) +" was clicked.");
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+</Descr>
+
+
+ https://snippet.dhtmlx.com/iwt1yd61	List. List Events
+

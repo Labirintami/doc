@@ -1,0 +1,42 @@
+---
+sidebar_label: uploadFail
+title: uploadFail
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ fires if the file upload failed
+ 
+
+
+</Short>
+
+
+
+- file      object      the file object
+- value     array     the current value of the control 
+
+
+~~~js
+
+form.getItem("simpleVault").events.on("UploadFail", function(file, value) {
+    console.log("UploadFail", file, value);
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+</Descr>
+
+
+
+The <strong>value</strong> parameter is added in v7.0.

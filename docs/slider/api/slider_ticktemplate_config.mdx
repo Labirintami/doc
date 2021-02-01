@@ -1,0 +1,54 @@
+---
+sidebar_label: tickTemplate
+title: tickTemplate
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ 
+sets a template for rendering values on the scale
+
+
+
+
+
+</Short>
+
+
+
+<Type>
+ function
+
+
+</Type>
+
+
+~~~js
+ 
+var slider = new dhx.Slider("slider_container", { 
+	// v is the value of majorTick
+    tickTemplate: function(v){
+        return v + "°";
+    } 
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+
+
+
+</Descr>
+
+
+ slider/initializing_slider.md#configurationproperties
+slider/configuring_slider.md#scalesettings
+
+ https://snippet.dhtmlx.com/jsfxnplp	Slider. Custom Scale

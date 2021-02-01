@@ -1,0 +1,48 @@
+---
+sidebar_label: find
+title: find
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+
+finds the item that corresponds to the specified parameters
+
+
+</Short>
+
+
+
+- by 				string,function			the search criterion (either the key of the item attribute or a filtering function)
+- match 			string					the value of the item attribute
+
+
+
+- item		object		the object of the matching item
+
+~~~js
+
+//searching for an item by the attribute key
+var item = component.data.find({by:"text",match:"Manager"});
+
+//searching for an item by the function
+var item = component.data.find(function(item){
+	if(item.text==="Manager"||item.text==="Marketer"){return true}
+});
+
+~~~
+ api_method
+
+<Descr>
+
+
+
+</Descr>
+
+
+ https://snippet.dhtmlx.com/fpxhdc46	Data. Find
+

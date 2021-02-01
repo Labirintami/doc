@@ -1,0 +1,49 @@
+---
+sidebar_label: buttonClick
+title: buttonClick
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+
+fires after a click on a button in a form
+
+
+</Short>
+
+
+
+- id 	string	 	the ID of a clicked button
+- e 	Event 		a native event object
+
+
+~~~js
+
+form.events.on("ButtonClick", function(id,e){
+    console.log(id);
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+</Descr>
+
+
+ https://snippet.dhtmlx.com/vyipsaoa	Form. Events
+
+ Instead of it, you can use the [click](/form/api/form_click_event) event:
+
+~~~js
+form.events.on("Click", function(name, events) {
+    console.log("Click", name, events); 
+});
+~~~

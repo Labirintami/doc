@@ -1,0 +1,45 @@
+---
+sidebar_label: remove
+title: remove
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+
+	unselects a previously selected item
+
+
+</Short>
+
+
+
+- id		string,number		optional, the id of an item
+
+
+- result		boolean			<i>true</i> if an item is unselected, otherwise <i>false</i>
+
+~~~js
+
+tree.selection.remove("1"); // -> true
+
+
+
+~~~
+	api_method
+
+<Descr>
+
+Starting from v7.0, the method unselects all previously selected items when calling without parameters:
+
+~~~js
+tree.selection.remove();
+~~~
+
+
+
+</Descr>
+

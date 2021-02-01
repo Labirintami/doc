@@ -1,0 +1,47 @@
+---
+sidebar_label: editEnd
+title: editEnd
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ finishes editing in a cell
+
+
+
+</Short>
+
+
+
+- withoutSave	boolean    defines whether the edited data will be saved after the editing of a cell is complete. If set to <i>true</i>, the edited data won't be saved. 
+
+
+~~~js
+
+treegrid.editEnd(); // the edited data will be saved
+
+treegrid.editEnd(true); // the edited data won't be saved
+
+
+~~~
+ api_method
+
+<Descr>
+
+The method works with [any type of cell editors](/treegrid/configuration#columneditors), except for <strong>checkbox</strong>. 
+
+
+
+</Descr>
+
+
+ treegrid/api/treegrid_editcell_method.md
+
+ treegrid/usage.md#editingdata, 
+
+ added in v6.3
+

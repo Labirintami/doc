@@ -1,0 +1,51 @@
+---
+sidebar_label: Event Handling
+title: Event Handling
+---
+
+import { Note } from '@site/src/components';
+
+          
+
+## Attaching event listeners
+
+You can attach event listeners with the <strong>popup.events.on()</strong> method:
+
+~~~js
+popup.events.on("Click", function(e){
+    console.log("The popup was clicked");
+});
+~~~
+
+:::note
+The names of events are case-insensitive.1
+:::
+
+https://snippet.dhtmlx.com/ro2lza9t	Popup. Events
+
+## Detaching event listeners
+
+To detach events, use <strong>popup.events.detach()</strong>:
+
+~~~js
+popup.events.on("Click", function(e){
+    console.log("The popup was clicked");
+});
+
+popup.events.detach("Click");
+~~~
+
+## Calling events
+
+To call events, use <strong>popup.events.fire()</strong>:
+
+~~~js
+popup.events.fire("name",args);
+// where args is an array of arguments
+~~~
+
+## The list of events
+
+The full list of events is available in the related [API section](/popup/api/refs/popup_events).
+
+

@@ -1,0 +1,42 @@
+---
+sidebar_label: change
+title: change
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+
+fires on changing the active tab
+
+
+</Short>
+
+
+
+- activeId		string		the id of a newly active tab
+- prevId 		string		the id of a previously active tab
+
+
+~~~js
+
+tabbar.events.on("Change", function(activeId, prevId){
+    console.log(activeId);
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+</Descr>
+
+
+ https://snippet.dhtmlx.com/dld2qo1m	Tabbar. Events
+

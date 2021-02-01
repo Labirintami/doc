@@ -1,0 +1,60 @@
+---
+sidebar_label: value
+title: value
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+``` todo
+
+
+<Short>
+ specifies the values that will appear in the input on initialization of the combobox
+
+
+
+</Short>
+
+
+
+<Type>
+ string, array
+
+
+</Type>
+
+
+~~~js
+ 
+var combobox = new dhx.Combobox("combobox", {
+    multiselection: true,
+    value: ["austria", "estonia"] /*!*/
+});
+
+// or
+var combobox = new dhx.Combobox("combobox", {
+    value: "austria" /*!*/
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+
+- If *multiselection:true* is set for a combo, the property takes an array of string values as:<br/> *value: ["1","2","3"]*,
+- If *multiselection:false* is set or the *multiselection* config is not defined, the property gets either of the two values: *value:"1"* or *value: ["1"]*
+
+</Descr>
+
+
+ combo/configuration.md#initialvalue
+
+ combobox/02_configuration/09_initial_value.html
+
+ added in v7.0
+
+``` todo

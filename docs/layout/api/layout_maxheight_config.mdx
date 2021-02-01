@@ -1,0 +1,56 @@
+---
+sidebar_label: maxHeight
+title: maxHeight
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ the maximal height to be set for a cell
+
+
+
+
+
+
+</Short>
+
+
+
+<Type>
+ number,string
+
+
+</Type>
+
+
+~~~js
+ 
+var layout = new dhx.Layout("layout_container", {
+    cols: [
+      { header: "Cell header", maxHeight: "100px"}
+    ]
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+In case both <strong>height</strong> and <strong>maxHeight</strong> properties are set in the configuration of a cell, the <strong>maxHeight</strong> option is a priority.
+
+
+</Descr>
+
+
+ added in v7.0
+
+
+layout/api/layout_height_config.md
+layout/api/layout_minheight_config.md
+
+ layout/cell_configuration.md#cellsize

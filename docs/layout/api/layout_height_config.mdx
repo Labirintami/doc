@@ -1,0 +1,65 @@
+---
+sidebar_label: height
+title: height
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ 
+sets the height of a cell
+
+
+
+
+
+</Short>
+
+
+
+<Type>
+ string|number
+
+
+</Type>
+
+
+~~~js
+ 
+var layout = new dhx.Layout("layout_container", {
+    cols: [
+      { header: "Cell header", height: "300px" }
+    ]
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+Starting from v7.0, the height of a cell can be automatically adjusted to the height of its content. For that, set the <strong>height</strong> configuration option to *"content"*:
+
+~~~js
+var layout = new dhx.Layout("layout_container", {
+    cols: [
+      { header: "Cell header", height: "content" } /*!*/
+    ]
+});
+~~~
+
+
+</Descr>
+
+
+ https://snippet.dhtmlx.com/miej9gb9	Layout. Sizes
+
+ layout/init.md#initializelayout
+layout/cell_configuration.md#cellsize
+
+ 
+layout/api/layout_minheight_config.md
+layout/api/layout_maxheight_config.md

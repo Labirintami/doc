@@ -1,0 +1,48 @@
+---
+sidebar_label: afterShow
+title: afterShow
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+
+fires after a window is shown
+
+
+</Short>
+
+
+
+- position  object      an object with coordinates of the window's position
+
+~~~js
+
+dhxWindow.events.on("AfterShow", function(position){
+    console.log("A window is shown");
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+The <strong>position</strong> parameter contains two attributes:
+
+- <strong>left</strong> - (*number*)	the left coordinate of the window's position (in pixels)
+- <strong>top</strong> - (*number*)	the top coordinate of the window's position (in pixels)
+
+
+</Descr>
+
+
+ https://snippet.dhtmlx.com/jfu4upwd	Window. Events
+
+ window/handling_events.md
+
+ 
+The <strong>position</strong> parameter has been added in v7.0.

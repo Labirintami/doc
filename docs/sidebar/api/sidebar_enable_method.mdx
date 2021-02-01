@@ -1,0 +1,54 @@
+---
+sidebar_label: enable
+title: enable
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ enables disabled items of Sidebar
+
+
+
+</Short>
+
+
+
+- ids 		string,array		optional, one ID or an array of IDs of items
+
+
+
+~~~js
+
+sidebar.enable("search");
+// several at a time
+sidebar.enable(["search", "currentButton", "edit"]);
+
+
+~~~
+ api_method
+
+<Descr>
+
+Starting from v7.0, it is possible to enable all items at once by using the method without the parameter:
+
+~~~js
+// enables all Sidebar items
+sidebar.enable();
+~~~
+
+
+
+
+</Descr>
+
+
+
+https://snippet.dhtmlx.com/ea9fywne	Sidebar. Enable/Disable
+
+
+
+ sidebar/work_with_sidebar.md#disablingandenablingcontrols

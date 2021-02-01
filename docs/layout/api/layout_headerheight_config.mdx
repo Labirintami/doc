@@ -1,0 +1,67 @@
+---
+sidebar_label: headerHeight
+title: headerHeight
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ 
+sets the height of a Layout cell
+
+
+
+</Short>
+
+
+<strong>Default value: </strong>  37
+
+
+<Type>
+ number
+
+
+</Type>
+
+
+~~~js
+ 
+var layout = new dhx.Layout("layout", {
+    rows: [
+        {
+            id: "row1"
+        },
+        {
+            id: "row2",
+	        headerHeight: 80
+        }
+    ]
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+If the layout/api/layout_header_config.md property is not set in the config of a cell, the <strong>headerHeight</strong> option will add a header without text for a cell.
+
+
+
+</Descr>
+
+
+ https://snippet.dhtmlx.com/bxqnzesl	Layout. Header
+
+ 
+layout/api/layout_header_config.md
+layout/api/layout_headericon_config.md
+layout/api/layout_headerimage_config.md
+
+ added in v6.4
+
+ layout/init.md#initializelayout
+layout/cell_configuration.md#heightofaheadercell

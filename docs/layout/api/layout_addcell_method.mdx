@@ -1,0 +1,66 @@
+---
+sidebar_label: addCell
+title: addCell
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ adds a new cell into a layout
+
+
+
+</Short>
+
+
+
+- config	object		the config object of a cell
+- index		number		the position to add a cell into
+
+
+- param	any
+
+
+~~~js
+
+layout.addCell({
+    header:"The header of a new cell"
+});
+
+
+~~~
+ api_method
+
+<Descr>
+
+The full list of properties of a cell configuration object:
+
+- <strong>id</strong> - (*string*) the id of a cell
+- <strong>html</strong> - (*string*) sets HTML content for a cell
+- <strong>hidden</strong> - (*boolean*) defines whether a cell is hidden
+- <strong>header</strong> - (*string*) the text of the header of a cell
+- <strong>headerIcon</strong> - (*string*) an icon used in the header of a cell
+- <strong>headerImage</strong> - (*string*) an image used in the header of a cell
+- <strong>width</strong> - (*string*) sets the width of a cell
+- <strong>height</strong> - (*string*) sets the height of a cell
+- <strong>css</strong> - (*string*) the name of a CSS class applied to a cell
+- <strong>collapsable</strong>  - (*boolean*) defines whether a cell can be collapsed 
+- <strong>resizable</strong> - (*boolean*) defines whether a cell can be resized
+- <strong>collapsed</strong> - (*boolean*) defines whether a cell is collapsed 
+- <strong>align</strong> - (*string*) sets the alignment of content inside a cell
+- <strong>gravity</strong> - (*boolean*) arranges content evenly throughout the cell
+- <strong>padding</strong> - (*string*) defines the distance between cells
+
+
+
+
+
+</Descr>
+
+
+
+
+

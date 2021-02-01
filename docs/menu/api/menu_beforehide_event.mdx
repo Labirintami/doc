@@ -1,0 +1,43 @@
+---
+sidebar_label: beforeHide
+title: beforeHide
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+
+fires before hiding an item of Menu
+
+
+</Short>
+
+
+
+- id 		string		the ID of a menu item
+- e         Event       a native event object
+
+
+- result        boolean     false - to prevent hiding of a menu item, otherwise - true
+
+~~~js
+
+menu.events.on("BeforeHide", function(id, event){
+    // your code here
+    return false;
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+
+</Descr>
+

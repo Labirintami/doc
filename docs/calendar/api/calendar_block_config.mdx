@@ -1,0 +1,71 @@
+---
+sidebar_label: block
+title: block
+---
+
+import { Short, Type, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+ 
+allows disabling some date intervals, day labels are dimmed
+
+
+
+
+
+</Short>
+
+
+
+<Type>
+ function
+
+
+</Type>
+
+
+~~~js
+ 
+var block = [ new Date(2019,0,8), new Date(2019,0,10) ];
+
+var calendar = new dhx.Calendar("calendar_container",{
+	block : function(date) {
+		return date > block[0] && date < block[1];
+	}
+});
+
+
+~~~
+	api_config
+
+<Descr>
+ 
+The function passed to the method receives one parameter:
+
+- <strong>date</strong> (*Date*) - a date object 
+
+and must return a boolean value to define whether a passed date should be blocked (if *true*, the date is inactive).
+
+
+</Descr>
+
+
+
+calendar/04_customization/04_blocked.html
+
+
+calendar/configuring.md#disableddates
+
+ instead of it, you can use the calendar/api/calendar_disableddates_config.md property:
+~~~js
+var disabledDates = [ new Date(2019,0,8), new Date(2019,0,10) ];
+
+var calendar = new dhx.Calendar("calendar_container",{
+	disabledDates : function(date) {
+		return date > disabledDates[0] && date < disabledDates[1];
+	}
+});
+~~~

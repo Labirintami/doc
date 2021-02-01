@@ -1,0 +1,46 @@
+---
+sidebar_label: doubleClick
+title: doubleClick
+---
+
+import { Short, Descr } from '@site/src/components';
+
+          
+
+
+<Short>
+
+fires on double clicking an item
+
+
+</Short>
+
+
+
+- id 	string,number 		the id of a clicked item
+- e 	Event 				a native event object
+
+
+~~~js
+
+dataview.events.on("DoubleClick", function(id, e){
+   console.log("The item "+ dataview.selection.getId(id) +" was double clicked.");
+});
+
+
+~~~
+ api_event
+
+<Descr>
+
+
+
+
+</Descr>
+
+
+
+https://snippet.dhtmlx.com/2d74uyoh	Dataview. Dataview Events
+
+
+ added in v6.1
