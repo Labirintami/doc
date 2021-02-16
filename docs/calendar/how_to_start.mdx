@@ -3,8 +3,6 @@ sidebar_label: Initialization
 title: Initialization
 ---
 
-```todo
-
 To use dhtmlxCalendar in your application, you need to take the following simple steps:
 
 - [Download the dhtmlxCalendar package](https://dhtmlx.com/docs/products/dhtmlxCalendar/download.shtml) and unpack it into a folder of your project
@@ -30,14 +28,14 @@ To use dhtmlxCalendar in your application, you need to take the following simple
 </html>
 ~~~
 
-https://snippet.dhtmlx.com/xcw19e52	Calendar. Basic Initialization
+{{editor    https://snippet.dhtmlx.com/xcw19e52	Calendar. Basic Initialization}}
 
 Include source files
 ----------------------------
 
 Create an HTML file and place full paths to JS and CSS files of dhtmlxCalendar into the header of the created file. The Calendar component can be used standalone or as a part of the Suite library.
 
-<strong>If you use dhtmlxCalendar standalone</strong>, you need to include 2 files:
+**If you use dhtmlxCalendar standalone**, you need to include 2 files:
 
 - *calendar.js*
 - *calendar.css*
@@ -47,7 +45,7 @@ Create an HTML file and place full paths to JS and CSS files of dhtmlxCalendar i
 <script src="../codebase/calendar.js" type="text/javascript"></script>
 ~~~
 
-<strong>If you use dhtmlxCalendar as a part of the Suite package</strong>, you need to include JS/CSS files of the dhtmlxSuite library:
+**If you use dhtmlxCalendar as a part of the Suite package**, you need to include JS/CSS files of the dhtmlxSuite library:
 
 - suite.js
 - suite.css
@@ -83,13 +81,13 @@ var calendar = new dhx.Calendar("calendar_container",{
 });
 ~~~
 
-https://snippet.dhtmlx.com/xcw19e52	Calendar. Basic Initialization
+{{editor    https://snippet.dhtmlx.com/xcw19e52	Calendar. Basic Initialization}}
 
 <h3 id="initinpopup">Initialization in a popup</h3>
 
-This variant pressupposes that you create a popup first and then attach a calendar into it, thus creating a [date picker](/calendar/datepicker).
+This variant pressupposes that you create a popup first and then attach a calendar into it, thus creating a [date picker](calendar/datepicker.md).
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="calendar/date_picker.png" alt="date_picker">
+<img style="margin: 0px 0px 0px 20px; display: block;" src="calendar/date_picker.png" alt="date_picker" />
 
 - create an input to enter a date into and give it the id "date-input":
 
@@ -128,7 +126,7 @@ calendar.events.on("change", function() {
 });
 ~~~
 
-https://snippet.dhtmlx.com/mj7jr6ro	Calendar. Date Picker
+{{editor    https://snippet.dhtmlx.com/mj7jr6ro	Calendar. Date Picker}}
 
 ### Configuration properties
 
@@ -182,7 +180,4 @@ calendar.setValue(new Date(2019,1,10));
 ~~~
 
 
-https://snippet.dhtmlx.com/vmg11002	Calendar. Preset Selected Date
-
-
-```todo
+{{editor    https://snippet.dhtmlx.com/vmg11002	Calendar. Preset Selected Date}}
