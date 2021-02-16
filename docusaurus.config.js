@@ -1,3 +1,74 @@
+const path = require('path');
+
+const AT_NOTATION_KEYS = {
+    short: 'Short',
+    type: 'Type',
+    descr: 'Descr'
+};
+
+const COMPONENTS_PATH = '@site/src/components';
+
+let components = {};
+let metaDescription = '';
+
+const wrapDataWithComponent = (data, componentName) => {
+    return componentName ? `\n<${componentName}>\n${data}\n\n</${componentName}>\n\n` : data;
+}
+
+const onAtNotationMatch = (data, { key }) => {
+    const componentName = AT_NOTATION_KEYS[key];
+    if (componentName) {
+        components[componentName] = componentName;
+    }
+
+    switch(key) {
+        case 'default':
+            return `<strong>Default value: </strong> ${data}`;
+        case 'example':
+            return `~~~js\n${data}\n~~~`;
+        case 'metadescr':
+            metaDescription = data.replace(/^(?:\n*)(.+)(?:\n|.)*/, '$1');
+            return '';
+        default:
+            return componentName 
+                ? wrapDataWithComponent(data, componentName)
+                : data;
+    }
+};
+
+const onBraceNotationMatch = (data, { key, fullMatch }) => {
+    switch(key) {
+        case 'note':
+            return `:::note\n${data}1\n:::`;
+        case 'pronote':
+            return `:::danger Pro Note\n${data}\n:::`;
+        case 'editor':
+            return data;
+        default:
+            return fullMatch;
+    }
+};
+
+const onAfterDataTransformation = (data) => {
+    const allAvailableComponents = Object.values(components);
+    let transformedData = data;
+
+    if (allAvailableComponents.length !== 0) {
+      const imports = `import { ${allAvailableComponents.join(', ')} } from '${COMPONENTS_PATH}';\n\n`
+      const isTitles = /---((?:\r?\n|\r)|.)+?---/.test(transformedData);
+      transformedData = isTitles ? transformedData.replace(/^(---((?:\r?\n|\r)|.)+?---)/, `$1\n\n${imports}`) : imports + transformedData;
+    };
+
+    if (metaDescription) {
+        transformedData = transformedData.replace(/^(---\s*\n)((?:\n|.)+?)(---\s*?\n)/, `$1$2description: ${metaDescription}\n$3`);
+    }
+
+    components = {};
+    metaDescription = '';
+
+    return transformedData;
+};
+
 module.exports = {
     title: 'DHTMLX RichText Documentation',
     tagline: 'DHTMLX RichText Documentation',
@@ -173,6 +244,14 @@ module.exports = {
         ],
     ],
     plugins: [
-        'docusaurus-plugin-sass'
+        'docusaurus-plugin-sass',
+        [
+            path.resolve(__dirname, './plugins/cusom-md-data-transformer-plugin'),
+            {
+                onBraceNotationMatch,
+                onAtNotationMatch,
+                onAfterDataTransformation
+            }
+        ]
     ]
 };
