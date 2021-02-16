@@ -1,3 +1,25 @@
+const normalizeNewline = require('normalize-newline');
+const { parse, HTMLElement } = require('node-html-parser');
+const convert = require('./htmlToJsx');
+
+// TODO Write test for regexp
+// TODO Later you need to take out this parser as a separate package
+// TODO Add comments to the methods
+// **<text>**
+const MD_BOLD_TEXT_REGEXP = /\*\*(.+?)\*\*/g;
+
+// [text](<route><.md>#<route>) or [text](<route>/<route><.md>)
+// e.g. '[autoWidth](grid/configuration.md#autowidthforcolumns)'
+const MD_LINK_REGEXP = /(\[.+?\])\(([^\s]+?)(\.md)([^\s]*?)\)/g;
+
+// @<text>:
+// e.g. '@short:' or '@short: sends a DELETE request to the server'
+const AT_NOTATION_MATCH_REGEXP = /^@(\w+):(.*)/;
+
+// {{<text> \n|\s <text> \n\s }}
+// e.g {{editor    https://snippet.dhtmlx.com/2co9z3bi Calendar. Date Format}}
+const BRACE_NOTATION_REGEXP = /\{\{(\w+)[(?:\r?\n|\r)\s]+((?:.|(?:\r?\n|\r))+?)\}\}/g;
+
 class FileDataParser {
   #events = {
     bracenotationmatch: null,
@@ -16,11 +38,17 @@ class FileDataParser {
   set fileData(data) { this.#fileData = data; }
 
   #init = () => {
+    this.#fileData = normalizeNewline(this.fileData);
+    // const data = parse(this.#fileData);
+    // TODO: Convert to jsx only the required html (which is not wrapped in js md markup e.g.).
+    // TODO: Use node-html-parser to parse html in the string
+    // TODO: ~~~html <some_tags/> ~~~
+    this.#fileData = convert(this.#fileData);
     this.#findAndReplaceStrong();
   }
 
   #findAndReplaceStrong = () => {
-    this.fileData = this.fileData.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    this.fileData = this.fileData.replace(MD_BOLD_TEXT_REGEXP, '<strong>$1</strong>');
   }
 
   #splitFileDataIntoChunksByATNotation = (data) => {
@@ -29,7 +57,7 @@ class FileDataParser {
     let matchKey = null;
 
     return fileDataArray.reduce((result, string, index) => {
-      const atNotationMatch = string.match(/^@\w+:/);
+      const atNotationMatch = string.match(AT_NOTATION_MATCH_REGEXP);
       const atNotationKey = atNotationMatch ? atNotationMatch[0] : null;
       const tmpChunks = [];
 
@@ -37,7 +65,7 @@ class FileDataParser {
         const slice = fileDataArray.slice(matchIndex, index);
         const chunk = [matchKey, slice];
         matchIndex = index;
-        matchKey = atNotationKey.replace(/^@(\w+):$/, '$1');
+        matchKey = atNotationKey.replace(AT_NOTATION_MATCH_REGEXP, '$1');
         tmpChunks.push(chunk);
       }
 
@@ -56,32 +84,30 @@ class FileDataParser {
     return this;
   }
 
-  findAndReplaceBracketNotation = (callback) => {
-    this.fileData = this.fileData.replace(/\{\{(\w+)[\n\s]+((?:.|\n)+?)\}\}/g, (fullMatch, key, data) => {
+  findAndReplaceBracketNotation = () => {
+    this.fileData = this.fileData.replace(BRACE_NOTATION_REGEXP, (fullMatch, key, data) => {
       if (typeof this.#events.bracenotationmatch === 'function') {
-        this.#events.bracenotationmatch(data, { key, fullMatch });
+        return this.#events.bracenotationmatch(data, { key, fullMatch });
       }
-      return (typeof callback === 'function') ? callback(data, { key, fullMatch }) : fullMatch;
+      return data;
     });
 
     return this;
   }
 
-  findAndReplaceATNotation = (callback) => {
+  findAndReplaceATNotation = () => {
+    // TODO: Remove unnecessary whitespace around the edges of js md markup 
     const chunks = this.#splitFileDataIntoChunksByATNotation(this.fileData);
 
     if (chunks.length > 0) {
       this.fileData = chunks.reduce((result, [key, dataSlice], index) => {
         if (dataSlice.length === 0) return result;
-        const stringWithoutATNotationKey = dataSlice[0].replace(/^@\w+:(.*)/, '$1');
+        const stringWithoutATNotationKey = dataSlice[0].replace(AT_NOTATION_MATCH_REGEXP, '$2');
         dataSlice.splice(0, 1, stringWithoutATNotationKey);
 
         let sliceData = dataSlice.join('\n');
-        if (typeof callback === 'function') {
-          sliceData = callback(sliceData, { slice: dataSlice, key });
-        }
         if (typeof this.#events.atnotationmatch === 'function' && key) {
-          this.#events.atnotationmatch(sliceData, { slice: dataSlice, key });
+          sliceData = this.#events.atnotationmatch(sliceData, { slice: dataSlice, key });
         }
         const newReusltString = result + ((chunks.length - 1 === index) ? sliceData : `${sliceData}\n`);
         return newReusltString;
@@ -92,7 +118,7 @@ class FileDataParser {
   };
 
   normalizeMarkdownMdLinks = () => {
-    this.fileData = this.fileData.replace(/(\[.+?\])\(([^\s]+?)(\.md)([^\s]*?)\)/gm, '$1(/$2$4)');
+    this.fileData = this.fileData.replace(MD_LINK_REGEXP, '$1(/$2$4)');
 
     return this;
   }
