@@ -246,7 +246,7 @@ module.exports = {
     plugins: [
         'docusaurus-plugin-sass',
         [
-            path.resolve(__dirname, './plugins/cusom-md-data-transformer-plugin'),
+            path.resolve(__dirname, './plugins/dhx-md-data-transformer-plugin'),
             {
                 onBraceNotationMatch,
                 onAtNotationMatch,
