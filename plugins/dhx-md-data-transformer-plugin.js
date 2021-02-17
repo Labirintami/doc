@@ -9,7 +9,7 @@ module.exports = (context, options) => {
   } = options;
 
   return {
-    name: 'cusom-md-data-transformer-plugin',
+    name: 'dhx-md-data-transformer-plugin',
     configureWebpack() {
       return {
         module: {
@@ -19,7 +19,7 @@ module.exports = (context, options) => {
               test: /(\.mdx?)$/,
               use: [
                 {
-                  loader: 'cusom-md-data-transformer-loader',
+                  loader: 'dhx-md-data-transformer-loader',
                   options: {
                     onBraceNotationMatch,
                     onAtNotationMatch,

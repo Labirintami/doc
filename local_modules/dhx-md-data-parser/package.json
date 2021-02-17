@@ -1,12 +1,15 @@
 {
-  "name": "cusom-md-data-parser",
+  "name": "dhx-md-data-parser",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "files": [
+    "index.js"
+  ],
+  "author": "Siarhei Parkhamchuk",
   "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^10.1.0",

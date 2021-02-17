@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "docusaurus-plugin-sass": "^0.1.11",
-    "webpack-cli": "^4.4.0"
+    "webpack-cli": "^4.4.0",
+    "dhx-md-data-parser": "file:local_modules/dhx-md-data-parser"
   }
 }
