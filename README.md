@@ -1,4 +1,4 @@
-## DHTMLX RichText Documentation
+## DHTMLX Suite Documentation
 
 ### Installation
 

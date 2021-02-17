@@ -70,8 +70,8 @@ const onAfterDataTransformation = (data) => {
 };
 
 module.exports = {
-    title: 'DHTMLX RichText Documentation',
-    tagline: 'DHTMLX RichText Documentation',
+    title: 'DHTMLX Suite Documentation',
+    tagline: 'DHTMLX Suite Documentation',
     url: 'https://richtext-doc.netlify.app/',
     baseUrl: '/',
     onBrokenLinks: 'log',
@@ -122,9 +122,9 @@ module.exports = {
             darkTheme: require('prism-react-renderer/themes/dracula'),
         },
         navbar: {
-            title: 'RichText Documenation',
+            title: 'Suite Documenation',
             logo: {
-                alt: 'DHTMLX RichText Documenation',
+                alt: 'DHTMLX Suite Documenation',
                 src: 'img/dhtmlx_logo.svg',
                 href: 'https://docs.dhtmlx.com/',
 
