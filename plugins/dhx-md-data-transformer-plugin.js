@@ -23,7 +23,7 @@ module.exports = (context, options) => {
                   options: {
                     onBraceNotationMatch,
                     onAtNotationMatch,
-                    onAfterDataTransformation
+                    onAfterDataTransformation,
                   }
                 }
               ]

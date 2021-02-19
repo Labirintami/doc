@@ -1,5 +1,6 @@
 ---
-sidebar_etId
+sidebar_label:
+title:
 ---          
 
 @short:gets the ID of an item

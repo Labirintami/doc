@@ -6,7 +6,7 @@ module.exports = function (fileData) {
   const {
     onBraceNotationMatch,
     onAtNotationMatch,
-    onAfterDataTransformation
+    onAfterDataTransformation,
   } = this.loaders[this.loaderIndex]?.options || {};
 
   fileDataParser
@@ -19,7 +19,7 @@ module.exports = function (fileData) {
     .normalizeMarkdownMdLinks();
   
   if (typeof onAfterDataTransformation === 'function') {
-    const transformedData = onAfterDataTransformation(fileDataParser.fileData);
+    const transformedData = onAfterDataTransformation(fileDataParser.fileData, { resourcePath: this.resourcePath });
     if (typeof transformedData === 'string') {
       fileDataParser.fileData = transformedData;
     }

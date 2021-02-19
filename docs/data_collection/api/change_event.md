@@ -1,5 +1,6 @@
 ---
-sidebar_hange
+sidebar_label:
+title:
 ---          
 
 @short: fires when a data collection is modified
