@@ -3,8 +3,6 @@ sidebar_label: Migration from 5.1 to 6.0
 title: Migration from 5.1 to 6.0
 ---          
 
-```todo
-
 This article will help you to migrate from the [previous version 5.1 of dhtmlxWindow](https://docs.dhtmlx.com/api__refs__dhtmlxwindows.html) to the totally renewed version 6.0. Check the list below to explore all the changes.
 
 5.1 -> 6.0
@@ -64,5 +62,3 @@ This article will help you to migrate from the [previous version 5.1 of dhtmlxWi
 @todo:
 - check and add links to new api pages (for changed apis)<br/>
 - alternatives for removed apis?
-
-```

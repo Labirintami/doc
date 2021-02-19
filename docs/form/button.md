@@ -3,7 +3,7 @@ sidebar_label: Button
 title: Button
 ---          
 
-```todo
+
 
 A simple button that can have an icon. Button can be *twoState* and can have a badge with a number, which can be useful for displaying the number of new messages, etc.
 
@@ -30,8 +30,6 @@ var form = new dhx.Form("form_container", {
   	]
 });
 ~~~
-
-
 
 ###Attributes
 
@@ -146,9 +144,6 @@ form.getItem("button").disable();
 
 }}
 
-
-
-
 <h3 id="eventhandling">List of the control events:</h3>
 
 {{api
@@ -162,11 +157,6 @@ form.getItem("button").disable();
 - form/api/button/button_click_event.md - fires after a click on a button control
 }}
 
-
-
-
 @index:
 - form/api/refs/button_methods.md
 - form/api/refs/button_events.md
-
-``` todo

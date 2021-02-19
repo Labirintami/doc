@@ -3,8 +3,6 @@ sidebar_label: Text
 title: Text
 ---          
 
-```todo
-
 A control for adding some text.
 
 ![Text](../assets/form/form_text.png)
@@ -161,5 +159,3 @@ var value = form.getItem("text").getValue();
 @index:
 - form/api/refs/text_methods.md
 - form/api/refs/text_events.md
-
-``` todo

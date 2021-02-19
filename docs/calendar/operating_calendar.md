@@ -2,7 +2,7 @@
 sidebar_label: Work with Calendar
 title: Work with Calendar
 ---          
-```todo
+
 ## Changing calendar mode
 
 You can show a particular date in the calendar and/or open Calendar in a certain mode via the calendar/api/calendar_showdate_method.md method. It takes two parameters:
@@ -95,7 +95,10 @@ var date = calendar.getValue(); // ->  ["03/06/19", "19/06/19"]
 You can create two calendars and link them to provide the ability of selecting a date range. The first calendar will be used for setting the start date of the range, while the end date of the range will be specified in the
 second calendar. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="calendar/date_range.png" alt="Range of date">
+```todo
+<!-- <img style="margin: 0px 0px 0px 20px; display: block;" src="" alt="Range of date"> -->
+<!-- ![Docusaurus Slash Introduction](calendar/date_range.png) todo -->
+```todo
 
 Use the calendar/api/calendar_link_method.md method and pass as a parameter the object of the second calendar to link the first calendar to.
 In the example below the [Change](calendar/api/calendar_change_event.md) event is intended to output the start and end dates of the selected range:
@@ -176,7 +179,7 @@ calendar.events.on("DateMouseOver", function(date, e) {
 });
 ~~~
 
-```
+
 
 
 

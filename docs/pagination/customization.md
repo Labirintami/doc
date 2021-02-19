@@ -5,7 +5,7 @@ title: Customization
 
 Styling
 ----------------
-```todo
+
 There is a possibility to make changes in the look and feel of a pagination. 
 
 <img style="margin: 0px 0px 0px 20px; display: block;" src="pagination/styling.png" alt="styling"/>
@@ -60,4 +60,3 @@ const pagination = new dhx.Pagination("pagination_container", {
 ~~~
 
 {{sample    pagination/04_customization/01_custom_style.html}}
-```

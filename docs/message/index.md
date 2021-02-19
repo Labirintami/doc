@@ -3,8 +3,6 @@ sidebar_label: Message
 title: Message
 ---          
 
-```todo
-
 dhtmlxMessage is a tiny but useful component that helps you to interact with a user of your application. Depending on the type of a message, you can inform a user about some processes taking place in the app,
 ask for confirmation of some action, warn against some steps that may result in unwanted effects, or simply give a hint about the purpose of a certain element of an app.
 Check [online samples for dhtmlxMessage](https://docs.dhtmlx.com/suite/samples/message/). 
@@ -40,6 +38,7 @@ Check [online samples for dhtmlxMessage](https://docs.dhtmlx.com/suite/samples/m
 
 <div class="h2">Other</div>
 
+```todo
 <table class='other-table'>
 	<tbody>
     <tr>
@@ -53,6 +52,7 @@ Check [online samples for dhtmlxMessage](https://docs.dhtmlx.com/suite/samples/m
 </tbody>
 
 </table>
+```todo
 
 @index:
 - message/overview.md
@@ -63,6 +63,3 @@ Check [online samples for dhtmlxMessage](https://docs.dhtmlx.com/suite/samples/m
 
 @metadescr:
 dhtmlxMessage is a JavaScript component that allows communicating with the users of an application.
-
-
-```todo

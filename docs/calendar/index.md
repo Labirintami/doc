@@ -2,14 +2,13 @@
 sidebar_label: Calendar
 title: Calendar
 ---          
-```todo
 
 dhtmlxCalendar is a component that allows users to view and select dates. You can create calendar in one of 4 modes: days, months, years, or as a timepicker.
 This component is a great date picker solution for your website or application. Check [online samples for dhtmlxCalendar](https://docs.dhtmlx.com/suite/samples/calendar/).  
 
-
+```todo
 <p align="center"><img src="calendar/calendar_front.png" alt="calendar_front"></p>   
-
+```todo
 
 <div class="h2">API reference</div>
 
@@ -75,5 +74,3 @@ You can read the following articles to find out how to add Calendar on the page 
 @metadescr:
 dhtmlxCalendar is a smart datepicker solution for websites or applications that allows selecting dates, ranges of dates, and time. It's easily configurable and highly customizable.
 
-
-```todo

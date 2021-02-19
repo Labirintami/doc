@@ -3,8 +3,6 @@ sidebar_label: Pager
 title: Pager
 ---          
 
-```todo
-
 {{pronote
 The Pager component is available in the **PRO** version only.
 }}
@@ -60,5 +58,3 @@ The component is easy-to-use and provides handy navigation that allows you to qu
 
 
 @edition:pro
-
-```todo

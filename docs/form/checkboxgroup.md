@@ -3,8 +3,6 @@ sidebar_label: CheckboxGroup
 title: CheckboxGroup
 ---          
 
-```todo
-
 A control intended for creating groups of checkboxes.
 
 ![CheckboxGroup control](../assets/form/form_checkboxgroup.png)
@@ -253,5 +251,3 @@ var value = form.getItem("CheckboxGroup").hide();
 @index:
 - form/api/refs/checkbox_group_methods.md
 - form/api/refs/checkbox_group_events.md
-
-``` todo

@@ -2,12 +2,9 @@
 sidebar_label: css
 title: css
 ---          
-```todo
+
 @short: 
 adds style classes to the pager
-
-
-
 
 @type: string
 
@@ -70,4 +67,3 @@ pager/04_customization/01_custom_style.html
 
 @related: pager/customization.md
 
-```todo

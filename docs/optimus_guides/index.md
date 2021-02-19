@@ -3,8 +3,6 @@ sidebar_label: DHTMLX Optimus Framework
 title: DHTMLX Optimus Framework
 ---          
 
-```todo
-
 DHTMLX Optimus is a component-oriented framework for building DHTMLX-based apps. The framework is intended to simplify the app building process, namely:
 
 - helps to organize application code in a single, structured, intuitive style;
@@ -959,11 +957,3 @@ The *App's* constructor also provides the method that can be called outside the 
 		</tr>
     </tbody>
 </table>
-
-
-```todo
-
-
-
-
-
