@@ -29,6 +29,9 @@ const onAtNotationMatch = (data, { key }) => {
         case 'metadescr':
             metaDescription = data.replace(/^(?:\n*)(.+)(?:\n|.)*/, '$1');
             return '';
+        case 'relatedsample':
+            const newLink = data.replace(/((?:https?):\/\/[^\s$.?#].[^\s]*)\s*(.*)/, `<a href='$1' target='_blank'>$2</a>`)
+            return newLink;
         default:
             return componentName 
                 ? wrapDataWithComponent(data, componentName)
