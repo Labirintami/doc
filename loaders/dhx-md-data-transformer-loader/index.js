@@ -1,4 +1,4 @@
-const FileDataParser = require('../../local_modules/dhx-md-data-parser');
+const FileDataParser = require('dhx-md-data-parser');
 
 module.exports = function (fileData) {
   const fileDataParser = new FileDataParser({ fileData });
