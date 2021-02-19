@@ -25,7 +25,7 @@ const onAtNotationMatch = (data, { key }) => {
         case 'default':
             return `<strong>Default value: </strong> ${data}`;
         case 'example':
-            return `~~~js\n${data}\n~~~`;
+            return `~~~js\n${data.replace(/^(?:\n*)([^]+?)(?:\n*)$/g, '$1')}\n~~~`;
         case 'metadescr':
             metaDescription = data.replace(/^(?:\n*)(.+)(?:\n|.)*/, '$1');
             return '';
@@ -39,7 +39,7 @@ const onAtNotationMatch = (data, { key }) => {
 const onBraceNotationMatch = (data, { key, fullMatch }) => {
     switch(key) {
         case 'note':
-            return `:::note\n${data}1\n:::`;
+            return `:::note\n${data}\n:::`;
         case 'pronote':
             return `:::danger Pro Note\n${data}\n:::`;
         case 'editor':
@@ -56,11 +56,17 @@ const onAfterDataTransformation = (data) => {
     if (allAvailableComponents.length !== 0) {
       const imports = `import { ${allAvailableComponents.join(', ')} } from '${COMPONENTS_PATH}';\n\n`
       const isTitles = /---((?:\r?\n|\r)|.)+?---/.test(transformedData);
-      transformedData = isTitles ? transformedData.replace(/^(---((?:\r?\n|\r)|.)+?---)/, `$1\n\n${imports}`) : imports + transformedData;
+      transformedData = isTitles ? transformedData.replace(/^(---((?:\s*\n)|.)+?---)/, `$1\n\n${imports}`) : imports + transformedData;
     };
 
     if (metaDescription) {
-        transformedData = transformedData.replace(/^(---\s*\n)((?:\n|.)+?)(---\s*?\n)/, `$1$2description: ${metaDescription}\n$3`);
+        transformedData = transformedData.replace(/^(---\s*\n)((?:\n|.)+?)(---\s*?\n*)/,  (fullMatch, groupA, groupB, groupC) => {
+            const isDocusaurusDescriptionExist = /^description: *.*\n/m.test(fullMatch);
+            if (!isDocusaurusDescriptionExist) {
+                return `${groupA}description: ${metaDescription}\n${groupB}${groupC}`;
+            }
+            return fullMatch;
+        });
     }
 
     components = {};

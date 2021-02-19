@@ -1,5 +1,6 @@
 ---
-sidebar_ragRowOut
+sidebar_label:
+title:
 ---          
 
 
