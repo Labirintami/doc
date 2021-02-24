@@ -11,14 +11,12 @@ module.exports = {
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         "calendar/api/api_overview",
 
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "calendar/api/calendar_link_method",
                                 "calendar/api/calendar_clear_method",
@@ -33,7 +31,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "calendar/api/calendar_change_event",
                                 "calendar/api/calendar_datehover_event",
@@ -48,7 +45,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "calendar/api/calendar_date_config",
                                 "calendar/api/calendar_thismonthonly_config",
@@ -152,17 +148,14 @@ module.exports = {
         {
             type: "category",
             label: "Colorpicker",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         "calendar/api/api_overview", //todo 
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "colorpicker/api/colorpicker_clear_method",
                                 "colorpicker/api/colorpicker_getview_method",
@@ -182,7 +175,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "colorpicker/api/colorpicker_apply_event",
                                 "colorpicker/api/colorpicker_viewchange_event",
@@ -196,7 +188,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "colorpicker/api/colorpicker_customcolors_config",
                                 "colorpicker/api/colorpicker_css_config",
@@ -228,17 +219,14 @@ module.exports = {
         {
             type: "category",
             label: "Combobox",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         // "calendar/api/api_overview", //todo 
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
 
                                 "combobox/api/combobox_getvalue_method",
@@ -267,7 +255,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "combobox/api/combobox_multiselection_config",
                                 "combobox/api/combobox_readonly_config",
@@ -315,17 +302,14 @@ module.exports = {
         {
             type: "category",
             label: "Dataview",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         // "calendar/api/api_overview", //todo 
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "dataview/api/dataview_setfocusindex_method",
                                 "dataview/api/dataview_setfocus_method",
@@ -343,7 +327,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "dataview/api/dataview_click_event",
                                 "dataview/api/dataview_dragstart_event",
@@ -370,7 +353,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "dataview/api/dataview_gap_config",
                                 "dataview/api/dataview_selection_config",
@@ -394,11 +376,9 @@ module.exports = {
                         {
                             type: "category",
                             label: "Selection API",
-                            collapsed: true,
                             items: [{
                                     type: "category",
                                     label: "Selection Methods",
-                                    collapsed: true,
                                     items: [
                                         "dataview/api/selection/selection_enable_method",
                                         "dataview/api/selection/selection_disable_method",
@@ -407,7 +387,6 @@ module.exports = {
                                 {
                                     type: "category",
                                     label: "Selection Events",
-                                    collapsed: true,
                                     items: [
                                         "dataview/api/selection/selection_afterunselect_event",
                                         "dataview/api/selection/selection_beforeselect_event",
@@ -523,17 +502,14 @@ module.exports = {
         {
             type: "category",
             label: "Grid",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         // "calendar/api/api_overview", //todo 
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "grid/api/grid_getsortingstate_method",
                                 "grid/api/grid_isrowhidden_method",
@@ -568,7 +544,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "grid/api/grid_cancelrowdrop_event",
                                 "grid/api/grid_footercellrightclick_event",
@@ -631,7 +606,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "grid/api/grid_columnsautowidth_config",
                                 "grid/api/grid_css_config",
@@ -687,17 +661,14 @@ module.exports = {
         {
             type: "category",
             label: "Layout",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         "calendar/api/api_overview", //todo
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
 
                                 "layout/api/layout_hide_method",
@@ -722,7 +693,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "layout/api/layout_resize_event",
                                 "layout/api/layout_beforeadd_event",
@@ -744,7 +714,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "layout/api/layout_id_config",
                                 "layout/api/layout_padding_config",
@@ -798,17 +767,14 @@ module.exports = {
         {
             type: "category",
             label: "List",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         "calendar/api/api_overview", //todo 
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "list/api/list_setfocus_method",
                                 "list/api/list_getfocus_method",
@@ -826,7 +792,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "list/api/list_candrop_event",
                                 "list/api/list_beforedrop_event",
@@ -854,7 +819,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "list/api/list_multiselectionmode_config",
                                 "list/api/list_height_config",
@@ -878,13 +842,11 @@ module.exports = {
                         {
                             type: "category",
                             label: "Selection API",
-                            collapsed: true,
                             items: [
 
                                 {
                                     type: "category",
                                     label: "Methods",
-                                    collapsed: true,
                                     items: [
                                         "list/api/selection/selection_enable_method",
                                         "list/api/selection/selection_disable_method",
@@ -895,7 +857,6 @@ module.exports = {
                                 {
                                     type: "category",
                                     label: "Events",
-                                    collapsed: true,
                                     items: [
                                         "list/api/selection/selection_afterunselect_event",
                                         "list/api/selection/selection_beforeselect_event",
@@ -942,17 +903,14 @@ module.exports = {
         {
             type: "category",
             label: "Menu",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         "calendar/api/api_overview", //todo //todo
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "menu/api/menu_getselected_method",
                                 "menu/api/menu_disable_method",
@@ -971,7 +929,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "menu/api/menu_afterhide_event",
                                 "menu/api/menu_inputblur_event",
@@ -985,7 +942,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "menu/api/menu_data_config",
                                 "menu/api/menu_menucss_config",
@@ -996,13 +952,11 @@ module.exports = {
                         {
                             type: "category",
                             label: "Selection API",
-                            collapsed: true,
                             items: [
 
                                 {
                                     type: "category",
                                     label: "Methods",
-                                    collapsed: true,
                                     items: [
 
                                     ],
@@ -1011,7 +965,6 @@ module.exports = {
                                 {
                                     type: "category",
                                     label: "Events",
-                                    collapsed: true,
                                     items: [
 
                                     ],
@@ -1042,17 +995,14 @@ module.exports = {
         {
             type: "category",
             label: "Message",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         "calendar/api/api_overview", //todo //todo
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "calendar/api/calendar_link_method",
                                 "calendar/api/calendar_clear_method",
@@ -1067,7 +1017,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "calendar/api/calendar_change_event",
                                 "calendar/api/calendar_datehover_event",
@@ -1082,7 +1031,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "calendar/api/calendar_date_config",
                                 "calendar/api/calendar_thismonthonly_config",
@@ -1120,18 +1068,15 @@ module.exports = {
         {
             type: "category",
             label: "Pagination",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         "pagination/api/api_overview",
 
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "pagination/api/pagination_destructor_method",
                                 "pagination/api/pagination_getpage_method",
@@ -1144,7 +1089,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "pagination/api/pagination_change_event",
                             ],
@@ -1152,7 +1096,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "pagination/api/pagination_data_config",
                                 "pagination/api/pagination_css_config",
@@ -1177,18 +1120,15 @@ module.exports = {
         {
             type: "category",
             label: "Popup",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         "calendar/api/api_overview", //todo //todo
 
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "popup/api/popup_paint_method",
                                 "popup/api/popup_getwidget_method",
@@ -1204,7 +1144,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "popup/api/popup_afterhide_event",
                                 "popup/api/popup_aftershow_event",
@@ -1216,7 +1155,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "popup/api/popup_css_config",
                             ],
@@ -1240,18 +1178,15 @@ module.exports = {
         {
             type: "category",
             label: "Ribbon",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         "calendar/api/api_overview", //todo //todo
 
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "ribbon/api/ribbon_enable_method",
                                 "ribbon/api/ribbon_isdisabled_method",
@@ -1271,7 +1206,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "ribbon/api/ribbon_inputfocus_event",
                                 "ribbon/api/ribbon_inputcreated_event",
@@ -1283,7 +1217,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "ribbon/api/ribbon_css_config",
                                 "ribbon/api/ribbon_data_config",
@@ -1324,18 +1257,15 @@ module.exports = {
         {
             type: "category",
             label: "Sidebar",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         "calendar/api/api_overview", //todo //todo
 
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "sidebar/api/sidebar_expand_method",
                                 "sidebar/api/sidebar_destructor_method",
@@ -1357,7 +1287,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "sidebar/api/sidebar_aftercollapse_event",
                                 "sidebar/api/sidebar_openmenu_event",
@@ -1377,7 +1306,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "sidebar/api/sidebar_width_config",
                                 "sidebar/api/sidebar_minwidth_config",
@@ -1427,18 +1355,15 @@ module.exports = {
         {
             type: "category",
             label: "Slider",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         "calendar/api/api_overview", //todo //todo
 
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "slider/api/slider_setvalue_method",
                                 "slider/api/slider_getvalue_method",
@@ -1452,7 +1377,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "slider/api/slider_change_event",
                                 "slider/api/slider_mousedown_event",
@@ -1462,7 +1386,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "slider/api/slider_ticktemplate_config",
                                 "slider/api/slider_helpmessage_config",
@@ -1509,18 +1432,15 @@ module.exports = {
         {
             type: "category",
             label: "Tabbar",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         "calendar/api/api_overview", //todo //todo
 
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "tabbar/api/tabbar_isdisabled_method",
                                 "tabbar/api/tabbar_getcell_method",
@@ -1544,7 +1464,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "tabbar/api/tabbar_close_event",
                                 "tabbar/api/tabbar_change_event",
@@ -1555,7 +1474,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "tabbar/api/tabbar_mode_config",
                                 "tabbar/api/tabbar_id_config",
@@ -1591,17 +1509,14 @@ module.exports = {
         {
             type: "category",
             label: "Timepicker",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         "calendar/api/api_overview", //todo //todo
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "timepicker/api/timepicker_clear_method",
                                 "timepicker/api/timepicker_getvalue_method",
@@ -1613,7 +1528,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "timepicker/api/timepicker_apply_event",
                                 "timepicker/api/timepicker_change_event",
@@ -1631,7 +1545,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "timepicker/api/timepicker_controls_config",
                                 "timepicker/api/timepicker_valueformat_config",
@@ -1659,17 +1572,14 @@ module.exports = {
         {
             type: "category",
             label: "Toolbar",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         "calendar/api/api_overview", //todo //todo
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "toolbar/api/toolbar_hide_method",
                                 "toolbar/api/toolbar_isselected_method",
@@ -1689,7 +1599,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "toolbar/api/toolbar_beforehide_event",
                                 "toolbar/api/toolbar_openmenu_event",
@@ -1704,7 +1613,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "toolbar/api/toolbar_data_config",
                                 "toolbar/api/toolbar_menucss_config",
@@ -1750,17 +1658,14 @@ module.exports = {
         {
             type: "category",
             label: "Tree",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         "calendar/api/api_overview", //todo //todo
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "tree/api/tree_getchecked_method",
                                 "tree/api/tree_uncheckitemnew_method",
@@ -1786,7 +1691,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "tree/api/tree_candrop_event",
                                 "tree/api/tree_itemdblclick_event",
@@ -1816,7 +1720,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "tree/api/tree_selection_config",
                                 "tree/api/tree_isfolder_config",
@@ -1837,13 +1740,11 @@ module.exports = {
                         {
                             type: "category",
                             label: "Selection API",
-                            collapsed: true,
                             items: [
 
                                 {
                                     type: "category",
                                     label: "Methods",
-                                    collapsed: true,
                                     items: [
                                         "tree/api/selection/selection_enable_method",
                                         "tree/api/selection/selection_disable_method",
@@ -1853,7 +1754,6 @@ module.exports = {
                                 {
                                     type: "category",
                                     label: "Events",
-                                    collapsed: true,
                                     items: [
                                         "tree/api/selection/selection_afterunselect_event",
                                         "tree/api/selection/selection_beforeselect_event",
@@ -1902,17 +1802,14 @@ module.exports = {
         {
             type: "category",
             label: "TreeGrid",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         "calendar/api/api_overview", //todo //todo
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "treegrid/api/treegrid_destructor_method",
                                 "treegrid/api/treegrid_adjustcolumnwidth_method",
@@ -1952,7 +1849,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "treegrid/api/treegrid_footercellrightclick_event",
                                 "treegrid/api/treegrid_beforecolumndrag_event",
@@ -2019,7 +1915,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "treegrid/api/treegrid_adjust_config",
                                 "treegrid/api/treegrid_editing_config",
@@ -2056,13 +1951,11 @@ module.exports = {
                         {
                             type: "category",
                             label: "Selection API",
-                            collapsed: true,
                             items: [
 
                                 {
                                     type: "category",
                                     label: "Methods",
-                                    collapsed: true,
                                     items: [
                                         "treegrid/api/selection/selection_afterunselect_event",
                                         "treegrid/api/selection/selection_beforeselect_event",
@@ -2074,7 +1967,6 @@ module.exports = {
                                 {
                                     type: "category",
                                     label: "Events",
-                                    collapsed: true,
                                     items: [
                                         "treegrid/api/selection/selection_getcell_method",
                                         "treegrid/api/selection/selection_removecell_method",
@@ -2106,17 +1998,14 @@ module.exports = {
         {
             type: "category",
             label: "Window",
-            collapsed: true,
             items: [{
                     type: "category",
                     label: "API",
-                    collapsed: true,
                     items: [
                         "calendar/api/api_overview", //todo //todo
                         {
                             type: "category",
                             label: "Methods",
-                            collapsed: true,
                             items: [
                                 "window/api/window_setfullscreen_method",
                                 "window/api/window_getcontainer_method",
@@ -2138,7 +2027,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Events",
-                            collapsed: true,
                             items: [
                                 "window/api/window_headerdoubleclick_event",
                                 "window/api/window_resize_event",
@@ -2152,7 +2040,6 @@ module.exports = {
                         {
                             type: "category",
                             label: "Properties",
-                            collapsed: true,
                             items: [
                                 "window/api/window_footer_config",
                                 "window/api/window_title_config",
@@ -2192,17 +2079,14 @@ module.exports = {
         {
             type: "category",
             label: "Helpers",
-            collapsed: false,
             items: [{
                 type: "category",
                 label: "API",
-                collapsed: true,
                 items: [
                     "calendar/api/api_overview", //todo //todo
                     {
                         type: "category",
                         label: "Methods",
-                        collapsed: true,
                         items: [
                             "window/api/window_setfullscreen_method",
                             "window/api/window_getcontainer_method",
@@ -2224,7 +2108,6 @@ module.exports = {
                     {
                         type: "category",
                         label: "Events",
-                        collapsed: true,
                         items: [
                             "window/api/window_headerdoubleclick_event",
                             "window/api/window_resize_event",
@@ -2238,7 +2121,6 @@ module.exports = {
                     {
                         type: "category",
                         label: "Properties",
-                        collapsed: true,
                         items: [
                             "window/api/window_footer_config",
                             "window/api/window_title_config",
