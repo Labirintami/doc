@@ -133,3 +133,8 @@ table th:last-child {
 
 
 /* end change the appearance of mobile navigation */
+
+.snippet_iframe {
+ border: 1px solid var(--ifm-hr-border-color);
+ margin-bottom: var(--ifm-leading);
+}

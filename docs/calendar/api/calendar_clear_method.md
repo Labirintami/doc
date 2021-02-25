@@ -5,7 +5,7 @@ title: clear
 
 @short: clears the value set in the calendar
 
-@params:
+clear(): void;
 
 @example:
 calendar.clear()

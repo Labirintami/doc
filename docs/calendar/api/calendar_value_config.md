@@ -6,10 +6,7 @@ title: value
 @short: 
 selects the day (adds a round blue marker)
 
-
-
-
-@type: Date|Date[]|string|string[]
+```value?: Date | Date[] | string | string[];```
 
 @example: 
 // selects a date

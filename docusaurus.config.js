@@ -3,7 +3,8 @@ const path = require('path');
 const AT_NOTATION_KEYS = {
     short: 'Short',
     type: 'Type',
-    descr: 'Descr'
+    descr: 'Descr',
+    changelog: "Changelog"
 };
 
 const COMPONENTS_PATH = '@site/src/components';

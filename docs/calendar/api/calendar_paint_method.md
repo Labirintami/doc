@@ -5,11 +5,7 @@ title: paint
 
 @short: repaints a calendar on a page
 
-
-@params:
-
-
-
+paint(): void;
 
 @example:
 calendar.paint();
@@ -18,10 +14,4 @@ calendar.paint();
 @template: api_method
 @descr:
 
-
-
-
-
 @changelog:
-
-
