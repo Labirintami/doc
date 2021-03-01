@@ -5,15 +5,10 @@ title: hide
 
 @short: hides a Popup
 
-
-@params:
-
-
-
+@signature: hide(): void;
 
 @example:
 popup.hide();
-
 
 @template: api_method
 @descr:

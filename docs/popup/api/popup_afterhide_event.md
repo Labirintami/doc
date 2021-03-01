@@ -3,8 +3,9 @@ sidebar_label: afterHide
 title: afterHide
 ---          
 
-@short:
-fires after a popup is hidden
+@short: fires after a popup is hidden
+
+```todoapi ```
 
 @params:
 - e				Event			the native mouse event

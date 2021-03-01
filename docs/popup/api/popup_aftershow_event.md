@@ -3,8 +3,9 @@ sidebar_label: afterShow
 title: afterShow
 ---          
 
-@short:
-fires after a popup is shown
+@short: fires after a popup is shown
+
+```todoapi ```
 
 @params:
 - element 		HTMLElement		 the container a popup is placed in

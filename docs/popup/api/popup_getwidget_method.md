@@ -5,13 +5,13 @@ title: getWidget
 
 @short: returns the widget attached to Popup
 
-
-@params:
-
+```todoapi 
+object getWidget();
+getWidget(): any;
+```
 
 @returns:
 - param	object      the widget attached to Popup
-
 
 @example:
 popup.getWidget();  

@@ -3,8 +3,9 @@ sidebar_label: beforeHide
 title: beforeHide
 ---          
 
-@short:
-fires before a popup is hidden
+@short: fires before a popup is hidden
+
+```todoapi ```
 
 @params:
 - fromOuterClick		boolean			true, for a click outside a popup, otherwise - false

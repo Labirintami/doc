@@ -3,12 +3,12 @@ sidebar_label: click
 title: click
 ---          
 
-@short:
-fires on clicking a popup
+@short: fires on clicking a popup
+
+```todoapi ```
 
 @params:
 - e						Event			the native mouse event
-
 
 @example:
 popup.events.on("Click",function(e){

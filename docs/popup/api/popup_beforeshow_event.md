@@ -3,9 +3,9 @@ sidebar_label: beforeShow
 title: beforeShow
 ---          
 
-@short:
-fires before a popup is shown
+@short: fires before a popup is shown
 
+```todoapi ```
 
 @params:
 - element 		HTMLElement		 the container a popup is placed in

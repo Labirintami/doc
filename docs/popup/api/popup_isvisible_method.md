@@ -5,13 +5,10 @@ title: isVisible
 
 @short: checks whether a popup is visible
 
-
-@params:
-
+@signature: isVisible(): boolean;
 
 @returns:
 - result	boolean 		true, if a popup is visible, otherwise - false
-
 
 @example:
 popup.isVisible(); // -> true/false

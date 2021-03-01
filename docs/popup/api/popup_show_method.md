@@ -5,11 +5,14 @@ title: show
 
 @short: shows a Popup
 
+```todoapi 
+void show(HTMLElement element,object config);
+show(node: HTMLElement, config?: IShowConfig, attached?: any): void;
+```
 
 @params:
 - element 		HTMLElement		 mandatory, the container to place a popup in
 - config 		object			 optional, the configuration object of a popup
-
 
 
 @example:
