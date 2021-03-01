@@ -5,6 +5,20 @@ title: setConfig
 
 @short: sets configuration of a chart
 
+```todoapi
+void setConfig(object config);
+setConfig(config: IChartConfig): void;
+    export interface IChartConfig {
+    type?: ChartType;
+    css?: string;
+    barWidth?: number;
+    scales?: IScalesConfig;
+    legend?: ILegendConfig;
+    series?: SeriaConfig[];
+    maxPoints?: number;
+    data?: DataCollection<any> | any[];
+}
+```
 
 @params:
 - config	object	 an object with chart configuration

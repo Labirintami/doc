@@ -5,22 +5,10 @@ title: destructor
 
 @short: removes a calendar instance and releases the occupied resources
 
-
-@params:
-
-
-
+@signature: destructor?(): void;
 
 @example:
 calendar.destructor();
-
-
-@template: api_method
-@descr:
-
-
-
-
 
 @changelog:
 

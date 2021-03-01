@@ -5,23 +5,8 @@ title: paint
 
 @short: repaints a chart on a page
 
-
-@params:
-
-
-
+@signature: paint(): void;
 
 @example:
 chart.paint();
-
-
-@template: api_method
-@descr:
-
-
-
-
-
-@changelog:
-
 

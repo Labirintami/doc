@@ -5,9 +5,11 @@ title: legend
 
 ``` todo
 
-@short: 
-defines the configuration of a chart legend
+@short: defines the configuration of a chart legend
 
+```todoapi
+object legend;
+legend?: ILegendConfig;
 
 
 @type: object
@@ -108,4 +110,4 @@ https://snippet.dhtmlx.com/pgqf1yxj	Chart. Legend Position
 @related:
 chart/configuration_properties.md#legend
 
-``` todo
+``` 

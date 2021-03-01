@@ -3,21 +3,16 @@ sidebar_label: type
 title: type
 ---          
 
-@short: 
-specifies the type of a chart
+@short: specifies the type of a chart
 
+@signature: type?: "bar" | "line" | "spline" | "scatter" | "area" | "donut" | "pie" | "pie3D" | "radar" | "xbar" | "splineArea";
 
-
-
-@type: string
 
 @example: 
 var chart = new dhx.Chart("chart_container",{
     type:"line" 
 });
 
-
-@template:	api_config
 @descr: 
 ### Available types of charts 
 

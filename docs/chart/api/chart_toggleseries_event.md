@@ -6,9 +6,13 @@ title: toggleSeries
 @short:
 fires on toggle on/off a series in a legend
 
+```todoapi
+void toggleSeries(string id){ ... };
+toggleSeries = "toggleSeries",
+```
+
 @params:
 - id	string		the id of a toggled series
-
 
 @example:
 chart.events.on("ToggleSeries", function(id){

@@ -3,12 +3,10 @@ sidebar_label: series
 title: series
 ---          
 
-``` todo
+```todoapi
 
 @short: 
 defines configuration of chart series
-
-
 
 
 @type: array
@@ -17,7 +15,7 @@ defines configuration of chart series
 var chart = new dhx.Chart("chart_container",{
     type:"bar",
     scales: {
-        "bottom" : {
+        "bottom" : {s
             text: "month"
         },
         "left" : {}

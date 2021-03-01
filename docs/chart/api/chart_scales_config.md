@@ -6,6 +6,12 @@ title: scales
 @short: 
 defines configuration of chart scales
 
+```todoapi
+object scales;
+scales?: IScalesConfig;
+export declare type ScaleType = "left" | "right" | "top" | "bottom" | "radial";
+а еще не у всех чартов это есть
+```
 
 @type: object
 

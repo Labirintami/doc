@@ -6,6 +6,11 @@ title: serieClick
 @short:
 fires on clicking a series
 
+```todoapi
+void serieClick(string id,string value){ ... };
+serieClick = "serieClick",
+```
+
 @params:
 - id    string      the id of a clicked series
 - value     string  the value of a series

@@ -6,6 +6,11 @@ title: resize
 @short:
 fires on changing the size of the chart container
 
+```todoapi
+void resize(object size){ ... };
+resize = "resize",
+```
+
 @params:
 - size		object	 an object with new chart size
 

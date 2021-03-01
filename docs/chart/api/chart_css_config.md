@@ -8,7 +8,7 @@ title: css
 @short: 
 adds style classes to Chart
 
-
+@signature: css?: string;
 
 @type: string
 

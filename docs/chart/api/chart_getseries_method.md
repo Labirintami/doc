@@ -5,6 +5,10 @@ title: getSeries
 
 @short: returns an object with configuration of a specified series
 
+```todoapi
+object getSeries(string id);
+getSeries(id: string): ISeria;
+```
 
 @params:
 - id	string		the id of a series
