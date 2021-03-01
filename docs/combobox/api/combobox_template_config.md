@@ -8,10 +8,7 @@ title: template
 @short: 
 sets a template of displaying options in the popup list
 
-
-
-
-@type: function
+@signature: template?: (item: any) => string;
 
 @example: 
 var combo = new dhx.Combobox("combo_container", {
@@ -21,7 +18,6 @@ var combo = new dhx.Combobox("combo_container", {
       + item.value + "</div>";
     }
 });
-
 
 @template:	api_config
 @descr: 

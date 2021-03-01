@@ -3,17 +3,16 @@ sidebar_label: help
 title: help
 ---          
 
-@short: 
-adds an icon with a question mark next to the Combo input
+@short: adds an icon with a question mark next to the Combo input
 
-
-@type: string
+```tododeprecated
+@signature: help?: string;
+```
 
 @example: 
 var combobox = new dhx.Combobox("combo_container",{
 	help:"Some text"
 });
-
 
 @template:	api_config
 @descr: 

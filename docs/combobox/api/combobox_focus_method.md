@@ -5,11 +5,7 @@ title: focus
 
 @short: sets focus in the input without opening a popup with options
 
-
-@params:
-
-
-
+@signature: focus(): void;
 
 @example:
 combo.focus();

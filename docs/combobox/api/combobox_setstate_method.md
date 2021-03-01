@@ -5,6 +5,10 @@ title: setState
 
 @short: sets the state of ComboBox, used for validation
 
+```todoapi
+удалено что ли?
+```
+
 
 @params:
 - state 	string 		the state of Combo Box:"default"|"error"|"success"

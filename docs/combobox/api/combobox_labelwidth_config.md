@@ -3,13 +3,9 @@ sidebar_label: labelWidth
 title: labelWidth
 ---          
 
-@short: 
-sets the width of a label
+@short: sets the width of a label
 
-
-
-
-@type: string,number
+@signature: labelWidth?: string | number;
 
 @example: 
 var combo = new dhx.Combobox("combo_container", {

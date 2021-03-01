@@ -6,7 +6,7 @@ title: close
 @short:
 fires when a list with options is closed
 
-
+```todoapi ```
 
 @example:
 combo.events.on("Close", function(){

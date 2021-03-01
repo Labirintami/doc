@@ -3,15 +3,11 @@ sidebar_label: disabled
 title: disabled
 ---          
 
-@short: 
-makes Combo Box disabled
+@short: makes Combo Box disabled
 
+@signature: disabled?: boolean;
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var combo = new dhx.Combobox("combo_container", { 

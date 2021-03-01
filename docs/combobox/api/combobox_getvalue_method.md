@@ -5,13 +5,13 @@ title: getValue
 
 @short: gets id(s) of items from data collection selected in ComboBox
 
+@signature: getValue(asArray?: boolean): string[] | string;
 
 @params:
 - asArray 	boolean 	true, to return ids as an array of strings
 
 @returns:
 - values 	string,array 	id(s) of options selected in ComboBox
-
 
 @example:
 var id = combo.getValue();

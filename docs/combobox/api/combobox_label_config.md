@@ -3,13 +3,9 @@ sidebar_label: label
 title: label
 ---          
 
-@short: 
-adds a label for ComboBox
+@short: adds a label for ComboBox
 
-
-
-
-@type: string
+@signature: label?: string;
 
 @example: 
 var combo = new dhx.Combobox("combo_container", {

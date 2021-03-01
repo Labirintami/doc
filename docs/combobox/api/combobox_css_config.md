@@ -6,10 +6,7 @@ title: css
 @short: 
 adds style classes to ComboBox
 
-
-
-
-@type: string
+@signature: css?: string;
 
 @example: 
 <style>

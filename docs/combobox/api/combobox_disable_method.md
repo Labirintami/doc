@@ -5,15 +5,10 @@ title: disable
 
 @short: disables ComboBox on a page
 
-
-@params:
-
-
-
+@signature: disable(): void;
 
 @example:
 combo.disable();
-
 
 @template: api_method
 @descr:

@@ -6,12 +6,9 @@ title: listHeight
 @short: 
 sets the height of the list of options
 
+@signature: listHeight?: number | string;
 
-@default:
-224
-
-
-@type: number,string
+@default: 224
 
 @example: 
 var combo = new dhx.Combobox("combo_container",{

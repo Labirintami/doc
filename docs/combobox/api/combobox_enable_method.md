@@ -5,11 +5,7 @@ title: enable
 
 @short: enables a disabled ComboBox
 
-
-@params:
-
-
-
+@signature: enable(): void;
 
 @example:
 combo.enable();

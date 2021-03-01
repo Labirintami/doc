@@ -5,14 +5,12 @@ title: helpMessage
 
 @short: adds an icon with a question mark next to the Combo input
 
-
-@type: string
+@signature: helpMessage?: string;
 
 @example: 
 var combobox = new dhx.Combobox("combo_container",{
 	helpMessage:"Some text"
 });
-
 
 @template:	api_config
 @descr:  

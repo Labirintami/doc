@@ -5,11 +5,7 @@ title: data
 
 @short: specifies an array of data objects to set into the combobox
 
-
-
-
-
-@type: array
+@signature: data?: DataCollection<any> | any[];
 
 @example:
 var combo = new dhx.Combobox("combo_container",{

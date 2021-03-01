@@ -6,10 +6,9 @@ title: showItemsCount
 @short: 
 shows the total number of selected options
 
-
-
-
-@type: boolean,function
+```tododeprecated
+@signature: showItemsCount?: boolean | ((count: number) => string);
+```
 
 @example: 
 var combo = new dhx.Combobox("combo_container", {

@@ -6,10 +6,7 @@ title: required
 @short: 
 defines whether the field with Combo box is required (for a form)
 
-
-
-
-@type: boolean
+@signature: required?: boolean;
 
 @example: 
 var combo = new dhx.Combobox("combo_container",{

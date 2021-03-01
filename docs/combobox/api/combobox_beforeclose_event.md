@@ -5,6 +5,8 @@ title: beforeClose
 
 @short: fires before closing a list with options
 
+```todoapi ```
+
 @returns:
 param 	boolean		false-to prevent closing a combobox, otherwise true
 

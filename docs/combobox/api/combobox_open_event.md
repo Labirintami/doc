@@ -6,7 +6,7 @@ title: open
 @short:
 fires when a list with options is opened
 
-
+```todoapi ```
 
 @example:
 combo.events.on("Open", function(){

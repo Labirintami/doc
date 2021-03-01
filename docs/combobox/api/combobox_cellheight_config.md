@@ -6,9 +6,8 @@ title: cellHeight
 @short: 
 sets the height of a cell in the list of options
 
-
-@default:
-32
+```tododeprecated ```
+@default: 32
 
 
 @type: number

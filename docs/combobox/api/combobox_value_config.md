@@ -8,7 +8,7 @@ title: value
 @short: specifies the values that will appear in the input on initialization of the combobox
 
 
-@type: string, array
+@signature: value?: string | string[];
 
 @example: 
 var combobox = new dhx.Combobox("combobox", {

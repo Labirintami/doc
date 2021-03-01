@@ -5,7 +5,7 @@ title: afterClose
 
 @short: fires after closing a list with options
 
-
+```todoapi ```
 
 
 @example:

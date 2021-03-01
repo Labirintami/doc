@@ -5,11 +5,7 @@ title: destructor
 
 @short: removes a ComboBox instance and releases occupied resources
 
-
-@params:
-
-
-
+@signature: destructor(): void;
 
 @example:
 combo.destructor();
@@ -18,10 +14,4 @@ combo.destructor();
 @template: api_method
 @descr:
 
-
-
-
-
 @changelog:
-
-

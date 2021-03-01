@@ -3,21 +3,16 @@ sidebar_label: readOnly
 title: readOnly
 ---          
 
-@short: 
-makes Combo Box readonly
+@short: makes Combo Box readonly
 
+@signature: readOnly?: boolean;
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var combo = new dhx.Combobox("combo_container", { 
     readOnly:true
 });
-
 
 @template:	api_config
 @descr: 

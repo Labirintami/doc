@@ -3,13 +3,9 @@ sidebar_label: virtual
 title: virtual
 ---          
 
-@short: 
-enables dynamic loading of data on scrolling the list of options
+@short: enables dynamic loading of data on scrolling the list of options
 
-
-
-
-@type: boolean
+@signature: virtual?: boolean;
 
 @example: 
 var combo = new dhx.Combobox("combo_container",{

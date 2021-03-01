@@ -5,12 +5,9 @@ title: itemHeight
 
 @short: sets the height of an item in the list of options
 
+@signature: itemHeight?: number | string;
 
-@default:
-32
-
-
-@type: number,string
+@default: 32
 
 @example: 
 var combo = new dhx.Combobox("combo_container",{

@@ -6,6 +6,8 @@ title: change
 @short:
 fires when a new option is selected
 
+```todoapi ```
+
 @params:
 - id 		string|string[] 		the id(s) of a newly selected option(s)
 

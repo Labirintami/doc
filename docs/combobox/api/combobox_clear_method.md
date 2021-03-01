@@ -5,21 +5,13 @@ title: clear
 
 @short: clears the value set in the Combo Box
 
-
-@params:
-
-
-
+@signature: clear(): void;
 
 @example:
 combo.clear();
 
-
 @template: api_method
 @descr:
-
-
-
 
 @relatedsample:
 https://snippet.dhtmlx.com/omlrtmj7	Combobox. Clear
