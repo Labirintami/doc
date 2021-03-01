@@ -4,7 +4,8 @@ const AT_NOTATION_KEYS = {
     short: 'Short',
     type: 'Type',
     descr: 'Descr',
-    changelog: "Changelog"
+    changelog: "Changelog",
+    signature: "Signature"
 };
 
 const COMPONENTS_PATH = '@site/src/components';
