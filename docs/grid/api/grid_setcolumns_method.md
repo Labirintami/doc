@@ -7,11 +7,10 @@ title: setColumns
 
 @short: sets configuration for Grid columns
 
+@signature: setColumns(columns: ICol[]): void;
 
 @params:
 - columns	array	an array of objects with configuration of columns
-
-
 
 @example:
 grid.setColumns([

@@ -5,12 +5,11 @@ title: edit
 
 @short: enables editing of a Grid cell
 
+```tododeprecated ```
 
 @params:
 - row 		string				the id of a row
 - col 		string 				the id of a column
-
-
 
 @example:
 grid.edit(grid.data.getId(0),"project");

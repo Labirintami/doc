@@ -5,6 +5,8 @@ title: beforeResizeStart
 
 @short: fires before resizing of a column has started
 
+```todoapi ```
+
 @params:
 - column		object		an object with a column configuration
 - e				Event		a native event object

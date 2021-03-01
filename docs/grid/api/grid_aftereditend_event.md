@@ -4,6 +4,8 @@ title: afterEditEnd
 ---          
 
 @short: fires after editing of a cell is ended
+
+```todoapi ```
 	
 @params:
 - value			string		the new value of a cell

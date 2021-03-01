@@ -5,6 +5,8 @@ title: beforeColumnShow
 
 @short: fires before a column is shown on a page
 
+```todoapi ```
+
 @params: 
 - column   object  an object with a column configuration
 

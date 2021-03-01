@@ -5,6 +5,7 @@ title: getCells
 
 @short: returns an array with config objects of selected cells
 
+```todoapi ```
 
 @returns:
 param       array      an array with configuration objects of selected cells

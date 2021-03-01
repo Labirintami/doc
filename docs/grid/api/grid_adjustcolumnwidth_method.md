@@ -5,11 +5,12 @@ title: adjustColumnWidth
 
 @short: adjusts the width of a column to make all its content visible
 
+adjustColumnWidth(id: string | number, adjust?: "data" | "header" | "footer" | boolean): void;
+
 
 @params:
 - id		string,number		the id of a column
-- adjust	string,boolean		optional, the mode of adjusting a column ("header", "data", true)
-
+- adjust	string,boolean		optional, the mode of adjusting a column ("data" | "header" | "footer" | boolean)
 
 
 @example:

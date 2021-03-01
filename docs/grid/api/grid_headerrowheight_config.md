@@ -3,15 +3,11 @@ sidebar_label: headerRowHeight
 title: headerRowHeight
 ---          
 
-@short: 
-sets the height of rows in the header
+@short: sets the height of rows in the header
 
+@signature: headerRowHeight?: number;
 
-@default:
-40
-
-
-@type: number
+@default: 40
 
 @example: 
 var grid = new dhx.Grid("grid_container", {

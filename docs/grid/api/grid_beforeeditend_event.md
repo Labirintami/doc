@@ -4,6 +4,8 @@ title: beforeEditEnd
 ---          
 
 @short: fires before editing of a cell is completed
+
+```todoapi ```
 	
 @params:
 - value			string		the new value of a cell

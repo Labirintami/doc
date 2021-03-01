@@ -4,8 +4,9 @@ title:
 ---          
 
 
-@short:
-fires when a row is dragged out of a potential target
+@short: fires when a row is dragged out of a potential target
+
+```todoapi ```
 
 @params:
 - data		object		data object

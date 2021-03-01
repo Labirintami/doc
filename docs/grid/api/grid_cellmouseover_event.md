@@ -3,8 +3,9 @@ sidebar_label: cellMouseOver
 title: cellMouseOver
 ---          
 
-@short:
-fires on moving the mouse pointer over a grid cell
+@short: fires on moving the mouse pointer over a grid cell
+
+```todoapi ```
 
 @params:
 - row			object		an object with a row configuration

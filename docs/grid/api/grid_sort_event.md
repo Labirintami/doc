@@ -3,8 +3,9 @@ sidebar_label: sort
 title: sort
 ---          
 
-@short:
-fires on sorting a column by clicking on its header
+@short: fires on sorting a column by clicking on its header
+
+```todoapi ```
 
 @params:
 - id	string,number	the id of a column

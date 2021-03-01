@@ -5,11 +5,13 @@ title: addSpan
 
 @short: adds a rows/cols span
 
+```todoapi
+void addSpan(object span);
+addSpan(spanObj: ISpan): void;
+```
 
 @params:
 - span 		object 		an object with configuration of a span
-
-
 
 @example:
 grid.addSpan({ 

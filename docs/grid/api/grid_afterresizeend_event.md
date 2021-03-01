@@ -5,6 +5,8 @@ title: afterResizeEnd
 
 @short: fires after resizing of a column is ended
 
+```todoapi ```
+
 @params:
 - column		object		an object with a column configuration
 - e				Event		a native event object

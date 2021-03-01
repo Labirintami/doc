@@ -3,8 +3,9 @@ sidebar_label: filterChange
 title: filterChange
 ---          
 
-@short:
-fires on typing text in an input of a column's header
+@short: fires on typing text in an input of a column's header
+
+```todoapi ```
 
 @params:
 - value		string,number		an entered value

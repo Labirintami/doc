@@ -5,10 +5,11 @@ title: rowCss
 
 ``` todo
 
-@short: 
-sets style for a row
+@short: sets style for a row
 
-
+@signature: 
+rowCss?: (row: IRow) => string;
+rowCss?: (row: object) => string;
 
 
 @type: function

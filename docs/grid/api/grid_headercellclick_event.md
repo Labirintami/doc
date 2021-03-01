@@ -3,8 +3,9 @@ sidebar_label: headerCellClick
 title: headerCellClick
 ---          
 
-@short:
-fires on click on a grid header cell
+@short: fires on click on a grid header cell
+
+```todoapi ```
 
 @params:
 - column		object		an object with a column configuration

@@ -3,13 +3,9 @@ sidebar_label: dragCopy
 title: dragCopy
 ---          
 
-@short: 
-defines that a row is copied to a target during drag-n-drop
+@short: defines that a row is copied to a target during drag-n-drop
 
-
-
-
-@type: boolean
+@signature: dragCopy?: boolean;
 
 @example: 
 var source = new dhx.Grid("grid-source", {

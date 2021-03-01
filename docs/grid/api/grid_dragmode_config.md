@@ -3,10 +3,9 @@ sidebar_label: dragMode
 title: dragMode
 ---          
 
-@short: 
-enables drag-n-drop in Grid
+@short: enables drag-n-drop in Grid
 
-
+```todoapi ```
 
 
 @type: string

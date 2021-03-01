@@ -5,6 +5,8 @@ title: removeCell
 
 @short: unselects previously selected cells
 
+```todoapi ```
+
 @params:
 - rowId     string,number   optional, the id of a row
 - colId     string,number   optional, the id of a column

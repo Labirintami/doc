@@ -3,8 +3,9 @@ sidebar_label: canColumnDrop
 title: canColumnDrop
 ---          
 
-@short:
-fires when a dragged column is placed over a target column
+@short: fires when a dragged column is placed over a target column
+
+```todoapi ```
 
 @params:
 - data		object		data object

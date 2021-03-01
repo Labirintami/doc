@@ -5,6 +5,8 @@ title: beforeColumnHide
 
 @short: fires before a column is hidden
 
+```todoapi ```
+
 @params: 
 - column   object  an object with a column configuration
 

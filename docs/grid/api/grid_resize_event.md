@@ -5,6 +5,8 @@ title: resize
 
 @short:fires on resizing a column
 
+```todoapi ```
+
 @params:
 - column		object		an object with a column configuration
 - e				Event		a native event object

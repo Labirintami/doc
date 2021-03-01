@@ -3,8 +3,9 @@ sidebar_label: footerCellMouseDown
 title: footerCellMouseDown
 ---          
 
-@short:
-fires on moving the mouse pointer over a grid footer cell
+@short: fires on moving the mouse pointer over a grid footer cell
+
+```todoapi ```
 
 @params:
 - column		object		an object with a column configuration

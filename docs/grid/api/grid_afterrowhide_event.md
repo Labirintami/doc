@@ -5,6 +5,7 @@ title: afterRowHide
 
 @short: fires after a row is hidden
 
+```todoapi ```
 
 @params: 
 - row   object  an object with a row configuration

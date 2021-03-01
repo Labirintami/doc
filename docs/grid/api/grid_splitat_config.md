@@ -3,11 +3,9 @@ sidebar_label: splitAt
 title: splitAt
 ---          
 
-@short: 
-sets the number of frozen columns
+@short: sets the number of frozen columns
 
-
-
+```tododeprecated ```
 
 @type: number
 

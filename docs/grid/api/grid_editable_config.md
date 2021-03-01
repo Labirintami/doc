@@ -1,16 +1,13 @@
 ---
-sidebar_label:
-title:
+sidebar_label: editable
+title: editable
 ---          
 
 @short: enables editing in Grid columns
 
+@signature: editable?: boolean;
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var grid = new dhx.Grid("grid_container", {
@@ -18,7 +15,6 @@ var grid = new dhx.Grid("grid_container", {
 	editable:true, /*!*/
 	data: dataset
 });
-
 
 
 @template:	api_config

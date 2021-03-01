@@ -3,15 +3,11 @@ sidebar_label: rowHeight
 title: rowHeight
 ---          
 
-@short: 
-defines the height of a row in a grid
+@short: defines the height of a row in a grid
 
+@signature: rowHeight?: number;
 
-@default:
-40
-
-
-@type: number
+@default: 40
 
 @example: 
 var grid = new dhx.Grid("grid_container", {

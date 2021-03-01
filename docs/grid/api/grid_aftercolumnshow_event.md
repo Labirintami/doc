@@ -5,6 +5,8 @@ title: afterColumnShow
 
 @short: fires after a column is shown
 
+```todoapi ```
+
 @params:
 - column   object  an object with a column configuration
 

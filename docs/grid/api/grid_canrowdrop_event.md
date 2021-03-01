@@ -3,8 +3,9 @@ sidebar_label: canRowDrop
 title: canRowDrop
 ---          
 
-@short:
-fires when a dragged row is placed over a target row
+@short: fires when a dragged row is placed over a target row
+
+```todoapi ```
 
 @params:
 - data		object		data object

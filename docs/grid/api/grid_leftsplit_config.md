@@ -3,13 +3,9 @@ sidebar_label: leftSplit
 title: leftSplit
 ---          
 
-@short: 
-sets the number of frozen columns
+@short: sets the number of frozen columns
 
-
-
-
-@type: number
+@signature: leftSplit?: number;
 
 @example: 
 var grid = new dhx.Grid("grid_container", {

@@ -5,11 +5,7 @@ title: multiselection
 
 @short: enables multi-row/multi-cell selection in Grid
 
-
-
-
-
-@type: boolean
+@signature: multiselection?: boolean;
 
 @example: 
 var grid = new dhx.Grid("grid_container", {

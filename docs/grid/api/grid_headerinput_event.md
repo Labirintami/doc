@@ -3,8 +3,9 @@ sidebar_label: headerInput
 title: headerInput
 ---          
 
-@short:
-fires on typing text in an input of a column's header
+@short: fires on typing text in an input of a column's header
+
+```todoapi ```
 
 @params:
 - value		string,number		an entered value

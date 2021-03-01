@@ -3,9 +3,9 @@ sidebar_label: headerSort
 title: headerSort
 ---          
 
-@short: 
-defines whether sorting on clicking headers of columns is enabled
+@short: defines whether sorting on clicking headers of columns is enabled
 
+```tododeprecated ```
 
 @default:
 true

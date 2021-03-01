@@ -5,6 +5,10 @@ title: getColumn
 
 @short: returns an object with attributes of a column
 
+```todoapi
+object getColumn(string|number colId);
+getColumn(colId: string): ICol;
+```
 
 @params:
 - colId		string,number		the id of a column

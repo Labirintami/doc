@@ -7,12 +7,15 @@ title: addCellCss
 
 @short: adds a style to a cell
 
+```todoapi
+void addCellCss(string|number row,string|number col,string css);
+addCellCss(row: string, col: string, css: string): void;
+
 
 @params:
 - row 		string,number 		the id of a row
 - col 		string,number 		the id of a column
 - css 		string 				the name of the CSS class
-
 
 
 @example:

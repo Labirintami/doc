@@ -5,11 +5,7 @@ title: resizable
 
 @short: defines whether columns can be resized
 
-
-
-
-
-@type: boolean
+@signature: resizable?: boolean;
 
 @example: 
 var grid = new dhx.Grid("grid_container", {

@@ -5,6 +5,7 @@ title: setCell
 
 @short: sets selection to specified cells
 
+```todoapi ```
 
 @params:
 - row     object|string    an object with a cell to be selected or the id of a row

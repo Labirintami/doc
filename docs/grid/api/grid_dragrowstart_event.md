@@ -3,8 +3,9 @@ sidebar_label: dragRowStart
 title: dragRowStart
 ---          
 
-@short:
-fires when dragging of a row has started
+@short: fires when dragging of a row has started
+
+```todoapi ```
 
 @params:
 - data		object		data object

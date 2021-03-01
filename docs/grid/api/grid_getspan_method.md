@@ -5,6 +5,7 @@ title: getSpan
 
 @short: returns an object with spans
 
+@signature: getSpan(row: string | number, col: string | number): object;
 
 @params:
 - row		string,number		the id of a row
@@ -12,7 +13,6 @@ title: getSpan
 
 @returns:
 - span		object		an object with configuration of a span
-
 
 @example:
 var span = grid.getSpan("10","a"); 

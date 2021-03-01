@@ -5,6 +5,8 @@ title: afterRowShow
 
 @short: fires after a row is shown on a page
 
+```todoapi ```
+
 
 @params: 
 - row   object  an object with a row configuration

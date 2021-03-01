@@ -5,6 +5,8 @@ title: getCell
 
 @short: returns the object of a selected cell
 
+```todoapi ```
+
 @returns:
 param   object  an object with parameters of a selected cell
 

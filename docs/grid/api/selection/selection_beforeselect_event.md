@@ -5,6 +5,7 @@ title: beforeSelect
 
 @short: fires before selecting a cell
 
+```todoapi ```
 
 @params:
 

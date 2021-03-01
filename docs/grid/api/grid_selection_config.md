@@ -3,13 +3,9 @@ sidebar_label: selection
 title: selection
 ---          
 
-@short: 
-enables selection in a grid
+@short: enables selection in a grid
 
-@values:"row","cell","complex"
-
-
-@type:string
+selection?: "cell" | "row" | "complex";
 
 @example: 
 var grid = new dhx.Grid("grid_container", {

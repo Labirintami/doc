@@ -3,8 +3,9 @@ sidebar_label: headerCellMouseDown
 title: headerCellMouseDown
 ---          
 
-@short:
-fires on moving the mouse pointer over a grid header cell
+@short: fires on moving the mouse pointer over a grid header cell
+
+```todoapi ```
 
 @params:
 - column		object		an object with a column configuration

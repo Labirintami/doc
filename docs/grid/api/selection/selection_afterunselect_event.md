@@ -5,6 +5,8 @@ title: afterUnSelect
 
 @short: fires after unselecting a cell
 
+```todoapi ```
+
 @params:
 
 - row		object		the config of a row

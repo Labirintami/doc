@@ -3,8 +3,9 @@ sidebar_label: cellRightClick
 title: cellRightClick
 ---          
 
-@short:
-fires on right click on a grid cell
+@short: fires on right click on a grid cell
+
+```todoapi ```
 
 @params:
 - row			object		an object with a row configuration

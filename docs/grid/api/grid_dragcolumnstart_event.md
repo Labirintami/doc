@@ -3,8 +3,9 @@ sidebar_label: dragColumnStart
 title: dragColumnStart
 ---          
 
-@short:
-fires when dragging of a column has started
+@short: fires when dragging of a column has started
+
+```todoapi ```
 
 @params:
 - data		object		data object

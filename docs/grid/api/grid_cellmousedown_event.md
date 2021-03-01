@@ -3,8 +3,9 @@ sidebar_label: cellMouseDown
 title: cellMouseDown
 ---          
 
-@short:
-fires before releasing the left mouse button when clicking on a grid cell
+@short: fires before releasing the left mouse button when clicking on a grid cell
+
+```todoapi ```
 
 @params:
 - row			object		an object with a row configuration

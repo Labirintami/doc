@@ -3,8 +3,9 @@ sidebar_label: afterColumnDrop
 title: afterColumnDrop
 ---          
 
-@short:
-fires before the user has finished dragging a column but after the mouse button is released
+@short: fires before the user has finished dragging a column but after the mouse button is released
+
+```todoapi ```
 
 @params:
 - data		object		data object

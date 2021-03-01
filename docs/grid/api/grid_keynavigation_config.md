@@ -5,11 +5,9 @@ title: keyNavigation
 
 @short: enables keyboard navigation in Grid
 
+@signature: keyNavigation?: boolean;
 
-
-@type: boolean
-
-@default:true
+@default: true
 
 @example: 
 var grid = new dhx.Grid("grid", {

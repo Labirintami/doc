@@ -5,6 +5,7 @@ title: afterColumnHide
 
 @short: fires after a column is hidden
 
+```todoapi ```
 
 @params: 
 - column   object  an object with a column configuration

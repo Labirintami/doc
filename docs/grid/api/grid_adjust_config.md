@@ -7,13 +7,7 @@ title: adjust
 
 @short: defines whether the width of columns is automatically adjusted to the width of their content
 
-
-
-
-
-@type: boolean,string
-
-@values: true|false|"header"|"footer"|"data"
+adjust?: "data" | "header" | "footer" | boolean;;
 
 @default: false
 

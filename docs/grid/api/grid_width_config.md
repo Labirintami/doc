@@ -3,10 +3,9 @@ sidebar_label: width
 title: width
 ---          
 
-@short: 
-sets the width of a grid
+@short: sets the width of a grid
 
-
+@signature:  width?: number;
 
 
 @type: number

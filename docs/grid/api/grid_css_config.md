@@ -3,13 +3,9 @@ sidebar_label: css
 title: css
 ---          
 
-@short: 
-adds style classes to Grid
+@short: adds style classes to Grid
 
-
-
-
-@type: string
+@signature: css?: string;
 
 @example: 
 <style>

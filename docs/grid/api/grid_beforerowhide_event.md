@@ -5,6 +5,8 @@ title: beforeRowHide
 
 @short: fires before a row is hidden
 
+```todoapi ```
+
 @params: 
 - row   object  an object with a row configuration
 

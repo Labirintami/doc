@@ -5,11 +5,9 @@ title: columns
 
 ``` todo
 
-@short: 
-specifies the configuration of grid columns
+@short: specifies the configuration of grid columns
 
-
-
+```todoapi ```
 
 @type: array
 

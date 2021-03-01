@@ -5,13 +5,10 @@ title: spans
 
 ``` todo
 
-@short: 
-describes the configuration of cols/rows spans
+@short: describes the configuration of cols/rows spans
 
+@signature: spans?: [];
 
-
-
-@type: array
 
 @example: 
 var grid = new dhx.Grid("grid_container", {

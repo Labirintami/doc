@@ -3,8 +3,9 @@ sidebar_label: cellClick
 title: cellClick
 ---          
 
-@short:
-fires on click on a grid cell
+@short: fires on click on a grid cell
+
+```todoapi ```
 
 @params:
 - row			object		an object with a row configuration

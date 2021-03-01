@@ -5,9 +5,7 @@ title: disable
 
 @short: disables selection of cells in Grid
 
-
-
-
+```todoapi ```
 
 @example:
 grid.selection.disable();

@@ -3,8 +3,9 @@ sidebar_label: expand
 title: expand
 ---          
 
-@short:
-fires on expanding a treegrid
+@short: fires on expanding a treegrid
+
+```todoapi ```
 
 @params:
 - rowId		string,number		the id of an expanded row

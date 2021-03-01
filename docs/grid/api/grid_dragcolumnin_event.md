@@ -3,8 +3,9 @@ sidebar_label: dragColumnIn
 title: dragColumnIn
 ---          
 
-@short:
-fires when a column is dragged to another potential target
+@short: fires when a column is dragged to another potential target
+
+```todoapi ```
 
 @params:
 - data		object		data object

@@ -3,8 +3,9 @@ sidebar_label: afterRowDrag
 title: afterRowDrag
 ---          
 
-@short:
-fires after dragging of a row is finished
+@short: fires after dragging of a row is finished
+
+```todoapi ```
 
 @params:
 - data		object		data object

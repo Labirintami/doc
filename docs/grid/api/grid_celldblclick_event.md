@@ -3,8 +3,9 @@ sidebar_label: cellDblClick
 title: cellDblClick
 ---          
 
-@short:
-fires on double-click on a grid cell
+@short: fires on double-click on a grid cell
+
+```todoapi ```
 
 @params:
 - row			object		an object with a row configuration

@@ -5,13 +5,10 @@ title: getSortingState
 
 @short: returns the current state of sorting data in Grid
 
-
-@params:
-
+getSortingState(): object;
 
 @returns:
 - any   object	  an object with the current state of sorting data in the grid
-
 
 @example:
 var state = grid.getSortingState(); 

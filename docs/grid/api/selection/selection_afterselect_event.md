@@ -5,6 +5,7 @@ title: afterSelect
 
 @short: fires after selecting a cell
 
+```todoapi ```
 
 @params:
 

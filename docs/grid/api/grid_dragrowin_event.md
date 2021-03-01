@@ -4,8 +4,9 @@ title: dragRowIn
 ---          
 
 
-@short:
-fires when a row is dragged to another potential target
+@short: fires when a row is dragged to another potential target
+
+```todoapi ```
 
 @params:
 - data		object		data object

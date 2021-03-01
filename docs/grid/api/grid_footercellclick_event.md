@@ -3,8 +3,9 @@ sidebar_label: footerCellClick
 title: footerCellClick
 ---          
 
-@short:
-fires on click on a grid footer cell
+@short: fires on click on a grid footer cell
+
+```todoapi ```
 
 @params:
 - column		object		an object with a column configuration

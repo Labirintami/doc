@@ -5,6 +5,7 @@ title: beforeUnSelect
 
 @short: fires before unselecting a cell
 
+```todoapi ```
 
 @params:
 
