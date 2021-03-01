@@ -5,6 +5,8 @@ title: edit
 
 @short: enables editing of an item
 
+```tododeprecated ```
+
 @params:
 - id		string		the id of an item
 

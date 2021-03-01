@@ -3,13 +3,12 @@ sidebar_label: data
 title: data
 ---          
 
-@short: 
-specifies an array of data objects to set into the list
+@short: specifies an array of data objects to set into the list
 
-
-
-
-@type: array
+```todoapi 
+array data;
+data: DataCollection<T>;
+```
 
 @example: 
 const data = [

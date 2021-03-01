@@ -3,8 +3,9 @@ sidebar_label: focusChange
 title: focusChange
 ---          
 
-@short:
-fires on moving focus to a new item
+@short: fires on moving focus to a new item
+
+```todoapi ```
 
 @params:
 - index		number					the position of an item

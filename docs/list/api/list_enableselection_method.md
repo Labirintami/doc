@@ -5,9 +5,7 @@ title: enableSelection
 
 @short: enables selection of items in List
 
-
-
-
+```tododeprecated ```
 
 @example:
 list.enableSelection();
@@ -15,10 +13,6 @@ list.enableSelection();
 
 @template: api_method
 @descr:
-
-
-
-
 
 @changelog: 
 - added in v6.5

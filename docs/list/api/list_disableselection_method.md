@@ -5,12 +5,7 @@ title: disableSelection
 
 @short: disables selection of items in List
 
-
-@params:
-
-
-
-
+```tododeprecated ```
 
 @example:
 list.disableSelection();
@@ -18,10 +13,6 @@ list.disableSelection();
 
 @template: api_method
 @descr:
-
-
-
-
 
 @changelog: 
 - added in v6.5

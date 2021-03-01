@@ -3,15 +3,11 @@ sidebar_label: virtual
 title: virtual
 ---          
 
-@short: 
-enables dynamic rendering of List items
+@short: enables dynamic rendering of List items
 
+@signature: virtual?: boolean;
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var list = new dhx.List("list_container", {

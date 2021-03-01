@@ -3,15 +3,11 @@ sidebar_label: itemHeight
 title: itemHeight
 ---          
 
-@short: 
-sets the height of an item
+@short: sets the height of an item
 
+@signature: itemHeight?: number | string;
 
-@default:
-37
-
-
-@type: number|string
+@default:37
 
 @example: 
 // sets the height of an item as a number

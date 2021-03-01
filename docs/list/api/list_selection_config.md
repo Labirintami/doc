@@ -5,11 +5,9 @@ title: selection
 
 @short: enables selection of List items
 
+@signature: selection?: boolean;
+
 @default: true
-
-
-
-@type: boolean
 
 @example: 
 var list = new dhx.List("list_container", {selection:false});

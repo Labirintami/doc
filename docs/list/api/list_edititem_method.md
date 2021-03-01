@@ -5,12 +5,13 @@ title: editItem
 
 @short: enables editing of an item
 
+```todoapi 
+void editItem(string|number id);
+editItem(id: string): void;
+```
 
 @params:
 - id	string|number		the id of an item
-
-
-
 
 @example:
 list.editItem("1");

@@ -3,13 +3,9 @@ sidebar_label: dragCopy
 title: dragCopy
 ---          
 
-@short: 
-defines that an item is copied to a target during drag-n-drop
+@short: defines that an item is copied to a target during drag-n-drop
 
-
-
-
-@type: boolean
+```todoapi ```
 
 @example: 
 var source = new dhx.List("list-source", {dragMode: "source", dragCopy: true});

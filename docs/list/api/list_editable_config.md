@@ -5,11 +5,9 @@ title: editable
 
 @short: enables editing in List
 
+@signature:  editable?: boolean;
+
 @default:false
-
-
-
-@type: boolean
 
 @example: 
 var list = new dhx.List("list_container", {editable:true});

@@ -1,15 +1,11 @@
 ---
-sidebar_label:
-title:
+sidebar_label: multiselection
+title: multiselection
 ---          
 
-@short: 
-enables selection of multiple List items, sets the mode of multiselection
+@short: enables selection of multiple List items, sets the mode of multiselection
 
-
-@type: boolean,string
-
-@values: true, false, "click", "ctrlClick" 
+multiselection?: boolean | "click" | "ctrlClick";
 
 @example: 
 var list = new dhx.List("list", {multiselection:true});

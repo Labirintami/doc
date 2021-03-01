@@ -3,8 +3,9 @@ sidebar_label: dragOut
 title: dragOut
 ---          
 
-@short:
-fires when an item is dragged out of a potential target
+@short: fires when an item is dragged out of a potential target
+
+```todoapi ```
 
 @params:
 - data		object		data object

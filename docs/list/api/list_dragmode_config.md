@@ -3,13 +3,9 @@ sidebar_label: dragMode
 title: dragMode
 ---          
 
-@short: 
-enables drag-n-drop in List
+@short: enables drag-n-drop in List
 
-
-
-
-@type: string
+```todoapi ```
 
 @example: 
 var list = new dhx.List("list_container", { 

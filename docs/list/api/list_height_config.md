@@ -3,13 +3,9 @@ sidebar_label: height
 title: height
 ---          
 
-@short: 
-sets the height of List
+@short: sets the height of List
 
-
-
-
-@type: number|string
+@signature:  height?: number | string;
 
 @example: 
 // sets the height as a number

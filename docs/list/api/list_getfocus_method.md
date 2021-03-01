@@ -5,13 +5,13 @@ title: getFocus
 
 @short: returns the id of an item in focus
 
-
-@params:
-
+```todoapi 
+string|number getFocus();
+getFocus(): string;
+```
 
 @returns:
 - param	string|number      the id of an item in focus
-
 
 @example:
 list.getFocus(); // -> "item_id"

@@ -5,12 +5,13 @@ title: setFocus
 
 @short: sets focus to an item by its id
 
+```todoapi 
+void setFocus(string|number id);
+@signature: setFocus(id: string): void;
+```
 
 @params:
 - id	string|number      the id of an item
-
-
-
 
 @example:
 list.setFocus("item_id");

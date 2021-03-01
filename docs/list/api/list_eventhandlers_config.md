@@ -7,9 +7,12 @@ title: eventHandlers
 
 @short: adds event handlers to HTML elements of a custom template of List items
 
-
-
-
+```todoapi 
+object eventHandlers;
+eventHandlers?: {
+    [key: string]: any;
+};
+```
 
 @type: object
 

@@ -3,8 +3,9 @@ sidebar_label: beforeDrag
 title: beforeDrag
 ---          
 
-@short:
-fires before dragging of an item has started 
+@short: fires before dragging of an item has started 
+
+```todoapi ```
 
 @params:
 - data		object		data object

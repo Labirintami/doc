@@ -3,13 +3,12 @@ sidebar_label: template
 title: template
 ---          
 
-@short: 
-specifies a template for List items
+@short: specifies a template for List items
 
-
-
-
-@type: function
+```todoapi 
+function template;
+template?: (obj: IDataItem) => string;
+```
 
 @example: 
 var list = new dhx.List("list", {

@@ -5,9 +5,7 @@ title: getFocusIndex
 
 @short: returns the index of an item in focus
 
-
-@params:
-
+```todoapi ```
 
 @returns:
 - index		number		the index of an item in focus

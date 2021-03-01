@@ -3,13 +3,9 @@ sidebar_label: dropBehaviour
 title: dropBehaviour
 ---          
 
-@short: 
-defines the behaviour of a dragged item
+@short: defines the behaviour of a dragged item
 
-
-
-
-@type: string
+```todoapi ```
 
 @example: 
 var source = new dhx.List("list-source",{

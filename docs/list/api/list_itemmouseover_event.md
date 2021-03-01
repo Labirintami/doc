@@ -5,6 +5,8 @@ title: itemMouseOver
 
 @short: fires on moving the mouse pointer over an item
 
+```todoapi ```
+
 @params:
 - id   		string,number			the id of an item
 - e			Event					a native event object

@@ -5,13 +5,13 @@ title: getFocusItem
 
 @short: returns the object of an item in focus
 
-
-@params:
-
+```todoapi 
+object getFocusItem();
+getFocusItem(): T;
+```
 
 @returns:
 - id 		object		the object of an item in focus
-
 
 @example:
 var focus = list.getFocusItem(); 

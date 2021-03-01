@@ -3,17 +3,12 @@ sidebar_label: keyNavigation
 title: keyNavigation
 ---          
 
-@short: 
-enables/disables navigation in List by arrow keys
+@short: enables/disables navigation in List by arrow keys
 
-
-
-
-@type: function,boolean
+@signature: keyNavigation?: boolean | (() => boolean);
 
 @example: 
 var list = new dhx.List("list", {keyNavigation:true});
-
 
 @template:	api_config
 @descr: 

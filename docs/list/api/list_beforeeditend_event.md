@@ -4,6 +4,8 @@ title: beforeEditEnd
 ---          
 
 @short: fires before editing of an item is ended
+
+```todoapi ```
 	
 @params:
 - value		string		the value of an item

@@ -3,9 +3,12 @@ sidebar_label: multiselectionMode
 title: multiselectionMode
 ---          
 
-@short: 
-sets the mode of multiselection
+@short: sets the mode of multiselection
 
+```todoapi 
+boolean|string multiselection;
+multiselectionMode?: "click" | "ctrlClick";
+```
 
 @type: string
 @default:"ctrlClick"

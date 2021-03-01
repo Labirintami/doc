@@ -3,8 +3,9 @@ sidebar_label: afterDrag
 title: afterDrag
 ---          
 
-@short:
-fires after dragging of an item is finished
+@short: fires after dragging of an item is finished
+
+```todoapi ```
 
 @params:
 - data		object		data object
