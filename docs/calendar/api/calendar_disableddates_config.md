@@ -5,11 +5,10 @@ title: disabledDates
 
 @short: allows disabling some date intervals, day labels are dimmed
 
-
-
-
-
-@type: function
+```todoapi
+function disabledDates;
+disabledDates?: (a: Date) => boolean;
+```
 
 @example: 
 var calendar = new dhx.Calendar("calendar", {

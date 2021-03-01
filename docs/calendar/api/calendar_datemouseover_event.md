@@ -3,7 +3,12 @@ sidebar_label: dateMouseOver
 title: dateMouseOver
 ---          
 
-@short:fires when the mouse pointer is over a date
+@short: fires when the mouse pointer is over a date
+
+```todoapi
+void dateMouseOver(Date date,Event e){ ... };
+[CalendarEvents.dateMouseOver]: (date: Date, e: MouseEvent) => any;
+```
 
 @params:
 - date  	Date    	the date under the pointer

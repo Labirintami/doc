@@ -3,8 +3,12 @@ sidebar_label: modeChange
 title: modeChange
 ---          
 
-@short:
-fires on change of the calendar mode
+@short: fires on change of the calendar mode
+
+```todoapi
+void modeChange(string mode){ ... };
+[CalendarEvents.modeChange]: (mode: string) => any;
+```
 
 @params:
 - mode      string      the calendar mode ("calendar", "year", "month", "timepicker")

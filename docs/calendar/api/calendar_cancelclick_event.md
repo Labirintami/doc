@@ -5,7 +5,10 @@ title: cancelClick
 
 @short: fires when the user clicks on the "Cancel" control
 
-
+```todoapi
+void cancelClick(){ ... };
+[CalendarEvents.cancelClick]: () => any;
+```
 
 
 @example:

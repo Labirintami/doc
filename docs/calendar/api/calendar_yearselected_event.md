@@ -5,6 +5,12 @@ title: yearSelected
 
 @short: fires after a year was selected in the calendar
 
+
+```todoapi
+void yearSelected(number year){ ... };
+[CalendarEvents.yearSelected]: (year: number) => any;
+```
+
 @params:
 - year      number      the number of the selected year
 

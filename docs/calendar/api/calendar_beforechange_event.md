@@ -3,8 +3,12 @@ sidebar_label: beforeChange
 title: beforeChange
 ---          
 
-@short:
-fires before the change of date selection
+@short: fires before the change of date selection
+
+```todoapi
+boolean beforeChange(Date date,Date oldDate,boolean click){ ... };
+[CalendarEvents.beforeChange]: (date: Date, oldDate: Date, byClick: boolean) => boolean | void;
+```
 
 @params:
 - date  		Date    	the newly selected date

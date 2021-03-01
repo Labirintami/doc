@@ -3,14 +3,13 @@ sidebar_label: timeFormat
 title: timeFormat
 ---          
 
-@short: 
-defines the time format for a timepicker in the calendar
+@short: defines the time format for a timepicker in the calendar
+
+@signature: timeFormat?: 24 | 12; 
+
+@default: 24
 
 
-@default:24
-
-
-@type: number
 
 @example: 
 var calendar = new dhx.Calendar("calendar_container", {

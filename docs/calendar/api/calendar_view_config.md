@@ -3,8 +3,9 @@ sidebar_label: view
 title: view
 ---          
 
-@short: 
-the mode of Calendar initialization
+@short: the mode of Calendar initialization
+
+```tododeprecated ```
 
 @values:
 "calendar","month","year","timepicker"

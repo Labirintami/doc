@@ -5,12 +5,14 @@ title: monthSelected
 
 @short: fires after a month was selected in the calendar
 
+```todoapi
+void monthSelected(number month){ ... };
+[CalendarEvents.monthSelected]: (month: number) => any;
+```
+
+
 @params:
-
 - month     number      the number of the selected month (from 0 to 11)
-
-
-
 
 @example:
 calendar.events.on("MonthSelected", function(month) {

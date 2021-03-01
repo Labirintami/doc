@@ -3,21 +3,16 @@ sidebar_label: dateFormat
 title: dateFormat
 ---          
 
-@short: 
-defines the format of dates in Сalendar
+@short: defines the format of dates in Сalendar
 
+@signature: dateFormat?: string;
 
-@default:
-"%d/%m/%y"
-
-
-@type: string
+@default: "%d/%m/%y"
 
 @example: 
 var calendar = new dhx.Calendar("calendar_container", {
    dateFormat:"%d.%m.%Y"
 });
-
 
 @template:	api_config
 @descr: 

@@ -5,13 +5,10 @@ title: mode
 
 @short: the mode of Calendar initialization
 
-@values:
-"calendar","month","year","timepicker"
+@signature: mode?: "calendar" | "year" | "month" | "timepicker";
 
 @default:
 "calendar"
-
-@type: string
 
 @example: 
 var calendar = new dhx.Calendar("calendar_container", {

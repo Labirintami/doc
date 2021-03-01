@@ -3,13 +3,9 @@ sidebar_label: css
 title: css
 ---          
 
-@short: 
-adds style classes to Calendar
+@short: adds style classes to Calendar
 
-
-
-
-@type: string
+@signature: css?: string;
 
 @example: 
 <style>

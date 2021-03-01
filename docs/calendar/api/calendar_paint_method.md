@@ -5,7 +5,7 @@ title: paint
 
 @short: repaints a calendar on a page
 
-paint(): void;
+@signature: paint(): void;
 
 @example:
 calendar.paint();

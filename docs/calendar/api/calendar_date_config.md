@@ -3,11 +3,10 @@ sidebar_label: date
 title: date
 ---          
 
-@short: 
-defines the date that will be opened when the calendar is created
+@short: defines the date that will be opened when the calendar is created
 
+@signature: date?: Date | string;
 
-@type: Date
 
 @example: 
 var calendar = new dhx.Calendar("calendar_container", {

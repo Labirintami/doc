@@ -3,15 +3,11 @@ sidebar_label: weekNumbers
 title: weekNumbers
 ---          
 
-@short: 
-defines whether to show the numbers of weeks
+@short: defines whether to show the numbers of weeks
 
+@signature: weekNumbers?: boolean;
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var calendar = new dhx.Calendar("calendar_container", { 

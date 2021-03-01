@@ -3,15 +3,11 @@ sidebar_label: weekStart
 title: weekStart
 ---          
 
-@short: 
-sets the starting day of the week
+@short: sets the starting day of the week
 
+@signature: weekStart?: "sunday" | "monday";
 
-@default:
-"sunday"
-
-
-@type: string
+@default: "sunday"
 
 @example: 
 var calendar = new dhx.Calendar("calendar_container", {

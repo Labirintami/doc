@@ -3,14 +3,11 @@ sidebar_label: timePicker
 title: timePicker
 ---          
 
-@short: 
-adds a timepicker into the calendar
+@short: adds a timepicker into the calendar
 
+@signature: timePicker?: boolean;
 
-@default:false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var calendar = new dhx.Calendar("calendar_container", {

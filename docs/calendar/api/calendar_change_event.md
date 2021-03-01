@@ -3,8 +3,12 @@ sidebar_label: change
 title: change
 ---          
 
-@short:
-fires on change of date selection
+@short: fires on change of date selection
+
+```todoapi
+void change(Date date,Date oldDate,boolean click){ ... };
+[CalendarEvents.change]: (date: Date, oldDate: Date, byClick: boolean) => any;
+```
 
 @params:
 - date  		Date    	the newly selected date

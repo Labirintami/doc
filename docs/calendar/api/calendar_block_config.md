@@ -3,12 +3,12 @@ sidebar_label: block
 title: block
 ---          
 
-@short: 
-allows disabling some date intervals, day labels are dimmed
+@short: allows disabling some date intervals, day labels are dimmed
 
-
-
-
+```tododeprecated
+    /** @deprecated See a documentation: https://docs.dhtmlx.com/ */
+    block?: (a: Date) => boolean;
+```
 @type: function
 
 @example: 

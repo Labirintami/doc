@@ -3,8 +3,7 @@ sidebar_label: value
 title: value
 ---          
 
-@short: 
-selects the day (adds a round blue marker)
+@short: selects the day (adds a round blue marker)
 
 @signature: value?: Date | Date[] | string | string[];
 

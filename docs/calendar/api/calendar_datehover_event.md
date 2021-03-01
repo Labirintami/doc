@@ -3,8 +3,9 @@ sidebar_label: dateHover
 title: dateHover
 ---          
 
-@short:
-fires when the mouse pointer is over a date
+@short: fires when the mouse pointer is over a date
+
+```tododeprecated ```
 
 @params:
 - date  	Date    	the date under the pointer

@@ -3,15 +3,11 @@ sidebar_label: width
 title: width
 ---          
 
-@short: 
-sets the width of the calendar
+@short: sets the width of the calendar
 
+@signature: width?: string | number;
 
-@default:
-"250px"
-
-
-@type: string
+@default: "250px"
 
 @example: 
 var calendar = new dhx.Calendar("calendar_container", {

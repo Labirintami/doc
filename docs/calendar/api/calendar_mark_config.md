@@ -3,11 +3,12 @@ sidebar_label: mark
 title: mark
 ---          
 
-@short: 
-adds a CSS class to specific days
+@short: adds a CSS class to specific days
 
-
-
+```todoapi
+function mark;
+mark?: (a: Date) => string;
+```
 
 @type: function
 
