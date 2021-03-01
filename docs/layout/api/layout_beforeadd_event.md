@@ -5,6 +5,8 @@ title: beforeAdd
 
 @short: fires before adding a cell
 
+```todoapi ```
+
 @params:
 - id		string		the id of a cell
 

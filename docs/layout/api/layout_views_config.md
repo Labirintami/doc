@@ -3,11 +3,9 @@ sidebar_label: views
 title: views
 ---          
 
-@short: 
-sets an array of views objects
+@short: sets an array of views objects
 
-
-
+```todoapi ```
 
 @type: array
 

@@ -3,11 +3,9 @@ sidebar_label: activeView
 title: activeView
 ---          
 
-@short: 
-sets the currently active view
+@short: sets the currently active view
 
-
-
+```todoapi ```
 
 @type: string
 

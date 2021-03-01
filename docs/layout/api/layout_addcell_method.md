@@ -5,6 +5,7 @@ title: addCell
 
 @short: adds a new cell into a layout
 
+```todoapi ```
 
 @params:
 - config	object		the config object of a cell

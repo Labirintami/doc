@@ -5,6 +5,8 @@ title: beforeShow
 
 @short: fires before a cell is shown
 
+```todoapi ```
+
 @params:
 - id		string		the id of a cell
 

@@ -5,11 +5,10 @@ title: removeCell
 
 @short: removes a specified cell
 
+@signature: removeCell(id: string): void;
 
 @params:
 - id 	string 	the id of a cell
-
-
 
 @example:
 layout.removeCell("1");

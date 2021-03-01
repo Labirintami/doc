@@ -3,13 +3,9 @@ sidebar_label: css
 title: css
 ---          
 
-@short: 
-the name of a CSS class(es) applied to Layout
+@short: the name of a CSS class(es) applied to Layout
 
-
-
-
-@type: string
+@signature: css?: string;
 
 @example: 
 <style>

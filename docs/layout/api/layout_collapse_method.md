@@ -5,11 +5,7 @@ title: collapse
 
 @short: collapses a specified cell
 
-
-@params:
-
-
-
+```todoapi ```
 
 @example:
 layout.getCell("id").collapse();

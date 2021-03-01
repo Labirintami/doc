@@ -5,11 +5,7 @@ title: destructor
 
 @short: removes a Layout instance and releases occupied resources
 
-
-@params:
-
-
-
+```todoapi ```
 
 @example:
 layout.destructor();

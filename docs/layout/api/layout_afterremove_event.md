@@ -5,6 +5,8 @@ title: afterRemove
 
 @short: fires after removing a cell
 
+```todoapi ```
+
 @params:
 - id		string		the id of a cell
 

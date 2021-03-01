@@ -3,13 +3,12 @@ sidebar_label: cols
 title: cols
 ---          
 
-@short: 
-an array of columns objects
+@short: an array of columns objects
 
-
-
-
-@type: array
+```todoapi
+array cols;
+cols?: ICellConfig[] | ILayoutConfig[];
+```
 
 @example: 
 var layout = new dhx.Layout("layout_container", {

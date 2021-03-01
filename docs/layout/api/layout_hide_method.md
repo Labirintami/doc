@@ -5,11 +5,7 @@ title: hide
 
 @short: hides a specified cell
 
-
-
-@params:
-
-
+```todoapi ```
 
 
 @example:

@@ -3,13 +3,9 @@ sidebar_label: width
 title: width
 ---          
 
-@short: 
-sets the width of a cell
+@short: sets the width of a cell
 
-
-
-
-@type: string|number
+@signature: width?: number | string;
 
 @example: 
 var layout = new dhx.Layout("layout_container", {

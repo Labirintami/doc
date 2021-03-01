@@ -3,13 +3,9 @@ sidebar_label: header
 title: header
 ---          
 
-@short: 
-adds a header with text for a cell
+@short: adds a header with text for a cell
 
-
-
-
-@type: string
+@signature: header?: string;
 
 @example: 
 var layout = new dhx.Layout("layout_container", {

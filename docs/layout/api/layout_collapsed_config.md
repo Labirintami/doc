@@ -3,13 +3,9 @@ sidebar_label: collapsed
 title: collapsed
 ---          
 
-@short: 
-defines whether a cell is collapsed
+@short: defines whether a cell is collapsed
 
-
-
-
-@type: boolean
+@signature: collapsed?: boolean;
 
 @example: 
 var layout = new dhx.Layout("layout_container", {

@@ -3,13 +3,9 @@ sidebar_label: headerIcon
 title: headerIcon
 ---          
 
-@short: 
-an icon used in the header of a cell
+@short: an icon used in the header of a cell
 
-
-
-
-@type: string
+@signature: headerIcon?: string;
 
 @example: 
 var layout = new dhx.Layout("layout_container", {

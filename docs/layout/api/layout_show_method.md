@@ -5,11 +5,7 @@ title: show
 
 @short: shows a hidden cell
 
-
-@params:
-
-
-
+```todoapi ```
 
 @example:
 layout.getCell("1").show();

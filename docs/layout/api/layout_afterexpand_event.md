@@ -5,9 +5,10 @@ title: afterExpand
 
 @short: fires after expanding a Layout cell
 
+```todoapi ```
+
 @params:
 - id		string		the id of a cell
-
 
 @example:
 layout.events.on("AfterExpand", function(id){

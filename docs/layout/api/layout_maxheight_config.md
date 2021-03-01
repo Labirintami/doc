@@ -5,11 +5,7 @@ title: maxHeight
 
 @short: the maximal height to be set for a cell
 
-
-
-
-
-@type: number,string
+@signature: maxHeight?: number | string;
 
 @example: 
 var layout = new dhx.Layout("layout_container", {

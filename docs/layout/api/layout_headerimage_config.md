@@ -3,13 +3,10 @@ sidebar_label: headerImage
 title: headerImage
 ---          
 
-@short: 
-an image used in the header of a cell
+@short: an image used in the header of a cell
 
+@signature: headerImage?: string;
 
-
-
-@type: string
 
 @example: 
 var layout = new dhx.Layout("layout_container", {

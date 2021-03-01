@@ -5,9 +5,7 @@ title: getParent
 
 @short: returns the parent of a cell
 
-
-@params:
-
+```todoapi ```
 
 @returns:
 - config	object		the config object of the parent of a cell

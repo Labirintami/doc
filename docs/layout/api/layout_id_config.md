@@ -3,13 +3,9 @@ sidebar_label: id
 title: id
 ---          
 
-@short: 
-the id of a cell
+@short: the id of a cell
 
-
-
-
-@type: string
+@signature: id?: string;
 
 @example: 
 var layout = new dhx.Layout("layout_container", {

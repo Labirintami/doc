@@ -3,13 +3,12 @@ sidebar_label: rows
 title: rows
 ---          
 
-@short: 
-an array of rows objects
+@short: an array of rows objects
 
-
-
-
-@type: array
+```todoapi
+array rows;
+rows?: ICellConfig[] | ILayoutConfig[];
+```
 
 @example: 
 var layout = new dhx.Layout("layout_container", {

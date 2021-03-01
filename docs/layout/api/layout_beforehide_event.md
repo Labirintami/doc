@@ -5,6 +5,8 @@ title: beforeHide
 
 @short: fires before a cell is hidden
 
+```todoapi ```
+
 @params:
 - id		string		the id of a cell
 

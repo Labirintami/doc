@@ -5,6 +5,8 @@ title: afterShow
 
 @short: fires after a cell is shown
 
+```todoapi ```
+
 @params:
 - id		string		the id of a cell
 

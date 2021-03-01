@@ -5,6 +5,8 @@ title: afterCollapse
 
 @short: fires after a cell is collapsed
 
+```todoapi ```
+
 @params:
 - id		string		the id of a cell
 

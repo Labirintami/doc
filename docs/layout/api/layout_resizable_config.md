@@ -3,13 +3,9 @@ sidebar_label: resizable
 title: resizable
 ---          
 
-@short: 
-defines whether a cell can be resized
+@short: defines whether a cell can be resized
 
-
-
-
-@type: boolean
+@signature: resizable?: boolean;
 
 @example: 
 var layout = new dhx.Layout("layout_container", {

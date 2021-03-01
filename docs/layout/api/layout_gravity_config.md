@@ -3,12 +3,12 @@ sidebar_label: gravity
 title: gravity
 ---          
 
-@short: 
-sets the "weight" of a cell in relation to other cells placed in the same row and within one parent
+@short: sets the "weight" of a cell in relation to other cells placed in the same row and within one parent
 
-
-
-@type: number
+```todoapi
+number gravity;
+gravity?: number | boolean;
+```
 
 @example: 
 var layout = dhx.Layout("layout_container", {

@@ -3,13 +3,9 @@ sidebar_label: hidden
 title: hidden
 ---          
 
-@short: 
-defines whether a cell is hidden
+@short: defines whether a cell is hidden
 
-
-
-
-@type: boolean
+@signature: hidden?: boolean;
 
 @example: 
 var layout = new dhx.Layout("layout_container", {

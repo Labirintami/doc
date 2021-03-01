@@ -5,10 +5,7 @@ title: paint
 
 @short: repaints Layout on a page
 
-
-@params:
-
-
+```todoapi ```
 
 
 @example:

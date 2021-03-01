@@ -5,6 +5,8 @@ title: afterHide
 
 @short: fires after a cell is hidden
 
+```todoapi ```
+
 @params:
 - id		string		the id of a cell
 

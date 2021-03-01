@@ -3,10 +3,14 @@ sidebar_label: on
 title: on
 ---          
 
-@short: 
-adds handlers to DOM events of a cell
+@short: adds handlers to DOM events of a cell
 
-@type: object
+```todoapi
+object on;
+on?: {
+	[key: string]: any;
+};
+```
 
 @example: 
 // adds a click event handler to the element of a cell

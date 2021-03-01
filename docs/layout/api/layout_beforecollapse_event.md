@@ -5,6 +5,8 @@ title: beforeCollapse
 
 @short: fires before a cell is collapsed
 
+```todoapi ```
+
 @params:
 - id		string		the id of a cell
 

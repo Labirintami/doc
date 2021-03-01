@@ -3,13 +3,9 @@ sidebar_label: padding
 title: padding
 ---          
 
-@short: 
-defines the distance between a cell and the border of layout
+@short: defines the distance between a cell and the border of layout
 
-
-
-
-@type: string,number
+@signature: padding?: number | string;
 
 @example: 
 var layout = new dhx.Layout("layout_container",{

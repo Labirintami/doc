@@ -5,8 +5,7 @@ title: isVisible
 
 @short: checks whether a cell is visible
 
-
-@params:
+```todoapi ```
 
 
 @returns:

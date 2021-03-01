@@ -5,6 +5,7 @@ title: attach
 
 @short: attaches a DHTMLX component into a Layout cell
 
+```todoapi ```
 
 @params:
 - component 		string,object 		the name or object of a component

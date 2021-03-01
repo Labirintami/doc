@@ -3,13 +3,9 @@ sidebar_label: html
 title: html
 ---          
 
-@short: 
-sets HTML content for a cell
+@short: sets HTML content for a cell
 
-
-
-
-@type: string
+@signature: html?: string;
 
 @example: 
 var layout = new dhx.Layout("layout_container", {

@@ -3,13 +3,11 @@ sidebar_label: headerHeight
 title: headerHeight
 ---          
 
-@short: 
-sets the height of a Layout cell
+@short: sets the height of a Layout cell
 
+@signature: headerHeight?: number;
 
 @default: 37
-
-@type: number
 
 @example: 
 var layout = new dhx.Layout("layout", {

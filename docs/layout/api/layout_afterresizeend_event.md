@@ -5,6 +5,8 @@ title: afterResizeEnd
 
 @short: fires after resizing of a cell is ended
 
+```todoapi ```
+
 @params:
 - id		string		the id of a cell
 

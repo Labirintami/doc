@@ -5,6 +5,8 @@ title: afterAdd
 
 @short: fires after adding a new cell
 
+```todoapi ```
+
 @params:
 - id		string		the id of a cell
 

@@ -5,6 +5,8 @@ title: beforeRemove
 
 @short: fires before removing a cell
 
+```todoapi ```
+
 @params:
 - id		string		the id of a cell
 

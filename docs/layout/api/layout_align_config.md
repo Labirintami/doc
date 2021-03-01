@@ -3,15 +3,9 @@ sidebar_label: align
 title: align
 ---          
 
-@short: 
-sets the alignment of content inside a cell
+@short: sets the alignment of content inside a cell
 
-
-
-
-@type: string
-
-@values: "start" | "center" | "end" | "between" | "around" | "evenly"
+@signature: align?: "start" | "center" | "end" | "between" | "around" | "evenly";
 
 @example: 
 var layout = dhx.Layout("layout_container", {

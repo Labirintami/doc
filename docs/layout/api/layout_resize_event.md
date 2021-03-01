@@ -5,6 +5,8 @@ title: resize
 
 @short: fires on resizing a cell
 
+```todoapi ```
+
 @params:
 - id		string		the id of a cell
 

@@ -3,13 +3,9 @@ sidebar_label: collapsable
 title: collapsable
 ---          
 
-@short: 
-defines whether a cell can be collapsed
+@short: defines whether a cell can be collapsed
 
-
-
-
-@type: boolean
+@signature: collapsable?: boolean;
 
 @example: 
 var layout = new dhx.Layout("layout_container", {

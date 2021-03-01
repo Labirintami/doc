@@ -5,11 +5,7 @@ title: toggle
 
 @short: expands/collapses a Layout cell
 
-
-@params:
-
-
-
+```todoapi ```
 
 @example:
 layout.getCell("id").toggle();

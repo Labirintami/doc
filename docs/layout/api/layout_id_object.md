@@ -3,8 +3,7 @@ sidebar_label: id
 title: id
 ---          
 
-@short: 
-the id of a cell
+@short: the id of a cell
 
 @type: string
 
