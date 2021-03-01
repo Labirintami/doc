@@ -3,11 +3,11 @@ sidebar_label: palette
 title: palette
 ---          
 
-@short: 
-contains arrays of colors you want to show in a colorpicker
+@short: contains arrays of colors you want to show in a colorpicker
 
+@signature: paletteOnly?: boolean;
 
-@type: array
+@default: false
 
 @example: 
 var colorpicker = new dhx.Colorpicker("colorpicker_container", {

@@ -6,12 +6,9 @@ title: width
 @short: 
 sets the width of ColorPicker
 
+@signature: width?: string | number;
 
-@default:
-"238px"
-
-
-@type: string
+@default: "238px"
 
 @example: 
 var colorpicker = new dhx.Colorpicker("colorpicker", {	

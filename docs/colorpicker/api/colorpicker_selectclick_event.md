@@ -6,7 +6,7 @@ title: selectClick
 @short:
 fires on clicking the "Select" button
 
-
+```tododeprecated  ```
 
 @example:
 colorpicker.events.on("SelectClick",function(){

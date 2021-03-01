@@ -6,7 +6,7 @@ title: colorChange
 @short:
 fires on changing selected color in ColorPicker
 
-
+```tododeprecated ```
 
 @example:
 colorpicker.events.on("ColorChange",function(color){

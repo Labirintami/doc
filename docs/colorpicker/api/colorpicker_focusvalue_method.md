@@ -5,6 +5,7 @@ title: focusValue
 
 @short: sets focus on the specified value
 
+```tododeprecated ```
 
 @params:
 - value		string		the code of a color (in the Hex format) to set focus on

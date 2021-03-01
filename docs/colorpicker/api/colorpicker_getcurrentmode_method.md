@@ -5,14 +5,7 @@ title: getCurrentMode
 
 @short: returns the current mode of displaying ColorPicker
 
-
-
-@params:
-
-
-@returns:
-- view    string   the current mode of the colorpicker: "palette" or "picker"
-
+@signature: getCurrentMode(): "palette" | "picker";
 
 @example:
 var mode = colorpicker.getCurrentMode(); // -> "palette"

@@ -5,12 +5,10 @@ title: setFocus
 
 @short: sets focus on the specified value
 
+@signature: setFocus(value: string): void;
 
 @params:
 - value	string      the code of a color (in the Hex format) to set focus on
-
-
-
 
 @example:
 colorpicker.setFocus("#BDF0E9");

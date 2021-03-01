@@ -6,12 +6,9 @@ title: grayShades
 @short: 
 defines whether the section with gray shades is displayed in the palette
 
+@signature: grayShades?: boolean;
 
-@default:
-true
-
-
-@type: boolean
+@default: true
 
 @example: 
 var colorpicker = new dhx.Colorpicker("colorpicker_container",{

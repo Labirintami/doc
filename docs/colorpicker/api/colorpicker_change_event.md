@@ -5,8 +5,10 @@ title: change
 
 @short: fires on changing selected color in ColorPicker
 
-
-
+```todoapi
+void change(){ ... };
+[ColorpickerEvents.change]: (color: string) => void;
+```
 
 @example:
 colorpicker.events.on("Change",function(color){

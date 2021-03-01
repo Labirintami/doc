@@ -5,6 +5,7 @@ title: setView
 
 @short: shows colopicker either in the "palette" or in the "picker" view
 
+```tododeprecated ```
 
 @params:
 - view    string   the view to show: "palette" or "picker"

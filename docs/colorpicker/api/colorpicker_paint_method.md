@@ -5,23 +5,7 @@ title: paint
 
 @short: repaints ColorPicker on a page
 
-
-@params:
-
-
-
+@signature: paint(): void;
 
 @example:
 colorpicker.paint();
-
-
-@template: api_method
-@descr:
-
-
-
-
-
-@changelog:
-
-

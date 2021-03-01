@@ -6,7 +6,10 @@ title: cancelClick
 @short:
 fires on clicking the "Cancel" button
 
-
+```todoapi
+void cancelClick(){ ... };
+[ColorpickerEvents.cancelClick]: () => void;
+```
 
 @example:
 colorpicker.events.on("CancelClick",function(){

@@ -3,15 +3,11 @@ sidebar_label: paletteOnly
 title: paletteOnly
 ---          
 
-@short: 
-defines whether ColorPicker is shown only in the palette mode
+@short: defines whether ColorPicker is shown only in the palette mode
 
+@signature: paletteOnly?: boolean;
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var colorpicker = new dhx.Colorpicker("colorpicker_container",{

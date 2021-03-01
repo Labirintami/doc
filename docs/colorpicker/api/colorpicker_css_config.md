@@ -3,13 +3,9 @@ sidebar_label: css
 title: css
 ---          
 
-@short: 
-adds custom CSS classes to ColorPicker
+@short: adds custom CSS classes to ColorPicker
 
-
-
-
-@type: string
+@signature: css?: string;
 
 @example: 
 <style>

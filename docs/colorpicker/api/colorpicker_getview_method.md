@@ -5,6 +5,8 @@ title: getView
 
 @short: returns the currently set view of the colorpicker
 
+```tododeprecated ```
+
 
 @params:
 

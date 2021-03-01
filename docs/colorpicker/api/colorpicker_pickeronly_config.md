@@ -3,15 +3,11 @@ sidebar_label: pickerOnly
 title: pickerOnly
 ---          
 
-@short: 
-defines whether ColorPicker is shown only in the picker mode
+@short: defines whether ColorPicker is shown only in the picker mode
 
+@signature: pickerOnly?: boolean;
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var colorpicker = new dhx.Colorpicker("colorpicker_container",{

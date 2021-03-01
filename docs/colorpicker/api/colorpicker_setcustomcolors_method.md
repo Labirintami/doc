@@ -5,6 +5,7 @@ title: setCustomColors
 
 @short: sets custom colors that will be displayed at the bottom of the palette
 
+@signature: setCustomColors(customColors: string[]): void;
 
 @params:
 - customColors    array    an array with custom colors

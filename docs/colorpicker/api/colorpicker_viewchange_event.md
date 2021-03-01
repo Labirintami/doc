@@ -6,7 +6,7 @@ title: viewChange
 @short:
 fires on changing the view of ColorPicker
 
-
+```tododeprecated ```
 
 @example:
 colorpicker.events.on("ViewChange",function(view){

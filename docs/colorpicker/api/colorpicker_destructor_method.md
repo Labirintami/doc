@@ -5,11 +5,7 @@ title: destructor
 
 @short: releases the occupied resources
 
-
-@params:
-
-
-
+@signature: destructor(): void;
 
 @example:
 colorpicker.destructor();
@@ -17,10 +13,6 @@ colorpicker.destructor();
 
 @template: api_method
 @descr:
-
-
-
-
 
 @changelog:
 
