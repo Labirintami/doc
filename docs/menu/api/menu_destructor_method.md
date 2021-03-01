@@ -5,11 +5,7 @@ title: destructor
 
 @short: removes a Menu instance and releases occupied resources
 
-
-@params:
-
-
-
+@signature: destructor(): void;
 
 @example:
 menu.destructor();

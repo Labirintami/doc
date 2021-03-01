@@ -3,8 +3,9 @@ sidebar_label: inputCreated
 title: inputCreated
 ---          
 
-@short:
-fires when a new input is added
+@short: fires when a new input is added
+
+```todoapi ```
 
 @params:
 - id 		string			the ID of a new input

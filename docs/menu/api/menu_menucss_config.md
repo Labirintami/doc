@@ -3,11 +3,9 @@ sidebar_label: menuCss
 title: menuCss
 ---          
 
-@short: 
-adds style classes to all containers of Menu controls with nested items 
+@short: adds style classes to all containers of Menu controls with nested items 
 
-
-@type: string
+@signature: menuCss?: string;
 
 @example: 
 <style>

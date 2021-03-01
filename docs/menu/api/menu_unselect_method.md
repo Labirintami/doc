@@ -5,11 +5,10 @@ title: unselect
 
 @short: unselects a selected Menu item
 
+@signature: unselect(id?: string): void;
 
 @params:
 - id	string  optional, the id of a Menu item
-
-
 
 @example:
 // unselects all previously selected items

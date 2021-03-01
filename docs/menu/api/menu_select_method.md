@@ -5,12 +5,11 @@ title: select
 
 @short: selects a specified item of Menu
 
+@signature: select(id: string, unselect: boolean): void;
 
 @params:
 - id	string      the id of a Menu item
 - unselect	boolean   optional, true - to unselect previously selected items, otherwise - false; true by default
-
-
 
 @example:
 menu.select("align-left");

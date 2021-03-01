@@ -3,14 +3,11 @@ sidebar_label: navigationType
 title: navigationType
 ---          
 
-@short: 
-defines the action that opens menu options
+@short: defines the action that opens menu options
 
-@default:"click"
-@values: "click","pointer"
+navigationType?: "pointer" | "click";
 
-
-@type: string
+@default: "click"
 
 @example: 
 menu.config.navigationType = "pointer";

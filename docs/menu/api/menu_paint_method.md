@@ -5,11 +5,7 @@ title: paint
 
 @short: repaints Menu on a page
 
-
-@params:
-
-
-
+@signature: paint(): void;
 
 @example:
 menu.paint();
@@ -18,10 +14,4 @@ menu.paint();
 @template: api_method
 @descr:
 
-
-
-
-
 @changelog:
-
-

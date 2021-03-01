@@ -6,8 +6,10 @@ title: data
 @short: 
 specifies an array of data objects to set into Menu
 
-
-@type: array
+```todoapi 
+array data;
+data?: any[] | TreeCollection<any>;
+```
 
 @example: 
 const menu = new dhx.Menu("menu_container", {

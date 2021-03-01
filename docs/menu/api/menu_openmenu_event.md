@@ -3,8 +3,9 @@ sidebar_label: openMenu
 title: openMenu
 ---          
 
-@short:
-fires on expanding a menu item
+@short: fires on expanding a menu item
+
+```todoapi ```
 
 @params:
 - id 		string		the ID of an opened menu item

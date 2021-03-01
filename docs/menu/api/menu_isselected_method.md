@@ -5,13 +5,13 @@ title: isSelected
 
 @short: checks whether a specified Menu item is selected
 
+@signature: isSelected(id: string): boolean;
 
 @params:
 - id	string  the id of a Menu item
 
 @returns:
 - param	    boolean     true, if an item of Menu is selected, otherwise false
-
 
 @example:
 menu.isSelected("align-left"); // -> returns true/false
