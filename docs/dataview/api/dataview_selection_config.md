@@ -5,11 +5,9 @@ title: selection
 
 @short: enables selection of DataView items
 
+@signature: selection?: boolean;
+
 @default: true
-
-
-
-@type: boolean
 
 @example: 
 var dataview = new dhx.DataView("dataview", {

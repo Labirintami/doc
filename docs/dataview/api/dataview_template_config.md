@@ -3,13 +3,9 @@ sidebar_label: template
 title: template
 ---          
 
-@short: 
-specifies a template for DataView items
+@short: specifies a template for DataView items
 
-
-
-
-@type: function
+@signature: template?: (item: any) => string;
 
 @example: 
 var dataview = new dhx.DataView("dataview", {

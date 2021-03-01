@@ -3,13 +3,9 @@ sidebar_label: keyNavigation
 title: keyNavigation
 ---          
 
-@short: 
-enables/disables navigation in DataView by arrow keys
+@short: enables/disables navigation in DataView by arrow keys
 
-
-
-
-@type: function,boolean
+@signature: keyNavigation?: boolean | (() => boolean);
 
 @example: 
 var dataview = new dhx.DataView("dataview", {

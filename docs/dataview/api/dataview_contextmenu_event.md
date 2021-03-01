@@ -3,8 +3,9 @@ sidebar_label: contextMenu
 title: contextMenu
 ---          
 
-@short:
-fires on calling a context menu for an item
+@short: fires on calling a context menu for an item
+
+```todoapi ```
 
 @params:
 - id 	string,number 		the id of a right-clicked item

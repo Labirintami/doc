@@ -3,8 +3,9 @@ sidebar_label: beforeDrop
 title: beforeDrop
 ---          
 
-@short:
-fires before the user has finished dragging an item and released the mouse button
+@short: fires before the user has finished dragging an item and released the mouse button
+
+```todoapi ```
 
 @params:
 - data		object		data object

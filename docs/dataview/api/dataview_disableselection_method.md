@@ -5,18 +5,10 @@ title: disableSelection
 
 @short: disables selection of items in DataView
 
-
-
-
-
-
+@signature: disableSelection(): void;
 
 @example:
 dataview.disableSelection();
-
-
-@template: api_method
-@descr:
 
 @relatedsample: dataview/03_usage/06_disable_selection.html
 

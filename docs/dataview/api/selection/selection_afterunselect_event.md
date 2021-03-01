@@ -6,6 +6,8 @@ title: afterUnSelect
 @short: fires after unselecting an item
 
 
+```todoapi ```
+
 @params:
 - id    string  the id of an item
 

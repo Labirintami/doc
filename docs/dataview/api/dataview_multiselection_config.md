@@ -3,13 +3,12 @@ sidebar_label: multiselection
 title: multiselection
 ---          
 
-@short: 
-enables selection of multiple DataView items, sets the mode of multiselection
+@short: enables selection of multiple DataView items, sets the mode of multiselection
 
-
-
-
-@type: boolean,string
+```todoapi
+boolean|string multiselection;
+multiselection?: boolean | MultiselectionMode;
+```
 
 @values: true, false, "click", "ctrlClick" 
 

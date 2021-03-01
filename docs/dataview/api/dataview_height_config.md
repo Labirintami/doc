@@ -6,10 +6,7 @@ title: height
 @short: 
 sets the height of Dataview
 
-
-
-
-@type: number|string
+@signature: height?: number | string;
 
 @example: 
 // sets the height as a number

@@ -5,19 +5,10 @@ title: enableSelection
 
 @short: enables selection of items in DataView
 
+@signature: enableSelection(): void;
 
 @example:
 dataview.enableSelection();
-
-
-
-
-
-
-
-@template: api_method
-@descr:
-
 
 @relatedsample: dataview/03_usage/06_disable_selection.html
 

@@ -5,6 +5,7 @@ title: beforeUnSelect
 
 @short: fires on unselecting an item, but before the item is really unselected
 
+```todoapi ```
 
 @params:
 - id    string  the id of an item

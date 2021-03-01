@@ -3,8 +3,9 @@ sidebar_label: afterEditStart
 title: afterEditStart
 ---          
 
-@short:
-fires after editing of an item has started
+@short: fires after editing of an item has started
+
+```todoapi ```
 
 @params:
 - id		string|number		the id of an item

@@ -6,6 +6,8 @@ title: afterDrag
 @short:
 fires after dragging of an item is finished
 
+```todoapi ```
+
 @params:
 - data		object		data object
 - e		    Event		a native event object

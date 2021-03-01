@@ -3,9 +3,9 @@ sidebar_label: multiselectionMode
 title: multiselectionMode
 ---          
 
-@short: 
-sets the mode of multiselection
+@short: sets the mode of multiselection
 
+```tododeprecated ```
 
 @default:
 "ctrlClick"

@@ -5,10 +5,10 @@ title: setFocusIndex
 
 @short: sets focus to an item according to its index
 
+```todoapi ```
 
 @params:
 - index		number		the index of an item
-
 
 
 @example:

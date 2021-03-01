@@ -5,9 +5,7 @@ title: disable
 
 @short: disables selection of items in DataView
 
-
-
-
+```todoapi ```
 
 @example:
 dataview.selection.disable();

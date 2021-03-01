@@ -5,6 +5,9 @@ title: selection
 
 @short: 
 
+```todoapi
+selection?: boolean;
+```
 
 @type: ISelection
 

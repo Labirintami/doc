@@ -3,8 +3,9 @@ sidebar_label: beforeEditEnd
 title: beforeEditEnd
 ---          
 
-@short:
-fires before editing of an item is completed
+@short: fires before editing of an item is completed
+
+```todoapi ```
 
 @params:
 - value		string		the value of an item

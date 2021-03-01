@@ -6,6 +6,8 @@ title: afterEditEnd
 @short:
 fires after editing of an item is ended
 
+```todoapi ```
+
 @params:
 - value		string		the value of an item
 - id		string|number		the id of an item

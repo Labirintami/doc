@@ -5,23 +5,7 @@ title: destructor
 
 @short: removes Dataview instance and releases occupied resources
 
-
-@params:
-
-
-
+@signature: destructor(): void;
 
 @example:
 dataview.destructor();
-
-
-@template: api_method
-@descr:
-
-
-
-
-
-@changelog:
-
-

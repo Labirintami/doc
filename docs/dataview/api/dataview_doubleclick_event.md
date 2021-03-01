@@ -3,8 +3,9 @@ sidebar_label: doubleClick
 title: doubleClick
 ---          
 
-@short:
-fires on double clicking an item
+@short: fires on double clicking an item
+
+```todoapi ```
 
 @params:
 - id 	string,number 		the id of a clicked item

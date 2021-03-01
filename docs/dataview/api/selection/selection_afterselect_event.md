@@ -5,6 +5,8 @@ title: afterSelect
 
 @short: fires after selecting an item
 
+```todoapi ```
+
 
 @params:
 - id    string  the id of an item

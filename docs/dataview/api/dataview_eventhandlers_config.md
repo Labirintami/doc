@@ -7,9 +7,10 @@ title: eventHandlers
 
 @short: adds event handlers to the HTML elements of a custom template of DataView items
 
-
-
-@type: object
+@signature: 
+eventHandlers?: {
+    [key: string]: any;
+};
 
 @example: 
 function template() {

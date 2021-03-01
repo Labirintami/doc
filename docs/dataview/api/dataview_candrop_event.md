@@ -3,8 +3,9 @@ sidebar_label: canDrop
 title: canDrop
 ---          
 
-@short:
-fires when a dragged item is over a target item
+@short: fires when a dragged item is over a target item
+
+```todoapi ```
 
 @params:
 - data		object		data object

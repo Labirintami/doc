@@ -5,20 +5,12 @@ title: editable
 
 @short: enables editing in DataView
 
+@signature: editable?: boolean;
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var dataview = new dhx.DataView("dataview_container", {editable:true});
-
-
-@template:	api_config
-@descr: 
-
 
 
 @relatedapi:

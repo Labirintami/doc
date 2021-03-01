@@ -3,8 +3,9 @@ sidebar_label: beforeEditStart
 title: beforeEditStart
 ---          
 
-@short:
-fires before editing of an item has started
+@short: fires before editing of an item has started
+
+```todoapi ```
 
 @params:
 - id		string|number		the id of an item

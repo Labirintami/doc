@@ -3,8 +3,9 @@ sidebar_label: click
 title: click
 ---          
 
-@short:
-fires on clicking an item
+@short: fires on clicking an item
+
+```todoapi ```
 
 @params:
 - id 	string,number 		the id of a clicked item

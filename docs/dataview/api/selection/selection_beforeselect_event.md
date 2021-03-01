@@ -5,6 +5,7 @@ title: beforeSelect
 
 @short: fires on selecting an item, but before the item is really selected
 
+```todoapi ```
 
 @params:
 - id    string  the id of an item

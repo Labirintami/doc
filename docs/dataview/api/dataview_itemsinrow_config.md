@@ -6,10 +6,7 @@ title: itemsInRow
 @short: 
 specifies the number of data items in a row
 
-
-
-
-@type: number
+@signature: itemsInRow?: number;
 
 @example: 
 var dataview = new dhx.DataView("dataview", {itemsInRow: 5});

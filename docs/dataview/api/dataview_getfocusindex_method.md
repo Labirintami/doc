@@ -5,8 +5,7 @@ title: getFocusIndex
 
 @short: returns the index of the item in focus
 
-
-@params:
+```tododeprecated ```
 
 
 @returns:

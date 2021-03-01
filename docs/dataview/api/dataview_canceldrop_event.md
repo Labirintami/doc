@@ -3,8 +3,9 @@ sidebar_label: cancelDrop
 title: cancelDrop
 ---          
 
-@short:
-fires on moving a mouse pointer out of item's borders while dragging the item
+@short: fires on moving a mouse pointer out of item's borders while dragging the item
+
+```todoapi ```
 
 @params:
 - data		object		data object
