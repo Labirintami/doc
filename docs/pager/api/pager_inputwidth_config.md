@@ -3,20 +3,15 @@ sidebar_label: inputWidth
 title: inputWidth
 ---          
 
-@short: 
-optional, sets the width for the input of the pager
+@short: optional, sets the width for the input of the pager
 
-
-
-
-@type: number
+@signature: inputWidth?: number;
 
 @example: 
 const pager = new dhx.Pager("pager_container", {
     css: "dhx_widget--bordered",
     inputWidth: 220 
 });
-
 
 @template:	api_config
 @descr: 

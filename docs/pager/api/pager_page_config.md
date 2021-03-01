@@ -3,15 +3,11 @@ sidebar_label: page
 title: page
 ---          
 
-@short: 
-optional, the index of the initial page set in the pager
+@short: optional, the index of the initial page set in the pager
 
+@signature: page?: number;
 
-@default:
-0
-
-
-@type: number
+@default: 0
 
 @example: 
 const pager = new dhx.Pager("pager_container", {

@@ -5,13 +5,10 @@ title: getPage
 
 @short: returns the index of the active page
 
-
-@params:
-
+@signature: getPage(): number;
 
 @returns:
 - param	number      the index of the active page
-
 
 @example:
 const pageIndex = pager.getPage();

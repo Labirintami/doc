@@ -5,13 +5,10 @@ title: getPagesCount
 
 @short: gets the total number of pages in the pager
 
-
-@params:
-
+@signature: getPagesCount(): number;
 
 @returns:
 - param	number      the total number of pages
-
 
 @example:
 const totalPages = pager.getPagesCount();

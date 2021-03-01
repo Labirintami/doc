@@ -3,11 +3,9 @@ sidebar_label: data
 title: data
 ---          
 
-@short: 
-the data collection of a widget to set into the pager
+@short: the data collection of a widget to set into the pager
 
-
-
+@signature: data: DataCollection;
 
 @type: DataCollection
 

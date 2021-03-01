@@ -3,10 +3,9 @@ sidebar_label: css
 title: css
 ---          
 
-@short: 
-adds style classes to the pager
+@short: adds style classes to the pager
 
-@type: string
+@signature: css?: string;
 
 @example: 
 <style>

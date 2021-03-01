@@ -5,8 +5,7 @@ title: getPageSize
 
 @short: returns the number of items displayed per page of the related widget
 
-
-@params:
+g@signature: etPageSize(): number;
 
 
 @returns:
