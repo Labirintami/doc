@@ -7,7 +7,7 @@ title: labelInline
 defines whether a label will be placed in one line with ComboBox
 
 ```tododeprecated
-@signature: labelInline?: boolean;
+labelInline?: boolean;
 ```
 
 @example: 

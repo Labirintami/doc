@@ -6,7 +6,7 @@ title: help
 @short: adds an icon with a question mark next to the Combo input
 
 ```tododeprecated
-@signature: help?: string;
+help?: string;
 ```
 
 @example: 

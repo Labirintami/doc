@@ -7,7 +7,7 @@ title: showItemsCount
 shows the total number of selected options
 
 ```tododeprecated
-@signature: showItemsCount?: boolean | ((count: number) => string);
+showItemsCount?: boolean | ((count: number) => string);
 ```
 
 @example: 
