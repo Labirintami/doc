@@ -1,4 +1,8 @@
-.signature:first-letter {
- text-transform: capitalize;
- color: red;
+.signature {
+    font-family: var(--ifm-font-family-monospace);
+    background-color: #F8E8B8;
+    font-size: 15px;
+    padding: var(--ifm-pre-padding);
+    margin-bottom: var(--ifm-leading);
+
 }

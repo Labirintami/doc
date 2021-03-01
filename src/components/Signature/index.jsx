@@ -1,10 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import cssstyles from './styles.module.scss';
+import cssstyles from "./styles.module.scss";
 
 const Signature = ({ children }) => {
   return (
-    <p className={cssstyles.short}>{children}</p>
+    <div className={cssstyles.signature}>
+      <span>{children}</span>
+    </div>
   );
 };
 
