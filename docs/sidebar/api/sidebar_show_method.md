@@ -5,11 +5,10 @@ title: show
 
 @short: shows items of Sidebar
 
+@signature: show(ids: string | string[]): void;
 
 @params:
 - ids 		string,array		optional, an ID or an array of IDs of items
-
-
 
 @example:
 sidebar.show("search");

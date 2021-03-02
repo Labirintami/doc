@@ -3,8 +3,9 @@ sidebar_label: beforeHide
 title: beforeHide
 ---          
 
-@short:
-fires before hiding an item of Sidebar
+@short: fires before hiding an item of Sidebar
+
+```todoapi ```
 
 @params:
 - id 		string		the ID of a sidebar item

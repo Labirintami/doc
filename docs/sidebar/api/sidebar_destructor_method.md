@@ -5,11 +5,7 @@ title: destructor
 
 @short: removes a Sidebar instance and releases occupied resources
 
-
-@params:
-
-
-
+@signature: destructor(): void;
 
 @example:
 sidebar.destructor();
@@ -20,8 +16,4 @@ sidebar.destructor();
 
 @relatedsample: https://snippet.dhtmlx.com/7bwnymvz	Sidebar. Destructor
 
-
-
 @changelog:
-
-

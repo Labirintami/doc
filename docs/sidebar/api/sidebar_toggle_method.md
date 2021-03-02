@@ -5,21 +5,10 @@ title: toggle
 
 @short: expands/collapses Sidebar
 
-
-@params:
-
-
-
+@signature:  toggle(): void;
 
 @example:
 sidebar.toggle();
-
-
-@template: api_method
-@descr:
-
-
-
 
 @relatedsample:
 https://snippet.dhtmlx.com/wll2h9nd	Sidebar. Toggle

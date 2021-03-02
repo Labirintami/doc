@@ -5,8 +5,7 @@ title: afterExpand
 
 @short: fires after expanding a sidebar
 
-
-
+```todoapi ```
 
 @example:
 sidebar.events.on("AfterExpand", function() {

@@ -3,13 +3,9 @@ sidebar_label: css
 title: css
 ---          
 
-@short: 
-adds style classes to Sidebar
+@short: adds style classes to Sidebar
 
-
-
-
-@type: string
+@signature: css?: string;
 
 @example: 
 <style>

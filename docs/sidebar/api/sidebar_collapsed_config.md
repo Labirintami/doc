@@ -3,13 +3,9 @@ sidebar_label: collapsed
 title: collapsed
 ---          
 
-@short: 
-defines that a sidebar is initialized in the collapsed state
+@short: defines that a sidebar is initialized in the collapsed state
 
-
-
-
-@type: boolean
+@signature:  collapsed?: boolean;
 
 @example: 
 var sidebar = new dhx.Sidebar(document.body, {

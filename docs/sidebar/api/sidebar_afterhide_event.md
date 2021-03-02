@@ -3,8 +3,9 @@ sidebar_label: afterHide
 title: afterHide
 ---          
 
-@short:
-fires after hiding an item of Sidebar
+@short: fires after hiding an item of Sidebar
+
+```todoapi ```
 
 @params:
 - e         Event       a native event object

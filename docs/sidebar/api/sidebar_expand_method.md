@@ -5,11 +5,7 @@ title: expand
 
 @short: expands a sidebar
 
-
-@params:
-
-
-
+@signature: expand(): void;
 
 @example:
 sidebar.expand();

@@ -3,15 +3,11 @@ sidebar_label: minWidth
 title: minWidth
 ---          
 
-@short: 
-sets the minimal width of a sidebar in the collapsed state
+@short: sets the minimal width of a sidebar in the collapsed state
 
+@signature: minWidth?: number | string;
 
-@default:
-"44"
-
-
-@type: string,number
+@default: "44"
 
 @example: 
 var sidebar = new dhx.Sidebar(document.body, {
@@ -20,9 +16,6 @@ var sidebar = new dhx.Sidebar(document.body, {
     collapsed: true
 });
 
-
 @template:	api_config
 @descr: 
-
-
 

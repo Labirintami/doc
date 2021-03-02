@@ -5,6 +5,10 @@ title: data
 
 @short: 
 
+```todoapi 
+array data;
+data?: any[] | TreeCollection<ISidebarElement>;
+```
 
 @type: ITreeCollection
 

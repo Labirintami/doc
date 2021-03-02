@@ -5,11 +5,10 @@ title: enable
 
 @short: enables disabled items of Sidebar
 
+@signature: enable(ids: string | string[]): void;
 
 @params:
 - ids 		string,array		optional, one ID or an array of IDs of items
-
-
 
 @example:
 sidebar.enable("search");

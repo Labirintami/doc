@@ -5,6 +5,7 @@ title: afterCollapse
 
 @short: fires after collapsing a sidebar
 
+```todoapi ```
 
 @example:
 sidebar.events.on("AfterCollapse", function() {

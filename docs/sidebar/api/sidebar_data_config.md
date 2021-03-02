@@ -3,13 +3,12 @@ sidebar_label: data
 title: data
 ---          
 
-@short: 
-specifies an array of data objects to set into Sidebar
+@short: specifies an array of data objects to set into Sidebar
 
-
-
-
-@type: array
+```todoapi 
+array data;
+data?: any[] | TreeCollection<ISidebarElement>;
+```
 
 @example: 
 var sidebar = dhx.Sidebar("sidebar_container", {

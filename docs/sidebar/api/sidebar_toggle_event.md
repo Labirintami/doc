@@ -3,8 +3,9 @@ sidebar_label: toggle
 title: toggle
 ---          
 
-@short:
-fires on expanding/collapsing Sidebar
+@short: fires on expanding/collapsing Sidebar
+
+```todoapi ```
 
 @params:
 - isCollapsed 		boolean			true, if Sidebar is collapsed

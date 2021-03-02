@@ -5,6 +5,7 @@ title: beforeCollapse
 
 @short: fires before collapsing a sidebar
 
+```todoapi ```
 
 @returns:
 param   boolean         false - to prevent collapsing a sidebar, otherwise - true

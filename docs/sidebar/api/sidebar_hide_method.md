@@ -5,11 +5,10 @@ title: hide
 
 @short: hides items of Sidebar
 
+@signature: hide(ids: string | string[]): void;
 
 @params:
 - ids 		string,array		optional, an ID or an array of IDs of items
-
-
 
 @example:
 sidebar.hide("search");

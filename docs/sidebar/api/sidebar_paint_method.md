@@ -5,23 +5,8 @@ title: paint
 
 @short: repaints Sidebar on a page
 
-
-@params:
-
-
-
+@signature: paint(): void;
 
 @example:
 sidebar.paint();
-
-
-@template: api_method
-@descr:
-
-
-
-
-
-@changelog:
-
 

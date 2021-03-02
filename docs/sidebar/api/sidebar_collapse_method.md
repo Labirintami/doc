@@ -5,11 +5,7 @@ title: collapse
 
 @short: collapses a sidebar
 
-
-@params:
-
-
-
+@signature: collapse(): void;
 
 @example:
 sidebar.collapse();

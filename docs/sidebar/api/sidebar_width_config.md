@@ -3,15 +3,11 @@ sidebar_label: width
 title: width
 ---          
 
-@short: 
-sets the width of a sidebar
+@short: sets the width of a sidebar
 
+@signature: width?: number | string;
 
-@default:
-"200"
-
-
-@type: string,number
+@default: "200"
 
 @example: 
 var sidebar = new dhx.Sidebar(document.body, {

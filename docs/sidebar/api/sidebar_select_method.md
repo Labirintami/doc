@@ -5,23 +5,19 @@ title: select
 
 @short: selects a specified Sidebar item
 
+@signature: select(id: string, unselect?: boolean): void;
 
 @params:
 - id    string      the id of a Sidebar item
 - unselect  boolean     optional, true - to unselect previously selected items, otherwise - false; true by default
 
-
-
 @example:
 sidebar.select("categoryPost");
-
 
 @template: api_method
 @descr:
 
 @relatedsample: sidebar/03_usage/06_select_unselect.html
-
-
 
 @changelog: added in v6.5
 
