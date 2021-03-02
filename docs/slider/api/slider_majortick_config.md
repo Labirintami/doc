@@ -3,13 +3,9 @@ sidebar_label: majorTick
 title: majorTick
 ---          
 
-@short: 
-sets interval of rendering numeric values on the slider scale
+@short: sets interval of rendering numeric values on the slider scale
 
-
-
-
-@type: number
+@signature: majorTick?: number;
 
 @example: 
 var slider = new dhx.Slider("slider_container", { 

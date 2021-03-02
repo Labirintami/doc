@@ -3,8 +3,9 @@ sidebar_label: change
 title: change
 ---          
 
-@short:
-fires on change of the slider value
+@short: fires on change of the slider value
+
+```todoapi ```
 
 @params:
 - newValue		number		the new value set for the slider

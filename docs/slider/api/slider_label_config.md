@@ -3,13 +3,9 @@ sidebar_label: label
 title: label
 ---          
 
-@short: 
-specifies the label of a slider
+@short: specifies the label of a slider
 
-
-
-
-@type: string
+l@signature: label?: string;
 
 @example: 
 var slider = new dhx.Slider("slider_container", { 

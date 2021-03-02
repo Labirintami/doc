@@ -5,9 +5,7 @@ title: tooltip
 
 @short: enables a tooltip on hovering over the slider thumb
 
-
-
-@type: boolean
+@signature: tooltip?: boolean;
 
 @default: true
 

@@ -3,13 +3,10 @@ sidebar_label: labelWidth
 title: labelWidth
 ---          
 
-@short: 
-sets the width of a label
+@short: sets the width of a label
 
+@signature: labelWidth?: string | number;
 
-
-
-@type: string,number
 
 @example: 
 var slider = new dhx.Slider("slider_container", {

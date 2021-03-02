@@ -5,13 +5,10 @@ title: getValue
 
 @short: returns the current value of Slider
 
-
-@params:
-
+@signature: getValue(): number[];
 
 @returns:
 - value 	array		the current value of the slider
-
 
 @example:
 var value = slider.getValue(); // -> [20]

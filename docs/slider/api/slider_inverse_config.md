@@ -3,13 +3,9 @@ sidebar_label: inverse
 title: inverse
 ---          
 
-@short: 
-enables/disables the inverse slider mode
+@short: enables/disables the inverse slider mode
 
-
-
-
-@type: boolean
+@signature:  inverse?: boolean;
 
 @example: 
 var slider = new dhx.Slider("slider_container", { 

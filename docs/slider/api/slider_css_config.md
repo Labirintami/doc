@@ -3,13 +3,9 @@ sidebar_label: css
 title: css
 ---          
 
-@short: 
-adds style classes for the component
+@short: adds style classes for the component
 
-
-
-
-@type: string
+@signature: css?: string;
 
 @example: 
 <style>

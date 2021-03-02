@@ -3,13 +3,9 @@ sidebar_label: tick
 title: tick
 ---          
 
-@short: 
-sets the interval of steps for rendering the slider scale
+@short: sets the interval of steps for rendering the slider scale
 
-
-
-
-@type: number
+@signature: tick?: number;
 
 @example: 
 var slider = new dhx.Slider("slider_container", { 

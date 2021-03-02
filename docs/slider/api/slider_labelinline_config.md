@@ -3,13 +3,11 @@ sidebar_label: labelInline
 title: labelInline
 ---          
 
-@short: 
-defines whether the label of a slider is rendered on the same level with the trackbar or above it
+@short: defines whether the label of a slider is rendered on the same level with the trackbar or above it
 
+```tododeprecated ``
 
-@default:
-false
-
+@default: false
 
 @type: boolean
 

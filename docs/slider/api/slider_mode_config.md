@@ -3,15 +3,11 @@ sidebar_label: mode
 title: mode
 ---          
 
-@short: 
-the direction of the Slider scale
+@short: the direction of the Slider scale
 
+mode?: "vertical" | "horizontal";
 
-@default:
-"horizontal"
-
-
-@type: string
+@default: "horizontal"
 
 @example: 
 var slider = new dhx.Slider("slider_container", { 

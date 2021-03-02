@@ -3,11 +3,9 @@ sidebar_label: help
 title: help
 ---          
 
-@short: 
-adds an icon with a question mark next to Slider
+@short: adds an icon with a question mark next to Slider
 
-
-
+```tododeprecated ```
 
 @type: string
 

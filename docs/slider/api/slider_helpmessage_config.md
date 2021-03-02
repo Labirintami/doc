@@ -5,11 +5,7 @@ title: helpMessage
 
 @short: adds an icon with a question mark next to Slider
 
-
-
-
-
-@type: string
+@signature: helpMessage?: string;
 
 @example: 
 var slider = new dhx.Slider("slider_container",{

@@ -3,8 +3,9 @@ sidebar_label: mouseUp
 title: mouseUp
 ---          
 
-@short:
-fires on releasing the left mouse button over the slider thumb
+@short: fires on releasing the left mouse button over the slider thumb
+
+```todoapi ```
 
 @params:
 - e		Event		the native event object

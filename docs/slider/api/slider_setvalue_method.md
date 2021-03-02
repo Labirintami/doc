@@ -5,11 +5,10 @@ title: setValue
 
 @short: sets a value for the slider
 
+@signature: setValue(value: string | number | number[]): void;
 
 @params:
 - value		number,array		 the value to be set for Slider
-
-
 
 @example:
 // sets value as a number

@@ -3,13 +3,13 @@ sidebar_label: thumbLabel
 title: thumbLabel
 ---          
 
-@short: 
-enables prompt messages with ticks values on hovering over the slider thumb
+@short: enables prompt messages with ticks values on hovering over the slider thumb
 
+```tododeprecated ```
 
-@default:
-true
+thumbLabel?: boolean;
 
+@default: true
 
 @type: boolean
 

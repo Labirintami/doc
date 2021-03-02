@@ -3,19 +3,14 @@ sidebar_label: range
 title: range
 ---          
 
-@short: 
-enables/disables the possibility to select a range of values on the slider
+@short: enables/disables the possibility to select a range of values on the slider
 
-
-
-
-@type: boolean
+@signature: range?: boolean;
 
 @example: 
 var slider = new dhx.Slider("slider_container", { 
     range:true
 });
-
 
 @template:	api_config
 @descr: 
