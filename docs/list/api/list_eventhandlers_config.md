@@ -3,16 +3,17 @@ sidebar_label: eventHandlers
 title: eventHandlers
 ---          
 
-``` todo
+
+```todoapi 
 
 @short: adds event handlers to HTML elements of a custom template of List items
 
-```todoapi 
+
 object eventHandlers;
 eventHandlers?: {
     [key: string]: any;
 };
-```
+
 
 @type: object
 
@@ -68,4 +69,4 @@ The **eventHandlers** object includes a set of *key:value* pairs, where:
 
 @related: list/configuration.md#eventhandlersforthetemplate
 
-``` todo
+```
