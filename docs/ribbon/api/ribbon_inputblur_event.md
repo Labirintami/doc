@@ -3,8 +3,9 @@ sidebar_label: inputBlur
 title: inputBlur
 ---          
 
-@short:
-fires when a control is blurred
+@short: fires when a control is blurred
+
+```todoapi ```
 
 @params:
 - id 		string		the ID of a new control

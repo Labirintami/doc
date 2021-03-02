@@ -3,8 +3,9 @@ sidebar_label: click
 title: click
 ---          
 
-@short:
-fires after a click on a control
+@short: fires after a click on a control
+
+```todoapi ```
 
 @params:
 - id 		string		the ID of a clicked control

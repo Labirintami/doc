@@ -3,11 +3,9 @@ sidebar_label: menuCss
 title: menuCss
 ---          
 
-@short: 
-adds style classes to all containers of Ribbon controls with nested items
+@short: adds style classes to all containers of Ribbon controls with nested items
 
-
-@type: string
+@signature: menuCss?: string;
 
 @example: 
 <style>
@@ -24,9 +22,5 @@ var ribbon = new dhx.Ribbon({
     menuCss:"my_first_class my_second_class"
 });
 
-
 @template:	api_config
 @descr: 
-
-
-

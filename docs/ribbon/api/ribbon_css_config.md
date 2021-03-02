@@ -3,11 +3,9 @@ sidebar_label: css
 title: css
 ---          
 
-@short: 
-adds style classes to Ribbon
+@short: adds style classes to Ribbon
 
-
-@type: string
+@signature: css?: string;
 
 @example: 
 <style>

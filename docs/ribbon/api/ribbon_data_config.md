@@ -3,11 +3,12 @@ sidebar_label: data
 title: data
 ---          
 
-@short: 
-specifies an array of data objects to set into Ribbon
+@short: specifies an array of data objects to set into Ribbon
 
-
-@type: array
+```todoapi 
+array data;
+data?: any[] | TreeCollection<IRibbonElement>;
+```
 
 @example: 
 const data = [

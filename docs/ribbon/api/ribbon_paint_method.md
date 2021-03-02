@@ -5,23 +5,10 @@ title: paint
 
 @short: repaints Ribbon on a page
 
-
-@params:
-
-
-
+@signature: paint(): void;
 
 @example:
 ribbon.paint();
 
-
-@template: api_method
-@descr:
-
-
-
-
-
 @changelog:
-
 
