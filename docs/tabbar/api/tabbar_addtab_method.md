@@ -7,11 +7,14 @@ title: addTab
 @short: adds a new tab into a tabbar
 
 
+@signature: addTab(object view,, index: number): void; 
+
+<!-- void addTab(object view,number index);
+addTab(config: ITabbarConfig, index: number): any; -->
+
 @params:
 - view 		object		an object of a tab 
 - index 	number		the position to add a tab into
-
-
 
 @example:
 tabbar.addTab({tab: "tab-" + nextTab++, css:"panel flex"}, 0);

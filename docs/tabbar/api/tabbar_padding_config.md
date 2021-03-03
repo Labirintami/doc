@@ -3,10 +3,12 @@ sidebar_label: padding
 title: padding
 ---          
 
-@short: 
-defines the distance between the content of a cell and the border of tabbar
+@short: defines the distance between the content of a cell and the border of tabbar
 
-
+```todoapi 
+паддинга нет?
+padding?: number | string;
+```
 
 
 @type: number

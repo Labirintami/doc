@@ -3,15 +3,11 @@ sidebar_label: closeButtons
 title: closeButtons
 ---          
 
-@short: 
-adds close buttons for tabs
+@short: adds close buttons for tabs
 
+@signature: closeButtons?: boolean;
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var tabbar = new dhx.Tabbar("tabbar_container", {
@@ -23,7 +19,7 @@ var tabbar = new dhx.Tabbar("tabbar_container", {
 
 ~~~js
 var tabbar = new dhx.Tabbar("tabbar_container", {
-    closable:true
+    closable: true
 });
 ~~~
 

@@ -3,13 +3,9 @@ sidebar_label: css
 title: css
 ---          
 
-@short: 
-the name of a CSS class(es) applied to Tabbar
+@short: the name of a CSS class(es) applied to Tabbar
 
-
-
-
-@type: string
+@signature: css?: string;
 
 @example: 
 <style>

@@ -5,11 +5,7 @@ title: closable
 
 @short: adds close buttons for tabs
 
-
-
-
-
-@type: boolean|string[]
+@signature:     closable?: boolean | string[];
 
 @example: 
 // adds close buttons for all tabs

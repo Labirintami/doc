@@ -5,13 +5,11 @@ title: views
 
 ``` todo
 
-@short: 
-defines the configuration of tabs
+@short: defines the configuration of tabs
 
+@signature: views?: ICellConfig[] | ILayoutConfig[];
 
-
-
-@type: array
+ <!-- views?: ICellConfig[] | ILayoutConfig[]; возможо стоит понятнее расписать -->
 
 @example: 
 var tabbar = new dhx.Tabbar("tabbar_container", {

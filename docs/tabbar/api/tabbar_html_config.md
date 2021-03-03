@@ -3,13 +3,10 @@ sidebar_label: html
 title: html
 ---          
 
-@short: 
-sets HTML content for a tab
+@short: sets HTML content for a tab
 
-
-
-
-@type: string
+```todoapi  в старой доке не вижу```
+@signature: html?: string;
 
 @example: 
 var tabbar = new dhx.Tabbar("tabbar_container",{
@@ -20,11 +17,6 @@ var tabbar = new dhx.Tabbar("tabbar_container",{
 		{ tab: "right", html:"Some HTML4"}
    ]
 });
-
-
-@template:	api_config
-@descr: 
-
 
 @relatedsample:
 tabbar/01_init/01_init.html

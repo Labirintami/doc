@@ -3,8 +3,9 @@ sidebar_label: close
 title: close
 ---          
 
-@short:
-fires on closing a tab
+@short: fires on closing a tab
+
+```tododeprecated ```
 
 @params:
 - id 		string		the id of a closed tab

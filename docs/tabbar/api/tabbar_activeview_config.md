@@ -3,13 +3,9 @@ sidebar_label: activeView
 title: activeView
 ---          
 
-@short: 
-sets the currently active view
+@short: sets the currently active view
 
-
-
-
-@type: string
+```tododeprecated ```
 
 @example: 
 var tabbar = new dhx.Tabbar("tabbar", {activeView:"3",

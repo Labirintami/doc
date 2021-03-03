@@ -5,6 +5,7 @@ title: removeCell
 
 @short: removes a tab from a tabbar
 
+```tododeprecated ```
 
 @params:
 - id 		string 			the id of a tab to remove

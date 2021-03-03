@@ -5,23 +5,8 @@ title: paint
 
 @short: repaints a tabbar on a page
 
-
-@params:
-
-
-
+@signature: paint(): void;
 
 @example:
 tabbar.destructor();
-
-
-@template: api_method
-@descr:
-
-
-
-
-
-@changelog:
-
 

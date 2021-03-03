@@ -5,11 +5,7 @@ title: tabAutoHeight
 
 @short: defines whether the height of tabs is automatically adjusted to the height of the tabbar container
 
-
-
-
-
-@type: boolean
+@signature: tabAutoHeight?: boolean;
 
 @example: 
 var tabbar = new dhx.Tabbar("tabbar_container", {

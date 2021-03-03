@@ -5,6 +5,7 @@ title: getCell
 
 @short: returns the config object of a cell
 
+@signature: getCell(id: string): object;
 
 @params:
 - id		string		the id of a cell
@@ -12,10 +13,8 @@ title: getCell
 @returns:
 param   object  the config object of a cell
 
-
 @example:
 tabbar.getCell("rome");
-
 
 @template: api_method
 @descr:

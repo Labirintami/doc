@@ -5,11 +5,10 @@ title: removeTab
 
 @short: removes a tab from a tabbar
 
+@signature: removeTab(id: string): void;
 
 @params:
 - id 		string 			the id of a tab to remove
-
-
 
 @example:
 var id = tabbar.getId(0);

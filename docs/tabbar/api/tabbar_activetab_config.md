@@ -5,9 +5,7 @@ title: activeTab
 
 @short: sets the currently active tab
 
-
-
-
+@signature: activeTab?: string;
 
 @type: string
 

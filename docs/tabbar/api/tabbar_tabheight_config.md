@@ -3,21 +3,16 @@ sidebar_label: tabHeight
 title: tabHeight
 ---          
 
-@short: 
-sets the height of a tab
+@short: sets the height of a tab
 
+@signature: tabHeight?: number | string;
 
-@default:
-45
-
-
-@type: number,string
+@default: 45
 
 @example: 
 var tabbar = new dhx.Tabbar("tabbar_container", {
     tabHeight: 50
 });
-
 
 @template:	api_config
 @descr: 

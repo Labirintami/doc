@@ -1,13 +1,14 @@
 ---
 sidebar_label: id
-title: 
+title: id
 ---          
 
-@short: 
-sets the id of a tab
+``` todo
+@short: sets the id of a tab
 
+```todoapi  в старой локе не вижу```
+@signature: id?: string;
 
-@type: string
 
 @example: 
 var tabbar = new dhx.Tabbar("tabbar_container",{
@@ -23,5 +24,5 @@ var tabbar = new dhx.Tabbar("tabbar_container",{
 @template:	api_config
 @descr: 
 
-
+``` todo
 

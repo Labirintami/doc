@@ -5,11 +5,10 @@ title: setActive
 
 @short: sets an active tab
 
+@signature: setActive(id: string): void;
 
 @params:
 - id 		string		the id of a tab
-
-
 
 @example:
 var tabbar = new dhx.Tabbar("tabbar_container", {

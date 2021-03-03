@@ -1,23 +1,18 @@
 ---
 sidebar_label: noContent
 title: noContent
----          
+---  
 
-@short: 
-defines whether tabs contain any content
+@short: defines whether tabs contain any content
 
+@signature: noContent?: boolean;
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var tabbar = new dhx.Tabbar("tabbar_container", {
     noContent:true
 });
-
 
 @template:	api_config
 @descr: 

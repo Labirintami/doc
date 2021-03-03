@@ -5,6 +5,7 @@ title: addCell
 
 @short: adds a new tab into a tabbar
 
+```tododeprecated ```
 
 @params:
 - view 		object		an object of a tab 
