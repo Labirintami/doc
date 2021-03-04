@@ -3,14 +3,13 @@ sidebar_label: change
 title: change
 ---          
 
-@short:
-fires on change of the timepicker value
+@short: fires on change of the timepicker value
 
-@params:
-- value		string|object	the value of a timepicker	
+@signature: change: (time: string | hour: number, minute: number, AM?: boolean) => void;
+
 
 @example:
-timepicker.events.on("Change", function(value){
+timepicker.events.on("change", function(value){
 	console.log("The value of a timepicker has changed to "+ value);
 });
 

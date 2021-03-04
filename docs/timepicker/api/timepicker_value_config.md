@@ -7,11 +7,7 @@ title: value
 
 @short: the time value to be set on initialization of the timepicker
 
-
-
-
-
-@type: Date|number|string|array|object
+@signature: value?: Date | number | string | any[] | hour: number, minute: number,  AM?: boolean;
 
 @example:
 // the value as a Date object 

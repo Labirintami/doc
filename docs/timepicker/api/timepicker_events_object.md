@@ -3,7 +3,7 @@ sidebar_label: events
 title: events
 ---          
 
-@short: 
+<!-- @short: не нужная страница? -->
 
 
 @type: IEventSystem

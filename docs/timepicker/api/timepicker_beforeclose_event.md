@@ -5,11 +5,13 @@ title: beforeClose
 
 @short: fires before closing the timepicker
 
+@signature: beforeClose: (time: string | hour: number, minute: number, AM?: boolean) => boolean | void;
+
 @params:
 - value		string|object	the current value of a timepicker	
 
-@returns:
--result		boolean		false - to prevent closing the timepicker, otherwise true
+<!-- @returns:
+-result		boolean		false - to prevent closing the timepicker, otherwise true -->
 
 
 @example:

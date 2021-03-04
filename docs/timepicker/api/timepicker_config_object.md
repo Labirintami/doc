@@ -3,7 +3,7 @@ sidebar_label: config
 title: config
 ---          
 
-@short: 
+<!-- @short: не нужная страница? -->
 
 
 @type: ITimepickerConfig

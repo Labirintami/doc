@@ -5,6 +5,7 @@ title: afterApply
 
 @short: fires after saving the timepicker value
 
+@signature: afterApply: (time: string | hour: number, minute: number, AM?: boolean) => boolean | void;
 
 @params:
 - value		string|object	the value of a timepicker	
@@ -13,7 +14,6 @@ title: afterApply
 timepicker.events.on("AfterApply", function(value) {
     console.log(value);
 });
-
 
 @template: api_event
 @descr:

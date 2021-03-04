@@ -5,13 +5,16 @@ title: getValue
 
 @short: returns the current value of a TimePicker
 
+@signature: getValue(asOBject?: boolean): hour: number, minute: number, AM?: boolean | string;
+
+<!-- string|object getValue( [boolean asObject] ); что на самом деле возвращает? -->
+
 
 @params:
 * asObject 		boolean		 optional, specifies that the value will be returned as an object, false by default
 
-@returns:
-- value	 		string,object		 the value of a timepicker
-
+<!-- todo @returns:
+- value	 		string,object		 the value of a timepicker -->
 
 @example:
 // return value as a string in the 24-hour format

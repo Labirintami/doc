@@ -5,13 +5,10 @@ title: css
 
 ``` todo
 
-@short: 
-adds style classes to TimePicker
+@short: adds style classes to TimePicker
 
+@signature: css?: string;
 
-
-
-@type: string
 
 @example: 
 <style>

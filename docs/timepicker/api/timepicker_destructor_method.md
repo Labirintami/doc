@@ -5,23 +5,7 @@ title: destructor
 
 @short: removes a timepicker instance and releases occupied resources
 
-
-@params:
-
-
-
+@signature: destructor(): void;
 
 @example:
 timepicker.destructor();
-
-
-@template: api_method
-@descr:
-
-
-
-
-
-@changelog:
-
-

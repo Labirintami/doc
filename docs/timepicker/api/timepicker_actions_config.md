@@ -3,15 +3,11 @@ sidebar_label: actions
 title: actions
 ---          
 
-@short: 
-defines whether a timepicker is equipped with the Close and Save buttons
+@short: defines whether a timepicker is equipped with the Close and Save buttons
 
+```tododeprecated ```
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var timepicker = new dhx.Timepicker("timepicker", {

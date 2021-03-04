@@ -5,10 +5,7 @@ title: valueFormat
 
 @short: defines the format of the value to be applied when working with TimePicker events
 
-
-@type: string
-
-@values: "string", "timeObject"
+@signature: valueFormat?: "string" | "timeObject";
 
 @example: 
 var timepicker = new dhx.Timepicker("timepicker", {

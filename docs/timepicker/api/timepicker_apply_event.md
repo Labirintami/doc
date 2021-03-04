@@ -5,8 +5,7 @@ title: apply
 
 @short: fires on saving the timepicker value
 
-
-
+```tododeprecated ```
 
 @example:
 timepicker.events.on("Apply", function(){

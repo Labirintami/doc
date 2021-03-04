@@ -3,7 +3,7 @@ sidebar_label: layout
 title: layout
 ---          
 
-@short: 
+<!-- @short: не нужная страница? -->
 
 
 @type: Layout

@@ -6,7 +6,7 @@ title: close
 @short:
 fires on closing the timepicker
 
-
+```tododeprecated ```
 
 @example:
 timepicker.events.on("Close", function(){
