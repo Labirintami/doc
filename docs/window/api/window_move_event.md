@@ -3,15 +3,18 @@ sidebar_label: move
 title: move
 ---          
 
-@short:
-fires on moving a window
+@short: fires on moving a window
+
+```todoapi 
+<!-- void move(object position,object oldPosition,object side){ ... };
+
+move: (position: IPosition, oldPosition: IPosition, editettypes: IDirectionConfig) => void; -->
+```
 
 @params:
 - position  object  an object with the new position of the window
 - oldPosition   object  an object with the previous position of the window
 - side  object  an object that specifies the direction of resizing
-
-
 
 @example:
 dhxWindow.events.on("Move", function(position, oldPosition, side) {

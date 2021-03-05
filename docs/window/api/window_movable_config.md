@@ -3,15 +3,11 @@ sidebar_label: movable
 title: movable
 ---          
 
-@short: 
-defines whether a window is movable
+@short: defines whether a window is movable
 
+@signature: movable?: boolean;
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var dhxWindow = new dhx.Window({

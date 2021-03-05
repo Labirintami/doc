@@ -5,12 +5,11 @@ title: show
 
 @short: shows a window on a page
 
+@signature: show(left?: number, top?: number): void;
 
 @params:
 - left 		number 	optional, the left coordinate of a window position
 - top 		number 	optional, the top coordinate of a window position
-
-
 
 @example:
 dhxWindow.show();

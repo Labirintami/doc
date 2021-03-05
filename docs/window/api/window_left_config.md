@@ -3,13 +3,9 @@ sidebar_label: left
 title: left
 ---          
 
-@short: 
-the left coordinate of a window position
+@short: the left coordinate of a window position
 
-
-
-
-@type: number
+@signature: left?: number;
 
 @example: 
 var dhxWindow = new dhx.Window({

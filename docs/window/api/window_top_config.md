@@ -3,13 +3,9 @@ sidebar_label: top
 title: top
 ---          
 
-@short: 
-the top coordinate of a window position
+@short: the top coordinate of a window position
 
-
-
-
-@type: number
+@signature: top?: number;
 
 @example: 
 var dhxWindow = new dhx.Window({
@@ -17,7 +13,6 @@ var dhxWindow = new dhx.Window({
 });
 
 dhxWindow.show();
-
 
 @template:	api_config
 @descr: 

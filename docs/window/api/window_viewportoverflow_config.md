@@ -3,15 +3,11 @@ sidebar_label: viewportOverflow
 title: viewportOverflow
 ---          
 
-@short: 
-defines whether a window can go beyond borders of a browser
+@short: defines whether a window can go beyond borders of a browser
 
+@signature: viewportOverflow?: boolean;
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var dhxWindow = new dhx.Window({

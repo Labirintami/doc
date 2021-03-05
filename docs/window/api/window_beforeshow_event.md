@@ -3,8 +3,9 @@ sidebar_label: beforeShow
 title: beforeShow
 ---          
 
-@short:
-fires before a window is shown
+@short: fires before a window is shown
+
+@signature: beforeShow: (position: object) => boolean | void;
 
 @params:
 - position  object      an object with coordinates of the window's position

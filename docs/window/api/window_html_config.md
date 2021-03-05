@@ -3,13 +3,9 @@ sidebar_label: html
 title: html
 ---          
 
-@short: 
-sets an HTML content into a window on initialization
+@short: sets an HTML content into a window on initialization
 
-
-
-
-@type: string
+@signature: html?: string;
 
 @example: 
 var dhxWindow = new dhx.Window({

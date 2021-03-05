@@ -5,11 +5,7 @@ title: hide
 
 @short: hides a window
 
-
-@params:
-
-
-
+@signature: hide(): void;
 
 @example:
 dhxWindow.hide();

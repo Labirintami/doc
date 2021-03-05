@@ -3,8 +3,9 @@ sidebar_label: afterShow
 title: afterShow
 ---          
 
-@short:
-fires after a window is shown
+@short: fires after a window is shown
+
+afterShow: (position: object) => void;
 
 @params:
 - position  object      an object with coordinates of the window's position

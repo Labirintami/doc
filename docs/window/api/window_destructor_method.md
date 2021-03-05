@@ -5,23 +5,8 @@ title: destructor
 
 @short: removes a window instance and releases occupied resources
 
-
-@params:
-
-
-
+@signature: destructor(): void;
 
 @example:
 dhxWindow.destructor();
-
-
-@template: api_method
-@descr:
-
-
-
-
-
-@changelog:
-
 

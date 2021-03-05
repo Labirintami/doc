@@ -3,12 +3,9 @@ sidebar_label: node
 title: node
 ---          
 
-@short: 
-optional, the container for a window or its id
+@short: optional, the container for a window or its id
 
-
-
-@type: HTMLElement,string
+@signature: node?: HTMLElement | string;
 
 @example: 
 var dhxWindow = new dhx.Window({

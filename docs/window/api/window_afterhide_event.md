@@ -5,8 +5,9 @@ title: afterHide
 
 ``` todo
 
-@short:
-fires after a window is hidden
+@short: fires after a window is hidden
+
+@signature: afterHide: (position: object, e?: Event) => void;
 
 @params:
 - position  object      an object with coordinates of the window's position

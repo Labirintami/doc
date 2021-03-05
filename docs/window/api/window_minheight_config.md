@@ -3,15 +3,11 @@ sidebar_label: minHeight
 title: minHeight
 ---          
 
-@short: 
-sets the minimal height of a window
+@short: sets the minimal height of a window
 
+@signature: minHeight?: number;
 
-@default:
-100
-
-
-@type: number
+@default: 100
 
 @example: 
 var dhxWindow = new dhx.Window({

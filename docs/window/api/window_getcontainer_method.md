@@ -5,13 +5,10 @@ title: getContainer
 
 @short: returns the HTML element of Window
 
-
-@params:
-
+@signature: getContainer(): HTMLElement;
 
 @returns:
 - param	HTMLElement     the HTML element 
-
 
 @example:
 dhxWindow.getContainer();

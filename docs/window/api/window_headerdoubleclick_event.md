@@ -3,11 +3,12 @@ sidebar_label: headerDoubleClick
 title: headerDoubleClick
 ---          
 
-@short:
-fires on double clicking the header of a window
+@short: fires on double clicking the header of a window
+
+@signature: headerDoubleClick: (e: Event) => void;
 
 @params:
-- events    Event       a native event object 
+- e    Event       a native event object 
 
 @example:
 dhxWindow.events.on("HeaderDoubleclick", function(events) {

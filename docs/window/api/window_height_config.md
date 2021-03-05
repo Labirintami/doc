@@ -3,15 +3,11 @@ sidebar_label: height
 title: height
 ---          
 
-@short: 
-sets the height of a window
+@short: sets the height of a window
 
+@signature: height?: number;
 
-@default:
-50% of the browser window's height
-
-
-@type: number
+@default: 50% of the browser window's height
 
 @example: 
 var dhxWindow = new dhx.Window({
@@ -19,7 +15,6 @@ var dhxWindow = new dhx.Window({
 });
 
 dhxWindow.show();
-
 
 @template:	api_config
 @descr: 

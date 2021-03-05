@@ -5,13 +5,12 @@ title: getSize
 
 @short: gets the size of window
 
-
-@params:
-
+```todoapi 
+<!-- @signature: getSize(): {width: number, height: number} -->
+```
 
 @returns:
 - size		object		an object with width and height of a window
-
 
 @example:
 var size = dhxWindow.getSize(); // -> {width: 960, height: 469}

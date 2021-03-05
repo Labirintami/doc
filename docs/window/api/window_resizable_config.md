@@ -3,15 +3,11 @@ sidebar_label: resizable
 title: resizable
 ---          
 
-@short: 
-defines whether a window can be resized
+@short: defines whether a window can be resized
 
+@signature: resizable?: boolean;
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var dhxWindow = new dhx.Window({

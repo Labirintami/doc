@@ -5,13 +5,12 @@ title: getPosition
 
 @short: gets the position of a window
 
-
-@params:
-
+```todoapi 
+<!-- @signature: getPosition(): {left: number, top: number}; -->
+```
 
 @returns:
 - position		object		an object with left and top coordinates of a window
-
 
 @example:
 var position = dhxWindow.getPosition(); // -> {left: 480, top: 234}

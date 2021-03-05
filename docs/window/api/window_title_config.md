@@ -3,13 +3,9 @@ sidebar_label: title
 title: title
 ---          
 
-@short: 
-adds some text into the header of a window
+@short: adds some text into the header of a window
 
-
-
-
-@type: string
+@signature: title?: string;
 
 @example: 
 var dhxWindow = new dhx.Window({

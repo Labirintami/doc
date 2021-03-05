@@ -3,15 +3,11 @@ sidebar_label: closable
 title: closable
 ---          
 
-@short: 
-defines whether a window can be closed
+@short: defines whether a window can be closed
 
+@signature: closable?: boolean;
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var dhxWindow = new dhx.Window({

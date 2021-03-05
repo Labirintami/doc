@@ -5,11 +5,7 @@ title: fullScreen
 
 @short: enters the full screen mode
 
-
-@params:
-
-
-
+```tododeprecated ``` 
 
 @example:
 dhxWindow.fullScreen();

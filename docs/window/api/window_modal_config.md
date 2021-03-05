@@ -3,15 +3,11 @@ sidebar_label: modal
 title: modal
 ---          
 
-@short: 
-defines whether a window is modal
+@short: defines whether a window is modal
 
+@signature: modal?: boolean;
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var dhxWindow = new dhx.Window({

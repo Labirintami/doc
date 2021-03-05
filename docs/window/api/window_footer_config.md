@@ -3,13 +3,9 @@ sidebar_label: footer
 title: footer
 ---          
 
-@short: 
-adds a footer to a window
+@short: adds a footer to a window
 
-
-
-
-@type: boolean
+@signature: footer?: boolean;
 
 @example: 
 var dhxWindow = new dhx.Window({
@@ -17,7 +13,6 @@ var dhxWindow = new dhx.Window({
 });
 
 dhxWindow.show();
-
 
 @template:	api_config
 @descr: 

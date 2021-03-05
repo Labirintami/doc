@@ -3,13 +3,9 @@ sidebar_label: css
 title: css
 ---          
 
-@short: 
-adds style classes for the component
+@short: adds style classes for the component
 
-
-
-
-@type: string
+@signature:    css?: string;
 
 @example: 
 var dhxWindow = new dhx.Window({
@@ -18,7 +14,6 @@ var dhxWindow = new dhx.Window({
 }); 
 
 dhxWindow.show();
-
 
 @template:	api_config
 @descr: 

@@ -5,21 +5,13 @@ title: paint
 
 @short: repaints a window on a page
 
-
-@params:
-
-
-
+@signature: paint(): void;
 
 @example:
 dhxWindow.paint();
 
-
 @template: api_method
 @descr:
-
-
-
 
 
 @changelog:

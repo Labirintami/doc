@@ -6,6 +6,7 @@ title: width
 @short: 
 sets the width of a window
 
+@signature: width?: number;
 
 @default:
 50% of the browser window's width

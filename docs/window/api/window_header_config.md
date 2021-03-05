@@ -3,13 +3,9 @@ sidebar_label: header
 title: header
 ---          
 
-@short: 
-adds a header to a window
+@short: adds a header to a window
 
-
-
-
-@type: boolean
+@signature: header?: boolean;
 
 @example: 
 var dhxWindow = new dhx.Window({

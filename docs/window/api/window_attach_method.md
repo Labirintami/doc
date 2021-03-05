@@ -5,6 +5,10 @@ title: attach
 
 @short: attaches a DHTMLX component to a dhtmlxWindow
 
+```todoapi 
+<!-- void attach(string|object component,object config);
+attach(name: string | IViewFn | IView | IViewConstructor | any, config?: any): void; -->
+```
 
 @params:
 - component 		string,object 		the name or object of a component
