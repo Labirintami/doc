@@ -3,13 +3,9 @@ sidebar_label: dragOut
 title: dragOut
 ---          
 
-@short:
-fires when an item is dragged out of a potential target
+@short: fires when an item is dragged out of a potential target
 
-@params:
-- data		object		data object
-- e		    Event		a native event object
-
+@signature: dragOut: (data: object, events: MouseEvent) => void;
 
 @example:
 tree.events.on("DragOut", function(data, events) {

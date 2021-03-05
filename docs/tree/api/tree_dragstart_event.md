@@ -3,13 +3,9 @@ sidebar_label: dragStart
 title: dragStart
 ---          
 
-@short:
-fires when dragging of an item has started 
+@short: fires when dragging of an item has started 
 
-@params:
-- data		object		data object
-- e		    Event		a native event object
-
+@signature: dragStart: (data: object, events: MouseEvent) => void;
 
 @example:
 tree.events.on("DragStart", function(data, events) {

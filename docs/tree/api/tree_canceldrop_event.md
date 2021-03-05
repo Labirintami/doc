@@ -3,13 +3,9 @@ sidebar_label: cancelDrop
 title: cancelDrop
 ---          
 
-@short:
-fires on moving a mouse pointer out of item's borders while dragging the item
+@short: fires on moving a mouse pointer out of item's borders while dragging the item
 
-@params:
-- data		object		data object
-- e		    Event		a native event object
-
+@signature: cancelDrop: (data: IDragInfo, events: MouseEvent) => void;
 
 @example:
 tree.events.on("CancelDrop", function(data, events) {

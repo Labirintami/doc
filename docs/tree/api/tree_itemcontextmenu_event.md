@@ -6,6 +6,7 @@ title: itemContextMenu
 @short:
 fires on calling a context menu for a tree item on right click
 
+```tododeprecated ```
 
 
 @example:

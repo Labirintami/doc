@@ -5,15 +5,10 @@ title: collapseAll
 
 @short: collapses all expanded Tree items
 
-
-@params:
-
-
-
+@signature: collapseAll(): void;
 
 @example:
 tree.collapseAll();
-
 
 @template: api_method
 @descr:

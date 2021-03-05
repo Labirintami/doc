@@ -5,12 +5,10 @@ title: collapse
 
 @short: collapses a tree item by id
 
+@signature: collapse(id: string): void;
 
 @params:
 - id	string		the id of an item to collapse
-
-
-
 
 @example:
 tree.collapse("history");

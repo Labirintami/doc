@@ -5,11 +5,9 @@ title: selection
 
 @short: enables selection of Tree items
 
+@signature: selection?: boolean;
+
 @default: true
-
-
-
-@type: boolean
 
 @example: 
 const tree = new dhx.Tree("tree_container", {

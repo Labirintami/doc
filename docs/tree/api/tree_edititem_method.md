@@ -5,12 +5,11 @@ title: editItem
 
 @short: edits a Tree item
 
+@signature:     editItem(id: string, config: object): void;
 
 @params:
 - id		string		the id of an item
 - config	object		optional, the config object of an editor
-
-
 
 @example:
 tree.editItem(id);

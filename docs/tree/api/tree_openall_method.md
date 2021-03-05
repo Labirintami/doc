@@ -5,11 +5,7 @@ title: openAll
 
 @short: opens all closed tree items
 
-
-@params:
-
-
-
+```tododeprecated ``` 
 
 @example:
 tree.openAll();

@@ -3,19 +3,14 @@ sidebar_label: afterDrag
 title: afterDrag
 ---          
 
-@short:
-fires after dragging of an item is finished
+@short: fires after dragging of an item is finished
 
-@params:
-- data		object		data object
-- e		    Event		a native event object
-
+@signature: afterDrag: (data: object, events: MouseEvent) => void;
 
 @example:
 tree.events.on("AfterDrag", function(data, events) {
     // your logic here
 });
-
 
 @template: api_event
 @descr:

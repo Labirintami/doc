@@ -5,12 +5,10 @@ title: expand
 
 @short: expands a tree item by id
 
+@signature: expand(id: string): void;
 
 @params:
 - id	string		the id of an item to expand
-
-
-
 
 @example:
 tree.expand("history");

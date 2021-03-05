@@ -5,13 +5,9 @@ title: dropBehaviour
 
 ``` todo
 
-@short: 
-defines the behaviour of a dragged item
+@short: defines the behaviour of a dragged item
 
-
-
-
-@type: string
+@signature: dropBehaviour?: "child" | "sibling" | "complex";
 
 @example: 
 var source = new dhx.Tree("tree-source",{dragMode:"source", dropBehaviour:"complex"});

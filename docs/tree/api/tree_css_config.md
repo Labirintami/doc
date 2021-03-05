@@ -5,13 +5,9 @@ title: css
 
 ``` todo
 
-@short: 
-adds a CSS class(es) to the component
+@short: adds a CSS class(es) to the component
 
-
-
-
-@type: string
+@signature: css?: string;
 
 @example: 
 <style>
@@ -20,9 +16,7 @@ adds a CSS class(es) to the component
 	}
 </style>
 
-
 var tree = new dhx.Tree("tree_container", {css: "bg-gray"});
-
 
 @template:	api_config
 @descr: 

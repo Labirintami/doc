@@ -5,17 +5,12 @@ title: rootId
 
 @short: sets the id for the root element
 
-
-
-
-
-@type: string
+@signature: rootId?: string;
 
 @example: 
 const tree = new dhx.Tree("tree_container", {
     rootId: "root"
 });
-
 
 @template:	api_config
 @descr: 

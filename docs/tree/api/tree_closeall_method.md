@@ -5,11 +5,9 @@ title: closeAll
 
 @short: closes all opened Tree items
 
+```tododeprecated ``` 
 
 @params:
-
-
-
 
 @example:
 tree.closeAll();

@@ -3,19 +3,14 @@ sidebar_label: dragMode
 title: dragMode
 ---          
 
-@short: 
-enables drag-n-drop in Tree
+@short: enables drag-n-drop in Tree
 
-
-
-
-@type: string
+@signature: dragMode?:  "target" | "both" | "source";;
 
 @example: 
 var tree = new dhx.Tree("tree_container", { 
     dragMode:"source"
 });
-
 
 @template:	api_config
 @descr: 

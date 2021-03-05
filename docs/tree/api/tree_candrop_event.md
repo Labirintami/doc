@@ -3,13 +3,9 @@ sidebar_label: canDrop
 title: canDrop
 ---          
 
-@short:
-fires when a dragged item is over a target item
+@short: fires when a dragged item is over a target item
 
-@params:
-- data		object		data object
-- e		    Event		a native event object
-
+@signature: canDrop: (data: IDragInfo, events: MouseEvent) => void;
 
 @example:
 tree.events.on("CanDrop", function(data, events) {

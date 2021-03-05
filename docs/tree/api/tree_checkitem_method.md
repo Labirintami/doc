@@ -5,11 +5,10 @@ title: checkItem
 
 @short: checks the checkbox of a tree item and all its sub-items
 
+@signature: checkItem(id: string): void;
 
 @params:
 - id 		string		the id of an item to check
-
-
 
 @example:
 tree.checkItem("history");

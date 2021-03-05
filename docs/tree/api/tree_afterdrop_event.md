@@ -3,13 +3,9 @@ sidebar_label: afterDrop
 title: afterDrop
 ---          
 
-@short:
-fires before the user has finished dragging an item but after the mouse button is released 
+@short: fires before the user has finished dragging an item but after the mouse button is released 
 
-@params:
-- data		object		data object
-- e		    Event		a native event object
-
+@signature: afterDrop: (data: object, events: MouseEvent) => void;
 
 @example:
 tree.events.on("AfterDrop", function(data, events) {

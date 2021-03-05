@@ -5,6 +5,7 @@ title: open
 
 @short: opens a tree item by id
 
+```tododeprecated ``` 
 
 @params:
 - id 	string		the id of an item to open

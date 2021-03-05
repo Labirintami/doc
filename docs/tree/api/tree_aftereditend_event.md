@@ -5,11 +5,11 @@ title: afterEditEnd
 
 @short: fires after editing of a tree item is finished
 
-@params: 
+@signature: afterEditEnd: (value: string, id: string) => void;
 
+@params: 
 - value     string  the value of an item
 - id        string  the id of an item
-
 
 @example:
 tree.events.on("AfterEditEnd", function(value, id) {

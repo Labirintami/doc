@@ -5,11 +5,10 @@ title: close
 
 @short: closes a tree item by id
 
+```tododeprecated ``` 
 
 @params:
 - id 	string		the id of an item to close
-
-
 
 @example:
 tree.close("history");

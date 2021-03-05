@@ -5,23 +5,8 @@ title: destructor
 
 @short: releases the occupied resources
 
-
-@params:
-
-
-
+@signature: destructor(): void;
 
 @example:
 tree.destructor();
-
-
-@template: api_method
-@descr:
-
-
-
-
-
-@changelog:
-
 

@@ -5,13 +5,9 @@ title: data
 
 ``` todo
 
-@short: 
-sets a dataset for a tree
+@short: sets a dataset for a tree
 
-
-
-
-@type: array
+@signature: data?: array
 
 @example: 
 var data = new dhx.TreeCollection();

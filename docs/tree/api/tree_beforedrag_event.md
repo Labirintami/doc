@@ -3,12 +3,16 @@ sidebar_label: beforeDrag
 title: beforeDrag
 ---          
 
-@short:
-fires before dragging of an item has started 
+@short: fires before dragging of an item has started 
 
-@params:
-- data		object		data object
-- e		    Event		a native event object
+```todoapi 
+<!-- @signature: beforeDrag: (data: {
+    start: string;
+    source: string[];
+    target: string;
+    dropPosition?: DropPosition;
+}, events: MouseEvent) => boolean; -->
+```
 
 @returns:
 - result	boolean		false - to block dragging of an item, otherwise true

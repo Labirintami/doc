@@ -6,10 +6,7 @@ title: isFolder
 @short: 
 defines whether an item should be rendered as a folder
 
-
-
-
-@type: function
+```tododeprecated ``` 
 
 @example: 
 var tree = new dhx.Tree("tree", {isFolder: function() {

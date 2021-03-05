@@ -5,16 +5,15 @@ title: afterCollapse
 
 @short: fires after collapsing a tree item
 
+@signature: afterCollapse: (id: string) => void;
+
 @params:
-
 - id       string      the id of a collapsed item
-
 
 @example:
 tree.events.on("AfterCollapse", function(id) {
     // your logic here
 });
-
 
 @template: api_event
 @descr:

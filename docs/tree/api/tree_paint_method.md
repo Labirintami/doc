@@ -5,11 +5,7 @@ title: paint
 
 @short: repaints Tree on a page
 
-
-@params:
-
-
-
+@signature: paint(): void;
 
 @example:
 tree.paint();

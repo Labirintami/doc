@@ -5,10 +5,10 @@ title: unCheckItem
 
 @short: unchecks the checkbox of a tree item and all its sub-items
 
+```tododeprecated ``` 
 
 @params:
 - id 	string		the id of an item to uncheck
-
 
 
 @example:

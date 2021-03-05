@@ -3,13 +3,9 @@ sidebar_label: dragIn
 title: dragIn
 ---          
 
-@short:
-fires when an item is dragged to another potential target
+@short: fires when an item is dragged to another potential target
 
-@params:
-- data		object		data object
-- e		    Event		a native event object
-
+@signature: dragIn: (data: object, events: MouseEvent) => void | boolean;
 
 @example:
 tree.events.on("DragIn", function(data, events) {

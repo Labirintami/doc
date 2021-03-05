@@ -3,13 +3,9 @@ sidebar_label: icon
 title: icon
 ---          
 
-@short: 
-allows adding custom icons for tree items
+@short: allows adding custom icons for tree items
 
-
-
-
-@type: object
+@signature: icon?: object;
 
 @example: 
 var tree = new dhx.Tree("tree_container", {
@@ -19,7 +15,6 @@ var tree = new dhx.Tree("tree_container", {
 		file: "fas fa-file"
 	}
 });
-
 
 @template:	api_config
 @descr: 

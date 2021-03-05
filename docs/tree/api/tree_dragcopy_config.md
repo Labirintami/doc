@@ -3,18 +3,15 @@ sidebar_label: dragCopy
 title: dragCopy
 ---          
 
-@short: 
-defines that an item is copied to a target during drag-n-drop
+@short: defines that an item is copied to a target during drag-n-drop
 
-
-
+@signature: dragCopy?: boolean;
 
 @type: boolean
 
 @example: 
 var treeSource = new dhx.Tree("tree-source", {dragMode: "source", dragCopy: true});
 var treeTarget = new dhx.Tree("tree-target", {dragMode: "target", dragCopy: true});
-
 
 @template:	api_config
 @descr: 

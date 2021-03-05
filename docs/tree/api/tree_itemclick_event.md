@@ -3,8 +3,9 @@ sidebar_label: itemClick
 title: itemClick
 ---          
 
-@short:
-fires on clicking a tree item
+@short: fires on clicking a tree item
+
+@signature: itemClick: (id: string, e: Event) => void;
 
 @params:
 - id	string		the id of an item

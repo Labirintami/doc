@@ -5,13 +5,10 @@ title: getChecked
 
 @short: gets all checked tree items
 
-
-@params:
-
+@signature: getChecked(): string[];
 
 @returns:
 - checked	array		an array of ids of checked items
-
 
 @example:
 tree.getChecked(); // -> ["jmf", "rle", "sk", "km", "af", "jw"]
