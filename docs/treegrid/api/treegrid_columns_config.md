@@ -3,12 +3,8 @@ sidebar_label: columns
 title: columns
 ---          
 
-``` todo
-
 @short: 
 specifies the configuration of grid columns
-
-
 
 
 @type: array
@@ -176,4 +172,3 @@ treegrid/customization.md
 
 @relatedsample: https://snippet.dhtmlx.com/kob9385v	TreeGrid. Basic initialization
 
-``` todo

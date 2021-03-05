@@ -3,13 +3,8 @@ sidebar_label: rowCss
 title: rowCss
 ---          
 
-``` todo
-
 @short: 
 sets style for a row
-
-
-
 
 @type: function
 
@@ -35,5 +30,3 @@ The function takes the id of a row as a parameter and returns a string with the 
 treegrid/initialization.md#initializetreegrid
 
 @relatedsample: https://snippet.dhtmlx.com/3ojyoryn	TreeGrid. Custom Row Style
-
-``` todo

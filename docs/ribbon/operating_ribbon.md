@@ -3,7 +3,7 @@ sidebar_label: Work with Ribbon
 title: Work with Ribbon
 ---          
 
-``` todo
+
 
 Setting/getting values and states
 -----------------------
@@ -382,4 +382,3 @@ ribbon.data.parse(new_controls);
 check iteration through children - works badly for map() with false param in case of css<br/>
 add params for data/tree collection methods
 
-``` todo

@@ -3,7 +3,7 @@ sidebar_label: Customization
 title: Customization
 ---          
 
-``` todo
+
 
 You can customize the look and feel of the header and footer of Window together with their functionality.
 
@@ -44,6 +44,7 @@ Besides initial controls, you can add other controls into the header/footer on t
 
 
 For this, you should apply the data_collection/api/add.md method of Data Collection. It takes the parameters below:
+
 
 <table class="webixdoc_links">
 	<tbody>
@@ -131,5 +132,3 @@ var dhxWindow = new dhx.Window({
 dhxWindow.show();
 ~~~
 
-
-``` todo

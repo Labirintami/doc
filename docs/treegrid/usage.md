@@ -3,7 +3,7 @@ sidebar_label: Work with TreeGrid
 title: Work with TreeGrid
 ---          
 
-``` todo
+
 
 Working with columns and cells
 ---------------------
@@ -35,6 +35,7 @@ var column = treegrid.getColumn("b"); // ->
 
 The method returns an object with configuration of the specified column. Such an object contains a set of fields:
 
+``` todo
 <table class="webixdoc_links">
 	<tbody>
         <tr>
@@ -184,6 +185,7 @@ The method returns an object with configuration of the specified column. Such an
     </tbody>
 </table>
 
+``` todo
 
 ### Getting configuration of a cell
 
@@ -742,4 +744,4 @@ Using Selection API
 
 For information on using Selection API, read [Work with Selection Object](treegrid/usage_selection.md).
 
-``` todo
+

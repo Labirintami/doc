@@ -8,12 +8,20 @@ title: Overview of Chart Types
 dhtmlxChart provides a variety of charts types that will help you to represent you data in the most suitable way. Each type of chart is easily configurable and can be adjusted according to your preferences.
 All in all there are 11 types of chart, in the list below they are combined into groups for the sake of convenience:
 
-- [Line and Spline chart](#lineandsplinechart)
-- [Bar and X-Bar chart](#barandxbarchart)
-- [Area and SplineArea chart](#areaandsplineareachart)
-- [Pie, Pie 3D and Donut chart](#piepie3danddonutchart)
-- [Radar chart](#radarchart)
-- [Scatter chart](#scatterchart)
+- [Line and Spline chart](#line-and-spline-chart)
+  - [Line chart](#line-chart)
+  - [Spline chart](#spline-chart)
+- [Bar and X-Bar chart](#bar-and-x-bar-chart)
+  - [Bar chart](#bar-chart)
+  - [X-Bar chart](#x-bar-chart)
+- [Area and SplineArea chart](#area-and-splinearea-chart)
+  - [Area chart](#area-chart)
+  - [SplineArea chart](#splinearea-chart)
+- [Pie, Pie 3D and Donut chart](#pie-pie-3d-and-donut-chart)
+  - [Pie and Pie 3D Chart](#pie-and-pie-3d-chart)
+  - [Donut Chart](#donut-chart)
+- [Radar Chart](#radar-chart)
+- [Scatter Chart](#scatter-chart)
 
 Line and Spline chart
 ------------------
@@ -108,6 +116,3 @@ The peculiarity of Scatter Chart is that it allows exploring relations between t
 
 
 {{editor    https://snippet.dhtmlx.com/pkczfmpu	Chart. Basic Initialization Scatter Chart}}
-
-
-``` todo

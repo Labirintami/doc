@@ -5,7 +5,8 @@ title: data
 
 ``` todo
 
-@short: sets a dataset for a tree
+@short: 
+sets a dataset for a tree
 
 @signature: data?: array
 

@@ -3,7 +3,7 @@ sidebar_label: Migration to Newer Versions
 title: Migration to Newer Versions
 ---          
 
-``` todo
+
 
 6.5 -> 7.0
 -------------
@@ -17,6 +17,7 @@ Starting from v7.0, use **leftSplit** instead.
 
 1) In v6.4 some properties and methods of the TreeGrid API have been renamed. The new names bring more clarity and precisely describe the actual functionality.
 
+``` todo
 <table class="my_table">
 <tr><td class="version_info">Up to version 6.3</td><td class="version_info">From version 6.4</td></tr>
 <tr><td colspan="2" class="type_info">Methods</td></tr>
@@ -26,7 +27,7 @@ Starting from v7.0, use **leftSplit** instead.
 <tr><td>fitToContainer</td><td>autoWidth</td></tr>
 <tr><td>headerSort</td><td>sortable</td></tr>
 </table>
-
+``` todo
 2) The `columnsAutoWidth` property is replaced with the `adjust` property. The property can take one of three values: "header", "data" or true.
 
 3) Before 6.4 the `adjustColumnWidth()` method took only one parameter - the id of the column. Starting from v6.4, it is also possible to pass the mode of adjusting a column ("header", "data", true) as a second parameter.
@@ -63,4 +64,3 @@ In version 6.3 some functionality of TreeGrid has been renamed in order to avoid
 
 </table>
 
-``` todo

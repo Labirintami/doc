@@ -3,7 +3,6 @@ sidebar_label: Chart API
 title: Chart API
 ---          
 
-``` todo
 
 Constructor
 ---------------
@@ -464,4 +463,3 @@ chart.events.on("Resize", function({width:500, height:500}){
 @todo:
 check lists, namings, descriptions and examples<br/>
 
-``` todo

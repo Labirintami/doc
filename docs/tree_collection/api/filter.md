@@ -3,7 +3,7 @@ sidebar_label:
 title:
 ---          
 
-``` todo
+
 
 @short:filters controls by some criteria
 
@@ -101,4 +101,3 @@ The **config** parameter may contain the following properties:
 
 @relatedsample: https://snippet.dhtmlx.com/epsslwcd	TreeGrid. Basic Filter
 
-``` todo

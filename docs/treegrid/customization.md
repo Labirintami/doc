@@ -3,7 +3,7 @@ sidebar_label: Customization
 title: Customization
 ---          
 
-``` todo
+
 
 Styling TreeGrid
 ----------------
@@ -432,4 +432,3 @@ The **eventHandlers** object includes a set of *key:value* pairs, where:
     </tbody>
 </table>
 
-``` todo

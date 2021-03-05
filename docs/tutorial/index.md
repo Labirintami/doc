@@ -3,7 +3,6 @@ sidebar_label: How To Start
 title: How To Start 
 ---          
 
-``` todo
 
 Learn DHTMLX Suite library faster and easier with the tutorials that we have prepared for you. 
 
@@ -41,4 +40,3 @@ Learn DHTMLX Suite library faster and easier with the tutorials that we have pre
 
 Check out DHTMLX step-by-step tutorials that explore the most essential concepts of the DHTMLX library on the basis of realistic examples and illustrative demos.
 
-``` todo

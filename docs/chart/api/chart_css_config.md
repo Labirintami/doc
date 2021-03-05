@@ -3,7 +3,7 @@ sidebar_label: css
 title: css
 ---          
 
-``` todo
+
 
 @short: 
 adds style classes to Chart
@@ -79,4 +79,3 @@ https://snippet.dhtmlx.com/p82iew5s	Chart. Custom Styling
 
 @related: chart/customization.md#stylingchart
 
-``` todo

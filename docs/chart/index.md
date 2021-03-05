@@ -3,8 +3,6 @@ sidebar_label: Chart
 title: Chart
 ---          
 
-``` todo
-
 dhtmlxChart is a great tool for creating powerful charts for web applications. It provides a wide variety of chart types, the possibility to render several data properties on the same chart and adding tooltips, 
 both 2D and 3D presentation, different variants of data loading, and a whole kit of configuration settings for all elements of a chart interface. 
 Check [online samples for dhtmlxChart](https://docs.dhtmlx.com/suite/samples/chart/). 
@@ -27,6 +25,7 @@ Check [online samples for dhtmlxChart](https://docs.dhtmlx.com/suite/samples/cha
 
 You can read the following articles to find out how to add Chart on the page and work with it.
 
+``` todo
 <table class='guide-table'>
 	<tbody>
     <tr>
@@ -44,7 +43,7 @@ You can read the following articles to find out how to add Chart on the page and
      </tr>     
    	</tbody>
 </table>
-
+``` todo
 
 @index:
 - chart/api/refs/chart.md
@@ -57,8 +56,5 @@ You can read the following articles to find out how to add Chart on the page and
 - chart/events.md
 
  
-
 @metadescr:
 dhtmlxChart is a powerful data visualization tool for web applications. It provides a wide variety of charts to represent different data sets in the clearest way. 
-
-``` todo

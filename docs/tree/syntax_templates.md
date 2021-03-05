@@ -3,9 +3,6 @@ sidebar_label: Syntax Templates
 title: Syntax Templates 
 ---          
 
-``` todo
-
-
 XML Format Template  
 -----------------------
 
@@ -352,4 +349,3 @@ The following code snippet shows the creation of the tree with Events Handlers, 
 </cf_dhtmlXTree>    
 ~~~
 
-``` todo

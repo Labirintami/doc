@@ -3,7 +3,7 @@ sidebar_label: Configuration
 title: Configuration
 ---          
 
-``` todo
+
 
 dhtmlxTreeGrid possesses flexible configuration that let you get desired look and feel via a collection of versatile properties.
 
@@ -1015,6 +1015,3 @@ var treegrid = new dhx.TreeGrid("treegrid_container", {
 
 In case these options aren't set in the TreeGrid configuration, the component will take the size of the container.
 
-
-
-``` todo

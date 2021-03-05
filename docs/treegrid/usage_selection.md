@@ -3,7 +3,7 @@ sidebar_label: Work with Selection Object
 title: Work with Selection Object
 ---          
 
-``` todo
+
 
 You can manipulate with Grid cells via the API of the selection object. It is possible to get the object of a selected Grid cell or set the selection to a cell. The selection object also allows removing selection from previously selected cells.
 
@@ -103,4 +103,3 @@ var selectedCell = treegrid.selection.getCell();
 // -> {row: {…}, column: {…}}
 ~~~
 
-``` todo

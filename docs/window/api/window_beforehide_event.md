@@ -5,9 +5,8 @@ title: beforeHide
 
 ``` todo
 
-@short: fires before a window is hidden
-
-@signature: beforeHide: (position: object, e?: Event) => boolean | void;
+@short:
+fires before a window is hidden
 
 @params:
 - position  object      an object with coordinates of the window's position
