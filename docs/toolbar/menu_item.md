@@ -3,7 +3,7 @@ sidebar_label: MenuItem
 title: MenuItem
 ---          
 
-``` todo
+
 
 This is a drop-down list of options.
 
@@ -63,4 +63,3 @@ Check the full list of available operations in the [Toolbar API](toolbar/api.md)
 rename the control<br/>
 add an image and link to the sample
 
-``` todo

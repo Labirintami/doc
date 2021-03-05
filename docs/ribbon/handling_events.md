@@ -3,7 +3,7 @@ sidebar_label: Event Handling
 title: Event Handling
 ---          
 
-``` todo
+
 
 To handle events of Ribbon and its TreeCollection, use the methods of the **events** module.
 
@@ -63,4 +63,3 @@ ribbon.events.fire(evName,[parameters]);
 
 You can find the full list of Ribbon events in the [related API section](ribbon/api/refs/ribbon_events.md).
 
-``` todo

@@ -6,7 +6,7 @@ title: Tabbar API
 Constructor
 ----------------
 
-``` todo
+
 
 ~~~js
 var tabbar = new dhx.Tabbar("tabbar_container", {
@@ -260,4 +260,3 @@ tabbar.events.on("Close", function(id){
 - add Layout API, since Tabbar inherits it<br/>
 - recheck descriptions of configs<br/>
 
-``` todo

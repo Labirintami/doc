@@ -3,7 +3,7 @@ sidebar_label: Work with Menu
 title: Work with Menu
 ---          
 
-``` todo
+
 
 Hiding/showing menu options
 ------------------
@@ -250,4 +250,3 @@ menu.data.parse(new_options);
 
 {{note Check the full list of [Tree collection API](tree_collection/api/refs/treecollection.md).}}
 
-``` todo

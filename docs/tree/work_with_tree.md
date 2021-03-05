@@ -6,7 +6,7 @@ title: Work with Tree
 Working with checkboxes
 -------------------
 
-``` todo
+
 
 You can [enable checkbox for tree items](tree/configuration.md#checkboxesforitems) with the tree/api/tree_checkbox_config.md configuration option. Then you can manipulate items with checkboxes with the help of Tree API.
 
@@ -257,6 +257,4 @@ tree.data.remove("id");
 
 {{note Check the full list of [Tree collection API](tree_collection/api/refs/treecollection.md).}}
 
-
-``` todo
 

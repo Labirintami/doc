@@ -3,7 +3,7 @@ sidebar_label: Separator
 title: Separator
 ---          
 
-``` todo
+
 
 This is a horizontal (between menu options) or vertical (between toolbar controls) line separating items/groups of items from each other.
 
@@ -55,4 +55,3 @@ toolbar.hide(id);
 
 Check the full list of available operations in the [Toolbar API](toolbar/api/refs/toolbar.md) and [Tree Collection API](tree_collection/api/refs/treecollection.md).
 
-``` todo

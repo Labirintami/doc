@@ -3,7 +3,6 @@ sidebar_label: Sidebar API
 title: Sidebar API
 ---          
 
-``` todo
 
 ## Constructor
 
@@ -293,4 +292,3 @@ sidebar.events.on("OpenMenu", function(){
 add links to samples and Data events<br/>
 check navigationType, now works only for "click"
 
-``` todo

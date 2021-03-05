@@ -3,7 +3,7 @@ sidebar_label: Context Menu
 title: Context Menu
 ---          
 
-``` todo
+
 
 dhtmlxContextMenu is a component that provides an easy way to add a contextual menu to projects. It will be of great help for frequently used actions in web sites, help systems, etc.
 
@@ -118,4 +118,3 @@ document.querySelector('#menu').oncontextmenu = function(e) {
 @todo: 
 - check and improve
 
-``` todo

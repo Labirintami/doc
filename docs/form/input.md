@@ -3,7 +3,7 @@ sidebar_label: Input
 title: Input
 ---          
 
-``` todo
+
 
 An input field for typing some text inside.
 
@@ -220,4 +220,3 @@ var value = form.getItem("input").getValue();
 - form/api/refs/input_methods.md
 - form/api/refs/input_events.md
 
-``` todo

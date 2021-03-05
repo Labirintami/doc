@@ -3,7 +3,6 @@ sidebar_label: Work with Toolbar
 title: Work with Toolbar
 ---          
 
-``` todo
 
 Setting/getting values and states
 ------------------
@@ -310,4 +309,3 @@ toolbar.data.move("2",0);
 @todo:
 check, add info about adding popup into toolbar
 
-``` todo

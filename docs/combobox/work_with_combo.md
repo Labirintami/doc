@@ -3,7 +3,7 @@ sidebar_label: Work with ComboBox
 title: Work with ComboBox
 ---          
 
-``` todo
+
 
 
 Setting/getting value(s)
@@ -276,4 +276,3 @@ combo.data.remove("option_id");
 @todo:
 add a section about sorting in ComboBox<br/>
 
-``` todo

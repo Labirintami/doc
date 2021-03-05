@@ -3,7 +3,7 @@ sidebar_label: Event Handling
 title: Event Handling
 ---          
 
-``` todo
+
 
 ## Attaching event listeners
 
@@ -59,4 +59,3 @@ menu.events.fire(evName,[args]);
 
 You can find the full list of Menu events in the [API section](menu/api/refs/menu.md).
 
-``` todo

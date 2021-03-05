@@ -3,7 +3,7 @@ sidebar_label: filter
 title: filter
 ---          
 
-``` todo
+
 
 @short:
 filters data items in a component
@@ -141,4 +141,3 @@ grid.data.filter({
 
 @relatedsample: https://snippet.dhtmlx.com/csiwq3kj	Data. Filter
 
-``` todo

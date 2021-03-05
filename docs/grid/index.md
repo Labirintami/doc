@@ -3,7 +3,7 @@ sidebar_label: Grid
 title: Grid
 ---          
 
-``` todo
+
 
 dhtmlxGrid is a flexible, smart, and easy-to-use JavaScript component which allows creating tables with fixed multi-line headers and footers, sortable columns, 
 built-in filtering, and other useful features. dhtmlxGrid provides great possibilities for customizing its look and feel. Complete JavaScript API is provided to help users save time on configuring.
@@ -81,5 +81,4 @@ Check [online samples for dhtmlxGrid](https://docs.dhtmlx.com/suite/samples/grid
 dhtmlxGrid is a smart JavaScript component for presenting data in a tabular way. Complete API provides a lot of versatile features, e.g. sorting columns, keyboard navigation, styling cells, drag-n-drop of rows and columns, etc.
 
 
-``` todo
  

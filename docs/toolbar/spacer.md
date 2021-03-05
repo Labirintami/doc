@@ -3,7 +3,7 @@ sidebar_label: Spacer
 title: Spacer
 ---          
 
-``` todo
+
 
 This item takes space on the toolbar and is used for aligning controls.
 
@@ -54,5 +54,3 @@ toolbar.hide(id);
 
 Check the full list of available operations in the [Toolbar API](toolbar/api/refs/toolbar.md) and [Tree Collection API](tree_collection/api/refs/treecollection.md).
 
-
-``` todo

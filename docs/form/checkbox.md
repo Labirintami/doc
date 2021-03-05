@@ -3,7 +3,7 @@ sidebar_label: Checkbox
 title: Checkbox
 ---          
 
-``` todo
+
 
 A control that allows a user to make a choice between one or several opposite options by toggling them.
 
@@ -182,4 +182,3 @@ var value = form.getItem("checkbox").getValue();
 - form/api/refs/checkbox_methods.md
 - form/api/refs/checkbox_events.md
 
-``` todo

@@ -3,7 +3,7 @@ sidebar_label: Event Handling
 title: Event Handling
 ---          
 
-``` todo
+
 
 ## Attaching event listeners
 
@@ -62,5 +62,3 @@ combo.events.fire("name",args);
 
 You can find the full list of ComboBox events in the [API Reference](combo/api/refs/combobox_events.md).
 
-
-``` todo

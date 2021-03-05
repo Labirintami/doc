@@ -3,7 +3,7 @@ sidebar_label: Data Loading
 title: Data Loading
 ---          
 
-``` todo
+
 
 There are several simple ways of loading data into dhtmlxRibbon:
 
@@ -759,4 +759,3 @@ The **title** object has the following properties:
 }
 ~~~
 
-``` todo

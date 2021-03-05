@@ -6,7 +6,7 @@ title: Work with Sidebar
 Adding a tooltip to a control
 --------------------
 
-``` todo
+
 
 You can attach a tooltip to a control. For this you need to provide the **tooltip** property with the tooltip text in the control object before the sidebar initialization:
 
@@ -293,4 +293,4 @@ sidebar.data.move("2",0);
 @todo:
 check 
 
-``` todo
+

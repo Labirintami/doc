@@ -3,7 +3,7 @@ sidebar_label: css
 title: css
 ---          
 
-``` todo
+
 
 @short: adds a CSS class(es) to the component
 
@@ -69,4 +69,3 @@ tree/setting_tree_appearance.md#styling
 https://snippet.dhtmlx.com/ocv4p7zg	Tree. Custom Styles
 https://snippet.dhtmlx.com/zapehxd3	Tree. Custom Toggle Icon
 
-``` todo

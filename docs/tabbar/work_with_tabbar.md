@@ -3,7 +3,6 @@ sidebar_label: Work with Tabbar
 title: Work with Tabbar
 ---          
 
-``` todo
 
 dhtmlxTabbar inherits its API from dhtmlxLayout. So, you can apply any methods of Layout to manipulate Tabbar.
 
@@ -152,4 +151,3 @@ tabbar.getCell("dataview").attach(dataview);
 
 {{editor	https://snippet.dhtmlx.com/o1jwmw1l	Tabbar. Attach}}
 
-``` todo

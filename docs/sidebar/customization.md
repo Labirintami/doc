@@ -3,7 +3,7 @@ sidebar_label: Customization
 title: Customization
 ---          
 
-``` todo
+
 
 Icons
 ------------
@@ -89,4 +89,3 @@ var sidebar = new dhx.Sidebar({
 {{editor	https://snippet.dhtmlx.com/3mhhvvcr	Sidebar. Custom Css}}
 
 
-``` todo

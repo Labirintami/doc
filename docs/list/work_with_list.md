@@ -4,7 +4,7 @@ title: Work with List
 
 ---          
 
-``` todo
+
 
 Setting focus on item
 --------------------------
@@ -144,4 +144,3 @@ Using Selection API
 
 For information on using Selection API, read [Work with Selection Object](list/usage_selection.md).
 
-``` todo

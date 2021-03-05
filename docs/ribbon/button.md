@@ -3,7 +3,7 @@ sidebar_label: Button
 title: Button
 ---          
 
-``` todo
+
 
 This is a simple button that can have an icon. Button can be *twoState* and can have a badge with a number, which can be useful for displaying the number of new messages, etc.
 
@@ -262,4 +262,3 @@ ribbon.getState();
 // { check:false }
 ~~~
 
-``` todo

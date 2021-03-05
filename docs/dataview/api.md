@@ -3,7 +3,6 @@ sidebar_label: DataView API
 title: DataView API
 ---          
 
-``` todo
 
 Constructor
 ---------------
@@ -231,4 +230,3 @@ dataview.events.on("FocusChange", function(index, id){
 - type of gap<br/>
 - add links to api and samples
 
-``` todo

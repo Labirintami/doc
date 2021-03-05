@@ -3,7 +3,7 @@ sidebar_label: Ribbon
 title: Ribbon
 ---          
 
-``` todo
+
 
 dhtmlxRibbon is an advanced version of dhtmlxToolbar. It aggregates commands and tools used in an application or in a website into logical blocks thus providing a handy navigation bar.<br/>
 Check [online samples for dhtmlxRibbon](https://docs.dhtmlx.com/suite/samples/ribbon/).
@@ -79,4 +79,3 @@ Check [online samples for dhtmlxRibbon](https://docs.dhtmlx.com/suite/samples/ri
 @metadescr:
 dhtmlxRibbon is a highly customizable component that can be used for creating a handy navigation bar by grouping diversity of controls into logical blocks. 
 
-``` todo

@@ -3,7 +3,6 @@ sidebar_label: Separator
 title: Separator
 ---          
 
-``` todo
 
 This is a line separating items/groups of items from each other.
 
@@ -51,5 +50,3 @@ sidebar.hide(id);
 <br/>
 
 Check the full list of available operations in the [Sidebar API](sidebar/api/refs/sidebar.md) and [Tree Collection API](tree_collection/api/refs/treecollection.md).
-
-``` todo

@@ -3,7 +3,7 @@ sidebar_label: Toolbar
 title: Toolbar
 ---          
 
-``` todo
+
 
 dhtmlxToolbar is a JavaScript component that allows you to keep all main commands and tools of the app in one place and define their look and feel.
 Being a great tool for fast and handy navigation, it will make work with your app or website clear and easy. Check [online samples for dhtmlxToolbar](https://docs.dhtmlx.com/suite/samples/toolbar/).
@@ -77,4 +77,3 @@ Being a great tool for fast and handy navigation, it will make work with your ap
 @metadescr:
 dhtmlxToolbar is a flexible tool for creating a comfy horizontal navigation bar. Advanced API allows you to easily adjust the structure of the component by combining and customizing diverse types of its controls.
 
-``` todo

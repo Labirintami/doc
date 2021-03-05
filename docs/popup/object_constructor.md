@@ -3,7 +3,7 @@ sidebar_label: Object Constructor
 title: Object Constructor
 ---          
 
-``` todo
+
 
 Attaching to a Form's Control
 -----------------------------------------------
@@ -199,4 +199,3 @@ dhtmlxPopup/samples/02_api/01_skins.html
 
  Once you reload the page, the dhtmlxPopup's instances are destroyed automatically.
 
- ``` todo

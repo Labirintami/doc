@@ -3,7 +3,6 @@ sidebar_label: template
 title: template
 ---          
 
-``` todo
 
 @short: 
 sets a template of displaying options in the popup list
@@ -29,4 +28,3 @@ combo/configuration.md#templateforcomboboxoptions
 
 @relatedsample: https://snippet.dhtmlx.com/z7cpj76i	Combobox. Template
 
-``` todo

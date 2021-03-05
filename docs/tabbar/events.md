@@ -3,8 +3,6 @@ sidebar_label: Event Handling
 title: Event Handling
 ---          
 
-``` todo
-
 ## Attaching event listeners
 
 You can add any handler to the events of Tabbar. To do this, use the **tabbar.events.on()** method with the following parameters:
@@ -59,4 +57,4 @@ tabbar.events.fire(evName,[args]);
 
 You can find the full list of Tabbar events in the [API section](tabbar/api/refs/tabbar_events.md).
 
-``` todo
+

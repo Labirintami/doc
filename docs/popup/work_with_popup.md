@@ -3,7 +3,7 @@ sidebar_label: Work with Popup
 title: Work with Popup
 ---          
 
-``` todo
+
 
 Hiding/showing Popup
 -------------
@@ -94,4 +94,3 @@ popup.show();
 
 {{editor	https://snippet.dhtmlx.com/7x6hlbqx	Popup. Attach Timepicker}}
 
-``` todo

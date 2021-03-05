@@ -3,7 +3,7 @@ sidebar_label: css
 title: css
 ---          
 
-``` todo
+
 
 @short: adds a CSS class(es) to the component
 
@@ -62,4 +62,3 @@ var list = new dhx.List("list", {css:"dhx_widget--bg_white"});
 https://snippet.dhtmlx.com/s461f09w	List. Custom Styles
 https://snippet.dhtmlx.com/6hss19d3	List. Add Custom Selection With Custom Css
 
-``` todo

@@ -3,7 +3,7 @@ sidebar_label: Event Handling
 title: Event Handling
 ---          
 
-``` todo
+
 
 ## Attaching event listeners
 
@@ -59,4 +59,3 @@ toolbar.events.fire(evName,[args]);
 
 You can find the full list of toolbar events in the [API section](toolbar/api/refs/toolbar_events.md).
 
-``` todo

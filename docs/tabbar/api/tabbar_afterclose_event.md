@@ -3,8 +3,6 @@ sidebar_label: afterClose
 title: afterClose
 ---     
 
-``` todo
-
 @short: fires after closing a tab in Tabbar
 
 @signature: afterClose: (id: string) => any;
@@ -25,5 +23,3 @@ tabbar.events.on("AfterClose", function(id){
 @changelog: added in v6.4
 
 @relatedsample: https://snippet.dhtmlx.com/dld2qo1m	Tabbar. Events
-
-``` todo

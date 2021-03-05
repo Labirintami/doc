@@ -3,7 +3,7 @@ sidebar_label: Input
 title: Input
 ---          
 
-``` todo
+
 
 This is an input field for entering some text. 
 
@@ -145,4 +145,3 @@ toolbar.getState(); //-> {search:"Summer"}
 
 Check the full list of available operations in the [Toolbar API](toolbar/api/refs/toolbar.md) and [Tree Collection API](tree_collection/api/refs/treecollection.md).
 
-``` todo

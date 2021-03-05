@@ -3,12 +3,10 @@ sidebar_label: Spacer
 title: Spacer
 ---          
 
-``` todo
 
 This item takes space on the sidebar and is used for aligning controls.
 
 <img style="margin: 0px 0px 0px 20px; display: block;" src="sidebar/spacer.png" alt=""/>
-
 ## Adding Spacer
 
 A new Spacer can be created with the help of the **add()** method of Tree Collection:
@@ -52,4 +50,4 @@ sidebar.hide(id);
 
 Check the full list of available operations in the [Sidebar API](sidebar/api/refs/sidebar.md) and [Tree Collection API](tree_collection/api/refs/treecollection.md).
 
-``` todo
+

@@ -3,7 +3,7 @@ sidebar_label: css
 title: css
 ---          
 
-``` todo
+
 
 @short: adds style classes to TimePicker
 
@@ -68,4 +68,3 @@ timepicker/initialization.md#initializetimepicker
 
 @relatedsample: https://snippet.dhtmlx.com/n4xfu4e9	Timepicker. Custom Style
 
-``` todo
