@@ -3,8 +3,11 @@ sidebar_label: inputCreated
 title: inputCreated
 ---          
 
-@short:
-fires when a new input is added
+@short: fires when a new input is added
+
+@signature: inputCreated: (id: string, input: HTMLInputElement) => any;
+
+<!-- todo void inputCreated(string id,HTMLElement el){ ... }; - в страрой доке void возвращало -->
 
 @params:
 - id 		string			the ID of a new input

@@ -3,15 +3,15 @@ sidebar_label: inputFocus
 title: inputFocus
 ---          
 
-@short:
-fires when a control is focused
+@short: fires when a control is focused
+
+@signature: inputFocus: (id: string) => any;
 
 @params:
 - id		string			the ID of a new control
 
-
 @example:
-toolbar.events.on("InputFocus", function(id){
+toolbar.events.on("inputFocus", function(id){
     console.log(id);
 });
 

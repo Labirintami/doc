@@ -5,11 +5,10 @@ title: hide
 
 @short: hides an item of Toolbar
 
+@signature:  hide(ids: string | string[]): void;
 
 @params:
 - ids 		string,array	one ID or an array of IDs of items
-
-
 
 @example:
 toolbar.hide("save_btn");

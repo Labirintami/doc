@@ -5,11 +5,10 @@ title: unselect
 
 @short: unselects a selected Toolbar item
 
+@signature: unselect(id?: string): void;
 
 @params:
 - id	string  optional, the id of a Toolbar item
-
-
 
 @example:
 // unselects all previously selected items

@@ -5,13 +5,13 @@ title: isSelected
 
 @short: checks whether a specified Toolbar item is selected
 
+@signature: isSelected(id: string): boolean;
 
 @params:
 - id	string  the id of a Toolbar item
 
 @returns:
 - param	boolean     true, if an item of Toolbar is selected, otherwise false
-
 
 @example:
 toolbar.isSelected("web"); // -> returns true/false

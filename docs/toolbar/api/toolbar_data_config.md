@@ -3,13 +3,9 @@ sidebar_label: data
 title: data
 ---          
 
-@short: 
-specifies an array of data objects to set into Toolbar
+@short: specifies an array of data objects to set into Toolbar
 
-
-
-
-@type: array
+@signature: data?: array;
 
 @example: 
 const toolbar = new dhx.Toolbar("toolbar", {

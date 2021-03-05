@@ -5,11 +5,10 @@ title: enable
 
 @short: enables a disabled item(s) of Toolbar
 
+@signature: enable(ids: string | string[]): void;
 
 @params:
 - ids 		string,array		one ID or an array of IDs of items
-
-
 
 @example:
 toolbar.enable("save_btn");
