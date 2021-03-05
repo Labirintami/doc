@@ -7,7 +7,7 @@ title: Button
 
 This is a simple button that can have an icon. Button can be *twoState* and can have a badge with a number, which can be useful for displaying the number of new messages, etc.
 
-<img src="ribbon/ribbon_button.png" alt="DHTMLX Button"/>
+![](../assets/ribbon/ribbon_button.png)
 
 {{editor	https://snippet.dhtmlx.com/nlviu82g	Ribbon. Group Buttons}}
 

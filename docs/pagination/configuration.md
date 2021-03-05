@@ -6,7 +6,7 @@ title: Configuration
 Input width
 ---------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="pagination/combo_width.png" alt="input_width"/>
+![](../assets/pagination/combo_width.png)
 
 By default, the input of a pagination takes the auto-width that fits its maximum content. You can change the input width and set any other value via the [inputWidth](pagination/api/pagination_inputwidth_config) property, for example:
 
@@ -36,7 +36,7 @@ The default value of the attribute is 0.
 Number of items per page
 -------------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="pagination/page_size.png" alt="page_size"/>
+![](../assets/pagination/page_size.png)
 
 You can define the number of items that should be displayed per page of the related widget with the help of the [pageSize](pagination/api/pagination_pagesize_config) configuration property. The default value is 10. This is how you can change the default settings:
 

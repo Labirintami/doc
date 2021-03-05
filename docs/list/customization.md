@@ -6,7 +6,7 @@ title: Customization
 Styling 
 ----------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="list/custom_style.png" alt="custom_style"/>
+![](../assets/list/custom_style.png)
 
 There is a possibility to make changes in the look and feel of a list. For this you need to take the following steps:
 
@@ -39,7 +39,7 @@ Styling items
 
 You can style particular cells in the list. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="list/custom_css.png" alt="custom_css"/>
+![](../assets/list/custom_css.png)
 
 For example, apply some color to each even item, as in:
 

@@ -4,7 +4,6 @@ title: Customization
 ---          
 
 
-
 You can customize the look and feel of the header and footer of Window together with their functionality.
 
 Default and custom icons
@@ -40,8 +39,7 @@ You can work with controls in the header/footer of a window in the same way as w
 
 Besides initial controls, you can add other controls into the header/footer on the fly. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="window/custom_buttons.png" alt=""/>
-
+![](../assets/window/custom_buttons.png)
 
 For this, you should apply the data_collection/api/add.md method of Data Collection. It takes the parameters below:
 
@@ -102,7 +100,7 @@ Styling
 
 There is a possibility to make changes in the look and feel of a window. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="window/custom_style.png" alt=""/>
+![](../assets/window/custom_style.png)
 
 {{editor	https://snippet.dhtmlx.com/t5mvhwx8	Window. Custom Styles}}
 

@@ -5,7 +5,7 @@ title: Button
 
 This is a simple button that can have an icon. Button can have two states and a badge with a number, which can be useful for displaying the number of new messages, etc.
 
-<img src="toolbar/buttons.png" alt=""/>
+![](../assets/toolbar/buttons.png)
 
 {{editor	https://snippet.dhtmlx.com/7aysw3gb	Toolbar. Buttons}}
 

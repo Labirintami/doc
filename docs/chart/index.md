@@ -7,8 +7,7 @@ dhtmlxChart is a great tool for creating powerful charts for web applications. I
 both 2D and 3D presentation, different variants of data loading, and a whole kit of configuration settings for all elements of a chart interface. 
 Check [online samples for dhtmlxChart](https://docs.dhtmlx.com/suite/samples/chart/). 
 
-<br/>
-<img style="margin: 20px auto; display: block;" src="chart/line_overview.png" alt="" /><br/>
+![](../assets/chart/line_overview.png)
 
 <div class="h2">API reference</div>
 

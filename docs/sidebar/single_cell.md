@@ -10,7 +10,7 @@ By default, each item on a sidebar (on the left side) has a cell linked to it (o
 Single cell mode implies that all items on the left are linked to a common cell on the right. 
 It means, no matter what item is selected on the left, only one existing cell is always visible on the right.
 
-<img src="sidebar/sidebar_singlecell_web.png">
+![](../assets/sidebar/sidebar_singlecell_web.png)
 
 To activate this mode, use the *single_cell* property with the *true* value.
 

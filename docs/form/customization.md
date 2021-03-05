@@ -38,7 +38,7 @@ var form = new dhx.Form({
 Styling Form controls
 ----------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="form/custom_styles.png">
+![](../assets/form/custom_styles.png)
 
 You can modify styling of Form controls as well using the **css** option inside the object of a [related control](form/controls_list.md).
 

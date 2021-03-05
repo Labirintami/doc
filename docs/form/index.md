@@ -8,7 +8,7 @@ title: Form
 dhtmlxForm is a typical form widget that can contain a number of adjustable and easy-to-use controls, supports data validation and localization of labels.
 Check [online samples for dhtmlxForm](https://docs.dhtmlx.com/suite/samples/form/). 
 
-<img style="margin: 20px auto 20px auto;display: block;" src="form/form_front.png" alt=""/>
+![](../assets/form/form_front.png)
 
 <div class="h2">API reference</div>
 

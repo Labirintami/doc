@@ -40,7 +40,7 @@ Then you can use the name of the icon as the value of the **icon** property in t
 ]
 ~~~
 
-<img src="menu/custom_icons.png" alt=""/>
+![](../assets/menu/custom_icons.png)
 
 {{editor	https://snippet.dhtmlx.com/nkmz6ilv	Menu. Custom Icons}}
 

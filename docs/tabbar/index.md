@@ -9,10 +9,7 @@ dhtmlxTabbar component allows a user to keep several groups of content together 
 Being highly configurable, the component can be easily adjusted to your requirements and will provide quick switching between parts of your app. 
 Check [online samples for dhtmlxTabbar](https://docs.dhtmlx.com/suite/samples/tabbar/).
 
-<br/>
-
-<p align="center"><img src="tabbar/tabbar_front.png" alt=""/></p>
-
+![](../assets/tabbar/tabbar_front.png)
 
 <div class="h2">API reference</div>
 

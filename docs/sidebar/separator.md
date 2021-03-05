@@ -6,7 +6,7 @@ title: Separator
 
 This is a line separating items/groups of items from each other.
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="sidebar/separator.png" alt=""/>
+![](../assets/sidebar/separator.png)
 
 ## Adding Separator
 

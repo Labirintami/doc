@@ -9,9 +9,7 @@ dhtmlxGrid is a flexible, smart, and easy-to-use JavaScript component which allo
 built-in filtering, and other useful features. dhtmlxGrid provides great possibilities for customizing its look and feel. Complete JavaScript API is provided to help users save time on configuring.
 Check [online samples for dhtmlxGrid](https://docs.dhtmlx.com/suite/samples/grid/).  
 
-<img style="margin: 20px auto 20px auto;display: block;" src='grid/grid_front.png' alt=""/>
-
-<br/>
+![](../assets/grid/grid_front.png)
 
 <div class="h2">API Reference</div>
 

@@ -8,7 +8,7 @@ Styling
 
 There is a possibility to make changes in the look and feel of a timepicker. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="timepicker/custom_style.png" alt=""/>
+![](../assets/timepicker/custom_style.png)
 
 {{editor	https://snippet.dhtmlx.com/n4xfu4e9	Timepicker. Custom Style}}
 

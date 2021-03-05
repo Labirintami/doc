@@ -8,8 +8,7 @@ title: Layout
 dhtmlxLayout component lets you specify the main scheme of your application or web page, as it defines the arrangement of blocks with content. Layout helps blend diverse types of data representation on one page.<br/>
 Check [online samples for dhtmlxLayout](https://docs.dhtmlx.com/suite/samples/layout/).
 
-<img style="margin: 20px auto 50px auto; display: block;" src="layout/layout.png" alt=""/>
-
+![](../assets/layout/layout.png)
 
 <div class="h2">API reference</div>
 

@@ -14,7 +14,7 @@ var combo = new dhx.Combobox("combo_container",{
 });
 ~~~
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="combo/disabled.png" alt=""/>
+![](../assets/combo/disabled.png)
 
 {{editor    https://snippet.dhtmlx.com/ductsm0f	Combobox. Disabled}}
 
@@ -35,7 +35,7 @@ var combo = new dhx.Combobox("combo_container",{
 Height of list of options and its items
 ----------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="combo/height.png" alt=""/>
+![](../assets/combo/height.png)
 
 {{editor    https://snippet.dhtmlx.com/vilg4l7w	Combobox. List Height}}
 
@@ -107,7 +107,7 @@ var combo = new dhx.Combobox("combo_container",{
 });
 ~~~
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="combo/label_left.png" alt=""/>
+![](../assets/combo/label_left.png)
 
 or
 
@@ -119,14 +119,14 @@ var combo = new dhx.Combobox("combo_container",{
 });
 ~~~
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="combo/label_top.png" alt=""/>
+![](../assets/combo/label_top.png)
 
 {{editor    https://snippet.dhtmlx.com/2936fray	Combobox. Label Position}}
 
 Number of selected options
 --------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="combo/selected_item.png" alt=""/>
+![](../assets/combo/selected_item.png)
 
 {{editor    https://snippet.dhtmlx.com/fw2u2bww	Combobox. Items Count}}
 
@@ -162,7 +162,7 @@ var combo = new dhx.Combobox("combo_container", {
 Placeholder 
 -------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="combo/placeholder.png" alt=""/>
+![](../assets/combo/placeholder.png)
 
 {{editor    https://snippet.dhtmlx.com/759z23gh	Combobox. Placeholder}}
 
@@ -177,7 +177,7 @@ var combobox = new dhx.Combobox("combo_container",{
 Readonly mode
 ----------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="combo/readonly.png" alt=""/>
+![](../assets/combo/readonly.png)
 
 {{editor    https://snippet.dhtmlx.com/igjsuf7y	Combobox. Readonly}}
 
@@ -221,7 +221,7 @@ var combo = new dhx.Combobox("combo_container", {
 Template for ComboBox options
 --------------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="combo/combo_template.png" alt=""/>
+![](../assets/combo/combo_template.png)
 
 {{editor    https://snippet.dhtmlx.com/z7cpj76i	Combobox. Template}}
 

@@ -95,10 +95,9 @@ var date = calendar.getValue(); // ->  ["03/06/19", "19/06/19"]
 You can create two calendars and link them to provide the ability of selecting a date range. The first calendar will be used for setting the start date of the range, while the end date of the range will be specified in the
 second calendar. 
 
-```todo
-<!-- <img style="margin: 0px 0px 0px 20px; display: block;" src="" alt="Range of date"> -->
-<!-- ![Docusaurus Slash Introduction](calendar/date_range.png) todo -->
-```todo
+``` todo
+![](../assets/calendar/date_range.png)
+``` todo
 
 Use the calendar/api/calendar_link_method.md method and pass as a parameter the object of the second calendar to link the first calendar to.
 In the example below the [Change](calendar/api/calendar_change_event.md) event is intended to output the start and end dates of the selected range:
@@ -163,7 +162,7 @@ In case a date has been successfully added into the calendar, the method will re
 
 You can add tooltips for dates and show them on the calendar/api/calendar_datemouseover_event.md event. For example, you can add tooltips to mark some special days:
 
-<p align="center"><img src="calendar/tooltips.png" alt="Calendar with tooltips"></p>   
+![](../assets/calendar/tooltips.png)
 
 ~~~js
 var special_days = {

@@ -5,7 +5,7 @@ title: NavItem
 
 This is a default control for navigation-related components, can contain any other controls as nested items. 
 
-<img src="toolbar/navitem.png" alt=""/>
+![](../assets/toolbar/navitem.png)
 
 {{editor	https://snippet.dhtmlx.com/os48cj6x	Toolbar. Nav Item}}
 

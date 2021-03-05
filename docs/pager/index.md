@@ -10,9 +10,7 @@ The Pager component is available in the **PRO** version only.
 dhtmlxPager helps to divide large amount of data into groups and display them on discrete pages. 
 The component is easy-to-use and provides handy navigation that allows you to quickly jump to a desired page. dhtmlxPager is available in combination with data components like DataView, List, Grid, Tree, Treegrid. Check [online samples for dhtmlxPager](https://docs.dhtmlx.com/suite/samples/pager/).
 
-<img style="margin: 20px auto 20px auto;display: block;" src='pager/init.png'/>
-
-<br/>
+![](../assets/pager/init.png)
 
 <div class="h2">API Reference</div>
 

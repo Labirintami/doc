@@ -13,8 +13,7 @@ The TreeGrid component is available in the **PRO** version only.
 dhtmlxTreeGrid is a special extension for [dhtmlxGrid](grid/index.md). This component allows showing the nested tabular data. Being a successor of Grid, TreeGrid inherits its API and common techniques of initialization and
 usage. <br/> Check [online samples for dhtmlxTreeGrid](https://docs.dhtmlx.com/suite/samples/treegrid/).
 
-
-<img style="margin: 20px auto 20px auto;display: block;" src='treegrid/treegrid_front.png'/>
+![](../assets/treegrid/treegrid_front.png)
 
 <br/>
 

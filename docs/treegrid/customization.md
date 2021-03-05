@@ -3,14 +3,12 @@ sidebar_label: Customization
 title: Customization
 ---          
 
-
-
 Styling TreeGrid
 ----------------
 
 There is a possibility to make changes in the look and feel of a treegrid. 
 
-<img  src="treegrid/custom_style.png"  alt=""/>
+![](../assets/treegrid/custom_style.png)
 
 {{editor	https://snippet.dhtmlx.com/cpvir0od	TreeGrid. Styling Grid}}
 
@@ -41,7 +39,7 @@ var treegrid = new dhx.TreeGrid("treegrid_container", {
 Styling header cells
 -------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="treegrid/styling_header.png" alt=""/>
+![](../assets/treegrid/styling_header.png)
 
 {{editor	https://snippet.dhtmlx.com/vf0ws454	TreeGrid. Styling Header Cells}}
 
@@ -65,7 +63,7 @@ var treegrid = new dhx.TreeGrid("treegrid_container", {
 Styling footer cells
 -------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="treegrid/styling_footer.png" alt=""/>
+![](../assets/treegrid/styling_footer.png)
 
 {{editor	https://snippet.dhtmlx.com/wi39d42e	TreeGrid. Styling Footer Cells}}
 
@@ -107,7 +105,7 @@ Styling rows
 
 It is possible to change the appearance of treegrid rows by applying custom CSS styles to them. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="treegrid/row_css.png" alt=""/>
+![](../assets/treegrid/row_css.png)
 
 {{editor	https://snippet.dhtmlx.com/3ojyoryn	TreeGrid. Custom Row Style}}
 
@@ -168,7 +166,7 @@ where:
 Styling cells
 ----------------
 
-<img  src="treegrid/cell_css.png" alt=""/>
+![](../assets/treegrid/cell_css.png)
 
 {{editor	https://snippet.dhtmlx.com/smjecfzp	TreeGrid. Add cell css}}
 
@@ -209,7 +207,7 @@ treegrid.addCellCss(rowId, "name", "myCustomClass");
 Adding custom marks to cells
 -------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="treegrid/mark_cell.png" alt=""/>
+![](../assets/treegrid/mark_cell.png)
 
 {{editor	https://snippet.dhtmlx.com/14jkc5s3	TreeGrid. Custom Mark Cells}}
 
@@ -329,14 +327,14 @@ var grid = new dhx.Grid("grid", {
 });
 ~~~
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="treegrid/min_max_mark.png" alt=""/>
+![](../assets/treegrid/min_max_mark.png)
 
 {{editor	https://snippet.dhtmlx.com/um9mjrs5	TreeGrid. Mark Cells}}
 
 Adding template to cells
 -----------------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="treegrid/cell_templates.png" alt=""/>
+![](../assets/treegrid/cell_templates.png)
 
 It is possible to customize the content of cells of TreeGrid via the **template** property of a [column configuration](treegrid/configuration.md#columns). The template option is a function that takes three parameters:
 

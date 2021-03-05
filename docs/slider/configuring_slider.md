@@ -19,7 +19,7 @@ Inverse mode
 
 You can adjust the configuration of Slider so that its scale would render values in the reverse order, i.e. from the maximal value to the minimal one.
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="slider/inverse_mode.png" alt=""/>
+![](../assets/slider/inverse_mode.png)
 
 To launch this mode, make use of the slider/api/slider_inverse_config.md property set to *true*:
 
@@ -80,8 +80,7 @@ You can configure the look and feel of the Slider scale via the corresponding pr
 }}
 
 
-
-<img style="margin: 0px 0px 0px 20px; display: block;" src="slider/scale.png" alt=""/>
+![](../assets/slider/scale.png)
 
 ~~~js
 var slider = new dhx.Slider("slider_container", { 
@@ -104,7 +103,7 @@ In case you want to mark just the minimal and maximal values with ticks, you nee
 - set the value of the slider/api/slider_tick_config.md property equal to the value of the slider/api/slider_max_config.md property
 - set the slider/api/slider_majortick_config.md property to 1
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="slider/min_max_ticks_only.png" alt=""/>
+![](../assets/slider/min_max_ticks_only.png)
 
 ~~~js
 var slider = new dhx.Slider("slider", { 
@@ -117,7 +116,7 @@ Slider label
 
 There is a possibility to show a label next to the slider. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="slider/slider_label.png" alt=""/>
+![](../assets/slider/slider_label.png)
 
 There are two properties that allow manipulating the label of the slider: 
 
@@ -152,7 +151,7 @@ Tooltip
 
 You can specify a tooltip that will display changeable values of the slider when the user moves the slider's thumb. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="slider/tooltip.png" alt=""/>
+![](../assets/slider/tooltip.png)
 
 There is the slider/api/slider_tooltip_config.md property that enables rendering the slider value over the thumb:
 

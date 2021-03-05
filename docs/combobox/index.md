@@ -9,7 +9,7 @@ dhtmlxComboBox is an advanced select box that provides the ability to show sugge
 displaying options in the list. Among other nice features there are tuning of the list of options and Combo Box input, selection of multiple options and data loading on request.
 Check [online samples for dhtmlxComboBox](https://docs.dhtmlx.com/suite/samples/combobox/).
 
-<p align="center"><img style="padding-top:20px;" src="combo/combo_front.png" alt=""/></p>
+![](../assets/combo/combo_front.png)
 
 <div class="h2">API reference</div>
 

@@ -8,7 +8,7 @@ title: Configuration
 Arrow keys navigation
 --------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="dataview/arrow_navigation.png" alt=""/>
+![](../assets/dataview/arrow_navigation.png)
 
 {{editor    https://snippet.dhtmlx.com/u7mgoly9	Dataview. Arrow Navigation}}
 
@@ -99,7 +99,7 @@ var target = new dhx.DataView("dataview-target", {dragMode: "target", dragCopy: 
 Editing items
 ----------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="dataview/editable.png" alt=""/>
+![](../assets/dataview/editable.png)
 
 {{editor    https://snippet.dhtmlx.com/m8fbqcza	Dataview. Editable Dataview}}
 
@@ -112,7 +112,7 @@ var dataview = new dhx.DataView("dataview_container", {editable:true});
 Height of an item
 ----------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="dataview/item_height.png" alt=""/>
+![](../assets/dataview/item_height.png)
 
 {{editor    https://snippet.dhtmlx.com/cth9mwrf	Dataview. Setup Dataview Item Height}}
 
@@ -139,7 +139,7 @@ var dataview = new dhx.DataView("dataview", {
 Height of the Dataview
 ---------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="dataview/dataview_height.png" alt=""/>
+![](../assets/dataview/dataview_height.png)
 
 {{editor    https://snippet.dhtmlx.com/g1k2l4q0	Dataview. Setup Dataview Height}}
 
@@ -160,7 +160,7 @@ var dataview = new dhx.DataView("dataview", {height: "400px"});
 Margins around DataView items
 -----------------------
 
-<img src="dataview/gap.png" alt=""/>
+![](../assets/dataview/gap.png)
 
 {{editor    https://snippet.dhtmlx.com/ozsuww1q	Dataview. Configure Gap Size}}
 
@@ -174,7 +174,7 @@ var dataview = new dhx.DataView("dataview", {itemsInRow: 4, gap: 20});
 Multiple selection of items
 ---------------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="dataview/multiselection.png" alt=""/>
+![](../assets/dataview/multiselection.png)
 
 By default, you can select only one item in a dataview, since selection of another item resets selection of the previous one. To enable the possbility to select several DataView items, make use of the 
 dataview/api/dataview_multiselection_config.md configuration option:
@@ -199,7 +199,7 @@ var dataview = new dhx.DataView("dataview", {
 Number of items in a row
 -----------------------
 
-<img src="dataview/items_in_row.png">
+![](../assets/dataview/items_in_row.png)
 
 {{editor    https://snippet.dhtmlx.com/de4r8km3	Dataview. Amount Items In A Row}}
 
@@ -212,7 +212,7 @@ var dataview = new dhx.DataView("dataview", {itemsInRow: 5});
 Selection of items
 ---------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="dataview/disable_selection.png" alt=""/>
+![](../assets/dataview/disable_selection.png)
 
 {{sample dataview/02_configuration/10_not_selectable.html}}
 
@@ -227,7 +227,7 @@ var dataview = new dhx.DataView("dataview", {
 Template for DataView items
 -------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="dataview/template.png" alt=""/>
+![](../assets/ataview/template.png)
 
 {{editor    https://snippet.dhtmlx.com/d6l6grr7	Dataview. Render Template}}
 

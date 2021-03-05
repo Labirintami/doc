@@ -5,7 +5,7 @@ title: Custom HTML
 
 This is an item that contains any custom HTML content (for example, an image, icon or other element).
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="ribbon/custom_html.png" alt="Ribbon Custom HTML"/>
+![](../assets/ribbon/custom_html.png)
 
 {{editor	https://snippet.dhtmlx.com/c0i0q3cu	Ribbon. Custom HTML}}
 

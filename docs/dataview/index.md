@@ -7,11 +7,10 @@ dhtmlxDataView allows rendering a collection of objects according to a specified
 This component is especially useful, if you're creating an online store or an image gallery, or just want to display a number of similar objects on a page.
 Check [online samples for dhtmlxDataView](https://docs.dhtmlx.com/suite/samples/dataview/). 
 
-<img style="margin: 20px auto; display: block;" src="dataview/dataview_front.png" alt=""/>
-
+![](../assets/dataview/dataview_front.png)
 
 <div class="h2">API reference</div>
-
+s
 - dataview/api/refs/dataview.md
 
 

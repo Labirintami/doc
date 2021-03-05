@@ -9,7 +9,7 @@ Styling Layout cells
 
 There is a possibility to make changes in the look and feel of a layout by styling its cells. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="layout/custom_css.png" alt=""/>
+![](../assets/layout/custom_css.png)
 
 For this you need to take the following steps:
 

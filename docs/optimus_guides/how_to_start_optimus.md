@@ -167,7 +167,7 @@ npm start
 
 Open *http://localhost:8080/* in your browser. The result should be like this:
 
-<img src="optimus/start_optimus.png"/>
+![](../assets/optimus/start_optimus.png)
 
 
 

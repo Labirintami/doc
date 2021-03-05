@@ -664,7 +664,7 @@ var treegrid = new dhx.TreeGrid("treegrid", {
 
 - by specifying the HTML content of a separate column
 
-<div style="text-align:center;"><img src="treegrid/html_content.png" alt=""/></div>
+![](../assets/treegrid/html_content.png)
 
 If you want to add custom elements into cells of the specified column, you need to set the **htmlEnable:true** property in the configuration of a column:
 

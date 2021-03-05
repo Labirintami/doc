@@ -7,7 +7,7 @@ title: Range Mode
 
 The range mode of slider presupposes the usage of two thumbs for selecting the starting and ending values of a range. 
 
-<img style="margin: 20px auto; display: block;" src="slider/range_mode.png" alt=""/>
+![](../assets/slider/range_mode.png)
 
 To enable the range mode, you need to set the slider/api/slider_range_config.md property to *true* and specify an array of two values - min and max values of the range:
 

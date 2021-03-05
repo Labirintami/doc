@@ -7,7 +7,7 @@ title: Input
 
 This is an input field for entering some text. 
 
-<img src="toolbar/input.png" alt=""/>
+![](../assets/toolbar/input.png)
 
 {{editor	https://snippet.dhtmlx.com/ykd0uii1	Toolbar. Input}}
 

@@ -8,7 +8,7 @@ Styling
 
 There is a possibility to make changes in the look and feel of a tree. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="tree/custom_style.png" alt=""/>
+![](../assets/tree/custom_style.png)
 
 {{editor	https://snippet.dhtmlx.com/ocv4p7zg	Tree. Custom Styles}}
 
@@ -61,7 +61,7 @@ var tree = new dhx.Tree("tree_container", {
 Changing icons 
 ----------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="tree/custom_icons.png" alt=""/>
+![](../assets/tree/custom_icons.png)
 
 {{editor	https://snippet.dhtmlx.com/lpsgn3j7	Tree. Custom Icons}}
 

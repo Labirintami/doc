@@ -97,7 +97,7 @@ The tables below demonstrate using the possible values for the **align** propert
 Grouping Controls in Form
 -------------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="form/blocks.png">
+![](../assets/form/blocks.png)
 
 {{editor	https://snippet.dhtmlx.com/1pzybtja	Form. Blocks}}
 
@@ -136,7 +136,7 @@ var form = new dhx.Form("form_container", {
 Making Form disabled
 ---------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="form/disabled.png">
+![](../assets/form/disabled.png)
 
 {{editor	https://snippet.dhtmlx.com/7qjwg2sw	Form. Disabled}}
 

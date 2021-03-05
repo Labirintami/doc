@@ -49,8 +49,8 @@ var sidebarData = [
     }
 ];
 ~~~
-<br/>
-<img src="sidebar/fa_icons.png" alt=""/>
+
+![](../assets/sidebar/fa_icons.png)
 
 {{note You can use the [Material Design](https://materialdesignicons.com/) icon pack by including [link to its CDN](https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/2.5.94/css/materialdesignicons.css) in the same way.}}
 
@@ -60,7 +60,7 @@ Styling
 
 There is a possibility to make changes in the look and feel of a sidebar. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="sidebar/custom_style.png" alt=""/>
+![](../assets/sidebar/custom_style.png)
 
 For this you need to take the following steps:
 

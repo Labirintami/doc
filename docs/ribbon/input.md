@@ -5,7 +5,7 @@ title: Input
 
 A text input field with an icon.
 
-<img src="ribbon/input.png" alt="Input"/>
+![](../assets/ribbon/input.png)
 
 ## Adding Input
 

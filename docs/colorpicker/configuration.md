@@ -23,7 +23,7 @@ var palette = [
 ];
 ~~~
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="colorpicker/default_palette.png" alt=""/>
+![](../assets/colorpicker/default_palette.png)
 
 {{editor    https://snippet.dhtmlx.com/ezk8rk4m	Colorpicker. Basic Initialization}}
 
@@ -44,7 +44,7 @@ var colorpicker = new dhx.Colorpicker("colorpicker_container", {
 });
 ~~~
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="colorpicker/custom_palette.png" alt=""/>
+![](../assets/colorpicker/custom_palette.png)
 
 {{editor    https://snippet.dhtmlx.com/j5gisdew	Colorpicker. Custom Palette Colors}}
 
@@ -54,7 +54,7 @@ Gray shades
 
 The default configuration of the ColorPicker palette includes a section with gray shades, which is shown at the top of palette. There is a possibility to hide this section showing just main colors: default or custom.
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="colorpicker/no_shades_palette.png" alt=""/>
+![](../assets/colorpicker/no_shades_palette.png)
 
 {{editor    https://snippet.dhtmlx.com/b44fp8q2	Colorpicker. Palette Without Gray Shades}}
 
@@ -69,7 +69,7 @@ var colorpicker = new dhx.Colorpicker("colorpicker_container",{
 List of custom colors
 ---------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="colorpicker/custom_colors.png" alt=""/>
+![](../assets/colorpicker/custom_colors.png)
 
 {{editor    https://snippet.dhtmlx.com/zf88vxd1	Colorpicker. Custom Colors}}
 
@@ -96,7 +96,7 @@ var colorpicker = new dhx.Colorpicker("colorpicker_container",{
 
 In this mode the palette is not available and only the picker is displayed.
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="colorpicker/picker_only.png" alt=""/>
+![](../assets/colorpicker/picker_only.png)
 
 {{editor    https://snippet.dhtmlx.com/5zlvvwpl	Colorpicker. Picker Only}}
 
@@ -108,7 +108,7 @@ var colorpicker = new dhx.Colorpicker("colorpicker_container",{
 });
 ~~~
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="colorpicker/palette_only.png" alt=""/>
+![](../assets/colorpicker/palette_only.png)
 
 {{note Note that in the **paletteOnly** mode the palette is displayed without the panel with custom (user-defined) colors.}}
 

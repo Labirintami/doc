@@ -8,8 +8,7 @@ title: Sidebar
 dhtmlxSidebar is a component that provides means for comfy vertical navigation. Sidebar can contain any Toolbar controls that can be controlled via a handy API.
 Check [online samples for dhtmlxSidebar](https://docs.dhtmlx.com/suite/samples/sidebar/).  
 
-<p align="center"><img src="sidebar/sidebar_front.png" alt="DHTMLX Sidebar"/></p>
-
+![](../assets/sidebar/sidebar_front.png)
 
 <div class="h2">API reference</div>
 

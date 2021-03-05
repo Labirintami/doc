@@ -8,7 +8,7 @@ There is a possibility to make changes in the look and feel of a message box or 
 Using new CSS classes
 ----------------------------------------
 
-<img style="margin: 0px 0px 0px 10px; display: block;" src="message/custom_style.png" alt=""/>
+![](../assets/message/custom_style.png)
 
 To use a new CSS class you need to take the following steps:
 

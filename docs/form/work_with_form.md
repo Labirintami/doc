@@ -338,7 +338,7 @@ form.clear();
 Setting focus to a control
 ------------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="form/set_focus.png">
+![](../assets/form/set_focus.png)
 
 Starting from v7.0, you can set focus to a Form control via the [setFocus()](form/api/form_setfocus_method.md) method. It takes either the name of the control or its id (if the name attribute is not defined in the config of the control) as a parameter:
 

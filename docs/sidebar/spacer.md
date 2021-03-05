@@ -6,7 +6,8 @@ title: Spacer
 
 This item takes space on the sidebar and is used for aligning controls.
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="sidebar/spacer.png" alt=""/>
+![](../assets/sidebar/spacer.png)
+
 ## Adding Spacer
 
 A new Spacer can be created with the help of the **add()** method of Tree Collection:

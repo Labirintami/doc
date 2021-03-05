@@ -8,7 +8,7 @@ Styling chart
 
 There is a possibility to make changes in the look and feel of a chart.
 
-<img style="margin: 0px 0px 0px 10px; display: block;" src="chart/custom_style.png" alt=""/>
+![](../assets/chart/custom_style.png)
 
 {{editor	https://snippet.dhtmlx.com/p82iew5s	Chart. Custom Styling}}
 
@@ -81,7 +81,7 @@ const chart = new dhx.Chart("chart", {
 Adding template to scale labels
 -------------------------------
 
-<img style="margin: 0px 0px 0px 10px; display: block;" src="chart/text_template.png" alt=""/>
+![](../assets/chart/text_template.png)
 
 {{editor	https://snippet.dhtmlx.com/nhm3438n	Chart. Text Template For Scale Labels}}
 
@@ -114,7 +114,7 @@ const chart = new dhx.Chart("chart", {
 Adding color gradient for bars
 --------------------------------
 
-<img style="margin: 0px 0px 0px 10px; display: block;" src="chart/bar_gradient.png" alt=""/>
+![](../assets/chart/bar_gradient.png)
 
 {{editor	https://snippet.dhtmlx.com/j3duyn2q	Chart. Bar Gradient}}
 
@@ -160,7 +160,7 @@ const chart = new dhx.Chart("chart", {
 Adding template to tooltips
 ---------------------------
 
-<img style="margin: 0px 0px 0px 10px; display: block;" src="chart/show_tooltip.png" alt=""/>
+![](../assets/chart/show_tooltip.png)
 
 {{editor	https://snippet.dhtmlx.com/mbz7dkku	Chart. Tooltip Template}}
 
@@ -201,7 +201,7 @@ const chart = new dhx.Chart("chart", {
 Adding template to text values of data items in bars
 ----------------------------
 
-<img style="margin: 0px 0px 0px 10px; display: block;" src="chart/show_text.png" alt=""/>
+![](../assets/chart/show_text.png)
 
 {{editor	https://snippet.dhtmlx.com/o7ke2f1s	Chart. Show Text}}
 

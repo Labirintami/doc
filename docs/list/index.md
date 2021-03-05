@@ -8,7 +8,7 @@ title: List
 dhtmlxList is a client-side JavaScript component that displays a collection of objects in a list according to a user-defined template.
 It allows you to arrange multiple objects with similar properties within a single container and make your data organized. Check [online samples for dhtmlxList](https://docs.dhtmlx.com/suite/samples/list/). 
 
-<img style="margin: 20px auto; display: block;" src="list/list_front.png" alt=""/>
+![](../assets/list/list_front.png)
 
 <div class="h2">API reference</div>
 

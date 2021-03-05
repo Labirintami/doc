@@ -9,14 +9,13 @@ dhtmlxTree is a nice JavaScript tree component intended for making intuitive hie
 The component provides smart drag-and-drop, dynamic rendering of items, handy key navigation, customizable appearance, and other useful features. 
 Check [online samples for dhtmlxTree](https://docs.dhtmlx.com/suite/samples/tree/). 
 
-
-<img style="margin: 20px auto; display: block;" src="tree/tree_front.png" alt=""/>
+![](../assets/tree/tree_front.png)
 
 <div class="h2">API Reference</div>
 
 - tree/api/refs/tree.md
 
-
+s
 <div class="h2">Related resources</div>
 
 - To get just dhtmlxTree, download it from [our website](https://dhtmlx.com/docs/products/dhtmlxTree/download.shtml)

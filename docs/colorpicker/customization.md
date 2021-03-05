@@ -8,7 +8,7 @@ Styling
 
 There is a possibility to make changes in the look and feel of a colorpicker. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="colorpicker/colorpicker_css.png" alt=""/>
+![](../assets/colorpicker/colorpicker_css.png)
 
 {{editor    https://snippet.dhtmlx.com/mnwi3sp0	Colorpicker. Custom CSS}}
 

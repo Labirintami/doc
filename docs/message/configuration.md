@@ -10,7 +10,7 @@ In this article you will find the detailed list of properties that you can use i
 Message Box
 -----------------
 
-<img style="margin: 0px 0px 0px 10px; display: block;" src="message/show_message.png" alt=""/>
+![](../assets/message/show_message.png)
 
 {{editor	https://snippet.dhtmlx.com/rsxdlicg	Message. Show Message}}
 
@@ -64,7 +64,7 @@ dhx.message({
 Alert Box
 -------------
 
-<img style="margin: 0px 0px 0px 10px; display: block;" src="message/show_alert.png" alt=""/>
+![](../assets/message/show_alert.png)
 
 {{editor	https://snippet.dhtmlx.com/m4xka888	Message. Show Alert}}
 
@@ -113,7 +113,7 @@ dhx.alert({
 Confirm Box
 -------------
 
-<img style="margin: 0px 0px 0px 10px; display: block;" src="message/show_confirm.png" alt=""/>
+![](../assets/message/show_confirm.png)
 
 {{editor	https://snippet.dhtmlx.com/iss7twe6	Message. Show Confirm}}
 
@@ -182,7 +182,7 @@ dhx.confirm({
 Tooltip
 -----------------
 
-<img style="margin: 0px 0px 0px 10px; display: block;" src="message/show_tooltip.png" alt=""/>
+![](../assets/message/show_tooltip.png)
 
 {{editor	https://snippet.dhtmlx.com/c6jm8if6	Message. Show Tooltip}}
 

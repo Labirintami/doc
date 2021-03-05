@@ -22,7 +22,7 @@ after the source files of dhtmlxRibbon as follows:
 
 Then you can use the name of the icon as the value of the **icon** property in the [object with the control parameters](ribbon/loading_json.md#jsonformattemplates) for ribbon:
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="ribbon/fa_icons.png" alt=""/>
+![](../assets/ribbon/fa_icons.png)
 
 ~~~js
 var data = [
@@ -69,7 +69,7 @@ Styling
 
 There is a possibility to make changes in the look and feel of a ribbon. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="ribbon/custom_style.png" alt=""/>
+![](../assets/ribbon/custom_style.png)
 
 
 {{editor	https://snippet.dhtmlx.com/9ckg47ro	Ribbon. Custom Css}}

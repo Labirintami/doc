@@ -9,11 +9,8 @@ dhtmlxWindow allows working with several windows and their content at the same t
 such as moving/resizing a window, sending a window to the foreground/background, making a window modal, changing position and size of a window, setting content inside a window, etc.
 Check [online samples for dhtmlxWindow](https://docs.dhtmlx.com/suite/samples/window/).
 
-<br/>
+![](../assets/window/window_front.png)
 
-<p align="center"><img src="window/window_front.png" alt=""/></p>
-
-<br/>
 
 <div class="h2">API reference</div>
 

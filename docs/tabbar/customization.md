@@ -8,7 +8,7 @@ Styling Tabbar
 
 There is a possibility to make changes in the look and feel of a tabbar. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="tabbar/custom_style.png" alt=""/>
+![](../assets/tabbar/custom_style.png)
 
 For this you need to take the following steps:
 

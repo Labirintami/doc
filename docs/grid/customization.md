@@ -10,7 +10,7 @@ Styling grid
 
 There is a possibility to make changes in the look and feel of a grid. 
 
-<img style="margin: 0px 0px 0px 10px; display: block;" src="grid/styling_grid.png" alt=""/>
+![](../assets/grid/styling_grid.png)
 
 {{editor    https://snippet.dhtmlx.com/xs7bixmg	Grid. Styling Selection}}
 
@@ -44,7 +44,7 @@ var grid = new dhx.Grid({
 Styling header cells
 -------------------
 
-<img style="margin: 0px 0px 0px 10px; display: block;" src="grid/styling_header.png" alt=""/>
+![](../assets/grid/styling_header.png)
 
 You can easily set some styling to the text of header cells by applying some inline style or a CSS class to the **text** property of the header of a column:
 
@@ -116,7 +116,7 @@ var grid = new dhx.Grid("grid", {
 Styling rows
 ---------------
 
-<img style="margin: 0px 0px 0px 10px; display: block;" src="grid/rowcss.png" alt=""/>
+![](../assets/grid/rowcss.png)
 
 It is possible to change the appearance of grid rows by applying custom CSS styles to them. There are two ways to do it:
 
@@ -176,7 +176,7 @@ where:
 Styling cells
 ----------------
 
-<img style="margin: 0px 0px 0px 10px; display: block;" src="grid/cellcss.png" alt=""/>
+![](../assets/grid/cellcss.png)
 
 It is easy to style necessary cells using the **addCellCss()** method. It takes three parameters:
 
@@ -214,7 +214,7 @@ grid.addCellCss(rowId, "netChange", "myCustomClass");
 Adding custom marks to cells
 -------------------
 
-<img style="margin: 0px 0px 0px 5px; display: block;" src="grid/markcells.png" alt=""/>
+![](../assets/grid/markcells.png)
 
 You can mark particular cells in a grid using the **mark** property of a column configuration. You need to set its value as a function that takes the following parameters:
 
@@ -322,14 +322,14 @@ var grid = new dhx.Grid("grid", {
 });
 ~~~
 
-<img style="margin: 0px 0px 0px 5px; display: block;" src="grid/mark_cell.png" alt=""/>
+![](../assets/grid/mark_cell.png)
 
 {{editor    https://snippet.dhtmlx.com/buirf16n	Grid. Mark Cells}}
 
 Adding template to cells
 -----------------------------
 
-<img style="margin: 0px 0px 0px 5px; display: block;" src="grid/cell_templates.png" alt=""/>
+![](../assets/grid/cell_templates.png)
 
 It is possible to customize the content of cells of Grid via the **template** property of a [column configuration](grid/configuration.md#columns). The template option is a function that takes three parameters:
 

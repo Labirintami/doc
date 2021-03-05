@@ -32,7 +32,7 @@ var toolbarData = [
 ];
 ~~~
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="toolbar/fa_icons.png" alt=""/>
+![](../assets/toolbar/fa_icons.png)
 
 {{sample toolbar/04_customization/04_custom_icons.html}}
 
@@ -43,7 +43,7 @@ Styling
 
 There is a possibility to make changes in the look and feel of a toolbar. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="toolbar/custom_style.png" alt=""/>
+![](../assets/toolbar/custom_style.png)
 
 {{sample toolbar/04_customization/03_custom_css.html}}
 

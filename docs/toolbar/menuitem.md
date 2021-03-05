@@ -5,7 +5,7 @@ title: MenuItem
 
 MenuItem is a drop-down list of options, can contain its own sub-menu. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="toolbar/menuitem.png" alt=""/>
+![](../assets/toolbar/menuitem.png)
 
 Adding MenuItem
 ----------------

@@ -5,7 +5,7 @@ title: menuItem Control
 
 This is a dropdown menu.
 
-<img src="ribbon/select_button.png"/>
+![](../assets/ribbon/select_button.png)
 
 ## Adding menuItem
 

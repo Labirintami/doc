@@ -4,12 +4,10 @@ title: Ribbon
 ---          
 
 
-
 dhtmlxRibbon is an advanced version of dhtmlxToolbar. It aggregates commands and tools used in an application or in a website into logical blocks thus providing a handy navigation bar.<br/>
 Check [online samples for dhtmlxRibbon](https://docs.dhtmlx.com/suite/samples/ribbon/).
 
-
-<p align="center"><img src="ribbon/ribbon_front.png" alt=""/></p>
+![](../assets/ribbon/ribbon_front.png)
 
 <div class="h2">API reference</div>
 

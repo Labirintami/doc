@@ -6,7 +6,7 @@ title: Customization
 Custom filter for options
 -----------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="combo/custom_filter.png" alt=""/>
+![](../assets/combo/custom_filter.png)
 
 It is possible to set a custom filtering function for the options of ComboBox via the combo/api/combobox_filter_config.md option. A custom function takes two parameters:
 

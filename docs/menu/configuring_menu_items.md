@@ -14,8 +14,6 @@ MenuItem is a drop-down list of options.
 
 ![Menu Item](../assets/menu/menu_item.png)
 
-
-
 ### Adding menuItem
 
 You can add a MenuItem control into the menu with the help of the **add()** method of Tree Collection:
@@ -249,7 +247,7 @@ menu.disable(id);
 
 This is an item that contains any custom HTML content (for example, an image, icon or other element).
 
-<img src="menu/htmlcontent.png" alt=""/>
+![](../assets/menu/htmlcontent.png)
 
 ### Adding Custom HTML
 
@@ -304,8 +302,7 @@ Separator
 
 This is a horizontal (between menu options) or vertical (between menu items) line separating items/groups of items from each other.
 
-<img src="menu/separator.png" alt=""/>
-
+![](../assets/menu/separator.png)
 
 ### Adding Separator
 

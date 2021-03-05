@@ -215,7 +215,7 @@ Attaching a list
 
 dhtmlxPopup provides a handy way to present list-like structures inside it. 
 
-<img src="popup/list_integration.png"/>
+![](../assets/list_integration.png)
 
 To present data in the tabular view you should use the api/dhtmlxpopup_attachlist.md method as in:
 

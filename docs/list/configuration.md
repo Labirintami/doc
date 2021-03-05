@@ -86,7 +86,7 @@ var list = new dhx.List("list_container", {
 Editing items
 ----------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="list/editable.png" alt="editable"/>
+![](../assets/list/editable.png)
 
 {{editor	https://snippet.dhtmlx.com/f26lfcai	List. Editable List}}
 
@@ -100,7 +100,7 @@ var list = new dhx.List("list_container", {editable:true});
 Height of an item
 ----------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="list/item_height.png" alt="item_height"/>
+![](../assets/list/item_height.png)
 
 
 {{editor	https://snippet.dhtmlx.com/89buovn2	List. Setup List Item Height}}
@@ -131,7 +131,7 @@ When the [virtual](list/api/list_virtual_config.md) property is set to *true*, t
 Height of the List
 ---------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="list/list_height.png" alt="list_height"/>
+![](../assets/list/list_height.png)
 
 {{editor	https://snippet.dhtmlx.com/k2mj2sz7	List. Setup List Height}}
 
@@ -152,7 +152,7 @@ var list = new dhx.List("list", {height: "700px"});
 Multiple selection of items
 ---------------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="list/multiselection.png" alt="multiselection"/>
+![](../assets/list/multiselection.png)
 
 {{editor	https://snippet.dhtmlx.com/0sorkczm	List. List Multiselection}}
 
@@ -175,7 +175,7 @@ var list = new dhx.List("list", {
 Selection of items
 ---------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="list/disable_selection.png" alt="disable_selection"/>
+![](../assets/list/disable_selection.png)
 
 {{sample list/02_configuration/08_not_selectable.html}}
 
@@ -189,7 +189,7 @@ var list = new dhx.List("list_container", {selection: false});
 Template for List items
 -------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="list/list_template.png" alt="template"/>
+![](../assets/list/list_template.png)
 
 {{editor	https://snippet.dhtmlx.com/gtzdwpj4	List. Add Template To List Item}}
 

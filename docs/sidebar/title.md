@@ -5,8 +5,7 @@ title: Title
 
 This is an item that contains some text.
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="sidebar/title.png" alt=""/>
-
+![](../assets/sidebar/title.png)
 
 ## Adding Title control
 

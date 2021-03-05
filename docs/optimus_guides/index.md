@@ -163,7 +163,7 @@ npm start
 
 Open *http://localhost:8080/* in your browser. The result should be like this:
 
-<img src="optimus/start_optimus.png"/>
+![](../assets/optimus/start_optimus.png)
 
 For a complete immersion in the world of DHTMLX Optimus, you can follow our [step-by-step guide](**добавить ссылку**), which in just five steps will show you the principles of developing with DHTMLX Optimus at a professional level, which is suitable for both professionals and beginners in the world of JavaScript and DHTMLX.
 

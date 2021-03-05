@@ -3,11 +3,9 @@ sidebar_label: Separator
 title: Separator
 ---          
 
-
-
 This is a horizontal (between menu options) or vertical (between toolbar controls) line separating items/groups of items from each other.
 
-<img src="toolbar/separator.png" alt=""/>
+![](../assets/toolbar/separator.png)
 
 {{editor	https://snippet.dhtmlx.com/sguwr3m9	Toolbar. Separator}}
 

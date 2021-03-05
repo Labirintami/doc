@@ -5,7 +5,7 @@ title: Title
 
 This is an item that contains some text.
 
-<img src="toolbar/title.png" alt=""/>
+![](../assets/toolbar/title.png)
 
 {{editor	https://snippet.dhtmlx.com/dwynhb7o	Toolbar. Title}}
 

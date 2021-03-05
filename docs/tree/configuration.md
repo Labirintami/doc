@@ -6,7 +6,7 @@ title: Configuration
 Checkboxes for items
 ---------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="tree/checkbox.png" alt=""/>
+![](../assets/tree/checkbox.png)
 
 dhtmlxTree provides enhanced system of checkbox manipulations. In addition to standard two-state checkboxes that allow check/uncheck tree items, it also uses three-state checkboxes that include an intermediate state, 
 when just some children of a parent item are checked.
@@ -22,7 +22,7 @@ var tree = new dhx.Tree("tree_container", {checkbox: true});
 Editing of items
 -------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="tree/editable.png" alt=""/>
+![](../assets/tree/editable.png)
 
 It is possible to enable editing of the text of Tree items before initialization of the component using the tree/api/tree_editable_config.md configuration property:
 
@@ -72,7 +72,7 @@ After that you need to select any item and then apply Arrow keys:
 Selection of items
 ---------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="tree/disable_selection.png" alt=""/>
+![](../assets/tree/disable_selection.png)
 
 {{sample tree/02_configuration/09_selection.html}}
 

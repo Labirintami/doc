@@ -8,7 +8,7 @@ Styling
 
 There is a possibility to make changes in the look and feel of a pager. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="pager/styling.png" alt="styling"/>
+![](../assets/pager/styling.png)
 
 For this you need to take the following steps:
 

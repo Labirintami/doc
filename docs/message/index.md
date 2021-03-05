@@ -7,7 +7,7 @@ dhtmlxMessage is a tiny but useful component that helps you to interact with a u
 ask for confirmation of some action, warn against some steps that may result in unwanted effects, or simply give a hint about the purpose of a certain element of an app.
 Check [online samples for dhtmlxMessage](https://docs.dhtmlx.com/suite/samples/message/). 
 
-<img style="margin: 20px auto; display: block;" src="message/dhx_confirm.png" alt=""/>
+![](../assets/message/dhx_confirm.png)
 
 <br/>
 

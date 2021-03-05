@@ -8,8 +8,7 @@ title: Slider
 dhtmlxSlider allows adding handy slider bars into web pages and applications. The component is rather flexible and easily adjustable. It is available in several modes and provides simple and convenient API. <br/>
 Check [online samples for dhtmlxSlider](https://docs.dhtmlx.com/suite/samples/slider/).
 
-<img style="margin: 20px auto; display: block;" src="slider/slider_front.png" alt=""/>
-
+![](../assets/slider/slider_front.png)
 
 <div class="h2">API reference</div>
 

@@ -8,7 +8,7 @@ Styling
 
 There is a possibility to make changes in the look and feel of a slider. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="slider/custom_style.png" alt=""/>
+![](../assets/slider/custom_style.png)
 
 For this you need to take the following steps:
 

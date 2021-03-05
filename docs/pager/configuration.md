@@ -6,7 +6,7 @@ title: Configuration
 Input width
 ---------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="pager/combo_width.png" alt="input_width"/>
+![](../assets/pager/combo_width.png)
 
 By default, the input of a pager takes the auto-width that fits its maximum content. You can change the input width and set any other value via the [inputWidth](pager/api/pager_inputwidth_config.md) property, for example:
 
@@ -36,7 +36,7 @@ The default value of the attribute is 0.
 Number of items per page
 -------------------------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="pager/page_size.png" alt="page_size"/>
+![](../assets/pager/page_size.png)
 
 You can define the number of items that should be displayed per page with the help of the [pageSize](pager/api/pager_pagesize_config.md) configuration property. The default value is 10. This is how you can change the default setting:
 

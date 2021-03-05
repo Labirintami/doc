@@ -7,7 +7,7 @@ Styling
 
 There is a possibility to make changes in the look and feel of a popup. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="popup/custom_css.png" alt=""/>
+![](../assets/popup/custom_css.png)
 
 For this you need to take the following steps:
 

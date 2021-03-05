@@ -5,7 +5,7 @@ title: SelectButton
 
 This is a button that contains a drop-down list of options.
 
-<img src="toolbar/selectbutton.png" alt=""/>
+![](../assets/toolbar/selectbutton.png)
 
 {{editor	https://snippet.dhtmlx.com/nqq5ej8w	Toolbar. Select Button}}
 

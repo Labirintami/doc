@@ -7,7 +7,7 @@ title: Spacer
 
 This item takes space on the toolbar and is used for aligning controls.
 
-<img src="toolbar/spacer.png" alt=""/>
+![](../assets/toolbar/spacer.png)
 
 {{editor	https://snippet.dhtmlx.com/0wt6z7sc	Toolbar. Spacer}}
 

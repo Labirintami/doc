@@ -3,12 +3,9 @@ sidebar_label: MenuItem
 title: MenuItem
 ---          
 
-
-
 This is a drop-down list of options.
 
 <img src="toolbar/"/>
-
 
 ## Adding menuItem
 

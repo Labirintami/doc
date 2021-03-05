@@ -5,7 +5,7 @@ title: NavItem
 
 This is a default control for navigation-related components, can contain any other controls as nested items. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="ribbon/navitem.png" alt="NavItem"/>
+![](../assets/ribbon/navitem.png)
 
 Adding NavItem
 ----------------
