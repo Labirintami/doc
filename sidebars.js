@@ -729,7 +729,6 @@ module.exports = {
                                 "layout/api/layout_html_config",
                                 "layout/api/layout_collapsable_config",
                                 "layout/api/layout_activeview_config",
-                                "layout/api/layout_id_object",
                                 "layout/api/layout_hidden_config",
                                 "layout/api/layout_css_config",
                                 "layout/api/layout_headerheight_config",
