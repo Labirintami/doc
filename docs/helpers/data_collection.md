@@ -1,6 +1,6 @@
 ---
-sidebar_label: Data Collection
-title: Data Collection
+sidebar_label: Owerview
+title: Owerview
 ---          
 
 A set of APIs that allow you to work with data of a component.

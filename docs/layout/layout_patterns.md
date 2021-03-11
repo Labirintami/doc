@@ -7,7 +7,9 @@ Layout patterns are predefined combinations of [rows and columns](layout/layout_
 
 dhtmlxLayout provides the following predefined patterns:
 
-<a href="https://snippet.dhtmlx.com/mzlodj28" target="_blank"><img src="layout/1c.png" style="margin: 0px 20px 0px 0px;" alt="layout_1c"/></a>
+![](../assets/layout/1c.png)
+
+<a href="https://snippet.dhtmlx.com/mzlodj28" target="_blank"><img src="../assets/layout/1c.png" style="margin: 0px 20px 0px 0px;" alt="layout_1c"/></a>
 <a href="https://snippet.dhtmlx.com/1oqx20ve" target="_blank"><img src="layout/2e.png" alt="layout_2e"/></a>
 <a href="https://snippet.dhtmlx.com/yr9mapji" target="_blank"><img src="layout/2u.png" style="margin: 0px 20px 0px 0px;" alt="layout_2u"/></a>
 <a href="https://snippet.dhtmlx.com/v0w2p60c" target="_blank"><img src="layout/3e.png" alt="layout_3e"/></a>

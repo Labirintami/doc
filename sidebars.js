@@ -3,6 +3,12 @@ module.exports = {
             type: "doc",
             id: "index",
         },
+        {
+            type: "doc",
+            id: "whatsnew",
+        },
+        //todo How to start нет (папка tutorial, они сильно устрели)
+
         //Calendar
         {
             type: "category",
@@ -2080,7 +2086,7 @@ module.exports = {
             label: "Helpers",
             items: [{
                 type: "category",
-                label: "API",
+                label: "ajax",
                 items: [
                     "calendar/api/api_overview", //todo //todo
                     {
@@ -2103,46 +2109,218 @@ module.exports = {
                             "window/api/window_attach_method",
                             "window/api/window_getsize_method",
                         ],
-                    },
+                    }
+                ],
+            }, 
+            {
+                type: "doc",
+                id: "helpers/await_redraw",
+            },
+            {
+                type: "doc",
+                id: "helpers/base_elements",
+            },
+            //todo разобраться с вложенностью
+            {
+                type: "doc",
+                id: "css_manager/api/refs/css_manager",
+            },
+
+
+            {
+                type: "category",
+                label: "DataCollection API",
+                items: [
+                    "helpers/data_collection",
                     {
                         type: "category",
-                        label: "Events",
+                        label: "Methods", //todo
                         items: [
-                            "window/api/window_headerdoubleclick_event",
-                            "window/api/window_resize_event",
-                            "window/api/window_beforeshow_event",
-                            "window/api/window_aftershow_event",
-                            "window/api/window_beforehide_event",
-                            "window/api/window_move_event",
-                            "window/api/window_afterhide_event",
+                            "window/api/window_setfullscreen_method",
+                            "window/api/window_getcontainer_method",
+                            "window/api/window_destructor_method",
+                            "window/api/window_show_method",
+                            "window/api/window_isvisible_method",
+                            "window/api/window_attachhtml_method",
+                            "window/api/window_setposition_method",
+                            "window/api/window_fullscreen_method",
+                            "window/api/window_setsize_method",
+                            "window/api/window_hide_method",
+                            "window/api/window_getposition_method",
+                            "window/api/window_getwidget_method",
+                            "window/api/window_paint_method",
+                            "window/api/window_attach_method",
+                            "window/api/window_getsize_method",
                         ],
                     },
                     {
                         type: "category",
-                        label: "Properties",
+                        label: "Events", //todo
                         items: [
-                            "window/api/window_footer_config",
-                            "window/api/window_title_config",
-                            "window/api/window_left_config",
-                            "window/api/window_css_config",
-                            "window/api/window_top_config",
-                            "window/api/window_header_config",
-                            "window/api/window_width_config",
-                            "window/api/window_minwidth_config",
-                            "window/api/window_minheight_config",
-                            "window/api/window_node_config",
-                            "window/api/window_resizable_config",
-                            "window/api/window_modal_config",
-                            "window/api/window_height_config",
-                            "window/api/window_movable_config",
-                            "window/api/window_viewportoverflow_config",
-                            "window/api/window_closable_config",
-                            "window/api/window_html_config",
+                            "window/api/window_setfullscreen_method",
+                            "window/api/window_getcontainer_method",
+                            "window/api/window_destructor_method",
+                            "window/api/window_show_method",
+                            "window/api/window_isvisible_method",
+                            "window/api/window_attachhtml_method",
+                            "window/api/window_setposition_method",
+                            "window/api/window_fullscreen_method",
+                            "window/api/window_setsize_method",
+                            "window/api/window_hide_method",
+                            "window/api/window_getposition_method",
+                            "window/api/window_getwidget_method",
+                            "window/api/window_paint_method",
+                            "window/api/window_attach_method",
+                            "window/api/window_getsize_method",
+                        ],
+                    }
+                ],
+            }, 
+
+            {
+                type: "doc",
+                id: "helpers/datadrivers",
+            },
+
+
+//todo - всю вложенность сделать
+            {
+                type: "category",
+                label: "DataProxy",
+                items: [
+                    "helpers/data_collection",
+                    {
+                        type: "category",
+                        label: "Methods", //todo
+                        items: [
+                            "window/api/window_setfullscreen_method",
+                            "window/api/window_getcontainer_method",
+                            "window/api/window_destructor_method",
+                            "window/api/window_show_method",
+                            "window/api/window_isvisible_method",
+                            "window/api/window_attachhtml_method",
+                            "window/api/window_setposition_method",
+                            "window/api/window_fullscreen_method",
+                            "window/api/window_setsize_method",
+                            "window/api/window_hide_method",
+                            "window/api/window_getposition_method",
+                            "window/api/window_getwidget_method",
+                            "window/api/window_paint_method",
+                            "window/api/window_attach_method",
+                            "window/api/window_getsize_method",
                         ],
                     },
                 ],
-            }, ],
+            }, 
+            
+            {
+                type: "doc",
+                id: "helpers/lazydataproxy",
+            },
+
+            {
+                type: "doc",
+                id: "helpers/resize_handler",
+            },
+
+            //todo - всю вложенность сделать
+            {
+                type: "category",
+                label: "Selection Object API",
+                items: [
+                    "helpers/selection",
+                    {
+                        type: "category",
+                        label: "Methods", //todo
+                        items: [
+                            "window/api/window_setfullscreen_method",
+                            "window/api/window_getcontainer_method",
+                            "window/api/window_destructor_method",
+                            "window/api/window_show_method",
+                            "window/api/window_isvisible_method",
+                            "window/api/window_attachhtml_method",
+                            "window/api/window_setposition_method",
+                            "window/api/window_fullscreen_method",
+                            "window/api/window_setsize_method",
+                            "window/api/window_hide_method",
+                            "window/api/window_getposition_method",
+                            "window/api/window_getwidget_method",
+                            "window/api/window_paint_method",
+                            "window/api/window_attach_method",
+                            "window/api/window_getsize_method",
+                        ],
+                    },
+                ],
+            }, 
+
+
+            //todo - всю вложенность сделать
+            {
+                type: "category",
+                label: "TreeCollection API",
+                items: [
+                    "helpers/data_collection",
+                    {
+                        type: "category",
+                        label: "Methods", //todo
+                        items: [
+                            "window/api/window_setfullscreen_method",
+                            "window/api/window_getcontainer_method",
+                            "window/api/window_destructor_method",
+                            "window/api/window_show_method",
+                            "window/api/window_isvisible_method",
+                            "window/api/window_attachhtml_method",
+                            "window/api/window_setposition_method",
+                            "window/api/window_fullscreen_method",
+                            "window/api/window_setsize_method",
+                            "window/api/window_hide_method",
+                            "window/api/window_getposition_method",
+                            "window/api/window_getwidget_method",
+                            "window/api/window_paint_method",
+                            "window/api/window_attach_method",
+                            "window/api/window_getsize_method",
+                        ],
+                    },
+                ],
+            }, 
+
+
+            //todo - всю вложенность сделать
+            {
+                type: "category",
+                label: "Uploader Object API",
+                items: [
+                    "helpers/data_collection",
+                    {
+                        type: "category",
+                        label: "Methods", //todo
+                        items: [
+                            "window/api/window_setfullscreen_method",
+                            "window/api/window_getcontainer_method",
+                            "window/api/window_destructor_method",
+                            "window/api/window_show_method",
+                            "window/api/window_isvisible_method",
+                            "window/api/window_attachhtml_method",
+                            "window/api/window_setposition_method",
+                            "window/api/window_fullscreen_method",
+                            "window/api/window_setsize_method",
+                            "window/api/window_hide_method",
+                            "window/api/window_getposition_method",
+                            "window/api/window_getwidget_method",
+                            "window/api/window_paint_method",
+                            "window/api/window_attach_method",
+                            "window/api/window_getsize_method",
+                        ],
+                    },
+                ],
+            }, 
+
+
+
+        ],
+            
         },
+
         // end Helpers 
 
     ],
