@@ -5,12 +5,7 @@ title: canDrop
 
 @short: fires when a dragged item is over a target item
 
-```todoapi ```
-
-@params:
-- data		object		data object
-- e		    Event		a native event object
-
+@signature: canDrop: (data: object, events: MouseEvent) => void;
 
 @example:
 dataview.events.on("CanDrop", function(data, events) {

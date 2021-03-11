@@ -5,11 +5,7 @@ title: itemRightClick
 
 @short: fires on right clicking an item 
 
-```todoapi ```
-
-@params:
-- id 	string,number 		the id of a right-clicked item
-- e 	Event 				a native event object
+@signature: itemRightClick: (id: string | number, e: MouseEvent) => void;
 
 @example:
 dataview.events.on("ItemRightClick", function(id, e){

@@ -5,12 +5,7 @@ title: dragStart
 
 @short: fires when dragging of an item has started 
 
-```todoapi ```
-
-@params:
-- data		object		data object
-- e		    Event		a native event object
-
+@signature: dragStart: (data: object, events: MouseEvent) => void;
 
 @example:
 dataview.events.on("DragStart", function(data, events) {

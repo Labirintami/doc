@@ -5,7 +5,7 @@ title: beforeDrop
 
 @short: fires before the user has finished dragging an item and released the mouse button
 
-```todoapi ```
+@signature: beforeDrop: (data: object, events: MouseEvent) => void | boolean;
 
 @params:
 - data		object		data object

@@ -5,11 +5,10 @@ title: afterEditStart
 
 @short: fires after editing of an item has started
 
-```todoapi ```
+@signature: afterEditStart: (value: string, id: string | number) => void;
 
 @params:
-- id		string|number		the id of an item
-
+- id		string | number		the id of an item
 
 @example:
 dataview.events.on("AfterEditStart", function(id){
