@@ -5,10 +5,7 @@ title: link
 
 @short: links a calendar to another calendar for selecting a date range
 
-```todoapi
-void link(object calendar2); //todo old
-link(calendar: ICalendar): void; //todo new
-```
+@signature: link(calendar: object): void; 
 
 @params:
 - calendar2 		object		an object of a calendar to link to

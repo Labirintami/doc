@@ -5,15 +5,11 @@ title: dateMouseOver
 
 @short: fires when the mouse pointer is over a date
 
-```todoapi
-void dateMouseOver(Date date,Event e){ ... };
-[CalendarEvents.dateMouseOver]: (date: Date, e: MouseEvent) => any;
-```
+@signature: dateMouseOver: (date: Date, e: MouseEvent) => void;
 
 @params:
 - date  	Date    	the date under the pointer
 - e 		Event		a native event object
-
 
 @example:
 calendar.events.on("DateMouseOver", function(date, e) {

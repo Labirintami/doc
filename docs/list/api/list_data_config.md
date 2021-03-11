@@ -5,10 +5,7 @@ title: data
 
 @short: specifies an array of data objects to set into the list
 
-```todoapi 
-array data;
-data: DataCollection<T>;
-```
+@signature: data: array;
 
 @example: 
 const data = [

@@ -5,10 +5,7 @@ title: change
 
 @short: fires on change of date selection
 
-```todoapi
-void change(Date date,Date oldDate,boolean click){ ... };
-[CalendarEvents.change]: (date: Date, oldDate: Date, byClick: boolean) => any;
-```
+@signature: change: (date: Date, oldDate: Date, byClick: boolean) => void;
 
 @params:
 - date  		Date    	the newly selected date

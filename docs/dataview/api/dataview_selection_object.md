@@ -5,19 +5,7 @@ title: selection
 
 @short: 
 
-```todoapi
-selection?: boolean;
-```
-
-@type: ISelection
-
-@example: 
-
-
-
-@template:	api_object
-@descr: 
-
+@signature: selection?: boolean;
 
 
 @todo:

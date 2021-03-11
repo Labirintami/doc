@@ -5,20 +5,15 @@ title: modeChange
 
 @short: fires on changing the mode of the colorpicker
 
+@signature: modeChange: (mode: string) => void;
+
 @params:
 - mode	string		the colorpicker mode ("palette", "picker")
-
-```todoapi 
-void modeChange(string mode){ ... };
-[CalendarEvents.modeChange]: (mode: string) => any;
-```
 
 @example:
 colorpicker.events.on("ModeChange", function(mode) {
    console.log("Selected mode: " + mode); 
 });
-
- 
  
 @template: api_event
 @descr:

@@ -5,10 +5,7 @@ title: getFocusItem
 
 @short: returns the object of an item in focus
 
-```todoapi 
-object getFocusItem();
-getFocusItem(): T;
-```
+@signature: getFocusItem(): object;
 
 @returns:
 - id 		object		the object of an item in focus

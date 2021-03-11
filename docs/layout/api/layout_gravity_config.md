@@ -5,10 +5,7 @@ title: gravity
 
 @short: sets the "weight" of a cell in relation to other cells placed in the same row and within one parent
 
-```todoapi
-number gravity;
-gravity?: number | boolean;
-```
+@signature: gravity?: number | boolean;
 
 @example: 
 var layout = dhx.Layout("layout_container", {

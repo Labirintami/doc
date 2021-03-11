@@ -5,11 +5,7 @@ title: cancelClick
 
 @short: fires when the user clicks on the "Cancel" control
 
-```todoapi
-void cancelClick(){ ... };
-[CalendarEvents.cancelClick]: () => any;
-```
-
+@signature: cancelClick: () => void;
 
 @example:
 calendar.events.on("CancelClick", function() {

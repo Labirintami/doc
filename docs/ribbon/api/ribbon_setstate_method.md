@@ -5,10 +5,7 @@ title: setState
 
 @short: sets values/states of controls
 
-```todoapi 
-void setState(object state);
-setState(state: IState): void;
-```
+@signature: setState(state: object): void;
 
 @params:
 - state 		object			a hash of <i>key:value</i> pairs, where the key is the ID of a control and the value is a new value/state of the control

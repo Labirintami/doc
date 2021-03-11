@@ -3,16 +3,9 @@ sidebar_label: legend
 title: legend
 ---          
 
-``` todo
-
 @short: defines the configuration of a chart legend
 
-```todoapi
-object legend;
-legend?: ILegendConfig;
-
-
-@type: object
+@signature: legend?: object;
 
 @example: 
 var chart = new dhx.Chart("chart_container",{
@@ -110,4 +103,3 @@ https://snippet.dhtmlx.com/pgqf1yxj	Chart. Legend Position
 @related:
 chart/configuration_properties.md#legend
 
-``` 

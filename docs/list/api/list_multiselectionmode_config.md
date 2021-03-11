@@ -5,21 +5,15 @@ title: multiselectionMode
 
 @short: sets the mode of multiselection
 
-```todoapi 
-boolean|string multiselection;
-multiselectionMode?: "click" | "ctrlClick";
-```
+@signature: multiselectionMode?: "click" | "ctrlClick";
 
-@type: string
-@default:"ctrlClick"
-@values:"click","ctrlClick"
+@default: "ctrlClick"
 
 @example: 
 var list = new dhx.List("list", {
 	multiselection:true,
 	multiselectionMode:"click"   
 });
-
 
 @template:	api_config
 @descr: 

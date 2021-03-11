@@ -5,10 +5,7 @@ title: data
 
 @short: specifies an array of data objects to set into Sidebar
 
-```todoapi 
-array data;
-data?: any[] | TreeCollection<ISidebarElement>;
-```
+@signature: data?: array[]
 
 @example: 
 var sidebar = dhx.Sidebar("sidebar_container", {

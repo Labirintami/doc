@@ -5,10 +5,7 @@ title: getWidget
 
 @short: returns the widget attached to Popup
 
-```todoapi 
-object getWidget();
-getWidget(): any;
-```
+@signature: getWidget(): object;
 
 @returns:
 - param	object      the widget attached to Popup

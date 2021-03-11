@@ -5,11 +5,7 @@ title: monthSelected
 
 @short: fires after a month was selected in the calendar
 
-```todoapi
-void monthSelected(number month){ ... };
-[CalendarEvents.monthSelected]: (month: number) => any;
-```
-
+@signature: monthSelected: (month: number) => void;
 
 @params:
 - month     number      the number of the selected month (from 0 to 11)

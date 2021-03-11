@@ -5,10 +5,7 @@ title: data
 
 @short: specifies an array of data objects to set into the grid
 
-```todoapi
-data: IDataCollection;
-data: array;
-```
+@signature: data: array;
 
 @example: 
 var dataset = [
