@@ -5,7 +5,7 @@ title: afterSelect
 
 @short: fires after selecting a cell
 
-```todoapi ```
+@signature: afterSelect: (row: object, col: object) => void;
 
 @params:
 

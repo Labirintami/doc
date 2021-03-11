@@ -5,13 +5,11 @@ title: removeCell
 
 @short: unselects previously selected cells
 
-```todoapi ```
+@signature: removeCell(rowId?: string | number, colId?: string | number): void;
 
 @params:
 - rowId     string,number   optional, the id of a row
 - colId     string,number   optional, the id of a column
-
-
 
 @example:
 // unselects all previously selected cells

@@ -5,9 +5,7 @@ title: enable
 
 @short: enables selection of cells in Grid
 
-```todoapi ```
-
-
+@signature: enable(): void;
 
 @example:
 grid.selection.enable();

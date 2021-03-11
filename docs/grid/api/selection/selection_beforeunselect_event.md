@@ -5,7 +5,7 @@ title: beforeUnSelect
 
 @short: fires before unselecting a cell
 
-```todoapi ```
+@signature: beforeUnSelect: (row: object, col: object) => boolean | void;
 
 @params:
 

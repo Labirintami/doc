@@ -5,7 +5,7 @@ title: beforeSelect
 
 @short: fires before selecting a cell
 
-```todoapi ```
+@signature: beforeSelect: (row: object, col: object) => boolean | void;
 
 @params:
 
