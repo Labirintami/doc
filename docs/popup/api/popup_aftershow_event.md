@@ -5,10 +5,10 @@ title: afterShow
 
 @short: fires after a popup is shown
 
-```todoapi ```
+@signature: afterShow: (node: HTMLElement) => void;
 
 @params:
-- element 		HTMLElement		 the container a popup is placed in
+- node 		HTMLElement		 the container a popup is placed in
 
 @example:
 popup.events.on("AfterShow", function(element){

@@ -5,7 +5,7 @@ title: beforeHide
 
 @short: fires before a popup is hidden
 
-```todoapi ```
+@signature: beforeHide: (fromOuterClick: boolean, e: Event) => void | boolean;
 
 @params:
 - fromOuterClick		boolean			true, for a click outside a popup, otherwise - false

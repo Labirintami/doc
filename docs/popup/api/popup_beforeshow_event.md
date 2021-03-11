@@ -5,7 +5,7 @@ title: beforeShow
 
 @short: fires before a popup is shown
 
-```todoapi ```
+@signature: beforeShow: (node: HTMLElement) => void | boolean;
 
 @params:
 - element 		HTMLElement		 the container a popup is placed in

@@ -5,7 +5,7 @@ title: click
 
 @short: fires on clicking a popup
 
-```todoapi ```
+@signature: click: (e: Event) => void;
 
 @params:
 - e						Event			the native mouse event
