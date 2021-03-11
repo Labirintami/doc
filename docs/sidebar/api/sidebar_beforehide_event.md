@@ -5,7 +5,7 @@ title: beforeHide
 
 @short: fires before hiding an item of Sidebar
 
-```todoapi ```
+beforeExpand: () => boolean | void;
 
 @params:
 - id 		string		the ID of a sidebar item

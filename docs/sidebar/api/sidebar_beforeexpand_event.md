@@ -5,7 +5,7 @@ title: beforeExpand
 
 @short: fires before expanding a sidebar
 
-```todoapi ```
+beforeExpand: () => boolean | void;
 
 @returns: 
 param       boolean     false - to prevent expanding a sidebar, otherwise - false

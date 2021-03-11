@@ -5,7 +5,7 @@ title: toggle
 
 @short: fires on expanding/collapsing Sidebar
 
-```todoapi ```
+```tododeprecated ``` 
 
 @params:
 - isCollapsed 		boolean			true, if Sidebar is collapsed

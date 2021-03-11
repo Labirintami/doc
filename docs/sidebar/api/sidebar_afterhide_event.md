@@ -5,7 +5,7 @@ title: afterHide
 
 @short: fires after hiding an item of Sidebar
 
-```todoapi ```
+afterHide: (e: Event) => void;
 
 @params:
 - e         Event       a native event object

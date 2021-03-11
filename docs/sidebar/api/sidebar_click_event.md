@@ -5,7 +5,7 @@ title: click
 
 @short: fires after a click on a control
 
-```todoapi ```
+click: (id: string, e: Event) => void;
 
 @params:
 - id 		string		the ID of a clicked control
