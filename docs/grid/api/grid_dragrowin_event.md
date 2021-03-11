@@ -3,15 +3,13 @@ sidebar_label: dragRowIn
 title: dragRowIn
 ---          
 
-
 @short: fires when a row is dragged to another potential target
 
-```todoapi ```
+@signature: dragRowIn: (data: object, events: MouseEvent) => void | boolean;
 
-@params:
+<!-- @params:
 - data		object		data object
-- e		    Event		a native event object
-
+- e		    Event		a native event object -->
 
 @example:
 grid.events.on("DragRowIn", function(data, events) {

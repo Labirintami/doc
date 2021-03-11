@@ -5,12 +5,12 @@ title: afterEditStart
 
 @short: fires after editing of a cell has started
 
-```todoapi ```
+@signature: afterEditStart: (row: object, col: object, editorType: "input" | "select" | "datePicker" | "checkbox" | "combobox" | "textarea") => void;
 	
-@params:
+<!-- @params:
 - row			object		an object with a row configuration
-- column		object		an object with a column configuration
-- editorType	string		the type of a cell editor:"input", "select", "datePicker", "checkbox", "combobox"
+- col		object		an object with a column configuration
+- editorType	string		the type of a cell editor:"input", "select", "datePicker", "checkbox", "combobox" -->
 
 
 @example:

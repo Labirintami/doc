@@ -5,11 +5,11 @@ title: dragColumnStart
 
 @short: fires when dragging of a column has started
 
-```todoapi ```
+@signature: dragColumnStart: (data: object, events: MouseEvent) => void;
 
-@params:
+<!-- @params:
 - data		object		data object
-- e		    Event		a native event object
+- e		    Event		a native event object -->
 
 @example:
 grid.events.on("DragColumnStart", function(data, events) {

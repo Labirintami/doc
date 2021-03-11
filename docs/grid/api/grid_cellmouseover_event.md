@@ -5,12 +5,12 @@ title: cellMouseOver
 
 @short: fires on moving the mouse pointer over a grid cell
 
-```todoapi ```
+@signature: cellMouseOver: (row: object, col: object, e: MouseEvent) => void;
 
-@params:
+<!-- @params:
 - row			object		an object with a row configuration
 - column		object		an object with a column configuration
-- e				Event		a native event object
+- e				Event		a native event object -->
 
 
 @example:

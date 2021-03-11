@@ -5,11 +5,11 @@ title: afterColumnDrop
 
 @short: fires before the user has finished dragging a column but after the mouse button is released
 
-```todoapi ```
+@signature: afterColumnDrop: (data: object, events: MouseEvent) => void;
 
-@params:
+<!-- @params:
 - data		object		data object
-- e		    Event		a native event object
+- e		    Event		a native event object -->
 
 
 @example:

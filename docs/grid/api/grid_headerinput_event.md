@@ -5,7 +5,7 @@ title: headerInput
 
 @short: fires on typing text in an input of a column's header
 
-```todoapi ```
+```tododeprecated ``` 
 
 @params:
 - value		string,number		an entered value

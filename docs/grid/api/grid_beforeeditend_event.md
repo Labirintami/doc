@@ -5,12 +5,12 @@ title: beforeEditEnd
 
 @short: fires before editing of a cell is completed
 
-```todoapi ```
+@signature: beforeEditEnd: (value: string, row: object, col: object) => boolean | void;
 	
 @params:
 - value			string		the new value of a cell
 - row			object		an object with a row configuration
-- column		object		an object with a column configuration
+- col		object		an object with a column configuration
 
 
 @returns:

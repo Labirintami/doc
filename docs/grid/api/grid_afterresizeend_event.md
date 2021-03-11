@@ -5,12 +5,11 @@ title: afterResizeEnd
 
 @short: fires after resizing of a column is ended
 
-```todoapi ```
+@signature: afterResizeEnd: (col: object, e: MouseEvent) => void;
 
-@params:
+<!-- @params:
 - column		object		an object with a column configuration
-- e				Event		a native event object
-
+- e				Event		a native event object -->
 
 @example:
 grid.events.on("AfterResizeEnd", function(col,e){

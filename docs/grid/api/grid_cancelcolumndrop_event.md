@@ -5,12 +5,11 @@ title: cancelColumnDrop
 
 @short: fires on moving a mouse pointer out of borders of a column while dragging the column
 
-```todoapi ```
+@signature: cancelColumnDrop: (data: object, events: MouseEvent) => void;
 
-@params:
+<!-- @params:
 - data		object		data object
-- e		    Event		a native event object
-
+- e		    Event		a native event object -->
 
 @example:
 grid.events.on("CancelColumnDrop", function(data, events) {

@@ -5,7 +5,7 @@ title: afterRowDrag
 
 @short: fires after dragging of a row is finished
 
-```todoapi ```
+@signature: afterRowDrag: (data: object, events: MouseEvent) => void;
 
 @params:
 - data		object		data object

@@ -5,11 +5,11 @@ title: afterKeyDown
 
 @short: fires after the user is pressing a shortcut key
 
-```todoapi ```
+@signature: afterKeyDown: (e: Event) => void;
 
-@params:
+<!-- @params:
 
-- e		KeyboardEvent		a native KeyboardEvent object
+- e		KeyboardEvent		a native KeyboardEvent object -->
 
 @example:
 grid.events.on("AfterKeyDown", function (e) {

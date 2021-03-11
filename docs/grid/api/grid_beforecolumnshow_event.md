@@ -5,10 +5,10 @@ title: beforeColumnShow
 
 @short: fires before a column is shown on a page
 
-```todoapi ```
+@signature: beforeColumnShow: (col: object) => boolean | void;
 
 @params: 
-- column   object  an object with a column configuration
+- col   object  an object with a column configuration
 
 
 @returns:

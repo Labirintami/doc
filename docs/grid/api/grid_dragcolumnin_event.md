@@ -5,12 +5,11 @@ title: dragColumnIn
 
 @short: fires when a column is dragged to another potential target
 
-```todoapi ```
+@signature: dragColumnIn: (data: object, events: MouseEvent) => void | boolean;
 
-@params:
+<!-- @params:
 - data		object		data object
-- e		    Event		a native event object
-
+- e		    Event		a native event object -->
 
 @example:
 grid.events.on("DragColumnIn", function(data, events) {

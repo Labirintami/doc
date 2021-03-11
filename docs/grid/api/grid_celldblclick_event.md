@@ -5,12 +5,12 @@ title: cellDblClick
 
 @short: fires on double-click on a grid cell
 
-```todoapi ```
+@signature: cellDblClick: (row: object, col: object, e: MouseEvent) => void;
 
 @params:
 - row			object		an object with a row configuration
-- column		object		an object with a column configuration
-- e				Event		a native event object
+- col		object		an object with a column configuration
+- e				MouseEvent		a MouseEvent object
 
 
 @example:

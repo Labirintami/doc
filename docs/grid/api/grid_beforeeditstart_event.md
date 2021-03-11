@@ -5,12 +5,12 @@ title: beforeEditStart
 
 @short: fires before editing of a cell has started
 
-```todoapi ```
+@signature: beforeEditStart: (row: object, col: object, editorType: "input" | "select" | "datePicker" | "checkbox" | "combobox" | "textarea") => boolean | void;
 	
-@params:
+<!-- @params:
 - row			object		an object with a row configuration
 - column		object		an object with a column configuration
-- editorType	string		the type of a cell editor:"input", "select", "datePicker", "checkbox", "combobox"
+- editorType	string		the type of a cell editor:"input", "select", "datePicker", "checkbox", "combobox" -->
 
 
 @returns:

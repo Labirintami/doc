@@ -5,11 +5,11 @@ title: beforeColumnDrag
 
 @short: fires before dragging of a column has started
 
-```todoapi ```
+@signature: beforeColumnDrag: (data: object, events: MouseEvent) => void | boolean;
 	
-@params:
+<!-- @params:
 - data		object		data object
-- e		    Event		a native event object
+- e		    Event		a native event object -->
 
 
 @returns:

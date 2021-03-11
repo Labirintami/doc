@@ -5,10 +5,10 @@ title: afterColumnHide
 
 @short: fires after a column is hidden
 
-```todoapi ```
+@signature: afterColumnHide: (col: object) => void;
 
 @params: 
-- column   object  an object with a column configuration
+- col   object  an object with a column configuration
 
 @example:
 grid.events.on("AfterColumnHide", function(column){

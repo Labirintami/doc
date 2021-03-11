@@ -5,12 +5,12 @@ title: cellMouseDown
 
 @short: fires before releasing the left mouse button when clicking on a grid cell
 
-```todoapi ```
+@signature: cellMouseDown: (row: object, col: object, e: MouseEvent & TouchEvent) => void;
 
-@params:
+<!-- @params:
 - row			object		an object with a row configuration
 - column		object		an object with a column configuration
-- e				Event		a native event object
+- e				Event		a native event object -->
 
 
 @example:

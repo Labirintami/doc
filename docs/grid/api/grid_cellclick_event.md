@@ -5,12 +5,12 @@ title: cellClick
 
 @short: fires on click on a grid cell
 
-```todoapi ```
+@signature: cellClick: (row: object, col: object, e: MouseEvent) => void;
 
 @params:
 - row			object		an object with a row configuration
 - column		object		an object with a column configuration
-- e				Event		a native event object
+- e				Event		a MouseEvent object
 
 
 @example:

@@ -5,11 +5,11 @@ title: footerCellDblClick
 
 @short: fires on double-click on a grid footer cell
 
-```todoapi ```
+@signature: footerCellDblClick: (col: object, e: MouseEvent) => void;
 
-@params:
+<!-- @params:
 - column		object		an object with a column configuration
-- e				Event		a native event object
+- e				Event		a native event object -->
 
 
 @example:

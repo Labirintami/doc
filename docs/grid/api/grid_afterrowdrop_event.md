@@ -3,14 +3,13 @@ sidebar_label: afterRowDrop
 title: afterRowDrop
 ---          
 
-
 @short: fires before the user has finished dragging a row but after the mouse button is released
 
-```todoapi ```
+@signature: afterRowDrop: (data: object, events: MouseEvent) => void;
 
-@params:
+<!-- @params:
 - data		object		data object
-- e		    Event		a native event object
+- e		    Event		a native event object -->
 
 @example:
 grid.events.on("AfterRowDrop", function(data, events) {

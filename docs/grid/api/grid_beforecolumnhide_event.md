@@ -5,11 +5,10 @@ title: beforeColumnHide
 
 @short: fires before a column is hidden
 
-```todoapi ```
+@signature: beforeColumnHide: (col: object) => boolean | void;
 
 @params: 
-- column   object  an object with a column configuration
-
+- col   object  an object with a column configuration
 
 @returns:
 - result	boolean		false - to prevent a column from being hidden, otherwise true
@@ -19,7 +18,7 @@ grid.events.on("BeforeColumnHide", function(column){
     // your logic here
     return false;
 });
-
+s
 
 @template: api_event
 @descr:

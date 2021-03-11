@@ -5,11 +5,11 @@ title: beforeResizeStart
 
 @short: fires before resizing of a column has started
 
-```todoapi ```
+@signature: beforeResizeStart: (col: object, e: MouseEvent) => boolean | void;
 
-@params:
+<!-- @params:
 - column		object		an object with a column configuration
-- e				Event		a native event object
+- e				Event		a native event object -->
 
 
 @returns:

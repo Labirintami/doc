@@ -5,11 +5,11 @@ title: footerCellRightClick
 
 @short: fires on right click on a grid footer cell
 
-```todoapi ```
+@signature: footerCellRightClick: (col: object, e: MouseEvent) => void;
 
-@params:
+<!-- @params:
 - column		object		an object with a column configuration
-- e				Event		a native event object
+- e				Event		a native event object -->
 
 
 @example:

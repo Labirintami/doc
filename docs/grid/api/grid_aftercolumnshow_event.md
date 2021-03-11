@@ -5,10 +5,10 @@ title: afterColumnShow
 
 @short: fires after a column is shown
 
-```todoapi ```
+@signature: afterColumnShow: (col: object) => void;
 
 @params:
-- column   object  an object with a column configuration
+- col   object  an object with a column configuration
 
 
 @example:

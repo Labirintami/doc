@@ -5,12 +5,11 @@ title: headerCellMouseDown
 
 @short: fires on moving the mouse pointer over a grid header cell
 
-```todoapi ```
+@signature: headerCellMouseDown: (col: object, e: MouseEvent & TouchEvent) => void;
 
-@params:
+<!--todo @params:
 - column		object		an object with a column configuration
-- e				Event		a native event object
-
+- e				Event		a native event object -->
 
 @example:
 grid.events.on("HeaderCellMouseDown", function(column,e){

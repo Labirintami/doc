@@ -1,16 +1,15 @@
 ---
-sidebar_label:
-title:
+sidebar_label: dragRowOut
+title: dragRowOut
 ---          
-
 
 @short: fires when a row is dragged out of a potential target
 
-```todoapi ```
+@signature: dragRowOut: (data: object, events: MouseEvent) => void;
 
-@params:
+<!-- @params:
 - data		object		data object
-- e		    Event		a native event object
+- e		    Event		a native event object -->
 
 @example:
 grid.events.on("DragRowOut", function(data, events) {

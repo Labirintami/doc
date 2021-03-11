@@ -5,11 +5,11 @@ title: afterColumnDrag
 
 @short: fires after dragging of a column is finished
 
-```todoapi ```
+@signature: afterColumnDrag: (data: object, events: MouseEvent) => void;
 
-@params:
+<!-- @params:
 - data		object		data object
-- e		    Event		a native event object
+- e		    Event		a native event object -->
 
 @example:
 grid.events.on("AfterColumnDrag", function(data, events) {

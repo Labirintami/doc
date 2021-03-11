@@ -5,11 +5,11 @@ title: beforeRowDrag
 
 @short: fires before dragging of a row has started
 
-```todoapi ```
+@signature: beforeRowDrag: (data: object, events: MouseEvent) => void | boolean;
 	
-@params:
+<!-- @params:
 - data		object		data object
-- e		    Event		a native event object
+- e		    Event		a native event object -->
 
 
 @returns:

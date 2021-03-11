@@ -5,11 +5,11 @@ title: dragColumnOut
 
 @short: fires when a column is dragged out of a potential target
 
-```todoapi ```
+@signature: dragColumnOut: (data: object, events: MouseEvent) => void;
 
-@params:
+<!-- @params:
 - data		object		data object
-- e		    Event		a native event object
+- e		    Event		a native event object -->
 
 @example:
 grid.events.on("DragColumnOut", function(data, events) {

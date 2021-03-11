@@ -5,12 +5,11 @@ title: headerCellRightClick
 
 @short: fires on right click on a grid header cell
 
-```todoapi ```
+@signature: headerCellRightClick: (col: object, e: MouseEvent) => void;
 
-@params:
+<!-- @params:
 - column		object		an object with a column configuration
-- e				Event		a native event object
-
+- e				Event		a native event object -->
 
 @example:
 grid.events.on("HeaderCellRightClick", function(column,e){
