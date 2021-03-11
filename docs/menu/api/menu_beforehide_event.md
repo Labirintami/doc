@@ -5,7 +5,7 @@ title: beforeHide
 
 @short: fires before hiding an item of Menu
 
-```todoapi ```
+@signature: beforeHide: (id: string, e: Event) => void | boolean;
 
 @params:
 - id 		string		the ID of a menu item
