@@ -5,7 +5,7 @@ title: beforeShow
 
 @short: fires before a cell is shown
 
-```todoapi ```
+@signature: beforeShow: (id: string) => boolean | void;
 
 @params:
 - id		string		the id of a cell

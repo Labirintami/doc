@@ -5,7 +5,7 @@ title: beforeExpand
 
 @short: fires before expanding a Layout cell
 
-```todoapi ```
+@signature: beforeExpand: (id: string) => boolean | void;
 
 @params:
 - id		string		the id of a cell

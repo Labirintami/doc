@@ -5,11 +5,10 @@ title: beforeRemove
 
 @short: fires before removing a cell
 
-```todoapi ```
+@signature: beforeRemove: (id: string) => boolean | void;
 
 @params:
 - id		string		the id of a cell
-
 
 @example:
 layout.events.on("BeforeRemove", function(id){

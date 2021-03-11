@@ -5,7 +5,7 @@ title: afterExpand
 
 @short: fires after expanding a Layout cell
 
-```todoapi ```
+@signature: afterExpand: (id: string) => void;
 
 @params:
 - id		string		the id of a cell
@@ -14,7 +14,6 @@ title: afterExpand
 layout.events.on("AfterExpand", function(id){
 	// your logic here
 });
-
 
 @template: api_event
 @descr:

@@ -5,11 +5,10 @@ title: beforeHide
 
 @short: fires before a cell is hidden
 
-```todoapi ```
+@signature: beforeHide: (id: string) => boolean | void;
 
 @params:
 - id		string		the id of a cell
-
 
 @example:
 layout.events.on("BeforeHide", function(id){

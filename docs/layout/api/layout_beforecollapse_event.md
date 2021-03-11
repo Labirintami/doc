@@ -5,11 +5,10 @@ title: beforeCollapse
 
 @short: fires before a cell is collapsed
 
-```todoapi ```
+@signature: beforeCollapse: (id: string) => boolean | void;
 
 @params:
 - id		string		the id of a cell
-
 
 @example:
 layout.events.on("BeforeCollapse", function(id){

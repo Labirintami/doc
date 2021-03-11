@@ -5,19 +5,15 @@ title: afterHide
 
 @short: fires after a cell is hidden
 
-```todoapi ```
+@signature: afterHide: (id: string) => void;
 
 @params:
 - id		string		the id of a cell
-
 
 @example:
 layout.events.on("AfterHide", function(id){
 	// your logic here
 });
-
-
-
 
 @template: api_event
 @descr:

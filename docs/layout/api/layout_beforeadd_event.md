@@ -5,11 +5,10 @@ title: beforeAdd
 
 @short: fires before adding a cell
 
-```todoapi ```
+@signature: beforeAdd: (id: string) => boolean | void;
 
 @params:
 - id		string		the id of a cell
-
 
 @example:
 layout.events.on("BeforeAdd", function(id){

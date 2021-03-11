@@ -5,7 +5,7 @@ title: beforeResizeStart
 
 @short: fires before resizing of a cell has started
 
-```todoapi ```
+@signature: beforeResizeStart: (id: string) => boolean | void;
 
 @params:
 - id		string		the id of a cell
