@@ -5,12 +5,10 @@ title: beforeClose
 
 @short: fires before closing a list with options
 
-```todoapi ```
+@signature: beforeClose: () => boolean | void;
 
 @returns:
 param 	boolean		false-to prevent closing a combobox, otherwise true
-
-
 
 @example:
 combobox.events.on("BeforeClose", function( ) {

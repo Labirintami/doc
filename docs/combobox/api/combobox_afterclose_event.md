@@ -5,8 +5,7 @@ title: afterClose
 
 @short: fires after closing a list with options
 
-```todoapi ```
-
+@signature: afterClose: () => void;
 
 @example:
 combobox.events.on("AfterClose", function() {

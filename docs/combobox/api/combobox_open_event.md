@@ -3,10 +3,9 @@ sidebar_label: open
 title: open
 ---          
 
-@short:
-fires when a list with options is opened
+@short: fires when a list with options is opened
 
-```todoapi ```
+@signature: open: () => void;
 
 @example:
 combo.events.on("Open", function(){

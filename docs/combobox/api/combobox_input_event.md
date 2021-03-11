@@ -5,11 +5,10 @@ title: input
 
 @short: fires on typing text in an input of Combobox
 
-```todoapi ```
+@signature: input: (value: string | number) => void;
 
 @params:
 - value     string|number       an entered value
-
 
 @example:
 combobox.events.on("Input", function(value) {
