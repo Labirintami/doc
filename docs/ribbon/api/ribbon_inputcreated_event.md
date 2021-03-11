@@ -5,11 +5,11 @@ title: inputCreated
 
 @short: fires when a new input is added
 
-```todoapi ```
+@signature: inputCreated: (id: string, input: HTMLInputElement) => void;
 
 @params:
 - id 		string			the ID of a new input
-- el		HTMLElement		a newly created input
+- input		HTMLInputElement		a newly created input
 
 
 @example:
