@@ -14,7 +14,9 @@ module.exports = {
             type: "category",
             label: "Calendar",
             collapsed: true,
-            items: [{
+            items: [
+                "calendar/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
