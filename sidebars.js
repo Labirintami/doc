@@ -94,7 +94,9 @@ module.exports = {
             type: "category",
             label: "Chart",
             collapsed: true,
-            items: [{
+            items: [
+                "chart/index",
+                {
                     type: "category",
                     label: "API",
                     collapsed: true,
@@ -156,7 +158,9 @@ module.exports = {
         {
             type: "category",
             label: "Colorpicker",
-            items: [{
+            items: [
+                "colorpicker/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -227,7 +231,9 @@ module.exports = {
         {
             type: "category",
             label: "Combobox",
-            items: [{
+            items: [
+                "combobox/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -310,7 +316,9 @@ module.exports = {
         {
             type: "category",
             label: "Dataview",
-            items: [{
+            items: [
+                "dataview/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -510,7 +518,9 @@ module.exports = {
         {
             type: "category",
             label: "Grid",
-            items: [{
+            items: [
+                "grid/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -669,7 +679,9 @@ module.exports = {
         {
             type: "category",
             label: "Layout",
-            items: [{
+            items: [
+                "layout/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -774,7 +786,9 @@ module.exports = {
         {
             type: "category",
             label: "List",
-            items: [{
+            items: [
+                "list/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -910,7 +924,9 @@ module.exports = {
         {
             type: "category",
             label: "Menu",
-            items: [{
+            items: [
+                "menu/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -1002,7 +1018,9 @@ module.exports = {
         {
             type: "category",
             label: "Message",
-            items: [{
+            items: [
+                "message/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -1075,7 +1093,9 @@ module.exports = {
         {
             type: "category",
             label: "Pagination",
-            items: [{
+            items: [
+                "pagination/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -1127,7 +1147,9 @@ module.exports = {
         {
             type: "category",
             label: "Popup",
-            items: [{
+            items: [
+                "popup/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -1185,7 +1207,9 @@ module.exports = {
         {
             type: "category",
             label: "Ribbon",
-            items: [{
+            items: [
+                "ribbon/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -1264,7 +1288,9 @@ module.exports = {
         {
             type: "category",
             label: "Sidebar",
-            items: [{
+            items: [
+                "sidebar/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -1362,7 +1388,9 @@ module.exports = {
         {
             type: "category",
             label: "Slider",
-            items: [{
+            items: [
+                "slider/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -1439,7 +1467,9 @@ module.exports = {
         {
             type: "category",
             label: "Tabbar",
-            items: [{
+            items: [
+                "tabbar/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -1516,7 +1546,9 @@ module.exports = {
         {
             type: "category",
             label: "Timepicker",
-            items: [{
+            items: [
+                "timepicker/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -1579,7 +1611,9 @@ module.exports = {
         {
             type: "category",
             label: "Toolbar",
-            items: [{
+            items: [
+                "toolbar/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -1665,7 +1699,9 @@ module.exports = {
         {
             type: "category",
             label: "Tree",
-            items: [{
+            items: [
+                "tree/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -1809,7 +1845,9 @@ module.exports = {
         {
             type: "category",
             label: "TreeGrid",
-            items: [{
+            items: [
+                "treegrid/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
@@ -2005,7 +2043,9 @@ module.exports = {
         {
             type: "category",
             label: "Window",
-            items: [{
+            items: [
+                "window/index",
+                {
                     type: "category",
                     label: "API",
                     items: [
