@@ -5,7 +5,7 @@ title: contextmenu
 
 @short: fires on calling a context menu for an item
 
-```todoapi ```
+```tododeprecated ``` 
 
 @params:
 - id   		string,number			the id of a right-clicked item

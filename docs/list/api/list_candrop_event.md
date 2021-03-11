@@ -5,18 +5,12 @@ title: canDrop
 
 @short: fires when a dragged item is over a target item
 
-```todoapi ```
-
-@params:
-- data		object		data object
-- e		    Event		a native event object
-
+@signature: canDrop: (data: object, events: MouseEvent) => void;
 
 @example:
 list.events.on("CanDrop", function(data, events) {
     // your logic here
 });
-
 
 
 @template: api_event

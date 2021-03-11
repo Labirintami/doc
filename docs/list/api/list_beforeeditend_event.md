@@ -5,11 +5,11 @@ title: beforeEditEnd
 
 @short: fires before editing of an item is ended
 
-```todoapi ```
+@signature: beforeEditEnd: (value: string, id: string | number) => void | boolean;
 	
 @params:
 - value		string		the value of an item
-- id		string|number		the id of an item
+- id		string | number		the id of an item
 
 @returns:
 - result	boolean		false - to prevent closing of an editor, otherwise true

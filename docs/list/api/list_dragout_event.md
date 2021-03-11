@@ -5,11 +5,7 @@ title: dragOut
 
 @short: fires when an item is dragged out of a potential target
 
-```todoapi ```
-
-@params:
-- data		object		data object
-- e		    Event		a native event object
+@signature: dragOut: (data: object, events: MouseEvent) => void;
 
 
 @example:

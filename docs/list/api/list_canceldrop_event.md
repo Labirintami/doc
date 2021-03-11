@@ -5,19 +5,12 @@ title: cancelDrop
 
 @short: fires on moving a mouse pointer out of item's borders while dragging the item
 
-```todoapi ```
-
-@params:
-- data		object		data object
-- e		    Event		a native event object
-
+@signature: cancelDrop: (data: object, events: MouseEvent) => void;
 
 @example:
 list.events.on("CancelDrop", function(data, events) {
     // your logic here
 });
-
-
 
 @template: api_event
 @descr:

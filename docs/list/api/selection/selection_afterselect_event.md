@@ -1,16 +1,15 @@
 ---
-sidebar_label: 
-title: 
+sidebar_label: afterSelect
+title: afterSelect
 ---          
 
 @short: fires after selecting an item
 
+@signature: afterSelect: (id: string) => void;
+
 
 @params:
 - id    string  the id of an item
-
-
-
 
 @example:
 list.selection.events.on("AfterSelect", function(id) {

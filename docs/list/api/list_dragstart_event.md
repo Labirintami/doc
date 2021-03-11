@@ -5,19 +5,12 @@ title: dragStart
 
 @short: fires when dragging of an item has started 
 
-```todoapi ```
-
-@params:
-- data		object		data object
-- e		    Event		a native event object
-
+@signature: focusChange: (focusIndex: number, id: string) => void;
 
 @example:
 list.events.on("DragStart", function(data, events) {
     // your logic here
 });
-
-
 
 @template: api_event
 @descr:

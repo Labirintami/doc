@@ -5,12 +5,11 @@ title: doubleClick
 
 @short: fires on double clicking an item
 
-```todoapi ```
+@signature: doubleClick: (id: string | number, e: Event) => void;
 
 @params:
-- id 	string,number 		the id of a clicked item
+- id 	string, number 		the id of a clicked item
 - e 	Event 				a native event object
-
 
 @example:
 list.events.on("DoubleClick", function(id, e){

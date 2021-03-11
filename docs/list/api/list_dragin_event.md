@@ -5,21 +5,12 @@ title: dragIn
 
 @short: fires when an item is dragged to another potential target
 
-```todoapi ```
-
-@params:
-- data		object		data object
-- e		    Event		a native event object
-
-
+@signature: dragIn: (data: object, events: MouseEvent) => void | boolean;
 
 @example:
 list.events.on("DragIn", function(data, events) {
     // your logic here
 });
-
-
-
 
 @template: api_event
 @descr:

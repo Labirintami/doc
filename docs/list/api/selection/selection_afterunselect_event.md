@@ -1,16 +1,14 @@
 ---
-sidebar_label: 
-title: 
+sidebar_label: afterUnSelect
+title: afterUnSelect
 ---          
 
 @short: fires after unselecting an item
 
+@signature: afterUnSelect: (id: string) => void;
 
 @params:
 - id    string  the id of an item
-
-
-
 
 @example:
 list.selection.events.on("AfterUnSelect", function(id) {

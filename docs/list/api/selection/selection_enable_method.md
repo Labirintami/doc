@@ -1,13 +1,11 @@
 ---
-sidebar_label: 
-title: 
+sidebar_label: enable
+title: enable
 ---          
 
 @short: enables selection of items in List
 
-
-
-
+@signature: enable(): void;
 
 @example:
 list.selection.enable();

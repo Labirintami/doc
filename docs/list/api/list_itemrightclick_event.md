@@ -5,12 +5,11 @@ title: itemRightClick
 
 @short: fires on right clicking an item
 
-```todoapi ```
+@signature: itemRightClick: (id: string | number, e: MouseEvent) => void;
 
 @params:
 - id   		string,number			the id of a right-clicked item
-- e			Event					a native event object
-
+- e			MouseEvent				an event object
 
 @example:
 list.events.on("itemRightClick", function(id, e){

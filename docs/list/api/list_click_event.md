@@ -5,10 +5,10 @@ title: click
 
 @short: fires on clicking an item
 
-```todoapi ```
+@signature: click: (id: string | number, e: Event) => void;
 
 @params:
-- id		string,number			the id of a clicked item
+- id		string, number			the id of a clicked item
 - e			Event					a native event object
 
 

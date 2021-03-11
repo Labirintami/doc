@@ -5,10 +5,10 @@ title: beforeEditStart
 
 @short: fires before editing of an item has started
 
-```todoapi ```
+@signature: beforeEditStart: (id: string | number) => void | boolean;
 	
 @params:
-- id		string|number		the id of an item
+- id		string | number		the id of an item
 
 @returns:
 - result		boolean		false- to block item editing, true otherwise

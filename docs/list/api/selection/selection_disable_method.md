@@ -1,13 +1,11 @@
 ---
-sidebar_label: 
-title: 
+sidebar_label: disable
+title: disable
 ---          
 
 @short: disables selection of items in List
 
-
-
-
+@signature: disable(): void;
 
 @example:
 list.selection.disable();

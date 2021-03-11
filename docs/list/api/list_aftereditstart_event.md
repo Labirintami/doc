@@ -5,11 +5,10 @@ title: afterEditStart
 
 @short: fires after editing of an item has started
 
-```todoapi ```
+@signature: afterEditStart: (id: string | number) => void;
 	
 @params:
 - id		string|number		the id of an item
-
 
 @example:
 list.events.on("AfterEditStart", function(id){

@@ -5,11 +5,7 @@ title: beforeDrop
 
 @short: fires before the user has finished dragging an item and released the mouse button
 
-```todoapi ```
-
-@params:
-- data		object		data object
-- e		    Event		a native event object
+@signature: beforeDrop: (data: object, events: MouseEvent) => void | boolean;
 
 @returns:
 - result	boolean		false - to block the default action, otherwise true

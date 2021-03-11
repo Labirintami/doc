@@ -5,12 +5,7 @@ title: afterDrop
 
 @short: fires before the user has finished dragging an item but after the mouse button is released 
 
-```todoapi ```
-
-@params:
-- data		object		data object
-- e		    Event		a native event object
-
+@signature: afterDrop: (data: object, events: MouseEvent) => void;
 
 @example:
 list.events.on("AfterDrop", function(data, events) {

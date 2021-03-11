@@ -5,18 +5,12 @@ title: afterDrag
 
 @short: fires after dragging of an item is finished
 
-```todoapi ```
-
-@params:
-- data		object		data object
-- e		    Event		a native event object
-
+@signature: afterDrag: (data: object, events: MouseEvent) => void;
 
 @example:
 list.events.on("AfterDrag", function(data, events) {
     // your logic here
 });
-
 
 @template: api_event
 @descr:
