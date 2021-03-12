@@ -3,13 +3,62 @@ sidebar_label: Layout Patterns
 title: Layout Patterns
 ---          
 
-Layout patterns are predefined combinations of [rows and columns](layout/layout_structure.md) that provide you with various options of arranging cells inside of a layout in a neat structure.
+Layout patterns are predefined combinations of [rows and columns](layout/layout_structure.md) that provide you with various options of arranging cells inside of a layout in a neat structure. The patterns are named in accordance with their structure. Each scheme is similar to a Latin letter.
 
-dhtmlxLayout provides the following predefined patterns:
+Click on the desired pattern to see its example in Snippet Tool.
+
+DHTMLX Layout provides the following predefined patterns:
 
 ![](../assets/layout/1c.png)
 
-<a href="https://snippet.dhtmlx.com/mzlodj28" target="_blank"><img src="../assets/layout/1c.png" style="margin: 0px 20px 0px 0px;" alt="layout_1c"/></a>
+[![](../assets/layout/1c.png)](https://snippet.dhtmlx.com/7p6m9j8a) 
+[![](../assets/layout/2e.png)](https://snippet.dhtmlx.com/059r3ckk) 
+[![](../assets/layout/2u.png)](https://snippet.dhtmlx.com/emyepzjw)
+
+[![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq) 
+[![](../assets/layout/3j.png)](https://snippet.dhtmlx.com/zfzzwc91) 
+[![](../assets/layout/3l.png)](https://snippet.dhtmlx.com/d50lu8b6) 
+
+[![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq) [![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq) [![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq) [![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq) [![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq) [![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq) [![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq)
+
+[![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq)
+[![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq)
+[![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq)
+[![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq)
+[![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq)
+[![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq)
+[![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq)
+[![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq)
+[![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq)
+[![](../assets/layout/3e.png)](https://snippet.dhtmlx.com/he0we8zq)
+
+<iframe src="https://snippet.dhtmlx.com/7p6m9j8a?mode=result" frameborder="0" class="snippet_iframe" width="50%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/059r3ckk?mode=result" frameborder="0" class="snippet_iframe" width="50%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/emyepzjw?mode=result" frameborder="0" class="snippet_iframe" width="75%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/he0we8zq?mode=result" frameborder="50" class="snippet_iframe" width="75%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/g4orn8hj?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/zfzzwc91?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/d50lu8b6?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/1kauuuy5?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/6uhpzjli?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="450"></iframe>
+
+<iframe src="https://snippet.dhtmlx.com/6uhpzjli?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/6uhpzjli?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/6uhpzjli?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/6uhpzjli?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/6uhpzjli?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/6uhpzjli?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/6uhpzjli?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/6uhpzjli?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/6uhpzjli?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/6uhpzjli?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/6uhpzjli?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="450"></iframe>
+<iframe src="https://snippet.dhtmlx.com/6uhpzjli?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="450"></iframe>
+
+
+
+
+<!-- <a href="https://snippet.dhtmlx.com/mzlodj28" target="_blank"><img src="../assets/layout/1c.png" style="margin: 0px 20px 0px 0px;" alt="layout_1c"/></a> -->
 <a href="https://snippet.dhtmlx.com/1oqx20ve" target="_blank"><img src="layout/2e.png" alt="layout_2e"/></a>
 <a href="https://snippet.dhtmlx.com/yr9mapji" target="_blank"><img src="layout/2u.png" style="margin: 0px 20px 0px 0px;" alt="layout_2u"/></a>
 <a href="https://snippet.dhtmlx.com/v0w2p60c" target="_blank"><img src="layout/3e.png" alt="layout_3e"/></a>
@@ -52,6 +101,4 @@ dhtmlxLayout provides the following predefined patterns:
 <a href="https://snippet.dhtmlx.com/tgw8jcn1" target="_blank"><img src="layout/7h.png" alt="layout_7h"/></a>
 <a href="https://snippet.dhtmlx.com/4zxdx6hy" target="_blank"><img src="layout/7i.png" alt="layout_7i"/></a>
 
-The patterns are named in accordance with their structure. Each scheme is similar to a Latin letter.
-
-Click on the desired pattern to see its example in Snippet Tool. 
+ 
