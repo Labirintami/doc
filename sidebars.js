@@ -80,7 +80,7 @@ module.exports = {
             "calendar/localizing_calendar",
             "calendar/operating_calendar",
             "calendar/datepicker",
-            "calendar/api",
+            // "calendar/api",
             "calendar/customization",
             "calendar/handling_events",
             "calendar/migration",

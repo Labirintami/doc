@@ -3,7 +3,7 @@ sidebar_label: Work with DataView
 title: Work with DataView
 ---          
 
-``` todo
+
 
 Setting focus on item
 --------------------------
@@ -134,4 +134,3 @@ Using Selection API
 
 For information on using Selection API, read [Work with Selection Object](dataview/usage_selection.md).
 
-``` todo

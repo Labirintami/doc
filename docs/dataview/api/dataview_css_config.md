@@ -3,7 +3,7 @@ sidebar_label: css
 title: css
 ---          
 
-``` todo
+
 
 @short: adds a CSS class(es) to the component
 
@@ -83,5 +83,3 @@ https://snippet.dhtmlx.com/kpnzizbf	Dataview. Custom Item Styles
 
 @related:
 dataview/customization.md
-
-``` todo
