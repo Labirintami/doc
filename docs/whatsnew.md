@@ -1,6 +1,6 @@
 ---
-sidebar_label: What's New
-title: What's New
+sidebar_label: What's new
+title: What's new
 ---
 
 Before updating DHTMLX to the latest version, please check the [Migration to Newer Versions](migration/index.md) guide to avoid possible breakdowns.

@@ -1,13 +1,11 @@
 ---
-sidebar_label: Using DHTMLX with TypeScript
-title: Using DHTMLX with TypeScript
+sidebar_label: TypeScript support
+title: TypeScript support
 ---          
-
-``` todo
 
 The dhtmlxSuite library of version 6.5 and higher lets you work with DHTMLX components faster and more effectively by using TypeScript definitions.
 
-<a href="https://snippet.dhtmlx.com/basic"  target="_blank"><img src="guides/typescript1.png"></a>
+![](../assets/guides/typescript1.png)
 
 The library provides a built-in support of Typescript that should work out of the box.
 
@@ -18,7 +16,3 @@ The library provides a built-in support of Typescript that should work out of th
 The main advantage of TypeScript is that the app development becomes much easier, safety, and productive. Checking the types together with autocompletion will help you to avoid common mistakes and, therefore, to write a more stable code.  
 
 Moreover, using TypeScript is a good practice as all modern IDE will provide suggestions and type checking for your code created with DHTMLX.
-
-
-
-``` todo

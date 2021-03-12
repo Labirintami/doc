@@ -4,10 +4,6 @@ module.exports = {
       type: "doc",
       id: "index",
     },
-    {
-      type: "doc",
-      id: "whatsnew",
-    },
     //todo How to start нет (папка tutorial, они сильно устрели)
     {
       type: "category",
@@ -2336,5 +2332,43 @@ module.exports = {
     },
 
     // end Helpers
+
+    // start Common features
+    {
+      type: "category",
+      label: "Common features",
+      items: [
+        "guides/using_typescript",
+        "guides/touch_support",
+        // Localization todo,
+        // ARIA todo,
+        // Keyboard support todo
+        // Стилизация todo
+        // Frameworks support (Angular, React, Vue)
+        // https://js.devexpress.com/DevExtreme/Guide/Common/TypeScript_Support/Reference_TypeScript_Definitions/
+      ],
+    },
+    // end Common features
+
+    {
+      type: "category",
+      label: "Creating app and binding widgets",
+      items: [
+        // With HTML and Layout,
+        // With Frameworks
+        {
+          type: "category",
+          label: "With Optimus",
+          items: [
+            "optimus_guides/index",
+            "optimus_guides/how_to_start_optimus",
+          ],
+        },
+      ],
+    },
+    {
+      type: "doc",
+      id: "whatsnew",
+    },
   ],
 };
