@@ -31,7 +31,7 @@ Check [online samples for dhtmlxColorPicker](https://docs.dhtmlx.com/suite/sampl
 	<tr>
 		<td id="data" class='topics'>		  
 		    <ul id="data_sublist" >                    
-            		<li>colorpicker/how_to_start.md</li>
+            		[](colorpicker/how_to_start.md)
                     <li>colorpicker/configuration.md</li>
                     <li>colorpicker/localizing_colorpicker.md</li>   
                     <li>colorpicker/manipulating_colorpicker.md</li>
