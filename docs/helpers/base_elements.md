@@ -3,10 +3,6 @@ sidebar_label: CSS classes of base elements
 title: CSS classes of base elements
 ---          
 
-``` todo
-
-
-
 The DHTMLX library provides a set of CSS classes that you can add to HTML elements to style them in your web project outside DHTMLX widgets. 
 
 The principle of these CSS classes' naming is based on the [BEM](https://en.bem.info/methodology/) methodology. 
@@ -21,26 +17,19 @@ Block names and element names are separated by a double underscore: *block__elem
 
 Block and elements' names are separated from modifier names by a double hyphen: *block--modifier*, *block__element--modifier*.
 
-{{note The **'dhx'** prefix is used at the beginning of all class names in the DHTMLX library
-}}
+{{note The **'dhx'** prefix is used at the beginning of all class names in the DHTMLX library}}
 
 
-### The full list of CSS classes of the DHTMLX library you can use to style HTML elements is described below.
+**The full list of CSS classes of the DHTMLX library you can use to style HTML elements is described below.**
 
-Form group
------------
+## Form group
 
 ### Block 
 
-{{api
-
 - <b>dhx_form-group</b> - Use this class to apply the same formatting to different HTML elements at once.  It includes modifiers for manipulating the appearance and state of a layout.
 
-}}
 
 ### Modifiers
-
-{{api
 
 - <b>dhx_form-group--no-message-holder</b> - Removes the bottom margin where a text for <br/> a premessage could be placed
 
@@ -60,7 +49,6 @@ Form group
 
 - <b>dhx_form-group--textarea</b> - Add this class to the form group, <br/> which contains a &lt;textarea&gt; element, to style it 
 
-}}
 
 Here's what markup looks like using a form-group example:
 
@@ -84,20 +72,13 @@ Here's what markup looks like using a form-group example:
 </div>
 ~~~
 
-Button
------------
+## Button
 
 ### Block
 
-{{api
-
 - <b>dhx_button</b> - Add this class to a &lt;button&gt; element to reset/normalize default browser styles.
 
-}}
-
 ### Elements
-
-{{api
 
 - <b>dhx_button__icon</b> - Container for an icon
 
@@ -107,11 +88,7 @@ Button
 
 - <b>dhx_button__loading-icon</b> - Use this class together with the "dhx_button__loading" <br/> class to create an icon container for the loading mode 
 
-}}
-
 ### Modifiers
-
-{{api
 
 - <b>dhx_button--circle</b> - Use this class either to add rounded corners to a button with value <br/> or to create a circular button that contains only an icon
 
@@ -137,8 +114,6 @@ Button
 
 - <b>dhx_button--color_success</b> - Green button (#0ab169). <br/> Use this class together with the 'view' modifier 
 
-}}
-
 Here is an example how you can specify a markup for a button:
 
 ~~~html
@@ -152,43 +127,29 @@ Here is an example how you can specify a markup for a button:
 </button>
 ~~~
 
-Label
------------
+## Label
 
 ### Block
 
-{{api
-
 - <b>dhx_label</b> - Add this class to a &lt;label&gt; element inside a form group to style it
 
-}}
-
-You can style a < label > element, as in:
+You can style a &lt;label&gt; element, as in:
 
 ~~~html
 <label for="element-id" class="dhx_label">Email</label>
 ~~~
 
-Checkbox
------------
+## Checkbox
 
 ### Block
 
-{{api
-
 - <b>dhx_checkbox</b> - Add this class to the "dhx_form-group" class inside a &lt;label&gt; element to create a label for a checkbox.
 
-}}
-
 ### Elements
-
-{{api
 
 - <b>dhx_checkbox__input</b> - Add this class to the &lt;input type='checkbox'&gt; element <br/> to hide a native browser checkbox but save its behavior
 
 - <b>dhx_checkbox__visual-input</b> - Add this class to a &lt;span&gt; element to display <br/> a checkbox with its native browser behavior visually
-
-}}
 
 You can change the appearance of a native browser checkbox by using a markup given below:
 
@@ -206,26 +167,17 @@ You can change the appearance of a native browser checkbox by using a markup giv
 </label>
 ~~~
 
-Radiobutton
------------
+## Radiobutton
 
 ### Block
 
-{{api
-
 - <b>dhx_radiobutton</b> - Add this class to the "dhx_form-group" class inside a &lt;label&gt; element to create a label for a radiobutton.
 
-}}
-
 ### Elements
-
-{{api
 
 - <b>dhx_radiobutton__input</b> - Add this class to the &lt;input type='radiobutton'&gt; <br/> element to hide a native browser radiobutton but save its behavior
 
 - <b>dhx_radiobutton__visual-input</b> - Add this class to a &lt;span&gt; element  to display <br/> a radiobutton with its native browser behavior visually
-
-}}
 
 You can apply a markup to style a radiobutton, like this:
 
@@ -243,20 +195,13 @@ You can apply a markup to style a radiobutton, like this:
 </label>
 ~~~
 
-Input
------------
+## Input
 
 ### Block
 
-{{api
-
 - <b>dhx_input</b> - Add this class to an &lt;input type='text'&gt; element to style it
 
-}}
-
 ### Elements
-
-{{api
 
 - <b>dhx_input__wrapper</b> - Wrapper for an input container and caption
 
@@ -266,19 +211,13 @@ Input
 
 - <b>dhx_input__caption</b> - Container for an input caption
 
-}}
-
 ### Modifiers
-
-{{api
 
 - <b>dhx_input--icon-padding</b> - Apply this class to create a special padding inside <br/> an input where an icon will be placed
 
 - <b>dhx_input--textarea</b> - Apply this class to style a &lt;textarea&gt; element
 
 - <b>dhx_input--textinput</b> - Removes all borders from an &lt;input&gt; element
-
-}}
 
 An example of the input markup is given below:
 
@@ -304,14 +243,11 @@ An example of the input markup is given below:
 </div>
 ~~~
 
-Select
------------
+## Select
 
 ### Block
 
-
 - <b>dhx_select</b> - Add this class to a &lt;select&gt; tag to style it
-
 
 The markup of select looks like this:
 
@@ -342,14 +278,11 @@ The markup of select looks like this:
 </div>
 ~~~
 
-Extra classes
------------------------
+## Extra classes
 
 The DHTMLX library also provides you with a set of CSS classes that you can apply to change look and feel of DHTMLX widgets. 
 
 ### List of CSS classes for styling a widget:
-
-{{api
 
 - <b>dhx_widget--bg_white</b> - Sets white background to a widget
 
@@ -375,7 +308,6 @@ The DHTMLX library also provides you with a set of CSS classes that you can appl
 
 - <b>dhx_widget--no-border_left</b> - Removes the left border of a widget
 
-}}
 
 Here is an example of Ribbon customization:
 
@@ -386,9 +318,6 @@ var ribbon = new dhx.Ribbon({
 ~~~
 
 ### List of CSS classes for styling a Layout cell:
-
-
-{{api
 
 - <b>dhx_layout-cell--bg_white</b> - Sets white background to a layout-cell
 
@@ -414,8 +343,6 @@ var ribbon = new dhx.Ribbon({
 
 - <b>dhx_layout-cell--no-border_left</b> - Removes the left border of a layout-cell
 
-}}
-
 
 An example of customization of a Layout cell is given below:
 
@@ -432,4 +359,3 @@ var layout = new dhx.Layout("layout", {
 });
 ~~~
 
-``` todo
