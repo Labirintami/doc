@@ -20,10 +20,15 @@ const AT_NOTATION_MATCH_REGEXP = /^@(\w+):(.*)/;
 // e.g {{editor    https://snippet.dhtmlx.com/2co9z3bi Calendar. Date Format}}
 const BRACE_NOTATION_REGEXP = /\{\{(\w+)[(?:\r?\n|\r)\s]+((?:.|(?:\r?\n|\r))+?)\}\}/g;
 
+// [](link)
+// e.g [Chart API Overview](api/api_overview.md)
+const EMPTY_LINK_REGEXP = /\[\]\(.+?\)/g;
+
 class FileDataParser {
   #events = {
     bracenotationmatch: null,
     atnotationmatch: null,
+    emptylinkmatch: null,
   };
 
   #fileData = '';
@@ -96,7 +101,7 @@ class FileDataParser {
   }
 
   findAndReplaceATNotation = () => {
-    // TODO: Remove unnecessary whitespace around the edges of js md markup 
+    // TODO: Remove unnecessary whitespace around the edges of js md markup
     const chunks = this.#splitFileDataIntoChunksByATNotation(this.fileData);
 
     if (chunks.length > 0) {
@@ -116,6 +121,17 @@ class FileDataParser {
 
     return this;
   };
+
+  findAndReplaceEmptyLink = () => {
+    this.fileData = this.fileData.replace(EMPTY_LINK_REGEXP, (fullMatch, key, data) => {
+      if (typeof this.#events.emptylinkmatch === 'function') {
+        return this.#events.emptylinkmatch(data, { key, fullMatch });
+      }
+      return data;
+    });
+
+    return this;
+  }
 
   normalizeMarkdownMdLinks = () => {
     this.fileData = this.fileData.replace(MD_LINK_REGEXP, '$1(/$2$4)');

@@ -35,7 +35,7 @@ const onAtNotationMatch = (data, { key }) => {
             const newLink = data.replace(/((?:https?):\/\/[^\s$.?#].[^\s]*)\s*(.*)/, `<a href='$1' target='_blank'>$2</a>`)
             return newLink;
         default:
-            return componentName 
+            return componentName
                 ? wrapDataWithComponent(data, componentName)
                 : data;
     }
@@ -52,6 +52,15 @@ const onBraceNotationMatch = (data, { key, fullMatch }) => {
         default:
             return fullMatch;
     }
+};
+
+const onEmptyLinkMatch = (data, { key, fullMatch, path }) => {
+    const src = fullMatch.substring(fullMatch.indexOf("(") + 1, fullMatch.length - 1);
+    if (src.indexOf(".md") !== -1 || src.indexOf(".") === -1) {
+        const filePath = path + "/" + src;
+        // TODO: Get file title.
+    }
+    return fullMatch;
 };
 
 const onAfterDataTransformation = (data) => {
@@ -261,6 +270,7 @@ module.exports = {
             {
                 onBraceNotationMatch,
                 onAtNotationMatch,
+                onEmptyLinkMatch,
                 onAfterDataTransformation
             }
         ]
