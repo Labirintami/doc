@@ -11,9 +11,9 @@ module.exports = function (fileData) {
   } = this.loaders[this.loaderIndex]?.options || {};
 
   fileDataParser
-    .on('braceNotationMatch', (originalData, props) => (typeof onBraceNotationMatch === 'function') ? onBraceNotationMatch(originalData, { ...props, path: this.context }) : originalData)
-    .on('atNotationMatch', (originalData, props) => (typeof onAtNotationMatch === 'function') ? onAtNotationMatch(originalData, { ...props, path: this.context }) : originalData)
-    .on('emptyLinkMatch', (originalData, props) => (typeof onEmptyLinkMatch === 'function') ? onEmptyLinkMatch(originalData, { ...props, path: this.context }) : originalData);
+    .on('braceNotationMatch', (originalData, props) => (typeof onBraceNotationMatch === 'function') ? onBraceNotationMatch(originalData, { ...props, dir: this.context }) : originalData)
+    .on('atNotationMatch', (originalData, props) => (typeof onAtNotationMatch === 'function') ? onAtNotationMatch(originalData, { ...props, dir: this.context }) : originalData)
+    .on('emptyLinkMatch', (originalData, props) => (typeof onEmptyLinkMatch === 'function') ? onEmptyLinkMatch(originalData, { ...props, dir: this.context }) : originalData);
 
   fileDataParser
     .findAndReplaceATNotation()

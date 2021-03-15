@@ -1,4 +1,5 @@
 const path = require('path');
+const fs = require('fs');
 
 const AT_NOTATION_KEYS = {
     short: 'Short',
@@ -54,11 +55,20 @@ const onBraceNotationMatch = (data, { key, fullMatch }) => {
     }
 };
 
-const onEmptyLinkMatch = (data, { key, fullMatch, path }) => {
+const onEmptyLinkMatch = (data, { key, fullMatch, dir }) => {
     const src = fullMatch.substring(fullMatch.indexOf("(") + 1, fullMatch.length - 1);
-    if (src.indexOf(".md") !== -1 || src.indexOf(".") === -1) {
-        const filePath = path + "/" + src;
-        // TODO: Get file title.
+    if (src.indexOf(".md") !== -1 || src.indexOf(".mdx") !== -1 || src.indexOf(".") === -1) {
+        const array = dir.split("\\");
+        const lastDirItem = array[array.length - 1];
+        const firstSrcItem = src.split("/")[0];
+        if (lastDirItem === firstSrcItem) {
+            array.pop();
+            dir = array.join("/");
+        }
+        const filePath = dir + "/" + src;
+        const data = fs.readFileSync(path.normalize(filePath), "utf8");
+
+        return `[${/.*title: (.+)\r\n/g.exec(data)[1]}]${fullMatch.match(/\(\D+\)/g)[0]}`;
     }
     return fullMatch;
 };
