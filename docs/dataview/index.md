@@ -1,6 +1,6 @@
 ---
-sidebar_label: DataView
-title: DataView
+sidebar_label: DataView overview
+title: DataView overview
 ---          
 
 dhtmlxDataView allows rendering a collection of objects according to a specified template. It will help you to organize data by arranging various objects with similar properties within a common container.
