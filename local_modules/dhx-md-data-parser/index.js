@@ -16,6 +16,10 @@ const MD_LINK_REGEXP = /(\[.+?\])\(([^\s]+?)(\.md)([^\s]*?)\)/g;
 // e.g. '@short:' or '@short: sends a DELETE request to the server'
 const AT_NOTATION_MATCH_REGEXP = /^@(\w+):(.*)/;
 
+// @<text>()
+// e.g. '@short(page.md)'
+const AT_NOTATION_FUNCTION_MATCH_REGEXP = /@(\w+)\((.*)\)/g;
+
 // {{<text> \n|\s <text> \n\s }}
 // e.g {{editor    https://snippet.dhtmlx.com/2co9z3bi Calendar. Date Format}}
 const BRACE_NOTATION_REGEXP = /\{\{(\w+)[(?:\r?\n|\r)\s]+((?:.|(?:\r?\n|\r))+?)\}\}/g;
@@ -28,6 +32,7 @@ class FileDataParser {
   #events = {
     bracenotationmatch: null,
     atnotationmatch: null,
+    atnotationfunctionmatch: null,
     emptylinkmatch: null,
   };
 
@@ -100,7 +105,7 @@ class FileDataParser {
     return this;
   }
 
-  findAndReplaceATNotation = () => {
+  findAndReplaceAtNotation = () => {
     // TODO: Remove unnecessary whitespace around the edges of js md markup
     const chunks = this.#splitFileDataIntoChunksByATNotation(this.fileData);
 
@@ -121,6 +126,17 @@ class FileDataParser {
 
     return this;
   };
+
+  findAndReplaceNotationFunction = () => {
+    this.fileData = this.fileData.replace(AT_NOTATION_FUNCTION_MATCH_REGEXP, (fullMatch, key, data) => {
+      if (typeof this.#events.atnotationfunctionmatch === 'function') {
+        return this.#events.atnotationfunctionmatch(data, { key, fullMatch });
+      }
+      return data;
+    });
+
+    return this;
+  }
 
   findAndReplaceEmptyLink = () => {
     this.fileData = this.fileData.replace(EMPTY_LINK_REGEXP, (fullMatch, key, data) => {

@@ -42,6 +42,14 @@ const onAtNotationMatch = (data, { key }) => {
     }
 };
 
+const onAtNotationFunctionMatch = (data, { key, fullMatch, dir }) => {
+    if (data.indexOf(".md") !== -1 || data.indexOf(".mdx") !== -1 || data.indexOf(".") === -1) {
+        const result = readFile(dir, data);
+        return result ? /@short: (.*)\r\n/g.exec(result)[1] : fullMatch;
+    }
+    return fullMatch;
+}
+
 const onBraceNotationMatch = (data, { key, fullMatch }) => {
     switch(key) {
         case 'note':
@@ -290,6 +298,7 @@ module.exports = {
             {
                 onBraceNotationMatch,
                 onAtNotationMatch,
+                onAtNotationFunctionMatch,
                 onEmptyLinkMatch,
                 onAfterDataTransformation
             }
