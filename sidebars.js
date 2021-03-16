@@ -1408,7 +1408,6 @@ module.exports = {
         {
           type: "category",
           label: "Tabbar",
-          // collapsed: false,
           items: [
             "tabbar/index",
             {
@@ -1416,7 +1415,6 @@ module.exports = {
               label: "API",
               items: [
                 // "calendar/api/api_overview", //todo
-
                 {
                   type: "category",
                   label: "Methods",
@@ -1472,14 +1470,12 @@ module.exports = {
                 },
               ],
             },
-            "tabbar/work_with_tabbar",
-            "tabbar/configuring_tabbar",
-            "tabbar/events",
-            "tabbar/api",
-            "tabbar/customization",
-            "tabbar/migration",
             "tabbar/init",
-            "tabbar/index",
+            "tabbar/configuring_tabbar",
+            "tabbar/work_with_tabbar",
+            "tabbar/customization",
+            "tabbar/events",
+            "tabbar/migration",
           ],
         },
         // end Tabbar
@@ -1488,6 +1484,7 @@ module.exports = {
         {
           type: "category",
           label: "Timepicker",
+          collapsed: false,
           items: [
             "timepicker/index",
             {
@@ -1538,13 +1535,11 @@ module.exports = {
               ],
             },
             "timepicker/initialization",
-            "timepicker/temp_api_timepicker",
-            "timepicker/handling_events",
-            "timepicker/customization",
-            "timepicker/usage",
-            "timepicker/migration",
-            "timepicker/index",
             "timepicker/configuration",
+            "timepicker/usage",
+            "timepicker/customization",
+            "timepicker/handling_events",
+            "timepicker/migration",
           ],
         },
         // end Timepicker
@@ -1604,32 +1599,37 @@ module.exports = {
                 },
               ],
             },
+            "toolbar/how_to_start",
+
+            "toolbar/controls_list",
+            "toolbar/button",
+            "toolbar/customhtmlbutton",
+            "toolbar/image_button",
+            "toolbar/input",
+            "toolbar/menuitem",
+            "toolbar/navitem",
             "toolbar/selectbutton",
+            "toolbar/separator",
+            "toolbar/spacer",
+
+
+
+
             "toolbar/regular_button",
             "toolbar/icon_button",
             "toolbar/object_constructor",
-            "toolbar/spacer",
-            "toolbar/controls_list",
             "toolbar/dhxbutton",
             "toolbar/common_methods",
             "toolbar/image_button_text",
-            "toolbar/how_to_start",
             "toolbar/text",
-            "toolbar/image_button",
-            "toolbar/input",
             "toolbar/api",
-            "toolbar/menuitem",
-            "toolbar/button",
             "toolbar/handling_events",
             "toolbar/customization",
             "toolbar/block",
             "toolbar/load_data",
             "toolbar/migration",
-            "toolbar/navitem",
             "toolbar/index",
             "toolbar/menu_item",
-            "toolbar/separator",
-            "toolbar/customhtmlbutton",
           ],
         },
         // end Toolbar

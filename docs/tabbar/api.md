@@ -1,12 +1,12 @@
 ---
 sidebar_label: Tabbar API
 title: Tabbar API
----          
+---  
+
+```tododelete не используется?``` 
 
 Constructor
 ----------------
-
-
 
 ~~~js
 var tabbar = new dhx.Tabbar("tabbar_container", {
