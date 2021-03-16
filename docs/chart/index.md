@@ -11,7 +11,7 @@ Check [online samples for dhtmlxChart](https://docs.dhtmlx.com/suite/samples/cha
 
 <div class="h2">API reference</div>
 
-- chart/api/refs/chart.md
+[](api/api_overview.md)
 
 <div class="h2">Related resources</div>
 

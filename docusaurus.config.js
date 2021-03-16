@@ -1,4 +1,5 @@
 const path = require('path');
+const fs = require('fs');
 
 const AT_NOTATION_KEYS = {
     short: 'Short',
@@ -35,7 +36,7 @@ const onAtNotationMatch = (data, { key }) => {
             const newLink = data.replace(/((?:https?):\/\/[^\s$.?#].[^\s]*)\s*(.*)/, `<a href='$1' target='_blank'>$2</a>`)
             return newLink;
         default:
-            return componentName 
+            return componentName
                 ? wrapDataWithComponent(data, componentName)
                 : data;
     }
@@ -52,6 +53,34 @@ const onBraceNotationMatch = (data, { key, fullMatch }) => {
         default:
             return fullMatch;
     }
+};
+
+const readFile = (workingDir, filePath) => {
+    let finalPath = workingDir + "/" + filePath;
+
+    if (finalPath.indexOf(".") === -1) {
+        finalPath += !fs.existsSync(finalPath + ".md") ? ".mdx" : ".md";
+    }
+
+    if (!fs.existsSync(finalPath)) {
+        const clippedFilePath = filePath.split("/");
+        clippedFilePath.shift();
+        if (!clippedFilePath.length) {
+            return false;
+        }
+        return readFile(workingDir, clippedFilePath.join("/"));
+    }
+
+    return fs.readFileSync(path.normalize(finalPath), "utf8");
+};
+
+const onEmptyLinkMatch = (data, { key, fullMatch, dir }) => {
+    const filePath = fullMatch.substring(fullMatch.indexOf("(") + 1, fullMatch.length - 1);
+    if (filePath.indexOf(".md") !== -1 || filePath.indexOf(".mdx") !== -1 || filePath.indexOf(".") === -1) {
+        const data = readFile(dir, filePath);
+        return data ? `[${/.*title: (.+)\r\n/g.exec(data)[1]}]${fullMatch.match(/\(\D+\)/g)[0]}` : fullMatch;
+    }
+    return fullMatch;
 };
 
 const onAfterDataTransformation = (data) => {
@@ -261,6 +290,7 @@ module.exports = {
             {
                 onBraceNotationMatch,
                 onAtNotationMatch,
+                onEmptyLinkMatch,
                 onAfterDataTransformation
             }
         ]
