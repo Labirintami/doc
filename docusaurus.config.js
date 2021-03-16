@@ -55,20 +55,30 @@ const onBraceNotationMatch = (data, { key, fullMatch }) => {
     }
 };
 
-const onEmptyLinkMatch = (data, { key, fullMatch, dir }) => {
-    const src = fullMatch.substring(fullMatch.indexOf("(") + 1, fullMatch.length - 1);
-    if (src.indexOf(".md") !== -1 || src.indexOf(".mdx") !== -1 || src.indexOf(".") === -1) {
-        const array = dir.split("\\");
-        const lastDirItem = array[array.length - 1];
-        const firstSrcItem = src.split("/")[0];
-        if (lastDirItem === firstSrcItem) {
-            array.pop();
-            dir = array.join("/");
-        }
-        const filePath = dir + "/" + src;
-        const data = fs.readFileSync(path.normalize(filePath), "utf8");
+const readFile = (workingDir, filePath) => {
+    let finalPath = workingDir + "/" + filePath;
 
-        return `[${/.*title: (.+)\r\n/g.exec(data)[1]}]${fullMatch.match(/\(\D+\)/g)[0]}`;
+    if (finalPath.indexOf(".") === -1) {
+        finalPath += !fs.existsSync(finalPath + ".md") ? ".mdx" : ".md";
+    }
+
+    if (!fs.existsSync(finalPath)) {
+        const clippedFilePath = filePath.split("/");
+        clippedFilePath.shift();
+        if (!clippedFilePath.length) {
+            return false;
+        }
+        return readFile(workingDir, clippedFilePath.join("/"));
+    }
+
+    return fs.readFileSync(path.normalize(finalPath), "utf8");
+};
+
+const onEmptyLinkMatch = (data, { key, fullMatch, dir }) => {
+    const filePath = fullMatch.substring(fullMatch.indexOf("(") + 1, fullMatch.length - 1);
+    if (filePath.indexOf(".md") !== -1 || filePath.indexOf(".mdx") !== -1 || filePath.indexOf(".") === -1) {
+        const data = readFile(dir, filePath);
+        return data ? `[${/.*title: (.+)\r\n/g.exec(data)[1]}]${fullMatch.match(/\(\D+\)/g)[0]}` : fullMatch;
     }
     return fullMatch;
 };
