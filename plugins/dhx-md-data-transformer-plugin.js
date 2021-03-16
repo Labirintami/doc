@@ -5,6 +5,7 @@ module.exports = (context, options) => {
   const {
     onBraceNotationMatch,
     onAtNotationMatch,
+    onAtNotationFunctionMatch,
     onEmptyLinkMatch,
     onAfterDataTransformation
   } = options;
@@ -24,6 +25,7 @@ module.exports = (context, options) => {
                   options: {
                     onBraceNotationMatch,
                     onAtNotationMatch,
+                    onAtNotationFunctionMatch,
                     onEmptyLinkMatch,
                     onAfterDataTransformation,
                   }
