@@ -6,7 +6,6 @@ module.exports = function (fileData) {
   const {
     onBraceNotationMatch,
     onAtNotationMatch,
-    onAtNotationFunctionMatch,
     onEmptyLinkMatch,
     onAfterDataTransformation,
   } = this.loaders[this.loaderIndex]?.options || {};
@@ -14,12 +13,10 @@ module.exports = function (fileData) {
   fileDataParser
     .on('braceNotationMatch', (originalData, props) => (typeof onBraceNotationMatch === 'function') ? onBraceNotationMatch(originalData, { ...props, dir: this.context }) : originalData)
     .on('atNotationMatch', (originalData, props) => (typeof onAtNotationMatch === 'function') ? onAtNotationMatch(originalData, { ...props, dir: this.context }) : originalData)
-    .on('atNotationFunctionMatch',(originalData, props) => (typeof onAtNotationFunctionMatch === 'function') ? onAtNotationFunctionMatch(originalData, { ...props, dir: this.context }) : originalData)
     .on('emptyLinkMatch', (originalData, props) => (typeof onEmptyLinkMatch === 'function') ? onEmptyLinkMatch(originalData, { ...props, dir: this.context }) : originalData);
 
   fileDataParser
-    .findAndReplaceAtNotation()
-    .findAndReplaceNotationFunction()
+    .findAndReplaceATNotation()
     .findAndReplaceBracketNotation()
     .normalizeMarkdownMdLinks()
     .findAndReplaceEmptyLink();
