@@ -1,7 +1,9 @@
 ---
 sidebar_label: Object Constructor
 title: Object Constructor
----          
+---   
+
+```tododelete не используется?``` 
 
 ~~~js
 var mySlider = new dhtmlXSlider({

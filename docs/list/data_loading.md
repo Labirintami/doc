@@ -1,9 +1,11 @@
 ---
 sidebar_label: Loading Data
 title: Loading Data
----          
+---  
 
-``` todo
+```tododelete дубль load_data.md? ``` 
+
+```
 
 To load data from some external file you can use the api/link/dhtmlxlist_load.md command:
 
@@ -301,4 +303,4 @@ myList.load(url, "mytype");
 
 {{sample dhtmlxList/samples/03_loading/11_load_custom_type.html}}
 
-``` todo
+```

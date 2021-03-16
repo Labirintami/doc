@@ -1,9 +1,11 @@
 ---
 sidebar_label: Single Cell Mode
 title: Single Cell Mode
----          
+---  
 
-``` todo
+```tododelete не используется?``` 
+
+```
 
 By default, each item on a sidebar (on the left side) has a cell linked to it (on the right).
 
@@ -35,4 +37,4 @@ mySidebar.cells("someId").setActive();
 
 {{sample dhtmlxSidebar/samples/02_config/08_single_cell_mode.html}}
 
-``` todo
+```

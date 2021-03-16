@@ -1,7 +1,9 @@
 ---
 sidebar_label: Ribbon API
 title: Ribbon API
----          
+---    
+
+```tododelete не используется?``` 
 
 ## Constructor
 

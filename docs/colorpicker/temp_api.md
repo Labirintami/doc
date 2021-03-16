@@ -1,12 +1,14 @@
 ---
 sidebar_label: ColorPicker API 
 title: ColorPicker API 
----          
+---   
+
+```tododelete``` 
 
 Constructor
 ---------------
 
-``` todo
+```
 
 ~~~js
 var colorpicker = new dhx.Colorpicker({
@@ -275,4 +277,4 @@ colorpicker.events.on("ViewChange ",function(view){
 @todo:
 - don't remove, constructor will be used for refs object 
 
-``` todo
+```

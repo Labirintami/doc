@@ -1,9 +1,11 @@
 ---
 sidebar_label: Configuring Items
 title: Configuring Items
----          
+--- 
 
-``` todo
+```tododelete не используется?``` 
+
+```
 
 
 Setting/getting an item's text
@@ -83,4 +85,4 @@ To get the active item, use the method [getActiveItem()]():
 var actvId = mySidebar.getActiveItem();
 ~~~
 
-``` todo
+```

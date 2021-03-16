@@ -1,9 +1,11 @@
 ---
 sidebar_label: Layout API
 title: Layout API
----          
+---   
 
-``` todo
+```tododelete``` 
+
+```
 
 Constructor
 ----------------
@@ -455,4 +457,4 @@ var tabbar = new dhx.Tabbar("tabbar", {activeView:"3",
 - isAccordion?<br/>
 - attach()?<br/>
 
-``` todo
+```

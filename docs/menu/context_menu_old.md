@@ -1,7 +1,9 @@
 ---
 sidebar_label: Creating Context Menu
 title: Creating Context Menu
----          
+---        
+
+```tododelete``` 
 
 dhtmlxContextMenu is a component that provides an easy way to add a contextual menu to projects. This component is highly customizable and supports a wide range of features. dhtmlxCustomMenu component can be a good aid for frequently used actions in web sites, help systems, etc.
 

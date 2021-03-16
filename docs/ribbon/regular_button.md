@@ -1,9 +1,11 @@
 ---
 sidebar_label: regularButton Control
 title: regularButton Control
----          
+---  
 
-``` todo
+```tododelete не используется?``` 
+
+``` 
 
 This is a material design button that has two varieties: default and 'flat'.
 
@@ -60,4 +62,4 @@ Just like ribbon/button.md, iconButton can be hidden, disabled and can have a to
 shall I repeat the text from Button about hide, disable, tooltip and twoState, or a simple link (as it is now) will do?
 
 
-``` todo
+```

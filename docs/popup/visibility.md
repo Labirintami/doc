@@ -1,7 +1,9 @@
 ---
 sidebar_label: Managing Popup's Visibility 
 title: Managing Popup's Visibility 
----          
+---  
+
+```tododelete не используется?``` 
 
 To manage visibility of a pop-up window you have 3 methods: 
 

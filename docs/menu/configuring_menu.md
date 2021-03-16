@@ -1,9 +1,12 @@
 ---
 sidebar_label: Menu Controls
 title: Menu Controls
----          
+---     
 
-``` todo
+```tododelete возможно дубль configuring_menu_items.md ``` 
+
+
+```
 
 In this article you'll find the controls you can use in dhtmlxMenu. Their descriptions contain lists of attributes and examples of adding the controls into Menu on the fly.
 
@@ -205,4 +208,4 @@ menu.data.parse(new_options);
 add links to Menu API and article on work with menu<br/>
 add links to samples
 
-``` todo
+```

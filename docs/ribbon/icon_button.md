@@ -1,9 +1,11 @@
 ---
 sidebar_label: iconButton Control
 title: iconButton Control
----          
+---  
 
-``` todo
+```tododelete не используется?``` 
+
+```
 
 This is a button with an icon. It does not have a caption unlike ribbon/button.md, but can also have a badge with a number and can be _twoState_.
 
@@ -53,4 +55,4 @@ Just like ribbon/button.md, iconButton can be hidden and disabled. You can also 
 @todo:
 shall I repeat the text from Button about hide, disable, tooltip and twoState, or a simple link (as it is now) will do? no tooltips for ribbon?
 
-``` todo
+```

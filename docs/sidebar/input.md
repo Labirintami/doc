@@ -1,9 +1,11 @@
 ---
 sidebar_label: Input
 title: Input
----          
+--- 
 
-``` todo
+```tododelete не используется?``` 
+
+```
 
 This is an input field for entering some text. 
 
@@ -97,4 +99,4 @@ Check the full list of available operations in the [Sidebar API](sidebar/api/ref
 @todo:
 add image, add link to sample<br/>
 
-``` todo
+```

@@ -1,9 +1,11 @@
 ---
 sidebar_label: imageButtonText Control
 title: imageButtonText Control
----          
+---  
 
-``` todo
+```tododelete не используется?``` 
+
+```
 
 A button with an image and a text label. Like ribbon/button.md, it can be TwoState and have a badge with a number.
 
@@ -48,4 +50,4 @@ Just like ribbon/button.md, iconButton can be hidden or disabled. You can also m
 @todo:
 shall I repeat the text from Button about hide, disable, tooltip and twoState, or a simple link (as it is now) will do?
 
-``` todo
+```

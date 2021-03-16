@@ -1,3 +1,0 @@
-@link:cell/attach_mtb.md
-
-<!-- todo -->

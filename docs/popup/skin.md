@@ -3,7 +3,7 @@ sidebar_label: Skinning Popup
 title: Skinning Popup
 ---          
 
-
+```tododelete не используется?``` 
 
 The library provides 4 predefined skins:
 

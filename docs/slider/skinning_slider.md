@@ -1,7 +1,9 @@
 ---
 sidebar_label: Skinning Slider
 title: Skinning Slider
----          
+---   
+
+```tododelete не используется?``` 
 
 The skin can be set for dhtmlxSlider in one of the following ways:
 

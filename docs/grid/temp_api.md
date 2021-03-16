@@ -1,9 +1,11 @@
 ---
 sidebar_label: Grid API 
 title: Grid API 
----          
+---     
 
-``` todo
+```tododelete``` 
+
+```
 
 Constructor
 ----------------
@@ -921,4 +923,4 @@ grid.events.on("FooterCellDblClick", function(column,e){
 - add pages/links for objects (events, export)?<br/>
 - css config
 
-``` todo
+```

@@ -3,7 +3,9 @@ sidebar_label: Attaching Content to Popup
 title: Attaching Content to Popup 
 ---          
 
-``` todo
+```tododelete не используется?``` 
+
+```
 
 dhtmlxPopup can have various content, such as:
 
@@ -281,4 +283,4 @@ myPop.clear();
 
 If you decide to attach some content over the existing one, note that before attaching the new content dhtmlxPopup will call the clear() method automatically.
 
-``` todo
+```
