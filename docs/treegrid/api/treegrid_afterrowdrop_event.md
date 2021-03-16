@@ -3,9 +3,9 @@ sidebar_label: afterRowDrop
 title: afterRowDrop
 ---          
 
+@short: fires before the user has finished dragging a row but after the mouse button is released
 
-@short:
-fires before the user has finished dragging a row but after the mouse button is released
+@signature: afterRowDrop: (data: object, events: MouseEvent) => void;
 
 @params:
 - data		object		data object
@@ -15,7 +15,6 @@ fires before the user has finished dragging a row but after the mouse button is 
 treegrid.events.on("AfterRowDrop", function(data, events) {
     // your logic here
 });
-
 
 @template: api_event
 @descr:

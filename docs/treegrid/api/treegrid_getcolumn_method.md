@@ -3,22 +3,19 @@ sidebar_label: getColumn
 title: getColumn
 ---          
 
-``` todo
-
 @short: returns an object with attributes of a column
 
+@signature: getColumn(colId: string | number): object;
 
 @params:
-- colId		string,number		the id of a column
+- colId		string | number		the id of a column
 
 @returns:
 - config		object		an object with attributes of a column
 
-
 @example:
 var column = grid.getColumn("b"); // ->
 // {width: 100, id: "b", header: Array(1), $cellCss: {…}, type: "string"}
-
 
 @template: api_method
 @descr:
@@ -179,4 +176,4 @@ The returned object contains the following set of properties:
 
 @changelog:
 
-``` todo
+

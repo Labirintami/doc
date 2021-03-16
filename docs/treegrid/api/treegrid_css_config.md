@@ -3,13 +3,9 @@ sidebar_label: css
 title: css
 ---          
 
-@short: 
-adds style classes to TreeGrid
+@short: adds style classes to TreeGrid
 
-
-
-
-@type: string
+@signature: css?: string;
 
 @example: 
 <style>

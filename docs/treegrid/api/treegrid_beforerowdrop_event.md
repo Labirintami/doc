@@ -4,7 +4,9 @@ title: beforeRowDrop
 ---          
 
 @short: fires before the user has finished dragging and released the mouse button over a target row
-	
+
+@signature: beforeRowDrop: (data: object, events: MouseEvent) => void | boolean;
+
 @params:
 - data		object		data object
 - e		    Event		a native event object
@@ -12,13 +14,11 @@ title: beforeRowDrop
 @returns:
 - result	boolean		false - to block the default action, otherwise true
 
-
 @example:
 treegrid.events.on("BeforeRowDrop", function(data, events){
 	// your logic here
     return false;
 });
-
 
 @template:	api_event
 @descr:
@@ -41,8 +41,6 @@ The data object contains the following parameters:
 		</tr>
     </tbody>
 </table>
-
-
 
 @changelog: added in v7.0
 

@@ -5,13 +5,10 @@ title: getSortingState
 
 @short: returns the current state of sorting data in TreeGrid
 
-
-@params:
-
+@signature: getSortingState(): object;
 
 @returns:
-- any   object	  an object with the current state of sorting data in the treegrid
-
+- object   object	  an object with the current state of sorting data in the treegrid
 
 @example:
 var state = treegrid.getSortingState(); 

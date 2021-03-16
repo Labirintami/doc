@@ -3,13 +3,9 @@ sidebar_label: spans
 title: spans
 ---          
 
-@short: 
-describes the configuration of cols/rows spans
+@short: describes the configuration of cols/rows spans
 
-
-
-
-@type: array
+@signature: spans?: array[];
 
 @example: 
 var grid = new dhx.Grid("grid_container", {

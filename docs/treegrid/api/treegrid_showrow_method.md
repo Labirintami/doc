@@ -5,20 +5,16 @@ title: showRow
 
 @short: makes a specified row visible on a page
 
+@signature: showRow(id: string | number): void;
 
 @params:
-- rowId	    string|number   the id of a row
-
-
-
+- rowId	    string | number   the id of a row
 
 @example:
 treegrid.showRow(rowId);
 
-
 @template: api_method
 @descr:
-
 
 @relatedsample: treegrid/03_usage/17_show_hide_row.html
 
@@ -30,4 +26,3 @@ treegrid/api/treegrid_isrowhidden_method.md
 
 @changelog:
 added in v7.0
-

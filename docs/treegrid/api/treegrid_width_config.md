@@ -3,13 +3,9 @@ sidebar_label: width
 title: width
 ---          
 
-@short: 
-sets the width of a grid
+@short: sets the width of a grid
 
-
-
-
-@type: number
+@signature: width?: number;
 
 @example: 
 var grid = new dhx.Grid("grid_container", {

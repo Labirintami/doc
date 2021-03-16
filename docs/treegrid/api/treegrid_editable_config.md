@@ -3,15 +3,11 @@ sidebar_label: editable
 title: editable
 ---          
 
-@short: 
-enables editing in TreeGrid columns
+@short: enables editing in TreeGrid columns
 
+@signature: editable?: boolean;
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var treegrid = new dhx.TreeGrid("treegrid_container", {

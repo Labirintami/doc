@@ -3,15 +3,11 @@ sidebar_label: fitToContainer
 title: fitToContainer
 ---          
 
-@short: 
-makes grid to fit the size of a container
+@short: makes grid to fit the size of a container
 
+```tododeprecated ``` 
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 <div id="grid_container" style="width:600px;height:400px;"></div>

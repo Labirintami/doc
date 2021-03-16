@@ -5,11 +5,9 @@ title: sortable
 
 @short: defines whether sorting on clicking headers of columns is enabled
 
+@signature: sortable?: boolean;
 
 @default: true
-
-
-@type: boolean
 
 @example: 
 var treegrid = new dhx.TreeGrid("treegrid_container", {

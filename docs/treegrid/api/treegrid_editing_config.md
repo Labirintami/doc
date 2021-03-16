@@ -3,15 +3,11 @@ sidebar_label: editing
 title: editing
 ---          
 
-@short: 
-enables editing in Grid columns
+@short: enables editing in Grid columns
 
+```tododeprecated ``` 
 
-@default:
-false
-
-
-@type: boolean
+@default: false
 
 @example: 
 var grid = new dhx.Grid("grid_container", {

@@ -5,13 +5,10 @@ title: expandAll
 
 @short: expands all collapsed tree nodes
 
-
-@params:
-
+@signature: expandAll(): void;
 
 @example:
 treegrid.expandAll();
-
 
 @template: api_method
 @descr:

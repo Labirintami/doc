@@ -3,19 +3,18 @@ sidebar_label: canRowDrop
 title: canRowDrop
 ---          
 
-@short:
-fires when a dragged row is placed over a target row
+@short: fires when a dragged row is placed over a target row
+
+@signature: canRowDrop: (data: object, events: MouseEvent) => void;
 
 @params:
 - data		object		data object
 - e		    Event		a native event object
 
-
 @example:
 treegrid.events.on("CanRowDrop", function(data, events) {
   // your logic here
 });
-
 
 @template: api_event
 @descr:

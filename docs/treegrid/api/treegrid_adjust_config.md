@@ -5,13 +5,7 @@ title: adjust
 
 @short: defines whether the width of columns is automatically adjusted to the width of their content
 
-
-
-
-
-@type: boolean,string
-
-@values: true|false|"header"|"data"
+@signature: adjust?: "data" | "header" | "footer" | boolean;
 
 @default: false
 
@@ -21,7 +15,6 @@ var treegrid = new dhx.TreeGrid("treegrid_container", {
     adjust: true, /*!*/ 
     data: dataset
 });
-
 
 @template:	api_config
 @descr: 

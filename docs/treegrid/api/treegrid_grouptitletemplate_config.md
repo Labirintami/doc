@@ -3,12 +3,9 @@ sidebar_label: groupTitleTemplate
 title: groupTitleTemplate
 ---          
 
-@short: 
-sets a template to the title of a group
+@short: sets a template to the title of a group
 
-
-
-@type:function
+@signature: groupTitleTemplate?: (groupName: string, groupItems: IDataItem[]) => string;
 
 @example: 
 var treegrid = new dhx.TreeGrid("treegrid_container", {
@@ -17,7 +14,6 @@ var treegrid = new dhx.TreeGrid("treegrid_container", {
         return groupName + "count:" + groupItems.length /*!*/
     }
 });
-
 
 @template:	api_config
 @descr: 

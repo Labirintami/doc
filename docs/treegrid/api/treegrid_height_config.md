@@ -3,13 +3,9 @@ sidebar_label: height
 title: height
 ---          
 
-@short: 
-sets the height of a grid
+@short: sets the height of a grid
 
-
-
-
-@type: number
+@signature: height?: number;
 
 @example: 
 var grid = new dhx.Grid("grid_container", {
@@ -18,10 +14,8 @@ var grid = new dhx.Grid("grid_container", {
 	data: dataset
 });
 
-
 @template:	api_config
 @descr: 
-
 
 @related: treegrid/configuration.md#widthheight
 treegrid/initialization.md#initializetreegrid

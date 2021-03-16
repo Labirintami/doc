@@ -5,11 +5,7 @@ title: autoWidth
 
 @short: makes treegrid's columns to fit the size of a treegrid
 
-
-
-
-
-@type: boolean
+@signature: autoWidth?: boolean;
 
 @default: false
 
@@ -20,7 +16,6 @@ var treegrid = new dhx.TreeGrid("treegrid_container", {
     data: dataset
 });
 
-
 @template:	api_config
 @descr: 
 
@@ -29,4 +24,3 @@ var treegrid = new dhx.TreeGrid("treegrid_container", {
 @related: treegrid/configuration.md#autowidthforcolumns
 
 @changelog: added in v6.4
-

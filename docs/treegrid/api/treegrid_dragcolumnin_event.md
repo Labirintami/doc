@@ -3,19 +3,18 @@ sidebar_label: dragColumnIn
 title: dragColumnIn
 ---          
 
-@short:
-fires when a column is dragged to another potential target
+@short: fires when a column is dragged to another potential target
+
+@signature: dragColumnIn: (data: object, events: MouseEvent) => void | boolean;
 
 @params:
 - data		object		data object
 - e		    Event		a native event object
 
-
 @example:
 treegrid.events.on("DragColumnIn", function(data, events) {
     // your logic here
 });
-
 
 @template: api_event
 @descr:
@@ -38,9 +37,7 @@ The data object contains the following parameters:
     </tbody>
 </table>
 
-
 @changelog: added in v7.0
-
 
 @relatedapi:
 treegrid/api/treegrid_dragitem_config.md

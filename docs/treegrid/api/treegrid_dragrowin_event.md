@@ -3,21 +3,18 @@ sidebar_label: dragRowIn
 title: dragRowIn
 ---          
 
+@short: fires when a row is dragged to another potential target
 
-@short:
-fires when a row is dragged to another potential target
+@signature: dragRowIn: (data: object, events: MouseEvent) => void | boolean;
 
 @params:
 - data		object		data object
 - e		    Event		a native event object
 
-
 @example:
 treegrid.events.on("DragRowIn", function(data, events) {
     // your logic here
 });
-
-
 
 @template: api_event
 @descr:

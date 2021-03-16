@@ -3,10 +3,9 @@ sidebar_label: rowCss
 title: rowCss
 ---          
 
-@short: 
-sets style for a row
+@short: sets style for a row
 
-@type: function
+@signature: rowCss?: (row: IRow) => string;
 
 @example: 
 <style>

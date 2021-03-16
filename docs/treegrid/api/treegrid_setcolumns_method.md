@@ -3,15 +3,12 @@ sidebar_label: setColumns
 title: setColumns
 ---          
 
-``` todo
-
 @short: sets configuration for TreeGrid columns
 
+@signature: setColumns(columns: ICol[]): void;
 
 @params:
 - columns	array	an array of objects with configuration of columns
-
-
 
 @example:
 grid.setColumns([
@@ -19,7 +16,6 @@ grid.setColumns([
     { id: "b", header: [{ text: "New header for column b" }] },
 	// more columns objects
 ]);
-
 
 @template: api_method
 @descr:
@@ -171,5 +167,3 @@ Each column object may contain the followings fields:
 @related: treegrid/usage.md#workingwithcolumnsandcells
 
 @changelog:
-
-``` todo

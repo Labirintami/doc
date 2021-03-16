@@ -3,11 +3,9 @@ sidebar_label: columnsAutoWidth
 title: columnsAutoWidth
 ---          
 
-@short: 
-defines whether the width of columns is automatically adjusted to the width of their content
+@short: defines whether the width of columns is automatically adjusted to the width of their content
 
-
-
+```tododeprecated ``` 
 
 @type: boolean,number
 
@@ -18,13 +16,9 @@ var grid = new dhx.Grid("grid_container", {
 	data: dataset
 });
 
-
 @template:	api_config
 @descr: 
 At the moment "number" type defines the number of the last column that should be auto adjusted.
-
-
-
 
 @related: treegrid/configuration.md#autowidthforcolumns
 treegrid/initialization.md#initializetreegrid

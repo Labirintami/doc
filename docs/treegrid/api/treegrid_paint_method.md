@@ -5,23 +5,12 @@ title: paint
 
 @short: repaints a grid on a page
 
-
-@params:
-
-
-
+@signature: paint(): void;
 
 @example:
 grid.paint();
 
-
 @template: api_method
 @descr:
 
-
-
-
-
 @changelog:
-
-

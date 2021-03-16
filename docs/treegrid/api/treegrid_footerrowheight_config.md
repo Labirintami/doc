@@ -3,15 +3,11 @@ sidebar_label: footerRowHeight
 title: footerRowHeight
 ---          
 
-@short: 
-sets the height of rows in the footer
+@short: sets the height of rows in the footer
 
+@signature: footerRowHeight?: number;
 
-@default:
-40
-
-
-@type: number
+@default: 40
 
 @example: 
 var grid = new dhx.Grid("grid_container", {

@@ -5,16 +5,13 @@ title: hideRow
 
 @short: hides a row of TreeGrid
 
+@signature: hideRow(rowId: string | number): void;
 
 @params:
-- rowId	string|number   the id of a row
-
-
-
+- rowId	string | number   the id of a row
 
 @example:
 treegrid.hideRow(rowId);
-
 
 @template: api_method
 @descr:
@@ -29,4 +26,3 @@ treegrid/api/treegrid_isrowhidden_method.md
 
 @changelog:
 added in v7.0
-

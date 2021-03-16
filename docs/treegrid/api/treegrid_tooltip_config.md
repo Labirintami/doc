@@ -5,9 +5,7 @@ title: tooltip
 
 @short: enables a tooltip on hovering over the content of a column
 
-
-@type: boolean
-
+@signature: tooltip?: boolean;
 
 @default: true
 
@@ -18,14 +16,10 @@ var treegrid = new dhx.TreeGrid("treegrid", {
 	tooltip: false /*!*/
 });
 
-
 @template:	api_config
 @descr: 
 
-
 @relatedsample: treegrid/02_configuration/11_hiding_tooltips.html
-
-
 
 @related: treegrid/initialization.md#initializetreegrid
 treegrid/configuration.md#tooltip

@@ -3,11 +3,9 @@ sidebar_label: columns
 title: columns
 ---          
 
-@short: 
-specifies the configuration of grid columns
+@short: specifies the configuration of grid columns
 
-
-@type: array
+@signature: columns?: array[];
 
 @example: 
 var grid = new dhx.Grid("grid_container", {
@@ -19,7 +17,6 @@ var grid = new dhx.Grid("grid_container", {
 	],
 	data: dataset
 });
-
 
 @template:	api_config
 @descr: 

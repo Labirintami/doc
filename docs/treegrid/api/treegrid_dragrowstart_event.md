@@ -3,8 +3,9 @@ sidebar_label: dragRowStart
 title: dragRowStart
 ---          
 
-@short:
-fires when dragging of a row has started
+@short: fires when dragging of a row has started
+
+@signature: dragRowStart: (data: object, events: MouseEvent) => void;
 
 @params:
 - data		object		data object
@@ -14,9 +15,6 @@ fires when dragging of a row has started
 treegrid.events.on("DragRowStart", function(data, events) {
     // your logic here
 });
-
-
-
 
 @template: api_event
 @descr:

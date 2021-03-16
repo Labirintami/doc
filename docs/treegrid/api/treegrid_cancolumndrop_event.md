@@ -3,19 +3,18 @@ sidebar_label: canColumnDrop
 title: canColumnDrop
 ---          
 
-@short:
-fires when a dragged column is placed over a target column
+@short: fires when a dragged column is placed over a target column
+
+@signature: canColumnDrop: (data: object, events: MouseEvent) => void;
 
 @params:
 - data		object		data object
 - e		    Event		a native event object
 
-
 @example:
 treegrid.events.on("CanColumnDrop", function(data, events) {
   // your logic here
 });
-
 
 @template: api_event
 @descr:

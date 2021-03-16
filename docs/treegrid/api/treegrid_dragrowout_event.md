@@ -3,9 +3,9 @@ sidebar_label: dragRowOut
 title: dragRowOut
 ---          
 
+@short: fires when a row is dragged out of a potential target
 
-@short:
-fires when a row is dragged out of a potential target
+@signature: dragRowOut: (data: object, events: MouseEvent) => void;
 
 @params:
 - data		object		data object
@@ -15,8 +15,6 @@ fires when a row is dragged out of a potential target
 treegrid.events.on("DragRowOut", function(data, events) {
     // your logic here
 });
-
-
 
 @template: api_event
 @descr:

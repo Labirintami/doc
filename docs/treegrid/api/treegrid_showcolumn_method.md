@@ -5,12 +5,10 @@ title: showColumn
 
 @short: makes a specified column visible on a page
 
+@signature: showColumn(colId: string | number): void;
 
 @params:
-- colId	string,number	the id of a column
-
-
-
+- colId	string | number	the id of a column
 
 @example:
 grid.showColumn(col);
@@ -26,5 +24,3 @@ grid.showColumn(col);
 @related: treegrid/usage.md#hidingshowingacolumn
 
 @changelog: added in v6.3
-
-

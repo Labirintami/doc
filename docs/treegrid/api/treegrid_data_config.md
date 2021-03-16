@@ -3,13 +3,9 @@ sidebar_label: data
 title: data
 ---          
 
-@short: 
-specifies an array of data objects to set into the grid
+@short: specifies an array of data objects to set into the grid
 
-
-
-
-@type: array
+@signature: data: array[];
 
 @example: 
 var dataset = [

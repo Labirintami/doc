@@ -5,11 +5,13 @@ title: edit
 
 @short: enables editing of a Grid cell
 
+```tododeprecated ``` 
+
+@signature: edit(rowId: string | number, colId: string | number, editorType?: EditorType): void;
 
 @params:
 - row 		string				the id of a row
 - col 		string 				the id of a column
-
 
 
 @example:

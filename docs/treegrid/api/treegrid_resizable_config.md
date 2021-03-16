@@ -5,11 +5,7 @@ title: resizable
 
 @short: defines whether columns can be resized
 
-
-
-
-
-@type: boolean
+@signature: resizable?: boolean;
 
 @example: 
 var treegrid = new dhx.TreeGrid("treegrid_container", {
@@ -17,7 +13,6 @@ var treegrid = new dhx.TreeGrid("treegrid_container", {
     data: dataset,
     resizable: true /*!*/
 }
-
 
 @template:	api_config
 @descr: 

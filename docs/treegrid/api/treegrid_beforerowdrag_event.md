@@ -4,22 +4,21 @@ title: beforeRowDrag
 ---          
 
 @short: fires before dragging of a row has started
+
+@signature: beforeRowDrag: (data: object, events: MouseEvent) => void | boolean;
 	
 @params:
 - data		object		data object
 - e		    Event		a native event object
 
-
 @returns:
 - result	boolean		false - to prevent dragging a row, otherwise true
-
 
 @example:
 treegrid.events.on("BeforeRowDrag", function(data, events){
 	// your logic here
     return false;
 });
-
 
 @template:	api_event
 @descr:
@@ -42,7 +41,6 @@ The data object contains the following parameters:
 		</tr>
     </tbody>
 </table>
-
 
 @changelog: added in v7.0
 

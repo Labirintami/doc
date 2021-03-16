@@ -3,17 +3,14 @@ sidebar_label: addCellCss
 title: addCellCss
 ---          
 
-``` todo
-
 @short: adds a style to a cell
 
+@signature: addCellCss(row: string | number, col: string | number , css: string): void;
 
 @params:
-- row 		string,number 		the id of a row
-- col 		string,number 		the id of a column
+- row 		string | number 		the id of a row
+- col 		string | number 		the id of a column
 - css 		string 				the name of the CSS class
-
-
 
 @example:
 <style>
@@ -36,4 +33,3 @@ grid.addCellCss("1", "b", "myCustomClass");
 @changelog:
 
 
-``` todo

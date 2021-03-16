@@ -5,11 +5,10 @@ title: addSpan
 
 @short: adds a rows/cols span
 
+@signature: addSpan(object: span): void;
 
 @params:
 - span 		object 		an object with configuration of a span
-
-
 
 @example:
 grid.addSpan({ 

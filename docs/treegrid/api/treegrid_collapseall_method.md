@@ -5,15 +5,10 @@ title: collapseAll
 
 @short: collapses all expanded Tree nodes
 
-
-@params:
-
-
-
+@signature: collapseAll(): void;
 
 @example:
 treegrid.collapseAll();
-
 
 @template: api_method
 @descr:
@@ -26,4 +21,3 @@ treegrid.collapseAll();
 
 @relatedapi:
 treegrid/api/treegrid_expandall_method.md
-

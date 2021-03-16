@@ -3,8 +3,9 @@ sidebar_label: dragColumnStart
 title: dragColumnStart
 ---          
 
-@short:
-fires when dragging of a column has started
+@short: fires when dragging of a column has started
+
+@signature: dragColumnStart: (data: object, events: MouseEvent) => void;
 
 @params:
 - data		object		data object
@@ -14,7 +15,6 @@ fires when dragging of a column has started
 treegrid.events.on("DragColumnStart", function(data, events) {
   // your logic here
 });
-
 
 @template: api_event
 @descr:
@@ -38,7 +38,6 @@ The data object contains the following parameters:
 </table>
 
 @changelog: added in v7.0
-
 
 @relatedapi:
 treegrid/api/treegrid_dragitem_config.md

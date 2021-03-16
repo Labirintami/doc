@@ -3,27 +3,24 @@ sidebar_label: dragMode
 title: dragMode
 ---          
 
-@short: 
-enables drag-n-drop in Grid
+@short: enables drag-n-drop in Treegrid
 
+@signature: dragMode?: "target" | "both" | "source";
 
-
-
-@type: string
+@params:
+- "target" - a grid takes rows from other grids, while its rows can't be dragged out of it
+- "source" - a grid allows dragging its rows out and can't take rows from other grids
+- "both" - a grid both takes rows from other grids and allows dragging its rows out as well
 
 @example: 
 var treegrid = new dhx.TreeGrid("treegrid_container", { 
     dragMode:"source"
 });
 
-
 @template:	api_config
 @descr: 
 Drag-n-drop can work in three modes: 
 
-- "target" - a grid takes rows from other grids, while its rows can't be dragged out of it
-- "source" - a grid allows dragging its rows out and can't take rows from other grids
-- "both" - a grid both takes rows from other grids and allows dragging its rows out as well
 
 @related:
 treegrid/configuration.md#dragndropofgridrows

@@ -3,8 +3,9 @@ sidebar_label: afterColumnDrag
 title: afterColumnDrag
 ---          
 
-@short:
-fires after dragging of a column is finished
+@short: fires after dragging of a column is finished
+
+@signature: afterColumnDrag: (data: object, events: MouseEvent) => void;
 
 @params:
 - data		object		data object
@@ -14,7 +15,6 @@ fires after dragging of a column is finished
 treegrid.events.on("AfterColumnDrag", function(data, events) {
     // your logic here
 });
-
 
 @template: api_event
 @descr:
