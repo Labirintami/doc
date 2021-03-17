@@ -42,6 +42,14 @@ const onAtNotationMatch = (data, { key }) => {
     }
 };
 
+const onAtNotationFunctionMatch = (data, { key, fullMatch, dir }) => {
+    if (data.indexOf(".md") !== -1 || data.indexOf(".mdx") !== -1 || data.indexOf(".") === -1) {
+        const result = readFile(dir, data);
+        return result ? /@short: (.*)/g.exec(result)[1] : fullMatch;
+    }
+    return fullMatch;
+}
+
 const onBraceNotationMatch = (data, { key, fullMatch }) => {
     switch(key) {
         case 'note':
@@ -56,6 +64,8 @@ const onBraceNotationMatch = (data, { key, fullMatch }) => {
 };
 
 const readFile = (workingDir, filePath) => {
+    workingDir = workingDir.replace(/\\/g, "/");
+    filePath = filePath.replace(/\\/g, "/");
     let finalPath = workingDir + "/" + filePath;
 
     if (finalPath.indexOf(".") === -1) {
@@ -75,11 +85,11 @@ const readFile = (workingDir, filePath) => {
 };
 
 const onEmptyLinkMatch = (data, { key, fullMatch, dir }) => {
-    // const filePath = fullMatch.substring(fullMatch.indexOf("(") + 1, fullMatch.length - 1);
-    // if (filePath.indexOf(".md") !== -1 || filePath.indexOf(".mdx") !== -1 || filePath.indexOf(".") === -1) {
-    //     const data = readFile(dir, filePath);
-    //     return data ? `[${/.*title: (.+)\r\n/g.exec(data)[1]}]${fullMatch.match(/\(\D+\)/g)[0]}` : fullMatch;
-    // }
+    const filePath = fullMatch.substring(fullMatch.indexOf("(") + 1, fullMatch.length - 1);
+    if (filePath.indexOf(".md") !== -1 || filePath.indexOf(".mdx") !== -1 || filePath.indexOf(".") === -1) {
+        const data = readFile(dir, filePath);
+        return data ? `[${/.*title: (.+)/g.exec(data)[1]}]${fullMatch.match(/\(\D+\)/g)[0]}` : fullMatch;
+    }
     return fullMatch;
 };
 
@@ -290,6 +300,7 @@ module.exports = {
             {
                 onBraceNotationMatch,
                 onAtNotationMatch,
+                onAtNotationFunctionMatch,
                 onEmptyLinkMatch,
                 onAfterDataTransformation
             }
