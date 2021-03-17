@@ -88,6 +88,84 @@ module.exports = {
         },
         // end Calendar
 
+        //Calendar2
+        {
+          type: "category",
+          label: "Calendar2",
+          collapsed: true,
+          items: [
+            "calendar2/index",
+            {
+              type: "category",
+              label: "API",
+              items: [
+                "calendar/api/api_overview",
+
+                {
+                  type: "category",
+                  label: "Methods",
+                  items: [
+                    "calendar/api/calendar_link_method",
+                    "calendar/api/calendar_clear_method",
+                    "calendar/api/calendar_paint_method",
+                    "calendar/api/calendar_getcurrentmode_method",
+                    "calendar/api/calendar_getvalue_method",
+                    "calendar/api/calendar_setvalue_method",
+                    "calendar/api/calendar_showdate_method",
+                    "calendar/api/calendar_destructor_method",
+                  ],
+                },
+                {
+                  type: "category",
+                  label: "Events",
+                  items: [
+                    "calendar/api/calendar_change_event",
+                    "calendar/api/calendar_datehover_event",
+                    "calendar/api/calendar_cancelclick_event",
+                    "calendar/api/calendar_modechange_event",
+                    "calendar/api/calendar_yearselected_event",
+                    "calendar/api/calendar_monthselected_event",
+                    "calendar/api/calendar_datemouseover_event",
+                    "calendar/api/calendar_beforechange_event",
+                  ],
+                },
+                {
+                  type: "category",
+                  label: "Properties",
+                  items: [
+                    "calendar/api/calendar_date_config",
+                    "calendar/api/calendar_thismonthonly_config",
+                    "calendar/api/calendar_disableddates_config",
+                    "calendar/api/calendar_weeknumbers_config",
+                    "calendar/api/calendar_dateformat_config",
+                    "calendar/api/calendar_timepicker_config",
+                    "calendar/api/calendar_timeformat_config",
+                    "calendar/api/calendar_block_config",
+                    "calendar/api/calendar_value_config",
+                    "calendar/api/calendar_view_config",
+                    "calendar/api/calendar_weekstart_config",
+                    "calendar/api/calendar_css_config",
+                    "calendar/api/calendar_mode_config",
+                    "calendar/api/calendar_mark_config",
+                    "calendar/api/calendar_range_config",
+                    "calendar/api/calendar_width_config",
+                  ],
+                },
+              ],
+            },
+            "calendar2/how_to_start",
+            "calendar2/configuring",
+            "calendar2/localizing_calendar",
+            "calendar2/operating_calendar",
+            "calendar2/datepicker",
+            // "calendar/api",
+            "calendar2/customization",
+            "calendar2/handling_events",
+            "calendar2/migration",
+          ],
+        },
+        // end Calendar2
+
         //Chart
         {
           type: "category",
