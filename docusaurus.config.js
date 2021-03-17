@@ -64,6 +64,8 @@ const onBraceNotationMatch = (data, { key, fullMatch }) => {
 };
 
 const readFile = (workingDir, filePath) => {
+    workingDir.replace(/\\/g, "/");
+    filePath.replace(/\\/g, "/");
     let finalPath = workingDir + "/" + filePath;
 
     if (finalPath.indexOf(".") === -1) {
