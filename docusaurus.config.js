@@ -45,7 +45,7 @@ const onAtNotationMatch = (data, { key }) => {
 const onAtNotationFunctionMatch = (data, { key, fullMatch, dir }) => {
     if (data.indexOf(".md") !== -1 || data.indexOf(".mdx") !== -1 || data.indexOf(".") === -1) {
         const result = readFile(dir, data);
-        return result ? /@short: (.*)\r\n/g.exec(result)[1] : fullMatch;
+        return result ? /@short: (.*)/g.exec(result)[1] : fullMatch;
     }
     return fullMatch;
 }
@@ -88,7 +88,7 @@ const onEmptyLinkMatch = (data, { key, fullMatch, dir }) => {
     const filePath = fullMatch.substring(fullMatch.indexOf("(") + 1, fullMatch.length - 1);
     if (filePath.indexOf(".md") !== -1 || filePath.indexOf(".mdx") !== -1 || filePath.indexOf(".") === -1) {
         const data = readFile(dir, filePath);
-        return data ? `[${/.*title: (.+)\r\n/g.exec(data)[1]}]${fullMatch.match(/\(\D+\)/g)[0]}` : fullMatch;
+        return data ? `[${/.*title: (.+)/g.exec(data)[1]}]${fullMatch.match(/\(\D+\)/g)[0]}` : fullMatch;
     }
     return fullMatch;
 };
