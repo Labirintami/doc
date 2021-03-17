@@ -5,8 +5,8 @@ const AT_NOTATION_KEYS = {
     short: 'Short',
     type: 'Type',
     descr: 'Descr',
-    changelog: "Changelog",
-    signature: "Signature"
+    changelog: 'Changelog',
+    signature: 'Signature'
 };
 
 const COMPONENTS_PATH = '@site/src/components';
@@ -43,7 +43,7 @@ const onAtNotationMatch = (data, { key }) => {
 };
 
 const onAtNotationFunctionMatch = (data, { key, fullMatch, dir }) => {
-    if (data.indexOf(".md") !== -1 || data.indexOf(".mdx") !== -1 || data.indexOf(".") === -1) {
+    if (data.indexOf('.md') !== -1 || data.indexOf('.mdx') !== -1 || data.indexOf('.') === -1) {
         const result = readFile(dir, data);
         return result ? /@short: (.*)/g.exec(result)[1] : fullMatch;
     }
@@ -64,29 +64,29 @@ const onBraceNotationMatch = (data, { key, fullMatch }) => {
 };
 
 const readFile = (workingDir, filePath) => {
-    workingDir = workingDir.replace(/\\/g, "/");
-    filePath = filePath.replace(/\\/g, "/");
-    let finalPath = workingDir + "/" + filePath;
+    workingDir = workingDir.replace(/\\/g, '/');
+    filePath = filePath.replace(/\\/g, '/');
+    let finalPath = workingDir + '/' + filePath;
 
-    if (finalPath.indexOf(".") === -1) {
-        finalPath += !fs.existsSync(finalPath + ".md") ? ".mdx" : ".md";
+    if (finalPath.indexOf('.') === -1) {
+        finalPath += !fs.existsSync(finalPath + '.md') ? '.mdx' : '.md';
     }
 
     if (!fs.existsSync(finalPath)) {
-        const clippedFilePath = filePath.split("/");
+        const clippedFilePath = filePath.split('/');
         clippedFilePath.shift();
         if (!clippedFilePath.length) {
             return false;
         }
-        return readFile(workingDir, clippedFilePath.join("/"));
+        return readFile(workingDir, clippedFilePath.join('/'));
     }
 
-    return fs.readFileSync(path.normalize(finalPath), "utf8");
+    return fs.readFileSync(path.normalize(finalPath), 'utf8');
 };
 
 const onEmptyLinkMatch = (data, { key, fullMatch, dir }) => {
-    const filePath = fullMatch.substring(fullMatch.indexOf("(") + 1, fullMatch.length - 1);
-    if (filePath.indexOf(".md") !== -1 || filePath.indexOf(".mdx") !== -1 || filePath.indexOf(".") === -1) {
+    const filePath = fullMatch.substring(fullMatch.indexOf('(') + 1, fullMatch.length - 1);
+    if (filePath.indexOf('.md') !== -1 || filePath.indexOf('.mdx') !== -1 || filePath.indexOf('.') === -1) {
         const data = readFile(dir, filePath);
         return data ? `[${/.*title: (.+)/g.exec(data)[1]}]${fullMatch.match(/\(\D+\)/g)[0]}` : fullMatch;
     }
@@ -101,7 +101,7 @@ const onAfterDataTransformation = (data) => {
       const imports = `import { ${allAvailableComponents.join(', ')} } from '${COMPONENTS_PATH}';\n\n`
       const isTitles = /---((?:\r?\n|\r)|.)+?---/.test(transformedData);
       transformedData = isTitles ? transformedData.replace(/^(---((?:\s*\n)|.)+?---)/, `$1\n\n${imports}`) : imports + transformedData;
-    };
+    }
 
     if (metaDescription) {
         transformedData = transformedData.replace(/^(---\s*\n)((?:\n|.)+?)(---\s*?\n*)/,  (fullMatch, groupA, groupB, groupC) => {
