@@ -1,9 +1,11 @@
 ---
 sidebar_label: DHXButton
 title: DHXButton
----          
+---  
 
-``` todo
+```tododelete не используется?``` 
+
+```
 
 This is a DHX-styled button that can be used in any Suite component or separately outside the dhtmlxSuite.
 
@@ -44,4 +46,4 @@ The details are provided in the article toolbar/common_methods.md.
 @todo:
 add style guide, example, front image 
 
-``` todo
+```

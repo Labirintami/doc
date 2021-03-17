@@ -1,7 +1,9 @@
 ---
 sidebar_label: List of Toolbar Controls
 title: List of Toolbar Controls
----          
+---    
+
+```tododelete наверно не нужен``` 
 
 - toolbar/button.md
 - toolbar/customhtmlbutton.md

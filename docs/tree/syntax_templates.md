@@ -1,7 +1,9 @@
 ---
 sidebar_label: Syntax Templates 
 title: Syntax Templates 
----          
+---    
+
+```tododelete не используется?``` 
 
 XML Format Template  
 -----------------------

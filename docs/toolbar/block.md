@@ -1,9 +1,11 @@
 ---
 sidebar_label: Block
 title: Block
----          
+---  
 
-``` todo
+```tododelete не используется?``` 
+
+```
 
 This control allows combining several Toolbar items in a separate block.
 
@@ -58,4 +60,4 @@ won't work for toolbar?<br/>
 how are items set in the block?<br/>
 add image and link to sample, check attrs
 
-``` todo
+``` 

@@ -3,6 +3,8 @@ sidebar_label: IconButton
 title: IconButton
 ---          
 
+```tododelete не используется?``` 
+
 This is a button with an icon. It does not have a caption unlike toolbar/button.md, but can also have a badge with a number and can be _twoState_.
 
 ![DHX iconButton](../assets/toolbar/icon_button.png)

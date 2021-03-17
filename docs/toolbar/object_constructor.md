@@ -1,7 +1,9 @@
 ---
 sidebar_label: Object Constructor
 title: Object Constructor
----          
+---  
+
+```tododelete не используется?``` 
 
 Initialize Toolbar with the object constructor:
 

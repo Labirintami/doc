@@ -5,22 +5,22 @@ title: Calendar API Overview
 	
  ## Methods 
 
-| Name                                                   | Description                                                                    |
-| ------------------------------------------------------ | ------------------------------------------------------------------------------ |
-| [](calendar/api/calendar_clear_method.md)          | @getshort(calendar/api/calendar_clear_method.md)                               |
-| [](calendar/api/calendar_destructor_method.md)     | @getshort(calendar/api/calendar_destructor_method.md)                   |
-| [](calendar/api/calendar_getcurrentmode_method.md) | returns the current mode of displaying Calendar                                |
-| [](calendar/api/calendar_getvalue_method.md)       | returns the selected date                                                      |
-| [](calendar/api/calendar_link_method.md)           | links a calendar to another calendar for selecting a date range                |
-| [](calendar/api/calendar_paint_method.md)          | repaints a calendar on a page                                                  |
-| [](calendar/api/calendar_setvalue_method.md)       | selects a date in the calendar                                                 |
-| [](calendar/api/calendar_showdate_method.md)       | shows a specified date and/or opens the calendar in one of the available modes |
+| Name                                               | Description                                               |
+|----------------------------------------------------|-----------------------------------------------------------|
+| [](calendar/api/calendar_clear_method.md)          | @getshort(calendar/api/calendar_clear_method.md)          |
+| [](calendar/api/calendar_destructor_method.md)     | @getshort(calendar/api/calendar_destructor_method.md)     |
+| [](calendar/api/calendar_getcurrentmode_method.md) | @getshort(calendar/api/calendar_getcurrentmode_method.md) |
+| [](calendar/api/calendar_getvalue_method.md)       | @getshort(calendar/api/calendar_getvalue_method.md)       |
+| [](calendar/api/calendar_link_method.md)           | @getshort(calendar/api/calendar_link_method.md)           |
+| [](calendar/api/calendar_paint_method.md)          | @getshort(calendar/api/calendar_paint_method.md)          |
+| [](calendar/api/calendar_setvalue_method.md)       | @getshort(calendar/api/calendar_setvalue_method.md)       |
+| [](calendar/api/calendar_showdate_method.md)       | @getshort(calendar/api/calendar_showdate_method.md)       |
 
 
  ## Events 
 
-| Name                                                 | Description                                        |
-| ---------------------------------------------------- | -------------------------------------------------- |
+| Name                                             | Description                                        |
+|--------------------------------------------------|----------------------------------------------------|
 | [](calendar/api/calendar_beforechange_event.md)  | fires before the change of date selection          |
 | [](calendar/api/calendar_cancelclick_event.md)   | fires when the user clicks on the "Cancel" control |
 | [](calendar/api/calendar_change_event.md)        | fires on change of date selection                  |
@@ -33,8 +33,8 @@ title: Calendar API Overview
 
  ## Properties 
 
-| Name                                           | Description                                                                     |
-| ---------------------------------------------- | ------------------------------------------------------------------------------- |
+| Name                                              | Description                                                                     |
+|---------------------------------------------------|---------------------------------------------------------------------------------|
 | [](calendar/api/calendar_block_config.md)         | allows disabling some date intervals, day labels are dimmed                     |
 | [](calendar/api/calendar_css_config.md)           | adds style classes to Calendar                                                  |
 | [](calendar/api/calendar_date_config.md)          | defines the date that will be opened when the calendar is created               |
