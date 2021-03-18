@@ -1,13 +1,14 @@
 ---
 sidebar_label: Overview2
-title: Overview2
-description: dhtmlxCalendar is a smart datepicker solution for websites or applications that allows selecting dates, ranges of dates, and time. It's easily configurable and highly customizable.
+title: Calendar2
+description: DHTMLX Calendar is a smart datepicker solution for websites or applications that allows selecting dates, ranges of dates, and time. It's easily configurable and highly customizable.
 ---          
 
-dhtmlxCalendar is a component that allows users to view and select dates. You can create calendar in one of 4 modes: days, months, years, or as a timepicker.
-This component is a great date picker solution for your website or application. Check [online samples for dhtmlxCalendar](https://docs.dhtmlx.com/suite/samples/calendar/).  
+DHTMLX Calendar is a component that allows users to view and select dates. You can create the Calendar in several modes: days, months, years and use a timepicker in it. The useful date picker feature is implemented in the Calendar and ready for usage.
 
-![DHTMLX Calendar](../assets/calendar/calendar_front.png)
+This component is a great solution for your website or application. Check [online samples for dhtmlxCalendar](https://docs.dhtmlx.com/suite/samples/calendar/).  
+
+![DHTMLX Calendar](../assets/calendar/calendar_mode.png)
 
 ## API reference
 
@@ -15,13 +16,13 @@ This component is a great date picker solution for your website or application. 
 
 ## Related resources
 
-- To get just dhtmlxCalendar, download it from [our website](https://dhtmlx.com/docs/products/dhtmlxCalendar/download.shtml)
+- To get just DHTMLX Calendar, download it from [our website](https://dhtmlx.com/docs/products/dhtmlxCalendar/download.shtml)
 - To get the whole JavaScript library of UI components [download dhtmlxSuite](https://dhtmlx.com/docs/products/dhtmlxSuite/download.shtml)          
 - There are also [online samples for dhtmlxCalendar](https://docs.dhtmlx.com/suite/samples/calendar/)  
   
-## Guides
+## Guides 1
 
-You can read the following articles to find out how to add Calendar on the page and work with it.
+You can read the following articles to find out how to add the Calendar to the page, configure and work with it. Covers all the possible ways you can use this widget. 
 
 - [Initialization](how_to_start)
 - [Configuration](configuring)
@@ -31,6 +32,37 @@ You can read the following articles to find out how to add Calendar on the page 
 - [Customization](customization)
 - [Event Handling](handling_events)  
 
-## Other
+## Guides 2
+You can read the following articles to find out how to add the Calendar to the page, configure and work with it. 
 
-[Migration to Newer Versions](migration)
+### How to start
+Covers the initialization of Calendar on a page
+- [Initialization](how_to_start)
+
+### How to localize
+Covers languages interface settings. You can set the language you need in an easy way.
+- [Localization](localizing_calendar) 
+
+### How to work with
+Covers the ways of specifying date format, design of the widget, customization, modes, working with two calendars. Includes the operations that can be performed with Calendar and available events.
+
+
+## Guides 3
+
+### Creating Calendar 
+Read how to initialize the Calendar on a page.
+- [Initialization](how_to_start)
+
+### Localizing Calendar
+Study how to set languages interface.
+- [Localization](localizing_calendar) 
+
+### Exploring Calendar settings
+Read how to create Calendar settings.
+
+### Developing with Calendar solutions
+Explore how to work with the solutions the Calendar provides to you.
+
+## Migration to Newer Versions
+
+Please check [Migration to Newer Versions](migration) article to learn about new upgrades. 
