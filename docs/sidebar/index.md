@@ -1,6 +1,7 @@
 ---
 sidebar_label: Sidebar
 title: Sidebar
+description: dhtmlxSidebar is a flexible tool for creating a comfy vertical navigation menu. Advanced API allows easily configuring and combining its various controls.
 ---          
 
 ``` todo
@@ -10,17 +11,17 @@ Check [online samples for dhtmlxSidebar](https://docs.dhtmlx.com/suite/samples/s
 
 ![](../assets/sidebar/sidebar_front.png)
 
-<div class="h2">API reference</div>
+## API reference
 
 - sidebar/api/refs/sidebar.md
 
-<div class="h2">Related resources</div>
+## Related resources
 
 - You can get dhtmlxSidebar as a part of the Suite library by [downloading dhtmlxSuite](https://dhtmlx.com/docs/products/dhtmlxSuite/download.shtml)          
 - There are also [online samples for dhtmlxSidebar](https://docs.dhtmlx.com/suite/samples/sidebar/)  
 
 
-<div class="h2">Guides</div>
+## Guides
 
 <table class='guide-table'>
 	<tbody>
@@ -59,7 +60,7 @@ Check [online samples for dhtmlxSidebar](https://docs.dhtmlx.com/suite/samples/s
     </tbody>
 </table>
 
-<div class="h2">Other</div>
+## Other
 <table class='other-table'>
 	<tbody>
     <tr>
@@ -83,9 +84,5 @@ Check [online samples for dhtmlxSidebar](https://docs.dhtmlx.com/suite/samples/s
 - sidebar/customization.md
 - sidebar/events.md
 - sidebar/migration.md
-
-
-@metadescr: 
-dhtmlxSidebar is a flexible tool for creating a comfy vertical navigation menu. Advanced API allows easily configuring and combining its various controls.
 
 ``` todo

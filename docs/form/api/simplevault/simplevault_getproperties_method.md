@@ -1,6 +1,7 @@
 ---
 sidebar_label: getProperties
 title: getProperties
+description: 
 ---          
 
 ``` todo
@@ -9,7 +10,6 @@ title: getProperties
 
 @returns:
 param   object      an object with the available attributes of the control and their values
-
 
 @example:
 var form = new dhx.Form("form_container", {

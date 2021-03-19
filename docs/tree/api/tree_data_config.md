@@ -1,20 +1,19 @@
 ---
 sidebar_label: data
 title: data
+description: 
 ---          
 
 ``` todo
 
-@short: 
-sets a dataset for a tree
+@short: sets a dataset for a tree
 
-@signature: data?: array
+@signature: data?: array;
 
 @example: 
 var data = new dhx.TreeCollection();
 data.load("../common/treedata.json");
 var tree = new dhx.Tree("tree", {data: data});
-
 
 @template:	api_config
 @descr: 

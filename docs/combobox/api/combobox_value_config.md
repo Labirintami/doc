@@ -1,12 +1,12 @@
 ---
 sidebar_label: value
 title: value
+description: 
 ---          
 
 ``` todo
 
 @short: specifies the values that will appear in the input on initialization of the combobox
-
 
 @signature: value?: string | string[];
 

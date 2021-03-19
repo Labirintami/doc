@@ -1,9 +1,9 @@
 ---
 sidebar_label: TreeGrid
 title: TreeGrid
+description: dhtmlxTreeGrid is a special extension of dhtmlxGrid component for showing and editing tabular data in a hierarchical tree-like structure.
+
 ---          
-
-
 
 {{pronote
 The TreeGrid component is available in the **PRO** version only.
@@ -17,19 +17,19 @@ usage. <br/> Check [online samples for dhtmlxTreeGrid](https://docs.dhtmlx.com/s
 
 <br/>
 
-<div class="h2">API Reference</div>
+## API Reference
 
 - treegrid/api/refs/treegrid.md
 
 
-<div class="h2">Related resources</div>
+## Related resources
 
 - To get just dhtmlxTreeGrid, download it from [our website](https://dhtmlx.com/docs/products/dhtmlxTreeGrid/download.shtml)
 - To get the whole JavaScript library of UI components [download dhtmlxSuite](https://dhtmlx.com/docs/products/dhtmlxSuite/download.shtml)          
 - There are also [online samples for dhtmlxTreeGrid](https://docs.dhtmlx.com/suite/samples/treegrid/)  
 
 ``` todo
-<div class="h2">Guides</div>
+## Guides
 
 <table class='guide-table'>
 	<tbody>
@@ -51,7 +51,7 @@ usage. <br/> Check [online samples for dhtmlxTreeGrid](https://docs.dhtmlx.com/s
    	</tbody>
 </table>
 
-<div class="h2">Other</div>
+## Other
 
 <table class='other-table'>
 	<tbody>
@@ -78,9 +78,5 @@ usage. <br/> Check [online samples for dhtmlxTreeGrid](https://docs.dhtmlx.com/s
 - treegrid/events.md
 - treegrid/migration.md
 ``` todo
-
-
-@metadescr:
-dhtmlxTreeGrid is a special extension of dhtmlxGrid component for showing and editing tabular data in a hierarchical tree-like structure.
 
 @edition:pro

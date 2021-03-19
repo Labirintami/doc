@@ -1,6 +1,7 @@
 ---
 sidebar_label: setValue
 title: setValue
+description: 
 ---          
 
 ``` todo
@@ -9,7 +10,6 @@ title: setValue
 
 @params:
 - value     Date|number|string|array|object    the value to be set for the control
-
 
 @example:
 // set the value as a string

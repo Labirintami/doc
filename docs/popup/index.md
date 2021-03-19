@@ -3,28 +3,22 @@ sidebar_label: Popup
 title: Popup
 ---          
 
+dhtmlxPopup is a pop-up window that can contain various content. It allows attaching other DHTMLX components and different HTML content. 
 
+Mainly, the component is applied for showing a pop-up content on some action, such as a button click. Check [online samples for dhtmlxPopup](https://docs.dhtmlx.com/suite/samples/popup/).
 
-dhtmlxPopup is a pop-up window that can contain various content. It allows attaching other DHTMLX components and different HTML content. Mainly, the component is applied for showing a pop-up content 
-on some action, such as a button click. Check [online samples for dhtmlxPopup](https://docs.dhtmlx.com/suite/samples/popup/).
+![](../assets/popup/popup_front.png)
 
-<br/>
-
-<p align="center"><img src="popup/popup_front.png" alt=""/></p>
-
-<br/>
-
-
-<div class="h2">API reference</div>
+## API reference
 
 - popup/api/refs/popup.md
 
-<div class="h2">Related resources</div>
+## Related resources
 
 - You can get dhtmlxPopup as a part of the Suite library by [downloading dhtmlxSuite](https://dhtmlx.com/docs/products/dhtmlxSuite/download.shtml)          
 - There are also [online samples for dhtmlxPopup](https://docs.dhtmlx.com/suite/samples/popup/) 
 
-<div class="h2">Guides</div>
+## Guides
 
 <table class='guide-table'>
 	<tbody>

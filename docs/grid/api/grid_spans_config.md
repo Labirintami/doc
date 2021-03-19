@@ -1,6 +1,7 @@
 ---
 sidebar_label: spans
 title: spans
+description: 
 ---          
 
 ``` todo
@@ -8,7 +9,6 @@ title: spans
 @short: describes the configuration of cols/rows spans
 
 @signature: spans?: [];
-
 
 @example: 
 var grid = new dhx.Grid("grid_container", {
@@ -21,7 +21,6 @@ var grid = new dhx.Grid("grid_container", {
 	],
 	data: dataset
 });
-
 
 @template:	api_config
 @descr: 

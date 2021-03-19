@@ -11,19 +11,19 @@ Check [online samples for dhtmlxGrid](https://docs.dhtmlx.com/suite/samples/grid
 
 ![](../assets/grid/grid_front.png)
 
-<div class="h2">API Reference</div>
+## API Reference
 
 - grid/api/refs/grid.md
 
 
-<div class="h2">Related resources</div>
+## Related resources
 
 - To get just dhtmlxGrid, download it from [our website](https://dhtmlx.com/docs/products/dhtmlxGrid/download.shtml)
 - To get the whole JavaScript library of UI components [download dhtmlxSuite](https://dhtmlx.com/docs/products/dhtmlxSuite/download.shtml)          
 - There are also [online samples for dhtmlxGrid](https://docs.dhtmlx.com/suite/samples/grid/)  
 
 
-<div class="h2">Guides</div>
+## Guides
 
 
 <table class='guide-table'>
@@ -46,7 +46,7 @@ Check [online samples for dhtmlxGrid](https://docs.dhtmlx.com/suite/samples/grid
    	</tbody>
 </table>
 
-<div class="h2">Other</div>
+## Other
 
 <table class='other-table'>
 	<tbody>

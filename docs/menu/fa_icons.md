@@ -51,7 +51,7 @@ Styling
 
 There is a possibility to make changes in the look and feel of a menu. 
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="menu/custom_menu.png" alt=""/>
+![](../assets/menu/custom_menu.png)
 
 For this you need to take the following steps:
 

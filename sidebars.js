@@ -1065,7 +1065,7 @@ module.exports = {
         },
         // end Menu
 
-        //Message //???? todo где API????
+        //Message (почему-то нет API)
         {
           type: "category",
           label: "Message",
@@ -1140,7 +1140,7 @@ module.exports = {
               type: "category",
               label: "API",
               items: [
-                // "calendar/api/api_overview", //todo 
+                // "popup/api/api_overview", //todo 
                 {
                   type: "category",
                   label: "Methods",
@@ -1235,7 +1235,6 @@ module.exports = {
               ],
             },
             "ribbon/how_to_start",
-
             {
               type: "category",
               label: "List of Ribbon controls",
@@ -1272,7 +1271,7 @@ module.exports = {
               type: "category",
               label: "API",
               items: [
-                // "calendar/api/api_overview", //todo //todo
+                // "sidebar/api/api_overview", //todo
                 {
                   type: "category",
                   label: "Methods",
@@ -1360,8 +1359,7 @@ module.exports = {
               type: "category",
               label: "API",
               items: [
-                // "calendar/api/api_overview", //todo //todo
-
+                // "calendar/api/api_overview", //todo 
                 {
                   type: "category",
                   label: "Methods",
@@ -1433,7 +1431,7 @@ module.exports = {
               type: "category",
               label: "API",
               items: [
-                // "calendar/api/api_overview", //todo
+                // "tabbar/api/api_overview", //todo
                 {
                   type: "category",
                   label: "Methods",
@@ -1510,7 +1508,7 @@ module.exports = {
               type: "category",
               label: "API",
               items: [
-                // "calendar/api/api_overview", //todo
+                // "timepicker/api/api_overview", //todo
                 {
                   type: "category",
                   label: "Methods",
@@ -1573,7 +1571,7 @@ module.exports = {
               type: "category",
               label: "API",
               items: [
-                // "calendar/api/api_overview", //todo
+                // "toolbar/api/api_overview", //todo
                 {
                   type: "category",
                   label: "Methods",
@@ -1654,7 +1652,7 @@ module.exports = {
               type: "category",
               label: "API",
               items: [
-                // "calendar/api/api_overview", //todo
+                // "tree/api/api_overview", //todo
                 {
                   type: "category",
                   label: "Methods",
@@ -1779,7 +1777,7 @@ module.exports = {
               type: "category",
               label: "API",
               items: [
-                // "calendar/api/api_overview", //todo //todo
+                // "treegrid/api/api_overview", //todo //todo
                 {
                   type: "category",
                   label: "Methods",
@@ -1972,7 +1970,7 @@ module.exports = {
               type: "category",
               label: "API",
               items: [
-                // "calendar/api/api_overview", //todo
+                // "window/api/api_overview", //todo
                 {
                   type: "category",
                   label: "Methods",

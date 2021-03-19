@@ -1,6 +1,7 @@
 ---
 sidebar_label: TimePicker
 title: TimePicker
+description: dhtmlxTimePicker is a JavaScript component for quick and handy time selection either in 12-hour or 24-hour clock format.
 ---          
 
 ``` todo
@@ -10,16 +11,16 @@ Check [online samples for dhtmlxTimePicker](https://docs.dhtmlx.com/suite/sample
 
 ![](../assets/timepicker/dhx_timepicker.png)
 
-<div class="h2">API reference</div>
+## API reference
 
 - timepicker/api/refs/timepicker.md
 
-<div class="h2">Related resources</div>
+## Related resources
 
 - You can get dhtmlxTimePicker as a part of the Suite library by [downloading dhtmlxSuite](https://dhtmlx.com/docs/products/dhtmlxSuite/download.shtml)          
 - There are also [online samples for dhtmlxTimePicker](https://docs.dhtmlx.com/suite/samples/timepicker/)  
 
-<div class="h2">Guides</div>
+## Guides
 
 <table class='guide-table'>
 	<tbody>
@@ -38,7 +39,7 @@ Check [online samples for dhtmlxTimePicker](https://docs.dhtmlx.com/suite/sample
     </tbody>
 </table>
 
-<div class="h2">Other</div>
+## Other
 <table class='other-table'>
 	<tbody>
     <tr>
@@ -60,10 +61,5 @@ Check [online samples for dhtmlxTimePicker](https://docs.dhtmlx.com/suite/sample
 - timepicker/customization.md
 - timepicker/handling_events.md
 - timepicker/migration.md
-
-
-@metadescr:
-
-dhtmlxTimePicker is a JavaScript component for quick and handy time selection either in 12-hour or 24-hour clock format.
 
 ``` todo

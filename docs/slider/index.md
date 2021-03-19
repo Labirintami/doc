@@ -1,6 +1,7 @@
 ---
 sidebar_label: Slider
 title: Slider
+description: dhtmlxSlider is a flexible and quickly adjustable JavaScript component that allows easily embedding horizontal or vertical slider bars into a web page.
 ---          
 
 ``` todo
@@ -10,16 +11,16 @@ Check [online samples for dhtmlxSlider](https://docs.dhtmlx.com/suite/samples/sl
 
 ![](../assets/slider/slider_front.png)
 
-<div class="h2">API reference</div>
+## API reference
 
 - slider/api/refs/slider.md
 
-<div class="h2">Related resources</div>
+## Related resources
 
 - You can get dhtmlxSlider as a part of the Suite library by [downloading dhtmlxSuite](https://dhtmlx.com/docs/products/dhtmlxSuite/download.shtml)          
 - There are also [online samples for dhtmlxSlider](https://docs.dhtmlx.com/suite/samples/slider/)  
 
-<div class="h2">Guides</div>
+## Guides
 
 <table class='guide-table'>
 	<tbody>
@@ -39,7 +40,7 @@ Check [online samples for dhtmlxSlider](https://docs.dhtmlx.com/suite/samples/sl
     </tbody>
 </table>
 
-<div class="h2">Other</div>
+## Other
 <table class='other-table'>
 	<tbody>
     <tr>
@@ -63,11 +64,5 @@ Check [online samples for dhtmlxSlider](https://docs.dhtmlx.com/suite/samples/sl
 - slider/customization.md
 - slider/handling_events.md
 - slider/migration.md
-
-
-@metadescr:
-
-dhtmlxSlider is a flexible and quickly adjustable JavaScript component that allows easily embedding horizontal or vertical slider bars into a web page.
-
 
 ``` todo

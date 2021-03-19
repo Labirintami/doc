@@ -9,18 +9,18 @@ Check [online samples for dhtmlxDataView](https://docs.dhtmlx.com/suite/samples/
 
 ![](../assets/dataview/dataview_front.png)
 
-<div class="h2">API reference</div>
+## API reference
 s
 - dataview/api/refs/dataview.md
 
 
-<div class="h2">Related resources</div>
+## Related resources
 
 - You can get dhtmlxDataView as a part of the Suite library by [downloading dhtmlxSuite](https://dhtmlx.com/docs/products/dhtmlxSuite/download.shtml)          
 - There are also [online samples for dhtmlxDataView](https://docs.dhtmlx.com/suite/samples/dataview/)  
 
 
-<div class="h2">Guides</div>
+## Guides
 
 You can read the following articles to find out how to add DataView on the page and work with it.
 
@@ -44,7 +44,7 @@ You can read the following articles to find out how to add DataView on the page 
    	</tbody>
 </table>
 
-<div class="h2">Other</div>
+## Other
 
 <table class='other-table'>
 	<tbody>

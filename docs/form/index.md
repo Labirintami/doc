@@ -1,6 +1,7 @@
 ---
 sidebar_label: Form
 title: Form
+description: dhtmlxForm is a useful widget integrated with other DHTMLX components and intended to view and edit data, validate them and send to a server side.  
 ---          
 
 ``` todo
@@ -10,16 +11,16 @@ Check [online samples for dhtmlxForm](https://docs.dhtmlx.com/suite/samples/form
 
 ![](../assets/form/form_front.png)
 
-<div class="h2">API reference</div>
+## API reference
 
 - form/api/refs/form.md
 
-<div class="h2">Related resources</div>
+## Related resources
 
 - You can get dhtmlxForm as a part of the Suite library by [downloading dhtmlxSuite](https://dhtmlx.com/docs/products/dhtmlxSuite/download.shtml)          
 - There are also [online samples for dhtmlxForm](https://docs.dhtmlx.com/suite/samples/form/)  
 
-<div class="h2">Guides</div>
+## Guides
 
 <table class='guide-table'>
 	<tbody>
@@ -69,7 +70,7 @@ Check [online samples for dhtmlxForm](https://docs.dhtmlx.com/suite/samples/form
 
 
 
-<div class="h2">Other</div>
+## Other
 <table class='other-table'>
 	<tbody>
     <tr>
@@ -93,8 +94,5 @@ Check [online samples for dhtmlxForm](https://docs.dhtmlx.com/suite/samples/form
 - form/customization.md
 - form/handling_events.md
 - form/migration.md
-
-@metadescr:
-dhtmlxForm is a useful widget integrated with other DHTMLX components and intended to view and edit data, validate them and send to a server side.  
 
 ``` todo

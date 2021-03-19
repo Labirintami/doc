@@ -60,7 +60,6 @@ list.data.map(function (item, i) {
 </style>
 ~~~
 
-
 {{editor	https://snippet.dhtmlx.com/ipu9yshl	List. Custom item Styles}}
 
 Adding custom selection
@@ -68,7 +67,7 @@ Adding custom selection
 
 It is also possible to customize selection of an item.
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="list/custom_selection.png" alt="custom_selection"/>
+![](../assets/list/custom_selection.png)
 
 {{editor	https://snippet.dhtmlx.com/6hss19d3	List. Add Custom Selection With Custom Css}}
 

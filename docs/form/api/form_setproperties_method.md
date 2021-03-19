@@ -1,19 +1,16 @@
 ---
 sidebar_label: setProperties
 title: setProperties
+description: 
 ---          
 
 ``` todo
 
 @short: allows changing available configuration attributes of Form controls dynamically  
 
-
 @params:
 - arg	string,object      either the name of the control or its id (if the name attribute is not defined in the config of the control), or an object with a set of <i>key:value</i> pairs where <i>key</i> is the name of the control (or its id) and <i>value</i> is an object with the available attributes of the control and their new values
 - properties	    object      optional, an object with the available attributes of the control and their new values
-
-
-
 
 @example:
 form.setProperties("input_name", {
