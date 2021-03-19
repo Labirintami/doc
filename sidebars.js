@@ -97,7 +97,7 @@ module.exports = {
             "calendar2/index",
             {
               type: "category",
-              label: "API",
+              label: "Calendar API",
               items: [
                 "calendar/api/api_overview",
 
@@ -307,7 +307,7 @@ module.exports = {
               type: "category",
               label: "API",
               items: [
-                // "calendar/api/api_overview", //todo
+                "combobox/api/api_overview", //todo
                 {
                   type: "category",
                   label: "Methods",

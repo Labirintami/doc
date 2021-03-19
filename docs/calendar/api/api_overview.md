@@ -1,9 +1,10 @@
 ---
-sidebar_label: API Overview
-title: Calendar API Overview
+sidebar_label: Overview
+title: Calendar API
 description: DHTMLX Calendar is a smart datepicker solution for websites or applications that allows selecting dates, ranges of dates, and time. It's easily configurable and highly customizable.
 ---
-## Methods 
+
+## Methods
 
 | Name                                               | Description                                               |
 | -------------------------------------------------- | --------------------------------------------------------- |
@@ -16,7 +17,7 @@ description: DHTMLX Calendar is a smart datepicker solution for websites or appl
 | [](calendar/api/calendar_setvalue_method.md)       | @getshort(calendar/api/calendar_setvalue_method.md)       |
 | [](calendar/api/calendar_showdate_method.md)       | @getshort(calendar/api/calendar_showdate_method.md)       |
 
-## Events 
+## Events
 
 | Name                                             | Description                                             |
 | ------------------------------------------------ | ------------------------------------------------------- |
@@ -29,7 +30,7 @@ description: DHTMLX Calendar is a smart datepicker solution for websites or appl
 | [](calendar/api/calendar_monthselected_event.md) | @getshort(calendar/api/calendar_monthselected_event.md) |
 | [](calendar/api/calendar_yearselected_event.md)  | @getshort(calendar/api/calendar_yearselected_event.md)  |
 
-## Properties 
+## Properties
 
 | Name                                              | Description                                              |
 | ------------------------------------------------- | -------------------------------------------------------- |

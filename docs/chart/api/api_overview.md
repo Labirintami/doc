@@ -1,4 +1,34 @@
 ---
-sidebar_label: API Overview
-title: Chart API Overview
+sidebar_label: Overview
+title: Chart API 
 ---
+## Methods
+
+| Name                                     | Description                                     |
+| ---------------------------------------- | ----------------------------------------------- |
+| [](chart/api/chart_getseries_method.md)  | @getshort(chart/api/chart_getseries_method.md)  |
+| [](chart/api/chart_eachseries_method.md) | @getshort(chart/api/chart_eachseries_method.md) |
+| [](chart/api/chart_destructor_method.md) | @getshort(chart/api/chart_destructor_method.md) |
+| [](chart/api/chart_paint_method.md)      | @getshort(chart/api/chart_paint_method.md)      |
+| [](chart/api/chart_setconfig_method.md)  | @getshort(chart/api/chart_setconfig_method.md)  |
+
+`to do Data Collection`
+
+## Events
+
+| Name | Description |
+| ---- | ----------- |
+`to do (при переносе API Events ошибка, не собирается проект)`
+
+`to do Data Collection`
+
+## Properties
+
+| Name                                    | Description                                    |
+| --------------------------------------- | ---------------------------------------------- |
+| [](chart/api/chart_css_config.md)       | @getshort(chart/api/chart_css_config.md)       |
+| [](chart/api/chart_series_config.md)    | @getshort(chart/api/chart_series_config.md)    |
+| [](chart/api/chart_type_config.md)      | @getshort(chart/api/chart_type_config.md)      |
+| [](chart/api/chart_maxpoints_config.md) | @getshort(chart/api/chart_maxpoints_config.md) |
+| [](chart/api/chart_scales_config.md)    | @getshort(chart/api/chart_scales_config.md)    |
+| [](chart/api/chart_legend_config.md)    | @getshort(chart/api/chart_legend_config.md)    |
