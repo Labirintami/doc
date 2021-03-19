@@ -1,12 +1,12 @@
 ---
 sidebar_label: API Overview
 title: Calendar API Overview
+description: DHTMLX Calendar is a smart datepicker solution for websites or applications that allows selecting dates, ranges of dates, and time. It's easily configurable and highly customizable.
 ---
-	
- ## Methods 
+## Methods 
 
 | Name                                               | Description                                               |
-|----------------------------------------------------|-----------------------------------------------------------|
+| -------------------------------------------------- | --------------------------------------------------------- |
 | [](calendar/api/calendar_clear_method.md)          | @getshort(calendar/api/calendar_clear_method.md)          |
 | [](calendar/api/calendar_destructor_method.md)     | @getshort(calendar/api/calendar_destructor_method.md)     |
 | [](calendar/api/calendar_getcurrentmode_method.md) | @getshort(calendar/api/calendar_getcurrentmode_method.md) |
@@ -16,43 +16,39 @@ title: Calendar API Overview
 | [](calendar/api/calendar_setvalue_method.md)       | @getshort(calendar/api/calendar_setvalue_method.md)       |
 | [](calendar/api/calendar_showdate_method.md)       | @getshort(calendar/api/calendar_showdate_method.md)       |
 
+## Events 
 
- ## Events 
+| Name                                             | Description                                             |
+| ------------------------------------------------ | ------------------------------------------------------- |
+| [](calendar/api/calendar_beforechange_event.md)  | @getshort(calendar/api/calendar_beforechange_event.md)  |
+| [](calendar/api/calendar_cancelclick_event.md)   | @getshort(calendar/api/calendar_cancelclick_event.md)   |
+| [](calendar/api/calendar_change_event.md)        | @getshort(calendar/api/calendar_change_event.md)        |
+| [](calendar/api/calendar_datehover_event.md)     | @getshort(calendar/api/calendar_datehover_event.md)     |
+| [](calendar/api/calendar_datemouseover_event.md) | @getshort(calendar/api/calendar_datemouseover_event.md) |
+| [](calendar/api/calendar_modechange_event.md)    | @getshort(calendar/api/calendar_modechange_event.md)    |
+| [](calendar/api/calendar_monthselected_event.md) | @getshort(calendar/api/calendar_monthselected_event.md) |
+| [](calendar/api/calendar_yearselected_event.md)  | @getshort(calendar/api/calendar_yearselected_event.md)  |
 
-| Name                                             | Description                                        |
-|--------------------------------------------------|----------------------------------------------------|
-| [](calendar/api/calendar_beforechange_event.md)  | fires before the change of date selection          |
-| [](calendar/api/calendar_cancelclick_event.md)   | fires when the user clicks on the "Cancel" control |
-| [](calendar/api/calendar_change_event.md)        | fires on change of date selection                  |
-| [](calendar/api/calendar_datehover_event.md)     | fires when the mouse pointer is over a date        |
-| [](calendar/api/calendar_datemouseover_event.md) | fires when the mouse pointer is over a date        |
-| [](calendar/api/calendar_modechange_event.md)    | fires on change of the calendar mode               |
-| [](calendar/api/calendar_monthselected_event.md) | fires after a month was selected in the calendar   |
-| [](calendar/api/calendar_yearselected_event.md)  | fires after a year was selected in the calendar    |
+## Properties 
 
-
- ## Properties 
-
-| Name                                              | Description                                                                     |
-|---------------------------------------------------|---------------------------------------------------------------------------------|
-| [](calendar/api/calendar_block_config.md)         | allows disabling some date intervals, day labels are dimmed                     |
-| [](calendar/api/calendar_css_config.md)           | adds style classes to Calendar                                                  |
-| [](calendar/api/calendar_date_config.md)          | defines the date that will be opened when the calendar is created               |
-| [](calendar/api/calendar_dateformat_config.md)    | defines the format of dates in Сalendar                                         |
-| [](calendar/api/calendar_disableddates_config.md) | allows disabling some date intervals, day labels are dimmed                     |
-| [](calendar/api/calendar_mark_config.md)          | adds a CSS class to specific days                                               |
-| [](calendar/api/calendar_mode_config.md)          | the mode of Calendar initialization                                             |
-| [](calendar/api/calendar_range_config.md)         | enables/disables the possibility to select a range of dates on the calendar     |
-| [](calendar/api/calendar_thismonthonly_config.md) | hides dates of the previous/next months relative to the currently displayed one |
-| [](calendar/api/calendar_timeformat_config.md)    | defines the time format for a timepicker in the calendar                        |
-| [](calendar/api/calendar_timepicker_config.md)    | adds a timepicker into the calendar                                             |
-| [](calendar/api/calendar_value_config.md)         | selects the day (adds a round blue marker)                                      |
-| [](calendar/api/calendar_view_config.md)          | the mode of Calendar initialization                                             |
-| [](calendar/api/calendar_weeknumbers_config.md)   | defines whether to show the numbers of weeks                                    |
-| [](calendar/api/calendar_weekstart_config.md)     | sets the starting day of the week                                               |
-| [](calendar/api/calendar_width_config.md)         | sets the width of the calendar                                                  |
-
-
+| Name                                              | Description                                              |
+| ------------------------------------------------- | -------------------------------------------------------- |
+| [](calendar/api/calendar_block_config.md)         | @getshort(calendar/api/calendar_block_config.md)         |
+| [](calendar/api/calendar_css_config.md)           | @getshort(calendar/api/calendar_css_config.md)           |
+| [](calendar/api/calendar_date_config.md)          | @getshort(calendar/api/calendar_date_config.md)          |
+| [](calendar/api/calendar_dateformat_config.md)    | @getshort(calendar/api/calendar_dateformat_config.md)    |
+| [](calendar/api/calendar_disableddates_config.md) | @getshort(calendar/api/calendar_disableddates_config.md) |
+| [](calendar/api/calendar_mark_config.md)          | @getshort(calendar/api/calendar_mark_config.md)          |
+| [](calendar/api/calendar_mode_config.md)          | @getshort(calendar/api/calendar_mode_config.md)          |
+| [](calendar/api/calendar_range_config.md)         | @getshort(calendar/api/calendar_range_config.md)         |
+| [](calendar/api/calendar_thismonthonly_config.md) | @getshort(calendar/api/calendar_thismonthonly_config.md) |
+| [](calendar/api/calendar_timeformat_config.md)    | @getshort(calendar/api/calendar_timeformat_config.md)    |
+| [](calendar/api/calendar_timepicker_config.md)    | @getshort(calendar/api/calendar_timepicker_config.md)    |
+| [](calendar/api/calendar_value_config.md)         | @getshort(calendar/api/calendar_value_config.md)         |
+| [](calendar/api/calendar_view_config.md)          | @getshort(calendar/api/calendar_view_config.md)          |
+| [](calendar/api/calendar_weeknumbers_config.md)   | @getshort(calendar/api/calendar_weeknumbers_config.md)   |
+| [](calendar/api/calendar_weekstart_config.md)     | @getshort(calendar/api/calendar_weekstart_config.md)     |
+| [](calendar/api/calendar_width_config.md)         | @getshort(calendar/api/calendar_width_config.md)         |
 
 @metadescr:
 dhtmlxCalendar is a smart datepicker solution for websites or applications that allows selecting dates, ranges of dates, and time. It's easily configurable and highly customizable.
