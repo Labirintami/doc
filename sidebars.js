@@ -177,7 +177,7 @@ module.exports = {
               label: "API",
               collapsed: true,
               items: [
-                "calendar/api/api_overview", //todo 
+                "chart/api/api_overview", //todo 
                 {
                   type: "category",
                   label: "Methods",
@@ -494,8 +494,6 @@ module.exports = {
         },
         // end Dataview
 
-        // // !!!! todo аццки большое количество файлов в форме
-
         // //Form
         {
           type: "category",
@@ -514,14 +512,24 @@ module.exports = {
                   label: "Methods",
                   collapsed: true,
                   items: [
-                    "calendar/api/calendar_link_method",
-                    "calendar/api/calendar_clear_method",
-                    "calendar/api/calendar_paint_method",
-                    "calendar/api/calendar_getcurrentmode_method",
-                    "calendar/api/calendar_getvalue_method",
-                    "calendar/api/calendar_setvalue_method",
-                    "calendar/api/calendar_showdate_method",
-                    "calendar/api/calendar_destructor_method",
+                    "form/api/form_clear_method",
+                    "form/api/form_destructor_method",
+                    "form/api/form_disable_method",
+                    "form/api/form_enable_method",
+                    "form/api/form_foreach_method",
+                    "form/api/form_getitem_method",
+                    "form/api/form_getproperties_method",
+                    "form/api/form_getvalue_method",
+                    "form/api/form_hide_method",
+                    "form/api/form_isdisabled_method",
+                    "form/api/form_isvisible_method",
+                    "form/api/form_paint_method",
+                    "form/api/form_send_method",
+                    "form/api/form_setfocus_method",
+                    "form/api/form_setproperties_method",
+                    "form/api/form_setvalue_method",
+                    "form/api/form_show_method",
+                    "form/api/form_validate_method",
                   ],
                 },
                 {
@@ -529,14 +537,18 @@ module.exports = {
                   label: "Events",
                   collapsed: true,
                   items: [
-                    "calendar/api/calendar_change_event",
-                    "calendar/api/calendar_datehover_event",
-                    "calendar/api/calendar_cancelclick_event",
-                    "calendar/api/calendar_modechange_event",
-                    "calendar/api/calendar_yearselected_event",
-                    "calendar/api/calendar_monthselected_event",
-                    "calendar/api/calendar_datemouseover_event",
-                    "calendar/api/calendar_beforechange_event",
+                    "form/api/form_afterchangeproperties_event",
+                    "form/api/form_afterhide_event",
+                    "form/api/form_aftersend_event",
+                    "form/api/form_aftershow_event",
+                    "form/api/form_aftervalidate_event",
+                    "form/api/form_beforechangeproperties_event",
+                    "form/api/form_beforehide_event",
+                    "form/api/form_beforesend_event",
+                    "form/api/form_beforeshow_event",
+                    "form/api/form_beforevalidate_event",
+                    "form/api/form_change_event",
+                    "form/api/form_click_event",
                   ],
                 },
                 {
@@ -544,49 +556,49 @@ module.exports = {
                   label: "Properties",
                   collapsed: true,
                   items: [
-                    "calendar/api/calendar_date_config",
-                    "calendar/api/calendar_thismonthonly_config",
-                    "calendar/api/calendar_disableddates_config",
-                    "calendar/api/calendar_weeknumbers_config",
-                    "calendar/api/calendar_dateformat_config",
-                    "calendar/api/calendar_timepicker_config",
-                    "calendar/api/calendar_timeformat_config",
-                    "calendar/api/calendar_block_config",
-                    "calendar/api/calendar_value_config",
-                    "calendar/api/calendar_view_config",
-                    "calendar/api/calendar_weekstart_config",
-                    "calendar/api/calendar_css_config",
-                    "calendar/api/calendar_mode_config",
-                    "calendar/api/calendar_mark_config",
-                    "calendar/api/calendar_range_config",
-                    "calendar/api/calendar_width_config",
+                    "form/api/form_align_property",
+                    "form/api/form_cols_property",
+                    "form/api/form_css_property",
+                    "form/api/form_disabled_property",
+                    "form/api/form_height_property",
+                    "form/api/form_hidden_property",
+                    "form/api/form_padding_property",
+                    "form/api/form_rows_property",
+                    "form/api/form_title_property",
+                    "form/api/form_width_property",
                   ],
                 },
               ],
             },
             "form/how_to_start",
-            "form/text",
-            "form/input",
-            "form/simplevault",
-            "form/slider",
-            "form/calendar",
-            "form/timepicker",
-            "form/api",
+            {
+              type: "category",
+              label: "List of Form controls",
+              collapsed: true,
+              items: [
+                "form/button",
+                "form/calendar",
+                "form/checkbox",
+                "form/checkboxgroup",
+                "form/colorpicker",
+                "form/combo",
+                "form/input",
+                "form/radiogroup",
+                "form/select",
+                "form/simplevault",
+                "form/slider",
+                "form/spacer",
+                "form/text",
+                "form/textarea",
+                "form/timepicker",
+              ]
+            },
             "form/localization",
-            "form/button",
-            "form/handling_events",
-            "form/radiogroup",
-            "form/customization",
-            "form/checkbox",
-            "form/work_with_form",
-            "form/block",
-            "form/combo",
-            "form/select",
-            "form/migration",
-            "form/colorpicker",
-            "form/index",
             "form/configuration",
-            "form/textarea",
+            "form/work_with_form",
+            "form/customization",
+            "form/handling_events",
+            "form/migration",
           ],
         },
         // // end Form
@@ -970,18 +982,6 @@ module.exports = {
         },
         // end List
 
-        // "menu/api/selection_afterunselect_event",
-        // "menu/api/selection_beforeselect_event",
-        // "menu/api/selection_beforeunselect_event",
-        // "menu/api/selection_afterselect_event",
-
-        // "menu/api/selection_getcell_method",
-        // "menu/api/selection_getcells_method",
-        // "menu/api/selection_removecell_method",
-        // "menu/api/selection_enable_method",
-        // "menu/api/selection_disable_method",
-        // "menu/api/selection_setcell_method",
-
         //Menu
         {
           type: "category",
@@ -992,7 +992,7 @@ module.exports = {
               type: "category",
               label: "API",
               items: [
-                // "calendar/api/api_overview", //todo //todo
+                // "menu/api/api_overview", //todo 
                 {
                   type: "category",
                   label: "Methods",
@@ -1071,63 +1071,6 @@ module.exports = {
           label: "Message",
           items: [
             "message/index",
-            {
-              type: "category",
-              label: "API",
-              items: [
-                // "calendar/api/api_overview", //todo //todo
-                {
-                  type: "category",
-                  label: "Methods",
-                  items: [
-                    "calendar/api/calendar_clear_method",
-                    "calendar/api/calendar_destructor_method",
-                    "calendar/api/calendar_getcurrentmode_method",
-                    "calendar/api/calendar_getvalue_method",
-                    "calendar/api/calendar_link_method",
-                    "calendar/api/calendar_paint_method",
-                    "calendar/api/calendar_setvalue_method",
-                    "calendar/api/calendar_showdate_method",
-                  ],
-                },
-                {
-                  type: "category",
-                  label: "Events",
-                  items: [
-                    "calendar/api/calendar_beforechange_event",
-                    "calendar/api/calendar_cancelclick_event",
-                    "calendar/api/calendar_change_event",
-                    "calendar/api/calendar_datehover_event",
-                    "calendar/api/calendar_datemouseover_event",
-                    "calendar/api/calendar_modechange_event",
-                    "calendar/api/calendar_monthselected_event",
-                    "calendar/api/calendar_yearselected_event",
-                  ],
-                },
-                {
-                  type: "category",
-                  label: "Properties",
-                  items: [
-                    "calendar/api/calendar_block_config",
-                    "calendar/api/calendar_css_config",
-                    "calendar/api/calendar_date_config",
-                    "calendar/api/calendar_dateformat_config",
-                    "calendar/api/calendar_disableddates_config",
-                    "calendar/api/calendar_mark_config",
-                    "calendar/api/calendar_mode_config",
-                    "calendar/api/calendar_range_config",
-                    "calendar/api/calendar_thismonthonly_config",
-                    "calendar/api/calendar_timeformat_config",
-                    "calendar/api/calendar_timepicker_config",
-                    "calendar/api/calendar_value_config",
-                    "calendar/api/calendar_view_config",
-                    "calendar/api/calendar_weeknumbers_config",
-                    "calendar/api/calendar_weekstart_config",
-                    "calendar/api/calendar_width_config",
-                  ],
-                },
-              ],
-            },
             "message/overview",
             "message/creating_message",
             "message/configuration",
@@ -1197,8 +1140,7 @@ module.exports = {
               type: "category",
               label: "API",
               items: [
-                // "calendar/api/api_overview", //todo //todo
-
+                // "calendar/api/api_overview", //todo 
                 {
                   type: "category",
                   label: "Methods",
@@ -1250,8 +1192,7 @@ module.exports = {
               type: "category",
               label: "API",
               items: [
-                // "calendar/api/api_overview", //todo
-
+                // "ribbon/api/api_overview", //todo
                 {
                   type: "category",
                   label: "Methods",
