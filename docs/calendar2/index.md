@@ -45,7 +45,10 @@ Covers languages interface settings. You can set the language you need in an eas
 
 ### How to work with
 Covers the ways of specifying date format, design of the widget, customization, modes, working with two calendars. Includes the operations that can be performed with Calendar and available events.
-
+- Initialization settings
+- Configuration settings
+- Applying features
+- Styling features
 
 ## Guides 3
 
@@ -59,9 +62,71 @@ Study how to set languages interface.
 
 ### Exploring Calendar settings
 Read how to create Calendar settings.
+- Date settings
+    - 
+- Styling settings
+    - 
+- Spesial settings
+    - 
 
 ### Developing with Calendar solutions
 Explore how to work with the solutions the Calendar provides to you.
+- DatePicker (Initialization in a popup)
+- Showing tooltips
+- Getting current mode
+- Showing tooltips
+- Getting current mode
+- Getting selected date 
+- Attaching event listeners
+- Detaching event listeners
+- Calling events
+- The list of events
+
+## Guides 4
+
+### Creating Calendar 
+
+Read how to initialize the Calendar on a page.
+- [Initialization](how_to_start)
+
+### Localizing Calendar
+
+Study how to set languages interface.
+- [Localization](localizing_calendar) 
+
+### Exploring Calendar settings
+Read how to create Calendar settings.
+- Calendar modes
+- Changing calendar mode
+- Initial calendar date
+- Initially selected date
+- Selecting date (переименовать в Set date)
+- Date format
+- Numbers of weeks
+- Start of the week
+- Disabled dates
+- Displaying only current month
+- Styling Calendar
+- Styling selected dates
+- Width of calendar
+- Highlighted dates
+- Range mode
+- Linking 2 calendars
+- Range mode of 2 calendars
+ 
+### Developing with Calendar solutions
+
+Explore how to work with the solutions the Calendar provides to you.
+- DatePicker (Initialization in a popup)
+- Showing tooltips
+- Getting current mode
+- Showing tooltips
+- Getting current mode
+- Getting selected date 
+- Attaching event listeners
+- Detaching event listeners
+- Calling events
+- The list of events
 
 ## Migration to Newer Versions
 
