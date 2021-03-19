@@ -1,6 +1,7 @@
 ---
 sidebar_label: Tabbar
 title: Tabbar
+description: dhtmlxTabbar is a useful JavaScript widget for handy navigation between tabs which you can easily create and configure. Comprehensive API provides a lot of features for adjusting the tabs to your requirements.
 ---          
 
 ``` todo
@@ -11,18 +12,17 @@ Check [online samples for dhtmlxTabbar](https://docs.dhtmlx.com/suite/samples/ta
 
 ![](../assets/tabbar/tabbar_front.png)
 
-<div class="h2">API reference</div>
+## API reference
 
 - tabbar/api/refs/tabbar.md
 
-
-<div class="h2">Related resources</div>
+## Related resources
 
 - You can get dhtmlxTabbar as a part of the Suite library by [downloading dhtmlxSuite](https://dhtmlx.com/docs/products/dhtmlxSuite/download.shtml)          
 - There are also [online samples for dhtmlxTabbar](https://docs.dhtmlx.com/suite/samples/tabbar/)  
 
 
-<div class="h2">Guides</div>
+## Guides
 
 <table class='guide-table'>
 	<tbody>
@@ -42,7 +42,7 @@ Check [online samples for dhtmlxTabbar](https://docs.dhtmlx.com/suite/samples/ta
 </table>
 
 
-<div class="h2">Other</div>
+## Other
 <table class='other-table'>
 	<tbody>
     <tr>
@@ -64,10 +64,5 @@ Check [online samples for dhtmlxTabbar](https://docs.dhtmlx.com/suite/samples/ta
 - tabbar/customization.md
 - tabbar/events.md
 - tabbar/migration.md
-
-
-@metadescr:
-dhtmlxTabbar is a useful JavaScript widget for handy navigation between tabs which you can easily create and configure. Comprehensive API provides a lot of features for adjusting the tabs to your requirements.
-
 
 ``` todo

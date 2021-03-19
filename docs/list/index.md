@@ -1,6 +1,7 @@
 ---
 sidebar_label: List
 title: List
+description: dhtmlxList is a mobile-friendly JavaScript widget for rendering items in a list according to a user-defined template. Comprehensive and flexible API allows configuring your list easily  the way you need.
 ---          
 
 ``` todo
@@ -10,16 +11,16 @@ It allows you to arrange multiple objects with similar properties within a singl
 
 ![](../assets/list/list_front.png)
 
-<div class="h2">API reference</div>
+## API reference
 
 - list/api/refs/list.md
 
-<div class="h2">Related resources</div>
+## Related resources
 
 - You can get dhtmlxList as a part of the Suite library by [downloading dhtmlxSuite](https://dhtmlx.com/docs/products/dhtmlxSuite/download.shtml)          
 - There are also [online samples for dhtmlxList](https://docs.dhtmlx.com/suite/samples/list/)  
 
-<div class="h2">Guides</div>
+## Guides
 <table class='guide-table'>
 	<tbody>
     <tr>
@@ -39,7 +40,7 @@ It allows you to arrange multiple objects with similar properties within a singl
    	</tbody>
 </table>
 
-<div class="h2">Other</div>
+## Other
 
 <table class='other-table'>
 	<tbody>
@@ -65,10 +66,5 @@ It allows you to arrange multiple objects with similar properties within a singl
 - list/customization.md
 - list/events.md
 - list/migration.md
-
-
-@metadescr:
-dhtmlxList is a mobile-friendly JavaScript widget for rendering items in a list according to a user-defined template. Comprehensive and flexible API allows configuring your list easily  the way you need.
-
 
 ``` todo

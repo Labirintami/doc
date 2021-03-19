@@ -1,12 +1,10 @@
 ---
 sidebar_label: beforeHide
 title: beforeHide
+description: 
 ---          
 
-``` todo
-
-@short:
-fires before a window is hidden
+@short: fires before a window is hidden
 
 @params:
 - position  object      an object with coordinates of the window's position
@@ -20,7 +18,6 @@ dhxWindow.events.on("BeforeHide", function(position, events){
     console.log("A window will be hidden", events);
     return true;
 });
-
 
 @template: api_event
 @descr:
@@ -45,5 +42,3 @@ Note, the event fires in 2 cases:
 
 @changelog: 
 The **position** and **events** parameters have been added in v7.0.
-
-``` todo

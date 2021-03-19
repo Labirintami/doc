@@ -1,6 +1,7 @@
 ---
 sidebar_label: Work with Calendar
 title: Work with Calendar
+description:
 ---          
 
 ## Changing calendar mode
@@ -95,9 +96,7 @@ var date = calendar.getValue(); // ->  ["03/06/19", "19/06/19"]
 You can create two calendars and link them to provide the ability of selecting a date range. The first calendar will be used for setting the start date of the range, while the end date of the range will be specified in the
 second calendar. 
 
-``` todo
 ![](../assets/calendar/date_range.png)
-``` todo
 
 Use the calendar/api/calendar_link_method.md method and pass as a parameter the object of the second calendar to link the first calendar to.
 In the example below the [Change](calendar/api/calendar_change_event.md) event is intended to output the start and end dates of the selected range:

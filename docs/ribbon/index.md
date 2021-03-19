@@ -3,24 +3,21 @@ sidebar_label: Ribbon
 title: Ribbon
 ---          
 
-
 dhtmlxRibbon is an advanced version of dhtmlxToolbar. It aggregates commands and tools used in an application or in a website into logical blocks thus providing a handy navigation bar.<br/>
 Check [online samples for dhtmlxRibbon](https://docs.dhtmlx.com/suite/samples/ribbon/).
 
 ![](../assets/ribbon/ribbon_front.png)
 
-<div class="h2">API reference</div>
+## API reference
 
 - ribbon/api/refs/ribbon.md
 
-
-<div class="h2">Related resources</div>
+## Related resources
 
 - You can get dhtmlxRibbon as a part of the Suite library by [downloading dhtmlxSuite](https://dhtmlx.com/docs/products/dhtmlxSuite/download.shtml)          
 - There are also [online samples for dhtmlxRibbon](https://docs.dhtmlx.com/suite/samples/ribbon/)  
 
-
-<div class="h2">Guides</div>
+## Guides
 
 <table class='guide-table'>
 	<tbody>

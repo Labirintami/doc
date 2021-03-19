@@ -130,11 +130,18 @@ table th:last-child {
         color: var(--ifm-color-feedback-background);
     }
 }
-
-
 /* end change the appearance of mobile navigation */
 
+/* for Code Snippet iframe */
 .snippet_iframe {
  border: 1px solid var(--ifm-hr-border-color);
  margin-bottom: var(--ifm-leading);
 }
+/* end for Code Snippet iframe */
+
+/* start code block */
+code {
+    border-radius: 2px;
+    padding: 6px 8px;
+}
+/* end code block */

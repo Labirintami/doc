@@ -56,11 +56,10 @@ In the above example a custom filtering function compares an entered value with 
 order in a word.
 
 
-
 Styling 
 -----------
 
-<img style="margin: 0px 0px 0px 20px; display: block;" src="combo/custom_css.png" alt=""/>
+![](../assets/combo/custom_css.png)
 
 There is a possibility to make changes in the look and feel of a combo box. For this you need to take the following steps:
 

@@ -1,9 +1,8 @@
 ---
 sidebar_label: afterHide
 title: afterHide
+description: 
 ---          
-
-``` todo
 
 @short: fires after a window is hidden
 
@@ -41,5 +40,3 @@ Note, the event fires in 2 cases:
 
 @changelog: 
 The **position** and **events** parameters have been added in v7.0.
-
-``` todo

@@ -1,6 +1,7 @@
 ---
 sidebar_label: setProperties
 title: setProperties
+description: 
 ---          
 
 ``` todo
@@ -10,14 +11,12 @@ title: setProperties
 @params:
 - properties   object      an object with the available attributes of the control and their new values
 
-
 @example:
 form.getItem("simplevault").setProperties({
     labelWidth: "140px", 
     labelPosition: "top"
 });
  
-
 @template: api_method
 @descr:
 The method invokes the form/api/simplevault/simplevault_afterchangeproperties_event.md and form/api/simplevault/simplevault_beforechangeproperties_event.md events.

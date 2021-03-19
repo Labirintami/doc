@@ -1,6 +1,7 @@
 ---
 sidebar_label: Layout
 title: Layout
+description: dhtmlxLayout is a great tool for creating a user-friendly website with intuitive structure. The widget lets you combine diverse DHTMLX components and place various types of content on a page.
 ---          
 
 ``` todo
@@ -10,18 +11,18 @@ Check [online samples for dhtmlxLayout](https://docs.dhtmlx.com/suite/samples/la
 
 ![](../assets/layout/layout.png)
 
-<div class="h2">API reference</div>
+## API reference
 
 - layout/api/refs/layout.md
 
 
-<div class="h2">Related resources</div>
+## Related resources
 
 - You can get dhtmlxLayout as a part of the Suite library by [downloading dhtmlxSuite](https://dhtmlx.com/docs/products/dhtmlxSuite/download.shtml)          
 - There are also [online samples for dhtmlxLayout](https://docs.dhtmlx.com/suite/samples/layout/)  
 
 
-<div class="h2">Guides</div>
+## Guides
 
 You can read the following articles to find out how to add Layout on the page and work with it.
 
@@ -41,7 +42,7 @@ You can read the following articles to find out how to add Layout on the page an
 	</tr>
    	</tbody>
 </table>
-<div class="h2">Other</div>
+## Other
 
 <table class='other-table'>
 	<tbody>
@@ -66,11 +67,5 @@ You can read the following articles to find out how to add Layout on the page an
 - layout/customization.md
 - layout/events.md
 - layout/migration.md
-
-
-@metadescr:
-dhtmlxLayout is a great tool for creating a user-friendly website with intuitive structure. The widget lets you combine diverse DHTMLX components and place various types of content on a page.
-
-
 
 ``` todo

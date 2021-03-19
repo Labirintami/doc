@@ -11,13 +11,13 @@ Check [online samples for dhtmlxMessage](https://docs.dhtmlx.com/suite/samples/m
 
 <br/>
 
-<div class="h2">Related resources</div>
+## Related resources
 
 - You can get dhtmlxMessage as a part of the Suite library by [downloading dhtmlxSuite](https://dhtmlx.com/docs/products/dhtmlxSuite/download.shtml)          
 - There are also [online samples for dhtmlxMessage](https://docs.dhtmlx.com/suite/samples/message/)  
 
 
-<div class="h2">Guides</div>
+## Guides
 
 <table class='guide-table'>
 	<tbody>
@@ -36,7 +36,7 @@ Check [online samples for dhtmlxMessage](https://docs.dhtmlx.com/suite/samples/m
     </tbody>
 </table>
 
-<div class="h2">Other</div>
+## Other
 
 ```todo
 <table class='other-table'>

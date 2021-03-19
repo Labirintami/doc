@@ -1,6 +1,7 @@
 ---
 sidebar_label: Window
 title: Window
+description: dhtmlxWindow is a JavaScript component for adding easy-to-use windows to applications. The component possesses rich configuration possibilities and provides a lot of means for creating attractive windows that have the desktop functionality.
 ---          
 
 ``` todo
@@ -12,17 +13,17 @@ Check [online samples for dhtmlxWindow](https://docs.dhtmlx.com/suite/samples/wi
 ![](../assets/window/window_front.png)
 
 
-<div class="h2">API reference</div>
+## API reference
 
 - window/api/refs/window.md
 
 
-<div class="h2">Related resources</div>
+## Related resources
 
 - You can get dhtmlxWindow as a part of the Suite library by [downloading dhtmlxSuite](https://dhtmlx.com/docs/products/dhtmlxSuite/download.shtml)          
 - There are also [online samples for dhtmlxWindow](https://docs.dhtmlx.com/suite/samples/window/)
 
-<div class="h2">Guides</div>
+## Guides
 
 <table  cellspacing="0" cellpadding="5" border="0">
 	<tbody>
@@ -41,7 +42,7 @@ Check [online samples for dhtmlxWindow](https://docs.dhtmlx.com/suite/samples/wi
     </tbody>
 </table>
 
-<div class="h2">Other</div>
+## Other
 
 <table class='other-table'>
 	<tbody>
@@ -65,9 +66,5 @@ Check [online samples for dhtmlxWindow](https://docs.dhtmlx.com/suite/samples/wi
 - window/customization.md
 - window/handling_events.md
 - window/migration.md
-
-
-@metadescr:
-dhtmlxWindow is a JavaScript component for adding easy-to-use windows to applications. The component possesses rich configuration possibilities and provides a lot of means for creating attractive windows that have the desktop functionality.
 
 ``` todo

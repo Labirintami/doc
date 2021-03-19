@@ -16,20 +16,17 @@ The component is easy-to-use and provides handy navigation that allows you to qu
 
 <br/>
 
-<div class="h2">API Reference</div>
+## API Reference
 
 - pagination/api/refs/pagination.md
 
 
-<div class="h2">Related resources</div>
+## Related resources
 
 - You can get dhtmlxPagination as a part of the Suite library by [downloading dhtmlxSuite](https://dhtmlx.com/docs/products/dhtmlxSuite/download.shtml)          
 - There are also [online samples for dhtmlxPagination](https://docs.dhtmlx.com/suite/samples/pagination/)  
 
-
-<div class="h2">Guides</div>
-
-
+## Guides
 
 <table class='guide-table'>
 	<tbody>

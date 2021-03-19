@@ -1,6 +1,7 @@
 ---
 sidebar_label: Migration from 6.2 to 6.3
 title: Migration from 6.2 to 6.3
+description: 
 ---          
 
 ``` todo

@@ -10,16 +10,16 @@ Being a great tool for fast and handy navigation, it will make work with your ap
 ![](../assets/toolbar/toolbar_front.png)
 
 
-<div class="h2">API reference</div>
+## API reference
 
 - toolbar/api/refs/toolbar.md
 
-<div class="h2">Related resources</div>
+## Related resources
 
 - You can get dhtmlxToolbar as a part of the Suite library by [downloading dhtmlxSuite](https://dhtmlx.com/docs/products/dhtmlxSuite/download.shtml)          
 - There are also [online samples for dhtmlxToolbar](https://docs.dhtmlx.com/suite/samples/toolbar/)  
 
-<div class="h2">Guides</div>
+## Guides
 
 <table class='guide-table'>
 	<tbody>
