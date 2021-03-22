@@ -2831,7 +2831,7 @@ module.exports = {
               items: [
                 "data_proxy/api/dataproxy_load_method",
                 "data_proxy/api/dataproxy_save_method",
-                "data_proxy/api/dataproxy_update_url_method", //todo норм ли название
+                "data_proxy/api/dataproxy_updateurl_method", //todo норм ли название
               ],
             },
           ],
@@ -2864,10 +2864,10 @@ module.exports = {
               type: "category",
               label: "Events",
               items: [
-                "selection/api/selection_after_select_event",
-                "selection/api/selection_after_unselect_event",
-                "selection/api/selection_before_select_event", 
-                "selection/api/selection_before_unselect_event",
+                "selection/api/selection_afterselect_event",
+                "selection/api/selection_afterunselect_event",
+                "selection/api/selection_beforeselect_event", 
+                "selection/api/selection_beforeunselect_event",
               ],
             },
           ],
