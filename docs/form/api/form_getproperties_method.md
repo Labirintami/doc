@@ -4,7 +4,6 @@ title: getProperties
 description: 
 ---          
 
-``` todo
 
 @short: returns objects with available configuration attributes of Form controls
 
@@ -345,7 +344,6 @@ The returned object of the **Checkbox** control can contain the following config
 		</tr>
     </tbody>
 </table>
-<br/>
 
 ## CheckboxGroup 
 
@@ -408,7 +406,6 @@ The returned object of the **CheckboxGroup** control can contain the following c
 		</tr>
     </tbody>
 </table>
-<br/>
 
 ### Checkbox properties
 
@@ -432,7 +429,6 @@ The returned object of the **CheckboxGroup** control can contain the following c
 		</tr>
 	</tbody>
 </table>
-<br/>
 
 ## ColorPicker 
 
@@ -873,7 +869,7 @@ The returned object of the **Select** control can contain the following configur
 ## SimpleVault 
 
 The returned object of the **SimpleVault** control can contain the following configuration attributes:
-
+``` todo
 <table class="webixdoc_links">
 	<tbody>
 		</tr>
@@ -1270,12 +1266,8 @@ The returned object of the **TimePicker** control can contain the following conf
     </tbody>
 </table>
 
-
-
+``` 
 
 @relatedapi: form/api/form_setproperties_method.md
 
-@changelog:
-added in v7.0
-
-``` todo
+@changelog: added in v7.0

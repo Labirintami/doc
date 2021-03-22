@@ -4,7 +4,6 @@ title: Work with Layout
 description: 
 ---          
 
-``` todo
 
 Removing cells
 -----------------
@@ -118,5 +117,3 @@ layout.getCell("toolbar").toggle();
 @todo:
 complete<br/>
 attach()? getParent()? 
-
-``` todo

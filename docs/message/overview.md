@@ -4,16 +4,14 @@ title: Overview of Message Boxes
 description: 
 ---          
 
-``` todo
-
 dhtmlxMessage component provides a set of helper message boxes: message, alert, confirm, and the tooltip component. Message boxes are easily configurable, so that you can achieve the best look and feel for 
 interaction with the users of your app or web-site.
 
 Message
 ------------
-
+``` todo
 ![DHX Message](message/message.png)
-
+``` todo
 A simple message box to inform a user about processes occurring in the application in this or that moment.
 
 Alert 
@@ -36,6 +34,3 @@ Tooltip
 ![DHX Tooltip](message/show_tooltip.png)
 
 Tooltip is a great helper for giving information about an element a user is hovering over.
-
-
-``` todo

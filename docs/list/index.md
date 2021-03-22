@@ -4,8 +4,6 @@ title: List
 description: dhtmlxList is a mobile-friendly JavaScript widget for rendering items in a list according to a user-defined template. Comprehensive and flexible API allows configuring your list easily  the way you need.
 ---          
 
-``` todo
-
 dhtmlxList is a client-side JavaScript component that displays a collection of objects in a list according to a user-defined template.
 It allows you to arrange multiple objects with similar properties within a single container and make your data organized. Check [online samples for dhtmlxList](https://docs.dhtmlx.com/suite/samples/list/). 
 
@@ -21,50 +19,15 @@ It allows you to arrange multiple objects with similar properties within a singl
 - There are also [online samples for dhtmlxList](https://docs.dhtmlx.com/suite/samples/list/)  
 
 ## Guides
-<table class='guide-table'>
-	<tbody>
-    <tr>
-        <td id="import" class='topics'>
-            <ul id="import_sublist">
-            	<li>list/initialization.md</li>  	
-                <li>list/configuration.md</li>
-                <li>list/load_data.md</li>
-                <li>list/work_with_list.md</li>
-                <li>list/usage_selection.md</li>
-                <li>list/customization.md</li>
-                <li>list/events.md</li>
-            </ul>
-        </td>
-        <td class='topic_description'>Describes the initialization of List and the main ways of working with the component and customizing it.</td>
-    </tr> 
-   	</tbody>
-</table>
+
+- [](initialization.md)  	
+- [](configuration.md)
+- [](load_data.md)
+- [](work_with_list.md)
+- [](usage_selection.md)
+- [](customization.md)
+- [](events.md)
 
 ## Other
 
-<table class='other-table'>
-	<tbody>
-    <tr>
-        <td id="other" class='topics'>            
-            <ul id="other_sublist">
-                <li>list/migration.md</li>
-
-            </ul>
-        </td>
-    </tr>           
-</tbody>
-
-</table>
-
-@index:
-- list/api/refs/list.md
-- list/initialization.md
-- list/configuration.md
-- list/load_data.md
-- list/work_with_list.md
-- list/usage_selection.md
-- list/customization.md
-- list/events.md
-- list/migration.md
-
-``` todo
+-[](migration.md)

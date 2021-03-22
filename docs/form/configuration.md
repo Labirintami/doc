@@ -4,8 +4,6 @@ title: Configuration
 description: 
 ---          
 
-``` todo
-
 Alignment
 ------------
 
@@ -45,6 +43,7 @@ var form = new dhx.Form("form_container", {
 
 The tables below demonstrate using the possible values for the **align** property in Form:
 
+``` todo
 <style>
 	table.my_table {
 		width: 100%;  
@@ -78,7 +77,7 @@ The tables below demonstrate using the possible values for the **align** propert
     </tr>           
    	</tbody>
 </table>
-<br/>
+
 <table class="my_table">
 	<tbody>
     <caption class="title">Distributed alignment</caption>
@@ -94,6 +93,7 @@ The tables below demonstrate using the possible values for the **align** propert
     </tr>           
    	</tbody>
 </table>
+```
 
 Grouping Controls in Form
 -------------------------
@@ -274,6 +274,5 @@ var form = new dhx.Form("form_container", {
 
 
 
-``` todo
 
 

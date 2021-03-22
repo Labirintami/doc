@@ -4,8 +4,6 @@ title: Customization
 description: 
 ---          
 
-``` todo
-
 Styling Form
 -----------
 
@@ -70,7 +68,4 @@ var form = new dhx.Form("form-sample", {
 });
 ~~~
 
-
 {{editor	https://snippet.dhtmlx.com/wnscgb50	Form. Form Custom Styles}}
-
-``` todo

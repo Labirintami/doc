@@ -3,8 +3,6 @@ sidebar_label: Event Handling
 title: Event Handling
 ---          
 
-``` todo
-
 ## Attaching event listeners
 
 The user can add any user-defined handler to any of the available events. To do this, the user can use the **dataview.events.on()** method with the following parameters:
@@ -21,8 +19,7 @@ The user can add any user-defined handler to any of the available events. To do 
 		</tr>
     </tbody>
 </table>
-<br/>
-  
+
 ~~~js
 dataview.events.on("Click", function(id, e){
    console.log("The item with the id "+ dataview.selection.getId(id) +" was clicked.");
@@ -62,6 +59,3 @@ dataview.events.fire("name",args);
 ## List of supported events 
 
 You can find the full list of Dataview events in the [API Reference](dataview/api/refs/dataview_events.md).
-
-
-``` todo

@@ -3,9 +3,7 @@ sidebar_label: spans
 title: spans
 description: 
 ---          
-
 ``` todo
-
 @short: describes the configuration of cols/rows spans
 
 @signature: spans?: [];

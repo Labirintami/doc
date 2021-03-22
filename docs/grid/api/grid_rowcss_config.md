@@ -4,7 +4,6 @@ title: rowCss
 description: 
 ---          
 
-``` todo
 
 @short: sets style for a row
 
@@ -37,5 +36,3 @@ The function takes the id of a row as a parameter and returns a string with the 
 
 @related: grid/initialization.md#initializegrid
 grid/configuration.md#rowstyle
-
-``` todo

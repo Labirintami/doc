@@ -2734,9 +2734,10 @@ module.exports = {
               type: "category",
               label: "Methods",
               items: [
-                // "window/api/window_attach_method", todo
-                // "window/api/window_attachhtml_method",
-                // "window/api/window_destructor_method",
+                "ajax/api/delete", 
+                "ajax/api/get",
+                "ajax/api/post",
+                "ajax/api/put",
               ],
             },
           ],
@@ -2749,17 +2750,16 @@ module.exports = {
           type: "doc",
           id: "helpers/base_elements",
         },
-        //todo разобраться с вложенностью
         {
           type: "category",
           label: "CSS manager methods",
           items: [
-            // "window/api/window_attach_method", todo
-            // "window/api/window_attachhtml_method",
-            "window/api/window_destructor_method",
+            "css_manager/api/add",
+            "css_manager/api/get",
+            "css_manager/api/remove",
+            "css_manager/api/update",
           ],
         },
-
         {
           type: "category",
           label: "DataCollection API",
@@ -2816,13 +2816,10 @@ module.exports = {
             },
           ],
         },
-
         {
           type: "doc",
           id: "helpers/datadrivers",
         },
-
-        //todo - всю вложенность сделать
         {
           type: "category",
           label: "DataProxy",
@@ -2839,7 +2836,6 @@ module.exports = {
             },
           ],
         },
-
         {
           type: "doc",
           id: "helpers/lazydataproxy",
@@ -2916,10 +2912,23 @@ module.exports = {
                 "tree_collection/api/update",
               ],
             },
+
+            {
+              type: "category",
+              label: "Events",
+              items: [
+                "tree_collection/api/afteradd_event",
+                "tree_collection/api/afterremove_event", 
+                "tree_collection/api/beforeadd_event",
+                "tree_collection/api/beforeremove_event",
+                "tree_collection/api/change_event", 
+                "tree_collection/api/load_event", 
+                "tree_collection/api/loaderror_event",
+                "tree_collection/api/removeall_event",
+              ],
+            },
           ],
         },
-
-        //todo - всю вложенность сделать
         {
           type: "category",
           label: "Uploader Object API",
@@ -2927,23 +2936,25 @@ module.exports = {
             "helpers/data_collection",
             {
               type: "category",
-              label: "Methods", //todo
+              label: "Methods", 
               items: [
-                "window/api/window_attach_method",
-                "window/api/window_attachhtml_method",
-                "window/api/window_destructor_method",
-                "window/api/window_fullscreen_method",
-                "window/api/window_getcontainer_method",
-                "window/api/window_getposition_method",
-                "window/api/window_getsize_method",
-                "window/api/window_getwidget_method",
-                "window/api/window_hide_method",
-                "window/api/window_isvisible_method",
-                "window/api/window_paint_method",
-                "window/api/window_setfullscreen_method",
-                "window/api/window_setposition_method",
-                "window/api/window_setsize_method",
-                "window/api/window_show_method",
+                "uploader/api/abort",
+                "uploader/api/linkdroparea", 
+                "uploader/api/unlinkdroparea",
+                "uploader/api/selectfile",
+                "uploader/api/send",
+              ],
+            },
+            {
+              type: "category",
+              label: "Events", 
+              items: [
+                "uploader/api/autosend_config",
+                "uploader/api/fieldname_config", 
+                "uploader/api/params_config",
+                "uploader/api/singlerequest_config",
+                "uploader/api/target_config",
+                "uploader/api/updatefromresponse",
               ],
             },
           ],

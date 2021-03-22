@@ -4,8 +4,6 @@ title: getProperties
 description: 
 ---          
 
-``` todo
-
 @short: returns an object with the available configuration attributes of the control
 
 @returns:
@@ -105,9 +103,5 @@ The returned object of the **Checkbox** control can contain the following config
 		</tr>
     </tbody>
 </table>
-<br/>
-
 
 @changelog: added in v7.0
-
-``` todo

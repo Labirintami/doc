@@ -4,8 +4,6 @@ title: Event Handling
 description: 
 ---          
 
-``` todo
-
 ## Attaching event listeners
 
 The user can add any user-defined handler to any of the available events. To do this, the user can use the **list.events.on()** method with the following parameters:
@@ -22,8 +20,7 @@ The user can add any user-defined handler to any of the available events. To do 
 		</tr>
     </tbody>
 </table>
-<br/>
-  
+
 ~~~js
 list.events.on("Click", function(id, e){
     console.log("The item with the id "+ list.selection.getId(id) +" was clicked.");
@@ -59,9 +56,6 @@ list.events.fire("name",args);
 // where args is an array of arguments
 ~~~
 
-
 ## List of supported events 
 
 You can find the full list of List events in the [API Reference](list/api/refs/list_events.md).
-
-``` todo

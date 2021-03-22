@@ -4,8 +4,6 @@ title: addRowCss
 description: 
 ---          
 
-``` todo
-
 @short: adds a style to a row
 
 @signature: addRowCss(id: string | number, css: string): void;
@@ -13,16 +11,16 @@ description:
 @params:
 - id 		string,number 		the id of a row
 - css 		string 				the name of the CSS class
-
+``` todo
 @example:
 <style>
     .myCustomClass{
         background:greenyellow;
     }
 </style>
- 
-grid.addRowCss("2", "myCustomClass");
 
+grid.addRowCss("2", "myCustomClass");
+ ```
 
 @template: api_method
 @descr:
@@ -35,4 +33,3 @@ grid.addRowCss("2", "myCustomClass");
 @changelog:
 
 
-``` todo

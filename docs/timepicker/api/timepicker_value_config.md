@@ -3,12 +3,10 @@ sidebar_label: value
 title: value
 ---          
 
-``` todo
-
 @short: the time value to be set on initialization of the timepicker
-
+``` todo
 @signature: value?: Date | number | string | any[] | hour: number, minute: number,  AM?: boolean;
-
+```
 @example:
 // the value as a Date object 
 var timepicker = new dhx.Timepicker("timepicker", {
@@ -35,9 +33,6 @@ var timepicker = new dhx.Timepicker("timepicker", {
 	value: {hour: 10, minute: 50, AM: true}
 });
 
-
-
-
 @template:	api_config
 @descr: 
 1\. The value of timepicker set as an **array** should have the following elements:
@@ -59,5 +54,3 @@ method of the **Date** object.
 @related: timepicker/configuration.md#initialvalue
 
 @changelog: added in v7.0
-
-``` todo

@@ -4,8 +4,6 @@ title: setProperties
 description: 
 ---          
 
-``` todo
-
 @short: allows changing available configuration attributes of the control dynamically
 
 @params:
@@ -18,7 +16,6 @@ form.getItem("input").setProperties({
     placeholder: "Enter your name",
     minLength: 4
 });
- 
 
 @template: api_method
 @descr:
@@ -26,6 +23,7 @@ The method invokes the form/api/input/input_afterchangeproperties_event.md and f
 
 It is possible to change values of the following configuration attributes of the **Input** control:
 
+``` todo
 <table class="webixdoc_links">
 	<tbody>
         <tr>
@@ -123,9 +121,6 @@ It is possible to change values of the following configuration attributes of the
 		</tr>
     </tbody>
 </table>
-
-
+```
 
 @changelog: added in v7.0
-
-``` todo

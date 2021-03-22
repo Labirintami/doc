@@ -4,8 +4,6 @@ title: setProperties
 description: 
 ---          
 
-``` todo
-
 @short: allows changing available configuration attributes of the control dynamically
 
 @params:
@@ -85,9 +83,5 @@ It is possible to change values of the following configuration attributes of the
 		</tr>
     </tbody>
 </table>
-<br/>
-
 
 @changelog: added in v7.0
-
-``` todo

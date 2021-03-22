@@ -4,7 +4,7 @@ title: Form
 description: dhtmlxForm is a useful widget integrated with other DHTMLX components and intended to view and edit data, validate them and send to a server side.  
 ---          
 
-``` todo
+
 
 dhtmlxForm is a typical form widget that can contain a number of adjustable and easy-to-use controls, supports data validation and localization of labels.
 Check [online samples for dhtmlxForm](https://docs.dhtmlx.com/suite/samples/form/). 
@@ -21,7 +21,7 @@ Check [online samples for dhtmlxForm](https://docs.dhtmlx.com/suite/samples/form
 - There are also [online samples for dhtmlxForm](https://docs.dhtmlx.com/suite/samples/form/)  
 
 ## Guides
-
+``` todo
 <table class='guide-table'>
 	<tbody>
 	<tr>
@@ -68,9 +68,8 @@ Check [online samples for dhtmlxForm](https://docs.dhtmlx.com/suite/samples/form
    	</tbody>
 </table>
 
-
-
 ## Other
+
 <table class='other-table'>
 	<tbody>
     <tr>
@@ -83,16 +82,4 @@ Check [online samples for dhtmlxForm](https://docs.dhtmlx.com/suite/samples/form
     </tr>           
 </tbody>
 </table>
-
-@index:
-- form/api/refs/form.md
-- form/how_to_start.md
-- form/controls_list.md
-- form/localization.md
-- form/configuration.md
-- form/work_with_form.md
-- form/customization.md
-- form/handling_events.md
-- form/migration.md
-
-``` todo
+```

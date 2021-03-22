@@ -4,7 +4,6 @@ title: id
 description: 
 ---          
 
-``` todo
 @short: sets the id of a tab
 
 ```todoapi  в старой локе не вижу```
@@ -19,10 +18,3 @@ var tabbar = new dhx.Tabbar("tabbar_container",{
 		{ tab: "right", id:"4"}
 	]
 });
-
-
-@template:	api_config
-@descr: 
-
-``` todo
-

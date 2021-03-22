@@ -4,13 +4,13 @@ title: setValue
 description: 
 ---          
 
-``` todo
 
 @short: sets the value for a TimePicker control
 
 @params:
 - value     Date|number|string|array|object    the value to be set for the control
 
+``` todo
 @example:
 // set the value as a string
 form.getItem("timepicker").setValue("10:30");
@@ -27,6 +27,7 @@ form.getItem("timepicker").setValue(1559288966422);
 // set the value as an object
 form.getItem("timepicker").setValue({hour: 10, minute: 50, AM: true});
 
+```
 
 @template: api_method
 @descr:
@@ -46,5 +47,3 @@ method of the **Date** object.
 
 @changelog: 
 The ability to set the value as a number, as an array, or as an object is added in v7.0.
-
-``` todo

@@ -4,10 +4,7 @@ title: Work with Selection Object
 description: 
 ---          
 
-``` todo
-
 You can manipulate with Grid cells via the API of the selection object. It is possible to get the object of one or more selected cells or rows, to set selection as to a single row or cell as to multiple rows or cells. The selection object also allows removing selection from previously selected cells.
-
 
 Enabling/Disabling Selection object
 ---------------------------------
@@ -18,18 +15,14 @@ Starting from v7.0, you can activate selection of cells via the grid/api/selecti
 grid.selection.enable();
 ~~~
 
-
-
 To disable selection of cells in Grid, make use of the grid/api/selection/selection_disable_method.md method of the selection object:
 
 ~~~js
 grid.selection.disable();
 ~~~
 
-
 Setting selection to cells
 -----------------------------
-
 
 You can set selection to one or more rows or cells using the [setCell()](grid/api/selection/selection_setcell_method.md) method of the selection object. The method takes the following parameters:
 
@@ -112,8 +105,6 @@ grid.selection.setCell(grid.data.getId(3),"destiny", false, true);
 {{editor    https://snippet.dhtmlx.com/4nj0e9ye	Grid. Multiselection}}
 
 {{note Use the **selection:"rows"** property to be able to operate rows. }}
- 
-<br/>
 
 To make the process of selecting cells more flexible, you can apply the related events of the selection object:
 
@@ -138,7 +129,7 @@ Starting from v7.0, you can remove selection from a selected cell/row or from hi
 		</tr>
     </tbody>
 </table>
-<br/>
+
 ~~~js
 // unselects all previously selected cells
 grid.selection.removeCell();
@@ -150,7 +141,6 @@ grid.selection.removeCell(rowId);
 grid.selection.removeCell(rowId, colId);
 ~~~
 
-<br/>
 
 To make the process of unselecting cells more flexible, you can apply the related events of the selection object:
 
@@ -176,5 +166,3 @@ var selectedCells = grid.selection.getCells();
 1: {row: {…}, column: {…}}
 2: {row: {…}, column: {…}}
 ~~~
-
-``` todo

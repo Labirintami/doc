@@ -4,8 +4,6 @@ title: Customization
 description: 
 ---          
 
-``` todo
-
 Styling grid
 ----------------
 
@@ -197,7 +195,7 @@ It is easy to style necessary cells using the **addCellCss()** method. It takes 
 		</tr>
     </tbody>
 </table>
-<br/>
+
 ~~~html
 <style>
 .myCustomClass{
@@ -421,6 +419,3 @@ The **eventHandlers** object includes a set of *key:value* pairs, where:
 		</tr>
     </tbody>
 </table>
-
-
-``` todo

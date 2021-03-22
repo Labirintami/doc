@@ -4,8 +4,6 @@ title: setProperties
 description: 
 ---          
 
-``` todo
-
 @short: allows changing available configuration attributes of the control dynamically
 
 @params:
@@ -23,6 +21,7 @@ The method invokes the form/api/simplevault/simplevault_afterchangeproperties_ev
 
 It is possible to change values of the following configuration attributes of the **SimpleVault** control:
 
+``` todo
 <table class="webixdoc_links">
 	<tbody>
 		</tr>
@@ -97,10 +96,6 @@ It is possible to change values of the following configuration attributes of the
   </tbody>
 </table>
 
-
-
-
+```
 
 @changelog: added in v7.0
-
-``` todo
