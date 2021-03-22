@@ -3,8 +3,6 @@ sidebar_label: css
 title: css
 ---          
 
-
-
 @short: adds style classes to TimePicker
 
 @signature: css?: string;

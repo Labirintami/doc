@@ -3,8 +3,7 @@ sidebar_label: css
 title: css
 ---          
 
-@short: 
-adds style classes to Chart
+@short: adds style classes to Chart
 
 @signature: css?: string;
 

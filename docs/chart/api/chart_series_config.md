@@ -5,8 +5,7 @@ title: series
 
 ```todoapi
 
-@short: 
-defines configuration of chart series
+@short: defines configuration of chart series
 
 
 @type: array

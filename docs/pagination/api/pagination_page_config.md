@@ -3,9 +3,7 @@ sidebar_label: page
 title: page
 ---          
 
-@short: 
-optional, the index of the initial page set in the pagination
-
+@short: optional, the index of the initial page set in the pagination
 
 @default:
 0

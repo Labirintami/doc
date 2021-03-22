@@ -3,8 +3,7 @@ sidebar_label: itemContextMenu
 title: itemContextMenu
 ---          
 
-@short:
-fires on calling a context menu for a tree item on right click
+@short: fires on calling a context menu for a tree item on right click
 
 ```tododeprecated ```
 

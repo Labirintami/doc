@@ -3,8 +3,7 @@ sidebar_label: selectClick
 title: selectClick
 ---          
 
-@short:
-fires on clicking the "Select" button
+@short: fires on clicking the "Select" button
 
 ```tododeprecated  ```
 

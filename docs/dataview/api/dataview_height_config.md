@@ -3,8 +3,7 @@ sidebar_label: height
 title: height
 ---          
 
-@short: 
-sets the height of Dataview
+@short: sets the height of Dataview
 
 @signature: height?: number | string;
 

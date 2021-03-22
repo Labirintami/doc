@@ -3,8 +3,7 @@ sidebar_label: css
 title: css
 ---          
 
-@short: 
-adds style classes for the component
+@short: adds style classes for the component
 
 ```todoapi ```
 

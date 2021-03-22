@@ -3,8 +3,7 @@ sidebar_label: isFolder
 title: isFolder
 ---          
 
-@short: 
-defines whether an item should be rendered as a folder
+@short: defines whether an item should be rendered as a folder
 
 ```tododeprecated ``` 
 

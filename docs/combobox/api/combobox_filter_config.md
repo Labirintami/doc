@@ -3,8 +3,7 @@ sidebar_label: filter
 title: filter
 ---          
 
-@short: 
-sets a custom function for filtering Combo Box options
+@short: sets a custom function for filtering Combo Box options
 
 @signature: filter?: (item: any, input: string) => boolean;
 

@@ -23,9 +23,15 @@ title: Colorpicker API
 
 ## Events 
 
-| Name | Description |
-| ---- | ----------- |
-`to do`
+| Name                                                 | Description                                                 |
+| ---------------------------------------------------- | ----------------------------------------------------------- |
+| [](colorpicker/api/colorpicker_apply_event.md)       | @getshort(colorpicker/api/colorpicker_apply_event.md)       |
+| [](colorpicker/api/colorpicker_cancelclick_event.md) | @getshort(colorpicker/api/colorpicker_cancelclick_event.md) |
+| [](colorpicker/api/colorpicker_change_event.md)      | @getshort(colorpicker/api/colorpicker_change_event.md)      |
+| [](colorpicker/api/colorpicker_colorchange_event.md) | @getshort(colorpicker/api/colorpicker_colorchange_event.md) |
+| [](colorpicker/api/colorpicker_modechange_event.md)  | @getshort(colorpicker/api/colorpicker_modechange_event.md)  |
+| [](colorpicker/api/colorpicker_selectclick_event.md) | @getshort(colorpicker/api/colorpicker_selectclick_event.md) |
+| [](colorpicker/api/colorpicker_viewchange_event.md)  | @getshort(colorpicker/api/colorpicker_viewchange_event.md)  |
 
 ## Properties
 

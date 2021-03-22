@@ -3,8 +3,7 @@ sidebar_label: dragMode
 title: dragMode
 ---          
 
-@short: 
-enables drag-n-drop in DataView
+@short: enables drag-n-drop in DataView
 
 @signature: dragMode?: "target" | "both" | "source";
 

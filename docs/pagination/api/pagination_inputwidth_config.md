@@ -3,11 +3,7 @@ sidebar_label: inputWidth
 title: inputWidth
 ---          
 
-@short: 
-optional, sets the width for the input of the pagination
-
-
-
+@short: optional, sets the width for the input of the pagination
 
 @type: number
 

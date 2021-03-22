@@ -3,8 +3,7 @@ sidebar_label: listHeight
 title: listHeight
 ---          
 
-@short: 
-sets the height of the list of options
+@short: sets the height of the list of options
 
 @signature: listHeight?: number | string;
 

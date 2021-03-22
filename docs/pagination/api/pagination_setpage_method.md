@@ -3,9 +3,6 @@ sidebar_label: setPage
 title: setPage
 ---          
 
-@short: 
-
-
 @short: sets an active page in the related widget
 
 

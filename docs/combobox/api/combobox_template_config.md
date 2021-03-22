@@ -4,8 +4,7 @@ title: template
 ---          
 
 
-@short: 
-sets a template of displaying options in the popup list
+@short: sets a template of displaying options in the popup list
 
 @signature: template?: (item: any) => string;
 

@@ -3,9 +3,7 @@ sidebar_label: pageSize
 title: pageSize
 ---          
 
-@short: 
-optional, the number of items displayed per page of the related widget
-
+@short: optional, the number of items displayed per page of the related widget
 
 @default:
 10

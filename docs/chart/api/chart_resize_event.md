@@ -3,8 +3,7 @@ sidebar_label: resize
 title: resize
 ---          
 
-@short:
-fires on changing the size of the chart container
+@short: fires on changing the size of the chart container
 
 ```todoapi
 void resize(object size){ ... };

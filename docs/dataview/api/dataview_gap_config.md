@@ -3,8 +3,7 @@ sidebar_label: gap
 title: gap
 ---          
 
-@short: 
-sets margins for DataView items
+@short: sets margins for DataView items
 
 @signature: gap?: number;
 

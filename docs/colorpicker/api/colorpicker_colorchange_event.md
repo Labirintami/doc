@@ -3,8 +3,7 @@ sidebar_label: colorChange
 title: colorChange
 ---          
 
-@short:
-fires on changing selected color in ColorPicker
+@short: fires on changing selected color in ColorPicker
 
 ```tododeprecated ```
 

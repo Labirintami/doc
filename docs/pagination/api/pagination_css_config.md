@@ -3,11 +3,7 @@ sidebar_label: css
 title: css
 ---          
 
-@short: 
-adds style classes to the pagination
-
-
-
+@short: adds style classes to the pagination
 
 @type: string
 
