@@ -4,8 +4,6 @@ title: Range Mode
 description: 
 ---          
 
-``` todo
-
 The range mode of slider presupposes the usage of two thumbs for selecting the starting and ending values of a range. 
 
 ![](../assets/slider/range_mode.png)
@@ -22,24 +20,23 @@ var slider = new dhx.Slider("slider", {
 });
 ~~~
 
-{{editor	https://snippet.dhtmlx.com/nfdr84oy	Slider. Range Mode Of The Slider}}
+[Slider. Range Mode Of The Slider](https://snippet.dhtmlx.com/nfdr84oy)
 
 The same as the default slider, a slider in the range mode works smoothly both in the horizontal and vertical modes, as well as in the inverse mode.
 You can manipulate the scale settings by adjusting the ticks-related options and use labels for its thumbs. 
 
+``` todo ссылка пустая
 In short, the full set of [Slider configuration properties](slider/configuring_slider.md) can be applied to the range slider. All the standard [Slider API]() is supported.
+```
 
-API specificity
---------------
+## API specificity
 
-###Configuration
+### Configuration
 
 Note that the **value** option should have the *array* type and contain a pair of values for both thumbs.
 
 
-###Get/set value
+### Get/set value
 
 - The **getValue()** method returns an array with a pair of values for a slider in the range mode. 
 - The **setValue()** method takes as a first parameter an array, respectively.
-
-``` todo

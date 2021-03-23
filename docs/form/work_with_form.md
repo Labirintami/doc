@@ -4,8 +4,6 @@ title: Work with Form
 description: 
 ---          
 
-``` todo
-
 Getting values of controls
 ------------------
 
@@ -350,5 +348,3 @@ form.setFocus("input");
 {{sample form/03_usage/09_set_focus_on_control.html}}
 
 It is possible to set focus to DatePicker, Checkbox, ColorPicker, Combo, Input, RadioGroup, Select, Textarea, TimePicker controls of Form.
-
-``` todo

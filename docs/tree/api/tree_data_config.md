@@ -4,8 +4,6 @@ title: data
 description: 
 ---          
 
-``` todo
-
 @short: sets a dataset for a tree
 
 @signature: data?: array;
@@ -19,6 +17,7 @@ var tree = new dhx.Tree("tree", {data: data});
 @descr: 
 Each **data** object can have the following properties:
 
+``` todo
 <table class="webixdoc_links">
 	<tbody>
         <tr>
@@ -47,7 +46,7 @@ Each **data** object can have the following properties:
 		</tr>
     </tbody>
 </table>
-<br/>
+``` 
 ~~~js
 var tree = new dhx.Tree("tree", {
     data:[
@@ -97,4 +96,3 @@ tree/loading_data.md#preparingdataset
 https://snippet.dhtmlx.com/r49y51k3	Tree. Config Data
 https://snippet.dhtmlx.com/osjo7t0h	Tree. Init With External Data
 
-``` todo

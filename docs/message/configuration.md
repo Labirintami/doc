@@ -4,7 +4,6 @@ title: Configuration
 description: 
 ---          
 
-``` todo
 
 In this article you will find the detailed list of properties that you can use inside the constructors of message boxes and tooltip to adjust their configuration.
 
@@ -49,7 +48,6 @@ The constructor of a message box may take the following parameters:
 		</tr>
     </tbody>
 </table>
-<br/>
 
 ~~~js
 dhx.message({
@@ -99,7 +97,6 @@ The constructor of an alert box may take the following parameters:
 		</tr>
     </tbody>
 </table>
-<br/>
 
 ~~~js
 dhx.alert({
@@ -148,7 +145,6 @@ The constructor of a confirm box may take the following parameters:
 		</tr>
     </tbody>
 </table>
-<br/>
 
 ~~~js
 dhx.confirm({
@@ -217,7 +213,6 @@ The constructor of a tooltip may take the following parameters:
 		</tr>
     </tbody>
 </table>
-<br/>
 
 ~~~js
 dhx.tooltip("Tooltip From Right", {
@@ -235,11 +230,11 @@ dhx.tooltip("Tooltip From Right", {
 {{note If the target of the tooltip is placed close to some edge of the browser, the tooltip will be shown from the opposite side of the target.}}
 
 In the image below the target is adjacent to the right side of screen. Its tooltip that has the *position:"right"* attribute in the config object appears from the left side of the target.
-
+``` todo
 ![Smart positioning](message/smart_tooltip.png)
+``` todo
 
-
-###Tooltip API
+### Tooltip API
 
 You can control the activity of the Tooltip via the pair of methods.
 
@@ -255,4 +250,3 @@ dhx.disableTooltip();
 dhx.enableTooltip();
 ~~~
 
-``` todo

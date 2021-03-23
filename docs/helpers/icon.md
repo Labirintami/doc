@@ -4,14 +4,13 @@ title: Default Icons
 description: 
 ---          
 
-``` todo
-
 DHTMLX Suite library provides a set of default icons that you can use to decorate your application. To use any of these icons just click on the desired one to copy it and then paste it into the intended part of the code line.
 
+``` todo
 <a href="https://snippet.dhtmlx.com/6vuv448f"  target="_blank"><img style="margin: 0px 0px 0px 20px; display: block;" src="base_icons/dxi_icons.png" alt="dhi_icons"></a>
+```
 
 {{note All the available default icons are presented in the <a href="https://snippet.dhtmlx.com/6vuv448f"  target="_blank">related sample</a>.}}
-
 
 The icons can be placed on the page in the ways given below:
 
@@ -73,6 +72,3 @@ You can use any inline HTML elements like &lt;i&gt; or &lt;span&gt;.
 
 {{note You can use the name of an icon from the used icon font in the same way, if necessary. For example, you can use the [Font Awesome](https://fontawesome.com/) or [Material Design](https://materialdesignicons.com/) icon packs.
 }} 
-
-
-``` todo

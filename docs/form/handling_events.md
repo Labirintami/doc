@@ -4,8 +4,6 @@ title: Event Handling
 description: 
 ---          
 
-``` todo
-
 ## Attaching event listeners
 
 You can add any handler to the events of Form. To do this, use the **form.events.on()** method with the following parameters:
@@ -22,7 +20,7 @@ You can add any handler to the events of Form. To do this, use the **form.events
 		</tr>
     </tbody>
 </table>
-<br/>
+
 ~~~js
 form.events.on("Click", function(name,e){
     console.log(id);
@@ -58,5 +56,3 @@ form.events.fire(evName,[args]);
 ## List of supported events 
 
 You can find the full list of Form events in the [API section](form/api/refs/form_events.md).
-
-``` todo

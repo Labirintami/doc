@@ -4,12 +4,10 @@ title: Event Handling
 description: 
 ---          
 
-``` todo
-
 ## Attaching event listeners
 
 The user can add any user-defined handler to any of the available events. To do this, the user can use the **layout.events.on()** method with the following parameters:
-
+``` todo
 <table class="webixdoc_links">
 	<tbody>
         <tr>
@@ -22,8 +20,7 @@ The user can add any user-defined handler to any of the available events. To do 
 		</tr>
     </tbody>
 </table>
-<br/>
-  
+```
 ~~~js
 layout.events.on("BeforeHide", function(id){
     console.log("The id of a cell", id);
@@ -59,10 +56,6 @@ layout.events.fire("BeforeHide",args);
 // where args is an array of arguments
 ~~~
 
-
 ## List of supported events 
 
 You can find the full list of Layout events in the [API Reference](layout/api/refs/layout_events.md).
-
-``` todo
-

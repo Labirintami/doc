@@ -4,7 +4,7 @@ title: getProperties
 description: 
 ---          
 
-``` todo
+
 
 @short: returns an object with the available configuration attributes of the control
 
@@ -139,7 +139,6 @@ The returned object of the **CheckboxGroup** control can contain the following c
 		</tr>
     </tbody>
 </table>
-<br/>
 
 ### Checkbox properties
 
@@ -164,7 +163,4 @@ The returned object of the **CheckboxGroup** control can contain the following c
 	</tbody>
 </table>
 
-
 @changelog: added in v7.0
-
-``` todo

@@ -6,8 +6,6 @@ description:
 6.3 -> 6.4 
 ---------------
 
-``` todo
-
 1) In v6.4 the `editing` property of the Tree API has been renamed to `editable`. The new name brings more clarity and precisely describes the actual functionality.
 
 2) The `isFolder` property is deprecated. Instead of it, you can set the `icon` property in the configuration object of a tree item to render a tree item as a custom folder.
@@ -42,6 +40,7 @@ In version 6.3 some methods and events of Tree have been renamed in order to avo
 
 The list of renamed methods and events:
 
+``` todo
 <style>
 	table.my_table {
 		width: 100%;

@@ -4,7 +4,7 @@ title: setProperties
 description: 
 ---          
 
-``` todo
+
 
 @short: allows changing available configuration attributes of Form controls dynamically  
 
@@ -319,7 +319,7 @@ It is possible to change the following configuration attributes of the **Checkbo
 		</tr>
     </tbody>
 </table>
-<br/>
+
 
 ## CheckboxGroup 
 
@@ -386,7 +386,7 @@ It is possible to change the following configuration attributes of the **Checkbo
 		</tr>
     </tbody>
 </table>
-<br/>
+
 
 ### Checkbox properties
 
@@ -414,7 +414,6 @@ It is possible to change the following configuration attributes of the **Checkbo
 		</tr>
 	</tbody>
 </table>
-<br/>
 
 ## ColorPicker 
 
@@ -627,15 +626,15 @@ It is possible to change the following configuration attributes of the **Input**
 		</tr>
 		<tr>
 			<td class="webixdoc_links0"><b>min</b></td>
-			<td>(<i>string|number</i>) the minimal value allowed in the input. <br/>The attribute works only with the input type: "number". </td>
+			<td>(<i>string|number</i>) the minimal value allowed in the input. The attribute works only with the input type: "number". </td>
 		</tr>
 		<tr>
 			<td class="webixdoc_links0"><b>max</b></td>
-			<td>(<i>string|number</i>) the maximal value allowed in the input. <br/>The attribute works only with the input type: "number". </td>
+			<td>(<i>string|number</i>) the maximal value allowed in the input. The attribute works only with the input type: "number". </td>
 		</tr>
 		<tr>
 			<td class="webixdoc_links0"><b>step</b></td>
-			<td>(<i>string|number</i>) the step the value will be adjusted with when using up and down arrows. <br/>The attribute works only with the input type: "number". </td>
+			<td>(<i>string|number</i>) the step the value will be adjusted with when using up and down arrows. The attribute works only with the input type: "number". </td>
 		</tr>
         <tr>
 			<td class="webixdoc_links0"><b>validation</b></td>
@@ -656,11 +655,11 @@ It is possible to change the following configuration attributes of the **Input**
 		</tr>
 		<tr>
 			<td class="webixdoc_links0"><b>minlength</b></td>
-			<td>(<i>string|number</i>) the minimum number of characters allowed in the input. <br/> The attribute works with the following input types: "text", "password".</td>
+			<td>(<i>string|number</i>) the minimum number of characters allowed in the input. The attribute works with the following input types: "text", "password".</td>
 		</tr>
 		<tr>
 			<td class="webixdoc_links0"><b>maxlength</b></td>
-			<td>(<i>string|number</i>) the maximum number of characters allowed in the input. <br/>The attribute works with the following input types: "text", "password".</td>
+			<td>(<i>string|number</i>) the maximum number of characters allowed in the input. The attribute works with the following input types: "text", "password".</td>
 		</tr>	
         <tr>
 			<td class="webixdoc_links0"><b>css</b></td>
@@ -883,7 +882,7 @@ It is possible to change the following configuration attributes of the **Select*
 ## SimpleVault 
 
 It is possible to change the following configuration attributes of the **SimpleVault** control:
-
+``` todo
 <table class="webixdoc_links">
 	<tbody>
 		</tr>
@@ -1303,11 +1302,9 @@ It is possible to change the following configuration attributes of the **TimePic
 		</tr>
     </tbody>
 </table>
-
+```
 
 @relatedapi: form/api/form_getproperties_method.md
 
-@changelog:
-added in v7.0
+@changelog: added in v7.0
 
-``` todo

@@ -4,8 +4,6 @@ title: adjust
 description: 
 ---          
 
-``` todo
-
 @short: defines whether the width of columns is automatically adjusted to the width of their content
 
 adjust?: "data" | "header" | "footer" | boolean;
@@ -19,10 +17,7 @@ var grid = new dhx.Grid("grid_container", {
     data: dataset
 });
 
-
-@template:	api_config
-@descr: 
-The property can be specified to one of the available adjustment modes:
+@descr: The property can be specified to one of the available adjustment modes:
 
 <table class="webixdoc_links">
 	<tbody>
@@ -44,7 +39,7 @@ The property can be specified to one of the available adjustment modes:
 		</tr>
     </tbody>
 </table>
-<br/>
+
 
 @relatedsample: https://snippet.dhtmlx.com/zfrpe22d	Grid. Adjust Columns
 
@@ -54,5 +49,3 @@ The property can be specified to one of the available adjustment modes:
 grid/configuration.md#autosizeforcolumns
 
 @changelog: added in v6.4
-
-``` todo

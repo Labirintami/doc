@@ -4,14 +4,11 @@ title: Configuration
 description: 
 ---          
 
-``` todo
-
-Arrow keys navigation
---------------------
+## Arrow keys navigation
 
 ![](../assets/dataview/arrow_navigation.png)
 
-{{editor    https://snippet.dhtmlx.com/u7mgoly9	Dataview. Arrow Navigation}}
+[Dataview. Arrow Navigation](https://snippet.dhtmlx.com/u7mgoly9)
 
 The DataView component provides the possibility to navigate its items with arrow keys. You can enable this functionality using the dataview/api/dataview_keynavigation_config.md property:
 
@@ -24,6 +21,8 @@ var dataview = new dhx.DataView("dataview", {
 As a value of this option you can use either *true/false* to switch it on/off, or you can specify a *function* that will define some custom navigation logic.
 
 ### Default shortcut keys
+
+
 
 <table class="webixdoc_links">
 	<tbody>
@@ -54,6 +53,7 @@ As a value of this option you can use either *true/false* to switch it on/off, o
     </tbody>
 </table>
 
+
 Drag-n-drop of items
 ------------------
 
@@ -80,9 +80,10 @@ var dataview = new dhx.DataView("dataview_container", {
 });
 ~~~
 
+
 Read more about multiselection in DataView [below](#multipleselectionofitems).
 
-{{editor    https://snippet.dhtmlx.com/nia2e5a9	Dataview. Drag'n'drop}}
+[Dataview. Drag'n'drop](https://snippet.dhtmlx.com/nia2e5a9)
 
 
 ### Copying dragged item
@@ -96,6 +97,7 @@ var target = new dhx.DataView("dataview-target", {dragMode: "target", dragCopy: 
 ~~~
 
 {{editor    https://snippet.dhtmlx.com/h89c3gl3	Dataview. Drag'n'drop Сopy}}
+
 
 Editing items
 ----------------
@@ -227,9 +229,9 @@ var dataview = new dhx.DataView("dataview", {
 
 Template for DataView items
 -------------------
-
+``` todo
 ![](../assets/ataview/template.png)
-
+```
 {{editor    https://snippet.dhtmlx.com/d6l6grr7	Dataview. Render Template}}
 
 You can define a template for rendering items in a dataview with the help of the dataview/api/dataview_template_config.md configuration property. You need to set a function as its value and pass one parameter to it:
@@ -285,7 +287,7 @@ var dataview = new dhx.DataView("dataview", {
 {{sample dataview/04_customization/05_template_events.html}}
 
 The **eventHandlers** object includes a set of *key:value* pairs, where:
-
+``` todo
 <table class="webixdoc_links">
 	<tbody>
         <tr>
@@ -304,4 +306,3 @@ The **eventHandlers** object includes a set of *key:value* pairs, where:
 </table>
 
 ``` todo
-

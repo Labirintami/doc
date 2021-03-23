@@ -4,7 +4,7 @@ title: TimePicker
 description: 
 ---          
 
-``` todo
+
 
 A control that allows a user to select time value either by moving handles along track bars or by entering hour and minutes values directly into related inputs.
 
@@ -38,7 +38,7 @@ var form = new dhx.Form("form_container", {
 ###Attributes
 
 You can provide the following attributes in the configuration object of a TimePicker:
-
+``` todo
 <table class="webixdoc_links">
 	<tbody>
     <tr>
@@ -156,7 +156,7 @@ You can provide the following attributes in the configuration object of a TimePi
 		</tr>
     </tbody>
 </table>
-
+```
 Working with TimePicker
 ----------------------
 
@@ -221,5 +221,3 @@ timepicker.setValue("00:39"); //set the value as a string
 @index:
 - form/api/refs/timepicker_methods.md
 - form/api/refs/timepicker_events.md
-
-``` todo
