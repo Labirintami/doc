@@ -159,7 +159,6 @@ module.exports = {
               label: "Calendar2 functionality and features",
               items: [
                 "calendar2/functionality_and_features/initial_date",
-
                 {
                   type: "category",
                   label: "Work with selected date",
@@ -169,7 +168,7 @@ module.exports = {
                     "calendar2/functionality_and_features/get_selected_date",
                   ],
                 },
-                "calendar2/functionality_and_features/dates_ format",
+                "calendar2/functionality_and_features/dates_format",
                 {
                   type: "category",
                   label: "Calendar modes (calendar | month | year)",
