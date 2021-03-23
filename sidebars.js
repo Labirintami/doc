@@ -154,14 +154,67 @@ module.exports = {
               ],
             },
             "calendar2/how_to_start",
-            "calendar2/configuring",
-            "calendar2/localizing_calendar",
-            "calendar2/operating_calendar",
-            "calendar2/datepicker",
+            {
+              type: "category",
+              label: "Calendar2 functionality and features",
+              items: [
+                "calendar2/functionality_and_features/initial_date",
+
+                {
+                  type: "category",
+                  label: "Work with selected date",
+                  items: [
+                    "calendar2/functionality_and_features/selected_date",
+                    "calendar2/functionality_and_features/set_selected_date",
+                    "calendar2/functionality_and_features/get_selected_date",
+                  ],
+                },
+                "calendar2/functionality_and_features/dates_ format",
+                {
+                  type: "category",
+                  label: "Calendar modes (calendar | month | year)",
+                  items: [
+                    "calendar/api/calendar_change_event",
+                   
+                  ],
+                },
+                "calendar2/functionality_and_features/tooltips",
+                "calendar2/functionality_and_features/week_numbers",
+                "calendar2/functionality_and_features/highlighted_dates",
+                "calendar2/functionality_and_features/disabled_dates",
+                "calendar2/functionality_and_features/timepicker",
+                "calendar2/functionality_and_features/start_day",
+                "calendar2/functionality_and_features/current_month_only",
+                {
+                  type: "category",
+                  label: "Date ranges in one and two calendars",
+                  items: [
+                    "calendar2/functionality_and_features/current_month_only",
+                    "calendar2/functionality_and_features/current_month_only",
+                  ],
+                },
+                "calendar2/functionality_and_features/date_picker",
+                "calendar2/functionality_and_features/width",
+                "calendar2/functionality_and_features/localization",
+                {
+                  type: "category",
+                  label: "Customization and styling Calendar",
+                  items: [
+                    "calendar2/functionality_and_features/current_month_only",
+                    "calendar2/functionality_and_features/current_month_only",
+                  ],
+                },
+              ],
+            },
+            
+            //"calendar2/configuring",
+            //"calendar2/localizing_calendar",
+            //"calendar2/operating_calendar",
+            //"calendar2/datepicker",
+            //"calendar2/customization",
+            //"calendar2/handling_events",
+            //"calendar2/migration",
             // "calendar/api",
-            "calendar2/customization",
-            "calendar2/handling_events",
-            "calendar2/migration",
           ],
         },
         // end Calendar2
