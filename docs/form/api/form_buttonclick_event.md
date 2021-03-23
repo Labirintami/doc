@@ -3,8 +3,7 @@ sidebar_label: buttonClick
 title: buttonClick
 ---          
 
-@short:
-fires after a click on a button in a form
+@short: fires after a click on a button in a form
 
 @params:
 - id 	string	 	the ID of a clicked button

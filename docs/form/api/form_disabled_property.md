@@ -3,8 +3,7 @@ sidebar_label: disabled
 title: disabled
 ---          
 
-@short: 
-makes a form disabled
+@short: makes a form disabled
 
 @type: boolean
 

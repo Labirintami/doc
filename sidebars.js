@@ -503,7 +503,7 @@ module.exports = {
             "form/index",
             {
               type: "category",
-              label: "API",
+              label: "Form API",
               collapsed: true,
               items: [
                 {
@@ -511,7 +511,7 @@ module.exports = {
                   label: "Form API",
                   collapsed: true,
                   items: [
-                    // "calendar/api/api_overview", //todo
+                    "form/api/api_overview", //todo
                     {
                       type: "category",
                       label: "Methods",
@@ -2646,9 +2646,9 @@ module.exports = {
             "window/index",
             {
               type: "category",
-              label: "API",
+              label: "Window API",
               items: [
-                // "window/api/api_overview", //todo
+                "window/api/api_overview", //todo
                 {
                   type: "category",
                   label: "Methods",

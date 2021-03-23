@@ -3,8 +3,7 @@ sidebar_label: validationFail
 title: validationFail
 ---          
 
-@short:
-fires when validation of a form fails
+@short: fires when validation of a form fails
 
 @params:
 - id				string			the id of a control

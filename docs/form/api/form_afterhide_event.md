@@ -3,8 +3,7 @@ sidebar_label: afterHide
 title: afterHide
 ---          
 
-@short:
-fires after hiding a control of Form
+@short: fires after hiding a control of Form
 
 @params:
 - name|id		string		the name (or id, if the name is not specified) of the Form control

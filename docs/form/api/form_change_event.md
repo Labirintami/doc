@@ -3,8 +3,7 @@ sidebar_label: change
 title: change
 ---          
 
-@short:
-fires on changing the value of a control
+@short: fires on changing the value of a control
 
 @params:
 - name|id			string		the name (or id, if the name is not specified) of the Form control

@@ -3,7 +3,7 @@ sidebar_label: show
 title: show
 ---          
 
-@short:shows a form on the page
+@short: shows a form on the page
 
 
 

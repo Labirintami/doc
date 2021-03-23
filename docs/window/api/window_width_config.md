@@ -3,8 +3,7 @@ sidebar_label: width
 title: width
 ---          
 
-@short: 
-sets the width of a window
+@short: sets the width of a window
 
 @signature: width?: number;
 
