@@ -181,9 +181,9 @@ module.exports = {
                 "calendar2/functionality_and_features/week_numbers",
                 "calendar2/functionality_and_features/highlighted_dates",
                 "calendar2/functionality_and_features/disabled_dates",
-                "calendar2/functionality_and_features/timepicker",
                 "calendar2/functionality_and_features/start_day",
                 "calendar2/functionality_and_features/current_month_only",
+                "calendar2/functionality_and_features/timepicker",
                 {
                   type: "category",
                   label: "Date ranges in one and two calendars",

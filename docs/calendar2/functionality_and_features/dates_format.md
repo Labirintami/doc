@@ -7,3 +7,5 @@ There is a possibility to specify the format of dates in the calendar via the [d
 The default format is: "%d/%m/%y".
 
 <iframe src="https://snippet.dhtmlx.com/mcwasfqx?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="500"></iframe>
+
+https://snippet.dhtmlx.com/2co9z3bi
