@@ -90,19 +90,20 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 
 /* styles for tables */
+table {
+    display: inline-table;
+}
 
-table th {
+table tr:nth-child(2n) {
+    background-color: var(--ifm-table-background);
+}
+
+tr {
+    line-height: 1.2;
+}
+table {
     text-align: left;
 }
-
-table th:first-child {
-    width: 20%;
-}
-
-table th:last-child {
-    width: 650px;
-}
-
 
 /* end styles for tables */
 
