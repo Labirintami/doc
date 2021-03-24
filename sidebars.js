@@ -83,7 +83,6 @@ module.exports = {
             // "calendar/api",
             "calendar/customization",
             "calendar/handling_events",
-            "calendar/migration",
           ],
         },
         // end Calendar
@@ -216,7 +215,6 @@ module.exports = {
             //"calendar2/datepicker",
             //"calendar2/customization",
             //"calendar2/handling_events",
-            //"calendar2/migration",
             // "calendar/api",
           ],
         },
@@ -278,7 +276,6 @@ module.exports = {
             "chart/usage",
             "chart/customization",
             "chart/events",
-            // "chart/migration",
           ],
         },
         // end Chart
@@ -348,7 +345,6 @@ module.exports = {
             "colorpicker/manipulating_colorpicker",
             "colorpicker/customization",
             "colorpicker/handling_events",
-            "colorpicker/migration",
           ],
         },
         // end ColorPicker
@@ -430,7 +426,6 @@ module.exports = {
             "combobox/work_with_combo",
             "combobox/customization",
             "combobox/handling_events",
-            "combobox/migration",
           ],
         },
         // end Combobox
@@ -545,7 +540,6 @@ module.exports = {
             "dataview/usage_selection",
             "dataview/customization",
             "dataview/events",
-            "dataview/migration",
           ],
         },
         // end Dataview
@@ -1332,7 +1326,6 @@ module.exports = {
             "form/work_with_form",
             "form/customization",
             "form/handling_events",
-            "form/migration",
           ],
         },
         // // end Form
@@ -1490,7 +1483,6 @@ module.exports = {
             "grid/usage_selection",
             "grid/customization",
             "grid/events",
-            "grid/migration",
           ],
         },
         // end Grid
@@ -1594,7 +1586,6 @@ module.exports = {
             "layout/work_with_layout",
             "layout/customization",
             "layout/events",
-            "layout/migration",
           ],
         },
         // end Layout
@@ -1711,7 +1702,6 @@ module.exports = {
             "list/usage_selection",
             "list/customization",
             "list/events",
-            "list/migration",
           ],
         },
         // end List
@@ -1794,7 +1784,6 @@ module.exports = {
             "menu/creating_context_menu",
             "menu/fa_icons",
             "menu/handling_events",
-            // "menu/migration",
           ],
         },
         // end Menu
@@ -1809,7 +1798,6 @@ module.exports = {
             "message/creating_message",
             "message/configuration",
             "message/customization",
-            "message/migration",
           ],
         },
         // end Message
@@ -1990,7 +1978,6 @@ module.exports = {
             "ribbon/operating_ribbon",
             "ribbon/fa_icons",
             "ribbon/handling_events",
-            // "ribbon/migration",
           ],
         },
         // end Ribbon
@@ -2078,7 +2065,6 @@ module.exports = {
             "sidebar/work_with_sidebar",
             "sidebar/customization",
             "sidebar/events",
-            "sidebar/migration",
           ],
         },
         // end Sidebar
@@ -2150,7 +2136,6 @@ module.exports = {
             "slider/usage",
             "slider/customization",
             "slider/handling_events",
-            "slider/migration",
           ],
         },
         // end Slider
@@ -2226,7 +2211,6 @@ module.exports = {
             "tabbar/work_with_tabbar",
             "tabbar/customization",
             "tabbar/events",
-            "tabbar/migration",
           ],
         },
         // end Tabbar
@@ -2290,7 +2274,6 @@ module.exports = {
             "timepicker/usage",
             "timepicker/customization",
             "timepicker/handling_events",
-            "timepicker/migration",
           ],
         },
         // end Timepicker
@@ -2371,7 +2354,6 @@ module.exports = {
             "toolbar/common_methods",
             "toolbar/customization",
             "toolbar/handling_events",
-            // "toolbar/migration",
           ],
         },
         // end Toolbar
@@ -2496,7 +2478,6 @@ module.exports = {
             "tree/usage_selection",
             "tree/setting_tree_appearance",
             "tree/events_handling",
-            "tree/migration",
           ],
         },
         // end Tree
@@ -2689,7 +2670,6 @@ module.exports = {
             "treegrid/usage_selection",
             "treegrid/customization",
             "treegrid/events",
-            "treegrid/migration",
           ],
         },
         // end TreeGrid
@@ -2769,7 +2749,6 @@ module.exports = {
             "window/usage",
             "window/customization",
             "window/handling_events",
-            "window/migration",
           ],
         },
         // end Window
@@ -3054,8 +3033,12 @@ module.exports = {
       ],
     },
     {
-      type: "doc",
-      id: "whatsnew",
+      type: "category",
+      label: "What's new and migration",
+      items: [
+        "whatsnew",
+        "migration",
+      ],
     },
   ],
 };
