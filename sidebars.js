@@ -173,7 +173,11 @@ module.exports = {
                   type: "category",
                   label: "Calendar modes (calendar | month | year)",
                   items: [
-                    "calendar/api/calendar_change_event",
+                    "calendar2/functionality_and_features/calendar_modes",
+                    "calendar2/functionality_and_features/changing_mode",
+                    "calendar2/functionality_and_features/getting_mode",
+                    //"calendar2/functionality_and_features/tooltips", to do modes 
+
                    
                   ],
                 },
@@ -188,8 +192,8 @@ module.exports = {
                   type: "category",
                   label: "Date ranges in one and two calendars",
                   items: [
-                    "calendar2/functionality_and_features/current_month_only",
-                    "calendar2/functionality_and_features/current_month_only",
+                    "calendar2/functionality_and_features/ranges_mode",
+                    "calendar2/functionality_and_features/ranges_two_calendars",
                   ],
                 },
                 "calendar2/functionality_and_features/date_picker",
@@ -199,8 +203,8 @@ module.exports = {
                   type: "category",
                   label: "Customization and styling Calendar",
                   items: [
-                    "calendar2/functionality_and_features/current_month_only",
-                    "calendar2/functionality_and_features/current_month_only",
+                    "calendar2/functionality_and_features/calendar_stylization",
+                    "calendar2/functionality_and_features/selected_dates_stylization",
                   ],
                 },
               ],
