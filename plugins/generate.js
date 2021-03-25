@@ -8,26 +8,26 @@ const host = "cdn.dhtmlx.com";
 const buildFileObject = (currentPath, fileName) => {
 	const pathRegex = /docs\W+(.*)\/api\/(.*)\./g.exec(currentPath);
 	if (pathRegex && pathRegex.length) {
-		let widget = pathRegex[1].toLowerCase();
-		switch (widget) {
+		let url = pathRegex[1].toLowerCase();
+		switch (url) {
 			case "ajax":
 			case "data_collection":
 			case "data_proxy":
 			case "tree_collection":
-				widget = "data/sources/types.d.ts";
+				url = "data/sources/types.d.ts";
 				break;
 			case "css_manager":
-				widget = "common/CssManager.d.ts";
+				url = "common/CssManager.d.ts";
 				break;
 			default:
-				widget += "/sources/types.d.ts";
+				url += "/sources/types.d.ts";
 				break;
 		}
 		const regex = /(.*)\_(.*)\_(.*)\./g.exec(fileName);
 		if (regex && regex.length) {
 			const name = regex[2].toLowerCase();
 			const type = regex[3].toLowerCase();
-			return { filePath: currentPath, widget, name, type };
+			return { filePath: currentPath, url, name, type };
 		}
 	}
 };
@@ -60,8 +60,18 @@ const getRemoteFileData = path => {
 	})
 };
 
+const getSignatureData = (fileData, signature, url) => {
+	return signature
+		? fileData.includes("@signature")
+			? fileData.replace(/@signature:.*/g, `@signature: ${signature}`)
+			: fileData.replace(/@short:.*/g, str => `${str}\n\n@signature: ${signature}`)
+		: fileData.includes("@signature")
+			? fileData.replace(/@signature:.*/g, `@signature: todo, not found [here](https://${host}/suite/pro/edge/types/ts-${url})`)
+			: fileData.replace(/@short:.*/g, str => `${str}\n\n@signature: todo, not found [here](https://${host}/suite/pro/edge/types/ts-${url})`);
+}
+
 getFiles("../docs/").forEach(file => {
-	getRemoteFileData(`/suite/pro/edge/types/ts-${file.widget}`).then(data => {
+	getRemoteFileData(`/suite/pro/edge/types/ts-${file.url}`).then(data => {
 		if (data.toLowerCase().includes(file.name.toLowerCase())) {
 			let signature;
 			let regex;
@@ -90,13 +100,9 @@ getFiles("../docs/").forEach(file => {
 				}
 			}
 
-			if (signature) {
-				const data = fs.readFileSync(file.filePath, 'utf-8');
-				const newValue = data.includes("@signature") ?
-					data.replace(/@signature:.*/g, `@signature: ${signature}`) :
-					data.replace(/@short:.*/g, str => `${str}\n\n@signature: ${signature}`);
-				fs.writeFileSync(file.filePath, newValue, 'utf-8');
-			}
+			const fileData = fs.readFileSync(file.filePath, 'utf-8');
+			const newData = getSignatureData(fileData, signature, file.url);
+			fs.writeFileSync(file.filePath, newData, 'utf-8');
 		}
-	}).catch(er => console.warn(er));
+	});
 });
