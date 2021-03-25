@@ -3,8 +3,7 @@ sidebar_label: css
 title: css
 ---          
 
-@short: 
-the name of a CSS class(es) applied to the control group
+@short: the name of a CSS class(es) applied to the control group
 
 @type: string
 

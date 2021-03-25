@@ -3,7 +3,7 @@ sidebar_label: clear
 title: clear
 ---          
 
-@short:clears a form
+@short: clears a form
 
 @params:
 

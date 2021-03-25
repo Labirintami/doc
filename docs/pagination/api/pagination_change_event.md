@@ -3,8 +3,7 @@ sidebar_label: change
 title: change
 ---          
 
-@short:
-fires on changing the active page
+@short: fires on changing the active page
 
 ```todoapi ```
 

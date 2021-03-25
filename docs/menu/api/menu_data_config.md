@@ -3,8 +3,7 @@ sidebar_label: data
 title: data
 ---          
 
-@short: 
-specifies an array of data objects to set into Menu
+@short: specifies an array of data objects to set into Menu
 
 ```todoapi 
 array data;

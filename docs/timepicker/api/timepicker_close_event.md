@@ -3,8 +3,7 @@ sidebar_label: close
 title: close
 ---          
 
-@short:
-fires on closing the timepicker
+@short: fires on closing the timepicker
 
 ```tododeprecated ```
 

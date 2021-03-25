@@ -3,11 +3,7 @@ sidebar_label: data
 title: data
 ---          
 
-@short: 
-the data collection of a widget to set into the pagination
-
-
-
+@short: the data collection of a widget to set into the pagination
 
 @type: DataCollection
 

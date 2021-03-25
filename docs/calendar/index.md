@@ -1,6 +1,6 @@
 ---
 sidebar_label: Overview
-title: Overview
+title: Calendar overview
 description: dhtmlxCalendar is a smart datepicker solution for websites or applications that allows selecting dates, ranges of dates, and time. It's easily configurable and highly customizable.
 ---          
 
@@ -33,4 +33,4 @@ You can read the following articles to find out how to add Calendar on the page 
 
 ## Other
 
-[Migration to Newer Versions](migration)
+[Migration to Newer Versions](migration) 

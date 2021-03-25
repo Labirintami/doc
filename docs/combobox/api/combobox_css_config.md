@@ -3,8 +3,7 @@ sidebar_label: css
 title: css
 ---          
 
-@short: 
-adds style classes to ComboBox
+@short: adds style classes to ComboBox
 
 @signature: css?: string;
 

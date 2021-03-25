@@ -7,7 +7,7 @@ description:
 ## Attaching event listeners
 
 The user can add any user-defined handler to any of the available events. To do this, the user can use the **layout.events.on()** method with the following parameters:
-``` todo
+
 <table class="webixdoc_links">
 	<tbody>
         <tr>
@@ -20,7 +20,7 @@ The user can add any user-defined handler to any of the available events. To do 
 		</tr>
     </tbody>
 </table>
-```
+
 ~~~js
 layout.events.on("BeforeHide", function(id){
     console.log("The id of a cell", id);

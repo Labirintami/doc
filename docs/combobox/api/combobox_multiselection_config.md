@@ -3,8 +3,7 @@ sidebar_label: multiselection
 title: multiselection
 ---          
 
-@short: 
-enables selection of multiple options in ComboBox
+@short: enables selection of multiple options in ComboBox
 
 @signature: multiselection?: boolean;
 

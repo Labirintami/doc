@@ -3,8 +3,7 @@ sidebar_label: showItemsCount
 title: showItemsCount
 ---          
 
-@short: 
-shows the total number of selected options
+@short: shows the total number of selected options
 
 ```tododeprecated
 showItemsCount?: boolean | ((count: number) => string);

@@ -11,7 +11,7 @@ Message
 ------------
 ``` todo
 ![DHX Message](message/message.png)
-``` todo
+``` todo наверно ссылки поменять
 A simple message box to inform a user about processes occurring in the application in this or that moment.
 
 Alert 

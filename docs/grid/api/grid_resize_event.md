@@ -3,7 +3,7 @@ sidebar_label: resize
 title: resize
 ---          
 
-@short:fires on resizing a column
+@short: fires on resizing a column
 
 ```todoapi ```
 

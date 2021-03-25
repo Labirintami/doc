@@ -3,8 +3,7 @@ sidebar_label: cellHeight
 title: cellHeight
 ---          
 
-@short: 
-sets the height of a cell in the list of options
+@short: sets the height of a cell in the list of options
 
 ```tododeprecated ```
 @default: 32

@@ -3,7 +3,7 @@ sidebar_label: Step 4. Add a Grid
 title: Step 4. Add a Grid
 ---          
 
-``` todo
+``` todo страница не нужна
 
 Now let’s consider  how start to work with such DHTMLX component as Grid.
 
@@ -75,4 +75,4 @@ var grid_dataset = [
     <a id="next_step" href="tutorial/basic_application/step5.md"></a>
 </div>
 
-``` todo
+```

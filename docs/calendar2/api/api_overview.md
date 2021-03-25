@@ -1,6 +1,6 @@
 ---
-sidebar_label: Overview
-title: Calendar API
+sidebar_label: API overview
+title: Calendar API overview
 ---
 	
  ## Methods 

@@ -3,8 +3,7 @@ sidebar_label: click
 title: click
 ---          
 
-@short:
-fires after a click on a button in a form
+@short: fires after a click on a button in a form
 
 @params:
 - name 	string	 	the name  (or id, if the name is not specified) of a clicked button

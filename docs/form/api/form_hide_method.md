@@ -3,7 +3,7 @@ sidebar_label: hide
 title: hide
 ---          
 
-@short:hides a form
+@short: hides a form
 
 
 

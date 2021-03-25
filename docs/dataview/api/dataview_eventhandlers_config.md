@@ -4,7 +4,7 @@ title: eventHandlers
 description: 
 ---          
 
-``` todo
+```
 
 @short: adds event handlers to the HTML elements of a custom template of DataView items
 
@@ -40,6 +40,7 @@ const dataview = new dhx.DataView("dataview", {
 
 The **eventHandlers** object includes a set of *key:value* pairs, where:
 
+``` todo нужна ли таблица
 <table class="webixdoc_links">
 	<tbody>
         <tr>
@@ -66,4 +67,4 @@ The **eventHandlers** object includes a set of *key:value* pairs, where:
 
 @related: dataview/configuration.md#eventhandlersforthetemplate
 
-``` todo
+``` 

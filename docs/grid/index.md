@@ -1,6 +1,6 @@
 ---
-sidebar_label: Grid
-title: Grid
+sidebar_label: Overview
+title: Grid overview
 ---          
 
 

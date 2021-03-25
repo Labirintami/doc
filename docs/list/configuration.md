@@ -4,8 +4,6 @@ title: Configuration
 description: 
 ---          
 
-
-
 Arrow keys navigation
 --------------------
 
@@ -18,7 +16,7 @@ var list = new dhx.List("list", {keyNavigation:true});
 As a value of this option you can use either *true/false* to switch it on/off, or specify a *function* that will define some custom navigation logic.
 
 ### Default shortcut keys
-``` todo
+
 <table class="webixdoc_links">
 	<tbody>
         <tr>
@@ -39,7 +37,7 @@ As a value of this option you can use either *true/false* to switch it on/off, o
 		</tr>
     </tbody>
 </table>
-```
+
 Drag-n-drop of items
 ------------------
 
@@ -262,7 +260,7 @@ const list = new dhx.List("list", {
 {{sample list/04_customization/05_template_events.html}}
 
 The **eventHandlers** object includes a set of *key:value* pairs, where: 
-``` todo
+``` todo легко
 <table class="webixdoc_links">
 	<tbody>
         <tr>

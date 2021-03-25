@@ -1,6 +1,6 @@
 ---
-sidebar_label: Overview
-title: Combobox API
+sidebar_label: API overview
+title: Combobox API overview
 ---
 
 ## Methods
@@ -16,19 +16,20 @@ title: Combobox API
 | [](combobox/api/combobox_setstate_method.md)   | @getshort(combobox/api/combobox_setstate_method.md)   |
 | [](combobox/api/combobox_setvalue_method.md)   | @getshort(combobox/api/combobox_setvalue_method.md)   |
 
+`to do Data Collection`
 
 ## Events
 
-| Name                                           | Description |
-| ---------------------------------------------- | ----------- |
-| [](combobox/api/combobox_afterclose_event.md)  | @getshort() |
-| [](combobox/api/combobox_beforeclose_event.md) | @getshort() |
-| [](combobox/api/combobox_close_event.md)       | @getshort() |
-| [](combobox/api/combobox_destructor_method.md) | @getshort() |
-| [](combobox/api/combobox_input_event.md)       | @getshort() |
-| [](combobox/api/combobox_open_event.md)        | @getshort() |
+| Name                                           | Description                                           |
+| ---------------------------------------------- | ----------------------------------------------------- |
+| [](combobox/api/combobox_afterclose_event.md)  | @getshort(combobox/api/combobox_afterclose_event.md)  |
+| [](combobox/api/combobox_beforeclose_event.md) | @getshort(combobox/api/combobox_beforeclose_event.md) |
+| [](combobox/api/combobox_close_event.md)       | @getshort(combobox/api/combobox_close_event.md)       |
+| [](combobox/api/combobox_destructor_method.md) | @getshort(combobox/api/combobox_destructor_method.md) |
+| [](combobox/api/combobox_input_event.md)       | @getshort(combobox/api/combobox_input_event.md)       |
+| [](combobox/api/combobox_open_event.md)        | @getshort(combobox/api/combobox_open_event.md)        |
 
-`to do`
+`to do Data Collection`
 
 ## Properties
 
@@ -58,5 +59,3 @@ title: Combobox API
 | [](combobox/api/combobox_template_config.md)        | @getshort(combobox/api/combobox_template_config.md)        |
 | [](combobox/api/combobox_value_config.md)           | @getshort(combobox/api/combobox_value_config.md)           |
 | [](combobox/api/combobox_virtual_config.md)         | @getshort(combobox/api/combobox_virtual_config.md)         |
-
-`to do`

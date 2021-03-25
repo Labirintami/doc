@@ -4,8 +4,6 @@ title: value
 description: 
 ---          
 
-``` todo
-
 @short: specifies the values that will appear in the input on initialization of the combobox
 
 @signature: value?: string | string[];
@@ -32,5 +30,3 @@ var combobox = new dhx.Combobox("combobox", {
 @relatedsample: combobox/02_configuration/09_initial_value.html
 
 @changelog: added in v7.0
-
-``` todo

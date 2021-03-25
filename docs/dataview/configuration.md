@@ -229,9 +229,9 @@ var dataview = new dhx.DataView("dataview", {
 
 Template for DataView items
 -------------------
-``` todo
-![](../assets/ataview/template.png)
-```
+
+![](../assets/dataview/template.png)
+
 {{editor    https://snippet.dhtmlx.com/d6l6grr7	Dataview. Render Template}}
 
 You can define a template for rendering items in a dataview with the help of the dataview/api/dataview_template_config.md configuration property. You need to set a function as its value and pass one parameter to it:
@@ -287,7 +287,7 @@ var dataview = new dhx.DataView("dataview", {
 {{sample dataview/04_customization/05_template_events.html}}
 
 The **eventHandlers** object includes a set of *key:value* pairs, where:
-``` todo
+``` todo нужна ли таблица
 <table class="webixdoc_links">
 	<tbody>
         <tr>
@@ -305,4 +305,4 @@ The **eventHandlers** object includes a set of *key:value* pairs, where:
     </tbody>
 </table>
 
-``` todo
+```

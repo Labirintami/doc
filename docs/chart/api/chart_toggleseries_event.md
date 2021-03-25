@@ -3,8 +3,7 @@ sidebar_label: toggleSeries
 title: toggleSeries
 ---          
 
-@short:
-fires on toggle on/off a series in a legend
+@short: fires on toggle on/off a series in a legend
 
 ```todoapi
 void toggleSeries(string id){ ... };

@@ -3,8 +3,7 @@ sidebar_label: itemDblClick
 title: itemDblClick
 ---          
 
-@short:
-fires on double-clicking a tree item
+@short: fires on double-clicking a tree item
 
 @signature: itemDblClick: (id: string, e: Event) => void;
 

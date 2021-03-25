@@ -3,8 +3,7 @@ sidebar_label: width
 title: width
 ---          
 
-@short: 
-sets the width of ColorPicker
+@short:  sets the width of ColorPicker
 
 @signature: width?: string | number;
 

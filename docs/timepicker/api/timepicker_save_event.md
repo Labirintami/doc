@@ -3,8 +3,7 @@ sidebar_label: save
 title: save
 ---          
 
-@short:
-fires on saving the timepicker value
+@short: fires on saving the timepicker value
 
 ```tododeprecated ```
 

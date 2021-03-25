@@ -3,8 +3,7 @@ sidebar_label: afterShow
 title: afterShow
 ---          
 
-@short:
-fires after a control of Form is shown
+@short: fires after a control of Form is shown
 
 @params:
 - name|id		string		the name (or id, if the name is not specified) of the Form control

@@ -3,8 +3,7 @@ sidebar_label: height
 title: height
 ---          
 
-@short: 
-sets the height of a cell
+@short: sets the height of a cell
 
 @signature: height?: number | string;
 

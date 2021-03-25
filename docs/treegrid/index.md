@@ -1,6 +1,6 @@
 ---
-sidebar_label: TreeGrid
-title: TreeGrid
+sidebar_label: Overview
+title: TreeGrid overview
 description: dhtmlxTreeGrid is a special extension of dhtmlxGrid component for showing and editing tabular data in a hierarchical tree-like structure.
 
 ---          
@@ -19,9 +19,7 @@ Check [online samples for dhtmlxTreeGrid](https://docs.dhtmlx.com/suite/samples/
 
 ## API Reference
 
-``` todo
-- [](treegrid/api/refs/treegrid.md)
-```
+- [](treegrid/api/api_overview.md)
 
 ## Related resources
 

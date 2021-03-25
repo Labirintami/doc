@@ -3,8 +3,7 @@ sidebar_label: css
 title: css
 ---          
 
-@short: 
-adds style classes to Toolbar
+@short: adds style classes to Toolbar
 
 @signature: css?: string;
 

@@ -1,6 +1,6 @@
 ---
-sidebar_label: Tree
-title: Tree
+sidebar_label: Overview
+title: Tree overview
 description: dhtmlxTree is a JavaScript component used to create smart and feature-rich hierarchical trees.
 ---          
 
@@ -12,9 +12,7 @@ Check [online samples for dhtmlxTree](https://docs.dhtmlx.com/suite/samples/tree
 
 ## API Reference
 
-``` todo
-- tree/api/refs/tree.md
-```
+- [](tree/api/api_overview.md)
 
 ## Related resources
 

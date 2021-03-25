@@ -3,8 +3,7 @@ sidebar_label: beforeShow
 title: beforeShow
 ---          
 
-@short:
-fires before a Form control is shown
+@short: fires before a Form control is shown
 
 @params:
 - name|id		string		the name (or id, if the name is not specified) of the Form control

@@ -3,8 +3,7 @@ sidebar_label: itemsInRow
 title: itemsInRow
 ---          
 
-@short: 
-specifies the number of data items in a row
+@short: specifies the number of data items in a row
 
 @signature: itemsInRow?: number;
 

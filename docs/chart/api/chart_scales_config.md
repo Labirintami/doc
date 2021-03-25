@@ -3,8 +3,7 @@ sidebar_label: scales
 title: scales
 ---          
 
-@short: 
-defines configuration of chart scales
+@short: defines configuration of chart scales
 
 ```todoapi
 object scales;

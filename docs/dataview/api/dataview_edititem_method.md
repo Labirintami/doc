@@ -3,7 +3,7 @@ sidebar_label: editItem
 title: editItem
 ---          
 
-@short:  enables editing of an item
+@short: enables editing of an item
 
 ```todoapi 
 void editItem(string|number id);

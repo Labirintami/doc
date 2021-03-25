@@ -1,6 +1,6 @@
 ---
-sidebar_label: Ribbon
-title: Ribbon
+sidebar_label: Overview
+title: Ribbon overview
 ---          
 
 dhtmlxRibbon is an advanced version of dhtmlxToolbar. It aggregates commands and tools used in an application or in a website into logical blocks thus providing a handy navigation bar.<br/>

@@ -4,14 +4,15 @@ title: views
 description: 
 ---          
 
-``` todo
+
 
 @short: defines the configuration of tabs
 
 @signature: views?: ICellConfig[] | ILayoutConfig[];
 
+``` todoapi
  <!-- views?: ICellConfig[] | ILayoutConfig[]; возможо стоит понятнее расписать -->
-
+```
 @example: 
 var tabbar = new dhx.Tabbar("tabbar_container", {
     views:[
@@ -72,5 +73,3 @@ tabbar/configuring_tabbar.md#structureoftabs
 @changelog:
 
 **tabWidth** and **tabHeight** properties of a tab object are added in v7.0.
-
-``` todo

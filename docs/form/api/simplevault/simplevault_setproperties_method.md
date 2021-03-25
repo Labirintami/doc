@@ -21,7 +21,7 @@ The method invokes the form/api/simplevault/simplevault_afterchangeproperties_ev
 
 It is possible to change values of the following configuration attributes of the **SimpleVault** control:
 
-``` todo
+``` todo нужна ли таблица
 <table class="webixdoc_links">
 	<tbody>
 		</tr>

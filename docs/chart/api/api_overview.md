@@ -1,6 +1,6 @@
 ---
-sidebar_label: Overview
-title: Chart API 
+sidebar_label: API overview
+title: Chart API overview
 ---
 ## Methods
 
@@ -16,9 +16,11 @@ title: Chart API
 
 ## Events
 
-| Name | Description |
-| ---- | ----------- |
-`to do (при переносе API Events ошибка, не собирается проект)`
+| Name                                      | Description                                      |
+| ----------------------------------------- | ------------------------------------------------ |
+| [](chart/api/chart_toggleseries_event.md) | @getshort(chart/api/chart_toggleseries_event.md) |
+| [](chart/api/chart_serieclick_event.md)   | @getshort(chart/api/chart_serieclick_event.md)   |
+| [](chart/api/chart_resize_event.md)       | @getshort(chart/api/chart_resize_event.md)       |
 
 `to do Data Collection`
 

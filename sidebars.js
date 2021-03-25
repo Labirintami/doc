@@ -19,7 +19,7 @@ module.exports = {
             "calendar/index",
             {
               type: "category",
-              label: "API",
+              label: "Calendar API",
               items: [
                 "calendar/api/api_overview",
 
@@ -83,7 +83,6 @@ module.exports = {
             // "calendar/api",
             "calendar/customization",
             "calendar/handling_events",
-            "calendar/migration",
           ],
         },
         // end Calendar
@@ -154,14 +153,69 @@ module.exports = {
               ],
             },
             "calendar2/how_to_start",
-            "calendar2/configuring",
-            "calendar2/localizing_calendar",
-            "calendar2/operating_calendar",
-            "calendar2/datepicker",
+            {
+              type: "category",
+              label: "Calendar2 functionality and features",
+              items: [
+                "calendar2/functionality_and_features/initial_date",
+                {
+                  type: "category",
+                  label: "Work with selected date",
+                  items: [
+                    "calendar2/functionality_and_features/selected_date",
+                    "calendar2/functionality_and_features/set_selected_date",
+                    "calendar2/functionality_and_features/get_selected_date",
+                  ],
+                },
+                "calendar2/functionality_and_features/dates_format",
+                {
+                  type: "category",
+                  label: "Calendar modes (calendar | month | year)",
+                  items: [
+                    "calendar2/functionality_and_features/calendar_modes",
+                    "calendar2/functionality_and_features/changing_mode",
+                    "calendar2/functionality_and_features/getting_mode",
+                    //"calendar2/functionality_and_features/tooltips", to do modes 
+
+                   
+                  ],
+                },
+                "calendar2/functionality_and_features/tooltips",
+                "calendar2/functionality_and_features/week_numbers",
+                "calendar2/functionality_and_features/highlighted_dates",
+                "calendar2/functionality_and_features/disabled_dates",
+                "calendar2/functionality_and_features/start_day",
+                "calendar2/functionality_and_features/current_month_only",
+                "calendar2/functionality_and_features/timepicker",
+                {
+                  type: "category",
+                  label: "Date ranges in one and two calendars",
+                  items: [
+                    "calendar2/functionality_and_features/ranges_mode",
+                    "calendar2/functionality_and_features/ranges_two_calendars",
+                  ],
+                },
+                "calendar2/functionality_and_features/date_picker",
+                "calendar2/functionality_and_features/width",
+                "calendar2/functionality_and_features/localization",
+                {
+                  type: "category",
+                  label: "Customization and styling Calendar",
+                  items: [
+                    "calendar2/functionality_and_features/calendar_stylization",
+                    "calendar2/functionality_and_features/selected_dates_stylization",
+                  ],
+                },
+              ],
+            },
+            
+            //"calendar2/configuring",
+            //"calendar2/localizing_calendar",
+            //"calendar2/operating_calendar",
+            //"calendar2/datepicker",
+            //"calendar2/customization",
+            //"calendar2/handling_events",
             // "calendar/api",
-            "calendar2/customization",
-            "calendar2/handling_events",
-            "calendar2/migration",
           ],
         },
         // end Calendar2
@@ -174,10 +228,10 @@ module.exports = {
             "chart/index",
             {
               type: "category",
-              label: "API",
+              label: "Chart API",
               collapsed: true,
               items: [
-                "chart/api/api_overview", //todo 
+                "chart/api/api_overview", 
                 {
                   type: "category",
                   label: "Methods",
@@ -222,7 +276,6 @@ module.exports = {
             "chart/usage",
             "chart/customization",
             "chart/events",
-            // "chart/migration",
           ],
         },
         // end Chart
@@ -235,9 +288,9 @@ module.exports = {
             "colorpicker/index",
             {
               type: "category",
-              label: "API",
+              label: "Colorpicker API",
               items: [
-                "colorpicker/api/api_overview", //todo
+                "colorpicker/api/api_overview", 
                 {
                   type: "category",
                   label: "Methods",
@@ -292,7 +345,6 @@ module.exports = {
             "colorpicker/manipulating_colorpicker",
             "colorpicker/customization",
             "colorpicker/handling_events",
-            "colorpicker/migration",
           ],
         },
         // end ColorPicker
@@ -305,9 +357,9 @@ module.exports = {
             "combobox/index",
             {
               type: "category",
-              label: "API",
+              label: "Combobox API",
               items: [
-                "combobox/api/api_overview", //todo
+                "combobox/api/api_overview", 
                 {
                   type: "category",
                   label: "Methods",
@@ -374,7 +426,6 @@ module.exports = {
             "combobox/work_with_combo",
             "combobox/customization",
             "combobox/handling_events",
-            "combobox/migration",
           ],
         },
         // end Combobox
@@ -387,9 +438,9 @@ module.exports = {
             "dataview/index",
             {
               type: "category",
-              label: "API",
+              label: "Dataview API",
               items: [
-                // "calendar/api/api_overview", //todo
+                "dataview/api/api_overview", 
                 {
                   type: "category",
                   label: "Methods",
@@ -489,7 +540,6 @@ module.exports = {
             "dataview/usage_selection",
             "dataview/customization",
             "dataview/events",
-            "dataview/migration",
           ],
         },
         // end Dataview
@@ -503,15 +553,15 @@ module.exports = {
             "form/index",
             {
               type: "category",
-              label: "API",
+              label: "Form API",
               collapsed: true,
               items: [
+                "form/api/api_overview", 
                 {
                   type: "category",
-                  label: "Form API",
+                  label: "Common Form API",
                   collapsed: true,
                   items: [
-                    // "calendar/api/api_overview", //todo
                     {
                       type: "category",
                       label: "Methods",
@@ -580,7 +630,6 @@ module.exports = {
                   label: "Button API",
                   collapsed: true,
                   items: [
-                    // "calendar/api/api_overview", //todo
                     {
                       type: "category",
                       label: "Methods",
@@ -617,7 +666,6 @@ module.exports = {
                   label: "Datepicker API",
                   collapsed: true,
                   items: [
-                    // "calendar/api/api_overview", //todo
                     {
                       type: "category",
                       label: "Methods",
@@ -664,7 +712,6 @@ module.exports = {
                   label: "Checkbox API",
                   collapsed: true,
                   items: [
-                    // "calendar/api/api_overview", //todo
                     {
                       type: "category",
                       label: "Methods",
@@ -710,7 +757,6 @@ module.exports = {
                   label: "CheckboxGroup API",
                   collapsed: true,
                   items: [
-                    // "calendar/api/api_overview", //todo
                     {
                       type: "category",
                       label: "Methods",
@@ -756,7 +802,6 @@ module.exports = {
                   label: "Colorpicker API",
                   collapsed: true,
                   items: [
-                    // "calendar/api/api_overview", //todo
                     {
                       type: "category",
                       label: "Methods",
@@ -803,7 +848,6 @@ module.exports = {
                   label: "Combo API",
                   collapsed: true,
                   items: [
-                    // "calendar/api/api_overview", //todo
                     {
                       type: "category",
                       label: "Methods",
@@ -849,7 +893,6 @@ module.exports = {
                   label: "Input API",
                   collapsed: true,
                   items: [
-                    // "calendar/api/api_overview", //todo
                     {
                       type: "category",
                       label: "Methods",
@@ -895,7 +938,6 @@ module.exports = {
                   label: "Radiogroup API",
                   collapsed: true,
                   items: [
-                    // "calendar/api/api_overview", //todo
                     {
                       type: "category",
                       label: "Methods",
@@ -941,7 +983,6 @@ module.exports = {
                   label: "Select API",
                   collapsed: true,
                   items: [
-                    // "calendar/api/api_overview", //todo
                     {
                       type: "category",
                       label: "Methods",
@@ -989,7 +1030,6 @@ module.exports = {
                   label: "Simple Vault API",
                   collapsed: true,
                   items: [
-                    // "calendar/api/api_overview", //todo
                     {
                       type: "category",
                       label: "Methods",
@@ -1041,7 +1081,6 @@ module.exports = {
                   label: "Slider API",
                   collapsed: true,
                   items: [
-                    // "calendar/api/api_overview", //todo
                     {
                       type: "category",
                       label: "Methods",
@@ -1082,7 +1121,6 @@ module.exports = {
                   label: "Spacer API",
                   collapsed: true,
                   items: [
-                    // "calendar/api/api_overview", //todo
                     {
                       type: "category",
                       label: "Methods",
@@ -1115,7 +1153,6 @@ module.exports = {
                   label: "Text API",
                   collapsed: true,
                   items: [
-                    // "calendar/api/api_overview", //todo
                     {
                       type: "category",
                       label: "Methods",
@@ -1157,7 +1194,6 @@ module.exports = {
                   label: "Textarea API",
                   collapsed: true,
                   items: [
-                    // "calendar/api/api_overview", //todo
                     {
                       type: "category",
                       label: "Methods",
@@ -1203,7 +1239,6 @@ module.exports = {
                   label: "Timepicker API",
                   collapsed: true,
                   items: [
-                    // "calendar/api/api_overview", //todo
                     {
                       type: "category",
                       label: "Methods",
@@ -1276,7 +1311,6 @@ module.exports = {
             "form/work_with_form",
             "form/customization",
             "form/handling_events",
-            "form/migration",
           ],
         },
         // // end Form
@@ -1289,9 +1323,9 @@ module.exports = {
             "grid/index",
             {
               type: "category",
-              label: "API",
+              label: "Grid API",
               items: [
-                // "calendar/api/api_overview", //todo
+                "grid/api/api_overview", 
                 {
                   type: "category",
                   label: "Methods",
@@ -1434,7 +1468,6 @@ module.exports = {
             "grid/usage_selection",
             "grid/customization",
             "grid/events",
-            "grid/migration",
           ],
         },
         // end Grid
@@ -1447,9 +1480,9 @@ module.exports = {
             "layout/index",
             {
               type: "category",
-              label: "API",
+              label: "Layout API",
               items: [
-                // "calendar/api/api_overview", //todo
+                "layout/api/api_overview", 
                 {
                   type: "category",
                   label: "Methods",
@@ -1538,7 +1571,6 @@ module.exports = {
             "layout/work_with_layout",
             "layout/customization",
             "layout/events",
-            "layout/migration",
           ],
         },
         // end Layout
@@ -1551,9 +1583,9 @@ module.exports = {
             "list/index",
             {
               type: "category",
-              label: "API",
+              label: "List API",
               items: [
-                // "calendar/api/api_overview", //todo
+                "list/api/api_overview", 
                 {
                   type: "category",
                   label: "Methods",
@@ -1655,7 +1687,6 @@ module.exports = {
             "list/usage_selection",
             "list/customization",
             "list/events",
-            "list/migration",
           ],
         },
         // end List
@@ -1668,9 +1699,9 @@ module.exports = {
             "menu/index",
             {
               type: "category",
-              label: "API",
+              label: "Menu API",
               items: [
-                // "menu/api/api_overview", //todo 
+                "menu/api/api_overview", 
                 {
                   type: "category",
                   label: "Methods",
@@ -1738,7 +1769,6 @@ module.exports = {
             "menu/creating_context_menu",
             "menu/fa_icons",
             "menu/handling_events",
-            // "menu/migration",
           ],
         },
         // end Menu
@@ -1753,7 +1783,6 @@ module.exports = {
             "message/creating_message",
             "message/configuration",
             "message/customization",
-            "message/migration",
           ],
         },
         // end Message
@@ -1766,7 +1795,7 @@ module.exports = {
             "pagination/index",
             {
               type: "category",
-              label: "API",
+              label: "Pagination API",
               items: [
                 "pagination/api/api_overview",
                 {
@@ -1816,9 +1845,9 @@ module.exports = {
             "popup/index",
             {
               type: "category",
-              label: "API",
+              label: "Popup API",
               items: [
-                // "popup/api/api_overview", //todo 
+                "popup/api/api_overview", 
                 {
                   type: "category",
                   label: "Methods",
@@ -1868,9 +1897,9 @@ module.exports = {
             "ribbon/index",
             {
               type: "category",
-              label: "API",
+              label: "Ribbon API",
               items: [
-                // "ribbon/api/api_overview", //todo
+                "ribbon/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -1934,7 +1963,6 @@ module.exports = {
             "ribbon/operating_ribbon",
             "ribbon/fa_icons",
             "ribbon/handling_events",
-            // "ribbon/migration",
           ],
         },
         // end Ribbon
@@ -1947,9 +1975,9 @@ module.exports = {
             "sidebar/index",
             {
               type: "category",
-              label: "API",
+              label: "Sidebar API",
               items: [
-                // "sidebar/api/api_overview", //todo
+                "sidebar/api/api_overview", 
                 {
                   type: "category",
                   label: "Methods",
@@ -1982,7 +2010,7 @@ module.exports = {
                     "sidebar/api/sidebar_beforeexpand_event",
                     "sidebar/api/sidebar_beforehide_event",
                     "sidebar/api/sidebar_click_event",
-                    "sidebar/api/sidebar_data_object", //todo что это?
+                    "sidebar/api/sidebar_data_object", //todo 
                     "sidebar/api/sidebar_inputblur_event",
                     "sidebar/api/sidebar_inputcreated_event",
                     "sidebar/api/sidebar_inputfocus_event",
@@ -2022,7 +2050,6 @@ module.exports = {
             "sidebar/work_with_sidebar",
             "sidebar/customization",
             "sidebar/events",
-            "sidebar/migration",
           ],
         },
         // end Sidebar
@@ -2035,9 +2062,9 @@ module.exports = {
             "slider/index",
             {
               type: "category",
-              label: "API",
+              label: "Slider API",
               items: [
-                // "calendar/api/api_overview", //todo 
+                "slider/api/api_overview", 
                 {
                   type: "category",
                   label: "Methods",
@@ -2094,7 +2121,6 @@ module.exports = {
             "slider/usage",
             "slider/customization",
             "slider/handling_events",
-            "slider/migration",
           ],
         },
         // end Slider
@@ -2107,9 +2133,9 @@ module.exports = {
             "tabbar/index",
             {
               type: "category",
-              label: "API",
+              label: "Tabbar API",
               items: [
-                // "tabbar/api/api_overview", //todo
+                "tabbar/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -2170,7 +2196,6 @@ module.exports = {
             "tabbar/work_with_tabbar",
             "tabbar/customization",
             "tabbar/events",
-            "tabbar/migration",
           ],
         },
         // end Tabbar
@@ -2184,9 +2209,9 @@ module.exports = {
             "timepicker/index",
             {
               type: "category",
-              label: "API",
+              label: "Timepicker API",
               items: [
-                // "timepicker/api/api_overview", //todo
+                "timepicker/api/api_overview", 
                 {
                   type: "category",
                   label: "Methods",
@@ -2234,7 +2259,6 @@ module.exports = {
             "timepicker/usage",
             "timepicker/customization",
             "timepicker/handling_events",
-            "timepicker/migration",
           ],
         },
         // end Timepicker
@@ -2247,9 +2271,9 @@ module.exports = {
             "toolbar/index",
             {
               type: "category",
-              label: "API",
+              label: "Toolbar API",
               items: [
-                // "toolbar/api/api_overview", //todo
+                "toolbar/api/api_overview", 
                 {
                   type: "category",
                   label: "Methods",
@@ -2315,7 +2339,6 @@ module.exports = {
             "toolbar/common_methods",
             "toolbar/customization",
             "toolbar/handling_events",
-            // "toolbar/migration",
           ],
         },
         // end Toolbar
@@ -2328,9 +2351,9 @@ module.exports = {
             "tree/index",
             {
               type: "category",
-              label: "API",
+              label: "Tree API",
               items: [
-                // "tree/api/api_overview", //todo
+                "tree/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -2440,7 +2463,6 @@ module.exports = {
             "tree/usage_selection",
             "tree/setting_tree_appearance",
             "tree/events_handling",
-            "tree/migration",
           ],
         },
         // end Tree
@@ -2453,9 +2475,9 @@ module.exports = {
             "treegrid/index",
             {
               type: "category",
-              label: "API",
+              label: "TreeGrid API",
               items: [
-                // "treegrid/api/api_overview", //todo //todo
+                "treegrid/api/api_overview", 
                 {
                   type: "category",
                   label: "Methods",
@@ -2633,7 +2655,6 @@ module.exports = {
             "treegrid/usage_selection",
             "treegrid/customization",
             "treegrid/events",
-            "treegrid/migration",
           ],
         },
         // end TreeGrid
@@ -2646,9 +2667,9 @@ module.exports = {
             "window/index",
             {
               type: "category",
-              label: "API",
+              label: "Window API",
               items: [
-                // "window/api/api_overview", //todo
+                "window/api/api_overview", 
                 {
                   type: "category",
                   label: "Methods",
@@ -2713,7 +2734,6 @@ module.exports = {
             "window/usage",
             "window/customization",
             "window/handling_events",
-            "window/migration",
           ],
         },
         // end Window
@@ -2734,10 +2754,10 @@ module.exports = {
               type: "category",
               label: "Methods",
               items: [
-                "ajax/api/delete", 
-                "ajax/api/get",
-                "ajax/api/post",
-                "ajax/api/put",
+                "ajax/api/ajax_delete_method", 
+                "ajax/api/ajax_get_method",
+                "ajax/api/ajax_post_method",
+                "ajax/api/ajax_put_method",
               ],
             },
           ],
@@ -2754,10 +2774,10 @@ module.exports = {
           type: "category",
           label: "CSS manager methods",
           items: [
-            "css_manager/api/add",
-            "css_manager/api/get",
-            "css_manager/api/remove",
-            "css_manager/api/update",
+            "css_manager/api/cssmanager_add_method",
+            "css_manager/api/cssmanager_get_method",
+            "css_manager/api/cssmanager_remove_method",
+            "css_manager/api/cssmanager_update_method",
           ],
         },
         {
@@ -2769,49 +2789,49 @@ module.exports = {
               type: "category",
               label: "Methods",
               items: [
-                "data_collection/api/add",
-                "data_collection/api/changeid",
-                "data_collection/api/copy",
-                "data_collection/api/exists",
-                "data_collection/api/filter",
-                "data_collection/api/find",
-                "data_collection/api/findall",
-                "data_collection/api/foreach",
-                "data_collection/api/getid",
-                "data_collection/api/getindex",
-                "data_collection/api/getinitialdata",
-                "data_collection/api/getitem",
-                "data_collection/api/getlength",
-                "data_collection/api/isdataloaded",
-                "data_collection/api/issaved",
-                "data_collection/api/load",
-                "data_collection/api/map",
-                "data_collection/api/maprange",
-                "data_collection/api/move",
-                "data_collection/api/parse",
-                "data_collection/api/reduce",
-                "data_collection/api/remove",
-                "data_collection/api/removeall",
-                "data_collection/api/save",
-                "data_collection/api/serialize",
-                "data_collection/api/sort",
-                "data_collection/api/update",
+                "data_collection/api/datacollection_add_method",
+                "data_collection/api/datacollection_changeid_method",
+                "data_collection/api/datacollection_copy_method",
+                "data_collection/api/datacollection_exists_method",
+                "data_collection/api/datacollection_filter_method",
+                "data_collection/api/datacollection_find_method",
+                "data_collection/api/datacollection_findall_method",
+                "data_collection/api/datacollection_foreach_method",
+                "data_collection/api/datacollection_getid_method",
+                "data_collection/api/datacollection_getindex_method",
+                "data_collection/api/datacollection_getinitialdata_method",
+                "data_collection/api/datacollection_getitem_method",
+                "data_collection/api/datacollection_getlength_method",
+                "data_collection/api/datacollection_isdataloaded_method",
+                "data_collection/api/datacollection_issaved_method",
+                "data_collection/api/datacollection_load_method",
+                "data_collection/api/datacollection_map_method",
+                "data_collection/api/datacollection_maprange_method",
+                "data_collection/api/datacollection_move_method",
+                "data_collection/api/datacollection_parse_method",
+                "data_collection/api/datacollection_reduce_method",
+                "data_collection/api/datacollection_remove_method",
+                "data_collection/api/datacollection_removeall_method",
+                "data_collection/api/datacollection_save_method",
+                "data_collection/api/datacollection_serialize_method",
+                "data_collection/api/datacollection_sort_method",
+                "data_collection/api/datacollection_update_method",
               ],
             },
             {
               type: "category",
               label: "Events",
               items: [
-                "data_collection/api/afteradd_event",
-                "data_collection/api/afterlazyload_event",
-                "data_collection/api/afterremove_event",
-                "data_collection/api/beforeadd_event",
-                "data_collection/api/beforelazyload_event",
-                "data_collection/api/beforeremove_event",
-                "data_collection/api/change_event",
-                "data_collection/api/load_event",
-                "data_collection/api/loaderror_event",
-                "data_collection/api/removeall_event",
+                "data_collection/api/datacollection_afteradd_event",
+                "data_collection/api/datacollection_afterlazyload_event",
+                "data_collection/api/datacollection_afterremove_event",
+                "data_collection/api/datacollection_beforeadd_event",
+                "data_collection/api/datacollection_beforelazyload_event",
+                "data_collection/api/datacollection_beforeremove_event",
+                "data_collection/api/datacollection_change_event",
+                "data_collection/api/datacollection_load_event",
+                "data_collection/api/datacollection_loaderror_event",
+                "data_collection/api/datacollection_removeall_event",
               ],
             },
           ],
@@ -2829,18 +2849,21 @@ module.exports = {
               type: "category",
               label: "Methods",
               items: [
-                "data_proxy/api/load",
-                "data_proxy/api/save",
-                "data_proxy/api/update_url",
+                "data_proxy/api/dataproxy_load_method",
+                "data_proxy/api/dataproxy_save_method",
+                "data_proxy/api/dataproxy_updateurl_method", //todo норм ли название
               ],
             },
           ],
         },
         {
           type: "doc",
+          id: "helpers/icon",
+        },
+        {
+          type: "doc",
           id: "helpers/lazydataproxy",
         },
-
         {
           type: "doc",
           id: "helpers/resize_handler",
@@ -2849,25 +2872,25 @@ module.exports = {
           type: "category",
           label: "Selection Object API",
           items: [
-            "helpers/selection",
+            "helpers/selection", 
             {
               type: "category",
               label: "Methods",
               items: [
-                "selection/api/add",
-                "selection/api/getid",
-                "selection/api/getitem",
-                "selection/api/remove",
+                "selection/api/selection_add_method",
+                "selection/api/selection_getid_method",
+                "selection/api/selection_getitem_method",
+                "selection/api/selection_remove_method",
               ],
             },
             {
               type: "category",
               label: "Events",
               items: [
-                "selection/api/after_select_event",
-                "selection/api/after_unselect_event",
-                "selection/api/before_select_event",
-                "selection/api/before_unselect_event",
+                "selection/api/selection_afterselect_event",
+                "selection/api/selection_afterunselect_event",
+                "selection/api/selection_beforeselect_event", 
+                "selection/api/selection_beforeunselect_event",
               ],
             },
           ],
@@ -2881,35 +2904,35 @@ module.exports = {
               type: "category",
               label: "Methods",
               items: [
-                "tree_collection/api/add",
-                "tree_collection/api/cancopy",
-                "tree_collection/api/copy",
-                "tree_collection/api/eachchild",
-                "tree_collection/api/eachparent",
-                "tree_collection/api/exists",
-                "tree_collection/api/filter",
-                "tree_collection/api/foreach",
-                "tree_collection/api/getid",
-                "tree_collection/api/getindex",
-                "tree_collection/api/getitem",
-                "tree_collection/api/getitems",
-                "tree_collection/api/getlength",
-                "tree_collection/api/getparent",
-                "tree_collection/api/getroot",
-                "tree_collection/api/haveitems",
-                "tree_collection/api/issaved",
-                "tree_collection/api/load",
-                "tree_collection/api/loaditems",
-                "tree_collection/api/move",
-                "tree_collection/api/parse",
-                "tree_collection/api/refreshitems",
-                "tree_collection/api/remove",
-                "tree_collection/api/removeall",
-                "tree_collection/api/restoreorder",
-                "tree_collection/api/save",
-                "tree_collection/api/serialize",
-                "tree_collection/api/sort",
-                "tree_collection/api/update",
+                "tree_collection/api/treecollection_add_method",
+                "tree_collection/api/treecollection_cancopy_method",
+                "tree_collection/api/treecollection_copy_method",
+                "tree_collection/api/treecollection_eachchild_method",
+                "tree_collection/api/treecollection_eachparent_method",
+                "tree_collection/api/treecollection_exists_method",
+                "tree_collection/api/treecollection_filter_method",
+                "tree_collection/api/treecollection_foreach_method",
+                "tree_collection/api/treecollection_getid_method",
+                "tree_collection/api/treecollection_getindex_method",
+                "tree_collection/api/treecollection_getitem_method",
+                "tree_collection/api/treecollection_getitems_method",
+                "tree_collection/api/treecollection_getlength_method",
+                "tree_collection/api/treecollection_getparent_method",
+                "tree_collection/api/treecollection_getroot_method",
+                "tree_collection/api/treecollection_haveitems_method",
+                "tree_collection/api/treecollection_issaved_method",
+                "tree_collection/api/treecollection_load_method",
+                "tree_collection/api/treecollection_loaditems_method",
+                "tree_collection/api/treecollection_move_method",
+                "tree_collection/api/treecollection_parse_method",
+                "tree_collection/api/treecollection_refreshitems_method",
+                "tree_collection/api/treecollection_remove_method",
+                "tree_collection/api/treecollection_removeall_method",
+                "tree_collection/api/treecollection_restoreorder_method",
+                "tree_collection/api/treecollection_save_method",
+                "tree_collection/api/treecollection_serialize_method",
+                "tree_collection/api/treecollection_sort_method",
+                "tree_collection/api/treecollection_update_method",
               ],
             },
 
@@ -2917,14 +2940,14 @@ module.exports = {
               type: "category",
               label: "Events",
               items: [
-                "tree_collection/api/afteradd_event",
-                "tree_collection/api/afterremove_event", 
-                "tree_collection/api/beforeadd_event",
-                "tree_collection/api/beforeremove_event",
-                "tree_collection/api/change_event", 
-                "tree_collection/api/load_event", 
-                "tree_collection/api/loaderror_event",
-                "tree_collection/api/removeall_event",
+                "tree_collection/api/treecollection_afteradd_event",
+                "tree_collection/api/treecollection_afterremove_event", 
+                "tree_collection/api/treecollection_beforeadd_event",
+                "tree_collection/api/treecollection_beforeremove_event",
+                "tree_collection/api/treecollection_change_event", 
+                "tree_collection/api/treecollection_load_event", 
+                "tree_collection/api/treecollection_loaderror_event",
+                "tree_collection/api/treecollection_removeall_event",
               ],
             },
           ],
@@ -2938,23 +2961,23 @@ module.exports = {
               type: "category",
               label: "Methods", 
               items: [
-                "uploader/api/abort",
-                "uploader/api/linkdroparea", 
-                "uploader/api/unlinkdroparea",
-                "uploader/api/selectfile",
-                "uploader/api/send",
+                "uploader/api/uploader_abort_method",
+                "uploader/api/uploader_linkdroparea_method", 
+                "uploader/api/uploader_unlinkdroparea_method",
+                "uploader/api/uploader_selectfile_method",
+                "uploader/api/uploader_send_method",
               ],
             },
             {
               type: "category",
               label: "Events", 
               items: [
-                "uploader/api/autosend_config",
-                "uploader/api/fieldname_config", 
-                "uploader/api/params_config",
-                "uploader/api/singlerequest_config",
-                "uploader/api/target_config",
-                "uploader/api/updatefromresponse",
+                "uploader/api/uploader_autosend_config",
+                "uploader/api/uploader_fieldname_config", 
+                "uploader/api/uploader_params_config",
+                "uploader/api/uploader_singlerequest_config",
+                "uploader/api/uploader_target_config",
+                "uploader/api/uploader_updatefromresponse_config",
               ],
             },
           ],
@@ -2998,8 +3021,12 @@ module.exports = {
       ],
     },
     {
-      type: "doc",
-      id: "whatsnew",
+      type: "category",
+      label: "What's new and migration",
+      items: [
+        "whatsnew",
+        "migration",
+      ],
     },
   ],
 };
