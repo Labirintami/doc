@@ -4,9 +4,9 @@ title: value
 ---          
 
 @short: the time value to be set on initialization of the timepicker
-``` todo
+
 @signature: value?: Date | number | string | any[] | hour: number, minute: number,  AM?: boolean;
-```
+
 @example:
 // the value as a Date object 
 var timepicker = new dhx.Timepicker("timepicker", {

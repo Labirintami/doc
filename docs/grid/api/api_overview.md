@@ -1,6 +1,6 @@
 ---
-sidebar_label: Overview
-title: Grid API
+sidebar_label: API overview
+title: Grid API overview
 ---
 
 ## Methods

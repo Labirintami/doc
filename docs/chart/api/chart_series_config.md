@@ -3,7 +3,7 @@ sidebar_label: series
 title: series
 ---          
 
-```todoapi
+``` todo спросить про нижнюю таблицу
 
 @short: defines configuration of chart series
 

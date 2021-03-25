@@ -1,6 +1,6 @@
 ---
-sidebar_label: Overview
-title: Tree API
+sidebar_label: API overview
+title: Tree API overview
 ---
 
 ## Methods

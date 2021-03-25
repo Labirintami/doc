@@ -1,6 +1,6 @@
 ---
-sidebar_label: Toolbar
-title: Toolbar
+sidebar_label: Overview
+title: Toolbar overview
 ---          
 
 dhtmlxToolbar is a JavaScript component that allows you to keep all main commands and tools of the app in one place and define their look and feel.

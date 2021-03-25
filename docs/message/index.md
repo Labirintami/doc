@@ -1,6 +1,6 @@
 ---
-sidebar_label: Message
-title: Message
+sidebar_label: Overview
+title: Message overview
 ---          
 
 dhtmlxMessage is a tiny but useful component that helps you to interact with a user of your application. Depending on the type of a message, you can inform a user about some processes taking place in the app,

@@ -1,6 +1,6 @@
 ---
-sidebar_label: Overview
-title: Popup API
+sidebar_label: API overview
+title: Popup API overview
 ---
 
 ## Methods

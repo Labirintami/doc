@@ -1,6 +1,6 @@
 ---
-sidebar_label: Pager
-title: Pager
+sidebar_label: Overview
+title: Pager overview
 ---          
 
 {{pronote

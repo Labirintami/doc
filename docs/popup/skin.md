@@ -68,4 +68,4 @@ The following priority (from higher to lower) is used to determine the skin to a
 
 For example, if you include on the page the only css file - "dhxpopup_dhx_terrace" - and instantiate dhtmlxPopup without specifying the **skin** parameter, then the "dhx_terrace" skin will be detected automatically. 
 
-``` todo
+``

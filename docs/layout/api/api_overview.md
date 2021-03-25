@@ -1,6 +1,6 @@
 ---
-sidebar_label: Overview
-title: Layout API
+sidebar_label: API overview
+title: Layout API overview
 ---
 
 ## Methods

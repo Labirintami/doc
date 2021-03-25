@@ -49,7 +49,7 @@ form.getItem("simplevault").getProperties();
 @descr:
 The returned object of the **SimpleVault** control can contain the following configuration attributes:
 
-``` todo
+``` todo нужна ли таблица
 <table class="webixdoc_links">
 	<tbody>
 		</tr>

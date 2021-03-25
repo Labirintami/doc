@@ -1,16 +1,12 @@
 ---
-sidebar_label: Default Icons
-title: Default Icons
+sidebar_label: Default icons
+title: Default icons
 description: 
 ---          
 
 DHTMLX Suite library provides a set of default icons that you can use to decorate your application. To use any of these icons just click on the desired one to copy it and then paste it into the intended part of the code line.
 
-``` todo
-<a href="https://snippet.dhtmlx.com/6vuv448f"  target="_blank"><img style="margin: 0px 0px 0px 20px; display: block;" src="base_icons/dxi_icons.png" alt="dhi_icons"></a>
-```
-
-{{note All the available default icons are presented in the <a href="https://snippet.dhtmlx.com/6vuv448f"  target="_blank">related sample</a>.}}
+<iframe src="https://snippet.dhtmlx.com/6vuv448f?mode=result" frameborder="0" class="snippet_iframe" width="100%" height="700"></iframe>
 
 The icons can be placed on the page in the ways given below:
 

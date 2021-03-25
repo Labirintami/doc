@@ -1,6 +1,6 @@
 ---
-sidebar_label: Overview
-title: Ribbon API
+sidebar_label: API overview
+title: Ribbon API overview
 ---
 
 ## Methods

@@ -1,6 +1,6 @@
 ---
-sidebar_label: Overview
-title: Toolbar API
+sidebar_label: API overview
+title: Toolbar API overview
 ---
 
 ## Methods

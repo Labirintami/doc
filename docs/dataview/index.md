@@ -1,5 +1,5 @@
 ---
-sidebar_label: DataView overview
+sidebar_label: Overview
 title: DataView overview
 ---          
 

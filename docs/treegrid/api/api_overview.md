@@ -1,6 +1,6 @@
 ---
-sidebar_label: Overview
-title: TreeGrid API
+sidebar_label: API overview
+title: TreeGrid API overview
 ---
 
 ## Methods

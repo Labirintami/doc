@@ -1,6 +1,6 @@
 ---     
-sidebar_label: Overview
-title: Colorpicker API
+sidebar_label: API overview
+title: Colorpicker API overview
 ---     
 
 ## Methods

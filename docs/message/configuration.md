@@ -230,9 +230,9 @@ dhx.tooltip("Tooltip From Right", {
 {{note If the target of the tooltip is placed close to some edge of the browser, the tooltip will be shown from the opposite side of the target.}}
 
 In the image below the target is adjacent to the right side of screen. Its tooltip that has the *position:"right"* attribute in the config object appears from the left side of the target.
-``` todo
-![Smart positioning](message/smart_tooltip.png)
-``` todo
+
+![Smart positioning](../assets/message/smart_tooltip.png)
+
 
 ### Tooltip API
 

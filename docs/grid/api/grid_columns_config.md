@@ -4,7 +4,7 @@ title: columns
 description: 
 ---          
 
-``` todo
+``` todo таблица 
 
 @short: specifies the configuration of grid columns
 
@@ -179,4 +179,4 @@ grid/configuration.md#columns
 
 grid/customization.md
 
-``` todo
+```

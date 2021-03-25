@@ -239,7 +239,7 @@ const layout = new dhx.Layout("layout", {
 {{sample    layout/02_configuration/11_combination_of_types.html}}
 
 The available values of the option are "line", "wide", "space", "none". 
-``` todo
+``` todo таблица 
 <style>
 
 	table.my_table td {
@@ -269,7 +269,7 @@ The available values of the option are "line", "wide", "space", "none".
 		</tr>  
     </tbody>
 </table>
-``` todo
+```
 
 @todo:
 check, improve and complete<br/>

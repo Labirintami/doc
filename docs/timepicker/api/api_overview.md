@@ -1,6 +1,6 @@
 ---
-sidebar_label: Overview
-title: Timepicker API
+sidebar_label: API overview
+title: Timepicker API overview
 ---
 
 ## Methods

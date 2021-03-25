@@ -1,6 +1,6 @@
 ---
-sidebar_label: Overview
-title: Chart API 
+sidebar_label: API overview
+title: Chart API overview
 ---
 ## Methods
 

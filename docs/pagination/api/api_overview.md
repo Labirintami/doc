@@ -1,6 +1,6 @@
 ---
-sidebar_label: Overview
-title: Pagination API 
+sidebar_label: API overview
+title: Pagination API overview
 ---
 
 ## Methods

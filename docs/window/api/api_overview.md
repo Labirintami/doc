@@ -1,6 +1,6 @@
 ---
-sidebar_label: Overview
-title: Window API
+sidebar_label: API overview
+title: Window API overview
 ---
 
 ## Methods

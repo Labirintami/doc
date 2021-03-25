@@ -120,34 +120,14 @@ var combo = new dhx.Combobox("combo_container", {
 
 ### Calendar
 
-``` todo
-<style>
-	table.my_table {
-		width: 100%;
-	}
-	table.my_table td {
-		text-align: left;
-		vertical-align: middle;
-		width: 50%;
-	}
-	table.my_table td.type_info {
-		text-align: center;
-        background-color: #E3F6FF;
-	}
-	table.my_table td.version_info {
-		text-align: center;
-        background-color: #FFDAFF;
-	}
-</style>
-<table class="my_table">
-<tr><td class="version_info">Up to version 6.3</td><td class="version_info">From version 6.4</td></tr>
-<tr><td colspan="2" class="type_info">Events</td></tr>
-<tr><td>calendar.events.on("DateHover", function(){})</td><td>calendar.events.on("DateMouseOver", function(){})</td></tr>
-<tr><td colspan="2" class="type_info">Properties</td></tr>
-<tr><td>block</td><td>disabledDates</td></tr>
-<tr><td>view</td><td>mode</td></tr>
-</table>
-```
+| Up to version 6.3                             | From version 6.4                                  |
+| :-------------------------------------------- | :------------------------------------------------ |
+| **Events**                                    |                                                   |
+| calendar.events.on("DateHover", function(){}) | calendar.events.on("DateMouseOver", function(){}) |
+| **Properties**                                |                                                   |
+| block                                         | disabledDates                                     |
+| view                                          | mode                                              |
+
 
 ### ColorPicker
 
@@ -357,30 +337,13 @@ The `labelInline` property is replaced with the `labelPosition` property. The `l
 
 1) In the version 6.3 names of some methods and events of DHTMLX library were changed. It was made in order to avoid confusion and misunderstanding due to inconsistency between the name and functionality.
 
-
-
 ### ColorPicker
-```  todo
-<style>
-	table.my_table {
-		width: 100%;
-	}
-	table.my_table td {
-		text-align: left;
-		vertical-align: middle;
-		width: 50%;
-	}
-	table.my_table td.version_info {
-		text-align: center;
-        background-color: #FFDAFF;
-	}
-</style>
-<table class="my_table">
-<tr><td class="version_info">Up to version 6.2</td><td class="version_info">From version 6.3</td></tr>
-<tr><td>getView()</td><td>getCurrentMode()</td></tr>
-<tr><td>colorpicker.events.on("ColorChange",function(){})</td><td>colorpicker.events.on("Change", function(){})</td></tr>
-</table>
-``` 
+
+| Up to version 6.2                                 | From version 6.3                              |
+| :------------------------------------------------ | :-------------------------------------------- |
+| getView()                                         | getCurrentMode()                              |
+| colorpicker.events.on("ColorChange",function(){}) | colorpicker.events.on("Change", function(){}) |
+
 
 ### Grid
 

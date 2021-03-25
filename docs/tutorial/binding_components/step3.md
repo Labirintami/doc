@@ -4,7 +4,7 @@ title: Step 3. Add Form into Window
 description: 
 ---          
 
-``` todo
+``` todo страница не нужна
 
 In this step we describe how to add a form on the page. The form will contain fields displaying the content of the selected grid row and will allow you to edit the data in the grid.
 
@@ -110,7 +110,7 @@ dhxWindow.attach(form);
     <a id="next_step" href="tutorial/binding_components/step4.md"></a>
 </div>
 
-``` todo
+```
 
 
 

@@ -48,6 +48,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     font-size: 2rem!important;
 }
 
+.markdown > h1 {
+    font-size: 1.8rem;
+}
+
 
 /* h2 */
 

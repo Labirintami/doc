@@ -179,5 +179,4 @@ Each column object may contain the followings fields:
 
 @changelog:
 
-
 ``` todo

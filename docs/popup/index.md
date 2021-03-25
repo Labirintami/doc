@@ -1,6 +1,6 @@
 ---
-sidebar_label: Popup
-title: Popup
+sidebar_label: Overview
+title: Popup overview
 ---          
 
 dhtmlxPopup is a pop-up window that can contain various content. It allows attaching other DHTMLX components and different HTML content. 

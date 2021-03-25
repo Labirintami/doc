@@ -1,6 +1,6 @@
 ---
-sidebar_label: Overview
-title: Slider API
+sidebar_label: API overview
+title: Slider API overview
 ---
 
 ## Methods

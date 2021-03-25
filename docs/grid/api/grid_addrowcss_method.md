@@ -11,7 +11,7 @@ description:
 @params:
 - id 		string,number 		the id of a row
 - css 		string 				the name of the CSS class
-``` todo
+
 @example:
 <style>
     .myCustomClass{
@@ -20,7 +20,6 @@ description:
 </style>
 
 grid.addRowCss("2", "myCustomClass");
- ```
 
 @template: api_method
 @descr:
@@ -29,7 +28,4 @@ grid.addRowCss("2", "myCustomClass");
 
 @relatedsample: https://snippet.dhtmlx.com/idvmge2d	Grid. Add Row Css
 
-
 @changelog:
-
-

@@ -1,6 +1,6 @@
 ---
-sidebar_label: Overview
-title: Dataview API
+sidebar_label: API overview
+title: Dataview API overview
 ---
 
 ## Methods
