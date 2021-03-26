@@ -4,7 +4,7 @@ title: Calendar2
 description: DHTMLX Calendar is a smart datepicker solution for websites or applications that allows selecting dates, ranges of dates, and time. It's easily configurable and highly customizable.
 ---          
 
-DHTMLX Calendar is a component that allows users to view and select dates. You can create the Calendar in several modes: days, months, years and use a timepicker in it. The useful date picker feature is implemented in the Calendar and ready for usage.
+DHTMLX Calendar is a component that allows users to view and select dates. You can create the Calendar in several modes and use a timepicker in it. The useful date picker feature is implemented in the Calendar and ready for usage.
 
 This component is a great solution for your website or application. Check [online samples for DHTMLX Calendar](https://docs.dhtmlx.com/suite/samples/calendar/).  
 
@@ -130,4 +130,4 @@ Explore how to work with the solutions the Calendar provides to you.
 
 ## Migration to Newer Versions
 
-Please check [Migration to Newer Versions](migration) article to learn about new upgrades. 
+Please check ... article to learn about new upgrades. 

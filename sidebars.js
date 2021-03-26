@@ -155,31 +155,13 @@ module.exports = {
             "calendar2/how_to_start",
             {
               type: "category",
-              label: "Calendar2 functionality and features",
+              label: "Calendar functionality and features",
               items: [
                 "calendar2/functionality_and_features/initial_date",
-                {
-                  type: "category",
-                  label: "Work with selected date",
-                  items: [
-                    "calendar2/functionality_and_features/selected_date",
-                    "calendar2/functionality_and_features/set_selected_date",
-                    "calendar2/functionality_and_features/get_selected_date",
-                  ],
-                },
+                "calendar2/functionality_and_features/selected_date",
                 "calendar2/functionality_and_features/dates_format",
-                {
-                  type: "category",
-                  label: "Calendar modes (calendar | month | year)",
-                  items: [
-                    "calendar2/functionality_and_features/calendar_modes",
-                    "calendar2/functionality_and_features/changing_mode",
-                    "calendar2/functionality_and_features/getting_mode",
-                    //"calendar2/functionality_and_features/tooltips", to do modes 
-
-                   
-                  ],
-                },
+                "calendar2/functionality_and_features/calendar_modes",
+                "calendar2/functionality_and_features/events",
                 "calendar2/functionality_and_features/tooltips",
                 "calendar2/functionality_and_features/week_numbers",
                 "calendar2/functionality_and_features/highlighted_dates",
@@ -187,25 +169,11 @@ module.exports = {
                 "calendar2/functionality_and_features/start_day",
                 "calendar2/functionality_and_features/current_month_only",
                 "calendar2/functionality_and_features/timepicker",
-                {
-                  type: "category",
-                  label: "Date ranges in one and two calendars",
-                  items: [
-                    "calendar2/functionality_and_features/ranges_mode",
-                    "calendar2/functionality_and_features/ranges_two_calendars",
-                  ],
-                },
+                "calendar2/functionality_and_features/ranges_mode",
                 "calendar2/functionality_and_features/date_picker",
                 "calendar2/functionality_and_features/width",
                 "calendar2/functionality_and_features/localization",
-                {
-                  type: "category",
-                  label: "Customization and styling Calendar",
-                  items: [
-                    "calendar2/functionality_and_features/calendar_stylization",
-                    "calendar2/functionality_and_features/selected_dates_stylization",
-                  ],
-                },
+                "calendar2/functionality_and_features/calendar_stylization",
               ],
             },
             
