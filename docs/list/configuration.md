@@ -259,8 +259,9 @@ const list = new dhx.List("list", {
 
 {{sample list/04_customization/05_template_events.html}}
 
-The **eventHandlers** object includes a set of *key:value* pairs, where: 
-``` todo легко
+The [](api/list_eventhandlers_config.md) object includes a set of *key:value* pairs, where: 
+
+``` todo это же есть на странице API, возможно не стоит дублировать
 <table class="webixdoc_links">
 	<tbody>
         <tr>
