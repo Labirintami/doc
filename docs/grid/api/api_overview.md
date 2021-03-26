@@ -41,8 +41,8 @@ title: Grid API overview
 
 ## Events
 
-| Name                                         | Description                                         |
-| -------------------------------------------- | --------------------------------------------------- |
+| Name                                            | Description                                         |
+| ----------------------------------------------- | --------------------------------------------------- |
 | [](grid/api/grid_aftercolumndrag_event.md)      | @getshort(grid/api/grid_aftercolumndrag_event)      |
 | [](grid/api/grid_aftercolumndrop_event.md)      | @getshort(grid/api/grid_aftercolumndrop_event)      |
 | [](grid/api/grid_aftercolumnhide_event.md)      | @getshort(grid/api/grid_aftercolumnhide_event)      |
@@ -105,8 +105,8 @@ title: Grid API overview
 
 ## Properties
 
-| Name                                      | Description                                      |
-| ----------------------------------------- | ------------------------------------------------ |
+| Name                                         | Description                                      |
+| -------------------------------------------- | ------------------------------------------------ |
 | [](grid/api/grid_adjust_config.md)           | @getshort(grid/api/grid_adjust_config)           |
 | [](grid/api/grid_autoemptyrow_config.md)     | @getshort(grid/api/grid_autoemptyrow_config)     |
 | [](grid/api/grid_autowidth_config.md)        | @getshort(grid/api/grid_autowidth_config)        |
