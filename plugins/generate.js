@@ -1,6 +1,5 @@
 #!/usr/bin/ev node
 const http = require("http");
-const path = require("path");
 const fs = require("fs");
 
 const host = "cdn.dhtmlx.com";
@@ -68,9 +67,11 @@ const getSignatureData = (fileData, signature, url) => {
 		: fileData.includes("@signature")
 			? fileData.replace(/@signature:.*/g, `@signature: todo, not found [here](https://${host}/suite/pro/edge/types/ts-${url})`)
 			: fileData.replace(/@short:.*/g, str => `${str}\n\n@signature: todo, not found [here](https://${host}/suite/pro/edge/types/ts-${url})`);
-}
+};
 
-getFiles("../docs/").forEach(file => {
+let i = 0;
+
+const updateFileData = file => {
 	getRemoteFileData(`/suite/pro/edge/types/ts-${file.url}`).then(data => {
 		if (data.toLowerCase().includes(file.name.toLowerCase())) {
 			let signature;
@@ -98,11 +99,37 @@ getFiles("../docs/").forEach(file => {
 						signature = `${match[1]}: ${match[2]}`.trim();
 						break;
 				}
+			} else {
+				const widget = file.url.split("/")[0];
+				switch (widget) {
+					case "treegrid":
+						return updateFileData({ ...file, url: "grid/sources/types.d.ts" });
+					case "tabbar":
+						return updateFileData({ ...file, url: "layout/sources/types.d.ts" });
+					case "form":
+						return updateFileData({ ...file, url: "layout/sources/types.d.ts" });
+					case "dataview":
+						return updateFileData({ ...file, url: "list/sources/types.d.ts" })
+				}
+			}
+
+			if (!signature) {
+				i += 1;
+				console.log("\x1b[31m%s\x1b[0m", "\nNO MATCH:");
+				console.log('\x1b[36m%s\x1b[0m', "Widget: ", file.url.split("/")[0]);
+				console.log('\x1b[36m%s\x1b[0m', "Name: ", file.name);
+				console.log('\x1b[36m%s\x1b[0m', "Type: ", file.type);
+
+				console.log("\x1b[31m%s\x1b[0m", `Total: ${i}`);
 			}
 
 			const fileData = fs.readFileSync(file.filePath, 'utf-8');
 			const newData = getSignatureData(fileData, signature, file.url);
 			fs.writeFileSync(file.filePath, newData, 'utf-8');
 		}
-	});
+	}).catch(e => console.log("\x1b[31m%s\x1b[0m", e));
+};
+
+getFiles("../docs/").forEach(file => {
+	updateFileData(file);
 });
