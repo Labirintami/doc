@@ -59,14 +59,23 @@ const getRemoteFileData = path => {
 	})
 };
 
-const getSignatureData = (fileData, signature, url) => {
-	return signature
-		? fileData.includes("@signature")
-			? fileData.replace(/@signature:.*/g, `@signature: ${signature}`)
-			: fileData.replace(/@short:.*/g, str => `${str}\n\n@signature: ${signature}`)
-		: fileData.includes("@signature")
-			? fileData.replace(/@signature:.*/g, `@signature: todo, not found [here](https://${host}/suite/pro/edge/types/ts-${url})`)
-			: fileData.replace(/@short:.*/g, str => `${str}\n\n@signature: todo, not found [here](https://${host}/suite/pro/edge/types/ts-${url})`);
+const getSignatureData = (fileData, signature, url, data, fileName) => {
+	const fileIncludes = fileData.includes("@signature");
+	if (signature) {
+		return fileIncludes ?
+			fileData.replace(/@signature:.*/g, `@signature: ${signature}`) :
+			fileData.replace(/@short:.*/g, str => `${str}\n\n@signature: ${signature}`);
+	} else {
+		if (data.toLowerCase().includes(fileName.toLowerCase())) {
+			return fileIncludes ?
+				fileData.replace(/@signature:.*/g, `@signature: the object is described in another directory`) :
+				fileData.replace(/@short:.*/g, str => `${str}\n\n@signature: the object is described in another directory`);
+		} else {
+			return fileIncludes ?
+				fileData.replace(/@signature:.*/g, `@signature: todo, not found [here](https://${host}/suite/pro/edge/types/ts-${url})`) :
+				fileData.replace(/@short:.*/g, str => `${str}\n\n@signature: todo, not found [here](https://${host}/suite/pro/edge/types/ts-${url})`);
+		}
+	}
 };
 
 let i = 0;
@@ -93,56 +102,54 @@ const normalizeData = data => {
 
 const updateFileData = file => {
 	getRemoteFileData(`/suite/pro/edge/types/ts-${file.url}`).then(data => {
-		if (data.toLowerCase().includes(file.name.toLowerCase())) {
-			data = normalizeData(data);
-			let signature;
-			let regex;
+		data = normalizeData(data);
+		let signature;
+		let regex;
+		switch (file.type) {
+			case "config":
+				regex = new RegExp(`^\\s+${file.name}(:|\\?:).*;$`, "mi");
+				break;
+			case "method":
+				regex = new RegExp(`^\\s+((${file.name}|${file.name}<.*>)\(.*\): .*);$`, "mi");
+				break;
+			case "event":
+				regex = new RegExp(`^\\s+\\[.*Events\\.(${file.name})\\]: (.*;)$`, "mi");
+				break;
+		}
+
+		const match = data.match(regex);
+		if (match && match.length) {
 			switch (file.type) {
-				case "config":
-					regex = new RegExp(`^\\s+${file.name}(:|\\?:).*;$`, "mi");
-					break;
 				case "method":
-					regex = new RegExp(`^\\s+((${file.name}|${file.name}<.*>)\(.*\): .*);$`, "mi");
+				case "config":
+					signature = match[0].trim();
 					break;
 				case "event":
-					regex = new RegExp(`^\\s+\\[.*Events\\.(${file.name})\\]: (.*;)$`, "mi");
+					signature = `${match[1]}: ${match[2]}`.trim();
 					break;
 			}
-
-			const match = data.match(regex);
-			if (match && match.length) {
-				switch (file.type) {
-					case "method":
-					case "config":
-						signature = match[0].trim();
-						break;
-					case "event":
-						signature = `${match[1]}: ${match[2]}`.trim();
-						break;
-				}
-			} else {
-				const widget = file.url.split("/")[0];
-				switch (widget) {
-					case "treegrid":
-						return updateFileData({ ...file, url: "grid/sources/types.d.ts" });
-					case "tabbar":
-						return updateFileData({ ...file, url: "layout/sources/types.d.ts" });
-					case "form":
-						return updateFileData({ ...file, url: "layout/sources/types.d.ts" });
-					case "dataview":
-						return updateFileData({ ...file, url: "list/sources/types.d.ts" })
-				}
+		} else {
+			const widget = file.url.split("/")[0];
+			switch (widget) {
+				case "treegrid":
+					return updateFileData({ ...file, url: "grid/sources/types.d.ts" });
+				case "tabbar":
+					return updateFileData({ ...file, url: "layout/sources/types.d.ts" });
+				case "form":
+					return updateFileData({ ...file, url: "layout/sources/types.d.ts" });
+				case "dataview":
+					return updateFileData({ ...file, url: "list/sources/types.d.ts" })
 			}
-
-			if (!signature) {
-				i += 1;
-				notFoundLog(file);
-			}
-
-			const fileData = fs.readFileSync(file.filePath, 'utf-8');
-			const newData = getSignatureData(fileData, signature, file.url);
-			fs.writeFileSync(file.filePath, newData, 'utf-8');
 		}
+
+		if (!signature) {
+			i += 1;
+			notFoundLog(file);
+		}
+
+		const fileData = fs.readFileSync(file.filePath, 'utf-8');
+		const newData = getSignatureData(fileData, signature, file.url, data, file.name);
+		fs.writeFileSync(file.filePath, newData, 'utf-8');
 	}).catch(e => console.log("\x1b[31m%s\x1b[0m", e));
 };
 
