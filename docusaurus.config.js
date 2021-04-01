@@ -28,13 +28,12 @@ const onAtNotationMatch = (data, { key }) => {
         case 'default':
             return `<strong>Default value: </strong> ${data}`;
         case 'example':
-            return `~~~js\n${data.replace(/^(?:\n*)([^]+?)(?:\n*)$/g, '$1')}\n~~~`;
+            return `**Example**\n\n${data.replace(/^(?:\n*)([^]+?)(?:\n*)$/g, '$1')}\n~~~`;
         case 'metadescr':
             metaDescription = data.replace(/^(?:\n*)(.+)(?:\n|.)*/, '$1');
             return '';
         case 'relatedsample':
-            const newLink = data.replace(/((?:https?):\/\/[^\s$.?#].[^\s]*)\s*(.*)/, `<a href='$1' target='_blank'>$2</a>`)
-            return newLink;
+            return data.replace(/((?:https?):\/\/[^\s$.?#].[^\s]*)\s*(.*)/, `<p><strong>Related samples</strong></p><a href='$1' target='_blank'>$2</a>`);
         default:
             return componentName
                 ? wrapDataWithComponent(data, componentName)
