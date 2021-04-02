@@ -625,6 +625,10 @@ module.exports = {
                         "form/api/button/button_click_event",
                       ],
                     },
+                    {
+                      type: "doc",
+                      id: "form/api/button/api_button_properties",
+                    },
                   ],
                 },
                 {
@@ -671,6 +675,10 @@ module.exports = {
                         "form/api/calendar/calendar_input_event",
                       ],
                     },
+                    {
+                      type: "doc",
+                      id: "form/api/calendar/api_calendar_properties",
+                    },
                   ],
                 },
                 {
@@ -716,6 +724,10 @@ module.exports = {
                         "form/api/checkbox/checkbox_change_event",
                       ],
                     },
+                    {
+                      type: "doc",
+                      id: "form/api/checkbox/api_checkbox_properties",
+                    },
                   ],
                 },
                 {
@@ -760,6 +772,10 @@ module.exports = {
                         "form/api/checkbox_group/checkboxgroup_beforevalidate_event",
                         "form/api/checkbox_group/checkboxgroup_change_event",
                       ],
+                    },
+                    {
+                      type: "doc",
+                      id: "form/api/checkbox_group/api_checkboxgroup_properties",
                     },
                   ],
                 },
@@ -807,6 +823,10 @@ module.exports = {
                         "form/api/colorpicker/colorpicker_input_event",
                       ],
                     },
+                    {
+                      type: "doc",
+                      id: "form/api/colorpicker/api_colorpicker_properties",
+                    },
                   ],
                 },
                 {
@@ -851,6 +871,10 @@ module.exports = {
                         "form/api/combo/combo_beforevalidate_event",
                         "form/api/combo/combo_change_event",
                       ],
+                    },
+                    {
+                      type: "doc",
+                      id: "form/api/combo/api_combo_properties",
                     },
                   ],
                 },
@@ -897,6 +921,10 @@ module.exports = {
                         "form/api/input/input_input_event",
                       ],
                     },
+                    {
+                      type: "doc",
+                      id: "form/api/input/api_input_properties",
+                    },
                   ],
                 },
                 {
@@ -940,6 +968,10 @@ module.exports = {
                         "form/api/radiogroup/radiogroup_beforevalidate_event",
                         "form/api/radiogroup/radiogroup_change_event",
                       ],
+                    },
+                    {
+                      type: "doc",
+                      id: "form/api/radiogroup/api_radiogroup_properties",
                     },
                   ],
                 },
@@ -988,6 +1020,10 @@ module.exports = {
                         "form/api/select/select_change_event",
                         "form/api/select/select_changeoptions_event",
                       ],
+                    },
+                    {
+                      type: "doc",
+                      id: "form/api/select/api_select_properties",
                     },
                   ],
                 },
@@ -1040,6 +1076,10 @@ module.exports = {
                         "form/api/simplevault/simplevault_uploadprogress_event",
                       ],
                     },
+                    {
+                      type: "doc",
+                      id: "form/api/simplevault/api_simplevault_properties",
+                    },
                   ],
                 },
                 {
@@ -1080,6 +1120,10 @@ module.exports = {
                         "form/api/slider/slider_change_event",
                       ],
                     },
+                    {
+                      type: "doc",
+                      id: "form/api/slider/api_slider_properties",
+                    },
                   ],
                 },
                 {
@@ -1111,6 +1155,10 @@ module.exports = {
                         "form/api/spacer/spacer_beforehide_event",
                         "form/api/spacer/spacer_beforeshow_event",
                       ],
+                    },
+                    {
+                      type: "doc",
+                      id: "form/api/spacer/api_spacer_properties",
                     },
                   ],
                 },
@@ -1152,6 +1200,10 @@ module.exports = {
                         "form/api/text/text_beforevalidate_event",
                         "form/api/text/text_change_event",
                       ],
+                    },
+                    {
+                      type: "doc",
+                      id: "form/api/text/api_text_properties",
                     },
                   ],
                 },
@@ -1198,6 +1250,10 @@ module.exports = {
                         "form/api/textarea/textarea_input_event",
                       ],
                     },
+                    {
+                      type: "doc",
+                      id: "form/api/textarea/api_textarea_properties",
+                    },
                   ],
                 },
                 {
@@ -1243,6 +1299,10 @@ module.exports = {
                         "form/api/timepicker/timepicker_change_event",
                         "form/api/timepicker/timepicker_input_event",
                       ],
+                    },
+                    {
+                      type: "doc",
+                      id: "form/api/timepicker/api_timepicker_properties",
                     },
                   ],
                 },

@@ -88,6 +88,9 @@ title: Form API overview
 | [](form/api/button/button_beforeshow_event.md)             | @getshort(form/api/button/button_beforeshow_event.md)             |
 | [](form/api/button/button_click_event.md)                  | @getshort(form/api/button/button_click_event.md)                  |
 
+### Properties
+
+[List of the Button properties](form/api/button/api_button_properties.md)
 
 ## Datepicker API
 
@@ -126,6 +129,9 @@ title: Form API overview
 | [](form/api/calendar/calendar_change_event.md)                 | @getshort(orm/api/calendar/calendar_change_event.md)                 |
 | [](form/api/calendar/calendar_input_event.md)                  | @getshort(orm/api/calendar/calendar_input_event.md)                  |
 
+### Properties
+
+[List of the Datepicker properties](form/api/calendar/api_calendar_properties.md)
 
 ## Checkbox API
 
@@ -163,6 +169,9 @@ title: Form API overview
 | [](form/api/checkbox/checkbox_beforevalidate_event.md)         | @getshort(form/api/checkbox/checkbox_beforevalidate_event.md)         |
 | [](form/api/checkbox/checkbox_change_event.md)                 | @getshort(form/api/checkbox/checkbox_change_event.md)                 |
 
+### Properties
+
+[List of the Checkbox properties](form/api/checkbox/api_checkbox_properties.md)
 
 ## CheckboxGroup API
 
@@ -200,6 +209,13 @@ title: Form API overview
 | [](form/api/checkbox_group/checkboxgroup_beforevalidate_event.md)         | @getshort(form/api/checkbox_group/checkboxgroup_beforevalidate_event.md)         |
 | [](form/api/checkbox_group/checkboxgroup_change_event.md)                 | @getshort(form/api/checkbox_group/checkboxgroup_change_event.md)                 |
 
+### CheckboxGroup properties
+
+[List of the CheckboxGroup properties](form/api/checkbox_group/api_checkboxgroup_properties.md)
+
+### Checkbox properties from CheckboxGroup
+
+[List of the Checkbox properties from CheckboxGroup](form/api/checkbox_group/api_checkboxgroup_properties.md#checkbox-properties-from-checkboxgroup)
 
 ## Colorpicker API
 
@@ -239,6 +255,9 @@ title: Form API overview
 | [](form/api/colorpicker/colorpicker_change_event.md)                 | @getshort(form/api/colorpicker/colorpicker_change_event.md)                 |
 | [](form/api/colorpicker/colorpicker_input_event.md)                  | @getshort(form/api/colorpicker/colorpicker_input_event.md)                  |
 
+### Properties
+
+[List of the Colorpicker properties](form/api/colorpicker/api_colorpicker_properties.md)
 
 ## Combo API 
 
@@ -276,6 +295,9 @@ title: Form API overview
 | [](form/api/combo/combo_beforevalidate_event.md)         | @getshort(form/api/combo/combo_beforevalidate_event.md)         |
 | [](form/api/combo/combo_change_event.md)                 | @getshort(form/api/combo/combo_change_event.md)                 |
 
+### Properties
+
+[List of the Combo properties](form/api/combo/api_combo_properties.md)
 
 ## Input API
 
@@ -313,6 +335,9 @@ title: Form API overview
 | [](form/api/input/input_change_event.md)                 | @getshort(form/api/input/input_change_event.md)                 |
 | [](form/api/input/input_input_event.md)                  | @getshort(form/api/input/input_input_event.md)                  |
 
+### Properties
+
+[List of the Input properties](form/api/input/api_input_properties.md)
 
 ## Radiogroup API 
 
@@ -349,6 +374,13 @@ title: Form API overview
 | [](form/api/radiogroup/radiogroup_beforevalidate_event.md)         | @getshort(form/api/radiogroup/radiogroup_beforevalidate_event.md)         |
 | [](form/api/radiogroup/radiogroup_change_event.md)                 | @getshort(form/api/radiogroup/radiogroup_change_event.md)                 |
 
+### RadioGroup properties
+
+[List of the Radiogroup properties](form/api/radiogroup/api_radiogroup_properties.md)
+
+### RadioButton properties
+
+[List of the RadioButton properties](form/api/radiogroup/api_radiogroup_properties.md#radiobutton-properties)
 
 ## Select API
 
@@ -388,6 +420,9 @@ title: Form API overview
 | [](form/api/select/select_change_event.md)                 | @getshort(form/api/select/select_change_event.md)                 |
 | [](form/api/select/select_changeoptions_event.md)          | @getshort(form/api/select/select_changeoptions_event.md)          |
 
+### Properties
+
+[List of the Select properties](form/api/select/api_select_properties.md)
 
 ## Simple Vault API
 
@@ -431,6 +466,9 @@ title: Form API overview
 | [](form/api/simplevault/simplevault_uploadfile_event.md)             | @getshort(form/api/simplevault/simplevault_uploadfile_event.md)             |
 | [](form/api/simplevault/simplevault_uploadprogress_event.md)         | @getshort(form/api/simplevault/simplevault_uploadprogress_event.md)         |
 
+### Properties
+
+[List of the Simple Vault properties](form/api/simplevault/api_simplevault_properties.md)
 
 ## Slider API
 
@@ -463,6 +501,9 @@ title: Form API overview
 | [](form/api/slider/slider_beforeshow_event.md)             | @getshort(form/api/slider/slider_beforeshow_event.md)             |
 | [](form/api/slider/slider_change_event.md)                 | @getshort(form/api/slider/slider_change_event.md)                 |
 
+### Properties
+
+[List of the Slider properties](form/api/slider/api_slider_properties.md)
 
 ## Spacer API
 
@@ -487,6 +528,9 @@ title: Form API overview
 | [](form/api/spacer/spacer_beforehide_event.md)             | @getshort(form/api/spacer/spacer_beforehide_event.md)             |
 | [](form/api/spacer/spacer_beforeshow_event.md)             | @getshort(form/api/spacer/spacer_beforeshow_event.md)             |
 
+### Properties
+
+[List of the Spacer properties](form/api/spacer/api_spacer_properties.md)
 
 ## Text API
 
@@ -520,6 +564,9 @@ title: Form API overview
 | [](form/api/text/text_beforevalidate_event.md)         | @getshort(form/api/text/text_beforevalidate_event.md)         |
 | [](form/api/text/text_change_event.md)                 | @getshort(form/api/text/text_change_event.md)                 |
 
+### Properties
+
+[List of the Text properties](form/api/text/api_text_properties.md)
 
 ## Textarea API
 
@@ -557,6 +604,9 @@ title: Form API overview
 | [](form/api/textarea/textarea_change_event.md)                 | @getshort(form/api/textarea/textarea_change_event.md)                 |
 | [](form/api/textarea/textarea_input_event.md)                  | @getshort(form/api/textarea/textarea_input_event.md)                  |
 
+### Properties
+
+[List of the Textarea properties](form/api/textarea/api_textarea_properties.md)
 
 ## Timepicker API
 
@@ -595,3 +645,6 @@ title: Form API overview
 | [](form/api/timepicker/timepicker_change_event.md)                 | @getshort(form/api/timepicker/timepicker_change_event.md)                 |
 | [](form/api/timepicker/timepicker_input_event.md)                  | @getshort(form/api/timepicker/timepicker_input_event.md)                  |
 
+### Properties
+
+[List of the Timepicker properties](form/api/timepicker/api_timepicker_properties.md)
