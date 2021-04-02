@@ -5,7 +5,6 @@ title: load
 
 @short: loads data from an external URL
 
-
 @returns: 
 - param     promise      "promise" of the data object
 

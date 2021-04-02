@@ -5,7 +5,6 @@ title: save
 
 @short: sends an AJAX request to the server
 
-
 @params:
 - data      object      mandatory, data to be sent to the server
 - mode      string      mandatory, a mode of the request ("delete", "update", "insert")

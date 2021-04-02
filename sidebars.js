@@ -2863,14 +2863,14 @@ module.exports = {
           type: "category",
           label: "DataProxy",
           items: [
-            // "data_proxy/api/refs/data_proxy_methods", todo
+            "data_proxy/index",
             {
               type: "category",
               label: "Methods",
               items: [
                 "data_proxy/api/dataproxy_load_method",
                 "data_proxy/api/dataproxy_save_method",
-                "data_proxy/api/dataproxy_updateurl_method", //todo норм ли название
+                "data_proxy/api/dataproxy_updateurl_method",
               ],
             },
           ],
@@ -2918,7 +2918,7 @@ module.exports = {
           type: "category",
           label: "TreeCollection API",
           items: [
-            "helpers/data_collection", //todo
+            // "helpers/data_collection", //todo
             {
               type: "category",
               label: "Methods",
@@ -2975,7 +2975,7 @@ module.exports = {
           type: "category",
           label: "Uploader Object API",
           items: [
-            "helpers/data_collection",
+            // "helpers/data_collection",
             {
               type: "category",
               label: "Methods",
