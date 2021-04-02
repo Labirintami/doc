@@ -3,8 +3,7 @@ sidebar_label: isDataLoaded
 title: isDataLoaded
 ---          
 
-@short:
-checks whether the specified data range is loaded from the server
+@short: checks whether the specified data range is loaded from the server
 
 @params:
 - from			number			optional, the index of the first element of the data range to be checked
@@ -13,10 +12,8 @@ checks whether the specified data range is loaded from the server
 @returns:
 - result		boolean				true if a range of data is loaded, otherwise false
 
-
 @example:
 data.isDataLoaded();
-
 
 @related: helpers/lazydataproxy.md
 

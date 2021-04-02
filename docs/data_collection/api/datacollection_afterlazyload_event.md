@@ -9,7 +9,6 @@ title: afterLazyLoad
 - from		number		the index of the first loaded item 	
 - count     number      the count of records loaded from the server 
 
-
 @example:
 data.events.on("AfterLazyLoad", function (from, count) {
     // your code here
@@ -21,5 +20,3 @@ data.events.on("AfterLazyLoad", function (from, count) {
 @related: helpers/lazydataproxy.md
 
 @relatedapi:data_collection/api/beforelazyload_event.md
-
-

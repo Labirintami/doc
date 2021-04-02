@@ -3,8 +3,7 @@ sidebar_label: serialize
 title: serialize
 ---          
 
-@short:
-	serializes the component data into JSON, XML or CSV format
+@short: serializes the component data into JSON, XML or CSV format
 
 @params:
 - type			string		optional, the format that the data will be serialized into (json, csv, xml), json by default

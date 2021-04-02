@@ -3,13 +3,11 @@ sidebar_label: save
 title: save
 ---          
 
-@short:
-	saves changes made in a data collection to the server side
+@short: saves changes made in a data collection to the server side
 
 @params:
 
 - url			string|DataDriver		the URL of a server side or DataDriver with the URL configured
-
 
 @example:
 diagram.data.save("http://userurl/");

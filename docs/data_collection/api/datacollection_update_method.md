@@ -5,9 +5,7 @@ title: update
 
 @short: updates properties of the item
 	
-
 @params:
-
 - id			string,number		the id of the item which needs to be updated
 - config		object				a hash of properties which need to be updated
 

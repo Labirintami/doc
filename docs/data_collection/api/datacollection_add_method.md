@@ -3,8 +3,7 @@ sidebar_label: add
 title: add
 ---          
 
-@short:
-	adds a new item to the component
+@short: adds a new item to the component
 
 @params:
 - new_item		object,array		the object of a new item or an array of item objects
@@ -36,7 +35,6 @@ component.data.add([
         "id": "u1565340894587"
     }
 ]);
-
 
 @template:	api_method
 @descr:

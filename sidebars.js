@@ -2761,7 +2761,7 @@ module.exports = {
           type: "category",
           label: "AJAX",
           items: [
-            // "calendar/api/api_overview", //todo
+            "ajax/index",
             {
               type: "category",
               label: "Methods",
@@ -2786,17 +2786,24 @@ module.exports = {
           type: "category",
           label: "CSS manager methods",
           items: [
-            "css_manager/api/cssmanager_add_method",
-            "css_manager/api/cssmanager_get_method",
-            "css_manager/api/cssmanager_remove_method",
-            "css_manager/api/cssmanager_update_method",
+            "css_manager/index",
+            {
+              type: "category",
+              label: "Methods",
+              items: [
+                "css_manager/api/cssmanager_add_method",
+                "css_manager/api/cssmanager_get_method",
+                "css_manager/api/cssmanager_remove_method",
+                "css_manager/api/cssmanager_update_method",
+              ],
+            },
           ],
         },
         {
           type: "category",
           label: "DataCollection API",
           items: [
-            "helpers/data_collection",
+            "data_collection/index",
             {
               type: "category",
               label: "Methods",
