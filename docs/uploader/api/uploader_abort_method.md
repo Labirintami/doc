@@ -1,4 +1,3 @@
-
 ---
 sidebar_label: abort
 title: abort
@@ -9,7 +8,6 @@ title: abort
 @params:
 
 * id	 string 		optional, the ID of a file
-
 
 @example:
 vault.uploader.abort("file_id");

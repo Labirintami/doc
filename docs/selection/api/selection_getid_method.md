@@ -6,12 +6,10 @@ title: getId
 @short: returns the id of a selected item
 	
 @returns:
-
 - id	string|string[]	the id of a selected item
 
 @example:
 var id = tree.selection.getId(); // -> "2"
-
 
 @template:	api_method
 @descr:

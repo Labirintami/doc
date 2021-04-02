@@ -3,13 +3,10 @@ sidebar_label: add
 title: add
 ---          
 
-@short:
-	selects a specified item
+@short: selects a specified item
 
 @params:
 - id		string,number		the id of an item
-
-
 
 @example:
 // diagram must be created with the "select:true" option
@@ -19,7 +16,6 @@ var tree = new dhx.Tree("tree_container", {
 tree.data.parse(data);
 
 tree.selection.add("2");
-
 
 @template:	api_method
 @descr:

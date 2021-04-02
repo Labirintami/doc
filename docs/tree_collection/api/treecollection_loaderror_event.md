@@ -8,7 +8,6 @@ title: loadError
 @params:
 - error			string,object		info about the error
 
-
 @example:
 data.events.on("LoadError", function(error){
 	// your code here
@@ -21,7 +20,5 @@ The **error** parameter can be either a string with the text of an error, or an 
 
 - status - the code of an error
 - text - the text of an error
-
-
 
 	

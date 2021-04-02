@@ -8,12 +8,9 @@ title: send
 @params:
 * params 		object 			optional, additional parameters for a request
 
-
 @example:
 vault.uploader.send();
 
 @template: api_method
 @descr:
 The request URL is specified by the uploader/api/target_config.md property.
-
-

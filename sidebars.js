@@ -2759,7 +2759,7 @@ module.exports = {
       items: [
         {
           type: "category",
-          label: "AJAX",
+          label: "AJAX API",
           items: [
             "ajax/index",
             {
@@ -2784,7 +2784,7 @@ module.exports = {
         },
         {
           type: "category",
-          label: "CSS manager methods",
+          label: "CSS manager API",
           items: [
             "css_manager/index",
             {
@@ -2861,7 +2861,7 @@ module.exports = {
         },
         {
           type: "category",
-          label: "DataProxy",
+          label: "DataProxy API",
           items: [
             "data_proxy/index",
             {
@@ -2891,7 +2891,7 @@ module.exports = {
           type: "category",
           label: "Selection Object API",
           items: [
-            "helpers/selection",
+            "selection/index",
             {
               type: "category",
               label: "Methods",
@@ -2918,7 +2918,7 @@ module.exports = {
           type: "category",
           label: "TreeCollection API",
           items: [
-            // "helpers/data_collection", //todo
+            "tree_collection/index",
             {
               type: "category",
               label: "Methods",
@@ -2975,7 +2975,7 @@ module.exports = {
           type: "category",
           label: "Uploader Object API",
           items: [
-            // "helpers/data_collection",
+            "uploader/index",
             {
               type: "category",
               label: "Methods",

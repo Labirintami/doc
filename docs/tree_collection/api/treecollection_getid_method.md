@@ -1,9 +1,9 @@
 ---
-sidebar_label:
-title:
+sidebar_label: getId
+title: getId
 ---          
 
-@short:gets the ID of an item
+@short: gets the ID of an item
 
 @params:
 - index 		number		 the index of the item

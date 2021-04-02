@@ -3,8 +3,7 @@ sidebar_label: remove
 title: remove
 ---          
 
-@short:
-	unselects a previously selected item
+@short: unselects a previously selected item
 
 @params:
 - id		string,number		optional, the id of an item
@@ -14,7 +13,6 @@ title: remove
 
 @example:
 tree.selection.remove("1"); // -> true
-
 
 
 @template:	api_method

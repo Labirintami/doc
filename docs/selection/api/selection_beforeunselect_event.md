@@ -3,8 +3,7 @@ sidebar_label: beforeUnSelect
 title: beforeUnSelect
 ---          
 
-@short:
-	fires on unselecting an item, but before the item is really unselected
+@short: fires on unselecting an item, but before the item is really unselected
 
 @params:
 - id		string		the id of an item
@@ -18,8 +17,5 @@ selection.events.on("BeforeUnSelect", function(id){
     return false;
 });
 
-
 @template:	api_method
 @descr:
-
-

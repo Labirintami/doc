@@ -1,18 +1,13 @@
 ---
-sidebar_label:
-title:
+sidebar_label: filter
+title: filter
 ---          
 
-
-
-@short:filters controls by some criteria
+@short: filters controls by some criteria
 
 @params:
 - rule      function,object     the filtering criteria
 - config 		object		 optional, defines the parameters of filtering
-
-
-
 
 @example:
 treeGrid.data.filter({

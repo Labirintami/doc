@@ -8,18 +8,12 @@ title: afterAdd
 @params:
 - newItem		object			the object of an added item
 
-
 @example:
 data.events.on("AfterAdd", function(newItem){
 	console.log("A new item is added");
 });
 
-
 @template:	api_event
 @descr:
 
-
-
 @relatedapi:tree_collection/api/beforeadd_event.md
-
-
