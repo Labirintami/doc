@@ -28,7 +28,7 @@ const onAtNotationMatch = (data, { key }) => {
         case 'default':
             return `<strong>Default value: </strong> ${data}`;
         case 'example':
-            return `**Example**\n\n${data.replace(/^(?:\n*)([^]+?)(?:\n*)$/g, '$1')}\n~~~`;
+            return `**Example**\n~~~js\n${data.replace(/^(?:\n*)([^]+?)(?:\n*)$/g, '$1')}\n~~~`;
         case 'metadescr':
             metaDescription = data.replace(/^(?:\n*)(.+)(?:\n|.)*/, '$1');
             return '';
