@@ -41,8 +41,10 @@ title: TreeGrid API overview
 | [](treegrid/api/treegrid_showrow_method.md)           | @getshort(treegrid/api/treegrid_showrow_method.md)           |
 | [](treegrid/api/treegrid_ungroup_method.md)           | @getshort(treegrid/api/treegrid_ungroup_method.md)           |
 
-`to do Tree Collection`
-`to do Selection`
+:::info important
+- Use [TreeCollection methods](tree_collection/index.md) to work with data. 
+- А для работы с выделением (?) используйте методы Selection. (todo свести Selection разных виджетов в таблицу, а потом попробовать вынести в Helpers c третьей колонкой для какого виджета применимо)
+:::
 
 ## Events
 
@@ -83,7 +85,6 @@ title: TreeGrid API overview
 | [](treegrid/api/treegrid_cellmousedown_event.md)        | @getshort(treegrid/api/treegrid_cellmousedown_event.md)        |
 | [](treegrid/api/treegrid_cellmouseover_event.md)        | @getshort(treegrid/api/treegrid_cellmouseover_event.md)        |
 | [](treegrid/api/treegrid_cellrightclick_event.md)       | @getshort(treegrid/api/treegrid_cellrightclick_event.md)       |
-| [](treegrid/api/treegrid_data_object.md) //todo         |                                                                |
 | [](treegrid/api/treegrid_dragcolumnin_event.md)         | @getshort(treegrid/api/treegrid_dragcolumnin_event.md)         |
 | [](treegrid/api/treegrid_dragcolumnout_event.md)        | @getshort(treegrid/api/treegrid_dragcolumnout_event.md)        |
 | [](treegrid/api/treegrid_dragcolumnstart_event.md)      | @getshort(treegrid/api/treegrid_dragcolumnstart_event.md)      |
@@ -91,7 +92,6 @@ title: TreeGrid API overview
 | [](treegrid/api/treegrid_dragrowout_event.md)           | @getshort(treegrid/api/treegrid_dragrowout_event.md)           |
 | [](treegrid/api/treegrid_dragrowstart_event.md)         | @getshort(treegrid/api/treegrid_dragrowstart_event.md)         |
 | [](treegrid/api/treegrid_expand_event.md)               | @getshort(treegrid/api/treegrid_expand_event.md)               |
-| [](treegrid/api/treegrid_export_object.md) //todo       |                                                                |
 | [](treegrid/api/treegrid_filterchange_event.md)         | @getshort(treegrid/api/treegrid_filterchange_event.md)         |
 | [](treegrid/api/treegrid_footercellclick_event.md)      | @getshort(treegrid/api/treegrid_footercellclick_event.md)      |
 | [](treegrid/api/treegrid_footercelldblclick_event.md)   | @getshort(treegrid/api/treegrid_footercelldblclick_event.md)   |
@@ -108,8 +108,10 @@ title: TreeGrid API overview
 | [](treegrid/api/treegrid_scroll_event.md)               | @getshort(treegrid/api/treegrid_scroll_event.md)               |
 | [](treegrid/api/treegrid_sort_event.md)                 | @getshort(treegrid/api/treegrid_sort_event.md)                 |
 
-`to do Tree Collection`
-`to do Selection`
+:::info important
+- Use [TreeCollection events](tree_collection/index.md#events) to work with data. 
+- А для работы с выделением (?) используйте события Selection. (todo свести Selection разных виджетов в таблицу, а потом попробовать вынести в Helpers c третьей колонкой для какого виджета применимо)
+:::
 
 ## Properties
 

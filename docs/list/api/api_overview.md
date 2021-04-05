@@ -19,8 +19,10 @@ title: List API overview
 | [](list/api/list_setfocus_method.md)         | @getshort(list/api/list_setfocus_method.md)         |
 | [](list/api/list_setfocusindex_method.md)    | @getshort(list/api/list_setfocusindex_method.md)    |
 
-`to do Data Collection`
-`to do  Selection`
+:::info important
+- Use [DataCollection methods](data_collection/index.md) to work with data. 
+- А для работы с выделением (?) используйте методы Selection. (todo свести Selection разных виджетов в таблицу, а потом попробовать вынести в Helpers c третьей колонкой для какого виджета применимо)
+:::
 
 ## Events
 
@@ -38,7 +40,6 @@ title: List API overview
 | [](list/api/list_candrop_event.md)            | @getshort(list/api/list_candrop_event.md)         |
 | [](list/api/list_click_event.md)              | @getshort(list/api/list_click_event.md)           |
 | [](list/api/list_contextmenu_event.md)        | @getshort(list/api/list_contextmenu_event.md)     |
-| [](list/api/list_data_object.md) //todo       |                                                   |
 | [](list/api/list_doubleclick_event.md)        | @getshort(list/api/list_doubleclick_event.md)     |
 | [](list/api/list_dragin_event.md)             | @getshort(list/api/list_dragin_event.md)          |
 | [](list/api/list_dragout_event.md)            | @getshort(list/api/list_dragout_event.md)         |
@@ -48,8 +49,10 @@ title: List API overview
 | [](list/api/list_itemrightclick_event.md)     | @getshort(list/api/list_itemrightclick_event.md)  |
 | [](list/api/list_selection_object.md) //to do |                                                   |
 
-`to do Data Collection`
-`to do  Selection`
+:::info important
+- Use [DataCollection events](data_collection/index.md#events) to work with data. 
+- А для работы с выделением (?) используйте события Selection. (todo свести Selection разных виджетов в таблицу, а потом попробовать вынести в Helpers c третьей колонкой для какого виджета применимо)
+:::
 
 ## Properties
 

@@ -24,9 +24,6 @@ title: Timepicker API overview
 | [](timepicker/api/timepicker_beforeclose_event.md)    | @getshort(timepicker/api/timepicker_beforeclose_event.md) |
 | [](timepicker/api/timepicker_change_event.md)         | @getshort(timepicker/api/timepicker_change_event.md)      |
 | [](timepicker/api/timepicker_close_event.md)          | @getshort(timepicker/api/timepicker_close_event.md)       |
-| [](timepicker/api/timepicker_config_object.md) //todo |      |
-| [](timepicker/api/timepicker_events_object.md) //todo |      |
-| [](timepicker/api/timepicker_layout_object.md) //todo |      |
 | [](timepicker/api/timepicker_save_event.md)           | @getshort(timepicker/api/timepicker_save_event.md)        |
 
 ## Properties

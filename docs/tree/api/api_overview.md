@@ -27,8 +27,10 @@ title: Tree API overview
 | [](tree/api/tree_uncheckitem_method.md)    | @getshort(tree/api/tree_uncheckitem_method.md)    |
 | [](tree/api/tree_uncheckitemnew_method.md) | @getshort(tree/api/tree_uncheckitemnew_method.md) |
 
-`to do Tree Collection`
-`to do Selection`
+:::info important
+- Use [TreeCollection methods](tree_collection/index.md) to work with data. 
+- А для работы с выделением (?) используйте методы Selection. (todo свести Selection разных виджетов в таблицу, а потом попробовать вынести в Helpers c третьей колонкой для какого виджета применимо)
+:::
 
 ## Events
 
@@ -48,7 +50,6 @@ title: Tree API overview
 | [](tree/api/tree_beforeexpand_event.md)    | @getshort(tree/api/tree_beforeexpand_event.md)    |
 | [](tree/api/tree_canceldrop_event.md)      | @getshort(tree/api/tree_canceldrop_event.md)      |
 | [](tree/api/tree_candrop_event.md)         | @getshort(tree/api/tree_candrop_event.md)         |
-| [](tree/api/tree_data_object.md) //to do   |                                                   |
 | [](tree/api/tree_dragin_event.md)          | @getshort(tree/api/tree_dragin_event.md)          |
 | [](tree/api/tree_dragout_event.md)         | @getshort(tree/api/tree_dragout_event.md)         |
 | [](tree/api/tree_dragstart_event.md)       | @getshort(tree/api/tree_dragstart_event.md)       |
@@ -58,8 +59,10 @@ title: Tree API overview
 | [](tree/api/tree_itemdblclick_event.md)    | @getshort(tree/api/tree_itemdblclick_event.md)    |
 | [](tree/api/tree_itemrightclick_event.md)  | @getshort(tree/api/tree_itemrightclick_event.md)  |
 
-`to do Tree Collection`
-`to do Selection`
+:::info important
+- Use [TreeCollection events](tree_collection/index.md#events) to work with data. 
+- А для работы с выделением (?) используйте события Selection. (todo свести Selection разных виджетов в таблицу, а потом попробовать вынести в Helpers c третьей колонкой для какого виджета применимо)
+:::
 
 ## Properties
 

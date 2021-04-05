@@ -36,8 +36,10 @@ title: Grid API overview
 | [](grid/api/grid_showcolumn_method.md)        | @getshort(grid/api/grid_showcolumn_method.md)        |
 | [](grid/api/grid_showrow_method.md)           | @getshort(grid/api/grid_showrow_method.md)           |
 
-`to do Data Collection`
-`to do Selection`
+:::info important
+- Use [DataCollection methods](data_collection/index.md) to work with data. 
+- А для работы с выделением (?) используйте методы Selection. (todo свести Selection разных виджетов в таблицу, а потом попробовать вынести в Helpers c третьей колонкой для какого виджета применимо)
+:::
 
 ## Events
 
@@ -75,7 +77,6 @@ title: Grid API overview
 | [](grid/api/grid_celldblclick_event.md)         | @getshort(grid/api/grid_celldblclick_event)         |
 | [](grid/api/grid_cellmouseover_event.md)        | @getshort(grid/api/grid_cellmouseover_event)        |
 | [](grid/api/grid_cellrightclick_event.md)       | @getshort(grid/api/grid_cellrightclick_event)       |
-| [](grid/api/grid_data_object.md)  // todo       |                                                     |
 | [](grid/api/grid_dragcolumnin_event.md)         | @getshort(grid/api/grid_dragcolumnin_event)         |
 | [](grid/api/grid_dragcolumnout_event.md)        | @getshort(grid/api/grid_dragcolumnout_event)        |
 | [](grid/api/grid_dragcolumnstart_event.md)      | @getshort(grid/api/grid_dragcolumnstart_event)      |
@@ -83,7 +84,6 @@ title: Grid API overview
 | [](grid/api/grid_dragrowout_event.md)           | @getshort(grid/api/grid_dragrowout_event)           |
 | [](grid/api/grid_dragrowstart_event.md)         | @getshort(grid/api/grid_dragrowstart_event)         |
 | [](grid/api/grid_expand_event.md)               | @getshort(grid/api/grid_expand_event)               |
-| [](grid/api/grid_export_object.md)  //todo      |                                                     |
 | [](grid/api/grid_filterchange_event.md)         | @getshort(grid/api/grid_filterchange_event)         |
 | [](grid/api/grid_footercellclick_event.md)      | @getshort(grid/api/grid_footercellclick_event)      |
 | [](grid/api/grid_footercelldblclick_event.md)   | @getshort(grid/api/grid_footercelldblclick_event)   |
@@ -100,8 +100,10 @@ title: Grid API overview
 | [](grid/api/grid_scroll_event.md)               | @getshort(grid/api/grid_scroll_event)               |
 | [](grid/api/grid_sort_event.md)                 | @getshort(grid/api/grid_sort_event)                 |
 
-`to do Data Collection`
-`to do Selection`
+:::info important
+- Use [DataCollection events](data_collection/index.md#events) to work with data. 
+- А для работы с выделением (?) используйте события Selection. (todo свести Selection разных виджетов в таблицу, а потом попробовать вынести в Helpers c третьей колонкой для какого виджета применимо)
+:::
 
 ## Properties
 

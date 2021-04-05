@@ -2751,7 +2751,7 @@ module.exports = {
         // end Window
       ],
     },
-    //Helpers todo
+    //Helpers
     {
       type: "category",
       label: "Helpers",

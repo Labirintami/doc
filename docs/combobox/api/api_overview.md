@@ -16,7 +16,9 @@ title: Combobox API overview
 | [](combobox/api/combobox_setstate_method.md)   | @getshort(combobox/api/combobox_setstate_method.md)   |
 | [](combobox/api/combobox_setvalue_method.md)   | @getshort(combobox/api/combobox_setvalue_method.md)   |
 
-`to do Data Collection`
+:::info important
+Use [DataCollection methods](data_collection/index.md) to work with data. 
+:::
 
 ## Events
 
@@ -29,7 +31,9 @@ title: Combobox API overview
 | [](combobox/api/combobox_input_event.md)       | @getshort(combobox/api/combobox_input_event.md)       |
 | [](combobox/api/combobox_open_event.md)        | @getshort(combobox/api/combobox_open_event.md)        |
 
-`to do Data Collection`
+:::info important
+Use [DataCollection events](data_collection/index.md#events) to work with data. 
+:::
 
 ## Properties
 
