@@ -30,7 +30,6 @@ title: Toolbar API overview
 | [](toolbar/api/toolbar_afterhide_event.md)     | @getshort(toolbar/api/toolbar_afterhide_event.md)    |
 | [](toolbar/api/toolbar_beforehide_event.md)    | @getshort(toolbar/api/toolbar_beforehide_event.md)   |
 | [](toolbar/api/toolbar_click_event.md)         | @getshort(toolbar/api/toolbar_click_event.md)        |
-| [](toolbar/api/toolbar_data_object.md)  //todo |                                                      |
 | [](toolbar/api/toolbar_inputblur_event.md)     | @getshort(toolbar/api/toolbar_inputblur_event.md)    |
 | [](toolbar/api/toolbar_inputcreated_event.md)  | @getshort(toolbar/api/toolbar_inputcreated_event.md) |
 | [](toolbar/api/toolbar_inputfocus_event.md)    | @getshort(toolbar/api/toolbar_inputfocus_event.md)   |

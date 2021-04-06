@@ -83,7 +83,6 @@ title: TreeGrid API overview
 | [](treegrid/api/treegrid_cellmousedown_event.md)        | @getshort(treegrid/api/treegrid_cellmousedown_event.md)        |
 | [](treegrid/api/treegrid_cellmouseover_event.md)        | @getshort(treegrid/api/treegrid_cellmouseover_event.md)        |
 | [](treegrid/api/treegrid_cellrightclick_event.md)       | @getshort(treegrid/api/treegrid_cellrightclick_event.md)       |
-| [](treegrid/api/treegrid_data_object.md) //todo         |                                                                |
 | [](treegrid/api/treegrid_dragcolumnin_event.md)         | @getshort(treegrid/api/treegrid_dragcolumnin_event.md)         |
 | [](treegrid/api/treegrid_dragcolumnout_event.md)        | @getshort(treegrid/api/treegrid_dragcolumnout_event.md)        |
 | [](treegrid/api/treegrid_dragcolumnstart_event.md)      | @getshort(treegrid/api/treegrid_dragcolumnstart_event.md)      |
@@ -91,7 +90,6 @@ title: TreeGrid API overview
 | [](treegrid/api/treegrid_dragrowout_event.md)           | @getshort(treegrid/api/treegrid_dragrowout_event.md)           |
 | [](treegrid/api/treegrid_dragrowstart_event.md)         | @getshort(treegrid/api/treegrid_dragrowstart_event.md)         |
 | [](treegrid/api/treegrid_expand_event.md)               | @getshort(treegrid/api/treegrid_expand_event.md)               |
-| [](treegrid/api/treegrid_export_object.md) //todo       |                                                                |
 | [](treegrid/api/treegrid_filterchange_event.md)         | @getshort(treegrid/api/treegrid_filterchange_event.md)         |
 | [](treegrid/api/treegrid_footercellclick_event.md)      | @getshort(treegrid/api/treegrid_footercellclick_event.md)      |
 | [](treegrid/api/treegrid_footercelldblclick_event.md)   | @getshort(treegrid/api/treegrid_footercelldblclick_event.md)   |
@@ -106,7 +104,6 @@ title: TreeGrid API overview
 | [](treegrid/api/treegrid_headerinput_event.md)          | @getshort(treegrid/api/treegrid_headerinput_event.md)          |
 | [](treegrid/api/treegrid_resize_event.md)               | @getshort(treegrid/api/treegrid_resize_event.md)               |
 | [](treegrid/api/treegrid_scroll_event.md)               | @getshort(treegrid/api/treegrid_scroll_event.md)               |
-| [](treegrid/api/treegrid_sort_event.md)                 | @getshort(treegrid/api/treegrid_sort_event.md)                 |
 
 `to do Tree Collection`
 `to do Selection`

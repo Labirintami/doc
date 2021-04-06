@@ -48,7 +48,6 @@ title: Tree API overview
 | [](tree/api/tree_beforeexpand_event.md)    | @getshort(tree/api/tree_beforeexpand_event.md)    |
 | [](tree/api/tree_canceldrop_event.md)      | @getshort(tree/api/tree_canceldrop_event.md)      |
 | [](tree/api/tree_candrop_event.md)         | @getshort(tree/api/tree_candrop_event.md)         |
-| [](tree/api/tree_data_object.md) //to do   |                                                   |
 | [](tree/api/tree_dragin_event.md)          | @getshort(tree/api/tree_dragin_event.md)          |
 | [](tree/api/tree_dragout_event.md)         | @getshort(tree/api/tree_dragout_event.md)         |
 | [](tree/api/tree_dragstart_event.md)       | @getshort(tree/api/tree_dragstart_event.md)       |

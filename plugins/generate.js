@@ -153,6 +153,23 @@ const updateFileData = file => {
 	}).catch(e => console.log("\x1b[31m%s\x1b[0m", e));
 };
 
+function setFileId(file) {
+	const fileData = fs.readFileSync(file.filePath, 'utf-8');
+	const newData = fileData.replace(/---\s+((.*: .*\s+)+)---/gmi, str => {
+		const findeId = /\id: (.*)/m
+		// console.log(`id: ${file.filePath.replace(/..[/]docs[/][/]/m, '').replace(/.md/m, '')}`)
+		if (findeId.exec(str)) {	
+			// return str.replace(findeId, `id: ${file.filePath.replace(/..[/]docs[/][/]/m, '').replace(/.md/m, '')}`);
+			return str.replace(findeId, `id: ${file.filePath.replace(/^.*[\\\/]/, '').replace(/.md/m, '')}`);
+		} else {
+			// return str.replace(/---\s+/m, `--- \nid: ${file.filePath.replace(/..[/]docs[/][/]/m, '').replace(/.md/m, '')}\n`);
+			return str.replace(/---\s+/m, `--- \nid: ${file.filePath.replace(/^.*[\\\/]/, '').replace(/.md/m, '')}\n`);
+		}
+	});
+	fs.writeFileSync(file.filePath, newData, 'utf-8');
+}
+
 getFiles("../docs/").forEach(file => {
-	updateFileData(file);
+	// updateFileData(file);
+	setFileId(file);
 });

@@ -75,7 +75,6 @@ title: Grid API overview
 | [](grid/api/grid_celldblclick_event.md)         | @getshort(grid/api/grid_celldblclick_event)         |
 | [](grid/api/grid_cellmouseover_event.md)        | @getshort(grid/api/grid_cellmouseover_event)        |
 | [](grid/api/grid_cellrightclick_event.md)       | @getshort(grid/api/grid_cellrightclick_event)       |
-| [](grid/api/grid_data_object.md)  // todo       |                                                     |
 | [](grid/api/grid_dragcolumnin_event.md)         | @getshort(grid/api/grid_dragcolumnin_event)         |
 | [](grid/api/grid_dragcolumnout_event.md)        | @getshort(grid/api/grid_dragcolumnout_event)        |
 | [](grid/api/grid_dragcolumnstart_event.md)      | @getshort(grid/api/grid_dragcolumnstart_event)      |
@@ -83,7 +82,6 @@ title: Grid API overview
 | [](grid/api/grid_dragrowout_event.md)           | @getshort(grid/api/grid_dragrowout_event)           |
 | [](grid/api/grid_dragrowstart_event.md)         | @getshort(grid/api/grid_dragrowstart_event)         |
 | [](grid/api/grid_expand_event.md)               | @getshort(grid/api/grid_expand_event)               |
-| [](grid/api/grid_export_object.md)  //todo      |                                                     |
 | [](grid/api/grid_filterchange_event.md)         | @getshort(grid/api/grid_filterchange_event)         |
 | [](grid/api/grid_footercellclick_event.md)      | @getshort(grid/api/grid_footercellclick_event)      |
 | [](grid/api/grid_footercelldblclick_event.md)   | @getshort(grid/api/grid_footercelldblclick_event)   |
@@ -98,7 +96,6 @@ title: Grid API overview
 | [](grid/api/grid_headerinput_event.md)          | @getshort(grid/api/grid_headerinput_event)          |
 | [](grid/api/grid_resize_event.md)               | @getshort(grid/api/grid_resize_event)               |
 | [](grid/api/grid_scroll_event.md)               | @getshort(grid/api/grid_scroll_event)               |
-| [](grid/api/grid_sort_event.md)                 | @getshort(grid/api/grid_sort_event)                 |
 
 `to do Data Collection`
 `to do Selection`

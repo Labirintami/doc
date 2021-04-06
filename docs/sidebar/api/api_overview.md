@@ -36,7 +36,6 @@ title: Sidebar API overview
 | [](sidebar/api/sidebar_beforeexpand_event.md)           | @getshort(sidebar/api/sidebar_beforeexpand_event.md)   |
 | [](sidebar/api/sidebar_beforehide_event.md)             | @getshort(sidebar/api/sidebar_beforehide_event.md)     |
 | [](sidebar/api/sidebar_click_event.md)                  | @getshort(sidebar/api/sidebar_click_event.md)          |
-| [](sidebar/api/sidebar_data_object.md)  //todo что это? | @getshort(sidebar/api/sidebar_data_object.md)          |
 | [](sidebar/api/sidebar_inputblur_event.md)              | @getshort(sidebar/api/sidebar_inputblur_event.md)      |
 | [](sidebar/api/sidebar_inputcreated_event.md)           | @getshort(sidebar/api/sidebar_inputcreated_event.md)   |
 | [](sidebar/api/sidebar_inputfocus_event.md)             | @getshort(sidebar/api/sidebar_inputfocus_event.md)     |

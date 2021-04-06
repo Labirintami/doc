@@ -36,7 +36,6 @@ title: Dataview API overview
 | [](dataview/api/dataview_candrop_event.md)           | @getshort(dataview/api/dataview_candrop_event.md)         |
 | [](dataview/api/dataview_click_event.md)             | @getshort(dataview/api/dataview_click_event.md)           |
 | [](dataview/api/dataview_contextmenu_event.md)       | @getshort(dataview/api/dataview_contextmenu_event.md)     |
-| [](dataview/api/dataview_data_object.md) //todo      |                                                           |
 | [](dataview/api/dataview_doubleclick_event.md)       | @getshort(dataview/api/dataview_doubleclick_event.md)     |
 | [](dataview/api/dataview_dragin_event.md)            | @getshort(dataview/api/dataview_dragin_event.md)          |
 | [](dataview/api/dataview_dragout_event.md)           | @getshort(dataview/api/dataview_dragout_event.md)         |
@@ -44,7 +43,6 @@ title: Dataview API overview
 | [](dataview/api/dataview_focuschange_event.md)       | @getshort(dataview/api/dataview_focuschange_event.md)     |
 | [](dataview/api/dataview_itemmouseover_event.md)     | @getshort(dataview/api/dataview_itemmouseover_event.md)   |
 | [](dataview/api/dataview_itemrightclick_event.md)    | @getshort(dataview/api/dataview_itemrightclick_event.md)  |
-| [](dataview/api/dataview_selection_object.md) //todo |                                                           |
 
 `to do Data Collection`
 

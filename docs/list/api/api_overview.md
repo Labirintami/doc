@@ -38,7 +38,6 @@ title: List API overview
 | [](list/api/list_candrop_event.md)            | @getshort(list/api/list_candrop_event.md)         |
 | [](list/api/list_click_event.md)              | @getshort(list/api/list_click_event.md)           |
 | [](list/api/list_contextmenu_event.md)        | @getshort(list/api/list_contextmenu_event.md)     |
-| [](list/api/list_data_object.md) //todo       |                                                   |
 | [](list/api/list_doubleclick_event.md)        | @getshort(list/api/list_doubleclick_event.md)     |
 | [](list/api/list_dragin_event.md)             | @getshort(list/api/list_dragin_event.md)          |
 | [](list/api/list_dragout_event.md)            | @getshort(list/api/list_dragout_event.md)         |
@@ -46,7 +45,7 @@ title: List API overview
 | [](list/api/list_focuschange_event.md)        | @getshort(list/api/list_focuschange_event.md)     |
 | [](list/api/list_itemmouseover_event.md)      | @getshort(list/api/list_itemmouseover_event.md)   |
 | [](list/api/list_itemrightclick_event.md)     | @getshort(list/api/list_itemrightclick_event.md)  |
-| [](list/api/list_selection_object.md) //to do |                                                   |
+
 
 `to do Data Collection`
 `to do  Selection`

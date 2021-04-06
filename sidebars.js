@@ -21,7 +21,7 @@ module.exports = {
               type: "category",
               label: "Calendar API",
               items: [
-                "calendar/api/api_overview",
+                // "calendar/api/api_overview",
 
                 {
                   type: "category",
@@ -98,7 +98,7 @@ module.exports = {
               type: "category",
               label: "Calendar API",
               items: [
-                "calendar/api/api_overview",
+                // "calendar/api/api_overview",
 
                 {
                   type: "category",
@@ -199,7 +199,7 @@ module.exports = {
               label: "Chart API",
               collapsed: true,
               items: [
-                "chart/api/api_overview",
+                // "chart/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -258,7 +258,7 @@ module.exports = {
               type: "category",
               label: "Colorpicker API",
               items: [
-                "colorpicker/api/api_overview",
+                // "colorpicker/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -327,7 +327,7 @@ module.exports = {
               type: "category",
               label: "Combobox API",
               items: [
-                "combobox/api/api_overview",
+                // "combobox/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -408,7 +408,7 @@ module.exports = {
               type: "category",
               label: "Dataview API",
               items: [
-                "dataview/api/api_overview",
+                // "dataview/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -522,7 +522,7 @@ module.exports = {
               label: "Form API",
               collapsed: true,
               items: [
-                "form/api/api_overview",
+                // "form/api/api_overview",
                 {
                   type: "category",
                   label: "Common Form API",
@@ -1351,7 +1351,7 @@ module.exports = {
               type: "category",
               label: "Grid API",
               items: [
-                "grid/api/api_overview",
+                // "grid/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -1505,7 +1505,7 @@ module.exports = {
               type: "category",
               label: "Layout API",
               items: [
-                "layout/api/api_overview",
+                // "layout/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -1608,7 +1608,7 @@ module.exports = {
               type: "category",
               label: "List API",
               items: [
-                "list/api/api_overview",
+                // "list/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -1722,7 +1722,7 @@ module.exports = {
               type: "category",
               label: "Menu API",
               items: [
-                "menu/api/api_overview",
+                // "menu/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -1818,7 +1818,7 @@ module.exports = {
               type: "category",
               label: "Pagination API",
               items: [
-                "pagination/api/api_overview",
+                // "pagination/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -1868,7 +1868,7 @@ module.exports = {
               type: "category",
               label: "Popup API",
               items: [
-                "popup/api/api_overview",
+                // "popup/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -1920,7 +1920,7 @@ module.exports = {
               type: "category",
               label: "Ribbon API",
               items: [
-                "ribbon/api/api_overview",
+                // "ribbon/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -1998,7 +1998,7 @@ module.exports = {
               type: "category",
               label: "Sidebar API",
               items: [
-                "sidebar/api/api_overview",
+                // "sidebar/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -2084,7 +2084,7 @@ module.exports = {
               type: "category",
               label: "Slider API",
               items: [
-                "slider/api/api_overview",
+                // "slider/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -2155,7 +2155,7 @@ module.exports = {
               type: "category",
               label: "Tabbar API",
               items: [
-                "tabbar/api/api_overview",
+                // "tabbar/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -2231,7 +2231,7 @@ module.exports = {
               type: "category",
               label: "Timepicker API",
               items: [
-                "timepicker/api/api_overview",
+                // "timepicker/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -2290,7 +2290,7 @@ module.exports = {
               type: "category",
               label: "Toolbar API",
               items: [
-                "toolbar/api/api_overview",
+                // "toolbar/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -2492,7 +2492,7 @@ module.exports = {
               type: "category",
               label: "TreeGrid API",
               items: [
-                "treegrid/api/api_overview",
+                // "treegrid/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -2681,7 +2681,7 @@ module.exports = {
               type: "category",
               label: "Window API",
               items: [
-                "window/api/api_overview",
+                // "window/api/api_overview",
                 {
                   type: "category",
                   label: "Methods",
@@ -2766,7 +2766,7 @@ module.exports = {
               type: "category",
               label: "Methods",
               items: [
-                "ajax/api/ajax_delete_method",
+                // "ajax/api/ajax_delete_method",
                 "ajax/api/ajax_get_method",
                 "ajax/api/ajax_post_method",
                 "ajax/api/ajax_put_method",
