@@ -6,7 +6,7 @@ title: Work with Chart
 Setting Chart configuration
 ------------------------
 
-You can change configuration of Chart on the fly with the help of the chart/api/chart_setconfig_method.md method. It takes as a parameter an object with updated [chart configuration](chart/configuration_properties.md).
+You can change configuration of Chart on the fly with the help of the [](chart/api/chart_setconfig_method.md) method. It takes as a parameter an object with updated [chart configuration](chart/configuration_properties.md).
 
 ~~~js
 var config = {
@@ -43,7 +43,7 @@ chart.setConfig(config);
 Getting series configuration
 -----------------------------
 
-The Chart API gives you the possibility to get an object with the configuration of a certain series. Use the chart/api/chart_getseries_method.md method for this purpose. It takes the id of a series as a parameter:
+The Chart API gives you the possibility to get an object with the configuration of a certain series. Use the [](chart/api/chart_getseries_method.md) method for this purpose. It takes the id of a series as a parameter:
 
 ~~~js
 var config = chart.getSeries("A");
@@ -67,7 +67,7 @@ var config = chart.getSeries("A");
 Iterating over series
 ----------------------
 
-It is possible to iterate over chart series using the chart/api/chart_eachseries_method.md. As a parameter it takes a handler function that will perform iteration. 
+It is possible to iterate over chart series using the [](chart/api/chart_eachseries_method.md). As a parameter it takes a handler function that will perform iteration. 
 Pass an array with series objects as a parameter of the handler function:
 
 ~~~js
@@ -109,7 +109,7 @@ Adding items into Chart
 -----------------------
 
 The API of [Data Collection](data_collection/api/refs/datacollection.md) allows you to perform operations with Chart data items. 
-For example, you can add more items (points) into your Chart using the data_collection/api/add.md method, like this:
+For example, you can add more items (points) into your Chart using the [](data_collection/api/add.md) method, like this:
 
 ~~~js
 var config = {
@@ -162,11 +162,11 @@ The method takes as a parameter an object with two properties:
 <table class="webixdoc_links">
 	<tbody>
         <tr>
-			<td class="webixdoc_links0">- <i>value</i></td>
+			<td class="webixdoc_links0">- value</td>
 			<td>the value of an item</td>
 		</tr>
         <tr>
-			<td class="webixdoc_links0">- <i>text</i></td>
+			<td class="webixdoc_links0">- text</td>
 			<td>the text of an item on the X-axis</td>
 		</tr>
     </tbody>

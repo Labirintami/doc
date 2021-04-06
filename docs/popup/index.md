@@ -1,6 +1,7 @@
 ---
 sidebar_label: Overview
 title: Popup overview
+description: DHTMLX Popup is a convenient pop-up window that renders attached to it DHTMLX components or other content on a mouse click.
 ---          
 
 dhtmlxPopup is a pop-up window that can contain various content. It allows attaching other DHTMLX components and different HTML content. 
@@ -35,15 +36,4 @@ Mainly, the component is applied for showing a pop-up content on some action, su
     </tr>
    	</tbody>
 </table>
-
-@index:
-- popup/api/refs/popup.md
-- popup/initialization.md
-- popup/work_with_popup.md
-- popup/customization.md
-- popup/event_handling.md
-
-@metadescr:
-
-dhtmlxPopup is a convenient pop-up window that renders attached to it DHTMLX components or other content on a mouse click.  
 

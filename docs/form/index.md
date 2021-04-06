@@ -70,16 +70,5 @@ Check [online samples for dhtmlxForm](https://docs.dhtmlx.com/suite/samples/form
 
 ## Other
 
-<table class='other-table'>
-	<tbody>
-    <tr>
-        <td id="other" class='topics'>            
-            <ul id="other_sublist">
-                <li>form/migration.md</li>
-
-            </ul>
-        </td>
-    </tr>           
-</tbody>
-</table>
+- [](../migration.md)
 ```

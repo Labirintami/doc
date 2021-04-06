@@ -1,6 +1,7 @@
 ---
 sidebar_label: API overview
 title: Calendar API overview
+description: DHTMLX Calendar is a smart datepicker solution for websites or applications that allows selecting dates, ranges of dates, and time. It's easily configurable and highly customizable.
 ---
 	
  ## Methods 
@@ -52,7 +53,3 @@ title: Calendar API overview
 | [todo](calendar/api/calendar_weekstart_config.md)     | sets the starting day of the week                                               |
 | [todo](calendar/api/calendar_width_config.md)         | sets the width of the calendar                                                  |
 
-
-
-@metadescr:
-dhtmlxCalendar is a smart datepicker solution for websites or applications that allows selecting dates, ranges of dates, and time. It's easily configurable and highly customizable.

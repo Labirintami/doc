@@ -34,7 +34,7 @@ Check [online samples for dhtmlxComboBox](https://docs.dhtmlx.com/suite/samples/
 
 ## Other
 
-<li>combo/migration.md</li>
+- [](../migration.md)
 
 
 

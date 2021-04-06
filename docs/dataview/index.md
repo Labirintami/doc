@@ -1,6 +1,8 @@
 ---
 sidebar_label: Overview
 title: DataView overview
+description: DHTMLX DataView is a helpful JavaScript widget for arranging similar objects in a grid view and displaying them according to a user-defined template. 
+
 ---          
 
 dhtmlxDataView allows rendering a collection of objects according to a specified template. It will help you to organize data by arranging various objects with similar properties within a common container.
@@ -46,30 +48,4 @@ You can read the following articles to find out how to add DataView on the page 
 
 ## Other
 
-<table class='other-table'>
-	<tbody>
-    <tr>
-        <td id="other" class='topics'>            
-            <ul id="other_sublist">
-                <li>dataview/migration.md</li>
-            </ul>
-        </td>
-    </tr>           
-</tbody>
-
-</table>
-
-@index:
-- dataview/api/refs/dataview.md
-- dataview/initialization.md
-- dataview/configuration.md
-- dataview/data_loading.md
-- dataview/manipulating_data.md
-- dataview/usage_selection.md
-- dataview/customization.md
-- dataview/events.md
-- dataview/migration.md
-
-
-@metadescr:
-dhtmlxDataView is a helpful JavaScript widget for arranging similar objects in a grid view and displaying them according to a user-defined template. 
+- [](../migration.md)

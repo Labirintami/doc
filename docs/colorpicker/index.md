@@ -34,10 +34,4 @@ Covers the processes of creating, configuring, localizing, customizing Colorpick
 
 ## Other
 
-- [](migration)
-
-
-
-
-
-
+- [](../migration.md)

@@ -50,6 +50,3 @@ description: DHTMLX Calendar is a smart datepicker solution for websites or appl
 | [](calendar/api/calendar_weeknumbers_config.md)   | @getshort(calendar/api/calendar_weeknumbers_config.md)   |
 | [](calendar/api/calendar_weekstart_config.md)     | @getshort(calendar/api/calendar_weekstart_config.md)     |
 | [](calendar/api/calendar_width_config.md)         | @getshort(calendar/api/calendar_width_config.md)         |
-
-@metadescr:
-dhtmlxCalendar is a smart datepicker solution for websites or applications that allows selecting dates, ranges of dates, and time. It's easily configurable and highly customizable.

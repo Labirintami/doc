@@ -1,6 +1,7 @@
 ---
 sidebar_label: Overview
 title: Toolbar overview
+description: dhtmlxToolbar is a flexible tool for creating a comfy horizontal navigation bar. Advanced API allows you to easily adjust the structure of the component by combining and customizing diverse types of its controls.
 ---          
 
 dhtmlxToolbar is a JavaScript component that allows you to keep all main commands and tools of the app in one place and define their look and feel.
@@ -59,17 +60,4 @@ Being a great tool for fast and handy navigation, it will make work with your ap
     </tr>
     </tbody>
 </table>
-
-@index:
-- toolbar/api/refs/toolbar.md
-- toolbar/how_to_start.md
-- toolbar/controls_list.md
-- toolbar/load_data.md
-- toolbar/common_methods.md
-- toolbar/customization.md
-- toolbar/handling_events.md
-
-
-@metadescr:
-dhtmlxToolbar is a flexible tool for creating a comfy horizontal navigation bar. Advanced API allows you to easily adjust the structure of the component by combining and customizing diverse types of its controls.
 

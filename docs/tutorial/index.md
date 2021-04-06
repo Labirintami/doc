@@ -1,6 +1,7 @@
 ---
 sidebar_label: How To Start 
 title: How To Start 
+description: Check out DHTMLX step-by-step tutorials that explore the most essential concepts of the DHTMLX library on the basis of realistic examples and illustrative demos.
 ---          
 
 
@@ -30,13 +31,6 @@ Learn DHTMLX Suite library faster and easier with the tutorials that we have pre
     </div>
 </div>
 
-@index:
-- tutorial/basic_application/index.md
-- tutorial/binding_components/index.md
 
 
-
-@metadescr:
-
-Check out DHTMLX step-by-step tutorials that explore the most essential concepts of the DHTMLX library on the basis of realistic examples and illustrative demos.
 

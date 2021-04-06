@@ -1,6 +1,7 @@
 ---
 sidebar_label: Overview
 title: Pager overview
+description: 
 ---          
 
 {{pronote
@@ -42,17 +43,5 @@ The component is easy-to-use and provides handy navigation that allows you to qu
 	</tr>
    	</tbody>
 </table>
-
-
- @index:
-- pager/api/refs/pager.md
-- pager/init.md
-- pager/configuration.md
-- pager/usage.md
-- pager/customization.md
-- pager/handling_events.md
-
-@metadescr:
-
 
 @edition:pro

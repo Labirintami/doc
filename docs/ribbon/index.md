@@ -1,6 +1,7 @@
 ---
 sidebar_label: Overview
 title: Ribbon overview
+description: DHTMLX Ribbon is a highly customizable component that can be used for creating a handy navigation bar by grouping diversity of controls into logical blocks. 
 ---          
 
 dhtmlxRibbon is an advanced version of dhtmlxToolbar. It aggregates commands and tools used in an application or in a website into logical blocks thus providing a handy navigation bar.<br/>
@@ -58,19 +59,4 @@ Check [online samples for dhtmlxRibbon](https://docs.dhtmlx.com/suite/samples/ri
     </tr>
     </tbody>
 </table>
-
-
-@index:
-
-- ribbon/api/refs/ribbon.md
-- ribbon/how_to_start.md
-- ribbon/controls.md
-- ribbon/loading_json.md
-- ribbon/operating_ribbon.md
-- ribbon/fa_icons.md
-- ribbon/handling_events.md
-
-
-@metadescr:
-dhtmlxRibbon is a highly customizable component that can be used for creating a handy navigation bar by grouping diversity of controls into logical blocks. 
 

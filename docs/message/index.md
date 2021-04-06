@@ -1,6 +1,7 @@
 ---
 sidebar_label: Overview
 title: Message overview
+description: DHTMLX Message is a JavaScript component that allows communicating with the users of an application.
 ---          
 
 dhtmlxMessage is a tiny but useful component that helps you to interact with a user of your application. Depending on the type of a message, you can inform a user about some processes taking place in the app,
@@ -38,28 +39,5 @@ Check [online samples for dhtmlxMessage](https://docs.dhtmlx.com/suite/samples/m
 
 ## Other
 
-```todo
-<table class='other-table'>
-	<tbody>
-    <tr>
-        <td id="other" class='topics'>            
-            <ul id="other_sublist">
-                <li>message/migration.md</li>
+- [](../migration.md)
 
-            </ul>
-        </td>
-    </tr>           
-</tbody>
-
-</table>
-```todo
-
-@index:
-- message/overview.md
-- message/creating_message.md
-- message/configuration.md
-- message/customization.md
-- message/migration.md
-
-@metadescr:
-dhtmlxMessage is a JavaScript component that allows communicating with the users of an application.

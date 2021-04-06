@@ -12,7 +12,7 @@ Main properties
 
 dhtmlxChart includes several configuration options that are mostly common for all chart types. They are: 
 
-- chart/api/chart_type_config.md - (*string*) defines the [type of a chart](chart/charts_overview.md) to initialize; "bar", "x-bar" (for horizontal Bar chart), "line", "spline", "scatter", "area", 
+- [](chart/api/chart_type_config.md) - (*string*) defines the [type of a chart](chart/charts_overview.md) to initialize; "bar", "x-bar" (for horizontal Bar chart), "line", "spline", "scatter", "area", 
 "splineArea", "donut", "pie", "pie3D" and "radar"
 
 ~~~js
@@ -21,7 +21,7 @@ var chart = new dhx.Chart("chart", {
 });
 ~~~
 
-- chart/api/chart_scales_config.md - (*object*) defines configuration of chart scales. [Check details below](#scales).
+- [](chart/api/chart_scales_config.md) - (*object*) defines configuration of chart scales. [Check details below](#scales).
 
 ~~~js
 var chart = new dhx.Chart("chart", {
@@ -29,7 +29,7 @@ var chart = new dhx.Chart("chart", {
 });
 ~~~
 
-- chart/api/chart_series_config.md - (*array*) defines configuration of chart series. [Check details below](#series).
+- [](chart/api/chart_series_config.md) - (*array*) defines configuration of chart series. [Check details below](#series).
 
 ~~~js
 var chart = new dhx.Chart("chart", {
@@ -37,7 +37,7 @@ var chart = new dhx.Chart("chart", {
 });
 ~~~
 
-- chart/api/chart_legend_config.md - (*object*) defines the configuration of a chart legend. [Check details below](#legend).
+- [](chart/api/chart_legend_config.md) - (*object*) defines the configuration of a chart legend. [Check details below](#legend).
 
 ~~~js
 var chart = new dhx.Chart("chart", {
@@ -45,7 +45,7 @@ var chart = new dhx.Chart("chart", {
 });
 ~~~
 
-- chart/api/chart_maxpoints_config.md - (*number*) displays an average number of values in case a data set is too large to show all the values in the chart
+- [](chart/api/chart_maxpoints_config.md) - (*number*) displays an average number of values in case a data set is too large to show all the values in the chart
 
 ~~~js
 var chart = new dhx.Chart("chart", {
@@ -82,8 +82,6 @@ var chart = new dhx.Chart("chart_container",{
     ]
 });
 ~~~
-
-<br/>
 
 <table class="webixdoc_links">
 	<tbody>

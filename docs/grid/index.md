@@ -1,6 +1,7 @@
 ---
 sidebar_label: Overview
 title: Grid overview
+description: DHTMLX Grid is a smart JavaScript component for presenting data in a tabular way. Complete API provides a lot of versatile features, e.g. sorting columns, keyboard navigation, styling cells, drag-n-drop of rows and columns, etc.
 ---          
 
 
@@ -48,35 +49,5 @@ Check [online samples for dhtmlxGrid](https://docs.dhtmlx.com/suite/samples/grid
 
 ## Other
 
-<table class='other-table'>
-	<tbody>
-    <tr>
-        <td id="other" class='topics'>            
-            <ul id="other_sublist">
-                <li>grid/migration.md</li>
-            </ul>
-        </td>
-    </tr>           
-</tbody>
+- [](../migration.md)
 
-</table>
-
-
-
-@index:
-- grid/api/refs/grid.md
-- grid/initialization.md
-- grid/configuration.md
-- grid/data_loading.md
-- grid/usage.md
-- grid/usage_selection.md
-- grid/customization.md
-- grid/events.md
-- grid/migration.md
-
-
-@metadescr:
-dhtmlxGrid is a smart JavaScript component for presenting data in a tabular way. Complete API provides a lot of versatile features, e.g. sorting columns, keyboard navigation, styling cells, drag-n-drop of rows and columns, etc.
-
-
- 

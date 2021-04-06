@@ -16,7 +16,7 @@ For this you need to take the following steps:
 
 - add a new CSS class(es) with desired settings in the &lt;style&gt; section of your HTML page or in your file with styles (don't forget to include your file on the page in this case)
 
-~~~js
+~~~css
 <style>
     .my_first_class {
         /*some styles*/
@@ -28,7 +28,7 @@ For this you need to take the following steps:
 </style>
 ~~~
 
-- specify the name of the created CSS class (or names of classes separated by spaces) as the value of the [css](chart/api/chart_css_config.md) property in the Chart configuration:
+- specify the name of the created CSS class (or names of classes separated by spaces) as the value of the [](chart/api/chart_css_config.md) property in the Chart configuration:
 
 ~~~js
 var chart = new dhx.Chart({
@@ -38,7 +38,7 @@ var chart = new dhx.Chart({
 
 For example:
 
-~~~js
+~~~css
 <style>
     .custom-class .dhx_chart-graph_area {
         fill:#444;
