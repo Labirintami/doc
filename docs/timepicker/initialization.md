@@ -79,6 +79,7 @@ There is a set of properties you can specify for TimePicker to optimize its conf
 
 You can specify the following properties in the configuration object of TimePicker:
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - timepicker/api/timepicker_controls_config.md - defines whether a timepicker is equipped with the Close and Save buttons

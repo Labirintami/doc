@@ -31,8 +31,6 @@ var tree = new dhx.Tree("tree", {
 
 ### List of CSS classes
 
-{{api
-
 - <b>dhx_widget--bg_white</b> - Sets white background to a widget
 
 - <b>dhx_widget--bg_gray</b> - Sets gray background to a widget
@@ -57,15 +55,10 @@ var tree = new dhx.Tree("tree", {
 
 - <b>dhx_widget--no-border_left</b> - Removes the left border of a widget
 
-}}
 
 @related: tree/initialization_of_dhtmlxtree.md#initializetree
 tree/setting_tree_appearance.md#styling
 
-
-
-
 @relatedsample: 
 https://snippet.dhtmlx.com/ocv4p7zg	Tree. Custom Styles
 https://snippet.dhtmlx.com/zapehxd3	Tree. Custom Toggle Icon
-

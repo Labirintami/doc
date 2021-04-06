@@ -33,8 +33,6 @@ dhxWindow.show();
 
 ### List of CSS classes
 
-{{api
-
 - <b>dhx_widget--bg_white</b> - Sets white background to a widget
 
 - <b>dhx_widget--bg_gray</b> - Sets gray background to a widget
@@ -59,9 +57,6 @@ dhxWindow.show();
 
 - <b>dhx_widget--no-border_left</b> - Removes the left border of a widget
 
-}}
-
-<br/>
 If you want to apply your own styles for selection of items or focus, you can do it via the corresponding CSS classes: **.dhx_dataview-item--selected** and **.dhx_dataview-item--focus**.
 There is no need to use any additional custom classes.
 

@@ -130,6 +130,7 @@ There is a set of properties you can specify for Pagination to optimize its conf
 
 There is a list of properties that you can specify in the Pagination configuration object (the second parameter of the constructor function):
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - pagination/api/pagination_css_config.md - adds style classes to the pagination

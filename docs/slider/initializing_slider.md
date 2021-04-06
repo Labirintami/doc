@@ -83,6 +83,7 @@ Configuration properties
 
 You can specify the following properties in the configuration object of Slider:
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - slider/api/slider_css_config.md - adds style classes for the component
@@ -103,13 +104,6 @@ You can specify the following properties in the configuration object of Slider:
 - slider/api/slider_tooltip_config.md - enables a tooltip on hovering over the slider thumb, true by default
 - slider/api/slider_value_config.md - the value the thumb will be set at on initialization of the slider
 
-
 }}
 
-
-
-
-
-
 The detailed information on configuration options can be found in the slider/configuring_slider.md article.
-

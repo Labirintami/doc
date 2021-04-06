@@ -73,6 +73,7 @@ Scale settings
 
 You can configure the look and feel of the Slider scale via the corresponding properties of the Slider configuration object:
 
+todotw скорее всего можно просто сослаться на API
 {{api
 - slider/api/slider_tick_config.md - (<i>number</i>) sets the interval of steps for rendering the slider scale 
 - slider/api/slider_majortick_config.md - (<i>number</i>) sets interval of rendering numeric values on the slider scale
@@ -120,6 +121,7 @@ There is a possibility to show a label next to the slider.
 
 There are two properties that allow manipulating the label of the slider: 
 
+todotw скорее всего можно просто сослаться на API
 {{api
 - slider/api/slider_label_config.md - specifies the label of a slider
 - slider/api/slider_labelposition_config.md - defines the position of a label of a slider: "left"|"top"

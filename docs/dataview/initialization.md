@@ -77,6 +77,7 @@ There is a set of properties you can specify for DataView to optimize its config
 
 You can specify the following properties in the configuration object of DataView:
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - dataview/api/dataview_css_config.md - adds a CSS class(es) to the component

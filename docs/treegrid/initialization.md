@@ -105,6 +105,7 @@ There is a set of properties you can specify for TreeGrid to optimize its config
 
 There is a list of properties that you can specify in the TreeGrid configuration object (the second parameter of the constructor function):
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - treegrid/api/treegrid_adjust_config.md - defines whether the width of columns is automatically adjusted to the width of their content

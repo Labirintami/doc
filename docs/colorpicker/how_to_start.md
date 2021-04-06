@@ -109,6 +109,7 @@ var colorExample = document.querySelector(".dhx_color-sample");
 
 ### Configuration properties
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - colorpicker/api/colorpicker_css_config.md - adds CSS classes for the component
@@ -122,7 +123,7 @@ var colorExample = document.querySelector(".dhx_color-sample");
 
 }}
 
-The detailed information on configuration options can be found in the colorpicker/configuration.md article.
+The detailed information on configuration options can be found in the [](colorpicker/configuration.md) article.
 
 Select initial color (optional)
 ----------------

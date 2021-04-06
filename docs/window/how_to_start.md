@@ -77,6 +77,7 @@ There is a set of properties you can specify for Window to optimize its configur
 
 You can specify the following properties in the configuration object of Window:
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - window/api/window_closable_config.md - defines whether a window can be closed

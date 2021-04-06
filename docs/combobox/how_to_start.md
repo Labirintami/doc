@@ -69,6 +69,7 @@ var combo = new dhx.Combobox("combo_container", {// config options});
 
 ### Configuration properties
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - combo/api/combobox_css_config.md - adds style classes for the component

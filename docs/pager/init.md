@@ -128,6 +128,7 @@ There is a set of properties you can specify for Pager to optimize its configura
 
 There is a list of properties that you can specify in the Pager configuration object (the second parameter of the constructor function):
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - pager/api/pager_css_config.md - adds style classes to the pager

@@ -82,6 +82,7 @@ There is a set of properties you can specify for List to optimize its configurat
 
 You can specify the following properties in the configuration object of List:
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - list/api/list_css_config.md - adds a CSS class(es) to the component

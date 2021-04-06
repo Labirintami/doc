@@ -33,8 +33,6 @@ var timepicker = new dhx.Timepicker("timepicker", {
 
 ### List of CSS classes
 
-{{api
-
 - <b>dhx_widget--bg_white</b> - Sets white background to a widget
 
 - <b>dhx_widget--bg_gray</b> - Sets gray background to a widget
@@ -58,8 +56,6 @@ var timepicker = new dhx.Timepicker("timepicker", {
 - <b>dhx_widget--no-border_right</b> - Removes the right border of a widget
 
 - <b>dhx_widget--no-border_left</b> - Removes the left border of a widget
-
-}}
 
 @related: timepicker/customization.md#styling
 timepicker/initialization.md#initializetimepicker

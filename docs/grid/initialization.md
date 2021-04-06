@@ -100,10 +100,11 @@ var grid = new dhx.Grid("grid_container", {
 
 There is a set of properties you can specify for Grid to optimize its configuration for your needs. Read the details below.
 
-###Configuration properties
+### Configuration properties
 
 There is a list of properties that you can specify in the Grid configuration object (the second parameter of the constructor function):
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - grid/api/grid_adjust_config.md - defines whether the width of columns is automatically adjusted to the width of their content

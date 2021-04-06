@@ -93,6 +93,7 @@ There is a set of properties you can specify for Tree to optimize its configurat
 
 You can specify the following properties in the configuration object of List:
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - tree/api/tree_autoload_config.md - defines that the structure of a tree is being built while opening items
@@ -138,6 +139,3 @@ tree.data.load("../common/dataset.json");
 ~~~
 
 {{editor	https://snippet.dhtmlx.com/oz4jd5hc	Tree. Basic Initialization}}
-
-
-

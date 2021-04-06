@@ -84,8 +84,6 @@ Structure of tabs
 
 The structure of Tabbar should be defined during initialization of the component. It is set within the [views](tabbar/api/tabbar_views_config.md) property. Each tab is an object with attributes, which are:
 
-{{api
-
 - <b>id</b> - the id of a tab
 - <b>tab</b> - the name of a tab
 - <b>tabCss</b> - the name of the CSS class used for a tab
@@ -95,7 +93,7 @@ The structure of Tabbar should be defined during initialization of the component
 - <b>padding</b> - the distance between the content of a cell and the border of tabbar
 - <b>tabWidth</b> - the width of a tab (for more information, see tabbar/api/tabbar_views_config.md)
 - <b>tabHeight</b> - the height of a tab (for more information, see tabbar/api/tabbar_views_config.md)
-}}
+
     
 ~~~js
 var tabbar = new dhx.Tabbar("tabbar_container", {

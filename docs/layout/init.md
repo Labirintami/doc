@@ -120,6 +120,7 @@ var layout = new dhx.Layout("layout_container", {cols});
 
 ### Cell object
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - layout/api/layout_align_config.md - sets the alignment of content inside a cell
@@ -149,6 +150,7 @@ var layout = new dhx.Layout("layout_container", {cols});
 
 ### Layout object
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - layout/api/layout_rows_config.md - an array of rows objects

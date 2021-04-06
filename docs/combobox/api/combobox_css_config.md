@@ -36,8 +36,6 @@ var combo = new dhx.Combobox({
 
 ### List of CSS classes
 
-{{api
-
 - <b>dhx_widget--bg_white</b> - Sets white background to a widget
 
 - <b>dhx_widget--bg_gray</b> - Sets gray background to a widget
@@ -62,7 +60,6 @@ var combo = new dhx.Combobox({
 
 - <b>dhx_widget--no-border_left</b> - Removes the left border of a widget
 
-}}
 
 @related: combo/how_to_start.md#initializecombobox
 combo/customization.md#styling

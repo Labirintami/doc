@@ -138,8 +138,9 @@ var form = new dhx.Form("form_container", {
 
 {{editor    https://snippet.dhtmlx.com/yut2mnsz	Form. Initialization}}
 
-###Configuration properties:
+### Configuration properties:
 
+todotw скорее всего можно просто сослаться на API
 {{api
 - form/api/form_align_property.md - sets the alignment of controls inside the control group
 - form/api/form_cols_property.md - arranges controls inside the control group horizontally
