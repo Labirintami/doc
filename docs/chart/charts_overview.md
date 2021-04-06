@@ -3,8 +3,6 @@ sidebar_label: Overview of Chart Types
 title: Overview of Chart Types 
 ---          
 
-
-
 dhtmlxChart provides a variety of charts types that will help you to represent you data in the most suitable way. Each type of chart is easily configurable and can be adjusted according to your preferences.
 All in all there are 11 types of chart, in the list below they are combined into groups for the sake of convenience:
 

@@ -72,8 +72,7 @@ Add two containers:
 - for a related component and give it an id, e.g. "widget_container"
 - for Pager and give it an id, e.g. "pager_container":
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <div id="widget_container"></div>
 <div id="pager_container"></div>
 ~~~
@@ -87,8 +86,7 @@ Choose the widget you want to link to the Pager component, for example, dhtmlxLi
 
 1\. Initialize the widget with the object constructor, like this: 
 
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // creating a related dhtmlxList widget
 const widget = new dhx.List("widget_container", {
     css: "dhx_widget--bordered",
@@ -103,13 +101,10 @@ The constructor has two parameters:
 
 2\. Load data into the widget:
 
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // loading data into the created dhtmlxList 
 widget.data.parse(widget_data);
 ~~~
-
- 
 
 Initialize Pager
 ---------------------
@@ -119,8 +114,7 @@ Initialize Pager with the *dhx.Pager* object constructor. The constructor takes 
 - the HTML container for Pager, 
 - optional, an object with configuration properties (see the full list below). If this argument is not passed to the constructor, the settings will be default.
 
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // creating dhtmlxPager
 const pager = new dhx.Pager("pager_container", {
 	css: "dhx_widget--bordered",

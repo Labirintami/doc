@@ -54,8 +54,7 @@ Create container
 
 Add a container for Message and give it an id, for example "message_container":
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <div id="message_container"></div>
 ~~~
 

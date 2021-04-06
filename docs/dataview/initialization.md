@@ -11,7 +11,7 @@ To initialize dhtmlxDataView on a page, you need to take the following simple st
 - [Initialize DataView](#initializedataview) with the object constructor
 - [Load data into DataView](#loaddataintodataview)
 
-~~~html
+~~~html title="index.html"
 <!DOCTYPE html>
 <html>
     <head>
@@ -38,10 +38,10 @@ Include source files
 
 Create an HTML file and place full paths to JS and CSS files of the dhtmlxSuite library into the header of the file. The files are:
 
-- *suite.js*
-- *suite.css*
+- suite.js
+- suite.css
 
-~~~html
+~~~html title="index.html"
 <script type="text/javascript" src="../../codebase/suite.js"></script>
 <link rel="stylesheet" href="../../codebase/suite.css">
 ~~~
@@ -51,8 +51,7 @@ Create a container
 
 Add a container for DataView and give it an id, for example "dataview_container":
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <div id="dataview_container"></div>
 ~~~
 
@@ -64,8 +63,7 @@ Initialize DataView with the `dhx.DataView` object constructor. The constructor 
 - the HTML container for DataView,
 - optional, an object with configuration properties (see the full list below). If this argument is not passed to the constructor, the settings will be default.
 
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // creating dhtmlxDataView
 var dataview = new dhx.DataView("dataview_container", {
     itemsInRow: 5
@@ -73,7 +71,6 @@ var dataview = new dhx.DataView("dataview_container", {
 ~~~
 
 There is a set of properties you can specify for DataView to optimize its configuration for your needs. Read the details below.
-
 
 ### Configuration properties
 

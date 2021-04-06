@@ -66,8 +66,7 @@ Create a container
 
 Add a container for Tree and give it an id, for example "tree_container":
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <div id="tree_container"></div>
 ~~~
 
@@ -79,8 +78,7 @@ Initialize Tree with the `dhx.Tree` object constructor. The constructor has two 
 - the HTML container for Tree,
 - optional, an object with configuration properties (see the full list below). If this argument is not passed to the constructor, the settings will be default.
 
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // creating dhtmlxTree
 var tree = new dhx.Tree("tree_container", {
     checkbox: true

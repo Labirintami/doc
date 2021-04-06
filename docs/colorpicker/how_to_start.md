@@ -60,13 +60,12 @@ In this case you initialize ColorPicker with the `dhx.Colorpicker` object constr
 
 - the HTML container for ColorPicker,
 
-~~~js
+~~~html
 <div id="colorpicker_container"></div>
 ~~~
 
 - an object with configuration properties (see the full list below). If this argument is not passed to the constructor, the settings will be default.
 
-{{snippet	index.html}}
 ~~~js
 // creating dhtmlxColorPicker
 var colorpicker = new dhx.ColorPicker("colorpicker_container",{

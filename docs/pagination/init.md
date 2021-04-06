@@ -72,8 +72,7 @@ Add two containers:
 - for a related component and give it an id, e.g. "widget_container"
 - for Pagination and give it an id, e.g. "pagination_container":
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <div id="widget_container"></div>
 <div id="pagination_container"></div>
 ~~~
@@ -87,8 +86,7 @@ Choose the widget you want to link to the Pagination component, for example, dht
 
 1\. Initialize the widget with the object constructor, like this: 
 
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // creating a related dhtmlxList widget
 const widget = new dhx.List("widget_container", {
     css: "dhx_widget--bordered",
@@ -103,8 +101,7 @@ The constructor has two parameters:
 
 2\. Load data into the widget:
 
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // loading data into the created dhtmlxList 
 widget.data.parse(widget_data);
 ~~~
@@ -119,8 +116,7 @@ Initialize pagination with the *dhx.Pagination* object constructor. The construc
 - the HTML container for Pagination, 
 - optional, an object with configuration properties (see the full list below). If this argument is not passed to the constructor, the settings will be default.
 
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // creating dhtmlxPagination
 const pagination = new dhx.Pagination("pagination_container", {
 	css: "dhx_widget--bordered",

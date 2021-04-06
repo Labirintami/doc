@@ -17,8 +17,7 @@ To set the main scheme of our app we should start by initializing the Layout. La
 
 1\. Create an HTML container where the layout will be placed later.
 
-
-~~~html
+~~~html title="index.html"
 <div id="layout"></div>
 ~~~
 
@@ -27,7 +26,7 @@ To set the main scheme of our app we should start by initializing the Layout. La
 {{snippet
 'index.html' file 
 }}
-~~~js
+~~~js title="script.js"
 var layout = new dhx.Layout("layout", {  
     height: "700px", // it’s important to set the height of the layout
     width: "1600px",

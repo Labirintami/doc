@@ -10,7 +10,7 @@ To initialize dhtmlxWindow on a page, you need to take the following simple step
 - [Initialize Window](#initializewindow) with the object constructor
 - [Set content](#setcontent) into a created window
 
-~~~html
+~~~html title="index.html"
 <!DOCTYPE html>
 <html>
     <head>
@@ -42,7 +42,7 @@ Create an HTML file and place full paths to JS and CSS files of the dhtmlxSuite 
 - *suite.js*
 - *suite.css*
 
-~~~html
+~~~html title="index.html"
 <script type="text/javascript" src="../../codebase/suite.js"></script>
 <link rel="stylesheet" href="../../codebase/suite.css">
 ~~~
@@ -57,9 +57,7 @@ Initialize Window with the `dhx.Window` object constructor. The constructor take
 
 {{note Don't use **window** as a variable name for dhxWindow object, since it is reserved for the browser window.}}
 
-
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // creating dhtmlxWindow
 var dhxWindow = new dhx.Window({
     modal: false,
@@ -75,10 +73,7 @@ dhxWindow.show();
 
 There is a set of properties you can specify for Window to optimize its configuration for your needs. Read the details below.
 
-
-
 ### Configuration properties
-
 
 You can specify the following properties in the configuration object of Window:
 

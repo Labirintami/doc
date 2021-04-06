@@ -64,8 +64,7 @@ As all dependencies are installed, we can start creating our app. Let's use the 
 
 1\. First, create a new *index.html* file in the *src* folder and define a container to render our app there: 
 
-{{snippet   src/index.html}}
-~~~html
+~~~html title="index.html"
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -80,8 +79,7 @@ As all dependencies are installed, we can start creating our app. Let's use the 
 
 2\. Next, you need to create an *index.js* file - the entry point of the app. 
 
-{{snippet   src/index.js}}
-~~~js
+~~~js title="src/index.js"
 import "./../assets/css/index.css"; // import css styles
 import { App } from "dhx-optimus";
 
@@ -94,8 +92,7 @@ Here we've created the MyApp class that will render our application. The MyApp c
 
 {{note We recommend that you use the capital letter at the beginning of the name of the file that have a view => TopLayout.js. This is the common practice.}}
 
-{{snippet   src/views/TopLayout.js}}
-~~~js
+~~~js title="src/views/TopLayout.js"
 import { View } from "dhx-optimus";
 
 export class TopLayout extends View {
@@ -109,8 +106,7 @@ As you can see, we've created the TopLayout class that is inherited from the Vie
 
 4\. Now, you can render the just created view. To do that, include the view into the *index.js* file and render it via the **show()** method:
 
-{{snippet   src/index.js}}
-~~~js
+~~~js title="src/index.js"
 import "./../assets/css/index.css";
 
 import { App } from "dhx-optimus";

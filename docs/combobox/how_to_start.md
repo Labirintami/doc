@@ -11,8 +11,7 @@ This article gives you detailed instructions on how to create dhtmlxCombo on a p
 - [Initialize ComboBox](#initializecombo) with the object constructor
 - [Load data into ComboBox](#loaddataintocombobox)
 
-{{snippet	myCombobox.html}}
-~~~html
+~~~html title="index.html"
 <!DOCTYPE html>
 <html>
 	<head>
@@ -39,7 +38,7 @@ Create an HTML file and place full paths to JS and CSS files of the dhtmlxSuite 
 - *suite.js*
 - *suite.css*
 
-~~~html
+~~~html title="index.html"
 <script type="text/javascript" src="../../codebase/suite.js"></script>
 <link rel="stylesheet" href="../../codebase/suite.css">
 ~~~
@@ -49,8 +48,8 @@ Create a container
 
 Add a container for ComboBox and give it an id, for example "combo_container":
 
-{{snippet	index.html}}
-~~~html
+
+~~~html title="index.html"
 <div id="combo_container"></div>
 ~~~
  

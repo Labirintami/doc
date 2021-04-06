@@ -66,15 +66,13 @@ In this case you initialize Calendar with the `dhx.Calendar` object constructor.
 
 - the HTML container for Calendar,
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <div id="calendar_container"></div>
 ~~~
 
 - an object with configuration properties (see the full list below). If this argument is not passed to the constructor, the settings will be default.
 
-{{snippet	index.html}}
-~~~html
+~~~js title="script.js"
 // creating dhtmlxCalendar
 var calendar = new dhx.Calendar("calendar_container",{
    // config options
@@ -161,17 +159,14 @@ You can specify what date should be selected in the calendar both before and aft
 
 - via the calendar/api/calendar_value_config.md configuration option:
 
-{{snippet	index.html}}
 ~~~js
 var calendar = new dhx.Calendar("calendar_container", {
     value: new Date(2019,1,10)
 });
 ~~~
 
-
 - with the help of the calendar/api/calendar_setvalue_method.md method:
 
-{{snippet	index.html}}
 ~~~js
 var calendar = new dhx.Calendar("calendar_container", {
     // configuration options

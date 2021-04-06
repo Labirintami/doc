@@ -53,8 +53,7 @@ Create container
 
 Add a container for TimePicker and give it an id, for example "timepicker_container":
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <div id="timepicker_container"></div>
 ~~~
 
@@ -66,8 +65,7 @@ Initialize TimePicker with the **`dhx.Timepicker`** object constructor. The cons
 - the HTML container for TimePicker,
 - optional, an object with configuration properties (see the full list below). If this argument is not passed to the constructor, the settings will be default.
 
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // creating dhtmlxTimePicker
 var timepicker = new dhx.Timepicker("timepicker_container", {
     // config options
