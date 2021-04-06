@@ -121,7 +121,7 @@ const onAfterDataTransformation = (data) => {
 module.exports = {
     title: 'DHTMLX Suite Documentation',
     tagline: 'DHTMLX Suite Documentation',
-    url: 'https://richtext-doc.netlify.app/',
+    url: 'https://hungry-meninsky-3aa33b.netlify.app/',
     baseUrl: '/',
     onBrokenLinks: 'log',
     favicon: 'img/favicon.ico',
