@@ -89,7 +89,7 @@ todotw скорее всего можно просто сослаться на A
 - timepicker/api/timepicker_valueformat_config.md - defines the format of the value to be applied when working with TimePicker events
 }}
 
-The detailed information on configuration options can be found in the timepicker/configuration.md article.
+The detailed information on configuration options can be found in the [](timepicker/configuration.md) article.
 
 Set initial value (optional)
 --------------------

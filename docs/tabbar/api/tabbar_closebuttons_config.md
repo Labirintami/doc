@@ -15,7 +15,7 @@ var tabbar = new dhx.Tabbar("tabbar_container", {
 });
 
 
-@deprecated: instead of it, you can use the tabbar/api/tabbar_closable_config.md property:
+@deprecated: instead of it, you can use the [](tabbar/api/tabbar_closable_config.md) property:
 
 ~~~js
 var tabbar = new dhx.Tabbar("tabbar_container", {

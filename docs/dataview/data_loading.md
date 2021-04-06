@@ -27,7 +27,7 @@ var dataset = [
 {{editor	https://snippet.dhtmlx.com/s547z4xr	Dataview. Config Data}}
 
 Each object in the data set contains a number of *key:value* pairs that represent attributes of DataView items. 
-You can specify your own template of rendering DataView items with the help of the dataview/api/dataview_template_config.md configuration option.
+You can specify your own template of rendering DataView items with the help of the [](dataview/api/dataview_template_config.md) configuration option.
 
 
 External data loading

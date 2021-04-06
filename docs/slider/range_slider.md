@@ -8,7 +8,7 @@ The range mode of slider presupposes the usage of two thumbs for selecting the s
 
 ![](../assets/slider/range_mode.png)
 
-To enable the range mode, you need to set the slider/api/slider_range_config.md property to *true* and specify an array of two values - min and max values of the range:
+To enable the range mode, you need to set the [](slider/api/slider_range_config.md) property to *true* and specify an array of two values - min and max values of the range:
 
 ~~~js
 var slider = new dhx.Slider("slider", {

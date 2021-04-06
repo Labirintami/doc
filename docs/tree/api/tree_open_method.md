@@ -27,7 +27,7 @@ tree/api/tree_close_method.md
 
 @changelog:
 
-@deprecated: instead of it, you can use the tree/api/tree_expand_method.md method:
+@deprecated: instead of it, you can use the [](tree/api/tree_expand_method.md) method:
 ~~~js
 tree.expand("history");
 ~~~

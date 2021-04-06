@@ -16,7 +16,7 @@ colorpicker.events.on("ColorChange",function(color){
 @template: api_event
 @descr:
 
-@deprecated: instead of it, you can use the colorpicker/api/colorpicker_change_event.md event:
+@deprecated: instead of it, you can use the [](colorpicker/api/colorpicker_change_event.md) event:
 
 ~~~js
 colorpicker.events.on("Change",function(color){

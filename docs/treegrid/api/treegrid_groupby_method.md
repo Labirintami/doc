@@ -38,15 +38,13 @@ The method takes one parameter, which can be:
     - **item** - a data item
 
 
-You can set a template to the title of the group via the treegrid/api/treegrid_grouptitletemplate_config.md configuration option.
-
+You can set a template to the title of the group via the [](treegrid/api/treegrid_grouptitletemplate_config.md) configuration option.
 
 @relatedsample: treegrid/03_usage/15_group_by.html
 
 @related: treegrid/usage.md#groupingdata
 @relatedapi: treegrid/api/treegrid_grouptitletemplate_config.md
 treegrid/api/treegrid_ungroup_method.md
-
 
 @changelog:
 added in v6.5

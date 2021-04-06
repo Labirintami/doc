@@ -15,7 +15,7 @@ dhxWindow.fullScreen();
 @descr:
 
 
-@deprecated: instead of it, you can use the window/api/window_setfullscreen_method.md method:
+@deprecated: instead of it, you can use the [](window/api/window_setfullscreen_method.md) method:
 
 ~~~js
 dhxWindow.setFullScreen();

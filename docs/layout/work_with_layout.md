@@ -19,7 +19,7 @@ layout.removeCell(id);
 Getting the object of a cell
 --------------------
 
-You can get the object of a cell by its id. Use the layout/api/layout_getcell_method.md method for this purpose:
+You can get the object of a cell by its id. Use the [](layout/api/layout_getcell_method.md) method for this purpose:
 
 ~~~js
 layout.getCell("header");

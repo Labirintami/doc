@@ -194,7 +194,7 @@ The available values of the option are "left", "center" and "right".
 Automatic adding of empty row into Grid
 -----------------------------
 
-There is a possibility to automatically add an empty row after the last filled row in the grid. Use the grid/api/grid_autoemptyrow_config.md property in the Grid configuration object to enable this feature:
+There is a possibility to automatically add an empty row after the last filled row in the grid. Use the [](grid/api/grid_autoemptyrow_config.md) property in the Grid configuration object to enable this feature:
 
 ~~~js
 var grid = new dhx.Grid("grid_container", {
@@ -209,7 +209,7 @@ var grid = new dhx.Grid("grid_container", {
 Autosize for columns
 ----------------------
 
-You can configure columns' settings so that their width would automatically adjust to their content. Use the grid/api/grid_adjust_config.md property for this purpose. The property can take one of four values:
+You can configure columns' settings so that their width would automatically adjust to their content. Use the [](grid/api/grid_adjust_config.md) property for this purpose. The property can take one of four values:
 
 <table class="webixdoc_links">
 	<tbody>
@@ -243,7 +243,7 @@ var grid = new dhx.Grid("grid_container", {
 
 {{editor	https://snippet.dhtmlx.com/zfrpe22d	Grid. Adjust Columns}}
 
-It is also possible to set the grid/api/grid_adjust_config.md property to *true* in the configuration of a separate column to make its width adjust automatically to the content:
+It is also possible to set the [](grid/api/grid_adjust_config.md) property to *true* in the configuration of a separate column to make its width adjust automatically to the content:
 
 ~~~js
 var grid = new dhx.Grid("grid_container", { 
@@ -261,7 +261,7 @@ var grid = new dhx.Grid("grid_container", {
 Autowidth for columns
 --------------------
 
-It is possible to adjust the size of Grid columns to the size of Grid with the help of the grid/api/grid_autowidth_config.md configuration option, like this:
+It is possible to adjust the size of Grid columns to the size of Grid with the help of the [](grid/api/grid_autowidth_config.md) configuration option, like this:
 
 
 ~~~js
@@ -274,7 +274,7 @@ var grid = new dhx.Grid("grid_container", {
 
 {{sample grid/02_configuration/03_auto_width.html}}
 
-You can disable this functionality for a specified column via setting the grid/api/grid_autowidth_config.md property to *false* in the configuration of the column:
+You can disable this functionality for a specified column via setting the [](grid/api/grid_autowidth_config.md) property to *false* in the configuration of the column:
 
 ~~~js
 var grid = new dhx.Grid("grid", {
@@ -305,7 +305,7 @@ Drag-n-drop of Grid columns
 
 {{pronote This functionality requires PRO version of the dhtmlxGrid (or DHTMLX suite) package.}}
 
-Starting from v6.5, you can add the ability to reorder columns of Grid by drag and drop via using the grid/api/grid_dragitem_config.md configuration property and setting its value to *"column"*.
+Starting from v6.5, you can add the ability to reorder columns of Grid by drag and drop via using the [](grid/api/grid_dragitem_config.md) configuration property and setting its value to *"column"*.
 
 ~~~js
 var grid = new dhx.Grid("grid_container", {
@@ -333,6 +333,7 @@ var grid = new dhx.Grid("grid_container", {
 
 To make the process of reordering columns by drag and drop more flexible, apply the related events: 
 
+todotw скорее всего можно просто сослаться на API
 - grid/api/grid_aftercolumndrag_event.md 
 - grid/api/grid_aftercolumndrop_event.md 
 - grid/api/grid_beforecolumndrag_event.md 
@@ -384,7 +385,7 @@ dhtmlxGrid provides the editing feature that includes two options:
 
 - editing of the whole Grid, i.e. of all its columns
 
-To make all columns of the Grid editable, specify the grid/api/grid_editable_config.md option in the configuration of Grid:
+To make all columns of the Grid editable, specify the [](grid/api/grid_editable_config.md) option in the configuration of Grid:
 
 ~~~js
 var grid = new dhx.Grid("grid_container", {
@@ -727,7 +728,7 @@ var grid = new dhx.Grid("grid", {
 Event handlers for HTML content
 -----------------------------------
 
-Starting from v7.0, you can add event handlers to the HTML elements defined in a data set of Grid with the help of the grid/api/grid_eventhandlers_config.md configuration property, for instance:
+Starting from v7.0, you can add event handlers to the HTML elements defined in a data set of Grid with the help of the [](grid/api/grid_eventhandlers_config.md) configuration property, for instance:
 
 ~~~js
 const data = [
@@ -962,7 +963,7 @@ The list of the shortcut keys for editing:
 Multiple selection of Grid cells
 ------------------------------------
 
-While setting the [selection](grid/configuration.md#selection) property either to *"row"* or to *"cell"* value, you can enable the grid/api/grid_multiselection_config.md property to allow a user to select multiple Grid elements:
+While setting the [selection](grid/configuration.md#selection) property either to *"row"* or to *"cell"* value, you can enable the [](grid/api/grid_multiselection_config.md) property to allow a user to select multiple Grid elements:
 
 ~~~js
 var grid = new dhx.Grid("grid_container", {
@@ -1091,7 +1092,7 @@ Sorting columns
 
 By default, dhtmlxGrid allows sorting content of any Grid column by clicking on its header. 
 
-To disable this option, set the grid/api/grid_sortable_config.md property in the Grid configuration to *false*:
+To disable this option, set the [](grid/api/grid_sortable_config.md) property in the Grid configuration to *false*:
 
 ~~~js
 var grid = new dhx.Grid("grid_container", {
@@ -1197,7 +1198,7 @@ var grid = new dhx.Grid("grid_container", {
 Tooltip
 -----------
 
-The default configuration of Grid provides tooltips that are rendered when a user hovers over the content of a column. Starting from v6.5, you can hide the tooltips via setting the grid/api/grid_tooltip_config.md configuration property of Grid to *false*:
+The default configuration of Grid provides tooltips that are rendered when a user hovers over the content of a column. Starting from v6.5, you can hide the tooltips via setting the [](grid/api/grid_tooltip_config.md) configuration property of Grid to *false*:
 
 ~~~js
 var grid = new dhx.Grid("grid", {

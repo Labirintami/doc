@@ -18,7 +18,7 @@ var index = list.getFocusIndex(); // -> 6
 @template: api_method
 @descr:
 
-@deprecated: To get the index of a List item in focus you can get the id of an item using the [getFocus()](list/api/list_getfocus_method.md) method and pass this id as a parameter of the data_collection/api/getindex.md method of Data Collection:
+@deprecated: To get the index of a List item in focus you can get the id of an item using the [getFocus()](list/api/list_getfocus_method.md) method and pass this id as a parameter of the [](data_collection/api/getindex.md) method of Data Collection:
 ~~~js
 var id = list.getFocus();
 var index = list.data.getIndex(id);

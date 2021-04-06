@@ -23,7 +23,7 @@ timepicker.events.on("Apply", function(){
 - added in v6.4
 - deprecated in v7.0
 
-@deprecated:instead of it, you can use the timepicker/api/timepicker_afterapply_event.md and timepicker/api/timepicker_beforeapply_event.md events:
+@deprecated:instead of it, you can use the [](timepicker/api/timepicker_afterapply_event.md) and [](timepicker/api/timepicker_beforeapply_event.md) events:
 
 ~~~js
 timepicker.events.on("AfterApply", function(value){

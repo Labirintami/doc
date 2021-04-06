@@ -396,7 +396,7 @@ var chart = new dhx.Chart("chart_container",{
 Legend
 -----------
 
-The chart/api/chart_legend_config.md object may contain a number of options that define its configuration.
+The [](chart/api/chart_legend_config.md) object may contain a number of options that define its configuration.
 
 ~~~js
 var chart = new dhx.Chart("chart_container",{

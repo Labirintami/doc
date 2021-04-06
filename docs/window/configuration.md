@@ -12,7 +12,7 @@ Closability
 ![](../assets/window/closable.png)
 
 
-There is the window/api/window_closable_config.md property that adds a Close button into the right top part of a window to allow a user to close a window on clicking it. This option is set to *true* by default.
+There is the [](window/api/window_closable_config.md) property that adds a Close button into the right top part of a window to allow a user to close a window on clicking it. This option is set to *true* by default.
 
 ~~~js
 var dhxWindow = new dhx.Window({
@@ -25,7 +25,7 @@ var dhxWindow = new dhx.Window({
 Custom node
 ------------------
 
-To place a window into a custom node you need to specify the container for a window via the window/api/window_node_config.md property:
+To place a window into a custom node you need to specify the container for a window via the [](window/api/window_node_config.md) property:
 
 ~~~js
 var dhxWindow = new dhx.Window({
@@ -52,7 +52,7 @@ var dhxWindow = new dhx.Window({
 
 {{editor	https://snippet.dhtmlx.com/qu5j85ag	Window. Window With Footer}}
 
-By default a footer is initialized with no controls. To add a control into the footer, you need to manipulate the window/api/window_footer_config.md object of the toolbar. Follow the instructions given in the article window/customization.md.
+By default a footer is initialized with no controls. To add a control into the footer, you need to manipulate the [](window/api/window_footer_config.md) object of the toolbar. Follow the instructions given in the article window/customization.md.
 
 Modality
 -------------
@@ -60,7 +60,7 @@ Modality
 ![](../assets/window/modal_window.png)
 
 
-It is possible to make a window modal, if there's a necessity. Use the window/api/window_modal_config.md property to turn this functionality on:
+It is possible to make a window modal, if there's a necessity. Use the [](window/api/window_modal_config.md) property to turn this functionality on:
 
 ~~~js
 var dhxWindow = new dhx.Window({
@@ -81,7 +81,7 @@ Movability
 ![](../assets/window/movable.png)
 
 
-To equip a window with the ability to be moved around the screen, you should set the window/api/window_movable_config.md property to *true*:
+To equip a window with the ability to be moved around the screen, you should set the [](window/api/window_movable_config.md) property to *true*:
 
 ~~~js
 var dhxWindow = new dhx.Window({
@@ -94,7 +94,7 @@ var dhxWindow = new dhx.Window({
 Overflowing browser window
 ----------------
 
-By default, a window can't cross the borders of a browser window. To enable such a possibility, make use of the window/api/window_viewportoverflow_config.md configuration property.
+By default, a window can't cross the borders of a browser window. To enable such a possibility, make use of the [](window/api/window_viewportoverflow_config.md) configuration property.
 
 ~~~js
 var dhxWindow = new dhx.Window({
@@ -104,7 +104,7 @@ var dhxWindow = new dhx.Window({
 
 {{editor	https://snippet.dhtmlx.com/qfhdlzri	Window. Viewport Overflow}}
 
-{{note The property makes sense when set together with the window/api/window_movable_config.md property.}}
+{{note The property makes sense when set together with the [](window/api/window_movable_config.md) property.}}
 
 Resizing 
 --------
@@ -124,12 +124,12 @@ var dhxWindow = new dhx.Window({
 
 Then you will be able to regulate the sizes of a window by dragging resizers that appear on hovering sides of a window. 
 
-{{note To define the resizing limits, set necessary values to the window/api/window_minwidth_config.md / window/api/window_minheight_config.md properties.}}
+{{note To define the resizing limits, set necessary values to the [](window/api/window_minwidth_config.md) / [](window/api/window_minheight_config.md) properties.}}
 
 Setting HTML content
 -------------------
 
-You can set some HTML content into a window via the window/api/window_html_config.md configuration option, as in:
+You can set some HTML content into a window via the [](window/api/window_html_config.md) configuration option, as in:
 
 ~~~js
 var dhxWindow = new dhx.Window({
@@ -163,7 +163,7 @@ Default values of the size-related properties are:
 Title
 ----------
 
-dhtmlxWindow is initialized with an empty header. You can provide some text label for the header of the window via the window/api/window_title_config.md property.
+dhtmlxWindow is initialized with an empty header. You can provide some text label for the header of the window via the [](window/api/window_title_config.md) property.
 
 ~~~js
 var dhxWindow = new dhx.Window({
@@ -171,5 +171,5 @@ var dhxWindow = new dhx.Window({
 });
 ~~~
 
-The header can also contain some buttons. You can control them via the window/api/window_header_config.md object of the toolbar. Check details in the article window/customization.md.
+The header can also contain some buttons. You can control them via the [](window/api/window_header_config.md) object of the toolbar. Check details in the article window/customization.md.
 

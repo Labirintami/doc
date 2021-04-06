@@ -26,7 +26,7 @@ The **view** object may include the following properties:
 - **css** - the name of the CSS class used for a cell
 - **header** - the header of a cell
 
-@deprecated: instead of it, you can use the tabbar/api/tabbar_addtab_method.md method:
+@deprecated: instead of it, you can use the [](tabbar/api/tabbar_addtab_method.md) method:
 
 ~~~js
 tabbar.addTab({tab: "tab-" + nextTab++, css:"panel flex"}, 0);

@@ -25,7 +25,7 @@ var grid = new dhx.Grid("grid_container", {
 @descr: 
 {{note Please note that if a grid has its own sizes specified, their values will redefine the size of the container.}}
 
-@deprecated: instead of it, use the grid/api/grid_autowidth_config.md property:
+@deprecated: instead of it, use the [](grid/api/grid_autowidth_config.md) property:
 
 ~~~js
 var grid = new dhx.Grid("grid_container", {

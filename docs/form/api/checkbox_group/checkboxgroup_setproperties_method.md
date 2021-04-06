@@ -46,7 +46,7 @@ form.getItem("checkboxGroup").setProperties("first", {
 @template: api_method
 @descr:
 
-The method invokes the form/api/checkbox_group/checkboxgroup_afterchangeproperties_event.md and form/api/checkbox_group/checkboxgroup_beforechangeproperties_event.md events.
+The method invokes the [](form/api/checkbox_group/checkboxgroup_afterchangeproperties_event.md) and [](form/api/checkbox_group/checkboxgroup_beforechangeproperties_event.md) events.
 
 It is possible to change values of the following configuration attributes of the **CheckboxGroup** control:
 

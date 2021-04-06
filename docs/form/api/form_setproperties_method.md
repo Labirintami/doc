@@ -24,7 +24,7 @@ form.setProperties("input_name", {
 
 @template: api_method
 @descr:
-The method invokes the form/api/form_afterchangeproperties_event.md and form/api/form_beforechangeproperties_event.md events.
+The method invokes the [](form/api/form_afterchangeproperties_event.md) and [](form/api/form_beforechangeproperties_event.md) events.
 
 {{note Note, that the method allows changing values only for the properties that are listed below for each control.}}
 

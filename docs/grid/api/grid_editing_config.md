@@ -29,7 +29,7 @@ grid/configuration.md#editinggridandseparatecolumns
 
 @changelog: added in v6.1
 
-@deprecated: instead of it, you can use the grid/api/grid_editable_config.md property:
+@deprecated: instead of it, you can use the [](grid/api/grid_editable_config.md) property:
 
 ~~~js
 var grid = new dhx.Grid("grid_container", {

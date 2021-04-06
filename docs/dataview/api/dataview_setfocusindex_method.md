@@ -18,7 +18,7 @@ dataview.setFocusIndex(7);
 @template: api_method
 @descr:
 
-@deprecated: instead of it, you can use the dataview/api/dataview_setfocus_method.md method:
+@deprecated: instead of it, you can use the [](dataview/api/dataview_setfocus_method.md) method:
 ~~~js
 dataview.setFocus("id");
 ~~~

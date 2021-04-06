@@ -379,7 +379,7 @@ var treeGrid = new dhx.TreeGrid("treegrid", {
 
 <h3 id="eventhandling">Event handlers for the template</h3>
 
-Starting from v7.0, you can assign event handlers to HTML elements of a custom template of TreeGrid cells via using the treegrid/api/treegrid_eventhandlers_config.md configuration property of TreeGrid, for instance:
+Starting from v7.0, you can assign event handlers to HTML elements of a custom template of TreeGrid cells via using the [](treegrid/api/treegrid_eventhandlers_config.md) configuration property of TreeGrid, for instance:
 
 ~~~js
 const treeGrid = new dhx.TreeGrid("treegrid", {

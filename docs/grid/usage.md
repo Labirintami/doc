@@ -267,7 +267,7 @@ Since the object of a column has the [hidden](grid/configuration.md#hiddencolumn
 Checking visibility of a column
 ----------------------------------
 
-You can check whether a column is hidden or shown on a page using the grid/api/grid_iscolumnhidden_method.md method. The method returns *true*, if a column is hidden, and *false* if it's visible.
+You can check whether a column is hidden or shown on a page using the [](grid/api/grid_iscolumnhidden_method.md) method. The method returns *true*, if a column is hidden, and *false* if it's visible.
 
 ~~~js
 grid.isColumnHidden("country"); // -> true|false
@@ -294,7 +294,7 @@ grid.hideRow(rowId);
 Checking visibility of a row
 ----------------------------------
 
-You can check whether a row is hidden or shown on a page using the grid/api/grid_isrowhidden_method.md method. The method returns *true*, if a row is hidden, and *false* if it's visible.
+You can check whether a row is hidden or shown on a page using the [](grid/api/grid_isrowhidden_method.md) method. The method returns *true*, if a row is hidden, and *false* if it's visible.
 
 ~~~js
 grid.isRowHidden("1"); // -> true|false
@@ -531,7 +531,7 @@ grid.data.sort({
 Getting the sorting state
 --------------------------
 
-To get the current state of sorting data in Grid, use the grid/api/grid_getsortingstate_method.md method. The method returns an object with two attributes:
+To get the current state of sorting data in Grid, use the [](grid/api/grid_getsortingstate_method.md) method. The method returns an object with two attributes:
 
 <table class="webixdoc_links">
 	<tbody>
@@ -556,7 +556,7 @@ var state = grid.getSortingState();
 Editing data
 ------------------
 
-You can easily edit the desired cell of a grid with the help of the grid/api/grid_editcell_method.md method. It takes two parameters:
+You can easily edit the desired cell of a grid with the help of the [](grid/api/grid_editcell_method.md) method. It takes two parameters:
 
 <table class="webixdoc_links">
 	<tbody>

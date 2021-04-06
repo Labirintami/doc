@@ -33,7 +33,7 @@ colorpicker/api/colorpicker_setview_method.md
 
 @changelog:
 
-@deprecated: instead of it, you can use the colorpicker/api/colorpicker_getcurrentmode_method.md method:
+@deprecated: instead of it, you can use the [](colorpicker/api/colorpicker_getcurrentmode_method.md) method:
 
 ~~~js
 var mode = colorpicker.getCurrentMode(); // -> "palette"

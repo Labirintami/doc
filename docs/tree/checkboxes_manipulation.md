@@ -13,7 +13,7 @@ Enabling/Disabling Checkboxes
 
 ###Enabling Standard Checkboxes 
 
-The api/dhtmlxtree_enablecheckboxes.md method allows enabling standard checkboxes in Tree:
+The [](api/dhtmlxtree_enablecheckboxes.md) method allows enabling standard checkboxes in Tree:
 
 ~~~js
 tree.enableCheckBoxes(mode, hidden);  
@@ -22,7 +22,7 @@ tree.enableCheckBoxes(mode, hidden);
 The parameters of the method are as follows:
 
 - *mode* - (boolean) *false* stands for hiding all the checkboxes, while *true* stands for showing them all in the tree;
-- *hidden* - (boolean) setting it to *true* means that checkboxes are not rendered, but can be shown by the api/dhtmlxtree_showitemcheckbox.md method.
+- *hidden* - (boolean) setting it to *true* means that checkboxes are not rendered, but can be shown by the [](api/dhtmlxtree_showitemcheckbox.md) method.
 
 In the case of creating checkboxes with the help of the above mentioned method, they will possess the usual checkbox states:
 
@@ -35,7 +35,7 @@ dhtmlxTree/samples/02_checkboxes/01_pro_list_checked.html
 
 ###Enabling Three-State Checkboxes 
 
-The api/dhtmlxtree_enablethreestatecheckboxes.md method is responsible for enabling three-state checkboxes:
+The [](api/dhtmlxtree_enablethreestatecheckboxes.md) method is responsible for enabling three-state checkboxes:
 
 ~~~js
 tree.enableThreeStateCheckboxes(true|false);  
@@ -58,7 +58,7 @@ dhtmlxTree/samples/02_checkboxes/03_pro_mixed_checkboxes.html
 
 ###Enabling Smart Checkboxes 
 
-The api/dhtmlxtree_enablesmartcheckboxes.md method enables auto-checking of children and parents for *three-state checkboxes*.
+The [](api/dhtmlxtree_enablesmartcheckboxes.md) method enables auto-checking of children and parents for *three-state checkboxes*.
 
 ~~~js
 tree.enableSmartCheckboxes(true|false);
@@ -90,7 +90,7 @@ tree.enableCheckBoxes(true, true);
 tree.showItemCheckbox(itemId, state);  
 ~~~
 
-The parameters of the api/dhtmlxtree_showitemcheckbox.md method are:
+The parameters of the [](api/dhtmlxtree_showitemcheckbox.md) method are:
 
 - *id* - (string|number) the id of an item, set *null* to change states of all items;
 - *state* - (boolean) specifies whether the checkbox will be visible (*true*) or not (*false*).
@@ -99,10 +99,9 @@ The parameters of the api/dhtmlxtree_showitemcheckbox.md method are:
 Manipulating Checkboxes' State 
 ---------------------------------
 
-###Checking/Unchecking Tree Item 
+### Checking/Unchecking Tree Item 
 
-
-Any checkbox in the tree can be easily checked/unchecked from script with the help of the api/dhtmlxtree_setcheck.md method:
+Any checkbox in the tree can be easily checked/unchecked from script with the help of the [](api/dhtmlxtree_setcheck.md) method:
 
 ~~~js
 tree.setCheck(id, state);
@@ -122,7 +121,7 @@ dhtmlxTree/samples/02_checkboxes/01_pro_list_checked.html
 
 ###Checking/Unchecking Tree Branch 
 
-Along with checking a tree item, a tree branch can also be easily checked/unchecked from script by using the api/dhtmlxtree_setsubchecked.md method:
+Along with checking a tree item, a tree branch can also be easily checked/unchecked from script by using the [](api/dhtmlxtree_setsubchecked.md) method:
 
 ~~~js
 tree.setSubChecked(id, state);  
@@ -136,7 +135,7 @@ The parameters are as follows:
 
 ###Getting Checkbox's State 
 
-The state of the specified item's checkbox can be got via the api/dhtmlxtree_isitemchecked.md method:
+The state of the specified item's checkbox can be got via the [](api/dhtmlxtree_isitemchecked.md) method:
 
 ~~~js
 var checkState = tree.isItemChecked(itemId);

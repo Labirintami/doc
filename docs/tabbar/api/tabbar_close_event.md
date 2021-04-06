@@ -20,7 +20,7 @@ tabbar.events.on("Close", function(id){
 @template: api_event
 @descr:
 
-@deprecated:instead of it, you can use the tabbar/api/tabbar_afterclose_event.md event:
+@deprecated:instead of it, you can use the [](tabbar/api/tabbar_afterclose_event.md) event:
 
 ~~~js
 tabbar.events.on("AfterClose", function(id){

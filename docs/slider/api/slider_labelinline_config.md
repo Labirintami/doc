@@ -20,7 +20,7 @@ var slider = new dhx.Slider("slider_container", {
 @template:	api_config
 @descr: 
 
-@deprecated: instead of it, use the slider/api/slider_labelposition_config.md property:
+@deprecated: instead of it, use the [](slider/api/slider_labelposition_config.md) property:
 
 ~~~js
 var slider = new dhx.Slider("slider_container", { 

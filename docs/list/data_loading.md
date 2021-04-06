@@ -7,7 +7,7 @@ title: Loading Data
 
 ```
 
-To load data from some external file you can use the api/link/dhtmlxlist_load.md command:
+To load data from some external file you can use the [](api/link/dhtmlxlist_load.md) command:
 
 ~~~js
 myList.load(url, datatype);

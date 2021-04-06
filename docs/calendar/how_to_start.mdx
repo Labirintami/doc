@@ -100,13 +100,13 @@ var calendar = new dhx.Calendar(null, {dateFormat: "%d/%m/%y"});
 var popup = new dhx.Popup();
 ~~~
 
-- attach the calendar to the popup using the popup/api/popup_attach_method.md method of Popup:
+- attach the calendar to the popup using the [](popup/api/popup_attach_method.md) method of Popup:
 
 ~~~js
 popup.attach(calendar);
 ~~~
 
-- use the popup/api/popup_show_method.md method of Popup inside a click handler to define that a popup with calendar will open on click in the "date-input" input:
+- use the [](popup/api/popup_show_method.md) method of Popup inside a click handler to define that a popup with calendar will open on click in the "date-input" input:
 
 ~~~js
 var dateInput = document.getElementById("date-input");
@@ -115,7 +115,7 @@ dateInput.addEventListener("click", function() {
 });
 ~~~
 
-- define the logic of closing the popup with calendar using the popup/api/popup_hide_method.md method of Popup. For example, on selecting a new date in the calendar:
+- define the logic of closing the popup with calendar using the [](popup/api/popup_hide_method.md) method of Popup. For example, on selecting a new date in the calendar:
 
 ~~~js
 calendar.events.on("change", function() {
@@ -151,14 +151,14 @@ todotw скорее всего можно просто сослаться на A
 
 }}
 
-The detailed information on configuration options can be found in the calendar/configuring.md article.
+The detailed information on configuration options can be found in the [](calendar/configuring.md) article.
 
 Select initial date (optional)
 --------------------------
 
 You can specify what date should be selected in the calendar both before and after initialization of the component:
 
-- via the calendar/api/calendar_value_config.md configuration option:
+- via the [](calendar/api/calendar_value_config.md) configuration option:
 
 ~~~js
 var calendar = new dhx.Calendar("calendar_container", {
@@ -166,7 +166,7 @@ var calendar = new dhx.Calendar("calendar_container", {
 });
 ~~~
 
-- with the help of the calendar/api/calendar_setvalue_method.md method:
+- with the help of the [](calendar/api/calendar_setvalue_method.md) method:
 
 ~~~js
 var calendar = new dhx.Calendar("calendar_container", {

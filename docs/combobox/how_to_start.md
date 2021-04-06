@@ -94,21 +94,21 @@ todotw скорее всего можно просто сослаться на A
 
 }}
 
-See the detailed description of Combo configuration options in the combo/configuration.md article.
+See the detailed description of Combo configuration options in the [](combo/configuration.md) article.
 
 Load data into ComboBox
 -------------
 
 There are two handy ways of loading data, i.e. a set of options into ComboBox:
 
-- from an external file with the help of the data_collection/api/load.md method of Data collection:
+- from an external file with the help of the [](data_collection/api/load.md) method of Data collection:
 
 ~~~js
 var combo = new dhx.Combobox("combo_container");
 combo.data.load("../common/dataset.json");
 ~~~
 
-- from a local source using the data_collection/api/parse.md method of Data collection:
+- from a local source using the [](data_collection/api/parse.md) method of Data collection:
 
 ~~~js
 var countries = [

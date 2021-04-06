@@ -16,7 +16,7 @@ var combo = new dhx.Combobox("combo_container", {
 
 @related: combo/how_to_start.md#initializecombobox
 
-@deprecated: instead of it, you can use the combo/api/combobox_labelposition_config.md option:
+@deprecated: instead of it, you can use the [](combo/api/combobox_labelposition_config.md) option:
 
 ~~~js
 var combo = new dhx.Combobox("combo_container", {

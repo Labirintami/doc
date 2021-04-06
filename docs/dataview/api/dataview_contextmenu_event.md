@@ -19,7 +19,7 @@ dataview.events.on("ContextMenu", function(id, e){
 @template: api_event
 @descr:
 
-@deprecated: instead of it, use the dataview/api/dataview_itemrightclick_event.md event:
+@deprecated: instead of it, use the [](dataview/api/dataview_itemrightclick_event.md) event:
 
 ~~~js
 dataview.events.on("itemRightClick", function(id, e){

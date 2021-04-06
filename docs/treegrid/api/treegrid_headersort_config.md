@@ -23,7 +23,7 @@ var grid = new dhx.Grid("grid_container", {
 @related: treegrid/configuration.md#headersorting
 treegrid/initialization.md#initializetreegrid
 
-@deprecated: instead of it, you can use the treegrid/api/treegrid_sortable_config.md property:
+@deprecated: instead of it, you can use the [](treegrid/api/treegrid_sortable_config.md) property:
 
 ~~~js
 var treegrid = new dhx.TreeGrid("treegrid_container", {

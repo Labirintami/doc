@@ -9,7 +9,7 @@ description:
 HTML content
 ----------------
 
-A layout cell can have any HTML content inside it. You can set it with the layout/api/layout_html_config.md attribute in the object of a cell.
+A layout cell can have any HTML content inside it. You can set it with the [](layout/api/layout_html_config.md) attribute in the object of a cell.
 
 ~~~js
 var layout = new dhx.Layout("layout_container", {
@@ -24,7 +24,7 @@ var layout = new dhx.Layout("layout_container", {
 Hidden cell
 --------------
 
-It is possible to add the layout/api/layout_hidden_config.md attribute into the the object of a cell(s) to render a layout with some cells hidden:
+It is possible to add the [](layout/api/layout_hidden_config.md) attribute into the the object of a cell(s) to render a layout with some cells hidden:
 
 ~~~js
 var layout = new dhx.Layout("layout_container", {
@@ -47,7 +47,7 @@ var layout = new dhx.Layout("layout_container", {
 });
 ~~~
 
-You can also add an icon or an image into the header of a cell with the help of corresponding attributes - layout/api/layout_headericon_config.md and layout/api/layout_headerimage_config.md.
+You can also add an icon or an image into the header of a cell with the help of corresponding attributes - [](layout/api/layout_headericon_config.md) and layout/api/layout_headerimage_config.md.
 
 ~~~js
 var layout = new dhx.Layout("layout_container", {
@@ -69,7 +69,7 @@ var layout = new dhx.Layout("layout_container", {
 Height of a header cell
 ---------------------------
 
-You can specify the necessary height of cell with a header using the layout/api/layout_headerheight_config.md configuration option of a cell:
+You can specify the necessary height of cell with a header using the [](layout/api/layout_headerheight_config.md) configuration option of a cell:
 
 ~~~js
 var layout = new dhx.Layout("layout", {
@@ -88,13 +88,13 @@ var layout = new dhx.Layout("layout", {
 
 {{editor	https://snippet.dhtmlx.com/bxqnzesl	Layout. Header}}
 
-If the layout/api/layout_header_config.md property is not set in the config of a cell, the layout/api/layout_headerheight_config.md option will add a header without text for a cell.
+If the [](layout/api/layout_header_config.md) property is not set in the config of a cell, the [](layout/api/layout_headerheight_config.md) option will add a header without text for a cell.
 
 
 Cell size
 ------------
 
-You can easily control and change the size of a cell via the layout/api/layout_width_config.md and layout/api/layout_height_config.md attributes of the object of a cell.
+You can easily control and change the size of a cell via the [](layout/api/layout_width_config.md) and [](layout/api/layout_height_config.md) attributes of the object of a cell.
 
 ~~~js
 var layout = new dhx.Layout("layout_container", {   
@@ -180,7 +180,7 @@ var layout = new dhx.Layout("layout_container", {
 Collapsibility
 ----------------
 
-There are two attributes of the object of a cell: layout/api/layout_collapsable_config.md and layout/api/layout_collapsed_config.md. The first one defines whether a cell can be collapsed and expanded, and the second one checks whether a cell is collapsed during
+There are two attributes of the object of a cell: [](layout/api/layout_collapsable_config.md) and layout/api/layout_collapsed_config.md. The first one defines whether a cell can be collapsed and expanded, and the second one checks whether a cell is collapsed during
 the initialization of a layout.
 
 ~~~js
@@ -198,7 +198,7 @@ var layout = new dhx.Layout("layout_container", {
 Resizability
 ------------
 
-To allow resizing of a cell, make use of the layout/api/layout_resizable_config.md option in the object of a cell. 
+To allow resizing of a cell, make use of the [](layout/api/layout_resizable_config.md) option in the object of a cell. 
 
 ~~~js
 var layout = new dhx.Layout("layout_container", {
@@ -215,7 +215,7 @@ var layout = new dhx.Layout("layout_container", {
 Setting borders for cells
 -----------------
 
-By default, there is no space and borders between cells inside a layout and the cells look like they are merged. Starting from v7.0, it is possible to split the cells by adding borders or space between them via the layout/api/layout_type_config.md configuration property of a Layout cell:
+By default, there is no space and borders between cells inside a layout and the cells look like they are merged. Starting from v7.0, it is possible to split the cells by adding borders or space between them via the [](layout/api/layout_type_config.md) configuration property of a Layout cell:
 
 ~~~js
 const layout = new dhx.Layout("layout", {

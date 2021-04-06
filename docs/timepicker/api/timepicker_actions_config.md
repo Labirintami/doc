@@ -18,7 +18,7 @@ var timepicker = new dhx.Timepicker("timepicker", {
 @template:	api_config
 @descr: 
 
-@deprecated: instead of it, you can use the timepicker/api/timepicker_controls_config.md property:
+@deprecated: instead of it, you can use the [](timepicker/api/timepicker_controls_config.md) property:
 ~~~js
 var timepicker = new dhx.Timepicker("timepicker", {
 	controls: true

@@ -28,7 +28,7 @@ list/api/list_selection_config.md
 
 @relatedsample: list/03_usage/06_disable_selection.html
 
-@deprecated: instead of it, you can use the list/api/selection/selection_disable_method.md method of the selection object:
+@deprecated: instead of it, you can use the [](list/api/selection/selection_disable_method.md) method of the selection object:
 ~~~js
 list.selection.disable();
 ~~~

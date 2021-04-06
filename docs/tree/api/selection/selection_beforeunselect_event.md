@@ -5,13 +5,11 @@ title: beforeUnSelect
 
 @short: fires on unselecting an item, but before the item is really unselected
 
-
 @params:
 - id    string  the id of an item
 
 @returns:
 param   boolean     false - to prevent unselecting of an item, otherwise - true
-
 
 @example:
 tree.selection.events.on("BeforeUnSelect", function(id) {
@@ -29,11 +27,3 @@ tree.events.on("BeforeUnSelect", function(id) {
     return false;
 });
 ~~~
-
-@relatedapi: 
-tree/api/selection/selection_enable_method.md
-tree/api/tree_selection_config.md 
-
-
-
-

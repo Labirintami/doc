@@ -21,7 +21,7 @@ You can adjust the configuration of Slider so that its scale would render values
 
 ![](../assets/slider/inverse_mode.png)
 
-To launch this mode, make use of the slider/api/slider_inverse_config.md property set to *true*:
+To launch this mode, make use of the [](slider/api/slider_inverse_config.md) property set to *true*:
 
 ~~~js
 var slider = new dhx.Slider("slider_container", { 
@@ -38,7 +38,7 @@ var slider = new dhx.Slider("slider_container", {
 Minimal and maximal values
 ------------------------------------------
 
-The minimal and maximal values define the start and end points of the slider. You can specify them via the corresponding configuration properties - slider/api/slider_min_config.md and slider/api/slider_max_config.md. The default values are 0 and 100, correspondingly.
+The minimal and maximal values define the start and end points of the slider. You can specify them via the corresponding configuration properties - [](slider/api/slider_min_config.md) and slider/api/slider_max_config.md. The default values are 0 and 100, correspondingly.
 
 ~~~js
 var slider = new dhx.Slider("slider_container", { 
@@ -101,8 +101,8 @@ var slider = new dhx.Slider("slider_container", {
 
 In case you want to mark just the minimal and maximal values with ticks, you need to: 
 
-- set the value of the slider/api/slider_tick_config.md property equal to the value of the slider/api/slider_max_config.md property
-- set the slider/api/slider_majortick_config.md property to 1
+- set the value of the [](slider/api/slider_tick_config.md) property equal to the value of the [](slider/api/slider_max_config.md) property
+- set the [](slider/api/slider_majortick_config.md) property to 1
 
 ![](../assets/slider/min_max_ticks_only.png)
 
@@ -123,8 +123,8 @@ There are two properties that allow manipulating the label of the slider:
 
 todotw скорее всего можно просто сослаться на API
 {{api
-- slider/api/slider_label_config.md - specifies the label of a slider
-- slider/api/slider_labelposition_config.md - defines the position of a label of a slider: "left"|"top"
+- [](slider/api/slider_label_config.md) - specifies the label of a slider
+- [](slider/api/slider_labelposition_config.md) - defines the position of a label of a slider: "left"|"top"
 }}
 
 ~~~js
@@ -140,7 +140,7 @@ var slider = new dhx.Slider("slider_container", {
 Step  
 -----------------
 
-The slider/api/slider_step_config.md option defines the size of each jump between values of the slider. By default, the value of the step is set to 1. You can change this property via the Slider configuration object:
+The [](slider/api/slider_step_config.md) option defines the size of each jump between values of the slider. By default, the value of the step is set to 1. You can change this property via the Slider configuration object:
 
 ~~~js
 var slider = new dhx.Slider("slider_container", { 
@@ -155,7 +155,7 @@ You can specify a tooltip that will display changeable values of the slider when
 
 ![](../assets/slider/tooltip.png)
 
-There is the slider/api/slider_tooltip_config.md property that enables rendering the slider value over the thumb:
+There is the [](slider/api/slider_tooltip_config.md) property that enables rendering the slider value over the thumb:
 
 ~~~js
 var slider = new dhx.Slider("slider_container", { 
@@ -168,7 +168,7 @@ var slider = new dhx.Slider("slider_container", {
 Vertical mode
 ---------------
 
-By default, a slider scale is placed horizontally, but you can arrange it vertically via the slider/api/slider_mode_config.md property of the Slider configuration object:
+By default, a slider scale is placed horizontally, but you can arrange it vertically via the [](slider/api/slider_mode_config.md) property of the Slider configuration object:
 
 ~~~js
 var slider = new dhx.Slider("slider_container", { 

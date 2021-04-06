@@ -28,7 +28,7 @@ calendar/handling_events.md
 @relatedsample:
 calendar/05_events/01_events.html
 
-@deprecated: use the calendar/api/calendar_datemouseover_event.md event instead:
+@deprecated: use the [](calendar/api/calendar_datemouseover_event.md) event instead:
 
 ~~~js
 calendar.events.on("DateMouseOver", function(date, e) {

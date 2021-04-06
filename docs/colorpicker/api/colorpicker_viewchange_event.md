@@ -17,7 +17,7 @@ colorpicker.events.on("ViewChange",function(view){
 @descr:
 
 
-@deprecated: instead of it, you can use the colorpicker/api/colorpicker_modechange_event.md event:
+@deprecated: instead of it, you can use the [](colorpicker/api/colorpicker_modechange_event.md) event:
 
 ~~~js
 colorpicker.events.on("ModeChange",function(mode){

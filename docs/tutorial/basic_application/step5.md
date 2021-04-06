@@ -27,7 +27,7 @@ toolbar.events.on("Click", function(id,e){
 
 <img style="margin: 19px" src="tutorial/basic_application/bind_toolbar_grid.png"/>
 
-For more information about working with the Toolbar events, see the toolbar/handling_events.md article. The methods used to work with data are described in data_collection/api/refs/datacollection.md.
+For more information about working with the Toolbar events, see the [](toolbar/handling_events.md) article. The methods used to work with data are described in data_collection/api/refs/datacollection.md.
 
 <div id="tutorial_step">
     <a id="next_step" href="tutorial/basic_application/step6.md"></a>

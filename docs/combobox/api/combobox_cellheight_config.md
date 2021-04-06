@@ -8,7 +8,6 @@ title: cellHeight
 ```tododeprecated ```
 @default: 32
 
-
 @type: number
 
 @example: 
@@ -16,12 +15,10 @@ var combo = new dhx.Combobox("combo_container",{
     cellHeight:50
 });
 
-
 @template:	api_config
 @descr: 
 
-
-@deprecated: instead of it, you can use the combo/api/combobox_itemheight_config.md property:
+@deprecated: instead of it, you can use the [](combo/api/combobox_itemheight_config.md) property:
 
 ~~~js
 var combo = new dhx.Combobox("combo_container",{

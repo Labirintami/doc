@@ -22,7 +22,7 @@ list.events.on("ContextMenu", function(id, e){
 @descr:
 
 
-@deprecated: instead of it, use the list/api/list_itemrightclick_event.md event:
+@deprecated: instead of it, use the [](list/api/list_itemrightclick_event.md) event:
 
 ~~~js
 list.events.on("itemRightClick", function(id, e){

@@ -16,7 +16,7 @@ timepicker.events.on("Close", function(){
 @template: api_event
 @descr:
 
-@deprecated:instead of it, you can use the timepicker/api/timepicker_afterclose_event.md event:
+@deprecated:instead of it, you can use the [](timepicker/api/timepicker_afterclose_event.md) event:
 
 ~~~js
 timepicker.events.on("AfterClose", function(){

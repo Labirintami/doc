@@ -25,7 +25,7 @@ tree/api/tree_open_method.md
 
 @changelog:
 
-@deprecated: instead of it, you can use the tree/api/tree_collapse_method.md method:
+@deprecated: instead of it, you can use the [](tree/api/tree_collapse_method.md) method:
 ~~~js
 tree.collapse("history");
 ~~~

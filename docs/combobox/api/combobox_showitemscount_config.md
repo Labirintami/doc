@@ -17,7 +17,6 @@ var combo = new dhx.Combobox("combo_container", {
     }
 });
 
-
 @template:	api_config
 @descr: 
 As a function takes one parameter:
@@ -28,7 +27,7 @@ and should return a template for displaying a result.
 
 Note that to select several options you need to enable the **multiselection** option.
 
-@deprecated: instead of it, you can use the combo/api/combobox_itemscount_config.md property:
+@deprecated: instead of it, you can use the [](combo/api/combobox_itemscount_config.md) property:
 
 ~~~js
 var combo = new dhx.Combobox("combo_container", {

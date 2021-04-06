@@ -18,7 +18,7 @@ list.setFocusIndex(7);
 @descr:
 
 
-@deprecated: instead of it, you can set focus to an item by its id using the list/api/list_setfocus_method.md method:
+@deprecated: instead of it, you can set focus to an item by its id using the [](list/api/list_setfocus_method.md) method:
 ~~~js
 list.setFocus("id");
 ~~~

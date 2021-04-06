@@ -13,7 +13,7 @@ var target = new dhx.Tree("tree-target",{dragMode:"target", dropBehaviour:"compl
 
 @template:	api_config
 @descr: 
-{{note Don't forget to enable drag-n-drop via the tree/api/tree_dragmode_config.md property to use dropBehaviour.}}
+{{note Don't forget to enable drag-n-drop via the [](tree/api/tree_dragmode_config.md) property to use dropBehaviour.}}
 
 
 There are three modes of behaviour of a dragged tree item, depending on the value set for the **dropBehaviour** option in the configuration object of a tree:

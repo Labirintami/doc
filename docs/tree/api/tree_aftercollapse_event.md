@@ -22,4 +22,4 @@ tree.events.on("AfterCollapse", function(id) {
 
 @changelog: added in v6.4
 
-@related: tree/events_handling.md 
+@related: [](tree/events_handling.md) 

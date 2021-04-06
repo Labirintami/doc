@@ -7,9 +7,9 @@ title: Managing Popup's Visibility
 
 To manage visibility of a pop-up window you have 3 methods: 
 
-- api/dhtmlxpopup_show.md - shows a dhtmlxPopup object
-- api/dhtmlxpopup_hide.md - hides a dhtmlxPopup object
-- api/dhtmlxpopup_isvisible.md - checks whether the pop-up window is currently hidden or shown. Returns *true* if the pop-up is visible
+- [](api/dhtmlxpopup_show.md) - shows a dhtmlxPopup object
+- [](api/dhtmlxpopup_hide.md) - hides a dhtmlxPopup object
+- [](api/dhtmlxpopup_isvisible.md) - checks whether the pop-up window is currently hidden or shown. Returns *true* if the pop-up is visible
 
 Let's consider an example that uses these methods -  attaching dhtmlxPopup to a custom object when you need to manually regulate showing/hiding of the pop-up window:
 

@@ -22,14 +22,14 @@ var dataview = new dhx.DataView("dataview", {
 
 @template:	api_config
 @descr: 
-{{note This configuration option requires the dataview/api/dataview_multiselection_config.md property to be enabled.}}
+{{note This configuration option requires the [](dataview/api/dataview_multiselection_config.md) property to be enabled.}}
 
 @relatedsample:
 dataview/02_configuration/06_multiselection.html
 
 @relatedapi:dataview/api/dataview_multiselection_config.md
 
-@deprecated: use the dataview/api/dataview_multiselection_config.md property instead:
+@deprecated: use the [](dataview/api/dataview_multiselection_config.md) property instead:
 
 ~~~js
 var dataview = new dhx.DataView("dataview", {

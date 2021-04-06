@@ -29,7 +29,7 @@ var calendar = new dhx.Calendar("calendar_container", {
 calendar/configuring.md#calendarmodes
 
 
-@deprecated: instead of it, you can use the calendar/api/calendar_mode_config.md property:
+@deprecated: instead of it, you can use the [](calendar/api/calendar_mode_config.md) property:
 ~~~js
 var calendar = new dhx.Calendar("calendar_container", {
     mode: "month"

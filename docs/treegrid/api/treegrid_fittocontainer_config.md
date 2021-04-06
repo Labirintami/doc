@@ -30,7 +30,7 @@ treegrid/initialization.md#initializetreegrid
 
 
 
-@deprecated: instead of it, use the treegrid/api/treegrid_autowidth_config.md property:
+@deprecated: instead of it, use the [](treegrid/api/treegrid_autowidth_config.md) property:
 
 ~~~js
 var treegrid = new dhx.TreeGrid("treegrid_container", {

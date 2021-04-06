@@ -28,7 +28,7 @@ dataview/api/dataview_edit_method.md
 @relatedsample:
 dataview/02_configuration/07_editable.html
 
-@deprecated: instead of it, you can use the dataview/api/dataview_editable_config.md property:
+@deprecated: instead of it, you can use the [](dataview/api/dataview_editable_config.md) property:
 ~~~js
 var dataview = new dhx.DataView("dataview_container", {editable:true});
 ~~~

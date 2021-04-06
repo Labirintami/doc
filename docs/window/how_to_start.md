@@ -100,7 +100,7 @@ todotw скорее всего можно просто сослаться на A
 
 }}
 
-The detailed information on configuration options can be found in the window/configuration.md article.
+The detailed information on configuration options can be found in the [](window/configuration.md) article.
 
 
 Set content
@@ -108,7 +108,7 @@ Set content
 
 There are several ways of adding content into the dhtmlxWindow:
 
-- by using window/api/window_attachhtml_method.md to attach some HTML content into a window on the fly
+- by using [](window/api/window_attachhtml_method.md) to attach some HTML content into a window on the fly
 
 ~~~js
 var dhxWindow = new dhx.Window({title: "Window"});
@@ -119,7 +119,7 @@ dhxWindow.show();
 
 {{editor	https://snippet.dhtmlx.com/6uelt44m	Window. Attach HTML To Window}}
 
-- by calling window/api/window_attach_method.md to attach other DHTMLX components
+- by calling [](window/api/window_attach_method.md) to attach other DHTMLX components
 
 ~~~js
 dhxWindow.attach("richtext",{mode: "document"});
@@ -129,7 +129,7 @@ dhxWindow.show();
 {{editor	https://snippet.dhtmlx.com/t9ncuuou	Window. Attaching Other Components}}
 
 
-- via the window/api/window_html_config.md property to attach some HTML content into a window before initialization
+- via the [](window/api/window_html_config.md) property to attach some HTML content into a window before initialization
 
 ~~~js
 var dhxWindow = new dhx.Window({

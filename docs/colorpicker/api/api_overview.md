@@ -45,9 +45,3 @@ title: Colorpicker API overview
 | [](colorpicker/api/colorpicker_paletteonly_config.md)  | @getshort(colorpicker/api/colorpicker_paletteonly_config.md)  |
 | [](colorpicker/api/colorpicker_pickeronly_config.md)   | @getshort(colorpicker/api/colorpicker_pickeronly_config.md)   |
 | [](colorpicker/api/colorpicker_width_config.md)        | @getshort(colorpicker/api/colorpicker_width_config.md)        |
-
-
-@index:
-- colorpicker/api/refs/colorpicker_methods.md
-- colorpicker/api/refs/colorpicker_events.md
-- colorpicker/api/refs/colorpicker_properties.md 

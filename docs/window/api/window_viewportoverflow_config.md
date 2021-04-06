@@ -20,6 +20,6 @@ dhxWindow.show();
 window/configuration.md#overflowingbrowserwindow
 @template:	api_config
 @descr: 
-{{note The property makes sense when set together with the window/api/window_movable_config.md property.}}
+{{note The property makes sense when set together with the [](window/api/window_movable_config.md) property.}}
 
 @relatedsample: https://snippet.dhtmlx.com/qfhdlzri	Window. Viewport Overflow

@@ -87,13 +87,13 @@ var colorpicker = new dhx.Colorpicker(null, { customColors: ["#f2f2f2"] });
 var popup = new dhx.Popup();
 ~~~
 
-- attach the colorpicker to the popup using the popup/api/popup_attach_method.md method of Popup:
+- attach the colorpicker to the popup using the [](popup/api/popup_attach_method.md) method of Popup:
 
 ~~~js
 popup.attach(colorpicker);
 ~~~
 
-- use the popup/api/popup_show_method.md / popup/api/popup_hide_method.md methods of Popup to control when a popup with color picker should be shown/hidden. For example:
+- use the [](popup/api/popup_show_method.md) / [](popup/api/popup_hide_method.md) methods of Popup to control when a popup with color picker should be shown/hidden. For example:
 
 ~~~js
 popup.show("showButton");
@@ -128,7 +128,7 @@ The detailed information on configuration options can be found in the [](colorpi
 Select initial color (optional)
 ----------------
 
-You can specify the color that should be selected in the palette after ColorPicker initialization with the help of the colorpicker/api/colorpicker_setvalue_method.md method:
+You can specify the color that should be selected in the palette after ColorPicker initialization with the help of the [](colorpicker/api/colorpicker_setvalue_method.md) method:
 
 ~~~js
 var colorpicker = new dhx.ColorPicker({

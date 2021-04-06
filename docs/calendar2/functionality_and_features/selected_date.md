@@ -5,7 +5,7 @@ title: Work with selected date
 
 ## Initially selected date
 
-If you want to create a calendar with an initially selected date, set the calendar/api/calendar_value_config.md property in the configuration object. The property can accept a value in several formats:
+If you want to create a calendar with an initially selected date, set the [](calendar/api/calendar_value_config.md) property in the configuration object. The property can accept a value in several formats:
 
 - as a Date object
 - as a string
@@ -51,13 +51,13 @@ https://snippet.dhtmlx.com/epjjww3l	Calendar. Value Initialization
 The specified date will be highlighted with a round blue marker in the calendar. By default, no date is selected initially.
 
 :::note
-Please note that the format of date in the Calendar is defined by the dateFormat option. So, check that you've set the format of date you want to use in the calendar both in the calendar/api/calendar_value_config.md and in the calendar/api/calendar_dateformat_config.md property. Otherwise, the default format ("%d/%m/%y") will be used.
+Please note that the format of date in the Calendar is defined by the dateFormat option. So, check that you've set the format of date you want to use in the calendar both in the [](calendar/api/calendar_value_config.md) and in the [](calendar/api/calendar_dateformat_config.md) property. Otherwise, the default format ("%d/%m/%y") will be used.
 :::
 
 
 ## How to set the selected date in the calendar
 
-To select a date in a calendar, call the calendar/api/calendar_setvalue_method.md method. The method has one mandatory parameter - a date that should be selected, which can be passed in several formats:
+To select a date in a calendar, call the [](calendar/api/calendar_setvalue_method.md) method. The method has one mandatory parameter - a date that should be selected, which can be passed in several formats:
 
 - as a Date object
 - as a string
@@ -89,13 +89,13 @@ In case a date has been successfully added into the calendar, the method will re
 {{editor    https://snippet.dhtmlx.com/vmg11002	Calendar. Preset Selected Date}}
 
 
-{{note Please note that the format of date in the Calendar is defined by the calendar/api/calendar_dateformat_config.md option. So, check that you've set the format of date you want to use in the calendar both in the
+{{note Please note that the format of date in the Calendar is defined by the [](calendar/api/calendar_dateformat_config.md) option. So, check that you've set the format of date you want to use in the calendar both in the
 **setValue()** method and in the **dateFormat** property. Otherwise, the default format (**"%d/%m/%y"**) will be used.}}
 
 
 ## How to get the selected date in the calendar
 
-To get the selected date, call the calendar/api/calendar_getvalue_method.md method. The method returns selected date either as a string (default) or as a Date object. 
+To get the selected date, call the [](calendar/api/calendar_getvalue_method.md) method. The method returns selected date either as a string (default) or as a Date object. 
 To get a date as an object, pass the *true* parameter to the method.
 
 ~~~js

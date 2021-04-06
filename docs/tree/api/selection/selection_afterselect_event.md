@@ -5,12 +5,8 @@ title: afterSelect
 
 @short: fires after selecting an item
 
-
 @params:
 - id    string  the id of an item
-
-
-
 
 @example:
 tree.selection.events.on("AfterSelect", function(id) {
@@ -26,11 +22,3 @@ tree.events.on("AfterSelect", function(id) {
     console.log(id);
 });
 ~~~
-
-@relatedapi: 
-tree/api/selection/selection_enable_method.md
-tree/api/tree_selection_config.md 
-
-
-
-

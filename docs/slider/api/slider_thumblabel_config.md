@@ -23,7 +23,7 @@ var slider = new dhx.Slider("slider_container", {
 @descr: 
 
 
-@deprecated: instead of it, you can use the slider/api/slider_tooltip_config.md property:
+@deprecated: instead of it, you can use the [](slider/api/slider_tooltip_config.md) property:
 
 ~~~js
 var slider = new dhx.Slider("slider_container", { 

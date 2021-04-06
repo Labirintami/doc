@@ -7,7 +7,7 @@ description:
 Getting values of controls
 ------------------
 
-You can get current values/states of Form controls with the help of the form/api/form_getvalue_method.md method. By default, this method returns an object  with names or IDs of controls (if the name attribute is not defined in the config of the control) and their values/states.
+You can get current values/states of Form controls with the help of the [](form/api/form_getvalue_method.md) method. By default, this method returns an object  with names or IDs of controls (if the name attribute is not defined in the config of the control) and their values/states.
 
 ~~~js
 // default functionality
@@ -29,7 +29,7 @@ var state = form.getValue(true);
 Setting new values for controls
 ---------------------------
 
-If you want to set new values or states for Form controls on the fly, there is the form/api/form_setvalue_method.md at your disposal. The method takes as a parameter an object with new values/states of controls. This
+If you want to set new values or states for Form controls on the fly, there is the [](form/api/form_setvalue_method.md) at your disposal. The method takes as a parameter an object with new values/states of controls. This
 object should contain a set of *key:value* pairs where *key* is either the name of the control or the control's id (if the name attribute is not defined in the config of the control) and *value* is a new value/state of the control:
 
 ~~~js
@@ -259,7 +259,7 @@ For example, a configuration object for an input with email may look as in:
 ###Validation API
 
 After a user has finished filling out the form according to the specified rules, it's high time to check, whether it is done correctly.
-To validate a form, make use of the form/api/form_validate_method.md method:
+To validate a form, make use of the [](form/api/form_validate_method.md) method:
 
 ~~~js
 var result = form.validate();
@@ -272,7 +272,7 @@ The method should return *true*, if all the fields are filled as required, or *f
 Sending form to server
 -----------------------
 
-To send a form to the server, make use of the form/api/form_send_method.md method. It takes three parameters:
+To send a form to the server, make use of the [](form/api/form_send_method.md) method. It takes three parameters:
 
 <table class="webixdoc_links">
 	<tbody>
@@ -297,7 +297,7 @@ and returns a promise object.
 var send = form.send("myserver.com", "POST");
 ~~~
 
-To control the process of a from sending, you can make use of the related events: form/api/form_beforesend_event.md and form/api/form_aftersend_event.md:
+To control the process of a from sending, you can make use of the related events: [](form/api/form_beforesend_event.md) and [](form/api/form_aftersend_event.md):
 
 ~~~js
 // fires before sending a form to the server
@@ -315,7 +315,7 @@ form.events.on("AfterSend", function(){
 Clearing form
 -----------------
 
-The API of dhtmlxForm provides you with flexible ways of clearing a form. There is the form/api/form_clear_method.md method that clears a form either fully or partially, depending on the passed parameter.
+The API of dhtmlxForm provides you with flexible ways of clearing a form. There is the [](form/api/form_clear_method.md) method that clears a form either fully or partially, depending on the passed parameter.
 
 - "value" - clears only form values
 - "validation" - clears form validation

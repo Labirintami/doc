@@ -13,7 +13,7 @@ For this you need to take the following steps:
 
 - add a new CSS class(es) with desired settings in the &lt;style&gt; section of your HTML page or in your file with styles (don't forget to include your file on the page in this case)
 
-- specify the name of the created CSS class (or names of classes separated by spaces) as the value of the calendar/api/calendar_css_config.md property in the Calendar configuration.
+- specify the name of the created CSS class (or names of classes separated by spaces) as the value of the [](calendar/api/calendar_css_config.md) property in the Calendar configuration.
 
 ```
 There is a possibility to make changes in the look and feel of a calendar. For example, change its background color:
@@ -38,7 +38,7 @@ For this you need to take the following steps:
 </style>
 ~~~
 
-- specify the name of the created CSS class (or names of classes separated by spaces) as the value of the calendar/api/calendar_css_config.md property in the Calendar configuration:
+- specify the name of the created CSS class (or names of classes separated by spaces) as the value of the [](calendar/api/calendar_css_config.md) property in the Calendar configuration:
 
 ~~~js
 var calendar = new dhx.Calendar({

@@ -370,7 +370,7 @@ var grid = new dhx.Grid("grid", {
 
 <h3 id="eventhandling">Event handlers for the template</h3>
 
-Starting from v7.0, you can assign event handlers to HTML elements of a custom template of Grid cells via using the grid/api/grid_eventhandlers_config.md configuration property of Grid, for instance:
+Starting from v7.0, you can assign event handlers to HTML elements of a custom template of Grid cells via using the [](grid/api/grid_eventhandlers_config.md) configuration property of Grid, for instance:
 
 ~~~js
 const grid = new dhx.Grid("grid", {

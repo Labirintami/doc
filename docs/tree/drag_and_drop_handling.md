@@ -33,7 +33,7 @@ var tree = new dhx.Tree("tree_container", {
 
 ## Drop behaviour
 
-You can specify the drag-n-drop behaviour of tree items with the tree/api/tree_dropbehaviour_config.md in the configuration object of a tree. 
+You can specify the drag-n-drop behaviour of tree items with the [](tree/api/tree_dropbehaviour_config.md) in the configuration object of a tree. 
 
 There are three modes of behaviour of a dragged tree item:
 
@@ -50,7 +50,7 @@ There are three modes of behaviour of a dragged tree item:
 
 ## Copying dragged item
 
-Instead of moving a dragged item to a new position in the same or a different tree, you can copy it. Use the tree/api/tree_dragcopy_config.md option in the configuration object of a tree.
+Instead of moving a dragged item to a new position in the same or a different tree, you can copy it. Use the [](tree/api/tree_dragcopy_config.md) option in the configuration object of a tree.
 
 ~~~js
 var treeSource = new dhx.Tree("tree-source", {dragMode: "source", dragCopy: true});

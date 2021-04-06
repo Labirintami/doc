@@ -58,7 +58,7 @@ var popup = new dhx.Popup();
 popup.show("popup_container");
 ~~~
 
-To show a created popup on a page, you should call the popup/api/popup_show_method.md method after initialization of the component. It takes several parameters:
+To show a created popup on a page, you should call the [](popup/api/popup_show_method.md) method after initialization of the component. It takes several parameters:
 
 <table class="webixdoc_links">
 	<tbody>

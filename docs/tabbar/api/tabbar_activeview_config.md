@@ -22,7 +22,7 @@ var tabbar = new dhx.Tabbar("tabbar", {activeView:"3",
 @template:	api_config
 @descr: 
 
-@deprecated: instead of it, you can use the tabbar/api/tabbar_activetab_config.md property:
+@deprecated: instead of it, you can use the [](tabbar/api/tabbar_activetab_config.md) property:
 
 ~~~js
 var tabbar = new dhx.Tabbar("tabbar", {

@@ -21,7 +21,7 @@ tabbar.removeCell(id);
 @descr:
 
 
-@deprecated: instead of it, you can use the tabbar/api/tabbar_removetab_method.md method:
+@deprecated: instead of it, you can use the [](tabbar/api/tabbar_removetab_method.md) method:
 
 ~~~js
 var id = tabbar.getId(0);

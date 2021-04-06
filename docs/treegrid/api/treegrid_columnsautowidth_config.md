@@ -23,9 +23,7 @@ At the moment "number" type defines the number of the last column that should be
 @related: treegrid/configuration.md#autowidthforcolumns
 treegrid/initialization.md#initializetreegrid
 
-
-
-@deprecated: instead of it, use the treegrid/api/treegrid_adjust_config.md property:
+@deprecated: instead of it, use the [](treegrid/api/treegrid_adjust_config.md) property:
 
 ~~~js
 var treegrid = new dhx.TreeGrid("treegrid_container", {

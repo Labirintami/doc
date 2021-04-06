@@ -18,7 +18,7 @@ tree.events.on("itemContextMenu", function(id, e){
 @descr:
 
 
-@deprecated: instead of it, you can use the tree/api/tree_itemrightclick_event.md method:
+@deprecated: instead of it, you can use the [](tree/api/tree_itemrightclick_event.md) method:
 ~~~js
 tree.events.on("itemRightClick", function(id, e){
     console.log("The item with the id "+ id +" was right-clicked.");

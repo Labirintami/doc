@@ -21,7 +21,7 @@ var grid = new dhx.Grid("grid_container", {
 @descr: 
 At the moment "number" type defines the number of the last column that should be auto adjusted.
 
-@deprecated: instead of it, use the grid/api/grid_adjust_config.md property:
+@deprecated: instead of it, use the [](grid/api/grid_adjust_config.md) property:
 
 ~~~js
 var grid = new dhx.Grid("grid_container", {

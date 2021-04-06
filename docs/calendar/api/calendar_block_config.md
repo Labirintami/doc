@@ -35,7 +35,7 @@ calendar/04_customization/04_blocked.html
 @related:
 calendar/configuring.md#disableddates
 
-@deprecated: instead of it, you can use the calendar/api/calendar_disableddates_config.md property:
+@deprecated: instead of it, you can use the [](calendar/api/calendar_disableddates_config.md) property:
 ~~~js
 var disabledDates = [ new Date(2019,0,8), new Date(2019,0,10) ];
 

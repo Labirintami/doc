@@ -37,7 +37,7 @@ The items containing this parameter will be the objects for dynamic loading.
 	</tree>
 ~~~
 
-The api/dhtmlxtree_setxmlautoloading.md method switches the dynamic loading on in the tree:
+The [](api/dhtmlxtree_setxmlautoloading.md) method switches the dynamic loading on in the tree:
 
 ~~~js
 tree.setXMLAutoLoading(url);
@@ -66,7 +66,7 @@ dhtmlxTree/samples/12_loading_processing_data/13_tree_dyn_loading.html
 This functionality is available in the PRO version only.
 }}
 
-The api/dhtmlxtree_setxmlautoloadingbehaviour.md method is responsible for specifying the way according 
+The [](api/dhtmlxtree_setxmlautoloadingbehaviour.md) method is responsible for specifying the way according 
 to which the server-side URL is constructed during dynamic loading calls:
 
 ~~~js

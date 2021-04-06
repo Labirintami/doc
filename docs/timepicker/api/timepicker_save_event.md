@@ -20,7 +20,7 @@ timepicker.events.on("Save", function(){
 
 @relatedsample: timepicker/05_events/01_events.html
 
-@deprecated: instead of it, use the timepicker/api/timepicker_apply_event.md event:
+@deprecated: instead of it, use the [](timepicker/api/timepicker_apply_event.md) event:
 
 ~~~js
 timepicker.events.on("Apply", function(){

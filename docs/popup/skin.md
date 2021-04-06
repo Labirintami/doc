@@ -13,7 +13,7 @@ The library provides 4 predefined skins:
 - "dhx_web"
 - "dhx_terrace"
 
-To set the skin for a dhtmlxPopup object, use the api/dhtmlxpopup_setskin.md method.
+To set the skin for a dhtmlxPopup object, use the [](api/dhtmlxpopup_setskin.md) method.
 
 <br/>
 

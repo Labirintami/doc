@@ -26,7 +26,7 @@ A returned object looks like this:
 {gravity: true, header: "Cell 1", id: "1"}
 ~~~
 
-@deprecated: instead of it, you can use the layout/api/layout_getcell_method.md method:
+@deprecated: instead of it, you can use the [](layout/api/layout_getcell_method.md) method:
 ~~~js
 layout.getcell("toolbar");
 ~~~

@@ -21,7 +21,7 @@ dataview/api/dataview_selection_config.md
 - added in v6.5
 - deprecated in v7.0
 
-@deprecated: instead of it, you can use the dataview/api/selection/selection_disable_method.md method of the selection object:
+@deprecated: instead of it, you can use the [](dataview/api/selection/selection_disable_method.md) method of the selection object:
 ~~~js
 dataview.selection.disable();
 ~~~
