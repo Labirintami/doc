@@ -570,6 +570,7 @@ module.exports = {
                         "form/api/form_beforevalidate_event",
                         "form/api/form_change_event",
                         "form/api/form_click_event",
+                        "form/api/form_keydown_event",
                       ],
                     },
                     {
