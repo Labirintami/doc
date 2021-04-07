@@ -153,23 +153,44 @@ const updateFileData = file => {
 	}).catch(e => console.log("\x1b[31m%s\x1b[0m", e));
 };
 
+function getAllFiles(path, $files) {
+	$files = $files || [];
+	const files = fs.readdirSync(path);
+	for (const i in files) {
+		const currentPath = path + "/" + files[i];
+		if (fs.statSync(currentPath).isDirectory()) {
+			getAllFiles(currentPath, $files);
+		} else if ((files[i].includes(".md") || files[i].includes(".mdx") || !files[i].includes("."))) {
+			$files.push(currentPath);
+		}
+	}
+	return $files;
+}
+
+function clearFileContent(path) {
+	const fileData = fs.readFileSync(path, 'utf-8');
+	const newData = fileData.replace(/---\s+((.*: .*\s+)+)---/gmi, str => str);
+	fs.writeFileSync(path, newData, 'utf-8');
+}
+
 function setFileId(file) {
 	const fileData = fs.readFileSync(file.filePath, 'utf-8');
 	const newData = fileData.replace(/---\s+((.*: .*\s+)+)---/gmi, str => {
 		const findeId = /\id: (.*)/m
-		// console.log(`id: ${file.filePath.replace(/..[/]docs[/][/]/m, '').replace(/.md/m, '')}`)
 		if (findeId.exec(str)) {	
-			// return str.replace(findeId, `id: ${file.filePath.replace(/..[/]docs[/][/]/m, '').replace(/.md/m, '')}`);
 			return str.replace(findeId, `id: ${file.filePath.replace(/^.*[\\\/]/, '').replace(/.md/m, '')}`);
 		} else {
-			// return str.replace(/---\s+/m, `--- \nid: ${file.filePath.replace(/..[/]docs[/][/]/m, '').replace(/.md/m, '')}\n`);
 			return str.replace(/---\s+/m, `--- \nid: ${file.filePath.replace(/^.*[\\\/]/, '').replace(/.md/m, '')}\n`);
 		}
 	});
 	fs.writeFileSync(file.filePath, newData, 'utf-8');
 }
 
-getFiles("../docs/").forEach(file => {
-	// updateFileData(file);
-	setFileId(file);
+// getFiles("../docs/").forEach(file => {
+// 	updateFileData(file);
+// 	setFileId(file);
+// });
+
+getAllFiles("../docs").forEach(file => {
+	clearFileContent(file);
 });
