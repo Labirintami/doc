@@ -166,4 +166,4 @@ grid.data.parse(dataset);
 
 {{editor	https://snippet.dhtmlx.com/svkb27d5	Grid. External Data Loading}}
 
-Detailed information on loading data into Grid is given in the article grid/data_loading.md.
+Detailed information on loading data into Grid is given in the article [](grid/data_loading.md).

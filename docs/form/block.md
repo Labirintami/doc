@@ -66,7 +66,7 @@ You can easily add a Block control during initialization of a form:
 }
 ~~~
 
-###Attributes
+### Attributes
 
 You can provide the following attributes in the configuration object of a block:
 

@@ -373,5 +373,3 @@ var menu2 = new dhx.Menu(document.body);
 menu2.data.parse(state);
 ~~~
 
-@todo: check
-

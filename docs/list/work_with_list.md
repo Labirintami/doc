@@ -4,8 +4,6 @@ title: Work with List
 
 ---          
 
-
-
 Setting focus on item
 --------------------------
 
@@ -45,7 +43,7 @@ Using Data Collection API
 
 You can manipulate List items with the help of the [Data collection API](data_collection/api/refs/datacollection.md). 
 
-###Adding items into List
+### Adding items into List
 
 It is possible to add more items into the initialized List on the fly. Use the **add()** method of Data Collection. It takes two parameters:
 
@@ -137,7 +135,6 @@ list.data.sort({
 {{editor	https://snippet.dhtmlx.com/876meu9a	List. Sort}}
 
 Sorting can be applied to any attribute of a data item.
-
 
 Using Selection API
 -------------

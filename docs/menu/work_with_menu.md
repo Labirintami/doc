@@ -71,7 +71,7 @@ To check if an item of Menu is disabled, call the [isDisabled()](menu/api/menu_i
 		</tr>
     </tbody>
 </table>
-<br/>
+
 ~~~js
 menu.isDisabled("1"); // -> true/false
 ~~~

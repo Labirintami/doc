@@ -212,7 +212,7 @@ You can style Button by adding custom CSS classes in the **css** property:
 
 Where "best_button" can be a CSS class like this:
 
-~~~css
+~~~html
 .best_button{
     background-color:cornflowerblue;
 }

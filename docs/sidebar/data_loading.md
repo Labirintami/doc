@@ -411,7 +411,3 @@ The **title** object has the following properties:
 	tooltip:	"Current collection"	
 }
 ~~~
-
-
-@todo:
-check, add links to api and samples

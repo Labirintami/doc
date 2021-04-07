@@ -20,7 +20,7 @@ sidebar.data.add({
 });
 ~~~
 
-###Attributes
+### Attributes
 
 You can provide the following **attributes** in the configuration object of an imageButton:
 

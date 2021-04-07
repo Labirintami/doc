@@ -117,6 +117,3 @@ list.data.load(lazyDataProxy);
 You need to set the virtual:true property in the configuration object of List
 
 {{note The following methods of Data Collection will not work until all data are loaded into Grid: add, remove, copy, move, update, changeId, sort, filter.}}
-
-
-

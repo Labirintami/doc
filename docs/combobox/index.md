@@ -14,7 +14,7 @@ Check [online samples for dhtmlxComboBox](https://docs.dhtmlx.com/suite/samples/
 
 ## API reference
 
-- [](combo/api/refs/combobox.md)
+- [](combo/api/api_overview.md)
 
 ## Related resources
 
@@ -30,7 +30,6 @@ Check [online samples for dhtmlxComboBox](https://docs.dhtmlx.com/suite/samples/
 - [](work_with_combo.md)
 - [](customization.md)
 - [](handling_events.md)	  
-
 
 ## Other
 

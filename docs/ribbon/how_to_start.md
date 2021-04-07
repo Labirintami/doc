@@ -129,5 +129,5 @@ var ribbon = new dhx.Ribbon("ribbon_container", {css: "dhx_widget--bordered"});
 ribbon.data.parse(data);
 ~~~
 
-Detailed information on loading data into Ribbon is given in the article ribbon/loading_json.md.
+Detailed information on loading data into Ribbon is given in the article [](ribbon/loading_json.md).
 

@@ -3,8 +3,6 @@ sidebar_label: Data Loading
 title: Data Loading
 ---          
 
-
-
 There are two ways of loading data into dhtmlxChart:
 
 - load data from an external file
@@ -122,5 +120,3 @@ chart2.data.parse(state);
 ~~~
 
 {{editor    https://snippet.dhtmlx.com/rqvvpopp	Chart. Serialize}}
-
-

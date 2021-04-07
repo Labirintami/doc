@@ -45,8 +45,7 @@ toolbar.data.add(
 );
 ~~~
 
-
-###Attributes
+### Attributes
 
 The **selectButton** object has the following properties:
 
@@ -103,11 +102,7 @@ The **selectButton** object has the following properties:
     </tbody>
 </table>
 
-
-
 Operations with a button
 -----------------------
 
 You can perform operations over the SelectButton control with the help of the available [Toolbar API](toolbar/api/refs/toolbar.md) and [Tree Collection API](tree_collection/api/refs/treecollection.md).
-
-

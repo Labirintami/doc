@@ -26,6 +26,7 @@ dataview.selection.disable();
 
 Here is a list of events that you can apply while working with selection of items:
 
+todotw возможно отправлять на страницу с перечислениями
 - dataview/api/selection/selection_afterselect_event.md
 - dataview/api/selection/selection_afterunselect_event.md
 - dataview/api/selection/selection_beforeselect_event.md

@@ -43,7 +43,7 @@ var form = new dhx.Form("form_container", {
 
 The tables below demonstrate using the possible values for the **align** property in Form:
 
-``` todo
+``` todo скорее всего можно просто прикрепить подходящий семпл
 <style>
 	table.my_table {
 		width: 100%;  

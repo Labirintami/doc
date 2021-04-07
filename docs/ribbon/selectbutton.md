@@ -7,7 +7,6 @@ This is a button that contains a drop-down list of options.
 
 ![DHX Select Button](../assets/ribbon/select_button.png)
 
-
 ## Adding SelectButton
 
 A new SelectButton can be created with the help of the **add()** method of Tree Collection:
@@ -38,7 +37,7 @@ ribbon.data.add({
 
 {{editor	https://snippet.dhtmlx.com/5acqc24m	Ribbon. Select Button}}
 
-###Attributes
+### Attributes
 
 The **selectButton** object has the following properties:
 

@@ -83,5 +83,3 @@ var dataview2 = new dhx.DataView(document.body);
 // parsing the state of dataview1 into dataview2
 dataview2.data.parse(state);
 ~~~
-
-

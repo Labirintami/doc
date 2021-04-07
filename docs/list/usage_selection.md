@@ -24,7 +24,7 @@ list.selection.disable();
 
 
 Here is a list of events that you can apply while working with selection of items:
-
+todotw возможно отправлять на страницу со списком апи
 - list/api/selection/selection_afterselect_event.md
 - list/api/selection/selection_afterunselect_event.md
 - list/api/selection/selection_beforeselect_event.md

@@ -1585,12 +1585,15 @@ module.exports = {
               ],
             },
             "layout/init",
-
-            "layout/configuration",
+            {
+              type: "category",
+              label: "Configuration",
+              items: [
             "layout/layout_structure",
             "layout/layout_patterns",
             "layout/cell_configuration",
-
+              ]
+            },
             "layout/work_with_layout",
             "layout/customization",
             "layout/events",
@@ -1967,7 +1970,6 @@ module.exports = {
               type: "category",
               label: "List of Ribbon controls",
               items: [
-                "ribbon/controls",
                 "ribbon/block",
                 "ribbon/button",
                 "ribbon/customhtmlbutton",

@@ -122,8 +122,5 @@ var sidebar = new dhx.Sidebar("sidebar_container", {css: "dhx_widget--border_rig
 sidebar.data.parse(data);
 ~~~
 
-Detailed information on loading data into Sidebar is given in the article sidebar/data_loading.md.
-
-
-
+Detailed information on loading data into Sidebar is given in the article [](sidebar/data_loading.md).
 

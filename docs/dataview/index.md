@@ -13,7 +13,7 @@ Check [online samples for dhtmlxDataView](https://docs.dhtmlx.com/suite/samples/
 
 ## API reference
 
-- [](dataview/api/refs/dataview.md)
+- [](dataview/api/api_overview.md)
 
 
 ## Related resources

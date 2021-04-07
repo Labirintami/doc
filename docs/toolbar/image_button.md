@@ -21,7 +21,7 @@ toolbar.data.add({
 });
 ~~~
 
-###Attributes
+### Attributes
 
 You can provide the following **attributes** in the configuration object of an imageButton:
 
@@ -86,10 +86,8 @@ You can provide the following **attributes** in the configuration object of an i
     </tbody>
 </table>
 
-
 ## Working with ImageButton
 
 Just like toolbar/button.md, imageButton can be hidden, disabled and can have a tooltip. You can also manipulate the states of a two state imageButton.
 
 Check the full list of available operations in the [Toolbar API](toolbar/api/refs/toolbar.md) and [Tree Collection API](tree_collection/api/refs/treecollection.md).
-

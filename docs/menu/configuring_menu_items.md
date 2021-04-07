@@ -33,7 +33,6 @@ menu.data.add({
 
 #### Attributes
 
-
 You can provide the following **attributes** in the configuration object of a MenuItem control:
 
 <table class="webixdoc_links">
@@ -99,9 +98,7 @@ NavItem
 
 This is a default control for navigation-related components, can contain any other controls as nested items. 
 
-
-###Adding NavItem
-
+### Adding NavItem
 
 A navItem can be easily added to a menu with the help of the **add()** method of Tree Collection:
 
@@ -113,7 +110,7 @@ menu.data.add({
 
 {{editor	https://snippet.dhtmlx.com/uhv64cm7	Menu. Navigation Type}}
 
-####Attributes
+#### Attributes
 
 <table class="webixdoc_links">
 	<tbody>
@@ -243,7 +240,7 @@ menu.disable(id);
 ~~~
 
 
-##Custom HTML
+## Custom HTML
 
 This is an item that contains any custom HTML content (for example, an image, icon or other element).
 
@@ -265,7 +262,7 @@ menu.data.add({
 
 {{editor	https://snippet.dhtmlx.com/nk65jfmx	Menu. Custom HTML}}
 
-###Attributes
+### Attributes
 
 <table class="webixdoc_links">
 	<tbody>
@@ -333,8 +330,6 @@ Separator can have two attributes:
     </tbody>
 </table>
 
-
-
 Spacer
 -----------
 
@@ -374,4 +369,3 @@ Spacer can have two attributes:
 
 @todo:
 add links to api and to samples, complete the list of attrs for item
-

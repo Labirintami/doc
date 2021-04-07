@@ -116,7 +116,7 @@ var layout = new dhx.Layout("layout_container", {cols});
 ~~~
 
 
-###Configuration properties:
+### Configuration properties:
 
 ### Cell object
 

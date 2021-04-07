@@ -21,8 +21,7 @@ sidebar.data.add({
 });
 ~~~
 
-
-###Attributes
+### Attributes
 
 The **selectButton** object has the following properties:
 
@@ -72,14 +71,8 @@ The **selectButton** object has the following properties:
 </table>
 
 
-
 Operations with a button
 -----------------------
 
 You can perform operations over the SelectButton control with the help of the available [Sidebar API](sidebar/api/refs/sidebar.md) and [Tree Collection API](tree_collection/api/refs/treecollection.md).
-
-
-@todo:
-add link to sample and an image<br/>
-
 

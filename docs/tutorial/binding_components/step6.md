@@ -9,11 +9,11 @@ The last part of this tutorial will teach you how to bind Grid to Toolbar, Windo
 
 To implement interaction between Grid and other components we will use custom functions described below.
 
-##Creating custom functions
+## Creating custom functions
 
 In this step we consider how to perform particular tasks, such as adding, editing and removing tasks. As we will need these solutions in several occasions, it is convenient to use functions.
 
-###openAddWindow() function
+### openAddWindow() function
 
 The first function we will describe is used for adding a new item. The function will perform the following actions:
 
@@ -31,7 +31,7 @@ function openAddWindow(){
 
 <img style="margin: 12px" src="tutorial/binding_components/adding_item.png"/>
 
-###openEditWindow() function
+### openEditWindow() function
 
 In our app we consider several ways to open the editing window. They are:
 
@@ -62,7 +62,7 @@ function openEditWindow(row){
 };
 ~~~
 
-###deleteItem() function
+### deleteItem() function
 
 Now, let's add a function to remove rows from the grid. The logic of the function is shown below:
 
@@ -88,10 +88,9 @@ To make sure that after deleting the item, selection is automatically set to the
 With the help of the **getLength()** method we find out the length of the array. After that we compare the array length and the deleted item index.
 If it was the last item, selection is set to the new item, which is currently the last item in the array. Otherwise, we set selection to the new item, which replaces the deleted item.
 
-
 **The custom functions, that we've described above, will be used below to edit grid with the help of other components.**
 
-##Linking Toolbar Buttons and Grid
+## Linking Toolbar Buttons and Grid
 
 We've [already discussed](tutorial/basic_application/step5.md) how to bind Toolbar to Grid via the **Click** event of the Toolbar. 
 So we suggest to bind the buttons added in the [previous step](tutorial/binding_components/step5.md) to Grid in the same way.
@@ -121,7 +120,7 @@ toolbar.events.on("Click", function(id,e){
 
 For details about Toolbar events, see the [Event Handling](toolbar/handling_events.md) article.  
 
-##Linking Window and Grid
+## Linking Window and Grid
 
 After double-click on a cell in the grid the editing window will appear. To call it, we will use the <b>CellDblClick()</b> event of the Grid:
 
@@ -131,7 +130,7 @@ grid.events.on("CellDblClick", function(row,column,e){
 });
 ~~~
 
-##Linking Context Menu and Grid
+## Linking Context Menu and Grid
 
 When you press the "Edit" item in the ContextMenu the editing window will appear as well. To implement this, we need to bind the context menu and the grid by using the <b>Click()</b> event of ContextMenu:
 

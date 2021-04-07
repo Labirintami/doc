@@ -16,7 +16,7 @@ For this you need to take the following steps:
 
 - add a new CSS class(es) with desired settings in the &lt;style&gt; section of your HTML page or in your file with styles (don't forget to include your file on the page in this case)
 
-~~~css
+~~~html
 <style>
     .my_first_class {
         /*some styles*/
@@ -38,7 +38,7 @@ var chart = new dhx.Chart({
 
 For example:
 
-~~~css
+~~~html
 <style>
     .custom-class .dhx_chart-graph_area {
         fill:#444;

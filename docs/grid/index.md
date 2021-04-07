@@ -13,7 +13,7 @@ Check [online samples for dhtmlxGrid](https://docs.dhtmlx.com/suite/samples/grid
 
 ## API Reference
 
-- [](grid/api/refs/grid.md)
+- [](grid/api/api_overview.md)
 
 ## Related resources
 

@@ -122,7 +122,7 @@ This section will give you the idea of JSON format templates for separate Ribbon
 
 {{editor	https://snippet.dhtmlx.com/lek4v9m7	Ribbon. Config Data}}
 
-###Block
+### Block
 
 The **Block** object has the following properties:
 
@@ -344,7 +344,6 @@ The **customHTML** object has the following properties:
 }
 ~~~
 
-
 ### ImageButton
 
 The **imageButton** object has the following properties:
@@ -493,7 +492,7 @@ The **input** object has the following properties:
 }
 ~~~
 
-###NavItem
+### NavItem
 
 The **navItem** object has the following properties:
 
@@ -581,7 +580,6 @@ The **navItem** object has the following properties:
     icon:"dxi-check"
 }
 ~~~
-
 
 ### SelectButton
 
@@ -758,4 +756,3 @@ The **title** object has the following properties:
 	tooltip:	"Current collection"	
 }
 ~~~
-

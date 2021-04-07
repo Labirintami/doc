@@ -27,9 +27,7 @@ To add dhtmlxPopup into an application, you need to take the following simple st
 </html>
 ~~~
 
-
-Include source files
---------------------
+## Include source files
 
 Create an HTML file and place full paths to JS and CSS files of the dhtmlxSuite library into the header of the file. The files are:
 
@@ -41,15 +39,13 @@ Create an HTML file and place full paths to JS and CSS files of the dhtmlxSuite 
 <link rel="stylesheet" href="../../codebase/suite.css">
 ~~~
 
-Initialize Popup
----------------------
+## Initialize Popup
 
 Initialize Popup with the `dhx.Popup` object constructor. 
 
 ~~~js
 <div id="popup_container"></div>
 ~~~
-
 
 ~~~js
 // creating dhtmlxPopup
@@ -60,6 +56,7 @@ popup.show("popup_container");
 
 To show a created popup on a page, you should call the [](popup/api/popup_show_method.md) method after initialization of the component. It takes several parameters:
 
+todotw нужно будет удалить эту таблицу, это дубль информации, к тому же таблица ломает следующий заголовок
 <table class="webixdoc_links">
 	<tbody>
         <tr>
@@ -78,8 +75,7 @@ To show a created popup on a page, you should call the [](popup/api/popup_show_m
     </tbody>
 </table> 
     
-Set content
----------------
+### Set content
 
 There are several ways of adding content into the dhtmlxPopup:
 

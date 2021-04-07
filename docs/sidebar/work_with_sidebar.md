@@ -6,8 +6,6 @@ title: Work with Sidebar
 Adding a tooltip to a control
 --------------------
 
-
-
 You can attach a tooltip to a control. For this you need to provide the **tooltip** property with the tooltip text in the control object before the sidebar initialization:
 
 ~~~js
@@ -95,8 +93,6 @@ To check if an item of Sidebar is disabled, call the [isDisabled()](sidebar/api/
 		</tr>
     </tbody>
 </table>
-<br/>
-
 
 ~~~js
 sidebar.isDisabled("1"); // -> true/false
@@ -123,7 +119,6 @@ To select a particular Sidebar item, make use of the [select()](sidebar/api/side
 		</tr>
     </tbody>
 </table>
-<br/>
 
 ~~~js
 sidebar.select("categoryPost");
@@ -191,9 +186,6 @@ sidebar.toggle();
 {{editor	https://snippet.dhtmlx.com/wll2h9nd	Sidebar. Toggle}}
 
 
-
-
-
 Using Tree collection API
 ---------------
 
@@ -238,8 +230,7 @@ sidebar.data.add({
 
 Templates for Sidebar controls in the JSON format are given [here](sidebar/data_loading.md#jsonformattemplates).
 
-
-###Updating config of controls
+### Updating config of controls
 
 You can change config options of the control via the **update()** method of Tree Collection. It takes two parameters:
 
@@ -255,8 +246,6 @@ You can change config options of the control via the **update()** method of Tree
 		</tr>
     </tbody>
 </table>
-<br/>
-
 
 For example, you can change the icon of a control:
 
@@ -268,7 +257,7 @@ sidebar.data.update("add", {
 
 {{editor	https://snippet.dhtmlx.com/p1zu63le	Sidebar. Data Update}}
 
-###Removing controls from Sidebar
+### Removing controls from Sidebar
 
 To remove a control, make use of the **remove()** method of Tree Collection. Pass the id of the control that should be removed to the method:
 
@@ -286,11 +275,7 @@ You can move menu controls to different positions with the **move()** method of 
 sidebar.data.move("2",0);
 ~~~
 
-<br/>
-
 {{note Check the full list of [Tree collection API](tree_collection/api/refs/treecollection.md).}}
 
 @todo:
 check 
-
-

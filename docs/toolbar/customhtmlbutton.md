@@ -22,8 +22,7 @@ toolbar.data.add({
 });
 ~~~
 
-
-###Attributes
+### Attributes
 
 <table class="webixdoc_links">
 	<tbody>
@@ -54,13 +53,7 @@ toolbar.data.add({
     </tbody>
 </table>
 
-
-
 Working with Custom HTML
 -----------------------
 
 You can perform operations over the **Custom HTML** item with the help of the available [Toolbar API](toolbar/api/refs/toolbar.md) and [Tree Collection API](tree_collection/api/refs/treecollection.md).
-
-
-
-

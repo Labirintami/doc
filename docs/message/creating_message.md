@@ -111,7 +111,7 @@ dhx.tooltip("Current Value 1", {node: "first", position: "center"});
 
 {{editor	https://snippet.dhtmlx.com/c6jm8if6	Message. Show Tooltip}}
 
-###Configuration properties
+### Configuration properties
 
 There is a set of properties you can specify for message boxes to optimize their configuration for your needs. Read details in the [related article](message/configuration.md).
 

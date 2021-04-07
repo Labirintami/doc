@@ -11,7 +11,7 @@ Check [online samples for dhtmlxLayout](https://docs.dhtmlx.com/suite/samples/la
 
 ## API reference
 
-- layout/api/refs/layout.md
+- [](layout/api/api_overview.md)
 
 ## Related resources
 
@@ -22,12 +22,12 @@ Check [online samples for dhtmlxLayout](https://docs.dhtmlx.com/suite/samples/la
 
 You can read the following articles to find out how to add Layout on the page and work with it.
 
--[](init.md)
--[](configuration.md)
--[](work_with_layout.md)
--[](customization.md)
--[](events.md)
+- [](init.md)
+- [](configuration.md)
+- [](work_with_layout.md)
+- [](customization.md)
+- [](events.md)
 
 ## Other
 
--[](migration.md)
+-[](../migration.md)

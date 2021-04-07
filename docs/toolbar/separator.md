@@ -19,8 +19,7 @@ toolbar.data.add({
 });
 ~~~
 
-
-###Attributes
+### Attributes
 
 Separator can have two attributes:
 
@@ -49,7 +48,4 @@ toolbar.hide(id);
 
 {{editor	https://snippet.dhtmlx.com/cldp89u4	Toolbar. Hide/Show}}
 
-<br/>
-
 Check the full list of available operations in the [Toolbar API](toolbar/api/refs/toolbar.md) and [Tree Collection API](tree_collection/api/refs/treecollection.md).
-

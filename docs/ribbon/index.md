@@ -11,7 +11,7 @@ Check [online samples for dhtmlxRibbon](https://docs.dhtmlx.com/suite/samples/ri
 
 ## API reference
 
-- ribbon/api/refs/ribbon.md
+- [](ribbon/api/api_overview.md)
 
 ## Related resources
 

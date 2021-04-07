@@ -3,12 +3,9 @@ sidebar_label: Context Menu
 title: Context Menu
 ---          
 
-
-
 dhtmlxContextMenu is a component that provides an easy way to add a contextual menu to projects. It will be of great help for frequently used actions in web sites, help systems, etc.
 
-<br/>
-![DHX Context Menu](menu/context_menu.png)
+![DHX Context Menu](../assets/menu/context_menu.png)
 
 {{editor	https://snippet.dhtmlx.com/mgya9p1l	Menu. Basic Context Menu Initialization}}
 
@@ -113,8 +110,3 @@ document.querySelector('#menu').oncontextmenu = function(e) {
     cmenu.showAt(e);
 }
 ~~~
-
-
-@todo: 
-- check and improve
-

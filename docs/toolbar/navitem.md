@@ -20,7 +20,7 @@ toolbar.data.add({
 });
 ~~~
 
-###Attributes
+### Attributes
 
 <table class="webixdoc_links">
 	<tbody>
@@ -95,7 +95,6 @@ toolbar.data.add({
     </tbody>
 </table>
 
-
 ## Adding an icon
 
 A navItem can have an icon which is set through the corresponding option **icon**:
@@ -168,4 +167,3 @@ You can add a tooltip to a navItem:
 
 {{editor	https://snippet.dhtmlx.com/105levtd	Toolbar. Tooltips}}
 
- 

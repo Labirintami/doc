@@ -23,7 +23,7 @@ toolbar.data.add({
 });
 ~~~
 
-###Attributes
+### Attributes
 
 <table class="webixdoc_links">
 	<tbody>
@@ -85,7 +85,6 @@ toolbar.data.add({
 		</tr>
     </tbody>
 </table>
-
 
 ## Adding an icon
 
@@ -150,7 +149,3 @@ You can add a tooltip to a menuItem:
     tooltip:"Click me and find out why"  /*!*/
 }
 ~~~
-
-
-@todo:
-improve descr

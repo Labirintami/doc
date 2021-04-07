@@ -20,7 +20,7 @@ sidebar.data.add({
 
 {{editor	https://snippet.dhtmlx.com/potv580p	Sidebar. Navigation Items}}
 
-###Attributes
+### Attributes
 
 <table class="webixdoc_links">
 	<tbody>
@@ -156,7 +156,3 @@ You can add a tooltip to a navItem:
     tooltip:"Click me and find out why"  /*!*/
 }
 ~~~
-
-
-@todo:
-improve descr

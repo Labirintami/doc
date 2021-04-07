@@ -3,8 +3,6 @@ sidebar_label: Event Handling
 title: Event Handling
 ---          
 
-
-
 ## Attaching event listeners
 
 The user can add any user-defined handler to any of the available events. To do this, the user can use the **combo.events.on()** method with the following parameters:
@@ -21,7 +19,7 @@ The user can add any user-defined handler to any of the available events. To do 
 		</tr>
     </tbody>
 </table>
-<br/> 
+
 ~~~js
 combo.events.on("Open", function() {
 	// your logic here
