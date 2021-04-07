@@ -169,8 +169,11 @@ function getAllFiles(path, $files) {
 
 function clearFileContent(path) {
 	const fileData = fs.readFileSync(path, 'utf-8');
-	const newData = fileData.replace(/---\s+((.*: .*\s+)+)---/gmi, str => str);
-	fs.writeFileSync(path, newData, 'utf-8');
+	let data;
+	fileData.replace(/---\s+((.*: .*\s+)+)---/gmi, str => {
+		data = str;
+	});
+	data && fs.writeFileSync(path, data, 'utf-8');
 }
 
 function setFileId(file) {
@@ -191,6 +194,6 @@ function setFileId(file) {
 // 	setFileId(file);
 // });
 
-getAllFiles("../docs").forEach(file => {
-	clearFileContent(file);
+getAllFiles("../docs").forEach(path => {
+	clearFileContent(path);
 });
