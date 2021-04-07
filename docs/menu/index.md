@@ -10,7 +10,7 @@ dhtmlxMenu is a component that provides an easy way to add a drop down menu to u
 
 ## API reference
 
-- menu/api/refs/menu.md
+- [](menu/api/api_overview.md)
 
 ## Related resources
 
@@ -21,24 +21,10 @@ dhtmlxMenu is a component that provides an easy way to add a drop down menu to u
 
 You can read the following articles to find out how to add Menu on the page and work with it.
 
-<table class='guide-table'>
-    <tbody>
-	<tr>
-		<td id="data" class='topics'>		    
-		    <ul id="data_sublist">                    
-                <li>menu/how_to_start.md</li>
-            	<li>menu/configuring_menu_items.md</li>                
-                <li>menu/from_script.md</li>                        
-           		<li>menu/work_with_menu.md</li>	
-                <li>menu/creating_context_menu.md</li>
-                <li>menu/fa_icons.md</li>                 
-                <li>menu/handling_events.md</li>              
-            </ul>
-        </td>
-        <td class='topic_description'>Covers common information you may need while working with Menu.</td>
-    </tr>
-    </tbody>
-</table>
-
-
-
+- [](menu/how_to_start.md)
+- [](menu/configuring_menu_items.md)                
+- [](menu/from_script.md)                        
+- [](menu/work_with_menu.md)	
+- [](menu/creating_context_menu.md)
+- [](menu/fa_icons.md)                 
+- [](menu/handling_events.md)   

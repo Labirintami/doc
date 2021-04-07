@@ -65,7 +65,7 @@ There is a possibility to make changes in the look and feel of a combo box. For 
 
 - add a new CSS class(es) with desired settings in the &lt;style&gt; section of your HTML page or in your file with styles (don't forget to include your file on the page in this case)
 
-~~~js
+~~~css
 <style>
 	.my_first_class {
 		/*some styles*/

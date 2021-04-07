@@ -13,7 +13,7 @@ Being a great tool for fast and handy navigation, it will make work with your ap
 
 ## API reference
 
-- toolbar/api/refs/toolbar.md
+- [](toolbar/api/api_overview.md)
 
 ## Related resources
 
@@ -22,42 +22,26 @@ Being a great tool for fast and handy navigation, it will make work with your ap
 
 ## Guides
 
-<table class='guide-table'>
-	<tbody>
-	<tr>
-		<td id="data" class='topics'>
-		    <h4>
-		        Working with Toolbar
-		    </h4>
-		    <ul id="data_sublist" >            		
-                <li>toolbar/how_to_start.md</li>                
-                <li>toolbar/load_data.md</li> 
-                <li>toolbar/common_methods.md</li>
-                <li>toolbar/customization.md</li>
-                <li>toolbar/handling_events.md</li>
-            </ul>
-        </td>
-		<td class='topic_description'>Describes the steps of initializing Toolbar and working with it.</td>
-	</tr>
-	<tr>
-		<td id="manipulations" class='topics'>
-		    <h4>
-		        Toolbar Controls
-		    </h4>
-		    <ul id="manipulations_sublist">                 	
-                <li>toolbar/button.md</li>
-                <li>toolbar/customhtmlbutton.md</li>                                                          
-                <li>toolbar/image_button.md</li>   
-                <li>toolbar/input.md</li> 
-                <li>toolbar/navitem.md</li>
-                <li>toolbar/selectbutton.md</li> 
-                <li>toolbar/separator.md</li> 
-                <li>toolbar/spacer.md</li> 
-                <li>toolbar/text.md</li>                  
-            </ul>
-        </td>
-		<td class='topic_description'>Discusses the creation of Toolbar controls and the possibilities of manipulating them.</td>
-    </tr>
-    </tbody>
-</table>
+### Working with Toolbar
 
+Describes the steps of initializing Toolbar and working with it.
+
+- [](toolbar/how_to_start.md)                
+- [](toolbar/load_data.md) 
+- [](toolbar/common_methods.md)
+- [](toolbar/customization.md)
+- [](toolbar/handling_events.md)
+
+### Toolbar Controls
+
+Discusses the creation of Toolbar controls and the possibilities of manipulating them.
+
+- [](toolbar/button.md)
+- [](toolbar/customhtmlbutton.md)                                                          
+- [](toolbar/image_button.md)   
+- [](toolbar/input.md) 
+- [](toolbar/navitem.md)
+- [](toolbar/selectbutton.md) 
+- [](toolbar/separator.md) 
+- [](toolbar/spacer.md) 
+- [](toolbar/text.md)  
