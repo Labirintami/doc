@@ -1307,6 +1307,34 @@ module.exports = {
                     },
                   ],
                 },
+                {
+                  type: "category",
+                  label: "Container API",
+                  collapsed: true,
+                  items: [
+                    {
+                      type: "category",
+                      label: "Methods",
+                      collapsed: true,
+                      items: [
+                        "form/api/сontainer/сontainer_attach_method",
+                        "form/api/сontainer/сontainer_attachHTML_method",
+                        "form/api/сontainer/сontainer_show_method",
+                        "form/api/сontainer/сontainer_hide_method",
+                        "form/api/сontainer/сontainer_enable_method",
+                        "form/api/сontainer/сontainer_disable_method",
+                        "form/api/сontainer/сontainer_isVisible_method",
+                        "form/api/сontainer/сontainer_isDisabled_method",
+                        "form/api/сontainer/сontainer_setProperties_method",
+                        "form/api/сontainer/сontainer_getProperties_method",
+                      ],
+                    },
+                    {
+                      type: "doc",
+                      id: "form/api/сontainer/api_сontainer_properties",
+                    },
+                  ],
+                },
               ],
             },
 
@@ -1331,6 +1359,7 @@ module.exports = {
                 "form/text",
                 "form/textarea",
                 "form/timepicker",
+                "form/сontainer",
               ]
             },
             "form/localization",
