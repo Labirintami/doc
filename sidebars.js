@@ -2302,7 +2302,7 @@ module.exports = {
                 "toolbar/api/api_overview",
                 {
                   type: "category",
-                  label: "Methods",
+                  label: "Toolbar methods",
                   items: [
                     "toolbar/api/toolbar_destructor_method",
                     "toolbar/api/toolbar_disable_method",
@@ -2321,7 +2321,7 @@ module.exports = {
                 },
                 {
                   type: "category",
-                  label: "Events",
+                  label: "Toolbar events",
                   items: [
                     "toolbar/api/toolbar_afterhide_event",
                     "toolbar/api/toolbar_beforehide_event",
@@ -2334,13 +2334,23 @@ module.exports = {
                 },
                 {
                   type: "category",
-                  label: "Properties",
+                  label: "Toolbar properties",
                   items: [
                     "toolbar/api/toolbar_css_config",
                     "toolbar/api/toolbar_data_config",
                     "toolbar/api/toolbar_menucss_config",
                   ],
                 },
+                "toolbar/api/api_button_properties",
+                "toolbar/api/api_customhtmlbutton_properties",
+                "toolbar/api/api_imagebutton_properties",
+                "toolbar/api/api_input_properties",
+                "toolbar/api/api_menuitem_properties",
+                "toolbar/api/api_navitem_properties",
+                "toolbar/api/api_selectbutton_properties",
+                "toolbar/api/api_separator_properties",
+                "toolbar/api/api_spacer_properties",
+                "toolbar/api/api_title_properties",
               ],
             },
             "toolbar/how_to_start",
@@ -2357,7 +2367,7 @@ module.exports = {
                 "toolbar/selectbutton",
                 "toolbar/separator",
                 "toolbar/spacer",
-                "toolbar/text",
+                "toolbar/title",
               ],
             },
             "toolbar/load_data",
