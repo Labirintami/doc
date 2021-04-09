@@ -47,4 +47,4 @@ dataview/api/dataview_candrop_event.md
 dataview/api/dataview_dragin_event.md
 dataview/api/dataview_dragstart_event.md
 
-@relatedsample: dataview/05_events/01_events.html
+[Dataview. Dataview Events](https://snippet.dhtmlx.com/2d74uyoh)

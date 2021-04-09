@@ -29,8 +29,6 @@ The function passed to the method receives one parameter:
 
 and must return a boolean value to define whether a passed date should be blocked (if *true*, the date is inactive).
 
-@relatedsample:
-calendar/04_customization/04_blocked.html
 
 @related:
 calendar/configuring.md#disableddates

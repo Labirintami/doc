@@ -244,7 +244,7 @@ var countryFilter = grid.getHeaderFilter("density");
 countryFilter.blur();
 ~~~
 
-{{sample grid/03_usage/14_get_header_filter.html}}
+[Grid. Get Header Filter](https://snippet.dhtmlx.com/n8srjle3)
 
 The method returns either an HTML object or an object with Combobox configuration.
 
@@ -288,7 +288,7 @@ grid.showRow(rowId);
 grid.hideRow(rowId);
 ~~~
 
-{{sample	grid/03_usage/15_show_hide_row.html}}
+[Grid. Show/Hide Row](https://snippet.dhtmlx.com/8y83d6jv)
 
 
 Checking visibility of a row
@@ -300,7 +300,7 @@ You can check whether a row is hidden or shown on a page using the [](grid/api/g
 grid.isRowHidden("1"); // -> true|false
 ~~~
 
-{{sample	grid/03_usage/15_show_hide_row.html}}
+[Grid. Show/Hide Row](https://snippet.dhtmlx.com/8y83d6jv)
 
 Adding/removing spans
 ---------------------

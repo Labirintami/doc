@@ -60,7 +60,7 @@ var chart = new dhx.Pagination("pagination_container", {
 
 - <b>dhx_widget--no-border_left</b> - Removes the left border of a widget
 
-@relatedsample:
-pagination/04_customization/01_custom_style.html
+
+[Pagination. Custom style](https://snippet.dhtmlx.com/e7bujtsu)
 
 @related: pagination/customization.md

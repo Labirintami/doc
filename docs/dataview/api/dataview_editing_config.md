@@ -25,8 +25,7 @@ dataview/api/dataview_edit_method.md
 
 @related: dataview/configuration.md#editingitems
 
-@relatedsample:
-dataview/02_configuration/07_editable.html
+[Dataview. Editable Dataview](https://snippet.dhtmlx.com/m8fbqcza)
 
 @deprecated: instead of it, you can use the [](dataview/api/dataview_editable_config.md) property:
 ~~~js

@@ -19,8 +19,7 @@ grid.edit(grid.data.getId(0),"project");
 @descr:
 
 
-@relatedsample:
-grid/03_usage/09_editing.html
+[Grid. Editing Data](https://snippet.dhtmlx.com/pqbax5vs)
 
 @relatedapi: grid/api/grid_editend_method.md
 

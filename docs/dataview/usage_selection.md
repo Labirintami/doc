@@ -21,8 +21,7 @@ To disable selection of items in DataView, make use of the [disable()](dataview/
 dataview.selection.disable();
 ~~~
 
-{{sample	dataview/03_usage/06_disable_selection.html}}
-
+[Dataview. Disable/Enable selection](https://snippet.dhtmlx.com/kn42gb50)
 
 Here is a list of events that you can apply while working with selection of items:
 

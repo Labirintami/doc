@@ -22,4 +22,4 @@ added in v7.0
 
 @related: list/usage_selection.md
 
-@relatedsample: list/03_usage/06_disable_selection.html
+[List. Disable/Enable Selection](https://snippet.dhtmlx.com/i4zj985o)

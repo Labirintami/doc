@@ -22,7 +22,7 @@ grid.isRowHidden("1"); //-> true/false
 @template: api_method
 @descr:
 
-@relatedsample: grid/03_usage/15_show_hide_row.html
+[Grid. Show/Hide Row](https://snippet.dhtmlx.com/8y83d6jv)
 
 @relatedapi: 
 grid/api/grid_hiderow_method.md

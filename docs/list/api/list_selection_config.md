@@ -24,7 +24,7 @@ list/api/selection/selection_enable_method.md
 
 @related: list/configuration.md#selectionofitems
 
-@relatedsample:
-list/02_configuration/08_not_selectable.html
+
+[List. Disable Selection](https://snippet.dhtmlx.com/dk4czs1z)
 
 @changelog: added in v6.5

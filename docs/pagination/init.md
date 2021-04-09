@@ -41,15 +41,15 @@ To add dhtmlxPagination into an application, you need to take the following simp
 </html>
 ~~~
 
-{{sample    pagination/01_init/01_with_list.html}}
+[Pagination. Pagination with List](https://snippet.dhtmlx.com/6sju9jl5)
 
-{{sample    pagination/01_init/02_with_dataview.html}}
+[Pagination. Pagination with Dataview](https://snippet.dhtmlx.com/xmf0lx8z)
 
-{{sample    pagination/01_init/03_with_tree.html}}
+[Pagination. Pagination with Tree](https://snippet.dhtmlx.com/a0jhoipw)
 
-{{sample    pagination/01_init/04_with_grid.html}}
+[Pagination. Pagination with Grid](https://snippet.dhtmlx.com/0sku3cfa)
 
-{{sample    pagination/01_init/05_with_treegrid.html}}
+[Pagination. Pagination with TreeGrid](https://snippet.dhtmlx.com/uxz8lh7m)
 
 Include source files
 --------------------

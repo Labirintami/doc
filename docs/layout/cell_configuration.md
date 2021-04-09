@@ -236,7 +236,7 @@ const layout = new dhx.Layout("layout", {
 
 {{editor	https://snippet.dhtmlx.com/9ge1a4zx	Layout.Type}}
 
-{{sample    layout/02_configuration/11_combination_of_types.html}}
+[Layout. Types in a complex layout](https://snippet.dhtmlx.com/w00fgl57)
 
 The available values of the option are "line", "wide", "space", "none". 
 ``` todo таблица 

@@ -6,7 +6,7 @@ title: block
 @short: allows disabling some date intervals, day labels are dimmed
 
 ```tododeprecated
-    /** @deprecated See a documentation: https://docs.dhtmlx.com/ */
+    /** @deprecated See documentation: https://docs.dhtmlx.com/ */
     block?: (a: Date) => boolean;
 ```
 @type: function
@@ -29,8 +29,6 @@ The function passed to the method receives one parameter:
 
 and must return a boolean value to define whether a passed date should be blocked (if *true*, the date is inactive).
 
-@relatedsample:
-calendar/04_customization/04_blocked.html
 
 @related:
 calendar/configuring.md#disableddates

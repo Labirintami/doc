@@ -23,4 +23,5 @@ added in v7.0
 
 @related: dataview/usage_selection.md
 
-@relatedsample: dataview/03_usage/06_disable_selection.html
+[Dataview. Disable/Enable selection](https://snippet.dhtmlx.com/kn42gb50)
+	

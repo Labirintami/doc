@@ -9,7 +9,7 @@ A control that allows you to combine a set of Form controls united by some commo
 
 ![Form block](../assets/form/form_block.png)
 
-{{sample form/02_configuration/12_blocks.html}}
+
 
 Adding Block
 ------------

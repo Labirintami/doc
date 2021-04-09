@@ -21,8 +21,8 @@ list/api/list_edit_method.md
 
 @related: list/configuration.md#editingitems
 
-@relatedsample:
-list/02_configuration/05_editable.html
+
+[List. Editable List](https://snippet.dhtmlx.com/f26lfcai)
 
 @deprecated: instead of it, you can use the [editable](list/api/list_editable_config.md) property:
 ~~~js

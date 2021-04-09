@@ -84,9 +84,7 @@ var myPop = new dhtmlXPopup(...);
 var myEditor = myPop.attachEditor(400, 200);
 ~~~
 <br/>
-{{sample
-dhtmlxPopup/samples/04_attaches/11_attach_editor.html
-}}
+
 ,  Related API: api/dhtmlxpopup_attacheditor.md <br/> <br/>
        </td>
 	</tr>
@@ -101,9 +99,7 @@ var myForm = myPop.attachForm([
 ]);
 ~~~
 <br/>
-{{sample
-dhtmlxPopup/samples/04_attaches/04_attach_form.html
-}}
+
 ,  Related API: api/dhtmlxpopup_attachform.md <br/> <br/>
        </td>
 	</tr>
@@ -115,9 +111,7 @@ var myPop = new dhtmlXPopup(...);
 var myGrid = myPop.attachGrid(350,300);
 ~~~
 <br/>
-{{sample
-dhtmlxPopup/samples/04_attaches/06_attach_grid.html
-}}
+
 ,  Related API: api/dhtmlxpopup_attachgrid.md <br/> <br/>
        </td>
 	</tr>
@@ -129,9 +123,7 @@ var myPop = new dhtmlXPopup(...);
 var myLayout = myPop.attachLayout(350, 300, "3L");
 ~~~
 <br/>
-{{sample
-dhtmlxPopup/samples/04_attaches/08_attach_layout.html
-}}
+
 ,  Related API: api/dhtmlxpopup_attachlayout.md <br/> <br/>
        </td>
 	</tr>
@@ -143,9 +135,7 @@ var myPop = new dhtmlXPopup(...);
 var myTabbar = myPop.attachTabbar(350, 300);
 ~~~
 <br/>
-{{sample
-dhtmlxPopup/samples/04_attaches/10_attach_tabbar.html
-}}
+
 ,  Related API: api/dhtmlxpopup_attachtabbar.md <br/> <br/>
        </td>
 	</tr>
@@ -157,9 +147,7 @@ var myPop = new dhtmlXPopup(...);
 var myTree = myPop.attachTree(350,300);
 ~~~
 <br/>
-{{sample
-dhtmlxPopup/samples/04_attaches/07_attach_tree.html
-}}
+
 ,  Related API: api/dhtmlxpopup_attachtree.md <br/> <br/>
        </td>
 	</tr>
@@ -196,9 +184,7 @@ To attach a DOM element to a dhtmlxPopup instance, use the api/dhtmlxpopup_attac
      myPop.attachObject("myObj");
 </script>
 ~~~
-{{sample
-dhtmlxPopup/samples/04_attaches/02_attach_object.html
-}}
+
 
 Attaching an HTML string
 -----------------------------------------
@@ -208,9 +194,7 @@ To add the HTML markup to a dhtmlxPopup instance you should use the api/dhtmlxpo
 var myPop = new dhtmlXPopup(...);
 myPop.attachHTML("any custom text here");
 ~~~
-{{sample
-dhtmlxPopup/samples/04_attaches/03_attach_html.html
-}}
+
 
 Attaching a list
 ----------------------------------
@@ -268,9 +252,7 @@ var data = myPop.getItemData();
 // ]
 ~~~
 
-{{sample
-dhtmlxPopup/samples/04_attaches/01_attach_list.html
-}}
+
 
 Clearing the content
 ---------------------------------
