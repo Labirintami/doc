@@ -1803,6 +1803,13 @@ module.exports = {
           label: "Message",
           items: [
             "message/index",
+            {
+              type: "category",
+              label: "Message API",
+              items: [
+                "message/api/api_message_properties",
+              ],
+            },
             "message/overview",
             "message/creating_message",
             "message/configuration",
