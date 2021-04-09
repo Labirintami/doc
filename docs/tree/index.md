@@ -33,4 +33,4 @@ Check [online samples for dhtmlxTree](https://docs.dhtmlx.com/suite/samples/tree
      
 ## Other
 
--[](migration.md)
+- [](../migration.md)

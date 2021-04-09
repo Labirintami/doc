@@ -11,7 +11,7 @@ Check [online samples for dhtmlxTimePicker](https://docs.dhtmlx.com/suite/sample
 
 ## API reference
 
-- timepicker/api/refs/timepicker.md
+- [](timepicker/api/api_overview.md)
 
 ## Related resources
 
@@ -28,4 +28,4 @@ Check [online samples for dhtmlxTimePicker](https://docs.dhtmlx.com/suite/sample
 
 ## Other
 
-- [](migration.md)
+- [](../migration.md)

@@ -13,7 +13,7 @@ Check [online samples for dhtmlxWindow](https://docs.dhtmlx.com/suite/samples/wi
 
 ## API reference
 
-<!-- - [](window/api/api_overview.md) -->
+- [](window/api/api_overview.md)
 
 ## Related resources
 
@@ -31,4 +31,4 @@ Check [online samples for dhtmlxWindow](https://docs.dhtmlx.com/suite/samples/wi
 
 ## Other
 
-- [](migration.md)
+- [](../migration.md)

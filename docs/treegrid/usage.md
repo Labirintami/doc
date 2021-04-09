@@ -35,7 +35,7 @@ var column = treegrid.getColumn("b"); // ->
 The method returns an object with configuration of the specified column. Such an object contains a set of fields:
 
 
-``` todo спросить, нужно ли 
+``` todotw это должно быть на странице API, а здесь лишь ссылка
 <table class="webixdoc_links">
 	<tbody>
         <tr>
