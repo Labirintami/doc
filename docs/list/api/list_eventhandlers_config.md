@@ -63,7 +63,7 @@ The **eventHandlers** object includes a set of *key:value* pairs, where:
 
 @changelog: added in v7.0
 
-@relatedsample: list/04_customization/05_template_events.html
+[List. Handling Events In Template](https://snippet.dhtmlx.com/7fyilbb7)
 
 @relatedapi: list/api/list_template_config.md
 

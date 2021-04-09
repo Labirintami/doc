@@ -19,8 +19,8 @@ var list = new dhx.List("list", {
 @descr: 
 {{note This configuration option requires the [](list/api/list_multiselection_config.md) property to be enabled.}}
 
-@relatedsample:
-list/02_configuration/04_multiselection.html
+
+[List. List Multiselection](https://snippet.dhtmlx.com/0sorkczm)
 
 @related: list/configuration.md#multipleselectionofitems
 

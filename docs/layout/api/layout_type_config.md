@@ -52,7 +52,7 @@ const layout = new dhx.Layout("layout", {
 
 @related: layout/cell_configuration.md#settingbordersforcells
 
-@relatedsample: layout/02_configuration/11_combination_of_types.html
+[Layout. Types in a complex layout](https://snippet.dhtmlx.com/w00fgl57)
 
 @changelog: added in v7.0
 

@@ -272,7 +272,7 @@ var grid = new dhx.Grid("grid", {
 });
 ~~~
 
-{{sample grid/02_configuration/05_custom_marks.html}}
+[Grid. Custom Mark Cells](https://snippet.dhtmlx.com/9whjve0v)
 
 It is also possible to highlight cells with minimum and (or) maximum values in a grid using the **mark** property of a column configuration. The property is an object which takes two optional parameters:
 
@@ -397,7 +397,7 @@ const grid = new dhx.Grid("grid", {
 });
 ~~~
 
-{{sample grid/02_configuration/25_template_events.html}}
+[Grid. Handling events in template](https://snippet.dhtmlx.com/zcv5drxc)
 
 The **eventHandlers** object includes a set of *key:value* pairs, where:
 

@@ -211,7 +211,7 @@ Selection of items
 
 ![](../assets/dataview/disable_selection.png)
 
-{{sample dataview/02_configuration/10_not_selectable.html}}
+[Dataview. Disable selection](https://snippet.dhtmlx.com/xh66mnu3)
 
 The default configuration of DataView provides you with the selection feature that allows highlighting a DataView item. To disable selection in a DataView you need to set the [](dataview/api/dataview_selection_config.md) configuration property to *false*:
 
@@ -278,7 +278,7 @@ var dataview = new dhx.DataView("dataview", {
 });
 ~~~
 
-{{sample dataview/04_customization/05_template_events.html}}
+[Dataview. Handling events in template](https://snippet.dhtmlx.com/26873eql)
 
 The **eventHandlers** object includes a set of *key:value* pairs, where:
 ``` todo нужна ли таблица

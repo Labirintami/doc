@@ -124,7 +124,7 @@ export class MyApp extends App {
 }
 ~~~
 
-You can find more details on API methods [here](optimus_guides/index.html#api).
+You can find more details on API methods [here](optimus_guides/index.md#api).
 
 5\. Finally, initialize your application. Navigate to the *index.html* file and update its code with the following:
 

@@ -19,9 +19,7 @@ var myPop = new dhtmlXPopup({
     id: ["name","pwd"] //attaches the same pop-up window to 2 inputs: "Full Name" and "Password"
 });
 ~~~
-{{sample
-dhtmlxPopup/samples/01_init/06_attach_to_form.html
-}}
+
 
 ###Available parameters
 
@@ -80,9 +78,7 @@ var myPop = new dhtmlXPopup({
     id: "button_open" //attaches a pop-up window to the "Open" button
 });
 ~~~
-{{sample
-dhtmlxPopup/samples/01_init/01_attach_to_toolbar.html
-}}
+
 
 ###Available parameters
 
@@ -148,9 +144,7 @@ Attaching to an HTML Element
 </script>
 ~~~
 
-{{sample
-dhtmlxPopup/samples/01_init/07_custom_object.html
-}}
+
 
 
 ###Available parameters
@@ -193,9 +187,7 @@ To remove a dhtmlxPopup instance and clear the memory, use the api/dhtmlxpopup_u
 myPop.unload();
 myPop = null;
 ~~~
-{{sample
-dhtmlxPopup/samples/02_api/01_skins.html
-}}
+
 
  Once you reload the page, the dhtmlxPopup's instances are destroyed automatically.
 

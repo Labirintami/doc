@@ -24,8 +24,8 @@ var dataview = new dhx.DataView("dataview", {
 @descr: 
 {{note This configuration option requires the [](dataview/api/dataview_multiselection_config.md) property to be enabled.}}
 
-@relatedsample:
-dataview/02_configuration/06_multiselection.html
+[Dataview. Multiselection Dataview](https://snippet.dhtmlx.com/g0xwdx10)
+
 
 @relatedapi:dataview/api/dataview_multiselection_config.md
 

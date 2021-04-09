@@ -20,7 +20,7 @@ var grid = new dhx.Grid("grid_container", {
 @template:	api_config
 @descr: 
 
-@relatedsample: grid/02_configuration/03_auto_width.html
+[Grid. Auto Width](https://snippet.dhtmlx.com/4as4y3l4)
 
 @related: grid/initialization.md#initializegrid
 grid/configuration.md#autowidthforcolumns

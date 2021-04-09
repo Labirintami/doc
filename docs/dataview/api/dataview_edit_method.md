@@ -21,8 +21,7 @@ dataview.edit("1");
 @relatedapi:
 dataview/api/dataview_editing_config.md
 
-@relatedsample:
-dataview/03_usage/03_edit.html
+[Dataview. Edit Item](https://snippet.dhtmlx.com/i09isp2d)
 
 @deprecated: instead of it, you can use the [](dataview/api/dataview_edititem_method.md) method:
 ~~~js

@@ -22,7 +22,7 @@ list.edit("1");
 @related: list/work_with_list.md#editingitems
 
 
-@relatedsample: list/03_usage/03_edit.html
+[List. Edit Items](https://snippet.dhtmlx.com/6wsxgswc)
 
 @deprecated: instead of it, you can use the [editItem()](list/api/list_edititem_method.md) method:
 ~~~js

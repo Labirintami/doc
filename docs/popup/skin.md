@@ -51,9 +51,7 @@ myPop.setSkin("dhx_web");
     </tbody>
 </table>
 
-{{sample
-dhtmlxPopup/samples/02_api/01_skins.html
-}}
+
 
 
 Skin Detection

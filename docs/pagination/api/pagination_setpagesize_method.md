@@ -21,8 +21,8 @@ pagination.setPageSize(24);
 
 
 
-@relatedsample:
-pagination/03_usage/02_get_set_page_size.html
+
+[Pagination. Get/Set page size](https://snippet.dhtmlx.com/9u3gsyd4)
 
 @changelog:
 

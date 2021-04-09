@@ -25,8 +25,8 @@ menu/api/menu_unselect_method.md
 menu/api/menu_isselected_method.md
 menu/api/menu_getselected_method.md
 
-@relatedsample:
-menu/03_usage/04_select_unselect.html
+
+[Menu. Select/Unselect](https://snippet.dhtmlx.com/9qqah8ex)
 
 @changelog:
 added in v7.0

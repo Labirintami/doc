@@ -26,7 +26,7 @@ list/api/list_selection_config.md
 @related: list/work_with_list.md#disablingandenablingselectionofanitem
 
 
-@relatedsample: list/03_usage/06_disable_selection.html
+[List. Disable/Enable Selection](https://snippet.dhtmlx.com/i4zj985o)
 
 @deprecated: instead of it, you can use the [](list/api/selection/selection_enable_method.md) method of the selection object:
 ~~~js

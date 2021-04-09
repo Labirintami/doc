@@ -187,7 +187,7 @@ var grid = new dhx.Grid("grid_container", {
 });
 ~~~
 
-{{sample grid/02_configuration/24_align.html}}
+[Grid. Content Align](https://snippet.dhtmlx.com/eyreddku)
 
 The available values of the option are "left", "center" and "right".
 
@@ -272,7 +272,7 @@ var grid = new dhx.Grid("grid_container", {
 });
 ~~~
 
-{{sample grid/02_configuration/03_auto_width.html}}
+[Grid. Auto Width](https://snippet.dhtmlx.com/4as4y3l4)
 
 You can disable this functionality for a specified column via setting the [](grid/api/grid_autowidth_config.md) property to *false* in the configuration of the column:
 
@@ -763,7 +763,7 @@ const grid = new dhx.Grid("grid", {
 });
 ~~~
 
-{{sample grid/02_configuration/25_template_events.html}}
+[Grid. Handling events in template](https://snippet.dhtmlx.com/zcv5drxc)
 
 The **eventHandlers** object includes a set of *key:value* pairs, where:
 
@@ -1208,7 +1208,7 @@ var grid = new dhx.Grid("grid", {
 });
 ~~~
 
-{{sample grid/02_configuration/11_hiding_tooltips.html}}
+[Grid. Hiding Tooltips](https://snippet.dhtmlx.com/mq4t3t3w)
 
 There is also the possibility to enable/disable tooltips for separate columns or spans by using the **tooltip** option in the configuration object of the [columns](grid/configuration.md#columns) or [spans](grid/configuration.md#spans) accordingly:
 

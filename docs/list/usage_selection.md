@@ -20,7 +20,7 @@ To disable selection of items in List, make use of the [](list/api/selection/sel
 list.selection.disable();
 ~~~
 
-{{sample list/03_usage/06_disable_selection.html}}
+[List. Disable/Enable Selection](https://snippet.dhtmlx.com/i4zj985o)
 
 
 Here is a list of events that you can apply while working with selection of items:

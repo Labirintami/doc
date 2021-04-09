@@ -10,7 +10,7 @@ title: enableSelection
 @example:
 dataview.enableSelection();
 
-@relatedsample: dataview/03_usage/06_disable_selection.html
+[Dataview. Disable/Enable selection](https://snippet.dhtmlx.com/kn42gb50)	
 
 @related: dataview/manipulating_data.md#disablingandenablingselectionofanitem
 

@@ -66,9 +66,7 @@ The object can contain any number of properties and all of them will be availabl
 
 The "id" property will be used as the ID of object. If there is no such a property, the component will create random IDs for each object. 
 
-{{sample
-dhtmlxList/samples/03_loading/02_load_json.html
-}}
+
 
 
 XML 
@@ -108,9 +106,7 @@ If you want to process only the tags with specific names you can change the xpat
 dhtmlx.dataDriver.xml.records = "/data/item"; //select only item tags
 ~~~
 
-{{sample
-dhtmlxList/samples/03_loading/01_load_xml.html
-}}
+
 
 HTML 
 -----
@@ -136,7 +132,7 @@ The key-tag can be changed by using:
 dhtmlx.dataDriver.md.tag = "DIV";
 ~~~
 
-{{sample dhtmlxList/samples/03_loading/05_load_html.html}}
+
 
 CSV
 ----
@@ -165,9 +161,7 @@ dhtmlx.dataDriver.csv.row = "\n";
 dhtmlx.dataDriver.csv.cell= ",";
 ~~~
 
-{{sample
-dhtmlxList/samples/03_loading/04_load_csv.html
-}}
+
 
 
 JSArray
@@ -187,9 +181,6 @@ myList.load("some.js", "jsarray");
 ["3", "alien-arena-server", "7.0-1", "Debian Games Team"]]
 ~~~
 
-{{sample
-dhtmlxList/samples/03_loading/03_load_js_array.html
-}}
 
 Parsing 
 -------
@@ -222,9 +213,6 @@ myList.parse(
 );
 ~~~
 
-{{sample
-dhtmlxList/samples/03_loading/07_parse_xml.html
-}}
 
 ####JSON object
 
@@ -247,9 +235,6 @@ myList.parse([{
 }],"json");
 ~~~
 
-{{sample
-dhtmlxList/samples/03_loading/06_parse_json.html
-}}
 
 ####HTML
 
@@ -257,7 +242,6 @@ dhtmlxList/samples/03_loading/06_parse_json.html
 myList.parse("id_of_html_element","html");
 ~~~
 
-{{sample  dhtmlxList/samples/03_loading/10_parse_html.html}}
 
 ####CSV string
 
@@ -267,7 +251,6 @@ myList.parse('"1", "acx100-source", "20080210-1.1", "Stefano Canepa"
   \n"3", "alien-arena-server", "7.0-1", "Debian Games Team"',"csv");
 ~~~
 
-{{sample  dhtmlxList/samples/03_loading/09_parse_csv.html}}
 
 ####JavaScript array
 
@@ -277,7 +260,6 @@ myList.parse([["1", "acx100-source", "20080210-1.1", "Stefano Canepa"],
 ["3", "alien-arena-server", "7.0-1", "Debian Games Team"]],"jsarray");
 ~~~
 
-{{sample dhtmlxList/samples/03_loading/08_parse_js_array.html}}
 
 
 
@@ -301,6 +283,5 @@ dhtmlx.dataDriver.mytype=dhtmlx.extend({},dhtmlx.dataDriver.jsarray,{
 myList.load(url, "mytype");
 ~~~
 
-{{sample dhtmlxList/samples/03_loading/11_load_custom_type.html}}
 
 ```
