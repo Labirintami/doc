@@ -58,7 +58,7 @@ class FileDataParser {
   }
 
   #findAndReplaceStrong = () => {
-    this.fileData = this.fileData.replace(MD_BOLD_TEXT_REGEXP, '<strong>$1</strong>');
+    // this.fileData = this.fileData.replace(MD_BOLD_TEXT_REGEXP, '<strong>$1</strong>');
   }
 
   #splitFileDataIntoChunksByATNotation = (data) => {

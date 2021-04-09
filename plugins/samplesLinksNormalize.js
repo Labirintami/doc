@@ -45,8 +45,12 @@ const getFiles = (dir, files_) => {
 
 const updateFileData = file => {
 	const fileData = fs.readFileSync(file.filePath, 'utf-8');
-	const newData = fileData.replace(/^@relatedsample: (https:\/\/\w+.\w+.\w+\/\w+)\s(.*)$/gm, i => {
+	let newData = fileData.replace(/^@relatedsample: (https:\/\/\w+.\w+.\w+\/\w+)\s(.*)$/gm, i => {
 		const signature = /^@relatedsample: (https:\/\/\w+.\w+.\w+\/\w+)\s(.*)$/gm.exec(fileData);
+		return signature ? `**Related sample**: [${signature[2]}](${signature[1]})` : i;
+	});
+	newData = newData.replace(/^{{\w+\s+(https:\/\/\w+.\w+.\w+\/\w+)\s(.*)}}$/gm, i => {
+		const signature = /^{{\w+\s+(https:\/\/\w+.\w+.\w+\/\w+)\s(.*)}}$/gm.exec(fileData);
 		return signature ? `**Related sample**: [${signature[2]}](${signature[1]})` : i;
 	});
 	fs.writeFileSync(file.filePath, newData, 'utf-8');
