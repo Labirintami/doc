@@ -21,7 +21,7 @@ sidebar.unselect("categoryPost");
 @template: api_method
 @descr:
 
-@relatedsample: sidebar/03_usage/06_select_unselect.html
+[Sidebar. Select/Unselect](https://snippet.dhtmlx.com/3odod5v1)
 
 @relatedapi: 
 sidebar/api/sidebar_getselected_method.md

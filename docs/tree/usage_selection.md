@@ -21,7 +21,7 @@ To disable selection of items in Tree, make use of the [](tree/api/selection/sel
 tree.selection.disable();
 ~~~
 
-{{sample tree/03_usage/09_enable_disable_selections.html}}
+[Tree. Disable/Enable selection](https://snippet.dhtmlx.com/g6cmggqt)
 
 
 Here is a list of events that you can apply while working with selection of items:

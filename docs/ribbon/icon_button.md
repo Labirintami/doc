@@ -20,9 +20,7 @@ This is a button with an icon. It does not have a caption unlike ribbon/button.m
 }
 ~~~
 
-{{sample
-dhtmlxRibbon/samples/03_ribbon/01_init.html
-}}
+
 
 ## Attributes
 

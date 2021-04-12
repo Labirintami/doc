@@ -45,7 +45,3 @@ The parameters are:
 
 -  mode (true/false) - whether single radio mode is enabled/disabled;
 -  itemId - id of the item that will be checked.
-
-{{sample
-dhtmlxTree/samples/02_checkboxes/04_pro_radio.html
-}}

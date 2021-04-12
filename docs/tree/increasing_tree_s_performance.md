@@ -55,10 +55,6 @@ The script specified in the *setXMLAutoLoading()* method will be called when the
 When dynamic loading is switched on in the tree, script methods work only for those items that are loaded at the moment.
 }}
 
-{{sample
-dhtmlxTree/samples/12_loading_processing_data/13_tree_dyn_loading.html
-}}
-
 
 <h3 id="loadbehavior">Setting Auto Loading Behavior</h3> 
 
@@ -91,10 +87,6 @@ tree.setXMLAutoLoading(function(id){
 
 In this mode the *setXMLAutoLoading()* method receives a function that sends a request to the script to load the content of the clicked item by its id.
 The *load()* method called inside of this function returns an XML with the description of child items of the clicked item.
-
-{{sample
-dhtmlxTree/samples/12_loading_processing_data/03_pro_dyn_operations.html
-}}
 
 ###Setting Escaping Mode 
 
@@ -132,10 +124,6 @@ tree.enableSmartXMLParsing(true); // false is used to disable
 ~~~
 
 Please, pay attention to the fact that Smart XML Parsing does not work in case of loading a fully expanded tree.
-
-{{sample
-dhtmlxTree/samples/12_loading_processing_data/10_pro_smart_parsing.html
-}}
 
 ###Getting Parsing State 
 
@@ -175,10 +163,6 @@ Parameters of this method are:
 -  **delay** - delay between portions parsing, set in milliseconds (optional parameter).
 
 This functionaity is fully compatible with Smart XML Parsing.
-
-{{sample
-dhtmlxTree/samples/12_loading_processing_data/02_pro_dist_load.html
-}}
 
 ###Getting Parsing State 
 

@@ -17,7 +17,6 @@ var tree = new dhx.Tree("tree", {isFolder: function() {
 @descr: 
 The config option can be used to create custom folders in a tree.
 
-@relatedsample: tree/02_configuration/03_custom_folders.html
 
 @related: tree/initialization_of_dhtmlxtree.md#initializetree
 tree/configuration.md#customfolders

@@ -20,7 +20,7 @@ myToolbar.data.add({
 });
 ~~~
 
-{{sample    dhtmlxToolbar/samples/02_toolbar/01_init.html}}
+
 
 You can provide the following **attributes** in the configuration object of iconButton:
 

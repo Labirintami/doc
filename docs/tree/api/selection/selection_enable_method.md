@@ -24,4 +24,4 @@ added in v7.0
 
 @related: tree/usage_selection.md
 
-@relatedsample: tree/03_usage/09_enable_disable_selections.html
+[Tree. Disable/Enable selection](https://snippet.dhtmlx.com/g6cmggqt)

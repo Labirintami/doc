@@ -26,9 +26,6 @@ To get the text of an item, use the [getText()]() method:
 var text = mySidebar.items(id).getText(); // -> {text:"new text",icon:"new_icong.png", ...}
 ~~~
 
-{{sample
-dhtmlxSidebar/samples/02_config/05_change_text.html
-}}
 
 Showing/hiding an existing item
 --------------------------
@@ -46,9 +43,6 @@ To hide an item, use the [hide()]() method:
 mySidebar.items(id).hide(); 
 ~~~ 
 
-{{sample
-dhtmlxSidebar/samples/02_config/03_show_hide_items.html
-}}
 
 Adding/removing an item
 -----------------------
@@ -65,9 +59,6 @@ To remove an item from sidebar, use the [remove()]() method:
 mySidebar.items(id).remove();
 ~~~
 
-{{sample
-dhtmlxSidebar/samples/02_config/02_add_remove_items.html
-}}
 
 Setting/getting the active item
 -------------------------------

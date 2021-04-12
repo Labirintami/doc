@@ -40,7 +40,7 @@ The method takes one parameter, which can be:
 
 You can set a template to the title of the group via the [](treegrid/api/treegrid_grouptitletemplate_config.md) configuration option.
 
-@relatedsample: treegrid/03_usage/15_group_by.html
+[TreeGrid. Group data items by a property](https://snippet.dhtmlx.com/bue6zm6w)
 
 @related: treegrid/usage.md#groupingdata
 @relatedapi: treegrid/api/treegrid_grouptitletemplate_config.md

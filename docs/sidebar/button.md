@@ -152,7 +152,6 @@ You can add any custom HTML content to a button with the help of the **html** pr
 }
 ~~~
 
-{{sample sidebar/02_configuration/06_item_html_content.html}}
 
 ## Showing/hiding a button 
 

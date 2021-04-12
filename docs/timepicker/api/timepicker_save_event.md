@@ -18,7 +18,7 @@ timepicker.events.on("Save", function(){
 @descr:
 
 
-@relatedsample: timepicker/05_events/01_events.html
+[Timepicker. Timepicker Events](https://snippet.dhtmlx.com/5ccptwy7)
 
 @deprecated: instead of it, use the [](timepicker/api/timepicker_apply_event.md) event:
 

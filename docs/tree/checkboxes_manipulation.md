@@ -29,9 +29,6 @@ In the case of creating checkboxes with the help of the above mentioned method, 
 - checked;
 - unchecked.
 
-{{sample
-dhtmlxTree/samples/02_checkboxes/01_pro_list_checked.html
-}}
 
 ###Enabling Three-State Checkboxes 
 
@@ -52,9 +49,6 @@ The third state takes place when an item has several child nodes among which the
 It should be noted that in case when three-state checkboxes are enabled, a click on a parent unchecked checkbox will result 
 in checking it together with all its child items, and vice versa.
 
-{{sample
-dhtmlxTree/samples/02_checkboxes/03_pro_mixed_checkboxes.html
-}}
 
 ###Enabling Smart Checkboxes 
 
@@ -115,9 +109,6 @@ The parameters are as follows:
 It should be noted that according to the three-state checkboxes' logic,
 if a parent item has been checked with the help of the setCheck() method, all its child items will be checked as well.
 
-{{sample
-dhtmlxTree/samples/02_checkboxes/01_pro_list_checked.html
-}}
 
 ###Checking/Unchecking Tree Branch 
 

@@ -83,10 +83,6 @@ The following method allows the user to remove all child items of a certain node
 tree.deleteChildItems(itemId);  
 ~~~
 
-{{sample
-dhtmlxTree/samples/13_nodes_manipulation/05_tree_add_delete.html
-}}
-
 Collapsing/Expanding Items  
 -----------------------------
 
@@ -169,10 +165,6 @@ var state = tree.getOpenState(itemId);
 
 The method returns true if the item in question is expanded, and false if the item is collapsed.
 
-{{sample
-dhtmlxTree/samples/13_nodes_manipulation/06_tree_open_close.html
-}}
-
 ###Locking Tree/Item 
 
 
@@ -199,10 +191,6 @@ var itemState = tree.isLocked(itemId); // returns current item's state
 ~~~
 
 If the item in question is locked, the method returns **true**, if it is unlocked, **false** is returned.
-
-{{sample
-dhtmlxTree/samples/13_nodes_manipulation/03_pro_lock_tree.html
-}}
 
 
 Editing Items  
@@ -247,10 +235,6 @@ The parameters define the following:
 
 -  click(true/false) - item's editing will be activated by a click on the selected item;
 -  dblclick(true/false) - item's editing will be activated by a double click on the selected item.
-
-{{sample
-dhtmlxTree/samples/13_nodes_manipulation/01_pro_edit.html
-}}
 
 Integration with Cookies  
 ---------------------------
@@ -332,10 +316,6 @@ The parameters are:
 - mode(true/false) - indicates whether the auto saving is on/off;
 - cookieName - name of the cookie.
 
-{{sample
-dhtmlxTree/samples/09_initialization_general_settings/01_pro_cookies.html
-}}
-
 Item's Text, Tooltip, Color Manipulation  
 ---------------------------------------
 
@@ -399,10 +379,6 @@ The object returned by the above mentioned method has the parameters { acolor:"v
 
 The format of the color will be the same as it was set by the setItemColor() method.
 
-{{sample
-dhtmlxTree/samples/01_appearance/11_tree_text_image.html
-}}
-
 ###Setting Item's Tooltip 
 
 There are three ways to set tooltip for an item in Tree:
@@ -451,10 +427,6 @@ tree.refreshItems(itemIdList, source);
 
 The parameters of this method include the list of items that should be refreshed and the path to the XML file from which new data will be loaded.
 In this case the data is refreshed only for the nodes indicated in the itemIdList parameter (not their children).
-
-{{sample
-dhtmlxTree/samples/12_loading_processing_data/11_pro_smart_refresh.html
-}}
 
 ###Smart Branch Refreshing 
 
@@ -594,9 +566,6 @@ var list = tree.getAllChecked(); //returns an array of all checked items' ids
 var list = tree.getAllUnchecked(); // returns an array of all unchecked items' ids
 ~~~
 
-{{sample
-dhtmlxTree/samples/02_checkboxes/05_tree_checkboxes.html
-}}
 
 ###Getting List of Partially Checked Items' Ids
 
@@ -662,9 +631,6 @@ The following parameters should be specified for this method:
 -  targetId - id of the item, relative to which the item in question will be moved;
 -  targetTree (optional) - the object of some other tree, the item in question is moved into.
 
-{{sample
-dhtmlxTree/samples/13_nodes_manipulation/04_pro_move_item.html
-}}
 
 ###Cutting/Pasting Items 
 
@@ -791,8 +757,5 @@ Using Link-Like Functionality in Tree
 Any node of the tree can have the link-like functionality specified for it. The link for an item can be set by user in XML. 
 The user should also specify the [onClick event](api/dhtmlxtree_onclick_event.md) for the item with link-like functionality.
 
-{{sample
-dhtmlxTree/samples/08_getting_tree_data/02_pro_user_data.html
-}}
 
 

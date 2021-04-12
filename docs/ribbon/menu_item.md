@@ -23,10 +23,6 @@ myRibbon.data.add({
 });
 ~~~
 
-{{sample
-dhtmlxRibbon/samples/03_ribbon/01_init.html
-}}
-
 ## Attributes
 
 You can provide the following attributes in the configuration object of a menuItem:

@@ -47,9 +47,6 @@ The parameters of both these methods are:
 -  direction(false/true) - direction of the search, from the top to the bottom (false), and vice versa (true);
 -  top(true/false) - start searching from the top (true) or start searching from the currently selected item (false).
 
-{{sample
-dhtmlxTree/samples/14_selection_sorting_navigation/06_pro_search.html
-}}
 
 Sorting in Tree  
 -------------------
@@ -68,9 +65,6 @@ The user should indicate the following parameters:
 -  oder(ASC/DES) - sorting order;
 -  all_levels(true/false) - sorting the tree by all levels (true), or by the current level.
 
-{{sample
-dhtmlxTree/samples/14_selection_sorting_navigation/07_pro_smart_sort.html
-}}
 
 ###Custom Defined Sorting 
 

@@ -20,9 +20,6 @@ myribbon.data.add({
 });
 ~~~
 
-{{sample
-dhtmlxRibbon/samples/03_ribbon/01_init.html
-}}
 
 ## Attributes
 

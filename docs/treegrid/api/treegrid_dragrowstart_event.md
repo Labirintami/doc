@@ -41,7 +41,7 @@ The data object contains the following parameters:
 
 @changelog: added in v7.0
 
-@relatedsample: treegrid/05_events/01_events.html
+[TreeGrid. Events](https://snippet.dhtmlx.com/sgwnxshe)
 
 @relatedapi:
 treegrid/api/treegrid_dragmode_config.md

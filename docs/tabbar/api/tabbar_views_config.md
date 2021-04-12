@@ -47,6 +47,7 @@ var tabbar = new dhx.Tabbar("tabbar_container",{
     views:[
         { tab: "left", css:"panel flex", header:"Left", tabHeight: 45, tabWidth: 100},
         // other tabs
+    ]
 });
 ~~~
 
@@ -63,7 +64,7 @@ As a result, the height of a tab is 45 and the width is 100.
 tabbar/init.md#definetabbarstructure
 tabbar/configuring_tabbar.md#structureoftabs 
 
-@relatedsample: tabbar/02_configuration/06_tab_size.html
+[Tabbar. Tab size](https://snippet.dhtmlx.com/yy841z3j)
 
 @changelog:
 

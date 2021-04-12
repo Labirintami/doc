@@ -26,9 +26,6 @@ tree = new dhtmlXTreeObject("treeboxbox_tree","100%","100%",0);
 tree.enableContextMenu(aMenu);  
 ~~~
 
-{{sample
-dhtmlxTree/samples/03_context_menu/01_pro_context_menu.html
-}}
 
 Context Menu Based on Item's Properties  
 -------------------------------------------
@@ -74,9 +71,6 @@ Note: For more information on the above mentioned menu buttons refer to [Menu Gu
 
 ~~~
 
-{{sample
-dhtmlxTree/samples/03_context_menu/03_pro_menu.html
-}}
 
 Contextual Menu for Individual Items  
 --------------------------------------

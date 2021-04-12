@@ -70,7 +70,3 @@ Using the server-side dataProcessor the user should bear in mind the following:
 In the above mentioned snippet, "incoming_node_ID" and "outgoing_node_ID" may be different
 for insert action only, but they are equal for other actions.
 
-
-{{sample
-dhtmlxTree/samples/04_dataprocessor/01_pro_save_data.html
-}}

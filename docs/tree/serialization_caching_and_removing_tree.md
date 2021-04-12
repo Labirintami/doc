@@ -21,9 +21,6 @@ Also there is a possibility to return the tree as a JSON string like this:
 tree.serializeTreeToJSON(); 
 ~~~
 
-{{sample
-dhtmlxTree/samples/08_getting_tree_data/02_pro_user_data.html
-}}
 
 Setting Serialization Level  
 ----------------------------

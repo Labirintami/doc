@@ -35,6 +35,5 @@ mySidebar.cells().attachComponent();
 mySidebar.cells("someId").setActive();
 ~~~
 
-{{sample dhtmlxSidebar/samples/02_config/08_single_cell_mode.html}}
 
 ```

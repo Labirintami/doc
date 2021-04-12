@@ -112,9 +112,6 @@ XML format template for the tree containing links:
 	</item>    
 ~~~
 
-{{sample
-dhtmlxTree/samples/09_initialization_general_settings/03_tree_init_xml.html
-}}
 
 JSON Format Template  
 ------------------------
@@ -171,10 +168,6 @@ The used properties are the following:
 }
 ~~~
 
-{{sample
-dhtmlxTree/samples/11_json_support/05_pro_smart_parsing_json.html
-}}
-
 
 CSV Format Template  
 ---------------------
@@ -189,10 +182,6 @@ For example:
 3,2,node 1.1.1
 4,0,node 2    
 ~~~
-
-{{sample
-dhtmlxTree/samples/11_json_support/02_pro_load_csv.html
-}}
 
 
 JS Array Format Template  
@@ -211,9 +200,6 @@ var treeArray = new Array(
 )
 ~~~
 
-{{sample
-dhtmlxTree/samples/11_json_support/03_pro_load_jsarray.html
-}}
 
 Cold Fusion Tag for dhtmlXTree  
 -------------------------------

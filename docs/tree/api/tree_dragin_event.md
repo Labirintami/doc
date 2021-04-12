@@ -47,4 +47,4 @@ tree/api/tree_candrop_event.md
 tree/api/tree_dragout_event.md
 tree/api/tree_dragstart_event.md
 
-@relatedsample: tree/05_events/01_events.html
+[Tree. Events](https://snippet.dhtmlx.com/vux1ye9g)

@@ -55,10 +55,6 @@ tree.focusItem(itemId);
 
 In this case the item is not selected/highlighted.
 
-{{sample
-dhtmlxTree/samples/14_selection_sorting_navigation/04_pro_key_nav.html
-}}
-
 
 ###Selecting Item 
 

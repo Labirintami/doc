@@ -155,7 +155,7 @@ You can add a custom element to a button with the help of the **html** property:
 }
 ~~~
 
-{{sample ribbon/02_configuration/11_item_html_content.html}}
+[Ribbon. Item HTML Content](https://snippet.dhtmlx.com/3djaib6o)
 
 ## Showing/hiding Button 
 

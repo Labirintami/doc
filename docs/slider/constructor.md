@@ -48,5 +48,3 @@ There's also a possibility to initialize slider by passing a set of arguments.
 ~~~js
 var mySlider = new dhtmlXSlider(parent,size,skin,vertical,min,max,value,step);
 ~~~
-
-{{sample dhtmlxSlider/samples/01_init/01_init_object.html}}

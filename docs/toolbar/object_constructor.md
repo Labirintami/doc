@@ -59,7 +59,7 @@ Each item can have the following attributes:
 
 For details on attributes of specific toolbar items, read toolbar/from_script.md.
   
-{{sample dhtmlxToolbar/samples/02_toolbar/01_init.html}}
+
 
 @todo: check configuration properties
   
