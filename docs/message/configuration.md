@@ -1,7 +1,7 @@
 ---
 sidebar_label: Configuration
 title: Configuration
-description: 
+description: description
 ---          
 
 In this article you will find the detailed list of properties that you can use inside the constructors of message boxes and tooltip to adjust their configuration.

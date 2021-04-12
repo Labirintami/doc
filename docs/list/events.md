@@ -1,7 +1,7 @@
 ---
 sidebar_label: Event Handling
 title: Event Handling
-description: 
+description: description
 ---          
 
 ## Attaching event listeners
