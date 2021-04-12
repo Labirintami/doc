@@ -21,7 +21,7 @@ var grid = new dhx.Grid("grid", {
 @descr: 
 
 
-@relatedsample: grid/02_configuration/11_hiding_tooltips.html
+[Grid. Hiding Tooltips](https://snippet.dhtmlx.com/mq4t3t3w)
 
 
 

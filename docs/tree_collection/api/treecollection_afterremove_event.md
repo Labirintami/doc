@@ -8,7 +8,6 @@ title: afterRemove
 @params:
 - removedItem		object			the object of a removed item
 
-
 @example:
 data.events.on("AfterRemove", function(removedItem){
 	console.log("An item is removed");
@@ -18,8 +17,5 @@ data.events.on("AfterRemove", function(removedItem){
 @template:	api_event
 @descr:
 
-
-
 @relatedapi:tree_collection/api/beforeremove_event.md
 	
-

@@ -9,8 +9,6 @@ title: unlinkDropArea
 
 - el 	HTMLElement,string 		the drop area or its ID
 
-
-
 @example:
 <div id="drophere">DROP HERE</div>
 
@@ -22,6 +20,3 @@ vault.uploader.unlinkDropArea("drophere");
 
 @template: api_method
 @descr:
-
-
-

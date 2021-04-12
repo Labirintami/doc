@@ -30,10 +30,11 @@ You can hide and show a popup using the [hide()](popup/api/popup_hide_method.md)
 </table> 
     
 This method should be called each time you need to render a popup on a page.
+
     
-~~~js
-popup.show("popup_container");
-~~~
+```js
+	popup.show("popup_container");
+```
 
 This is how you can hide a popup:
 

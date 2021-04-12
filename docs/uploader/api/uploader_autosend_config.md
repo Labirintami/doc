@@ -3,7 +3,7 @@ sidebar_label: autosend
 title: autosend
 ---          
 
-@short:  enables automatic sending of the added file
+@short: enables automatic sending of the added file
 	
 @default:false
 @type: boolean
@@ -15,7 +15,6 @@ var vault = new dhx.Vault("vault_container", {
     	autosend:false
    	}
 });
-
 
 @template:	api_config
 @descr:

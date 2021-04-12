@@ -33,10 +33,13 @@ countryFilter.blur();
 @template: api_method
 @descr:
 
-@relatedsample: grid/03_usage/14_get_header_filter.html
+[Grid. Get Header Filter](https://snippet.dhtmlx.com/n8srjle3)
 
 @related: grid/usage.md#gettingheaderfilter
 
 @changelog:
 added in 7.0
+
+
+
 

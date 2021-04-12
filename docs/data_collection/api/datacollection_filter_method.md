@@ -3,10 +3,7 @@ sidebar_label: filter
 title: filter
 ---          
 
-
-
-@short:
-filters data items in a component
+@short: filters data items in a component
 
 @params:
 - rule				function,object			the filtering criteria

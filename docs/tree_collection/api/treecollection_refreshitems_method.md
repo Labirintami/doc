@@ -3,13 +3,10 @@ sidebar_label: refreshItems
 title: refreshItems
 ---          
 
-@short:refreshes child items of a control
+@short: refreshes child items of a control
 
 @params:
 - id 		string		 the ID of a control
-
-
-
 
 @example:
 myToolbar.data.refreshItems("menu_id");

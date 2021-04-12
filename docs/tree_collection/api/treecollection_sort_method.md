@@ -3,11 +3,10 @@ sidebar_label: sort
 title: sort
 ---          
 
-@short:sorts controls according to some criteria
+@short: sorts controls according to some criteria
 
 @params:
 - rule		object		an object with parameters for sorting
-
 
 @example:
 treeGrid.data.sort({

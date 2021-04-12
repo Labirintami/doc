@@ -3,7 +3,7 @@ sidebar_label: move
 title: move
 ---          
 
-@short:moves items to different positions
+@short: moves items to different positions
 
 @params:
 - id 			string,string[]		the ids of items to move
@@ -13,7 +13,6 @@ title: move
 
 @returns:
 - id    string|string[]   the item's id or an array with ids of items
-
 
 @example:
 toolbar.data.move("profile_btn",-1);

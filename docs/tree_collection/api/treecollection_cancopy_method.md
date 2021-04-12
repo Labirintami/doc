@@ -10,13 +10,7 @@ title: canCopy
 - id 			string	    the ID of the source control
 - targetId	 	string	    the ID of the target control
 
-
-
-
-
-
 @example:
 
 @template: api_method
 @descr:
-

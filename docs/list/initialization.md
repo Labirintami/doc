@@ -53,8 +53,7 @@ Create a container
 
 Add a container for List and give it an id, for example "list_container":
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <div id="list_container"></div>
 ~~~
 
@@ -66,8 +65,7 @@ Initialize List with the `dhx.List` object constructor. The constructor has two 
 - the HTML container for List,
 - optional, an object with configuration properties (see the full list below). If this argument is not passed to the constructor, the settings will be default.
 
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // creating dhtmlxList
 var list = new dhx.List("list_container", {
     itemHeight:30
@@ -84,6 +82,7 @@ There is a set of properties you can specify for List to optimize its configurat
 
 You can specify the following properties in the configuration object of List:
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - list/api/list_css_config.md - adds a CSS class(es) to the component

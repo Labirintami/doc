@@ -66,15 +66,13 @@ In this case you initialize Calendar with the `dhx.Calendar` object constructor.
 
 - the HTML container for Calendar,
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <div id="calendar_container"></div>
 ~~~
 
 - an object with configuration properties (see the full list below). If this argument is not passed to the constructor, the settings will be default.
 
-{{snippet	index.html}}
-~~~html
+~~~js title="script.js"
 // creating dhtmlxCalendar
 var calendar = new dhx.Calendar("calendar_container",{
    // config options
@@ -102,13 +100,13 @@ var calendar = new dhx.Calendar(null, {dateFormat: "%d/%m/%y"});
 var popup = new dhx.Popup();
 ~~~
 
-- attach the calendar to the popup using the popup/api/popup_attach_method.md method of Popup:
+- attach the calendar to the popup using the [](popup/api/popup_attach_method.md) method of Popup:
 
 ~~~js
 popup.attach(calendar);
 ~~~
 
-- use the popup/api/popup_show_method.md method of Popup inside a click handler to define that a popup with calendar will open on click in the "date-input" input:
+- use the [](popup/api/popup_show_method.md) method of Popup inside a click handler to define that a popup with calendar will open on click in the "date-input" input:
 
 ~~~js
 var dateInput = document.getElementById("date-input");
@@ -117,7 +115,7 @@ dateInput.addEventListener("click", function() {
 });
 ~~~
 
-- define the logic of closing the popup with calendar using the popup/api/popup_hide_method.md method of Popup. For example, on selecting a new date in the calendar:
+- define the logic of closing the popup with calendar using the [](popup/api/popup_hide_method.md) method of Popup. For example, on selecting a new date in the calendar:
 
 ~~~js
 calendar.events.on("change", function() {
@@ -132,6 +130,7 @@ calendar.events.on("change", function() {
 
 There is a list of properties that you can specify in the Calendar configuration object (the second parameter of the constructor function):
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - calendar/api/calendar_css_config.md - adds style classes to Calendar
@@ -152,26 +151,23 @@ There is a list of properties that you can specify in the Calendar configuration
 
 }}
 
-The detailed information on configuration options can be found in the calendar/configuring.md article.
+The detailed information on configuration options can be found in the [](calendar/configuring.md) article.
 
 Select initial date (optional)
 --------------------------
 
 You can specify what date should be selected in the calendar both before and after initialization of the component:
 
-- via the calendar/api/calendar_value_config.md configuration option:
+- via the [](calendar/api/calendar_value_config.md) configuration option:
 
-{{snippet	index.html}}
 ~~~js
 var calendar = new dhx.Calendar("calendar_container", {
     value: new Date(2019,1,10)
 });
 ~~~
 
+- with the help of the [](calendar/api/calendar_setvalue_method.md) method:
 
-- with the help of the calendar/api/calendar_setvalue_method.md method:
-
-{{snippet	index.html}}
 ~~~js
 var calendar = new dhx.Calendar("calendar_container", {
     // configuration options

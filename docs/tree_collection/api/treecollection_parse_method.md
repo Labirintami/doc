@@ -3,7 +3,7 @@ sidebar_label: parse
 title: parse
 ---          
 
-@short:loads a collection of items from a local source
+@short: loads a collection of items from a local source
 
 @params:
 - data 		array,string		the data to load
@@ -11,7 +11,6 @@ title: parse
 
 @returns: 
 - data		array		an array of loaded items	
-
 
 @example:
 // parse toolbar from the json array

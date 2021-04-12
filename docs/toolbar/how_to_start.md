@@ -69,6 +69,7 @@ var toolbar = new dhx.Toolbar("toolbar_container", {
 
 ### Configuration properties
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - toolbar/api/toolbar_css_config.md - adds style classes to Toolbar

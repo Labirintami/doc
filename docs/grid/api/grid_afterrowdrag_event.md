@@ -41,7 +41,7 @@ The data object contains the following parameters:
 
 @changelog: added in v7.0
 
-@relatedsample: grid/05_events/01_events.html
+[Grid. Events](https://snippet.dhtmlx.com/9zeyp4ds)
 
 @relatedapi:
 grid/api/grid_afterrowdrop_event.md

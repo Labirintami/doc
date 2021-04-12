@@ -7,7 +7,7 @@ A control intended for creating groups of checkboxes.
 
 ![CheckboxGroup control](../assets/form/form_checkboxgroup.png)
 
-{{sample	form/02_configuration/11_checkbox_group.html}}
+[Form. Checkbox groups](https://snippet.dhtmlx.com/p89u4ovb)
 
 ## Adding CheckboxGroup
 

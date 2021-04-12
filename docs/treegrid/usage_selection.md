@@ -10,13 +10,13 @@ You can manipulate with Grid cells via the API of the selection object. It is po
 Enabling/Disabling Selection object
 ---------------------------------
 
-Starting from v7.0, you can activate selection of cells via the treegrid/api/selection/selection_enable_method.md method of the selection object.
+Starting from v7.0, you can activate selection of cells via the [](treegrid/api/selection/selection_enable_method.md) method of the selection object.
 
 ~~~js
 treegrid.selection.enable();
 ~~~
 
-To disable the Selection object, make use of the treegrid/api/selection/selection_disable_method.md method of the selection object:
+To disable the Selection object, make use of the [](treegrid/api/selection/selection_disable_method.md) method of the selection object:
 
 ~~~js
 treegrid.selection.disable();
@@ -47,7 +47,6 @@ var column = treegrid.getColumn("population");
 treegrid.selection.setCell(row, column);
 ~~~
 
-<br/>
 
 To make the process of selecting a cell more flexible, you can apply the related events of the selection object:
 
@@ -58,7 +57,7 @@ To make the process of selecting a cell more flexible, you can apply the related
 Removing selection
 -------------------
 
-Starting from v7.0, you can remove selection from a selected cell/row or from highlighted cells/rows using the treegrid/api/selection/selection_removecell_method.md method of the selection object. The method takes two parameters:
+Starting from v7.0, you can remove selection from a selected cell/row or from highlighted cells/rows using the [](treegrid/api/selection/selection_removecell_method.md) method of the selection object. The method takes two parameters:
 
 <table class="webixdoc_links">
 	<tbody>

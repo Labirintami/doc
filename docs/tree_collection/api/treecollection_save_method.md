@@ -3,13 +3,11 @@ sidebar_label: save
 title: save
 ---          
 
-@short:
-	saves changes made in a tree collection to the server side
+@short: saves changes made in a tree collection to the server side
 
 @params:
 
 - url			string		the URL of a server side
-
 
 @example:
 diagram.data.save("http://userurl/");

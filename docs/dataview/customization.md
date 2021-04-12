@@ -10,7 +10,7 @@ There is a possibility to make changes in the look and feel of a dataview. For t
 
 - add a new CSS class(es) with desired settings in the &lt;style&gt; section of your HTML page or in your file with styles (don't forget to include your file on the page in this case):
 
-~~~js
+~~~html
 <style>
 	.my_first_class {
 		/*some styles*/
@@ -22,7 +22,7 @@ There is a possibility to make changes in the look and feel of a dataview. For t
 </style>
 ~~~
 
-- specify the name of the created CSS class (or names of classes separated by spaces) as the value of the dataview/api/dataview_css_config.md property in the DataView configuration:
+- specify the name of the created CSS class (or names of classes separated by spaces) as the value of the [](dataview/api/dataview_css_config.md) property in the DataView configuration:
 
 ~~~js
 var dataview = new dhx.DataView({ 

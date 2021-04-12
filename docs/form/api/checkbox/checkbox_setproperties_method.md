@@ -1,7 +1,7 @@
 ---
 sidebar_label: setProperties
 title: setProperties
-description: 
+description: description
 ---          
 
 @short: allows changing available configuration attributes of the control dynamically
@@ -19,7 +19,7 @@ form.getItem("checkbox").setProperties({
 @template: api_method
 @descr:
 
-The method invokes the form/api/checkbox/checkbox_afterchangeproperties_event.md and form/api/checkbox/checkbox_beforechangeproperties_event.md events.
+The method invokes the [](form/api/checkbox/checkbox_afterchangeproperties_event.md) and [](form/api/checkbox/checkbox_beforechangeproperties_event.md) events.
 
 It is possible to change values of the following configuration attributes of the **Checkbox** control:
 

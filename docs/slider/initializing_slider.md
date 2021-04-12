@@ -53,8 +53,7 @@ Create container
 
 Add a container for Slider and give it an id, for example "slider_container":
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <div id="slider_container"></div>
 ~~~
 
@@ -66,8 +65,7 @@ Initialize Slider with the `dhx.Slider` object constructor. The constructor has 
 - the HTML container for Slider,
 - optional, an object with configuration properties (see the full list below). If this argument is not passed to the constructor, the settings will be default.
 
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // creating dhtmlxSlider
 var slider = new dhx.Slider("slider_container", {
     min: 0,
@@ -80,12 +78,12 @@ var slider = new dhx.Slider("slider_container", {
 
 There is a set of properties you can specify for Slider to optimize its configuration for your needs. Read the details below.
 
-
 Configuration properties
 ------------------------
 
 You can specify the following properties in the configuration object of Slider:
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - slider/api/slider_css_config.md - adds style classes for the component
@@ -106,13 +104,6 @@ You can specify the following properties in the configuration object of Slider:
 - slider/api/slider_tooltip_config.md - enables a tooltip on hovering over the slider thumb, true by default
 - slider/api/slider_value_config.md - the value the thumb will be set at on initialization of the slider
 
-
 }}
 
-
-
-
-
-
 The detailed information on configuration options can be found in the slider/configuring_slider.md article.
-

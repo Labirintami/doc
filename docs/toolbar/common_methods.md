@@ -154,7 +154,6 @@ To select a particular Toolbar item, make use of the [select()](toolbar/api/tool
 		</tr>
     </tbody>
 </table>
-<br/>
 
 ~~~js
 toolbar.select("web");
@@ -256,8 +255,7 @@ toolbar.data.add({
 
 Templates for Toolbar controls in the JSON format are given [here](toolbar/load_data.md#jsonformattemplates).
 
-
-###Updating config of controls
+### Updating config of controls
 
 You can change config options of the control via the **update()** method of Tree Collection. It takes two parameters:
 
@@ -284,7 +282,7 @@ toolbar.data.update("edit", {
 
 {{editor	https://snippet.dhtmlx.com/xfs5gh5t	Toolbar. Update}}
 
-###Removing controls from Toolbar
+### Removing controls from Toolbar
 
 To remove a control, make use of the **remove()** method of Tree Collection. Pass the id of the control that should be removed to the method:
 
@@ -302,10 +300,7 @@ You can move menu controls to different positions with the **move()** method of 
 toolbar.data.move("2",0);
 ~~~
 
-<br/>
-
 {{note Check the full list of [Tree collection API](tree_collection/api/refs/treecollection.md).}}
 
 @todo:
 check, add info about adding popup into toolbar
-

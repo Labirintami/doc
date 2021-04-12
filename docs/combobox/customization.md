@@ -8,7 +8,7 @@ Custom filter for options
 
 ![](../assets/combo/custom_filter.png)
 
-It is possible to set a custom filtering function for the options of ComboBox via the combo/api/combobox_filter_config.md option. A custom function takes two parameters:
+It is possible to set a custom filtering function for the options of ComboBox via the [](combo/api/combobox_filter_config.md) option. A custom function takes two parameters:
 
 <table class="webixdoc_links">
 	<tbody>
@@ -65,7 +65,7 @@ There is a possibility to make changes in the look and feel of a combo box. For 
 
 - add a new CSS class(es) with desired settings in the &lt;style&gt; section of your HTML page or in your file with styles (don't forget to include your file on the page in this case)
 
-~~~js
+~~~html
 <style>
 	.my_first_class {
 		/*some styles*/

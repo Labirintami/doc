@@ -12,7 +12,7 @@ These controls are helpful if you attach TimePicker to an input or a calendar, f
 ![Actions buttons](../assets/timepicker/dhx_timepicker.png)
 
 
-There's the timepicker/api/timepicker_controls_config.md property in the timepicker configuration that while set to *true* enables rendering of the Save button and the Close icon button in the top right corner of the component.
+There's the [](timepicker/api/timepicker_controls_config.md) property in the timepicker configuration that while set to *true* enables rendering of the Save button and the Close icon button in the top right corner of the component.
 
 ~~~js
 var timepicker = new dhx.Timepicker("timepicker_container",{
@@ -26,7 +26,7 @@ var timepicker = new dhx.Timepicker("timepicker_container",{
 Time format
 --------------------
 
-By default TimePicker displays time in the 24-hour clock format. You can switch to the 12-hour format by setting the timepicker/api/timepicker_timeformat_config.md option to *12* in the configuration object of the component.
+By default TimePicker displays time in the 24-hour clock format. You can switch to the 12-hour format by setting the [](timepicker/api/timepicker_timeformat_config.md) option to *12* in the configuration object of the component.
 In this mode the clock inside the timepicker will be shown together with the AM/DM identifier depending on the selected time of the day. 
 
 - 24-hour clock:

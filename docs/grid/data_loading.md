@@ -146,5 +146,3 @@ grid.data.load(lazyDataProxy);
 {{editor    https://snippet.dhtmlx.com/grid_lazy_loading	External data lazy load}}
 
 {{note The add, remove, copy, move, update, changeId, sort and filter methods of Data Collection will not work until all data are loaded into Grid.}}
-
-

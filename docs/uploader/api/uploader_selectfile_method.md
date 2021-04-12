@@ -7,11 +7,8 @@ title: selectFile
 
 @params:
 
-
-
 @example:
 vault.uploader.selectFile();
 
 @template: api_method
 @descr:
-

@@ -31,7 +31,7 @@ sidebar.data.add({
 });
 ~~~
 
-###Attributes
+### Attributes
 
 <table class="webixdoc_links">
 	<tbody>
@@ -62,12 +62,7 @@ sidebar.data.add({
     </tbody>
 </table>
 
-
-
 Working with Custom HTML
 -----------------------
 
 You can perform operations over the **Custom HTML** item with the help of the available [Sidebar API](sidebar/api/refs/sidebar.md) and [Tree Collection API](tree_collection/api/refs/treecollection.md).
-
-
-

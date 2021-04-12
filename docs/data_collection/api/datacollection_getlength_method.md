@@ -3,8 +3,7 @@ sidebar_label: getLength
 title: getLength
 ---          
 
-@short:
-	returns the number of all elements of a data collection
+@short: returns the number of all elements of a data collection
 
 @returns:
 - items        number       the number of elements of a data collection

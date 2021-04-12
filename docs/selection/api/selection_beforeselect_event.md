@@ -3,8 +3,7 @@ sidebar_label: beforeSelect
 title: beforeSelect
 ---          
 
-@short:
-	fires on selecting an item, but before the item is really selected
+@short: fires on selecting an item, but before the item is really selected
 
 @params:
 - id		string		the id of an item
@@ -18,8 +17,5 @@ selection.events.on("BeforeSelect", function(id){
     return false;
 });
 
-
 @template:	api_method
 @descr:
-
-

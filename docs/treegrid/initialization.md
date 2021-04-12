@@ -11,7 +11,7 @@ To initialize dhtmlxTreeGrid on a page, you need to take the following simple st
 - [Initialize TreeGrid](#initializegrid) with the object constructor
 - [Load data into TreeGrid](#loaddata)
 
-~~~html
+~~~html title="index.html"
 <!DOCTYPE html>
 <html>
     <head>
@@ -55,7 +55,6 @@ Create an HTML file and place full paths to JS and CSS files of dhtmlxTreeGrid i
 <link rel="stylesheet" href="../../codebase/treegrid.css">
 ~~~
 
-
 **If you use dhtmlxTreeGrid as a part of the Suite package**, you need to include JS/CSS files of the dhtmlxSuite library:
 
 - suite.js
@@ -66,19 +65,14 @@ Create an HTML file and place full paths to JS and CSS files of dhtmlxTreeGrid i
 <script src="../codebase/suite.js" type="text/javascript"></script>
 ~~~
 
-
 Create a container 
 -----------------
 
 Add a container for TreeGrid and give it an id, for example "treegrid_container". To display TreeGrid on the page correctly, define width and height of the container.
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <div id="treegrid_container" style="width:800px; height:600px"></div>
 ~~~
-
-
-
 
 
 Initialize TreeGrid
@@ -89,9 +83,7 @@ Initialize TreeGrid with the `dhx.TreeGrid` object constructor. The constructor 
 - the HTML container for TreeGrid,
 - optional, an object with configuration properties (see the full list below). If this argument is not passed to the constructor, the settings will be default.
 
-
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // creating dhtmlxTreeGrid
 var treegrid = new dhx.TreeGrid("treegrid_container", {
     columns: [
@@ -109,10 +101,11 @@ There is a set of properties you can specify for TreeGrid to optimize its config
 
 
 
-###Configuration properties
+### Configuration properties
 
 There is a list of properties that you can specify in the TreeGrid configuration object (the second parameter of the constructor function):
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - treegrid/api/treegrid_adjust_config.md - defines whether the width of columns is automatically adjusted to the width of their content

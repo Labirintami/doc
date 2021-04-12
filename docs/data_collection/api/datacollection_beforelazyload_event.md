@@ -8,13 +8,11 @@ title: beforeLazyLoad
 @returns:
 - param		boolean			false - to block sending a request to the server, otherwise true
 
-
 @example:
 data.events.on("BeforeLazyLoad", function () {
     // your code here
     return false;
 });
-
 
 @template:	api_event
 @descr:
@@ -24,5 +22,3 @@ data.events.on("BeforeLazyLoad", function () {
 @related: helpers/lazydataproxy.md
 
 @added in v6.4
-
-

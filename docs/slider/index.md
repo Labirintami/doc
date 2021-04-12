@@ -11,7 +11,7 @@ Check [online samples for dhtmlxSlider](https://docs.dhtmlx.com/suite/samples/sl
 
 ## API reference
 
-- slider/api/refs/slider.md
+- [](slider/api/api_overview.md)
 
 ## Related resources
 
@@ -29,4 +29,4 @@ Check [online samples for dhtmlxSlider](https://docs.dhtmlx.com/suite/samples/sl
 
 ## Other
 
--[](migration.md)
+- [](../migration.md)

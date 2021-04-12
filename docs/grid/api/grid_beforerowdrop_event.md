@@ -55,7 +55,8 @@ grid/api/grid_dragrowin_event.md
 grid/api/grid_dragrowout_event.md
 grid/api/grid_dragrowstart_event.md
 grid/api/grid_dragitem_config.md
-@relatedsample: grid/05_events/01_events.html	
+
+[Grid. Events](https://snippet.dhtmlx.com/9zeyp4ds)	
 
 @changelog: added in v7.0
 

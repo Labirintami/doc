@@ -3,8 +3,7 @@ sidebar_label: exists
 title: exists
 ---          
 
-@short:
-checks whether the specified item exists in the component
+@short: checks whether the specified item exists in the component
 
 @params:
 - id 			string,number			the id of the item in question
@@ -15,7 +14,6 @@ checks whether the specified item exists in the component
 
 @example:
 var item = component.data.exists("1"); 
-
 
 @template:	api_method
 @descr:

@@ -58,8 +58,8 @@ Create an HTML file and place full paths to JS and CSS files of dhtmlxChart into
 
 **If you use dhtmlxChart standalone**, you need to include 2 files:
 
-- *chart.js*
-- *chart.css*
+- chart.js
+- chart.css
 
 ~~~html
 <script type="text/javascript" src="../../codebase/chart.js"></script>
@@ -81,10 +81,9 @@ Create a container
 
 Add a container for Chart and give it an id, "chart_container", for example: 
 
-{{snippet	index.html}}
-~~~html
+``` html title="index.html"
 <div id="chart_container"></div>
-~~~
+```
 
 Initialize Chart
 ----------------------
@@ -122,25 +121,13 @@ var chart = new dhx.Chart("chart_container", config);
 
 ### Configuration properties
 
-{{api
-
-- chart/api/chart_css_config.md - adds style classes to Chart
-- chart/api/chart_legend_config.md - defines the configuration of a chart legend
-- chart/api/chart_maxpoints_config.md - displays an average number of values in case a data set is too large to show all the values in the chart
-- chart/api/chart_scales_config.md - defines configuration of chart scales
-- chart/api/chart_series_config.md - defines configuration of chart series
-- chart/api/chart_type_config.md - specifies the type of a chart
-
-}}
-
 See the full list of all available configuration properties in the article chart/configuration_properties.md.
 
-Load data into Chart
----------------------
+## Load data into Chart
 
 Finally, you are to load the chart with data. You can load inline or external data into the chart.
 
-- to load data from a local source, use the data_collection/api/parse.md method of the Data Collection object:
+- to load data from a local source, use the [](data_collection/api/parse.md) method of the Data Collection object:
 
 ~~~js
 var data = [
@@ -167,7 +154,7 @@ chart.data.parse(data);
 
 {{editor    https://snippet.dhtmlx.com/id9nbujd	Chart. Basic Initialization Bar Chart}}
 
-- to load data from an external file, use the data_collection/api/load.md method of the Data Collection object:
+- to load data from an external file, use the [](data_collection/api/load.md) method of the Data Collection object:
 
 ~~~js
 var chart = new dhx.Chart( "chart_container",{

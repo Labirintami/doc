@@ -3,12 +3,10 @@ sidebar_label: forEach
 title: forEach
 ---          
 
-@short:
-iterates over all items of a data collection
+@short: iterates over all items of a data collection
 
 @params:
 - callback	function    a function that will iterate over items of a data collection
-
 
 @example:
 datacollection.forEach(function(element, index, array) {
@@ -16,7 +14,6 @@ datacollection.forEach(function(element, index, array) {
     console.log("This is an index of the element: ", index);
     console.log("This is an array of the elements: ", array);
 });
-
 
 @template: api_method
 @descr:

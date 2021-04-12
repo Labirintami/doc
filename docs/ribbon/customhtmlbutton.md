@@ -23,7 +23,7 @@ ribbon.data.add({
 
 {{editor	https://snippet.dhtmlx.com/c0i0q3cu	Ribbon. Custom HTML}}
 
-###Attributes
+### Attributes
 
 <table class="webixdoc_links">
 	<tbody>

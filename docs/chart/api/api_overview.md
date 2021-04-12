@@ -12,7 +12,10 @@ title: Chart API overview
 | [](chart/api/chart_paint_method.md)      | @getshort(chart/api/chart_paint_method.md)      |
 | [](chart/api/chart_setconfig_method.md)  | @getshort(chart/api/chart_setconfig_method.md)  |
 
-`to do Data Collection`
+
+:::info important
+Use [DataCollection methods](data_collection/index.md) to work with data. 
+:::
 
 ## Events
 
@@ -22,7 +25,9 @@ title: Chart API overview
 | [](chart/api/chart_serieclick_event.md)   | @getshort(chart/api/chart_serieclick_event.md)   |
 | [](chart/api/chart_resize_event.md)       | @getshort(chart/api/chart_resize_event.md)       |
 
-`to do Data Collection`
+:::info important
+Use [DataCollection events](data_collection/index.md#events) to work with data. 
+:::
 
 ## Properties
 

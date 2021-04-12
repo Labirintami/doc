@@ -19,24 +19,9 @@ toolbar.data.add({
 });
 ~~~
 
+### Properties
 
-###Attributes
-
-Separator can have two attributes:
-
-<table class="webixdoc_links">
-	<tbody>
-        <tr>
-			<td class="webixdoc_links0"><b>type</b></td>
-			<td>(<i>string</i>) the item type, set it to "separator". If not specified - the <a href="https://docs.dhtmlx.com/suite/toolbar__navitem.html">"navItem"</a> type is applied by default.</td>
-		</tr>
-		<tr>
-			<td class="webixdoc_links0"><b>id</b></td>
-			<td>(<i>string</i>) the id of a control, auto-generated if not set</td>
-		</tr>
-    </tbody>
-</table>
-
+Separator can have [next properties](toolbar/api/api_separator_properties.md).
 
 ## Showing/hiding separator
 
@@ -49,7 +34,4 @@ toolbar.hide(id);
 
 {{editor	https://snippet.dhtmlx.com/cldp89u4	Toolbar. Hide/Show}}
 
-<br/>
-
 Check the full list of available operations in the [Toolbar API](toolbar/api/refs/toolbar.md) and [Tree Collection API](tree_collection/api/refs/treecollection.md).
-

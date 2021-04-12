@@ -19,7 +19,10 @@ title: Dataview API overview
 | [](dataview/api/dataview_setfocus_method.md)         | @getshort(dataview/api/dataview_setfocus_method.md)         |
 | [](dataview/api/dataview_setfocusindex_method.md)    | @getshort(dataview/api/dataview_setfocusindex_method.md)    |
 
-`to do Data Collection`
+:::info important
+- Use [DataCollection methods](data_collection/index.md) to work with data. 
+- А для работы с выделением (?) используйте методы Selection. (todo свести Selection разных виджетов в таблицу, а потом попробовать вынести в Helpers c третьей колонкой для какого виджета применимо)
+:::
 
 ## Events
 
@@ -36,7 +39,6 @@ title: Dataview API overview
 | [](dataview/api/dataview_candrop_event.md)           | @getshort(dataview/api/dataview_candrop_event.md)         |
 | [](dataview/api/dataview_click_event.md)             | @getshort(dataview/api/dataview_click_event.md)           |
 | [](dataview/api/dataview_contextmenu_event.md)       | @getshort(dataview/api/dataview_contextmenu_event.md)     |
-| [](dataview/api/dataview_data_object.md) //todo      |                                                           |
 | [](dataview/api/dataview_doubleclick_event.md)       | @getshort(dataview/api/dataview_doubleclick_event.md)     |
 | [](dataview/api/dataview_dragin_event.md)            | @getshort(dataview/api/dataview_dragin_event.md)          |
 | [](dataview/api/dataview_dragout_event.md)           | @getshort(dataview/api/dataview_dragout_event.md)         |
@@ -44,9 +46,12 @@ title: Dataview API overview
 | [](dataview/api/dataview_focuschange_event.md)       | @getshort(dataview/api/dataview_focuschange_event.md)     |
 | [](dataview/api/dataview_itemmouseover_event.md)     | @getshort(dataview/api/dataview_itemmouseover_event.md)   |
 | [](dataview/api/dataview_itemrightclick_event.md)    | @getshort(dataview/api/dataview_itemrightclick_event.md)  |
-| [](dataview/api/dataview_selection_object.md) //todo |                                                           |
 
-`to do Data Collection`
+:::info important
+Use [DataCollection events](data_collection/index.md#events) to work with data. 
+- А для работы с выделением (?) используйте события Selection. (todo свести Selection разных виджетов в таблицу, а потом попробовать вынести в Helpers c третьей колонкой для какого виджета применимо)
+:::
+
 
 ## Properties
 
@@ -70,4 +75,3 @@ title: Dataview API overview
 | [](dataview/api/dataview_selection_config.md)          | @getshort(dataview/api/dataview_selection_config.md)          |
 | [](dataview/api/dataview_template_config.md)           | @getshort(dataview/api/dataview_template_config.md)           |
 
-`to do Selection API`

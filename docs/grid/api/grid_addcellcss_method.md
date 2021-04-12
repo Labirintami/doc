@@ -1,7 +1,7 @@
 ---
 sidebar_label: addCellCss
 title: addCellCss
-description: 
+description: description
 ---          
 
 @short: adds a style to a cell

@@ -3,7 +3,6 @@ sidebar_label: Separator
 title: Separator
 ---          
 
-
 This is a line separating items/groups of items from each other.
 
 ![](../assets/sidebar/separator.png)
@@ -20,7 +19,7 @@ sidebar.data.add({
 
 {{editor	https://snippet.dhtmlx.com/aq2l1z5n	Sidebar. Separator}}
 
-###Attributes
+### Attributes
 
 Separator can have two attributes:
 
@@ -46,7 +45,5 @@ You can hide and show Separator with the methods of Sidebar by passing the contr
 sidebar.show(id);
 sidebar.hide(id);
 ~~~
-
-<br/>
 
 Check the full list of available operations in the [Sidebar API](sidebar/api/refs/sidebar.md) and [Tree Collection API](tree_collection/api/refs/treecollection.md).

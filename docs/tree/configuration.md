@@ -11,7 +11,7 @@ Checkboxes for items
 dhtmlxTree provides enhanced system of checkbox manipulations. In addition to standard two-state checkboxes that allow check/uncheck tree items, it also uses three-state checkboxes that include an intermediate state, 
 when just some children of a parent item are checked.
 
-In order to enable checkboxes for items, make use of the tree/api/tree_checkbox_config.md configuration option:
+In order to enable checkboxes for items, make use of the [](tree/api/tree_checkbox_config.md) configuration option:
 
 ~~~js
 var tree = new dhx.Tree("tree_container", {checkbox: true});
@@ -24,7 +24,7 @@ Editing of items
 
 ![](../assets/tree/editable.png)
 
-It is possible to enable editing of the text of Tree items before initialization of the component using the tree/api/tree_editable_config.md configuration property:
+It is possible to enable editing of the text of Tree items before initialization of the component using the [](tree/api/tree_editable_config.md) configuration property:
 
 ~~~js
 var tree = new dhx.Tree("tree_container", {editable: true});
@@ -37,7 +37,7 @@ var tree = new dhx.Tree("tree_container", {editable: true});
 Key navigation
 ----------------
 
-You can switch on key navigation in a tree with the tree/api/tree_keynavigation_config.md property before initialization of the component: 
+You can switch on key navigation in a tree with the [](tree/api/tree_keynavigation_config.md) property before initialization of the component: 
 
 ~~~js
 var tree = new dhx.Tree("tree_container", {keyNavigation: true});
@@ -76,7 +76,7 @@ Selection of items
 
 {{sample tree/02_configuration/09_selection.html}}
 
-The default configuration of Tree provides you with the selection feature that allows highlighting a Tree item. To disable selection in a Tree you need to set the tree/api/tree_selection_config.md configuration property to *false*:
+The default configuration of Tree provides you with the selection feature that allows highlighting a Tree item. To disable selection in a Tree you need to set the [](tree/api/tree_selection_config.md) configuration property to *false*:
 
 ~~~js
 const tree = new dhx.Tree("tree_container", {

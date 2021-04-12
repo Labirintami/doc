@@ -20,7 +20,7 @@ form.getItem("datepicker").setProperties({
 @template: api_method
 @descr:
 
-The method invokes the form/api/calendar/calendar_afterchangeproperties_event.md and form/api/calendar/calendar_beforechangeproperties_event.md events.
+The method invokes the [](form/api/calendar/calendar_afterchangeproperties_event.md) and [](form/api/calendar/calendar_beforechangeproperties_event.md) events.
 
 It is possible to change values of the following configuration attributes of the **DatePicker** control:
 

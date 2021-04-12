@@ -1,6 +1,6 @@
 ---
-sidebar_label:
-title:
+sidebar_label: change
+title: change
 ---          
 
 @short: fires when a data collection is modified
@@ -16,9 +16,5 @@ data.events.on("Change", function(id,status,updatedItem){
 	console.log("An item is updated");
 });
 
-
 @template:	api_event
 @descr:
-
-
-

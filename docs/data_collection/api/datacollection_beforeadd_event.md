@@ -8,7 +8,6 @@ title: beforeAdd
 @params:
 - newItem		object			the object of an added item
 
-
 @returns:
 - result		boolean		true/false to add/not add an item
 
@@ -18,7 +17,6 @@ data.events.on("BeforeAdd", function(newItem){
     return true;
 });
 
-
 @template:	api_event
 @descr:
 The event is blockable. Return *false* to prevent an item adding into a data collection.
@@ -26,5 +24,3 @@ The event is blockable. Return *false* to prevent an item adding into a data col
 @relatedapi:
 data_collection/api/afteradd_event.md
 	
-
-

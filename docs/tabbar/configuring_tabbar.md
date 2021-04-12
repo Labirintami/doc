@@ -11,7 +11,7 @@ Close buttons for tabs
 {{editor	https://snippet.dhtmlx.com/cysre4v8	Tabbar. Close Button}}
 
 You can equip each Tabbar tab with a close button to make it easily closable via interface. To enable close buttons in all tabs at once, make use of the 
-tabbar/api/tabbar_closable_config.md configuration property:
+[](tabbar/api/tabbar_closable_config.md) configuration property:
 
 ~~~js
 var tabbar = new dhx.Tabbar("tabbar_container", {
@@ -19,7 +19,7 @@ var tabbar = new dhx.Tabbar("tabbar_container", {
 });
 ~~~
 
-You can also add close buttons for separate tabs by setting an array with ids of the tabs as a value for the tabbar/api/tabbar_closable_config.md property:
+You can also add close buttons for separate tabs by setting an array with ids of the tabs as a value for the [](tabbar/api/tabbar_closable_config.md) property:
 
 ~~~js
 var tabbar = new dhx.Tabbar("tabbar", {
@@ -32,7 +32,7 @@ Disabled tabs
 
 ![](../assets/tabbar/disabled_tab.png)
 
-By default, all tabs in Tabbar are enabled. It is possible to make one or several tabs disabled using the tabbar/api/tabbar_disabled_config.md configuration property:
+By default, all tabs in Tabbar are enabled. It is possible to make one or several tabs disabled using the [](tabbar/api/tabbar_disabled_config.md) configuration property:
 
 ~~~js
 // make one tab disabled
@@ -84,8 +84,6 @@ Structure of tabs
 
 The structure of Tabbar should be defined during initialization of the component. It is set within the [views](tabbar/api/tabbar_views_config.md) property. Each tab is an object with attributes, which are:
 
-{{api
-
 - <b>id</b> - the id of a tab
 - <b>tab</b> - the name of a tab
 - <b>tabCss</b> - the name of the CSS class used for a tab
@@ -95,7 +93,7 @@ The structure of Tabbar should be defined during initialization of the component
 - <b>padding</b> - the distance between the content of a cell and the border of tabbar
 - <b>tabWidth</b> - the width of a tab (for more information, see tabbar/api/tabbar_views_config.md)
 - <b>tabHeight</b> - the height of a tab (for more information, see tabbar/api/tabbar_views_config.md)
-}}
+
     
 ~~~js
 var tabbar = new dhx.Tabbar("tabbar_container", {
@@ -113,7 +111,7 @@ var tabbar = new dhx.Tabbar("tabbar_container", {
 Autosize for tabs
 -----------------
 
-When the width or height of tabs are not specified, you can configure the tabs so that their width/height would automatically adjust to the size of the container of Tabbar. For this purpose, make use of the tabbar/api/tabbar_tabautowidth_config.md/ tabbar/api/tabbar_tabautoheight_config.md properties of Tabbar.
+When the width or height of tabs are not specified, you can configure the tabs so that their width/height would automatically adjust to the size of the container of Tabbar. For this purpose, make use of the [](tabbar/api/tabbar_tabautowidth_config.md) [](tabbar/api/tabbar_tabautoheight_config.md) properties of Tabbar.
 
 ~~~js
 var tabbar = new dhx.Tabbar("tabbar_container", {
@@ -132,7 +130,7 @@ var tabbar = new dhx.Tabbar("tabbar_container", {
 
 {{sample tabbar/02_configuration/08_tab_auto_height.html}}
 
-{{note The tabbar/api/tabbar_tabautowidth_config.md configuration option is used when [mode](tabbar/api/tabbar_mode_config.md) is set to "top" or "bottom", whereas tabbar/api/tabbar_tabautoheight_config.md is applied when [mode](tabbar/api/tabbar_mode_config.md) is set to "right" or "left".}}
+{{note The [](tabbar/api/tabbar_tabautowidth_config.md) configuration option is used when [mode](tabbar/api/tabbar_mode_config.md) is set to "top" or "bottom", whereas [](tabbar/api/tabbar_tabautoheight_config.md) is applied when [mode](tabbar/api/tabbar_mode_config.md) is set to "right" or "left".}}
 
 Tabs without content 
 ---------------

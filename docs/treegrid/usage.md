@@ -1,7 +1,7 @@
 ---
 sidebar_label: Work with TreeGrid
 title: Work with TreeGrid
-description:
+description: description
 ---          
 
 Working with columns and cells
@@ -35,7 +35,7 @@ var column = treegrid.getColumn("b"); // ->
 The method returns an object with configuration of the specified column. Such an object contains a set of fields:
 
 
-``` todo спросить, нужно ли 
+``` todotw это должно быть на странице API, а здесь лишь ссылка
 <table class="webixdoc_links">
 	<tbody>
         <tr>
@@ -264,7 +264,7 @@ Since the object of a column has the [hidden](treegrid/configuration.md#hiddenco
 Checking visibility of a column
 ----------------------------------
 
-You can check whether a column is hidden or shown on a page using the treegrid/api/treegrid_iscolumnhidden_method.md method. The method returns *true*, if a column is visible, and *false* if it's hidden.
+You can check whether a column is hidden or shown on a page using the [](treegrid/api/treegrid_iscolumnhidden_method.md) method. The method returns *true*, if a column is visible, and *false* if it's hidden.
 
 ~~~js
 treegrid.isColumnHidden("country"); // -> true|false
@@ -290,7 +290,7 @@ treegrid.hideRow(rowId);
 Checking visibility of a row
 ----------------------------------
 
-You can check whether a row is hidden or shown on a page using the treegrid/api/treegrid_isrowhidden_method.md method. The method returns *true*, if a row is hidden, and *false* if it's visible.
+You can check whether a row is hidden or shown on a page using the [](treegrid/api/treegrid_isrowhidden_method.md) method. The method returns *true*, if a row is hidden, and *false* if it's visible.
 
 ~~~js
 treegrid.isRowHidden("1"); // -> true|false
@@ -438,7 +438,7 @@ treegrid.groupBy(function (item) {
 
 {{sample treegrid/03_usage/15_group_by.html}}
 
-If necessary, you can set a template to the title of the group via the treegrid/api/treegrid_grouptitletemplate_config.md configuration option.
+If necessary, you can set a template to the title of the group via the [](treegrid/api/treegrid_grouptitletemplate_config.md) configuration option.
 
 Filtering data
 ------------------
@@ -554,7 +554,7 @@ treegrid.data.sort({
 Getting the sorting state
 --------------------------
 
-To get the current state of sorting data in TreeGrid, use the treegrid/api/treegrid_getsortingstate_method.md method. The method returns an object with two attributes:
+To get the current state of sorting data in TreeGrid, use the [](treegrid/api/treegrid_getsortingstate_method.md) method. The method returns an object with two attributes:
 
 <table class="webixdoc_links">
 	<tbody>
@@ -619,13 +619,13 @@ Expanding/collapsing nodes
 
 ### Expand/collapse a certain node
 
-To expand a particular node in a treegrid by its id, use the treegrid/api/treegrid_expand_method.md method:
+To expand a particular node in a treegrid by its id, use the [](treegrid/api/treegrid_expand_method.md) method:
 
 ~~~js
 treegrid.expand("native");
 ~~~
 
-To collapse a treegrid node, make use of the treegrid/api/treegrid_collapse_method.md method:
+To collapse a treegrid node, make use of the [](treegrid/api/treegrid_collapse_method.md) method:
 
 ~~~js
 treegrid.collapse("native");
@@ -635,7 +635,7 @@ treegrid.collapse("native");
 
 ### Expand/collapse all nodes
 
-It is also possible to expand/collapse all TreeGrid nodes using the two corresponding methods - treegrid/api/treegrid_expandall_method.md and treegrid/api/treegrid_collapseall_method.md:
+It is also possible to expand/collapse all TreeGrid nodes using the two corresponding methods - [](treegrid/api/treegrid_expandall_method.md) and treegrid/api/treegrid_collapseall_method.md:
 
 ~~~js
 // expand all treegrid nodes

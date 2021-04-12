@@ -46,8 +46,7 @@ The method takes two parameters:
 
 As a result, the converted to **CSV format** data of the chart look like this: 
 
-{{snippet CSV format}}
-~~~js
+~~~js title="CSV format"
 "month | company A | company B | company C | company D | id
 
 `02 | 20 | 52 | 72 | 34 | 1 |
@@ -95,8 +94,7 @@ The method takes one parameter:
 
 As a result, the converted to **XML format** data of the grid look like this: 
 
-{{snippet XML format}}
-~~~js
+~~~js title="XML format"
 "<?xml version="1.0" encoding="iso-8859-1"?>
 <root>
     <item>

@@ -21,7 +21,9 @@ title: Ribbon API overview
 | [](ribbon/api/ribbon_show_method.md)        | @getshort(ribbon/api/ribbon_show_method.md)        |
 | [](ribbon/api/ribbon_unselect_method.md)    | @getshort(ribbon/api/ribbon_unselect_method.md)    |
 
-`to do Tree Collection`
+:::info important
+Use [TreeCollection methods](tree_collection/index.md) to work with data. 
+:::
 
 ## Events
 
@@ -33,7 +35,9 @@ title: Ribbon API overview
 | [](ribbon/api/ribbon_inputfocus_event.md)   | @getshort(ribbon/api/ribbon_inputfocus_event.md)   |
 | [](ribbon/api/ribbon_openmenu_event.md)     | @getshort(ribbon/api/ribbon_openmenu_event.md)     |
 
-`to do Tree Collection`
+:::info important
+Use [TreeCollection events](tree_collection/index.md#events) to work with data. 
+:::
 
 ## Properties
 

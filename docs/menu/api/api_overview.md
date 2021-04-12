@@ -20,7 +20,9 @@ title: Menu API overview
 | [](menu/api/menu_showat_method.md)      | @getshort(menu/api/menu_showat_method.md)      |
 | [](menu/api/menu_unselect_method.md)    | @getshort(menu/api/menu_unselect_method.md)    |
 
-`to do Tree Collection`
+:::info important
+Use [TreeCollection methods](tree_collection/index.md) to work with data. 
+:::
 
 ## Events
 
@@ -34,7 +36,9 @@ title: Menu API overview
 | [](menu/api/menu_inputfocus_event.md)   | @getshoer(menu/api/menu_inputfocus_event.md)   |
 | [](menu/api/menu_openmenu_event.md)     | @getshoer(menu/api/menu_openmenu_event.md)     |
 
-`to do Tree Collection`
+:::info important
+Use [TreeCollection events](tree_collection/index.md#events) to work with data. 
+:::
 
 ## Properties
 
@@ -45,4 +49,4 @@ title: Menu API overview
 | [](menu/api/menu_menucss_config.md)        | @getshoet(menu/api/menu_menucss_config.md)        |
 | [](menu/api/menu_navigationtype_config.md) | @getshoet(menu/api/menu_navigationtype_config.md) |
 
-`to do ?Selection API?`
+`to do Selection API?`

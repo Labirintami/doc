@@ -10,7 +10,7 @@ To initialize dhtmlxWindow on a page, you need to take the following simple step
 - [Initialize Window](#initializewindow) with the object constructor
 - [Set content](#setcontent) into a created window
 
-~~~html
+~~~html title="index.html"
 <!DOCTYPE html>
 <html>
     <head>
@@ -42,7 +42,7 @@ Create an HTML file and place full paths to JS and CSS files of the dhtmlxSuite 
 - *suite.js*
 - *suite.css*
 
-~~~html
+~~~html title="index.html"
 <script type="text/javascript" src="../../codebase/suite.js"></script>
 <link rel="stylesheet" href="../../codebase/suite.css">
 ~~~
@@ -57,9 +57,7 @@ Initialize Window with the `dhx.Window` object constructor. The constructor take
 
 {{note Don't use **window** as a variable name for dhxWindow object, since it is reserved for the browser window.}}
 
-
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // creating dhtmlxWindow
 var dhxWindow = new dhx.Window({
     modal: false,
@@ -75,13 +73,11 @@ dhxWindow.show();
 
 There is a set of properties you can specify for Window to optimize its configuration for your needs. Read the details below.
 
-
-
 ### Configuration properties
-
 
 You can specify the following properties in the configuration object of Window:
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - window/api/window_closable_config.md - defines whether a window can be closed
@@ -104,7 +100,7 @@ You can specify the following properties in the configuration object of Window:
 
 }}
 
-The detailed information on configuration options can be found in the window/configuration.md article.
+The detailed information on configuration options can be found in the [](window/configuration.md) article.
 
 
 Set content
@@ -112,7 +108,7 @@ Set content
 
 There are several ways of adding content into the dhtmlxWindow:
 
-- by using window/api/window_attachhtml_method.md to attach some HTML content into a window on the fly
+- by using [](window/api/window_attachhtml_method.md) to attach some HTML content into a window on the fly
 
 ~~~js
 var dhxWindow = new dhx.Window({title: "Window"});
@@ -123,7 +119,7 @@ dhxWindow.show();
 
 {{editor	https://snippet.dhtmlx.com/6uelt44m	Window. Attach HTML To Window}}
 
-- by calling window/api/window_attach_method.md to attach other DHTMLX components
+- by calling [](window/api/window_attach_method.md) to attach other DHTMLX components
 
 ~~~js
 dhxWindow.attach("richtext",{mode: "document"});
@@ -133,7 +129,7 @@ dhxWindow.show();
 {{editor	https://snippet.dhtmlx.com/t9ncuuou	Window. Attaching Other Components}}
 
 
-- via the window/api/window_html_config.md property to attach some HTML content into a window before initialization
+- via the [](window/api/window_html_config.md) property to attach some HTML content into a window before initialization
 
 ~~~js
 var dhxWindow = new dhx.Window({

@@ -60,13 +60,12 @@ In this case you initialize ColorPicker with the `dhx.Colorpicker` object constr
 
 - the HTML container for ColorPicker,
 
-~~~js
+~~~html
 <div id="colorpicker_container"></div>
 ~~~
 
 - an object with configuration properties (see the full list below). If this argument is not passed to the constructor, the settings will be default.
 
-{{snippet	index.html}}
 ~~~js
 // creating dhtmlxColorPicker
 var colorpicker = new dhx.ColorPicker("colorpicker_container",{
@@ -88,13 +87,13 @@ var colorpicker = new dhx.Colorpicker(null, { customColors: ["#f2f2f2"] });
 var popup = new dhx.Popup();
 ~~~
 
-- attach the colorpicker to the popup using the popup/api/popup_attach_method.md method of Popup:
+- attach the colorpicker to the popup using the [](popup/api/popup_attach_method.md) method of Popup:
 
 ~~~js
 popup.attach(colorpicker);
 ~~~
 
-- use the popup/api/popup_show_method.md / popup/api/popup_hide_method.md methods of Popup to control when a popup with color picker should be shown/hidden. For example:
+- use the [](popup/api/popup_show_method.md) / [](popup/api/popup_hide_method.md) methods of Popup to control when a popup with color picker should be shown/hidden. For example:
 
 ~~~js
 popup.show("showButton");
@@ -110,6 +109,7 @@ var colorExample = document.querySelector(".dhx_color-sample");
 
 ### Configuration properties
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - colorpicker/api/colorpicker_css_config.md - adds CSS classes for the component
@@ -123,12 +123,12 @@ var colorExample = document.querySelector(".dhx_color-sample");
 
 }}
 
-The detailed information on configuration options can be found in the colorpicker/configuration.md article.
+The detailed information on configuration options can be found in the [](colorpicker/configuration.md) article.
 
 Select initial color (optional)
 ----------------
 
-You can specify the color that should be selected in the palette after ColorPicker initialization with the help of the colorpicker/api/colorpicker_setvalue_method.md method:
+You can specify the color that should be selected in the palette after ColorPicker initialization with the help of the [](colorpicker/api/colorpicker_setvalue_method.md) method:
 
 ~~~js
 var colorpicker = new dhx.ColorPicker({

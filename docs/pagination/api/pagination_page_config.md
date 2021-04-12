@@ -22,7 +22,7 @@ const pagination = new dhx.Pagination("pagination_container", {
 @descr: 
 
 
-@relatedsample:
-pagination/02_configuration/01_page.html
+
+[Pagination. Initial page index](https://snippet.dhtmlx.com/5vwz8tgb)
 
 @related: pagination/configuration.md#initialpage

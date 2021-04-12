@@ -67,8 +67,9 @@ Initialize Menu with the `dhx.Menu` object constructor. The constructor takes tw
 var menu = new dhx.Menu("menu_container");
 ~~~
 
-###Configuration properties
+### Configuration properties
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - menu/api/menu_css_config.md - the name(s) of CSS class(es) used for Menu
@@ -130,17 +131,11 @@ var data = [
 	}
 ];
 
-
 var menu = new dhx.Menu("menu_container");
 menu.data.parse(data);
 ~~~
 
 {{editor	https://snippet.dhtmlx.com/cg62qa9v	Menu. Basic Menu Initialization}}
 
-Detailed information on loading data into Menu is given in the article menu/from_script.md.
-
-
-
-
-
+Detailed information on loading data into Menu is given in the article [](menu/from_script.md).
 

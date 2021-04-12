@@ -1,7 +1,7 @@
 ---
 sidebar_label: Customization
 title: Customization
-description: 
+description: description
 ---          
 
 Styling grid
@@ -17,7 +17,7 @@ For this you need to take the following steps:
 
 - add a new CSS class(es) with desired settings in the &lt;style&gt; section of your HTML page or in your file with styles (don't forget to include your file on the page in this case)
 
-~~~js
+~~~html
 <style>
 	.my-first-class {
 		/*some styles*/
@@ -272,7 +272,7 @@ var grid = new dhx.Grid("grid", {
 });
 ~~~
 
-{{sample grid/02_configuration/05_custom_marks.html}}
+[Grid. Custom Mark Cells](https://snippet.dhtmlx.com/9whjve0v)
 
 It is also possible to highlight cells with minimum and (or) maximum values in a grid using the **mark** property of a column configuration. The property is an object which takes two optional parameters:
 
@@ -370,7 +370,7 @@ var grid = new dhx.Grid("grid", {
 
 <h3 id="eventhandling">Event handlers for the template</h3>
 
-Starting from v7.0, you can assign event handlers to HTML elements of a custom template of Grid cells via using the grid/api/grid_eventhandlers_config.md configuration property of Grid, for instance:
+Starting from v7.0, you can assign event handlers to HTML elements of a custom template of Grid cells via using the [](grid/api/grid_eventhandlers_config.md) configuration property of Grid, for instance:
 
 ~~~js
 const grid = new dhx.Grid("grid", {
@@ -397,7 +397,7 @@ const grid = new dhx.Grid("grid", {
 });
 ~~~
 
-{{sample grid/02_configuration/25_template_events.html}}
+[Grid. Handling events in template](https://snippet.dhtmlx.com/zcv5drxc)
 
 The **eventHandlers** object includes a set of *key:value* pairs, where:
 

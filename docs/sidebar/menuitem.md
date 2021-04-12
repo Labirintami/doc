@@ -23,7 +23,7 @@ sidebar.data.add({
 });
 ~~~
 
-###Attributes
+### Attributes
 
 <table class="webixdoc_links">
 	<tbody>
@@ -151,6 +151,3 @@ You can add a tooltip to a menuItem:
 }
 ~~~
 
-
-@todo:
-improve descr

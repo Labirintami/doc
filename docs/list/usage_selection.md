@@ -8,23 +8,23 @@ You can manipulate with List items via the API of the **selection** object. It i
 Enabling/Disabling Selection object
 ---------------------------------
 
-Starting from v7.0, you can activate selection of items via the list/api/selection/selection_enable_method.md method of the selection object.
+Starting from v7.0, you can activate selection of items via the [](list/api/selection/selection_enable_method.md) method of the selection object.
 
 ~~~js
 list.selection.enable();
 ~~~
 
-To disable selection of items in List, make use of the list/api/selection/selection_disable_method.md method of the selection object:
+To disable selection of items in List, make use of the [](list/api/selection/selection_disable_method.md) method of the selection object:
 
 ~~~js
 list.selection.disable();
 ~~~
 
-{{sample list/03_usage/06_disable_selection.html}}
+[List. Disable/Enable Selection](https://snippet.dhtmlx.com/i4zj985o)
 
 
 Here is a list of events that you can apply while working with selection of items:
-
+todotw возможно отправлять на страницу со списком апи
 - list/api/selection/selection_afterselect_event.md
 - list/api/selection/selection_afterunselect_event.md
 - list/api/selection/selection_beforeselect_event.md

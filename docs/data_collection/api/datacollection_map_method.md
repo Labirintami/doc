@@ -3,8 +3,7 @@ sidebar_label: map
 title: map
 ---          
 
-@short:
-iterates through all items of the component
+@short: iterates through all items of the component
 
 @params:
 - handler			function		a function that will be called for each item of a component
@@ -14,7 +13,6 @@ iterates through all items of the component
 component.data.map(function(item){
     return item;
 });
-
 
 @template: api_method
 @descr:

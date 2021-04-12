@@ -16,7 +16,7 @@ For this you need to take the following steps:
 
 - add a new CSS class(es) with desired settings in the &lt;style&gt; section of your HTML page or in your file with styles (don't forget to include your file on the page in this case)
 
-~~~js
+~~~html
 <style>
 	.my-first-class {
 		/*some styles*/
@@ -379,7 +379,7 @@ var treeGrid = new dhx.TreeGrid("treegrid", {
 
 <h3 id="eventhandling">Event handlers for the template</h3>
 
-Starting from v7.0, you can assign event handlers to HTML elements of a custom template of TreeGrid cells via using the treegrid/api/treegrid_eventhandlers_config.md configuration property of TreeGrid, for instance:
+Starting from v7.0, you can assign event handlers to HTML elements of a custom template of TreeGrid cells via using the [](treegrid/api/treegrid_eventhandlers_config.md) configuration property of TreeGrid, for instance:
 
 ~~~js
 const treeGrid = new dhx.TreeGrid("treegrid", {

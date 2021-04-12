@@ -39,4 +39,4 @@ Check [online samples for dhtmlxTreeGrid](https://docs.dhtmlx.com/suite/samples/
 
 ## Other
 
-- [](migration.md)
+- [](../migration.md)

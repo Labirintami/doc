@@ -11,7 +11,7 @@ To initialize dhtmlxGrid on a page, you need to take the following simple steps:
 - [Initialize Grid](#initializegrid) with the object constructor
 - [Load data into Grid](#loaddata)
 
-~~~html
+~~~html title="index.html"
 <!DOCTYPE html>
 <html>
     <head>
@@ -40,7 +40,6 @@ To initialize dhtmlxGrid on a page, you need to take the following simple steps:
 
 {{editor	https://snippet.dhtmlx.com/luh8d0vv	Grid. Basic Initialization}}
 
-
 Include source files
 --------------------
 
@@ -56,7 +55,6 @@ Create an HTML file and place full paths to JS and CSS files of dhtmlxGrid into 
 <link rel="stylesheet" href="../../codebase/grid.css">
 ~~~
 
-
 **If you use dhtmlxGrid as a part of the Suite package**, you need to include JS/CSS files of the dhtmlxSuite library:
 
 - suite.js
@@ -67,14 +65,12 @@ Create an HTML file and place full paths to JS and CSS files of dhtmlxGrid into 
 <script src="../codebase/suite.js" type="text/javascript"></script>
 ~~~
 
-
 Create a container 
 -----------------
 
 Add a container for Grid and give it an id, for example "grid_container":
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <div id="grid_container"></div>
 ~~~
 
@@ -86,8 +82,6 @@ Initialize Grid with the `dhx.Grid` object constructor. The constructor has two 
 - the HTML container for Grid,
 - optional, an object with configuration properties (see the full list below). If this argument is not passed to the constructor, the settings will be default.
 
-
-{{snippet	index.html}}
 ~~~js
 // creating dhtmlxGrid
 var grid = new dhx.Grid("grid_container", {
@@ -106,12 +100,11 @@ var grid = new dhx.Grid("grid_container", {
 
 There is a set of properties you can specify for Grid to optimize its configuration for your needs. Read the details below.
 
-
-
-###Configuration properties
+### Configuration properties
 
 There is a list of properties that you can specify in the Grid configuration object (the second parameter of the constructor function):
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - grid/api/grid_adjust_config.md - defines whether the width of columns is automatically adjusted to the width of their content
@@ -173,11 +166,4 @@ grid.data.parse(dataset);
 
 {{editor	https://snippet.dhtmlx.com/svkb27d5	Grid. External Data Loading}}
 
-Detailed information on loading data into Grid is given in the article grid/data_loading.md.
-
-
-
-
-
-
-
+Detailed information on loading data into Grid is given in the article [](grid/data_loading.md).

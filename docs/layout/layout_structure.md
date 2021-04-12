@@ -7,7 +7,7 @@ You can use dhtmlxLayout to build the necessary composition of blocks to arrange
 
 - horizontal layout
 
-This type of layout contains several layout/api/layout_rows_config.md of cells which are placed horizontally.
+This type of layout contains several [](layout/api/layout_rows_config.md) of cells which are placed horizontally.
 
 ~~~js
 var layout = new dhx.Layout("layout_container", {                                  

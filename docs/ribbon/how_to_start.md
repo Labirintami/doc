@@ -71,6 +71,7 @@ var ribbon = new dhx.Ribbon("ribbon_container", {
 
 ### Configuration properties:
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - ribbon/api/ribbon_css_config.md - adds style classes to Ribbon
@@ -128,5 +129,5 @@ var ribbon = new dhx.Ribbon("ribbon_container", {css: "dhx_widget--bordered"});
 ribbon.data.parse(data);
 ~~~
 
-Detailed information on loading data into Ribbon is given in the article ribbon/loading_json.md.
+Detailed information on loading data into Ribbon is given in the article [](ribbon/loading_json.md).
 

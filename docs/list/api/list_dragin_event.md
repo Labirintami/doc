@@ -45,5 +45,5 @@ list/api/list_candrop_event.md
 list/api/list_dragout_event.md
 list/api/list_dragstart_event.md
 
-@relatedsample: list/05_events/01_events.html
+[List. List Events](https://snippet.dhtmlx.com/iwt1yd61)
 

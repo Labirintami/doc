@@ -3,8 +3,7 @@ sidebar_label: load
 title: load
 ---          
 
-@short:
-	loads data from an external file
+@short: loads data from an external file
 
 @params:
 

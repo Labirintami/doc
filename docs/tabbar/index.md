@@ -12,7 +12,7 @@ Check [online samples for dhtmlxTabbar](https://docs.dhtmlx.com/suite/samples/ta
 
 ## API reference
 
-<!-- todo - tabbar/api/refs/tabbar.md -->
+- [](tabbar/api/api_overview.md)
 
 ## Related resources
 
@@ -29,4 +29,4 @@ Check [online samples for dhtmlxTabbar](https://docs.dhtmlx.com/suite/samples/ta
 
 ## Other
 
-- [](migration.md)
+- [](../migration.md)

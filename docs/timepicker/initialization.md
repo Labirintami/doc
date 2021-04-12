@@ -53,8 +53,7 @@ Create container
 
 Add a container for TimePicker and give it an id, for example "timepicker_container":
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <div id="timepicker_container"></div>
 ~~~
 
@@ -66,8 +65,7 @@ Initialize TimePicker with the **`dhx.Timepicker`** object constructor. The cons
 - the HTML container for TimePicker,
 - optional, an object with configuration properties (see the full list below). If this argument is not passed to the constructor, the settings will be default.
 
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // creating dhtmlxTimePicker
 var timepicker = new dhx.Timepicker("timepicker_container", {
     // config options
@@ -81,6 +79,7 @@ There is a set of properties you can specify for TimePicker to optimize its conf
 
 You can specify the following properties in the configuration object of TimePicker:
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - timepicker/api/timepicker_controls_config.md - defines whether a timepicker is equipped with the Close and Save buttons
@@ -90,7 +89,7 @@ You can specify the following properties in the configuration object of TimePick
 - timepicker/api/timepicker_valueformat_config.md - defines the format of the value to be applied when working with TimePicker events
 }}
 
-The detailed information on configuration options can be found in the timepicker/configuration.md article.
+The detailed information on configuration options can be found in the [](timepicker/configuration.md) article.
 
 Set initial value (optional)
 --------------------

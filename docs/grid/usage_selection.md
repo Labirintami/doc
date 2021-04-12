@@ -1,7 +1,7 @@
 ---
 sidebar_label: Work with Selection Object
 title: Work with Selection Object
-description: 
+description: description
 ---          
 
 You can manipulate with Grid cells via the API of the selection object. It is possible to get the object of one or more selected cells or rows, to set selection as to a single row or cell as to multiple rows or cells. The selection object also allows removing selection from previously selected cells.
@@ -9,13 +9,13 @@ You can manipulate with Grid cells via the API of the selection object. It is po
 Enabling/Disabling Selection object
 ---------------------------------
 
-Starting from v7.0, you can activate selection of cells via the grid/api/selection/selection_enable_method.md method of the selection object.
+Starting from v7.0, you can activate selection of cells via the [](grid/api/selection/selection_enable_method.md) method of the selection object.
 
 ~~~js
 grid.selection.enable();
 ~~~
 
-To disable selection of cells in Grid, make use of the grid/api/selection/selection_disable_method.md method of the selection object:
+To disable selection of cells in Grid, make use of the [](grid/api/selection/selection_disable_method.md) method of the selection object:
 
 ~~~js
 grid.selection.disable();
@@ -115,7 +115,7 @@ To make the process of selecting cells more flexible, you can apply the related 
 Removing selection
 -------------------
 
-Starting from v7.0, you can remove selection from a selected cell/row or from highlighted cells/rows using the grid/api/selection/selection_removecell_method.md method of the selection object. The method takes two parameters:
+Starting from v7.0, you can remove selection from a selected cell/row or from highlighted cells/rows using the [](grid/api/selection/selection_removecell_method.md) method of the selection object. The method takes two parameters:
 
 <table class="webixdoc_links">
 	<tbody>

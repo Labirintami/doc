@@ -14,7 +14,7 @@ For this you need to take the following steps:
 
 - add a new CSS class(es) with desired settings in the &lt;style&gt; section of your HTML page or in your file with styles (don't forget to include your file on the page in this case):
 
-~~~js
+~~~html
 <style>
 	.my_first_class {
 		/*some styles*/
@@ -59,4 +59,4 @@ const pagination = new dhx.Pagination("pagination_container", {
 });
 ~~~
 
-{{sample    pagination/04_customization/01_custom_style.html}}
+[Pagination. Custom style](https://snippet.dhtmlx.com/e7bujtsu)

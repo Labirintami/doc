@@ -1,7 +1,7 @@
 ---
 sidebar_label: views
 title: views
-description: 
+description: description
 ---          
 
 
@@ -28,8 +28,6 @@ var tabbar = new dhx.Tabbar("tabbar_container", {
 @descr: 
 1\. The **views** array contains a set of objects that describe configuration of tabs. Each tab object may include the following properties:
 
-{{api
-
 - <b>id</b> - the id of a tab
 - <b>tab</b> - the name of a tab
 - <b>tabCss</b> - the name of the CSS class used for a tab
@@ -39,9 +37,6 @@ var tabbar = new dhx.Tabbar("tabbar_container", {
 - <b>padding</b> - the distance between the content of a cell and the border of tabbar
 - <b>tabWidth</b> - the width of a tab
 - <b>tabHeight</b> - the height of a tab
-
-}}
-
 
 2\. In case you specify both the sizes for a separate tab and the sizes for all tabs, the sizes set for a separate tab are a priority. For example:
 

@@ -7,19 +7,10 @@ title: load
 	
 @params:
 
-
-
 @example:
 data.events.on("Load", function(){
 	console.log("Items are loaded.");
 });
 
-
 @template:	api_event
 @descr:
-
-
-
-
-
-	

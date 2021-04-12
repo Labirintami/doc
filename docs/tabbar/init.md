@@ -93,8 +93,9 @@ var tabbar = new dhx.Tabbar("tabbar_container",{
 });
 ~~~
 
-###Configuration properties
+### Configuration properties
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - tabbar/api/tabbar_activetab_config.md - sets the currently active tab
@@ -110,6 +111,4 @@ var tabbar = new dhx.Tabbar("tabbar_container",{
 - tabbar/api/tabbar_tabwidth_config.md - sets the width of a tab, 150 by default
 - tabbar/api/tabbar_views_config.md - defines the configuration of tabs
 
-
 }}
-

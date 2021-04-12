@@ -8,7 +8,7 @@ Working with checkboxes
 
 
 
-You can [enable checkbox for tree items](tree/configuration.md#checkboxesforitems) with the tree/api/tree_checkbox_config.md configuration option. Then you can manipulate items with checkboxes with the help of Tree API.
+You can [enable checkbox for tree items](tree/configuration.md#checkboxesforitems) with the [](tree/api/tree_checkbox_config.md) configuration option. Then you can manipulate items with checkboxes with the help of Tree API.
 
 
 ### Check/uncheck checkboxes
@@ -19,7 +19,7 @@ To check the checkbox of a particular tree item, apply the tree/api/tree_checkit
 tree.checkItem("history");
 ~~~
 
-The tree/api/tree_uncheckitemnew_method.md method will uncheck a tree item by its id together with its sub-items. 
+The [](tree/api/tree_uncheckitemnew_method.md) method will uncheck a tree item by its id together with its sub-items. 
 
 ~~~js
 tree.uncheckItem("history");
@@ -29,7 +29,7 @@ tree.uncheckItem("history");
 
 ### Get checked checkboxes
 
-There is a possibility to get the list of all checked items in a tree with the tree/api/tree_getchecked_method.md method. It returns an array of ids of checked items, e.g.:
+There is a possibility to get the list of all checked items in a tree with the [](tree/api/tree_getchecked_method.md) method. It returns an array of ids of checked items, e.g.:
 
 ~~~js
 tree.getChecked(); // -> ["jmf", "rle", "sk", "km", "af", "jw"]
@@ -42,13 +42,13 @@ Expanding/collapsing items
 
 ### Expand/collapse a certain item
 
-To expand a particular folder in a tree by its id, use the tree/api/tree_expand_method.md method:
+To expand a particular folder in a tree by its id, use the [](tree/api/tree_expand_method.md) method:
 
 ~~~js
 tree.expand("history");
 ~~~
 
-To collapse a tree item, make use of the tree/api/tree_collapse_method.md method:
+To collapse a tree item, make use of the [](tree/api/tree_collapse_method.md) method:
 
 ~~~js
 tree.collapse("history");
@@ -57,7 +57,7 @@ tree.collapse("history");
 {{editor	https://snippet.dhtmlx.com/esxb15hm	Tree. Expand Item}}
 
 
-You can also alternately expand/collapse a tree item (folder) via the tree/api/tree_toggle_method.md method:
+You can also alternately expand/collapse a tree item (folder) via the [](tree/api/tree_toggle_method.md) method:
 
 ~~~js
 tree.toggle("history");
@@ -67,7 +67,7 @@ tree.toggle("history");
 
 ### Expand/collapse all items
 
-It is also possible to expand/collapse all Tree items using the two corresponding methods - tree/api/tree_expandall_method.md and tree/api/tree_collapseall_method.md:
+It is also possible to expand/collapse all Tree items using the two corresponding methods - [](tree/api/tree_expandall_method.md) and tree/api/tree_collapseall_method.md:
 
 ~~~js
 // expand all tree items
@@ -81,7 +81,7 @@ tree.collapseAll();
 Editing an item
 -------------------
 
-There is the tree/api/tree_edititem_method.md method that allows editing a certain tree item. Pass the id of an item to the method to initiate editing:
+There is the [](tree/api/tree_edititem_method.md) method that allows editing a certain tree item. Pass the id of an item to the method to initiate editing:
 
 ~~~js
 tree.editItem(id);
@@ -110,7 +110,7 @@ The method can also take a second parameter to configure the editing process. It
 Setting/getting Tree state
 -------------------
 
-You can get/set the state of a tree using the Tree API - tree/api/tree_setstate_method.md and tree/api/tree_getstate_method.md. **getState()** returns an object with the state of a tree, while **setState()** takes an
+You can get/set the state of a tree using the Tree API - [](tree/api/tree_setstate_method.md) and tree/api/tree_getstate_method.md. **getState()** returns an object with the state of a tree, while **setState()** takes an
 object with tree state as a parameter:
 
 ~~~js

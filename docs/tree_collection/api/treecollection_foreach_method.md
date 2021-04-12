@@ -1,6 +1,6 @@
 ---
-sidebar_label:
-title:
+sidebar_label: forEach
+title: forEach
 ---          
 
 @short: iterates over all items of a tree collection
@@ -16,7 +16,6 @@ treecollection.forEach(function(element, index, array) {
     console.log("This is an index of the element: ", index);
     console.log("This is an array of the elements: ", array);
 });
-
 
 @template: api_method
 @descr:

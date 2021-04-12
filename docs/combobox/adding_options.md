@@ -94,5 +94,3 @@ var combo2 = new dhx.Combo(document.body);
 // parsing the state of combo1 into combo2
 combo2.data.parse(state);
 ~~~
-
-

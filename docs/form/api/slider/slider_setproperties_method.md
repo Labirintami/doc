@@ -19,7 +19,7 @@ form.getItem("slider").setProperties({
 
 @template: api_method
 @descr:
-The method invokes the form/api/slider/slider_afterchangeproperties_event.md and form/api/slider/slider_beforechangeproperties_event.md events.
+The method invokes the [](form/api/slider/slider_afterchangeproperties_event.md) and [](form/api/slider/slider_beforechangeproperties_event.md) events.
 
 It is possible to change values of the following configuration attributes of the **Slider** control:
 

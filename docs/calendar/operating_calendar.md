@@ -1,12 +1,12 @@
 ---
 sidebar_label: Work with Calendar
 title: Work with Calendar
-description:
+description: description
 ---          
 
 ## Changing calendar mode
 
-You can show a particular date in the calendar and/or open Calendar in a certain mode via the calendar/api/calendar_showdate_method.md method. It takes two parameters:
+You can show a particular date in the calendar and/or open Calendar in a certain mode via the [](calendar/api/calendar_showdate_method.md) method. It takes two parameters:
 
 - **date** - (*Date*) the date that should be shown in the calendar
 - **mode** - (*string*)	optional, the mode in which the calendar will be opened
@@ -69,7 +69,7 @@ var mode = calendar.getCurrentMode(); // -> "calendar"
 
 ## Getting selected date
 
-To get the selected date, call the calendar/api/calendar_getvalue_method.md method. The method returns selected date either as a string (default) or as a Date object. 
+To get the selected date, call the [](calendar/api/calendar_getvalue_method.md) method. The method returns selected date either as a string (default) or as a Date object. 
 To get a date as an object, pass the *true* parameter to the method.
 
 ~~~js
@@ -98,7 +98,7 @@ second calendar.
 
 ![](../assets/calendar/date_range.png)
 
-Use the calendar/api/calendar_link_method.md method and pass as a parameter the object of the second calendar to link the first calendar to.
+Use the [](calendar/api/calendar_link_method.md) method and pass as a parameter the object of the second calendar to link the first calendar to.
 In the example below the [Change](calendar/api/calendar_change_event.md) event is intended to output the start and end dates of the selected range:
 
 ~~~js
@@ -122,7 +122,7 @@ calendar2.events.on("change", function (date) {
 
 ## Selecting date 
 
-To select a date in a calendar, call the calendar/api/calendar_setvalue_method.md method. The method has one mandatory parameter - a date that should be selected, which can be passed in several formats:
+To select a date in a calendar, call the [](calendar/api/calendar_setvalue_method.md) method. The method has one mandatory parameter - a date that should be selected, which can be passed in several formats:
 
 - as a Date object
 - as a string
@@ -154,12 +154,12 @@ In case a date has been successfully added into the calendar, the method will re
 {{editor    https://snippet.dhtmlx.com/vmg11002	Calendar. Preset Selected Date}}
 
 
-{{note Please note that the format of date in the Calendar is defined by the calendar/api/calendar_dateformat_config.md option. So, check that you've set the format of date you want to use in the calendar both in the
+{{note Please note that the format of date in the Calendar is defined by the [](calendar/api/calendar_dateformat_config.md) option. So, check that you've set the format of date you want to use in the calendar both in the
 **setValue()** method and in the **dateFormat** property. Otherwise, the default format (**"%d/%m/%y"**) will be used.}}
 
 ## Showing tooltips
 
-You can add tooltips for dates and show them on the calendar/api/calendar_datemouseover_event.md event. For example, you can add tooltips to mark some special days:
+You can add tooltips for dates and show them on the [](calendar/api/calendar_datemouseover_event.md) event. For example, you can add tooltips to mark some special days:
 
 ![](../assets/calendar/tooltips.png)
 

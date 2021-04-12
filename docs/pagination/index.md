@@ -3,23 +3,19 @@ sidebar_label: Overview
 title: Pagination overview
 ---          
 
-```js shielding
 {{pronote
 The Pagination component is available in the **PRO** version only.
 }}
-
 
 dhtmlxPagination helps to divide large amount of data into groups and display them on discrete pages. 
 The component is easy-to-use and provides handy navigation that allows you to quickly jump to a desired page. dhtmlxPagination is available in combination with data components like DataView, List, Grid, Tree, Treegrid. Check [online samples for dhtmlxPagination](https://docs.dhtmlx.com/suite/samples/pagination/).
 
 ![](../assets/pagination/init.png)
 
-<br/>
 
 ## API Reference
 
-- pagination/api/refs/pagination.md
-
+- [](pagination/api/api_overview.md)
 
 ## Related resources
 
@@ -28,35 +24,10 @@ The component is easy-to-use and provides handy navigation that allows you to qu
 
 ## Guides
 
-<table class='guide-table'>
-	<tbody>
-	<tr>
-		<td id="data" class='topics'>
-		    <ul id="data_sublist" >
-            	<li>pagination/init.md</li>
-                <li>pagination/configuration.md</li>
-                <li>pagination/usage.md</li>
-                <li>pagination/customization.md</li>
-                <li>pagination/handling_events.md</li>
-                   
-            </ul>
-        </td>
-		<td class='topic_description'>Covers the initialization of Pagination on a page and the ways of configuring and operating the component.</td>
-	</tr>
-   	</tbody>
-</table>
+Covers the initialization of Pagination on a page and the ways of configuring and operating the component.
 
-
- @ index:
-- pagination/api/refs/pagination.md
-- pagination/init.md
-- pagination/configuration.md
-- pagination/usage.md
-- pagination/customization.md
-- pagination/handling_events.md
-
-@ metadescr:
-
-@ edition:pro
-
-```
+- [](pagination/init.md)
+- [](pagination/configuration.md)
+- [](pagination/usage.md)
+- [](pagination/customization.md)
+- [](pagination/handling_events.md)

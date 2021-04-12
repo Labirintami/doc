@@ -20,7 +20,7 @@ form.getItem("colorpicker").setProperties({
 @template: api_method
 @descr:
 
-The method invokes the form/api/colorpicker/colorpicker_afterchangeproperties_event.md and form/api/colorpicker/colorpicker_beforechangeproperties_event.md events.
+The method invokes the [](form/api/colorpicker/colorpicker_afterchangeproperties_event.md) and [](form/api/colorpicker/colorpicker_beforechangeproperties_event.md) events.
 
 It is possible to change values of the following configuration attributes of the **ColorPicker** control:
 

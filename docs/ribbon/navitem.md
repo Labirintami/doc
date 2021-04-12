@@ -20,7 +20,7 @@ ribbon.data.add({
 
 {{editor	https://snippet.dhtmlx.com/zijc2nta	Ribbon. Nav Items}}
 
-###Attributes
+### Attributes
 
 <table class="webixdoc_links">
 	<tbody>
@@ -99,8 +99,6 @@ ribbon.data.add({
     </tbody>
 </table>
 
-
-
 ## Adding an icon
 
 A navItem can have an icon which is set through the corresponding option **icon**:
@@ -167,7 +165,3 @@ You can add a tooltip to a navItem:
     tooltip:"Click me and find out why"  /*!*/
 }
 ~~~
-
-
-@todo:
-improve descr

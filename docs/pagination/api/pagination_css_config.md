@@ -35,7 +35,6 @@ var chart = new dhx.Pagination("pagination_container", {
 ~~~
 
 ### List of CSS classes
-{{api
 
 - <b>dhx_widget--bg_white</b> - Sets white background to a widget
 
@@ -60,9 +59,8 @@ var chart = new dhx.Pagination("pagination_container", {
 - <b>dhx_widget--no-border_right</b> - Removes the right border of a widget
 
 - <b>dhx_widget--no-border_left</b> - Removes the left border of a widget
-}}
 
-@relatedsample:
-pagination/04_customization/01_custom_style.html
+
+[Pagination. Custom style](https://snippet.dhtmlx.com/e7bujtsu)
 
 @related: pagination/customization.md

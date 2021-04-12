@@ -1,7 +1,7 @@
 ---
 sidebar_label: TimePicker
 title: TimePicker
-description: 
+description: description
 ---          
 
 A control that allows a user to select time value either by moving handles along track bars or by entering hour and minutes values directly into related inputs.

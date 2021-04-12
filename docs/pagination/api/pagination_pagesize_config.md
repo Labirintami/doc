@@ -21,7 +21,7 @@ const pagination = new dhx.Pagination("pagination_container", {
 @descr: 
 
 
-@relatedsample:
-pagination/02_configuration/02_page_size.html
+
+[Pagination. Page size](https://snippet.dhtmlx.com/m57w0vlb)
 
 @related: pagination/configuration.md#numberofitemsperpage

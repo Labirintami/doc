@@ -17,12 +17,8 @@ data.events.on("BeforeRemove", function(removedItem){
     return true;
 });
 
-
 @template:	api_event
 @descr:
 
-
-
 @relatedapi:tree_collection/api/afterremove_event.md
 	
-

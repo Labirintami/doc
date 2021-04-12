@@ -41,15 +41,15 @@ To add dhtmlxPagination into an application, you need to take the following simp
 </html>
 ~~~
 
-{{sample    pagination/01_init/01_with_list.html}}
+[Pagination. Pagination with List](https://snippet.dhtmlx.com/6sju9jl5)
 
-{{sample    pagination/01_init/02_with_dataview.html}}
+[Pagination. Pagination with Dataview](https://snippet.dhtmlx.com/xmf0lx8z)
 
-{{sample    pagination/01_init/03_with_tree.html}}
+[Pagination. Pagination with Tree](https://snippet.dhtmlx.com/a0jhoipw)
 
-{{sample    pagination/01_init/04_with_grid.html}}
+[Pagination. Pagination with Grid](https://snippet.dhtmlx.com/0sku3cfa)
 
-{{sample    pagination/01_init/05_with_treegrid.html}}
+[Pagination. Pagination with TreeGrid](https://snippet.dhtmlx.com/uxz8lh7m)
 
 Include source files
 --------------------
@@ -72,8 +72,7 @@ Add two containers:
 - for a related component and give it an id, e.g. "widget_container"
 - for Pagination and give it an id, e.g. "pagination_container":
 
-{{snippet	index.html}}
-~~~html
+~~~html title="index.html"
 <div id="widget_container"></div>
 <div id="pagination_container"></div>
 ~~~
@@ -87,8 +86,7 @@ Choose the widget you want to link to the Pagination component, for example, dht
 
 1\. Initialize the widget with the object constructor, like this: 
 
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // creating a related dhtmlxList widget
 const widget = new dhx.List("widget_container", {
     css: "dhx_widget--bordered",
@@ -103,8 +101,7 @@ The constructor has two parameters:
 
 2\. Load data into the widget:
 
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // loading data into the created dhtmlxList 
 widget.data.parse(widget_data);
 ~~~
@@ -119,8 +116,7 @@ Initialize pagination with the *dhx.Pagination* object constructor. The construc
 - the HTML container for Pagination, 
 - optional, an object with configuration properties (see the full list below). If this argument is not passed to the constructor, the settings will be default.
 
-{{snippet	index.html}}
-~~~js
+~~~js title="script.js"
 // creating dhtmlxPagination
 const pagination = new dhx.Pagination("pagination_container", {
 	css: "dhx_widget--bordered",
@@ -134,6 +130,7 @@ There is a set of properties you can specify for Pagination to optimize its conf
 
 There is a list of properties that you can specify in the Pagination configuration object (the second parameter of the constructor function):
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - pagination/api/pagination_css_config.md - adds style classes to the pagination

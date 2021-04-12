@@ -33,7 +33,6 @@ form.setConfig({
 form/work_with_form.md#updatingformconfiguration
 
 
-@relatedsample: form/03_usage/03_set_config.html
 
 @changelog:
 added in v6.0.3

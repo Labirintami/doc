@@ -8,18 +8,16 @@ title: setProperties
 @params:
 - properties   object      an object with the available attributes of the control and their new values
 
-
 @example:
 form.getItem("button").setProperties({
     size: "small", 
     view: "link"
 });
  
-
 @template: api_method
 @descr:
 
-The method invokes the form/api/button/button_afterchangeproperties_event.md and form/api/button/button_beforechangeproperties_event.md events.
+The method invokes the [](form/api/button/button_afterchangeproperties_event.md) and [](form/api/button/button_beforechangeproperties_event.md) events.
 
 It is possible to change values of the following configuration attributes of the **Button** control:
 

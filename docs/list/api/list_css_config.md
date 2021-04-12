@@ -30,8 +30,6 @@ var list = new dhx.List("list", {css:"dhx_widget--bg_white"});
 
 ### List of CSS classes
 
-{{api
-
 - <b>dhx_widget--bg_white</b> - Sets white background to a widget
 
 - <b>dhx_widget--bg_gray</b> - Sets gray background to a widget
@@ -56,7 +54,6 @@ var list = new dhx.List("list", {css:"dhx_widget--bg_white"});
 
 - <b>dhx_widget--no-border_left</b> - Removes the left border of a widget
 
-}}
 
 @relatedsample: 
 https://snippet.dhtmlx.com/s461f09w	List. Custom Styles

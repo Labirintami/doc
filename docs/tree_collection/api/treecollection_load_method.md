@@ -3,7 +3,7 @@ sidebar_label: load
 title: load
 ---          
 
-@short:loads items from a file
+@short: loads items from a file
 
 @params:
 - path 		string		the path to the file
@@ -12,8 +12,6 @@ title: load
 @returns:
 
 - loaded		promise		a promise of data loading
-
-
 
 @example:
 myToolbar.data.load("[path to this file]/file.xml", "xml");

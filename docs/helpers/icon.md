@@ -1,7 +1,7 @@
 ---
 sidebar_label: Default icons
 title: Default icons
-description: 
+description: description
 ---          
 
 DHTMLX Suite library provides a set of default icons that you can use to decorate your application. To use any of these icons just click on the desired one to copy it and then paste it into the intended part of the code line.

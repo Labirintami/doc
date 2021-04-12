@@ -3,8 +3,6 @@ sidebar_label: Data Loading
 title: Data Loading
 ---          
 
-
-
 There are two ways of loading data into dhtmlxChart:
 
 - load data from an external file
@@ -71,7 +69,7 @@ var pie_dataset = [
 External data loading
 --------------------
 
-To load data from an external file, make use of the data_collection/api/load.md method of Data Collection. It takes the URL of the file with data as a parameter:
+To load data from an external file, make use of the [](data_collection/api/load.md) method of Data Collection. It takes the URL of the file with data as a parameter:
 
 ~~~js
 var chart = new dhx.Chart("chart_container");
@@ -93,7 +91,7 @@ chart.data.load("/some/data").then(function(){
 Loading from local source
 ------------------
 
-To load data from a local data source, use the data_collection/api/parse.md method of Data Collection. Pass [a predefined data set](#preparingdataset) as a parameter of this method:
+To load data from a local data source, use the [](data_collection/api/parse.md) method of Data Collection. Pass [a predefined data set](#preparingdataset) as a parameter of this method:
 
 ~~~js
 var chart = new dhx.Chart("chart_container");
@@ -105,7 +103,7 @@ chart.data.parse(dataset);
 Saving and restoring state
 ----------------------------
 
-To save the current state of a chart, use the data_collection/api/serialize.md method of Data Collection. It converts the data of a chart into an array of JSON objects. 
+To save the current state of a chart, use the [](data_collection/api/serialize.md) method of Data Collection. It converts the data of a chart into an array of JSON objects. 
 Each JSON object contains a set of *key:value* pairs for data titles and values.
 
 ~~~js
@@ -122,5 +120,3 @@ chart2.data.parse(state);
 ~~~
 
 {{editor    https://snippet.dhtmlx.com/rqvvpopp	Chart. Serialize}}
-
-

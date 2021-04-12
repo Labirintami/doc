@@ -1,7 +1,7 @@
 ---
 sidebar_label: Work with Grid
 title: Work with Grid
-description: 
+description: description
 ---          
 
 ``` todo
@@ -244,7 +244,7 @@ var countryFilter = grid.getHeaderFilter("density");
 countryFilter.blur();
 ~~~
 
-{{sample grid/03_usage/14_get_header_filter.html}}
+[Grid. Get Header Filter](https://snippet.dhtmlx.com/n8srjle3)
 
 The method returns either an HTML object or an object with Combobox configuration.
 
@@ -267,7 +267,7 @@ Since the object of a column has the [hidden](grid/configuration.md#hiddencolumn
 Checking visibility of a column
 ----------------------------------
 
-You can check whether a column is hidden or shown on a page using the grid/api/grid_iscolumnhidden_method.md method. The method returns *true*, if a column is hidden, and *false* if it's visible.
+You can check whether a column is hidden or shown on a page using the [](grid/api/grid_iscolumnhidden_method.md) method. The method returns *true*, if a column is hidden, and *false* if it's visible.
 
 ~~~js
 grid.isColumnHidden("country"); // -> true|false
@@ -288,19 +288,19 @@ grid.showRow(rowId);
 grid.hideRow(rowId);
 ~~~
 
-{{sample	grid/03_usage/15_show_hide_row.html}}
+[Grid. Show/Hide Row](https://snippet.dhtmlx.com/8y83d6jv)
 
 
 Checking visibility of a row
 ----------------------------------
 
-You can check whether a row is hidden or shown on a page using the grid/api/grid_isrowhidden_method.md method. The method returns *true*, if a row is hidden, and *false* if it's visible.
+You can check whether a row is hidden or shown on a page using the [](grid/api/grid_isrowhidden_method.md) method. The method returns *true*, if a row is hidden, and *false* if it's visible.
 
 ~~~js
 grid.isRowHidden("1"); // -> true|false
 ~~~
 
-{{sample	grid/03_usage/15_show_hide_row.html}}
+[Grid. Show/Hide Row](https://snippet.dhtmlx.com/8y83d6jv)
 
 Adding/removing spans
 ---------------------
@@ -531,7 +531,7 @@ grid.data.sort({
 Getting the sorting state
 --------------------------
 
-To get the current state of sorting data in Grid, use the grid/api/grid_getsortingstate_method.md method. The method returns an object with two attributes:
+To get the current state of sorting data in Grid, use the [](grid/api/grid_getsortingstate_method.md) method. The method returns an object with two attributes:
 
 <table class="webixdoc_links">
 	<tbody>
@@ -556,7 +556,7 @@ var state = grid.getSortingState();
 Editing data
 ------------------
 
-You can easily edit the desired cell of a grid with the help of the grid/api/grid_editcell_method.md method. It takes two parameters:
+You can easily edit the desired cell of a grid with the help of the [](grid/api/grid_editcell_method.md) method. It takes two parameters:
 
 <table class="webixdoc_links">
 	<tbody>

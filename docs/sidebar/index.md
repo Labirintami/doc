@@ -11,7 +11,7 @@ Check [online samples for dhtmlxSidebar](https://docs.dhtmlx.com/suite/samples/s
 
 ## API reference
 
-- sidebar/api/refs/sidebar.md
+- [](sidebar/api/api_overview.md)
 
 ## Related resources
 

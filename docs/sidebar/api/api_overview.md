@@ -23,7 +23,9 @@ title: Sidebar API overview
 | [](sidebar/api/sidebar_toggle_method.md)      | @getshort(sidebar/api/sidebar_toggle_method.md)      |
 | [](sidebar/api/sidebar_unselect_method.md)    | @getshort(sidebar/api/sidebar_unselect_method.md)    |
 
-`to do Tree Collection`
+:::info important
+Use [TreeCollection methods](tree_collection/index.md) to work with data. 
+:::
 
 ## Events
 
@@ -36,14 +38,15 @@ title: Sidebar API overview
 | [](sidebar/api/sidebar_beforeexpand_event.md)           | @getshort(sidebar/api/sidebar_beforeexpand_event.md)   |
 | [](sidebar/api/sidebar_beforehide_event.md)             | @getshort(sidebar/api/sidebar_beforehide_event.md)     |
 | [](sidebar/api/sidebar_click_event.md)                  | @getshort(sidebar/api/sidebar_click_event.md)          |
-| [](sidebar/api/sidebar_data_object.md)  //todo что это? | @getshort(sidebar/api/sidebar_data_object.md)          |
 | [](sidebar/api/sidebar_inputblur_event.md)              | @getshort(sidebar/api/sidebar_inputblur_event.md)      |
 | [](sidebar/api/sidebar_inputcreated_event.md)           | @getshort(sidebar/api/sidebar_inputcreated_event.md)   |
 | [](sidebar/api/sidebar_inputfocus_event.md)             | @getshort(sidebar/api/sidebar_inputfocus_event.md)     |
 | [](sidebar/api/sidebar_openmenu_event.md)               | @getshort(sidebar/api/sidebar_openmenu_event.md)       |
 | [](sidebar/api/sidebar_toggle_event.md)                 | @getshort(sidebar/api/sidebar_toggle_event.md)         |
 
-`to do Tree Collection`
+:::info important
+Use [TreeCollection events](tree_collection/index.md#events) to work with data. 
+:::
 
 ## Properties
 

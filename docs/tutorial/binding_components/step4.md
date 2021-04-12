@@ -60,13 +60,13 @@ grid.selection.setCell(row.id);
 e.preventDefault();
 ~~~
 
-- show a dhxContextMenu on the page via the menu/api/menu_showat_method.md method of dhxContextMenu:
+- show a dhxContextMenu on the page via the [](menu/api/menu_showat_method.md) method of dhxContextMenu:
 
 ~~~js
 contextMenu.showAt(e);
 ~~~
 
-Now we should put together the above described steps and place them inside the handler function of the grid/api/grid_cellrightclick_event.md event:
+Now we should put together the above described steps and place them inside the handler function of the [](grid/api/grid_cellrightclick_event.md) event:
 
 ~~~js
 grid.events.on("CellRightClick", function(row,column,e){

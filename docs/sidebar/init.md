@@ -69,8 +69,9 @@ var sidebar = new dhx.Sidebar("sidebar_container",{
 
 {{editor	https://snippet.dhtmlx.com/x0qpt7pk	Sidebar. Basic Initialization}}
 
-###Configuration properties
+### Configuration properties
 
+todotw скорее всего можно просто сослаться на API
 {{api
 
 - sidebar/api/sidebar_collapsed_config.md - defines that a sidebar is initialized in the collapsed state
@@ -121,8 +122,5 @@ var sidebar = new dhx.Sidebar("sidebar_container", {css: "dhx_widget--border_rig
 sidebar.data.parse(data);
 ~~~
 
-Detailed information on loading data into Sidebar is given in the article sidebar/data_loading.md.
-
-
-
+Detailed information on loading data into Sidebar is given in the article [](sidebar/data_loading.md).
 

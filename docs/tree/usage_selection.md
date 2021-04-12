@@ -9,13 +9,13 @@ You can manipulate with Tree items via the API of the **selection** object. It i
 Enabling/Disabling Selection object
 ---------------------------------
 
-Starting from v7.0, you can activate selection of items via the tree/api/selection/selection_enable_method.md method of the selection object.
+Starting from v7.0, you can activate selection of items via the [](tree/api/selection/selection_enable_method.md) method of the selection object.
 
 ~~~js
 tree.selection.enable();
 ~~~
 
-To disable selection of items in Tree, make use of the tree/api/selection/selection_disable_method.md method of the selection object:
+To disable selection of items in Tree, make use of the [](tree/api/selection/selection_disable_method.md) method of the selection object:
 
 ~~~js
 tree.selection.disable();
@@ -25,7 +25,7 @@ tree.selection.disable();
 
 
 Here is a list of events that you can apply while working with selection of items:
-
+todotw возможно отправлять на страницу со списком апи
 - tree/api/selection/selection_afterselect_event.md
 - tree/api/selection/selection_afterunselect_event.md
 - tree/api/selection/selection_beforeselect_event.md

@@ -1,7 +1,7 @@
 ---
 sidebar_label: columns
 title: columns
-description: 
+description: description
 ---          
 
 ``` todo таблица 

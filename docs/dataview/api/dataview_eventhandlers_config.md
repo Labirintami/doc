@@ -1,7 +1,7 @@
 ---
 sidebar_label: eventHandlers
 title: eventHandlers
-description: 
+description: description
 ---          
 
 ```
@@ -59,7 +59,7 @@ The **eventHandlers** object includes a set of *key:value* pairs, where:
 </table>
 
 
-@relatedsample: dataview/04_customization/05_template_events.html
+[Dataview. Handling events in template](https://snippet.dhtmlx.com/26873eql)
 
 @changelog: added in v7.0
 

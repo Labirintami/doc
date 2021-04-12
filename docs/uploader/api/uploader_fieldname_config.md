@@ -3,8 +3,8 @@ sidebar_label: fieldName
 title: fieldName
 ---          
 
-@short:  
-	sets the name of the file field in the form data
+@short: sets the name of the file field in the form data
+
 @default:"file"
 @type: string
 @example:
@@ -16,10 +16,5 @@ var vault = new dhx.Vault("vault_container", {
     }
 });
 
-
 @template:	api_config
 @descr:
-
-
-
-

@@ -43,8 +43,6 @@ var layout = new dhx.Layout("layout", {
 
 ### List of CSS classes
 
-{{api
-
 - <b>dhx_layout-cell--bg_white</b> - Sets white background to a layout-cell
 
 - <b>dhx_layout-cell--bg_gray</b> - Sets gray background to a layout-cell
@@ -68,8 +66,6 @@ var layout = new dhx.Layout("layout", {
 - <b>dhx_layout-cell--no-border_right</b> - Removes the right border of a layout-cell
 
 - <b>dhx_layout-cell--no-border_left</b> - Removes the left border of a layout-cell
-
-}}
 
 @related: layout/init.md#initializelayout
 layout/customization.md

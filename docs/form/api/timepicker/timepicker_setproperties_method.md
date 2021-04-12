@@ -8,8 +8,6 @@ title: setProperties
 @params:
 - properties   object      an object with the available attributes of the control and their new values
 
-
-
 @example:
 form.getItem("timepicker").setProperties({
     editable: true, 
@@ -17,10 +15,9 @@ form.getItem("timepicker").setProperties({
     timeFormat: 24, 
 });
 
-
 @template: api_method
 @descr:
-The method invokes the form/api/timepicker/timepicker_afterchangeproperties_event.md and form/api/timepicker/timepicker_beforechangeproperties_event.md events.
+The method invokes the [](form/api/timepicker/timepicker_afterchangeproperties_event.md) and [](form/api/timepicker/timepicker_beforechangeproperties_event.md) events.
 
 It is possible to change values of the following configuration attributes of the **TimePicker** control:
 
@@ -109,10 +106,4 @@ It is possible to change values of the following configuration attributes of the
     </tbody>
 </table>
 
-
-
-
-
 @changelog: added in v7.0
-
-
