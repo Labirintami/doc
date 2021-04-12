@@ -1,7 +1,7 @@
 ---
 sidebar_label: setProperties
 title: setProperties
-description: 
+description: description
 ---          
 
 

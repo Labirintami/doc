@@ -1,7 +1,7 @@
 ---
 sidebar_label: setColumns
 title: setColumns
-description: 
+description: description
 ---          
 
 @short: sets configuration for Grid columns

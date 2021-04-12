@@ -1,7 +1,7 @@
 ---
 sidebar_label: Range Mode
 title: Range Mode
-description: 
+description: description
 ---          
 
 The range mode of slider presupposes the usage of two thumbs for selecting the starting and ending values of a range. 

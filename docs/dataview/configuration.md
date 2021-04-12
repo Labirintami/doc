@@ -1,7 +1,7 @@
 ---
 sidebar_label: Configuration
 title: Configuration
-description: 
+description: description
 ---          
 
 ## Arrow keys navigation

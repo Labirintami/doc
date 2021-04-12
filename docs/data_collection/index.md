@@ -1,7 +1,7 @@
 ---
 sidebar_label: Overview
 title: DataCollection overview
-description: 
+description: description
 ---          
 
 A set of APIs that allow you to work with data of a component.

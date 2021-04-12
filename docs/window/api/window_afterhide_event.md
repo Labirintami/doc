@@ -1,7 +1,7 @@
 ---
 sidebar_label: afterHide
 title: afterHide
-description: 
+description: description
 ---          
 
 @short: fires after a window is hidden

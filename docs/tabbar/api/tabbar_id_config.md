@@ -1,7 +1,7 @@
 ---
 sidebar_label: id
 title: id
-description: 
+description: description
 ---          
 
 @short: sets the id of a tab

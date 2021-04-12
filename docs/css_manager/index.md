@@ -1,7 +1,7 @@
 ---
 sidebar_label: Overview
 title: CSS Manager overview
-description: 
+description: description
 ---  
 
 The DHTMLX library provides you with the opportunity to create new classes and manipulate them dynamically with the help of the **CssManager** helper.

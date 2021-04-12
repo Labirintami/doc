@@ -1,7 +1,7 @@
 ---
 sidebar_label: beforeHide
 title: beforeHide
-description: 
+description: description
 ---          
 
 @short: fires before a window is hidden
