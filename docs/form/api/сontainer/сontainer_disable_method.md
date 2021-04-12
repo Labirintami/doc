@@ -7,6 +7,6 @@ title: disable
 
 @signature:
 
-@example:
+@example: form.getItem("container").disable();
 
 @changelog: added in v7.2

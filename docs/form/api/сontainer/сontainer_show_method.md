@@ -7,6 +7,7 @@ title: show
 
 @signature:
 
-@example:
+@example: form.getItem("container").show();
+
 
 @changelog: added in v7.2

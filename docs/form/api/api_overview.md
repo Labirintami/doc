@@ -668,8 +668,8 @@ title: Form API overview
 
 ### Methods
 
-| Name                                                       | Description                                                       |
-| :--------------------------------------------------------- | :---------------------------------------------------------------- |
+| Name                                                     | Description                                                     |
+| :------------------------------------------------------- | :-------------------------------------------------------------- |
 | [](form/api/сontainer/сontainer_attach_method.md)        | @getshort(form/api/сontainer/сontainer_attach_method.md)        |
 | [](form/api/сontainer/сontainer_attachHTML_method.md)    | @getshort(form/api/сontainer/сontainer_attachHTML_method.md)    |
 | [](form/api/сontainer/сontainer_show_method.md)          | @getshort(form/api/сontainer/сontainer_show_method.md)          |

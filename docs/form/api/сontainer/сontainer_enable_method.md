@@ -7,6 +7,6 @@ title: enable
 
 @signature:
 
-@example:
+@example: form.getItem("container").enable();
 
 @changelog: added in v7.2

@@ -7,6 +7,6 @@ title: hide
 
 @signature:
 
-@example:
+@example: form.getItem("container").hide();
 
 @changelog: added in v7.2
