@@ -1,7 +1,7 @@
 ---
 sidebar_label: addRowCss
 title: addRowCss
-description: 
+description: description
 ---          
 
 @short: adds a style to a row

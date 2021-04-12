@@ -1,7 +1,7 @@
 ---
 sidebar_label: Work with Selection Object
 title: Work with Selection Object
-description: 
+description: description
 ---          
 
 You can manipulate with Grid cells via the API of the selection object. It is possible to get the object of one or more selected cells or rows, to set selection as to a single row or cell as to multiple rows or cells. The selection object also allows removing selection from previously selected cells.

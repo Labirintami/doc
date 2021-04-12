@@ -1,7 +1,7 @@
 ---
 sidebar_label: Work with TreeGrid
 title: Work with TreeGrid
-description:
+description: description
 ---          
 
 Working with columns and cells

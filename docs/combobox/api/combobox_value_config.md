@@ -1,7 +1,7 @@
 ---
 sidebar_label: value
 title: value
-description: 
+description: description
 ---          
 
 @short: specifies the values that will appear in the input on initialization of the combobox

@@ -1,7 +1,7 @@
 ---
 sidebar_label: getProperties
 title: getProperties
-description: 
+description: description
 ---          
 
 @short: returns an object with the available configuration attributes of the control

@@ -1,7 +1,7 @@
 ---
 sidebar_label: Overview of Message Boxes
 title: Overview of Message Boxes
-description: 
+description: description
 ---          
 
 dhtmlxMessage component provides a set of helper message boxes: message, alert, confirm, and the tooltip component. Message boxes are easily configurable, so that you can achieve the best look and feel for 
