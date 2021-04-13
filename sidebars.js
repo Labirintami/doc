@@ -1957,7 +1957,7 @@ module.exports = {
                                 "sidebar/api/api_overview",
                                 {
                                     type: "category",
-                                    label: "Methods",
+                                    label: "Sidebar methods",
                                     items: [
                                         "sidebar/api/sidebar_collapse_method",
                                         "sidebar/api/sidebar_destructor_method",
@@ -1978,7 +1978,7 @@ module.exports = {
                                 },
                                 {
                                     type: "category",
-                                    label: "Events",
+                                    label: "Sidebar events",
                                     items: [
                                         "sidebar/api/sidebar_aftercollapse_event",
                                         "sidebar/api/sidebar_afterexpand_event",
@@ -1995,7 +1995,7 @@ module.exports = {
                                 },
                                 {
                                     type: "category",
-                                    label: "Properties",
+                                    label: "Sidebar properties",
                                     items: [
                                         "sidebar/api/sidebar_collapsed_config",
                                         "sidebar/api/sidebar_css_config",
@@ -2005,6 +2005,12 @@ module.exports = {
                                         "sidebar/api/sidebar_width_config",
                                     ],
                                 },
+                                "sidebar/api/api_customhtml_properties",
+                                "sidebar/api/api_menuitem_properties",
+                                "sidebar/api/api_navitem_properties",
+                                "sidebar/api/api_separator_properties",
+                                "sidebar/api/api_spacer_properties",
+                                "sidebar/api/api_title_properties",
                             ],
                         },
                         "sidebar/init",
