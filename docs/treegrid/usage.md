@@ -284,7 +284,7 @@ treegrid.showRow(rowId);
 treegrid.hideRow(rowId);
 ~~~
 
-{{sample	treegrid/03_usage/17_show_hide_row.html}}
+[TreeGrid. Show/Hide Row](https://snippet.dhtmlx.com/6geqbtvv)
 
 
 Checking visibility of a row
@@ -296,7 +296,7 @@ You can check whether a row is hidden or shown on a page using the [](treegrid/a
 treegrid.isRowHidden("1"); // -> true|false
 ~~~
 
-{{sample	treegrid/03_usage/17_show_hide_row.html}}
+[TreeGrid. Show/Hide Row](https://snippet.dhtmlx.com/6geqbtvv)
 
 Adding/removing spans
 ---------------------
