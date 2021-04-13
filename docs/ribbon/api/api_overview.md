@@ -3,7 +3,7 @@ sidebar_label: API overview
 title: Ribbon API overview
 ---
 
-## Methods
+## Ribbon methods
 
 | Name                                        | Description                                        |
 | ------------------------------------------- | -------------------------------------------------- |
@@ -25,7 +25,7 @@ title: Ribbon API overview
 Use [TreeCollection methods](tree_collection/index.md) to work with data. 
 :::
 
-## Events
+## Ribbon events
 
 | Name                                        | Description                                        |
 | ------------------------------------------- | -------------------------------------------------- |
@@ -39,10 +39,50 @@ Use [TreeCollection methods](tree_collection/index.md) to work with data.
 Use [TreeCollection events](tree_collection/index.md#events) to work with data. 
 :::
 
-## Properties
+## Ribbon properties
 
 | Name                                    | Description                                    |
 | --------------------------------------- | ---------------------------------------------- |
 | [](ribbon/api/ribbon_css_config.md)     | @getshort(ribbon/api/ribbon_css_config.md)     |
 | [](ribbon/api/ribbon_data_config.md)    | @getshort(ribbon/api/ribbon_data_config.md)    |
 | [](ribbon/api/ribbon_menucss_config.md) | @getshort(ribbon/api/ribbon_menucss_config.md) |
+
+## Ribbon Block properties
+
+Block can possess the [following properties](ribbon/api/api_block_properties.md).
+
+## Ribbon Button properties
+
+Button can have the [following properties](ribbon/api/api_button_properties.md).
+
+## Ribbon Custom HTML properties
+
+Custom HTML may have the [following properties](ribbon/api/api_customhtml_properties.md).
+
+## Ribbon ImageButton properties
+
+ImageButton can possess the [following properties](ribbon/api/api_imagebutton_properties.md).
+
+## Ribbon Input properties
+
+Input can have the [following properties](ribbon/api/api_input_properties.md).
+
+## Ribbon NavItem properties
+
+NavItem can have the [following properties](ribbon/api/api_navitem_properties.md).
+
+## Ribbon SelectButton properties
+
+SelectButton can have the [following properties](ribbon/api/api_selectbutton_properties.md).
+
+## Ribbon Separator properties
+
+Separator may possess the [following properties](ribbon/api/api_separator_properties.md).
+
+## Ribbon Spacer properties
+
+Spacer can have the [following properties](ribbon/api/api_spacer_properties.md).
+
+## Ribbon Title properties
+
+Title may possess the [following properties](ribbon/api/api_title_properties.md).
