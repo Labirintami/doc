@@ -13,8 +13,8 @@
     "normalizeLink": "cd plugins && node samplesLinksNormalize.js"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.cb403afa9",
-    "@docusaurus/preset-classic": "2.0.0-alpha.cb403afa9",
+    "@docusaurus/core": "2.0.0-alpha.bfea8d632",
+    "@docusaurus/preset-classic": "2.0.0-alpha.bfea8d632",
     "@mdx-js/react": "^1.5.8",
     "clsx": "^1.1.1",
     "react": "^17.0.2",
