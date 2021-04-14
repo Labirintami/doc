@@ -1666,7 +1666,7 @@ module.exports = {
                                 "menu/api/api_overview",
                                 {
                                     type: "category",
-                                    label: "Methods",
+                                    label: "Menu methods",
                                     items: [
                                         "menu/api/menu_destructor_method",
                                         "menu/api/menu_disable_method",
@@ -1684,7 +1684,7 @@ module.exports = {
                                 },
                                 {
                                     type: "category",
-                                    label: "Events",
+                                    label: "Menu events",
                                     items: [
                                         "menu/api/menu_afterhide_event",
                                         "menu/api/menu_beforehide_event",
@@ -1697,7 +1697,7 @@ module.exports = {
                                 },
                                 {
                                     type: "category",
-                                    label: "Properties",
+                                    label: "Menu properties",
                                     items: [
                                         "menu/api/menu_css_config",
                                         "menu/api/menu_data_config",
@@ -1705,22 +1705,11 @@ module.exports = {
                                         "menu/api/menu_navigationtype_config",
                                     ],
                                 },
-                                {
-                                    type: "category",
-                                    label: "Selection API",
-                                    items: [{
-                                            type: "category",
-                                            label: "Methods",
-                                            items: [],
-                                        },
-
-                                        {
-                                            type: "category",
-                                            label: "Events",
-                                            items: [],
-                                        },
-                                    ],
-                                },
+                                "menu/api/api_menuitem_properties",
+                                "menu/api/api_navitem_properties",
+                                "menu/api/api_customhtml_properties",
+                                "menu/api/api_separator_properties",
+                                "menu/api/api_spacer_properties",
                             ],
                         },
                         "menu/how_to_start",

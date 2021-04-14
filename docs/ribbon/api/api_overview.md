@@ -49,40 +49,40 @@ Use [TreeCollection events](tree_collection/index.md#events) to work with data.
 
 ## Ribbon Block properties
 
-Block can possess the [following properties](ribbon/api/api_block_properties.md).
+A Block control can possess the [following properties](ribbon/api/api_block_properties.md).
 
 ## Ribbon Button properties
 
-Button can have the [following properties](ribbon/api/api_button_properties.md).
+A Button control can have the [following properties](ribbon/api/api_button_properties.md).
 
 ## Ribbon Custom HTML properties
 
-Custom HTML may have the [following properties](ribbon/api/api_customhtml_properties.md).
+A Custom HTML control may have the [following properties](ribbon/api/api_customhtml_properties.md).
 
 ## Ribbon ImageButton properties
 
-ImageButton can possess the [following properties](ribbon/api/api_imagebutton_properties.md).
+An ImageButton control can possess the [following properties](ribbon/api/api_imagebutton_properties.md).
 
 ## Ribbon Input properties
 
-Input can have the [following properties](ribbon/api/api_input_properties.md).
+An Input control can have the [following properties](ribbon/api/api_input_properties.md).
 
 ## Ribbon NavItem properties
 
-NavItem can have the [following properties](ribbon/api/api_navitem_properties.md).
+A NavItem control can have the [following properties](ribbon/api/api_navitem_properties.md).
 
 ## Ribbon SelectButton properties
 
-SelectButton can have the [following properties](ribbon/api/api_selectbutton_properties.md).
+A SelectButton control can have the [following properties](ribbon/api/api_selectbutton_properties.md).
 
 ## Ribbon Separator properties
 
-Separator may possess the [following properties](ribbon/api/api_separator_properties.md).
+A Separator control may possess the [following properties](ribbon/api/api_separator_properties.md).
 
 ## Ribbon Spacer properties
 
-Spacer can have the [following properties](ribbon/api/api_spacer_properties.md).
+A Spacer control can have the [following properties](ribbon/api/api_spacer_properties.md).
 
 ## Ribbon Title properties
 
-Title may possess the [following properties](ribbon/api/api_title_properties.md).
+A Title control may possess the [following properties](ribbon/api/api_title_properties.md).
