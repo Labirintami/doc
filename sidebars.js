@@ -745,6 +745,7 @@ module.exports = {
                         "form/api/checkbox_group/checkboxgroup_beforeshow_event",
                         "form/api/checkbox_group/checkboxgroup_beforevalidate_event",
                         "form/api/checkbox_group/checkboxgroup_change_event",
+                        "form/api/checkbox_group/checkboxgroup_keydown_event",
                       ],
                     },
                     {
@@ -844,6 +845,7 @@ module.exports = {
                         "form/api/combo/combo_beforeshow_event",
                         "form/api/combo/combo_beforevalidate_event",
                         "form/api/combo/combo_change_event",
+                        "form/api/combo/combo_keydown_event",
                       ],
                     },
                     {
@@ -941,6 +943,7 @@ module.exports = {
                         "form/api/radiogroup/radiogroup_beforeshow_event",
                         "form/api/radiogroup/radiogroup_beforevalidate_event",
                         "form/api/radiogroup/radiogroup_change_event",
+                        "form/api/radiogroup/radiogroup_keydown_event",
                       ],
                     },
                     {

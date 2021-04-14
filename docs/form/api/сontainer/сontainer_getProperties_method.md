@@ -35,9 +35,7 @@ form.getItem("container").getProperties();
 @changelog: added in v7.2
 
 The returned object of the Container control can contain the following properties:
-- `hidden` - (boolean) defines whether a control is hidden
-- `disabled` - (boolean) defines whether a control is enabled (false) or disabled (true)
+
 - `width` - (string|number|"content") the width of a control 
 - `height` - (string|number|"content") the height of a control 
 - `padding` - (string|number) sets padding between a cell and a border of a control
-- `css` - (string) adds style classes to a control string 

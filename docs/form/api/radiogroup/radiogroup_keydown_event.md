@@ -2,9 +2,8 @@
 sidebar_label: keydown 
 title: keydown 
 --- 
-`to do - delete`
 
-@short: fires on keyboard event in a control
+@short: fires on keyboard event in a RadioGroup control
 
 @signature:
 
@@ -14,7 +13,7 @@ title: keydown
 - id – id of the element of the form control (for RadioGroup, CheckboxGroup, Combo)
 
 @example:
-form.getItem("control").events.on("keydown", function(event, name, id) {
+form.getItem("radiogroup").events.on("keydown", function(event, name, id) {
     console.log(event, name, id);
 });
 

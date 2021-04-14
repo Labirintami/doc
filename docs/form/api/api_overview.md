@@ -212,7 +212,7 @@ title: Form API overview
 | [](form/api/checkbox_group/checkboxgroup_beforeshow_event.md)             | @getshort(form/api/checkbox_group/checkboxgroup_beforeshow_event.md)             |
 | [](form/api/checkbox_group/checkboxgroup_beforevalidate_event.md)         | @getshort(form/api/checkbox_group/checkboxgroup_beforevalidate_event.md)         |
 | [](form/api/checkbox_group/checkboxgroup_change_event.md)                 | @getshort(form/api/checkbox_group/checkboxgroup_change_event.md)                 |
-| [](form/api/form_keydown_event_forgroups.md)                              | @getshort(form/api/form_keydown_event_forgroups.md)                              |
+| [](form/api/checkbox_group/checkboxgroup_keydown_event.md)                | @getshort(form/api/checkbox_group/checkboxgroup_keydown_event.md)                |
 
 ### CheckboxGroup properties
 
@@ -300,9 +300,7 @@ title: Form API overview
 | [](form/api/combo/combo_beforeshow_event.md)             | @getshort(form/api/combo/combo_beforeshow_event.md)             |
 | [](form/api/combo/combo_beforevalidate_event.md)         | @getshort(form/api/combo/combo_beforevalidate_event.md)         |
 | [](form/api/combo/combo_change_event.md)                 | @getshort(form/api/combo/combo_change_event.md)                 |
-| [](form/api/form_keydown_event_forgroups.md)             | @getshort(form/api/form_keydown_event_forgroups.md)             |
-
-
+| [](form/api/combo/combo_keydown_event.md)                | @getshort(form/api/combo/combo_keydown_event.md)                |
 
 ### Properties
 
@@ -383,7 +381,7 @@ title: Form API overview
 | [](form/api/radiogroup/radiogroup_beforeshow_event.md)             | @getshort(form/api/radiogroup/radiogroup_beforeshow_event.md)             |
 | [](form/api/radiogroup/radiogroup_beforevalidate_event.md)         | @getshort(form/api/radiogroup/radiogroup_beforevalidate_event.md)         |
 | [](form/api/radiogroup/radiogroup_change_event.md)                 | @getshort(form/api/radiogroup/radiogroup_change_event.md)                 |
-| [](form/api/form_keydown_event_forgroups.md)                       | @getshort(form/api/form_keydown_event_forgroups.md)                       |
+| [](form/api/radiogroup/radiogroup_keydown_event.md)                | @getshort(form/form/api/radiogroup/radiogroup_keydown_event.md)           |
 
 ### RadioGroup properties
 
@@ -668,8 +666,8 @@ title: Form API overview
 
 ### Methods
 
-| Name                                                     | Description                                                     |
-| :------------------------------------------------------- | :-------------------------------------------------------------- |
+| Name                                                       | Description                                                       |
+| :--------------------------------------------------------- | :---------------------------------------------------------------- |
 | [](form/api/сontainer/сontainer_attach_method.md)        | @getshort(form/api/сontainer/сontainer_attach_method.md)        |
 | [](form/api/сontainer/сontainer_attachHTML_method.md)    | @getshort(form/api/сontainer/сontainer_attachHTML_method.md)    |
 | [](form/api/сontainer/сontainer_show_method.md)          | @getshort(form/api/сontainer/сontainer_show_method.md)          |
@@ -680,6 +678,19 @@ title: Form API overview
 | [](form/api/сontainer/сontainer_isDisabled_method.md)    | @getshort(form/api/сontainer/сontainer_isDisabled_method.md)    |
 | [](form/api/сontainer/сontainer_setProperties_method.md) | @getshort(form/api/сontainer/сontainer_setProperties_method.md) |
 | [](form/api/сontainer/сontainer_getProperties_method.md) | @getshort(form/api/сontainer/сontainer_getProperties_method.md) |
+
+### Events
+
+| Name | Description |
+| :--- | :---------- |
+|      |             |
+|      |             |
+|      |             |
+|      |             |
+|      |             |
+|      |             |
+|      |             |
+|      |             |
 
 ### Properties
 
