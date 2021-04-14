@@ -21,7 +21,7 @@ sidebar.data.add({
 
 ### Properties
 
-You can provide the [following properties](sidebar/api/api_separator_properties.md) in the configuration object of a Separator.
+You can provide the [following properties](sidebar/api/api_separator_properties.md) in the configuration object of a Separator control.
 
 
 ## Showing/hiding separator

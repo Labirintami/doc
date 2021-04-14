@@ -22,7 +22,7 @@ sidebar.data.add({
 
 ### Properties
 
-You can provide the [following properties](sidebar/api/api_navitem_properties.md) in the configuration object of a NavItem.
+You can provide the [following properties](sidebar/api/api_navitem_properties.md) in the configuration object of a NavItem control.
 
 ## Adding an icon
 

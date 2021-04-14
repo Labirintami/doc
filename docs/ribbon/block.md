@@ -26,7 +26,7 @@ This is the basic syntax of a block with two buttons in a row:
 
 ### Properties
 
-You can provide the [following properties](ribbon/api/api_block_properties.md) in the configuration object of a Block.
+You can provide the [following properties](ribbon/api/api_block_properties.md) in the configuration object of a Block control.
 
 
 ## Adding a Block

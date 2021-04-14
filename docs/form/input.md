@@ -31,7 +31,7 @@ var form = new dhx.Form("form_container", {
 
 ### Properties
 
-[List of the Input properties](form/api/input/api_input_properties.md)
+View [the full list of configuration properties of the Input control](form/api/input/api_input_properties.md).
 
 ## Working with Input
 
@@ -45,8 +45,8 @@ var value = form.getItem("input").getValue();
 
 ### Methods
 
-[List of the Input methods](form/api/api_overview.md#methods-7)
+Check [the full list of methods of the Input control](form/api/api_overview.md#methods-7).
 
 ### Events
 
-[List of the Input events](form/api/api_overview.md#events-7)
+Check [the full list of events of the Input control](form/api/api_overview.md#events-7).

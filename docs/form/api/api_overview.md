@@ -213,9 +213,9 @@ title: Form API overview
 
 [List of the CheckboxGroup properties](form/api/checkbox_group/api_checkboxgroup_properties.md)
 
-### Checkbox properties from CheckboxGroup
+### Properties of a Checkbox of CheckboxGroup
 
-[List of the Checkbox properties from CheckboxGroup](form/api/checkbox_group/api_checkboxgroup_properties.md#checkbox-properties-from-checkboxgroup)
+[List of properties of a Checkbox of the CheckboxGroup control](form/api/checkbox_group/api_checkboxgroup_properties.md#properties-of-a-checkbox-of-checkboxgroup)
 
 ## Colorpicker API
 

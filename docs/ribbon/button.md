@@ -24,7 +24,7 @@ This is the basic syntax of a button:
 
 ### Properties
 
-You can provide the [following properties](ribbon/api/api_button_properties.md) in the configuration object of a Button.
+You can provide the [following properties](ribbon/api/api_button_properties.md) in the configuration object of a Button control.
 
 
 ## Adding Buttons

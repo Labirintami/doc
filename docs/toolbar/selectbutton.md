@@ -47,7 +47,7 @@ toolbar.data.add(
 
 ### Properties
 
-The selectButton object has [the following properties](toolbar/api/api_selectbutton_properties.md).
+The configuration object of the SelectButton control can have [the following properties](toolbar/api/api_selectbutton_properties.md).
 
 ##  Operations with a button
 

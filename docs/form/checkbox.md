@@ -31,7 +31,7 @@ var form = new dhx.Form("form_container", {
 
 ### Properties
 
-[List of the Checkbox properties](form/api/checkbox/api_checkbox_properties.md)
+View [the full list of configuration properties of the Checkbox control](form/api/checkbox/api_checkbox_properties.md).
 
 ## Working with Checkbox
 
@@ -45,8 +45,8 @@ var value = form.getItem("checkbox").getValue();
 
 ### Methods
 
-[List of the Checkbox methods](form/api/api_overview.md#methods-3)
+Check [the full list of methods of the Checkbox control](form/api/api_overview.md#methods-3).
 
 ### Events
 
-[List of the Checkbox events](form/api/api_overview.md#events-3)
+Check [the full list of events of the Checkbox control](form/api/api_overview.md#events-3).

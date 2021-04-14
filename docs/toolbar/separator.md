@@ -21,7 +21,7 @@ toolbar.data.add({
 
 ### Properties
 
-Separator can have [next properties](toolbar/api/api_separator_properties.md).
+The configuration object of the Separator control can have [the following properties](toolbar/api/api_separator_properties.md).
 
 ## Showing/hiding separator
 

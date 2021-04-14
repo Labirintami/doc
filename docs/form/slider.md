@@ -29,7 +29,7 @@ var form = new dhx.Form("form_container", {
 
 ### Properties
 
-[List of the Slider properties](form/api/slider/api_slider_properties.md)
+View [the full list of configuration properties of the Slider control](form/api/slider/api_slider_properties.md).
 
 ## Working with Slider
 
@@ -43,11 +43,11 @@ var value = form.getItem("slider_id").getValue();
 
 ### Methods
 
-[List of the Slider methods](form/api/api_overview.md#methods-11)
+Check [the full list of methods of the Slider control](form/api/api_overview.md#methods-11).
 
 ### Events
 
-[List of the Slider events](form/api/api_overview.md#events-11)
+Check [the full list of events of the Slider control](form/api/api_overview.md#events-11).
 
 
 ### Working with the dhtmlxSlider widget

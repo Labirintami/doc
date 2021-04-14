@@ -39,7 +39,7 @@ ribbon.data.add({
 
 ### Properties
 
-You can provide the [following properties](ribbon/api/api_selectbutton_properties.md) in the configuration object of a SelectButton.
+You can provide the [following properties](ribbon/api/api_selectbutton_properties.md) in the configuration object of a SelectButton control.
 
 
 Operations with a button

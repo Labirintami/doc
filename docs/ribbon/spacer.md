@@ -22,7 +22,7 @@ ribbon.data.add({
 
 ### Properties
 
-You can provide the [following properties](ribbon/api/api_spacer_properties.md) in the configuration object of a Spacer.
+You can provide the [following properties](ribbon/api/api_spacer_properties.md) in the configuration object of a Spacer control.
 
 
 ## Showing/hiding spacer

@@ -23,7 +23,7 @@ ribbon.data.add({
 
 ### Properties
 
-You can provide the [following properties](ribbon/api/api_input_properties.md) in the configuration object of an Input.
+You can provide the [following properties](ribbon/api/api_input_properties.md) in the configuration object of an Input control.
 
 
 ## Showing/hiding Input 

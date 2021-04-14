@@ -62,24 +62,24 @@ Use [TreeCollection events](tree_collection/index.md#events) to work with data.
 
 ## Sidebar Custom HTML properties
 
-Custom HTML can possess the [following properties](sidebar/api/api_customhtml_properties.md).
+A Custom HTML control can possess the [following properties](sidebar/api/api_customhtml_properties.md).
 
 ## Sidebar MenuItem properties 
 
-MenuItem may have the [following properties](sidebar/api/api_menuitem_properties.md).
+A MenuItem control may have the [following properties](sidebar/api/api_menuitem_properties.md).
 
 ## Sidebar NavItem properties 
 
-NavItem can have the [following properties](sidebar/api/api_navitem_properties.md).
+A NavItem control can have the [following properties](sidebar/api/api_navitem_properties.md).
 
 ## Sidebar Separator properties 
 
-Separator may possess the [following properties](sidebar/api/api_separator_properties.md).
+A Separator control may possess the [following properties](sidebar/api/api_separator_properties.md).
 
 ## Sidebar Spacer properties 
 
-Spacer may have the [following properties](sidebar/api/api_spacer_properties.md).
+A Spacer control may have the [following properties](sidebar/api/api_spacer_properties.md).
 
 ## Sidebar Title properties 
 
-Title may possess the [following properties](sidebar/api/api_title_properties.md).
+A Title control may possess the [following properties](sidebar/api/api_title_properties.md).

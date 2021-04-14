@@ -21,7 +21,7 @@ toolbar.data.add({
 
 ### Properties
 
-Spacer can have [next properties](toolbar/api/api_spacer_properties.md).
+You can provide [the following properties](toolbar/api/api_spacer_properties.md) in the configuration object of a Spacer control.
 
 ## Showing/hiding spacer
 

@@ -28,7 +28,7 @@ var form = new dhx.Form("form_container", {
 
 ### Properties
 
-[List of the Text properties](form/api/text/api_text_properties.md)
+View [the full list of configuration properties of the Text control](form/api/text/api_text_properties.md).
 
 ## Working with Text
 
@@ -42,9 +42,9 @@ var value = form.getItem("text").getValue();
 
 ### Methods
 
-[List of the Text methods](form/api/api_overview.md#methods-13)
+Check [the full list of methods of the Text control](form/api/api_overview.md#methods-13).
 
 
 ### Events
 
-[List of the Text events](form/api/api_overview.md#events-13)
+Check [the full list of events of the Text control](form/api/api_overview.md#events-13).

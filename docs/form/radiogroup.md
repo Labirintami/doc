@@ -51,11 +51,11 @@ var form = new dhx.Form("form_container", {
 
 ### Properties of RadioGroup
 
-[List of the RadioGroup properties](form/api/radiogroup/api_radiogroup_properties.md)
+View [the full list of configuration properties of the RadioGroup control](form/api/radiogroup/api_radiogroup_properties.md).
 
 ### Properties of RadioButton
 
-[List of the RadioButton properties](form/api/radiogroup/api_radiogroup_properties.md#radiobutton-properties)
+View [the full list of properties](form/api/radiogroup/api_radiogroup_properties.md#radiobutton-properties) that you can provide in the configuration object of a RadioButton of the RadioGroup control.
 
 ## Working with RadioGroup
 
@@ -69,8 +69,8 @@ var value = form.getItem("radiogroup").getValue();
 
 ### Methods
 
-[List of the RadioGroup methods](form/api/api_overview.md#methods-8)
+Check [the full list of methods of the RadioGroup control](form/api/api_overview.md#methods-8).
 
 ### Events
 
-[List of the RadioGroup events](form/api/api_overview.md#events-8)
+Check [the full list of events of the RadioGroup control](form/api/api_overview.md#events-8).

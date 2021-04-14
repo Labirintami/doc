@@ -22,7 +22,7 @@ ribbon.data.add({
 
 ### Properties
 
-You can provide the [following properties](ribbon/api/api_imagebutton_properties.md) in the configuration object of an ImageButton.
+You can provide the [following properties](ribbon/api/api_imagebutton_properties.md) in the configuration object of an ImageButton control.
 
 
 ## Working with ImageButton

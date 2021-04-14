@@ -21,7 +21,7 @@ ribbon.data.add({
 
 ### Properties
 
-You can provide the [following properties](ribbon/api/api_separator_properties.md) in the configuration object of a Separator.
+You can provide the [following properties](ribbon/api/api_separator_properties.md) in the configuration object of a Separator control.
 
 ## Showing/hiding Separator
 

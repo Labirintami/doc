@@ -19,7 +19,7 @@ ribbon.data.add({
 
 ### Properties
 
-You can provide the [following properties](ribbon/api/api_title_properties.md) in the configuration object of a Title.
+You can provide the [following properties](ribbon/api/api_title_properties.md) in the configuration object of a Title control.
 
 
 ## Showing/hiding title

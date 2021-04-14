@@ -33,7 +33,7 @@ sidebar.data.add({
 
 ### Properties
 
-You can provide the [following properties](sidebar/api/api_customhtml_properties.md) in the configuration object of a Custom HTML.
+You can provide the [following properties](sidebar/api/api_customhtml_properties.md) in the configuration object of a Custom HTML control.
 
 Working with Custom HTML
 -----------------------

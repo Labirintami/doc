@@ -31,7 +31,7 @@ var form = new dhx.Form("form_container", {
 
 ### Properties
 
-[List of the Button properties](form/api/button/api_button_properties.md)
+View [the full list of configuration properties of the Button control](form/api/button/api_button_properties.md).
 
 ## Working with Button
 
@@ -45,10 +45,10 @@ form.getItem("button").disable();
 
 ### Methods
 
-[List of the Button methods](form/api/api_overview.md#methods-1)
+Check [the full list of methods of the Button control](form/api/api_overview.md#methods-1).
 
 
 ### Events
 
-[List of the Button events](form/api/api_overview.md#events-1)
+Check [the full list of events of the Button control](form/api/api_overview.md#events-1)
 

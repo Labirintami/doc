@@ -25,7 +25,7 @@ ribbon.data.add({
 
 ### Properties
 
-You can provide the [following properties](ribbon/api/api_customhtml_properties.md) in the configuration object of a Custom HTML Button.
+You can provide the [following properties](ribbon/api/api_customhtml_properties.md) in the configuration object of a Custom HTML control.
 
 
 Working with Custom HTML

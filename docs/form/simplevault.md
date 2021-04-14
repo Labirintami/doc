@@ -33,7 +33,7 @@ var form = new dhx.Form("form_container", {
 
 ### Properties
 
-[List of the SimpleVault properties](form/api/simplevault/api_simplevault_properties.md)
+View [the full list of configuration properties of the SimpleVault control](form/api/simplevault/api_simplevault_properties.md).
 
 ## Working with SimpleVault
 
@@ -47,11 +47,11 @@ var value = form.getItem("simpleVault").getValue();
 
 ### Methods
 
-[List of the SimpleVault methods](form/api/api_overview.md#methods-10)
+Check [the full list of methods of the SimpleVault control](form/api/api_overview.md#methods-10).
 
 ### Events
 
-[List of the SimpleVault events](form/api/api_overview.md#events-10)
+Check [the full list of events of the SimpleVault control](form/api/api_overview.md#events-10).
 
 
 ## Using DataCollection API
