@@ -8,16 +8,11 @@ title: List API overview
 | Name                                         | Description                                         |
 | -------------------------------------------- | --------------------------------------------------- |
 | [](list/api/list_destructor_method.md)       | @getshort(list/api/list_destructor_method.md)       |
-| [](list/api/list_disableselection_method.md) | @getshort(list/api/list_disableselection_method.md) |
-| [](list/api/list_edit_method.md)             | @getshort(list/api/list_edit_method.md)             |
 | [](list/api/list_edititem_method.md)         | @getshort(list/api/list_edititem_method.md)         |
-| [](list/api/list_enableselection_method.md)  | @getshort(list/api/list_enableselection_method.md)  |
 | [](list/api/list_getfocus_method.md)         | @getshort(list/api/list_getfocus_method.md)         |
-| [](list/api/list_getfocusindex_method.md)    | @getshort(list/api/list_getfocusindex_method.md)    |
 | [](list/api/list_getfocusitem_method.md)     | @getshort(list/api/list_getfocusitem_method.md)     |
 | [](list/api/list_paint_method.md)            | @getshort(list/api/list_paint_method.md)            |
 | [](list/api/list_setfocus_method.md)         | @getshort(list/api/list_setfocus_method.md)         |
-| [](list/api/list_setfocusindex_method.md)    | @getshort(list/api/list_setfocusindex_method.md)    |
 
 :::info important
 - Use [DataCollection methods](data_collection/index.md) to work with data. 
@@ -39,7 +34,6 @@ title: List API overview
 | [](list/api/list_canceldrop_event.md)         | @getshort(list/api/list_canceldrop_event.md)      |
 | [](list/api/list_candrop_event.md)            | @getshort(list/api/list_candrop_event.md)         |
 | [](list/api/list_click_event.md)              | @getshort(list/api/list_click_event.md)           |
-| [](list/api/list_contextmenu_event.md)        | @getshort(list/api/list_contextmenu_event.md)     |
 | [](list/api/list_doubleclick_event.md)        | @getshort(list/api/list_doubleclick_event.md)     |
 | [](list/api/list_dragin_event.md)             | @getshort(list/api/list_dragin_event.md)          |
 | [](list/api/list_dragout_event.md)            | @getshort(list/api/list_dragout_event.md)         |
@@ -47,7 +41,6 @@ title: List API overview
 | [](list/api/list_focuschange_event.md)        | @getshort(list/api/list_focuschange_event.md)     |
 | [](list/api/list_itemmouseover_event.md)      | @getshort(list/api/list_itemmouseover_event.md)   |
 | [](list/api/list_itemrightclick_event.md)     | @getshort(list/api/list_itemrightclick_event.md)  |
-| [](list/api/list_selection_object.md) //to do |                                                   |
 
 :::info important
 - Use [DataCollection events](data_collection/index.md#events) to work with data. 
@@ -64,13 +57,11 @@ title: List API overview
 | [](list/api/list_dragmode_config.md)           | @getshort(list/api/list_dragmode_config.md)           |
 | [](list/api/list_dropbehaviour_config.md)      | @getshort(list/api/list_dropbehaviour_config.md)      |
 | [](list/api/list_editable_config.md)           | @getshort(list/api/list_editable_config.md)           |
-| [](list/api/list_editing_config.md)            | @getshort(list/api/list_editing_config.md)            |
 | [](list/api/list_eventhandlers_config.md)      | @getshort(list/api/list_eventhandlers_config.md)      |
 | [](list/api/list_height_config.md)             | @getshort(list/api/list_height_config.md)             |
 | [](list/api/list_itemheight_config.md)         | @getshort(list/api/list_itemheight_config.md)         |
 | [](list/api/list_keynavigation_config.md)      | @getshort(list/api/list_keynavigation_config.md)      |
 | [](list/api/list_multiselection_config.md)     | @getshort(list/api/list_multiselection_config.md)     |
-| [](list/api/list_multiselectionmode_config.md) | @getshort(list/api/list_multiselectionmode_config.md) |
 | [](list/api/list_selection_config.md)          | @getshort(list/api/list_selection_config.md)          |
 | [](list/api/list_template_config.md)           | @getshort(list/api/list_template_config.md)           |
 | [](list/api/list_virtual_config.md)            | @getshort(list/api/list_virtual_config.md)            |

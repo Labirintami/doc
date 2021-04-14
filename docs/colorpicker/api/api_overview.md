@@ -9,17 +9,14 @@ title: Colorpicker API overview
 | --------------------------------------------------------- | ---------------------------------------------------------------- |
 | [](colorpicker/api/colorpicker_clear_method.md)           | @getshort(colorpicker/api/colorpicker_clear_method.md)           |
 | [](colorpicker/api/colorpicker_destructor_method.md)      | @getshort(colorpicker/api/colorpicker_destructor_method.md)      |
-| [](colorpicker/api/colorpicker_focusvalue_method.md)      | @getshort(colorpicker/api/colorpicker_focusvalue_method.md)      |
 | [](colorpicker/api/colorpicker_getcurrentmode_method.md)  | @getshort(colorpicker/api/colorpicker_getcurrentmode_method.md)  |
 | [](colorpicker/api/colorpicker_getcustomcolors_method.md) | @getshort(colorpicker/api/colorpicker_getcustomcolors_method.md) |
 | [](colorpicker/api/colorpicker_getvalue_method.md)        | @getshort(colorpicker/api/colorpicker_getvalue_method.md)        |
-| [](colorpicker/api/colorpicker_getview_method.md)         | @getshort(colorpicker/api/colorpicker_getview_method.md)         |
 | [](colorpicker/api/colorpicker_paint_method.md)           | @getshort(colorpicker/api/colorpicker_paint_method.md)           |
 | [](colorpicker/api/colorpicker_setcurrentmode_method.md)  | @getshort(colorpicker/api/colorpicker_setcurrentmode_method.md)  |
 | [](colorpicker/api/colorpicker_setcustomcolors_method.md) | @getshort(colorpicker/api/colorpicker_setcustomcolors_method.md) |
 | [](colorpicker/api/colorpicker_setfocus_method.md)        | @getshort(colorpicker/api/colorpicker_setfocus_method.md)        |
 | [](colorpicker/api/colorpicker_setvalue_method.md)        | @getshort(colorpicker/api/colorpicker_setvalue_method.md)        |
-| [](colorpicker/api/colorpicker_setview_method.md)         | @getshort(colorpicker/api/colorpicker_setview_method.md)         |
 
 ## Events 
 
@@ -28,10 +25,7 @@ title: Colorpicker API overview
 | [](colorpicker/api/colorpicker_apply_event.md)       | @getshort(colorpicker/api/colorpicker_apply_event.md)       |
 | [](colorpicker/api/colorpicker_cancelclick_event.md) | @getshort(colorpicker/api/colorpicker_cancelclick_event.md) |
 | [](colorpicker/api/colorpicker_change_event.md)      | @getshort(colorpicker/api/colorpicker_change_event.md)      |
-| [](colorpicker/api/colorpicker_colorchange_event.md) | @getshort(colorpicker/api/colorpicker_colorchange_event.md) |
 | [](colorpicker/api/colorpicker_modechange_event.md)  | @getshort(colorpicker/api/colorpicker_modechange_event.md)  |
-| [](colorpicker/api/colorpicker_selectclick_event.md) | @getshort(colorpicker/api/colorpicker_selectclick_event.md) |
-| [](colorpicker/api/colorpicker_viewchange_event.md)  | @getshort(colorpicker/api/colorpicker_viewchange_event.md)  |
 
 ## Properties
 

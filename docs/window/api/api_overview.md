@@ -10,7 +10,6 @@ title: Window API overview
 | [](window/api/window_attach_method.md)        | @getshort(window/api/window_attach_method.md)        |
 | [](window/api/window_attachhtml_method.md)    | @getshort(window/api/window_attachhtml_method.md)    |
 | [](window/api/window_destructor_method.md)    | @getshort(window/api/window_destructor_method.md)    |
-| [](window/api/window_fullscreen_method.md)    | @getshort(window/api/window_fullscreen_method.md)    |
 | [](window/api/window_getcontainer_method.md)  | @getshort(window/api/window_getcontainer_method.md)  |
 | [](window/api/window_getposition_method.md)   | @getshort(window/api/window_getposition_method.md)   |
 | [](window/api/window_getsize_method.md)       | @getshort(window/api/window_getsize_method.md)       |

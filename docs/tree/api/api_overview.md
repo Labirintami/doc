@@ -8,8 +8,6 @@ title: Tree API overview
 | Name                                       | Description                                       |
 | ------------------------------------------ | ------------------------------------------------- |
 | [](tree/api/tree_checkitem_method.md)      | @getshort(tree/api/tree_checkitem_method.md)      |
-| [](tree/api/tree_close_method.md)          | @getshort(tree/api/tree_close_method.md)          |
-| [](tree/api/tree_closeall_method.md)       | @getshort(tree/api/tree_closeall_method.md)       |
 | [](tree/api/tree_collapse_method.md)       | @getshort(tree/api/tree_collapse_method.md)       |
 | [](tree/api/tree_collapseall_method.md)    | @getshort(tree/api/tree_collapseall_method.md)    |
 | [](tree/api/tree_destructor_method.md)     | @getshort(tree/api/tree_destructor_method.md)     |
@@ -19,12 +17,9 @@ title: Tree API overview
 | [](tree/api/tree_focusitem_method.md)      | @getshort(tree/api/tree_focusitem_method.md)      |
 | [](tree/api/tree_getchecked_method.md)     | @getshort(tree/api/tree_getchecked_method.md)     |
 | [](tree/api/tree_getstate_method.md)       | @getshort(tree/api/tree_getstate_method.md)       |
-| [](tree/api/tree_open_method.md)           | @getshort(tree/api/tree_open_method.md)           |
-| [](tree/api/tree_openall_method.md)        | @getshort(tree/api/tree_openall_method.md)        |
 | [](tree/api/tree_paint_method.md)          | @getshort(tree/api/tree_paint_method.md)          |
 | [](tree/api/tree_setstate_method.md)       | @getshort(tree/api/tree_setstate_method.md)       |
 | [](tree/api/tree_toggle_method.md)         | @getshort(tree/api/tree_toggle_method.md)         |
-| [](tree/api/tree_uncheckitem_method.md)    | @getshort(tree/api/tree_uncheckitem_method.md)    |
 | [](tree/api/tree_uncheckitemnew_method.md) | @getshort(tree/api/tree_uncheckitemnew_method.md) |
 
 :::info important
@@ -55,7 +50,6 @@ title: Tree API overview
 | [](tree/api/tree_dragstart_event.md)       | @getshort(tree/api/tree_dragstart_event.md)       |
 | [](tree/api/tree_focuschange_event.md)     | @getshort(tree/api/tree_focuschange_event.md)     |
 | [](tree/api/tree_itemclick_event.md)       | @getshort(tree/api/tree_itemclick_event.md)       |
-| [](tree/api/tree_itemcontextmenu_event.md) | @getshort(tree/api/tree_itemcontextmenu_event.md) |
 | [](tree/api/tree_itemdblclick_event.md)    | @getshort(tree/api/tree_itemdblclick_event.md)    |
 | [](tree/api/tree_itemrightclick_event.md)  | @getshort(tree/api/tree_itemrightclick_event.md)  |
 
@@ -76,9 +70,7 @@ title: Tree API overview
 | [](tree/api/tree_dragmode_config.md)      | @getshort(tree/api/tree_dragmode_config.md)      |
 | [](tree/api/tree_dropbehaviour_config.md) | @getshort(tree/api/tree_dropbehaviour_config.md) |
 | [](tree/api/tree_editable_config.md)      | @getshort(tree/api/tree_editable_config.md)      |
-| [](tree/api/tree_editing_config.md)       | @getshort(tree/api/tree_editing_config.md)       |
 | [](tree/api/tree_icon_config.md)          | @getshort(tree/api/tree_icon_config.md)          |
-| [](tree/api/tree_isfolder_config.md)      | @getshort(tree/api/tree_isfolder_config.md)      |
 | [](tree/api/tree_keynavigation_config.md) | @getshort(tree/api/tree_keynavigation_config.md) |
 | [](tree/api/tree_rootid_config.md)        | @getshort(tree/api/tree_rootid_config.md)        |
 | [](tree/api/tree_selection_config.md)     | @getshort(tree/api/tree_selection_config.md)     |
