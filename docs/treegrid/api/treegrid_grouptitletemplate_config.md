@@ -24,7 +24,6 @@ treegrid/usage.md#groupingdata
 
 @relatedapi: treegrid/api/treegrid_groupby_method.md
 
-@relatedsample:
-treegrid/03_usage/15_group_by.html
+[TreeGrid. Group data items by a property](https://snippet.dhtmlx.com/bue6zm6w)
 
 @changelog: added in v6.5

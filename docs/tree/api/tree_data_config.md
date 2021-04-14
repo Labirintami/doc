@@ -42,7 +42,7 @@ Each **data** object can have the following properties:
 		</tr>
 		<tr>
 			<td class="webixdoc_links0"><b>icon</b></td>
-			<td>(<i>object</i>) allows adding <a href="https://docs.dhtmlx.com/suite/tree__api__tree_icon_config.html">custom icons</a> for a tree item <br/> {{sample tree/04_customization/04_custom_dataset_icons.html}}</td>
+			<td>(<i>object</i>) allows adding <a href="https://docs.dhtmlx.com/suite/tree__api__tree_icon_config.html">custom icons</a> for a tree item <br/> <b>Related sample:</b> <a href="https://snippet.dhtmlx.com/h7mlx21q">Tree. Custom Dataset Icons</a></td>
 		</tr>
     </tbody>
 </table>

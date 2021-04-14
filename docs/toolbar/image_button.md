@@ -23,7 +23,7 @@ toolbar.data.add({
 
 ### Properties
 
-You can provide [the following properties](toolbar/api/api_imagebutton_properties.md) in the configuration object of an imageButton.
+You can provide [the following properties](toolbar/api/api_imagebutton_properties.md) in the configuration object of an ImageButton control.
 
 ## Working with ImageButton
 

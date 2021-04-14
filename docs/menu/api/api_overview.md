@@ -3,7 +3,7 @@ sidebar_label: API overview
 title: Menu API overview
 ---
 
-## Methods
+## Menu methods
 
 | Name                                    | Description                                    |
 | --------------------------------------- | ---------------------------------------------- |
@@ -24,29 +24,49 @@ title: Menu API overview
 Use [TreeCollection methods](tree_collection/index.md) to work with data. 
 :::
 
-## Events
+## Menu events
 
 | Name                                    | Description                                    |
 | --------------------------------------- | ---------------------------------------------- |
-| [](menu/api/menu_afterhide_event.md)    | @getshoer(menu/api/menu_afterhide_event.md)    |
-| [](menu/api/menu_beforehide_event.md)   | @getshoer(menu/api/menu_beforehide_event.md)   |
-| [](menu/api/menu_click_event.md)        | @getshoer(menu/api/menu_click_event.md)        |
-| [](menu/api/menu_inputblur_event.md)    | @getshoer(menu/api/menu_inputblur_event.md)    |
-| [](menu/api/menu_inputcreated_event.md) | @getshoer(menu/api/menu_inputcreated_event.md) |
-| [](menu/api/menu_inputfocus_event.md)   | @getshoer(menu/api/menu_inputfocus_event.md)   |
-| [](menu/api/menu_openmenu_event.md)     | @getshoer(menu/api/menu_openmenu_event.md)     |
+| [](menu/api/menu_afterhide_event.md)    | @getshort(menu/api/menu_afterhide_event.md)    |
+| [](menu/api/menu_beforehide_event.md)   | @getshort(menu/api/menu_beforehide_event.md)   |
+| [](menu/api/menu_click_event.md)        | @getshort(menu/api/menu_click_event.md)        |
+| [](menu/api/menu_inputblur_event.md)    | @getshort(menu/api/menu_inputblur_event.md)    |
+| [](menu/api/menu_inputcreated_event.md) | @getshort(menu/api/menu_inputcreated_event.md) |
+| [](menu/api/menu_inputfocus_event.md)   | @getshort(menu/api/menu_inputfocus_event.md)   |
+| [](menu/api/menu_openmenu_event.md)     | @getshort(menu/api/menu_openmenu_event.md)     |
 
 :::info important
 Use [TreeCollection events](tree_collection/index.md#events) to work with data. 
 :::
 
-## Properties
+## Menu properties
 
 | Name                                       | Description                                       |
 | ------------------------------------------ | ------------------------------------------------- |
-| [](menu/api/menu_css_config.md)            | @getshoet(menu/api/menu_css_config.md)            |
-| [](menu/api/menu_data_config.md)           | @getshoet(menu/api/menu_data_config.md)           |
-| [](menu/api/menu_menucss_config.md)        | @getshoet(menu/api/menu_menucss_config.md)        |
-| [](menu/api/menu_navigationtype_config.md) | @getshoet(menu/api/menu_navigationtype_config.md) |
+| [](menu/api/menu_css_config.md)            | @getshort(menu/api/menu_css_config.md)            |
+| [](menu/api/menu_data_config.md)           | @getshort(menu/api/menu_data_config.md)           |
+| [](menu/api/menu_menucss_config.md)        | @getshort(menu/api/menu_menucss_config.md)        |
+| [](menu/api/menu_navigationtype_config.md) | @getshort(menu/api/menu_navigationtype_config.md) |
 
-`to do Selection API?`
+
+## Menu MenuItem properties
+
+A MenuItem control can possess the [following properties](menu/api/api_menuitem_properties.md).
+
+## Menu NavItem properties
+
+A NavItem control may have the [following properties](menu/api/api_navitem_properties.md).
+
+## Menu Custom HTML properties
+
+A Custom HTML control may possess the [following properties](menu/api/api_customhtml_properties.md).
+
+## Menu Separator properties
+
+A Separator control can have the [following properties](menu/api/api_separator_properties.md).
+
+## Menu Spacer properties
+
+A Spacer control can possess the [following properties](menu/api/api_spacer_properties.md).
+

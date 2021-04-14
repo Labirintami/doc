@@ -24,7 +24,7 @@ toolbar.data.add({
 
 ### Properties
 
-You can provide [the following properties](toolbar/api/api_menuitem_properties.md) in the configuration object of a MenuItem.
+You can provide [the following properties](toolbar/api/api_menuitem_properties.md) in the configuration object of a MenuItem control.
 
 ## Adding an icon
 

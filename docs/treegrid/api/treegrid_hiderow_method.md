@@ -16,7 +16,7 @@ treegrid.hideRow(rowId);
 @template: api_method
 @descr:
 
-@relatedsample: treegrid/03_usage/17_show_hide_row.html
+[TreeGrid. Show/Hide Row](https://snippet.dhtmlx.com/6geqbtvv)
 
 @relatedapi: 
 treegrid/api/treegrid_showrow_method.md

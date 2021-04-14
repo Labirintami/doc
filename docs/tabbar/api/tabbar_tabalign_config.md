@@ -24,7 +24,7 @@ var tabbar = new dhx.Tabbar("tabbar_container", {
 
 @changelog: added in v7.0
 
-@relatedsample: tabbar/02_configuration/09_tab_align.html
+[Tabbar. Tab align](https://snippet.dhtmlx.com/bctscs71)
 
 @related: tabbar/configuring_tabbar.md#alignment
 

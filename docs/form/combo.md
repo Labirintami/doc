@@ -43,7 +43,7 @@ var form = new dhx.Form("form_container", {
 
 ### Properties
 
-[List of the Combo properties](form/api/combo/api_combo_properties.md)
+View [the full list of configuration properties of the Combo control](form/api/combo/api_combo_properties.md).
 
 ## Working with Combo
 
@@ -57,11 +57,11 @@ var value = form.getItem("Combo").getValue();
 
 ### Methods
 
-[List of the Combo methods](form/api/api_overview.md#methods-6)
+Check [the full list of methods of the Combo control](form/api/api_overview.md#methods-6).
 
 ### Events
 
-[List of the Combo events](form/api/api_overview.md#events-6)
+Check [the full list of events of the Combo control](form/api/api_overview.md#events-6).
 
 ### Working with the dhtmlxComboBox widget
 

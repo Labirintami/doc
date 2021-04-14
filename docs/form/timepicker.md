@@ -34,7 +34,7 @@ var form = new dhx.Form("form_container", {
 
 ### Properties
 
-[List of the Timepicker properties](form/api/timepicker/api_timepicker_properties.md)
+View [the full list of configuration properties of the TimePicker control](form/api/timepicker/api_timepicker_properties.md).
 
 ## Working with TimePicker
 
@@ -48,11 +48,11 @@ var value = form.getItem("timepicker").getValue();
 
 ### Methods:
 
-[List of the Timepicker methods](form/api/api_overview.md#methods-15)
+Check [the full list of methods of the Timepicker control](form/api/api_overview.md#methods-15).
 
 ### Events:
 
-[List of the Timepicker events](form/api/api_overview.md#events-15)
+Check [the full list of events of the Timepicker control](form/api/api_overview.md#events-15).
 
 ### Working with the dhtmlxTimePicker widget
 

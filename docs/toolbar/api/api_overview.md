@@ -52,40 +52,40 @@ Use [TreeCollection events](tree_collection/index.md#events) to work with data.
 
 ## Toolbar Button properties
 
-Button can have [next properties](toolbar/api/api_button_properties.md).
+A Button control can have [next properties](toolbar/api/api_button_properties.md).
 
 ## Toolbar Custom HTML button properties
 
-Custom HTML button can have [next properties](toolbar/api/api_customhtmlbutton_properties.md).
+A Custom HTML button control may possess [next properties](toolbar/api/api_customhtmlbutton_properties.md).
 
 ## Toolbar ImageButton properties
 
-ImageButton can have [next properties](toolbar/api/api_imagebutton_properties.md).
+An ImageButton control can have [next properties](toolbar/api/api_imagebutton_properties.md).
 
 ## Toolbar Input properties
 
-Input can have [next properties](toolbar/api/api_input_properties.md).
+An Input control can possess [next properties](toolbar/api/api_input_properties.md).
 
 ## Toolbar MenuItem properties
 
-MenuItem can have [next properties](toolbar/api/api_menuitem_properties.md).
+A MenuItem control can have [next properties](toolbar/api/api_menuitem_properties.md).
 
 ## Toolbar NavItem properties
 
-NavItem can have [next properties](toolbar/api/api_navitem_properties.md).
+A NavItem control may have [next properties](toolbar/api/api_navitem_properties.md).
 
 ## Toolbar SelectButton properties
 
-SelectButton can have [next properties](toolbar/api/api_selectbutton_properties.md).
+A SelectButton control can have [next properties](toolbar/api/api_selectbutton_properties.md).
 
 ## Toolbar Separator properties
 
-Separator can have [next properties](toolbar/api/api_separator_properties.md).
+A Separator control may have [next properties](toolbar/api/api_separator_properties.md).
 
 ## Toolbar Spacer properties
 
-Spacer can have [next properties](toolbar/api/api_spacer_properties.md).
+A Spacer control can possess [next properties](toolbar/api/api_spacer_properties.md).
 
 ## Toolbar Title properties
 
-Title can have [next properties](toolbar/api/api_title_properties.md).
+A Title control can have [next properties](toolbar/api/api_title_properties.md).

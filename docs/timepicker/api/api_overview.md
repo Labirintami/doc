@@ -19,18 +19,14 @@ title: Timepicker API overview
 | ----------------------------------------------------- | --------------------------------------------------------- |
 | [](timepicker/api/timepicker_afterapply_event.md)     | @getshort(timepicker/api/timepicker_afterapply_event.md)  |
 | [](timepicker/api/timepicker_afterclose_event.md)     | @getshort(timepicker/api/timepicker_afterclose_event.md)  |
-| [](timepicker/api/timepicker_apply_event.md)          | @getshort(timepicker/api/timepicker_apply_event.md)       |
 | [](timepicker/api/timepicker_beforeapply_event.md)    | @getshort(timepicker/api/timepicker_beforeapply_event.md) |
 | [](timepicker/api/timepicker_beforeclose_event.md)    | @getshort(timepicker/api/timepicker_beforeclose_event.md) |
 | [](timepicker/api/timepicker_change_event.md)         | @getshort(timepicker/api/timepicker_change_event.md)      |
-| [](timepicker/api/timepicker_close_event.md)          | @getshort(timepicker/api/timepicker_close_event.md)       |
-| [](timepicker/api/timepicker_save_event.md)           | @getshort(timepicker/api/timepicker_save_event.md)        |
 
 ## Properties
 
 | Name                                                | Description                                                |
 | --------------------------------------------------- | ---------------------------------------------------------- |
-| [](timepicker/api/timepicker_actions_config.md)     | @getshort(timepicker/api/timepicker_actions_config.md)     |
 | [](timepicker/api/timepicker_controls_config.md)    | @getshort(timepicker/api/timepicker_controls_config.md)    |
 | [](timepicker/api/timepicker_css_config.md)         | @getshort(timepicker/api/timepicker_css_config.md)         |
 | [](timepicker/api/timepicker_timeformat_config.md)  | @getshort(timepicker/api/timepicker_timeformat_config.md)  |

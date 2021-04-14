@@ -32,7 +32,7 @@ var form = new dhx.Form("form_container", {
 
 ### Properties
 
-[List of the Spacer properties](form/api/spacer/api_spacer_properties.md)
+View [the full list of configuration properties of the Spacer control](form/api/spacer/api_spacer_properties.md).
 
 ## Working with Spacer
 
@@ -46,8 +46,8 @@ var value = form.getItem("spacer").hide();
 
 ### Methods
 
-[List of the Spacer methods](form/api/api_overview.md#methods-12)
+Check [the full list of methods of the Spacer control](form/api/api_overview.md#methods-12).
 
 ### Events
 
-[List of the Spacer events](form/api/api_overview.md#events-12)
+Check [the full list of events of the Spacer control](form/api/api_overview.md#events-12).

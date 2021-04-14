@@ -13,7 +13,6 @@ title: Grid API overview
 | [](grid/api/grid_adjustcolumnwidth_method.md) | @getshort(grid/api/grid_adjustcolumnwidth_method.md) |
 | [](grid/api/grid_cellmousedown_event.md)      | @getshort(grid/api/grid_cellmousedown_event.md)      |
 | [](grid/api/grid_destructor_method.md)        | @getshort(grid/api/grid_destructor_method.md)        |
-| [](grid/api/grid_edit_method.md)              | @getshort(grid/api/grid_edit_method.md)              |
 | [](grid/api/grid_editcell_method.md)          | @getshort(grid/api/grid_editcell_method.md)          |
 | [](grid/api/grid_editend_method.md)           | @getshort(grid/api/grid_editend_method.md)           |
 | [](grid/api/grid_getcellrect_method.md)       | @getshort(grid/api/grid_getcellrect_method.md)       |
@@ -95,10 +94,8 @@ title: Grid API overview
 | [](grid/api/grid_headercellmousedown_event.md)  | @getshort(grid/api/grid_headercellmousedown_event)  |
 | [](grid/api/grid_headercellmouseover_event.md)  | @getshort(grid/api/grid_headercellmouseover_event)  |
 | [](grid/api/grid_headercellrightclick_event.md) | @getshort(grid/api/grid_headercellrightclick_event) |
-| [](grid/api/grid_headerinput_event.md)          | @getshort(grid/api/grid_headerinput_event)          |
 | [](grid/api/grid_resize_event.md)               | @getshort(grid/api/grid_resize_event)               |
 | [](grid/api/grid_scroll_event.md)               | @getshort(grid/api/grid_scroll_event)               |
-| [](grid/api/grid_sort_event.md)                 | @getshort(grid/api/grid_sort_event)                 |
 
 :::info important
 - Use [DataCollection events](data_collection/index.md#events) to work with data. 
@@ -113,19 +110,15 @@ title: Grid API overview
 | [](grid/api/grid_autoemptyrow_config.md)     | @getshort(grid/api/grid_autoemptyrow_config)     |
 | [](grid/api/grid_autowidth_config.md)        | @getshort(grid/api/grid_autowidth_config)        |
 | [](grid/api/grid_columns_config.md)          | @getshort(grid/api/grid_columns_config)          |
-| [](grid/api/grid_columnsautowidth_config.md) | @getshort(grid/api/grid_columnsautowidth_config) |
 | [](grid/api/grid_css_config.md)              | @getshort(grid/api/grid_css_config)              |
 | [](grid/api/grid_data_config.md)             | @getshort(grid/api/grid_data_config)             |
 | [](grid/api/grid_dragcopy_config.md)         | @getshort(grid/api/grid_dragcopy_config)         |
 | [](grid/api/grid_dragitem_config.md)         | @getshort(grid/api/grid_dragitem_config)         |
 | [](grid/api/grid_dragmode_config.md)         | @getshort(grid/api/grid_dragmode_config)         |
 | [](grid/api/grid_editable_config.md)         | @getshort(grid/api/grid_editable_config)         |
-| [](grid/api/grid_editing_config.md)          | @getshort(grid/api/grid_editing_config)          |
 | [](grid/api/grid_eventhandlers_config.md)    | @getshort(grid/api/grid_eventhandlers_config)    |
-| [](grid/api/grid_fittocontainer_config.md)   | @getshort(grid/api/grid_fittocontainer_config)   |
 | [](grid/api/grid_footerrowheight_config.md)  | @getshort(grid/api/grid_footerrowheight_config)  |
 | [](grid/api/grid_headerrowheight_config.md)  | @getshort(grid/api/grid_headerrowheight_config)  |
-| [](grid/api/grid_headersort_config.md)       | @getshort(grid/api/grid_headersort_config)       |
 | [](grid/api/grid_height_config.md)           | @getshort(grid/api/grid_height_config)           |
 | [](grid/api/grid_htmlenable_config.md)       | @getshort(grid/api/grid_htmlenable_config)       |
 | [](grid/api/grid_keynavigation_config.md)    | @getshort(grid/api/grid_keynavigation_config)    |
@@ -137,6 +130,5 @@ title: Grid API overview
 | [](grid/api/grid_selection_config.md)        | @getshort(grid/api/grid_selection_config)        |
 | [](grid/api/grid_sortable_config.md)         | @getshort(grid/api/grid_sortable_config)         |
 | [](grid/api/grid_spans_config.md)            | @getshort(grid/api/grid_spans_config)            |
-| [](grid/api/grid_splitat_config.md)          | @getshort(grid/api/grid_splitat_config)          |
 | [](grid/api/grid_tooltip_config.md)          | @getshort(grid/api/grid_tooltip_config)          |
 | [](grid/api/grid_width_config.md)            | @getshort(grid/api/grid_width_config)            |

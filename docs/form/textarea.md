@@ -32,7 +32,7 @@ var form = new dhx.Form("form_container", {
 
 ### Properties
 
-[List of the Textarea properties](form/api/textarea/api_textarea_properties.md)
+View [the full list of configuration properties of the Textarea control](form/api/textarea/api_textarea_properties.md).
 
 ## Working with Textarea
 
@@ -46,9 +46,9 @@ var value = form.getItem("textarea").getValue();
 
 ### Methods
 
-[List of the Textarea methods](form/api/api_overview.md#methods-14)
+Check [the full list of methods of the Textarea control](form/api/api_overview.md#methods-14).
 
 
 ### Events
 
-[List of the Textarea events](form/api/api_overview.md#events-14)
+Check [the full list of events of the Textarea control](form/api/api_overview.md#events-14).

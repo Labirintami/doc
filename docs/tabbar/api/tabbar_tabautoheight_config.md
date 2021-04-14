@@ -26,6 +26,6 @@ var tabbar = new dhx.Tabbar("tabbar_container", {
 
 @changelog: added in v7.0
 
-@relatedsample: tabbar/02_configuration/08_tab_auto_height.html
+[Tabbar. Tab auto height](https://snippet.dhtmlx.com/pqvycp1c)
 
 @related: tabbar/configuring_tabbar.md#autosizefortabs
