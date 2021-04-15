@@ -1309,7 +1309,7 @@ module.exports = {
                                 "grid/api/api_overview",
                                 {
                                     type: "category",
-                                    label: "Methods",
+                                    label: "Grid methods",
                                     items: [
                                         "grid/api/grid_addcellcss_method",
                                         "grid/api/grid_addrowcss_method",
@@ -1342,7 +1342,7 @@ module.exports = {
                                 },
                                 {
                                     type: "category",
-                                    label: "Events",
+                                    label: "Grid events",
                                     items: [
                                         "grid/api/grid_aftercolumndrag_event",
                                         "grid/api/grid_aftercolumndrop_event",
@@ -1400,7 +1400,7 @@ module.exports = {
                                 },
                                 {
                                     type: "category",
-                                    label: "Properties",
+                                    label: "Grid properties",
                                     items: [
                                         "grid/api/grid_adjust_config",
                                         "grid/api/grid_autoemptyrow_config",
@@ -1430,6 +1430,7 @@ module.exports = {
                                         "grid/api/grid_width_config",
                                     ],
                                 },
+                                "grid/api/api_gridcolumn_properties",
                             ],
                         },
                         "grid/initialization",
@@ -2434,7 +2435,7 @@ module.exports = {
                                 "treegrid/api/api_overview",
                                 {
                                     type: "category",
-                                    label: "Methods",
+                                    label: "TreeGrid methods",
                                     items: [
                                         "treegrid/api/treegrid_addcellcss_method",
                                         "treegrid/api/treegrid_addrowcss_method",
@@ -2472,7 +2473,7 @@ module.exports = {
                                 },
                                 {
                                     type: "category",
-                                    label: "Events",
+                                    label: "TreeGrid events",
                                     items: [
                                         "treegrid/api/treegrid_aftercollapse_event",
                                         "treegrid/api/treegrid_aftercolumndrag_event",
@@ -2533,7 +2534,7 @@ module.exports = {
                                 },
                                 {
                                     type: "category",
-                                    label: "Properties",
+                                    label: "TreeGrid properties",
                                     items: [
                                         "treegrid/api/treegrid_adjust_config",
                                         "treegrid/api/treegrid_autoemptyrow_config",
@@ -2562,6 +2563,7 @@ module.exports = {
                                         "treegrid/api/treegrid_width_config",
                                     ],
                                 },
+                                "treegrid/api/api_treegridcolumn_properties",
                                 {
                                     type: "category",
                                     label: "Selection API",
@@ -2575,7 +2577,6 @@ module.exports = {
                                                 "treegrid/api/selection/selection_beforeunselect_event",
                                             ],
                                         },
-
                                         {
                                             type: "category",
                                             label: "Events",
