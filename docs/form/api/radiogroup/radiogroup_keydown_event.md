@@ -9,8 +9,8 @@ title: keydown
 
 @params:
 - e – keyboard event
-- name – the name or id of the form control 
-- id – id of the element of the form control (for RadioGroup, CheckboxGroup, Combo)
+- name – the name or id of the Form control 
+- id – id of the element of the Form control (for RadioGroup, CheckboxGroup, Combo)
 
 @example:
 form.getItem("radiogroup").events.on("keydown", function(event, name, id) {

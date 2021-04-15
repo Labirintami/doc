@@ -593,6 +593,7 @@ module.exports = {
                                                 "form/api/button/button_beforehide_event",
                                                 "form/api/button/button_beforeshow_event",
                                                 "form/api/button/button_click_event",
+                                                "form/api/button/button_keydown_event",
                                             ],
                                         },
                                         {
@@ -642,6 +643,7 @@ module.exports = {
                                                 "form/api/calendar/calendar_beforevalidate_event",
                                                 "form/api/calendar/calendar_change_event",
                                                 "form/api/calendar/calendar_input_event",
+                                                "form/api/calendar/calendar_keydown_event",
                                             ],
                                         },
                                         {
@@ -690,6 +692,7 @@ module.exports = {
                                                 "form/api/checkbox/checkbox_beforeshow_event",
                                                 "form/api/checkbox/checkbox_beforevalidate_event",
                                                 "form/api/checkbox/checkbox_change_event",
+                                                "form/api/checkbox/checkbox_keydown_event",
                                             ],
                                         },
                                         {
@@ -738,6 +741,7 @@ module.exports = {
                                                 "form/api/checkbox_group/checkboxgroup_beforeshow_event",
                                                 "form/api/checkbox_group/checkboxgroup_beforevalidate_event",
                                                 "form/api/checkbox_group/checkboxgroup_change_event",
+                                                "form/api/checkbox_group/checkboxgroup_keydown_event",
                                             ],
                                         },
                                         {
@@ -787,6 +791,7 @@ module.exports = {
                                                 "form/api/colorpicker/colorpicker_beforevalidate_event",
                                                 "form/api/colorpicker/colorpicker_change_event",
                                                 "form/api/colorpicker/colorpicker_input_event",
+                                                "form/api/colorpicker/colorpicker_keydown_event",
                                             ],
                                         },
                                         {
@@ -835,6 +840,7 @@ module.exports = {
                                                 "form/api/combo/combo_beforeshow_event",
                                                 "form/api/combo/combo_beforevalidate_event",
                                                 "form/api/combo/combo_change_event",
+                                                "form/api/combo/combo_keydown_event",
                                             ],
                                         },
                                         {
@@ -883,6 +889,7 @@ module.exports = {
                                                 "form/api/input/input_beforevalidate_event",
                                                 "form/api/input/input_change_event",
                                                 "form/api/input/input_input_event",
+                                                "form/api/input/input_keydown_event",
                                             ],
                                         },
                                         {
@@ -930,6 +937,7 @@ module.exports = {
                                                 "form/api/radiogroup/radiogroup_beforeshow_event",
                                                 "form/api/radiogroup/radiogroup_beforevalidate_event",
                                                 "form/api/radiogroup/radiogroup_change_event",
+                                                "form/api/radiogroup/radiogroup_keydown_event",
                                             ],
                                         },
                                         {
@@ -981,6 +989,7 @@ module.exports = {
                                                 "form/api/select/select_beforevalidate_event",
                                                 "form/api/select/select_change_event",
                                                 "form/api/select/select_changeoptions_event",
+                                                "form/api/select/select_keydown_event",
                                             ],
                                         },
                                         {
@@ -1078,6 +1087,7 @@ module.exports = {
                                                 "form/api/slider/slider_beforehide_event",
                                                 "form/api/slider/slider_beforeshow_event",
                                                 "form/api/slider/slider_change_event",
+                                                "form/api/slider/slider_keydown_event",
                                             ],
                                         },
                                         {
@@ -1205,6 +1215,7 @@ module.exports = {
                                                 "form/api/textarea/textarea_beforevalidate_event",
                                                 "form/api/textarea/textarea_change_event",
                                                 "form/api/textarea/textarea_input_event",
+                                                "form/api/textarea/textarea_keydown_event",
                                             ],
                                         },
                                         {
@@ -1254,6 +1265,7 @@ module.exports = {
                                                 "form/api/timepicker/timepicker_beforevalidate_event",
                                                 "form/api/timepicker/timepicker_change_event",
                                                 "form/api/timepicker/timepicker_input_event",
+                                                "form/api/timepicker/timepicker_keydown_event",
                                             ],
                                         },
                                         {
@@ -1305,6 +1317,7 @@ module.exports = {
                                 "form/checkboxgroup",
                                 "form/colorpicker",
                                 "form/combo",
+                                "form/container",
                                 "form/input",
                                 "form/radiogroup",
                                 "form/select",
@@ -1314,7 +1327,6 @@ module.exports = {
                                 "form/text",
                                 "form/textarea",
                                 "form/timepicker",
-                                "form/container",
                             ]
                         },
                         "form/localization",

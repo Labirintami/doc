@@ -88,7 +88,7 @@ title: Form API overview
 | [](form/api/button/button_beforehide_event.md)             | @getshort(form/api/button/button_beforehide_event.md)             |
 | [](form/api/button/button_beforeshow_event.md)             | @getshort(form/api/button/button_beforeshow_event.md)             |
 | [](form/api/button/button_click_event.md)                  | @getshort(form/api/button/button_click_event.md)                  |
-| [](form/api/form_keydown_event_forcontrols.md)             | @getshort(form/api/form_keydown_event_forcontrols.md)             |
+| [](form/api/button/button_keydown_event.md)                | @getshort(form/api/button/button_keydown_event.md)                |
 
 ### Properties
 
@@ -130,7 +130,7 @@ title: Form API overview
 | [](form/api/calendar/calendar_beforevalidate_event.md)         | @getshort(orm/api/calendar/calendar_beforevalidate_event.md)         |
 | [](form/api/calendar/calendar_change_event.md)                 | @getshort(orm/api/calendar/calendar_change_event.md)                 |
 | [](form/api/calendar/calendar_input_event.md)                  | @getshort(orm/api/calendar/calendar_input_event.md)                  |
-| [](form/api/form_keydown_event_forcontrols.md)                 | @getshort(form/api/form_keydown_event_forcontrols.md)                |
+| [](form/api/calendar/calendar_keydown_event.md)                | @getshort(form/api/calendar/calendar_keydown_event.md)               |
 
 ### Properties
 
@@ -171,7 +171,7 @@ title: Form API overview
 | [](form/api/checkbox/checkbox_beforeshow_event.md)             | @getshort(form/api/checkbox/checkbox_beforeshow_event.md)             |
 | [](form/api/checkbox/checkbox_beforevalidate_event.md)         | @getshort(form/api/checkbox/checkbox_beforevalidate_event.md)         |
 | [](form/api/checkbox/checkbox_change_event.md)                 | @getshort(form/api/checkbox/checkbox_change_event.md)                 |
-| [](form/api/form_keydown_event_forcontrols.md)                 | @getshort(form/api/form_keydown_event_forcontrols.md)                 |
+| [](form/api/checkbox/checkbox_keydown_event.md)                | @getshort(form/api/checkbox/checkbox_keydown_event.md)                |
 
 ### Properties
 
@@ -259,7 +259,7 @@ title: Form API overview
 | [](form/api/colorpicker/colorpicker_beforevalidate_event.md)         | @getshort(form/api/colorpicker/colorpicker_beforevalidate_event.md)         |
 | [](form/api/colorpicker/colorpicker_change_event.md)                 | @getshort(form/api/colorpicker/colorpicker_change_event.md)                 |
 | [](form/api/colorpicker/colorpicker_input_event.md)                  | @getshort(form/api/colorpicker/colorpicker_input_event.md)                  |
-| [](form/api/form_keydown_event_forcontrols.md)                       | @getshort(form/api/form_keydown_event_forcontrols.md)                       |
+| [](form/api/colorpicker/colorpicker_keydown_event.md)                | @getshort(form/api/colorpicker/colorpicker_keydown_event.md)                |
 
 ### Properties
 
@@ -341,7 +341,7 @@ title: Form API overview
 | [](form/api/input/input_beforevalidate_event.md)         | @getshort(form/api/input/input_beforevalidate_event.md)         |
 | [](form/api/input/input_change_event.md)                 | @getshort(form/api/input/input_change_event.md)                 |
 | [](form/api/input/input_input_event.md)                  | @getshort(form/api/input/input_input_event.md)                  |
-| [](form/api/form_keydown_event_forcontrols.md)           | @getshort(form/api/form_keydown_event_forcontrols.md)           |
+| [](form/api/input/input_keydown_event.md)                | @getshort(form/api/input/input_keydown_event.md)                |
 
 ### Properties
 
@@ -428,7 +428,7 @@ title: Form API overview
 | [](form/api/select/select_beforevalidate_event.md)         | @getshort(form/api/select/select_beforevalidate_event.md)         |
 | [](form/api/select/select_change_event.md)                 | @getshort(form/api/select/select_change_event.md)                 |
 | [](form/api/select/select_changeoptions_event.md)          | @getshort(form/api/select/select_changeoptions_event.md)          |
-| [](form/api/form_keydown_event_forcontrols.md)             | @getshort(form/api/form_keydown_event_forcontrols.md)             |
+| [](form/api/select/select_keydown_event.md)                | @getshort(form/api/select/select_keydown_event.md)                |
 
 ### Properties
 
@@ -510,7 +510,7 @@ title: Form API overview
 | [](form/api/slider/slider_beforehide_event.md)             | @getshort(form/api/slider/slider_beforehide_event.md)             |
 | [](form/api/slider/slider_beforeshow_event.md)             | @getshort(form/api/slider/slider_beforeshow_event.md)             |
 | [](form/api/slider/slider_change_event.md)                 | @getshort(form/api/slider/slider_change_event.md)                 |
-| [](form/api/form_keydown_event_forcontrols.md)             | @getshort(form/api/form_keydown_event_forcontrols.md)             |
+| [](form/api/slider/slider_keydown_event.md)                | @getshort(form/api/slider/slider_keydown_event.md)                |
 
 ### Properties
 
@@ -614,7 +614,7 @@ title: Form API overview
 | [](form/api/textarea/textarea_beforevalidate_event.md)         | @getshort(form/api/textarea/textarea_beforevalidate_event.md)         |
 | [](form/api/textarea/textarea_change_event.md)                 | @getshort(form/api/textarea/textarea_change_event.md)                 |
 | [](form/api/textarea/textarea_input_event.md)                  | @getshort(form/api/textarea/textarea_input_event.md)                  |
-| [](form/api/form_keydown_event_forcontrols.md)                 | @getshort(form/api/form_keydown_event_forcontrols.md)                 |
+| [](form/api/textarea/textarea_keydown_event.md)                | @getshort(form/api/textarea/textarea_keydown_event.md)                |
 
 ### Properties
 
@@ -656,7 +656,7 @@ title: Form API overview
 | [](form/api/timepicker/timepicker_beforevalidate_event.md)         | @getshort(form/api/timepicker/timepicker_beforevalidate_event.md)         |
 | [](form/api/timepicker/timepicker_change_event.md)                 | @getshort(form/api/timepicker/timepicker_change_event.md)                 |
 | [](form/api/timepicker/timepicker_input_event.md)                  | @getshort(form/api/timepicker/timepicker_input_event.md)                  |
-| [](form/api/form_keydown_event_forcontrols.md)                     | @getshort(form/api/form_keydown_event_forcontrols.md)                     |
+| [](form/api/timepicker/timepicker_keydown_event.md)                | @getshort(form/api/timepicker/timepicker_keydown_event.md)                |
 
 ### Properties
 

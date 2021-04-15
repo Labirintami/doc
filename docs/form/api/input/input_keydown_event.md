@@ -3,7 +3,7 @@ sidebar_label: keydown
 title: keydown 
 ---   
 
-@short: fires on keyboard event in a control
+@short: fires on keyboard event in an Input control
 
 @signature:
 
@@ -13,7 +13,7 @@ title: keydown
 - id – id of the element of the form control (for RadioGroup, CheckboxGroup, Combo)
 
 @example:
-form.getItem("control").events.on("keydown", function(event, name) {
+form.getItem("input").events.on("keydown", function(event, name) {
     console.log(event, name, id);
 });
 
