@@ -50,13 +50,13 @@ var form = new dhx.Form("form_container", {
 });
 ~~~
 
-### CheckboxGroup properties
+### Properties of CheckboxGroup 
 
-[List of the CheckboxGroup properties](form/api/checkbox_group/api_checkboxgroup_properties.md)
+View [the full list of configuration properties of the CheckboxGroup control](form/api/checkbox_group/api_checkboxgroup_properties.md).
 
-### Checkbox properties from CheckboxGroup
+### Properties of Checkbox of CheckboxGroup control
 
-[List of the Checkbox properties from CheckboxGroup](form/api/checkbox_group/api_checkboxgroup_properties.md#checkbox-properties-from-checkboxgroup)
+Check [the full list of configuration properties of a Checkbox of the CheckboxGroup control](form/api/checkbox_group/api_checkboxgroup_properties.md#properties-of-a-checkbox-of-checkboxgroup).
 
 ## Working with CheckboxGroup
 
@@ -68,10 +68,10 @@ For example, you can hide a control on a page:
 var value = form.getItem("CheckboxGroup").hide();
 ~~~
 
-### Methods
+### Methods 
 
-[List of the CheckboxGroup methods](form/api/api_overview.md#methods-4)
+Check [the full list of methods of the CheckboxGroup control](form/api/api_overview.md#methods-4).
 
-### Events
+### Events 
 
-[List of the CheckboxGroup events](form/api/api_overview.md#events-4)
+Check [the full list of events of the CheckboxGroup control](form/api/api_overview.md#events-4).

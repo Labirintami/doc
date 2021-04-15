@@ -21,7 +21,7 @@ toolbar.data.add({
 
 ### Properties
 
-You can provide [the following properties](toolbar/api/api_navitem_properties.md) in the configuration object of an NavItem.
+You can provide [the following properties](toolbar/api/api_navitem_properties.md) in the configuration object of a NavItem control.
 
 ## Adding an icon
 

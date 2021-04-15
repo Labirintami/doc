@@ -107,7 +107,7 @@ title: CheckboxGroup properties
     </tbody>
 </table>
 
-## Checkbox properties from CheckboxGroup
+## Properties of a Checkbox of CheckboxGroup
 
 <table class="webixdoc_links">
     <tbody>

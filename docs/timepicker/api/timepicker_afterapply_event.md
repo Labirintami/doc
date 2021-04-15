@@ -24,7 +24,7 @@ The type of the value parameter depends on the applied [valueFormat](timepicker/
 - If *valueFormat: "timeObject"*  and *timeFormat:24* are specified, the object value will contain key:value pairs for hours, minutes and their values: {hour: 0, minute: 39}
 - If *valueFormat: "timeObject"*  and *timeFormat:12* are specified, the object value will contain key:value pairs for hours, minutes, am/pm identifiers and their values: {hour: 6, minute: 0, AM: true}
 
-@relatedsample: timepicker/05_events/01_events.html
+[Timepicker. Timepicker Events](https://snippet.dhtmlx.com/5ccptwy7)
 
 @relatedapi: 
 timepicker/api/timepicker_valueformat_config.md

@@ -106,7 +106,7 @@ var tabbar = new dhx.Tabbar("tabbar_container", {
 });
 ~~~
 
-{{sample tabbar/02_configuration/06_tab_size.html}}
+[Tabbar. Tab size](https://snippet.dhtmlx.com/yy841z3j)
 
 Autosize for tabs
 -----------------
@@ -126,9 +126,9 @@ var tabbar = new dhx.Tabbar("tabbar_container", {
 });
 ~~~
 
-{{sample tabbar/02_configuration/07_tab_auto_width.html}}
+[Tabbar. Tab auto width](https://snippet.dhtmlx.com/mlzko8am)
 
-{{sample tabbar/02_configuration/08_tab_auto_height.html}}
+[Tabbar. Tab auto height](https://snippet.dhtmlx.com/pqvycp1c)
 
 {{note The [](tabbar/api/tabbar_tabautowidth_config.md) configuration option is used when [mode](tabbar/api/tabbar_mode_config.md) is set to "top" or "bottom", whereas [](tabbar/api/tabbar_tabautoheight_config.md) is applied when [mode](tabbar/api/tabbar_mode_config.md) is set to "right" or "left".}}
 
@@ -167,7 +167,7 @@ var tabbar = new dhx.Tabbar("tabbar_container", {
 });
 ~~~
 
-{{sample tabbar/02_configuration/09_tab_align.html}}
+[Tabbar. Tab align](https://snippet.dhtmlx.com/bctscs71)
 
 The available values of the option are "left" | "start", "center" | "middle", "right" | "end".
 

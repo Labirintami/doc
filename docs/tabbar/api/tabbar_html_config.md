@@ -18,6 +18,5 @@ var tabbar = new dhx.Tabbar("tabbar_container",{
    ]
 });
 
-@relatedsample:
-tabbar/01_init/01_init.html
+
 

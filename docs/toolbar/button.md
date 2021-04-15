@@ -21,7 +21,7 @@ toolbar.data.add({
 
 ### Properties
 
-You can provide the [following properties](toolbar/api/api_button_properties.md) in the configuration object of a Button.
+You can provide the [following properties](toolbar/api/api_button_properties.md) in the configuration object of a Button control.
 
 ## Adding an icon
 

@@ -14,7 +14,6 @@ title: TreeGrid API overview
 | [](treegrid/api/treegrid_collapse_method.md)          | @getshort(treegrid/api/treegrid_collapse_method.md)          |
 | [](treegrid/api/treegrid_collapseall_method.md)       | @getshort(treegrid/api/treegrid_collapseall_method.md)       |
 | [](treegrid/api/treegrid_destructor_method.md)        | @getshort(treegrid/api/treegrid_destructor_method.md)        |
-| [](treegrid/api/treegrid_edit_method.md)              | @getshort(treegrid/api/treegrid_edit_method.md)              |
 | [](treegrid/api/treegrid_editcell_method.md)          | @getshort(treegrid/api/treegrid_editcell_method.md)          |
 | [](treegrid/api/treegrid_editend_method.md)           | @getshort(treegrid/api/treegrid_editend_method.md)           |
 | [](treegrid/api/treegrid_expand_method.md)            | @getshort(treegrid/api/treegrid_expand_method.md)            |
@@ -103,10 +102,8 @@ title: TreeGrid API overview
 | [](treegrid/api/treegrid_headercellmousedown_event.md)  | @getshort(treegrid/api/treegrid_headercellmousedown_event.md)  |
 | [](treegrid/api/treegrid_headercellmouseover_event.md)  | @getshort(treegrid/api/treegrid_headercellmouseover_event.md)  |
 | [](treegrid/api/treegrid_headercellrightclick_event.md) | @getshort(treegrid/api/treegrid_headercellrightclick_event.md) |
-| [](treegrid/api/treegrid_headerinput_event.md)          | @getshort(treegrid/api/treegrid_headerinput_event.md)          |
 | [](treegrid/api/treegrid_resize_event.md)               | @getshort(treegrid/api/treegrid_resize_event.md)               |
 | [](treegrid/api/treegrid_scroll_event.md)               | @getshort(treegrid/api/treegrid_scroll_event.md)               |
-| [](treegrid/api/treegrid_sort_event.md)                 | @getshort(treegrid/api/treegrid_sort_event.md)                 |
 
 :::info important
 - Use [TreeCollection events](tree_collection/index.md#events) to work with data. 
@@ -121,20 +118,16 @@ title: TreeGrid API overview
 | [](treegrid/api/treegrid_autoemptyrow_config.md)       | @getshort(treegrid/api/treegrid_autoemptyrow_config.md)       |
 | [](treegrid/api/treegrid_autowidth_config.md)          | @getshort(treegrid/api/treegrid_autowidth_config.md)          |
 | [](treegrid/api/treegrid_columns_config.md)            | @getshort(treegrid/api/treegrid_columns_config.md)            |
-| [](treegrid/api/treegrid_columnsautowidth_config.md)   | @getshort(treegrid/api/treegrid_columnsautowidth_config.md)   |
 | [](treegrid/api/treegrid_css_config.md)                | @getshort(treegrid/api/treegrid_css_config.md)                |
 | [](treegrid/api/treegrid_data_config.md)               | @getshort(treegrid/api/treegrid_data_config.md)               |
 | [](treegrid/api/treegrid_dragcopy_config.md)           | @getshort(treegrid/api/treegrid_dragcopy_config.md)           |
 | [](treegrid/api/treegrid_dragitem_config.md)           | @getshort(treegrid/api/treegrid_dragitem_config.md)           |
 | [](treegrid/api/treegrid_dragmode_config.md)           | @getshort(treegrid/api/treegrid_dragmode_config.md)           |
 | [](treegrid/api/treegrid_editable_config.md)           | @getshort(treegrid/api/treegrid_editable_config.md)           |
-| [](treegrid/api/treegrid_editing_config.md)            | @getshort(treegrid/api/treegrid_editing_config.md)            |
 | [](treegrid/api/treegrid_eventhandlers_config.md)      | @getshort(treegrid/api/treegrid_eventhandlers_config.md)      |
-| [](treegrid/api/treegrid_fittocontainer_config.md)     | @getshort(treegrid/api/treegrid_fittocontainer_config.md)     |
 | [](treegrid/api/treegrid_footerrowheight_config.md)    | @getshort(treegrid/api/treegrid_footerrowheight_config.md)    |
 | [](treegrid/api/treegrid_grouptitletemplate_config.md) | @getshort(treegrid/api/treegrid_grouptitletemplate_config.md) |
 | [](treegrid/api/treegrid_headerrowheight_config.md)    | @getshort(treegrid/api/treegrid_headerrowheight_config.md)    |
-| [](treegrid/api/treegrid_headersort_config.md)         | @getshort(treegrid/api/treegrid_headersort_config.md)         |
 | [](treegrid/api/treegrid_height_config.md)             | @getshort(treegrid/api/treegrid_height_config.md)             |
 | [](treegrid/api/treegrid_htmlenable_config.md)         | @getshort(treegrid/api/treegrid_htmlenable_config.md)         |
 | [](treegrid/api/treegrid_leftsplit_config.md)          | @getshort(treegrid/api/treegrid_leftsplit_config.md)          |
@@ -144,7 +137,6 @@ title: TreeGrid API overview
 | [](treegrid/api/treegrid_selection_config.md)          | @getshort(treegrid/api/treegrid_selection_config.md)          |
 | [](treegrid/api/treegrid_sortable_config.md)           | @getshort(treegrid/api/treegrid_sortable_config.md)           |
 | [](treegrid/api/treegrid_spans_config.md)              | @getshort(treegrid/api/treegrid_spans_config.md)              |
-| [](treegrid/api/treegrid_splitat_config.md)            | @getshort(treegrid/api/treegrid_splitat_config.md)            |
 | [](treegrid/api/treegrid_tooltip_config.md)            | @getshort(treegrid/api/treegrid_tooltip_config.md)            |
 | [](treegrid/api/treegrid_width_config.md)              | @getshort(treegrid/api/treegrid_width_config.md)              |
 

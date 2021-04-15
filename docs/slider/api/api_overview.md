@@ -28,12 +28,10 @@ title: Slider API overview
 | Name                                          | Description                                          |
 | --------------------------------------------- | ---------------------------------------------------- |
 | [](slider/api/slider_css_config.md)           | @getshort(slider/api/slider_css_config.md)           |
-| [](slider/api/slider_help_config.md)          | @getshort(slider/api/slider_help_config.md)          |
 | [](slider/api/slider_helpmessage_config.md)   | @getshort(slider/api/slider_helpmessage_config.md)   |
 | [](slider/api/slider_hiddenlabel_config.md)   | @getshort(slider/api/slider_hiddenlabel_config.md)   |
 | [](slider/api/slider_inverse_config.md)       | @getshort(slider/api/slider_inverse_config.md)       |
 | [](slider/api/slider_label_config.md)         | @getshort(slider/api/slider_label_config.md)         |
-| [](slider/api/slider_labelinline_config.md)   | @getshort(slider/api/slider_labelinline_config.md)   |
 | [](slider/api/slider_labelposition_config.md) | @getshort(slider/api/slider_labelposition_config.md) |
 | [](slider/api/slider_labelwidth_config.md)    | @getshort(slider/api/slider_labelwidth_config.md)    |
 | [](slider/api/slider_majortick_config.md)     | @getshort(slider/api/slider_majortick_config.md)     |
@@ -42,7 +40,6 @@ title: Slider API overview
 | [](slider/api/slider_mode_config.md)          | @getshort(slider/api/slider_mode_config.md)          |
 | [](slider/api/slider_range_config.md)         | @getshort(slider/api/slider_range_config.md)         |
 | [](slider/api/slider_step_config.md)          | @getshort(slider/api/slider_step_config.md)          |
-| [](slider/api/slider_thumblabel_config.md)    | @getshort(slider/api/slider_thumblabel_config.md)    |
 | [](slider/api/slider_tick_config.md)          | @getshort(slider/api/slider_tick_config.md)          |
 | [](slider/api/slider_ticktemplate_config.md)  | @getshort(slider/api/slider_ticktemplate_config.md)  |
 | [](slider/api/slider_tooltip_config.md)       | @getshort(slider/api/slider_tooltip_config.md)       |

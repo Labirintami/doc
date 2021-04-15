@@ -8,7 +8,6 @@ title: Tabbar API overview
 | Name                                       | Description                                       |
 | ------------------------------------------ | ------------------------------------------------- |
 | [](tabbar/api/tabbar_activetab_config.md)  | @getshort(tabbar/api/tabbar_activetab_config.md)  |
-| [](tabbar/api/tabbar_addcell_method.md)    | @getshort(tabbar/api/tabbar_addcell_method.md)    |
 | [](tabbar/api/tabbar_addtab_method.md)     | @getshort(tabbar/api/tabbar_addtab_method.md)     |
 | [](tabbar/api/tabbar_destructor_method.md) | @getshort(tabbar/api/tabbar_destructor_method.md) |
 | [](tabbar/api/tabbar_disabletab_method.md) | @getshort(tabbar/api/tabbar_disabletab_method.md) |
@@ -21,7 +20,6 @@ title: Tabbar API overview
 | [](tabbar/api/tabbar_nocontent_config.md)  | @getshort(tabbar/api/tabbar_nocontent_config.md)  |
 | [](tabbar/api/tabbar_padding_config.md)    | @getshort(tabbar/api/tabbar_padding_config.md)    |
 | [](tabbar/api/tabbar_paint_method.md)      | @getshort(tabbar/api/tabbar_paint_method.md)      |
-| [](tabbar/api/tabbar_removecell_method.md) | @getshort(tabbar/api/tabbar_removecell_method.md) |
 | [](tabbar/api/tabbar_removetab_method.md)  | @getshort(tabbar/api/tabbar_removetab_method.md)  |
 | [](tabbar/api/tabbar_setactive_method.md)  | @getshort(tabbar/api/tabbar_setactive_method.md)  |
 
@@ -32,15 +30,12 @@ title: Tabbar API overview
 | [](tabbar/api/tabbar_afterclose_event.md)  | @getshort(tabbar/api/tabbar_afterclose_event.md)  |
 | [](tabbar/api/tabbar_beforeclose_event.md) | @getshort(tabbar/api/tabbar_beforeclose_event.md) |
 | [](tabbar/api/tabbar_change_event.md)      | @getshort(tabbar/api/tabbar_change_event.md)      |
-| [](tabbar/api/tabbar_close_event.md)       | @getshort(tabbar/api/tabbar_close_event.md)       |
 
 ## Properties
 
 | Name                                          | Description                                          |
 | --------------------------------------------- | ---------------------------------------------------- |
-| [](tabbar/api/tabbar_activeview_config.md)    | @getshort(tabbar/api/tabbar_activeview_config.md)    |
 | [](tabbar/api/tabbar_closable_config.md)      | @getshort(tabbar/api/tabbar_closable_config.md)      |
-| [](tabbar/api/tabbar_closebuttons_config.md)  | @getshort(tabbar/api/tabbar_closebuttons_config.md)  |
 | [](tabbar/api/tabbar_css_config.md)           | @getshort(tabbar/api/tabbar_css_config.md)           |
 | [](tabbar/api/tabbar_disabled_config.md)      | @getshort(tabbar/api/tabbar_disabled_config.md)      |
 | [](tabbar/api/tabbar_html_config.md)          | @getshort(tabbar/api/tabbar_html_config.md)          |

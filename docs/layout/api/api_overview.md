@@ -10,7 +10,6 @@ title: Layout API overview
 | [](layout/api/layout_addcell_method.md)    | @getshort(layout/api/layout_addcell_method.md)    |
 | [](layout/api/layout_attach_method.md)     | @getshort(layout/api/layout_attach_method.md)     |
 | [](layout/api/layout_attachhtml_method.md) | @getshort(layout/api/layout_attachhtml_method.md) |
-| [](layout/api/layout_cell_method.md)       | @getshort(layout/api/layout_cell_method.md)       |
 | [](layout/api/layout_collapse_method.md)   | @getshort(layout/api/layout_collapse_method.md)   |
 | [](layout/api/layout_destructor_method.md) | @getshort(layout/api/layout_destructor_method.md) |
 | [](layout/api/layout_expand_method.md)     | @getshort(layout/api/layout_expand_method.md)     |

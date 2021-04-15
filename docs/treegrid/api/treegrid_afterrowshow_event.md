@@ -21,6 +21,6 @@ treegrid.events.on("AfterRowShow", function(row){
 
 @changelog: added in v7.0
 
-@relatedsample: treegrid/05_events/01_events.html
+[TreeGrid. Events](https://snippet.dhtmlx.com/sgwnxshe)
 
 

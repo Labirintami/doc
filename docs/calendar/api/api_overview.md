@@ -24,7 +24,6 @@ description: DHTMLX Calendar is a smart datepicker solution for websites or appl
 | [](calendar/api/calendar_beforechange_event.md)  | @getshort(calendar/api/calendar_beforechange_event.md)  |
 | [](calendar/api/calendar_cancelclick_event.md)   | @getshort(calendar/api/calendar_cancelclick_event.md)   |
 | [](calendar/api/calendar_change_event.md)        | @getshort(calendar/api/calendar_change_event.md)        |
-| [](calendar/api/calendar_datehover_event.md)     | @getshort(calendar/api/calendar_datehover_event.md)     |
 | [](calendar/api/calendar_datemouseover_event.md) | @getshort(calendar/api/calendar_datemouseover_event.md) |
 | [](calendar/api/calendar_modechange_event.md)    | @getshort(calendar/api/calendar_modechange_event.md)    |
 | [](calendar/api/calendar_monthselected_event.md) | @getshort(calendar/api/calendar_monthselected_event.md) |
@@ -34,7 +33,6 @@ description: DHTMLX Calendar is a smart datepicker solution for websites or appl
 
 | Name                                              | Description                                              |
 | ------------------------------------------------- | -------------------------------------------------------- |
-| [](calendar/api/calendar_block_config.md)         | @getshort(calendar/api/calendar_block_config.md)         |
 | [](calendar/api/calendar_css_config.md)           | @getshort(calendar/api/calendar_css_config.md)           |
 | [](calendar/api/calendar_date_config.md)          | @getshort(calendar/api/calendar_date_config.md)          |
 | [](calendar/api/calendar_dateformat_config.md)    | @getshort(calendar/api/calendar_dateformat_config.md)    |
@@ -46,7 +44,6 @@ description: DHTMLX Calendar is a smart datepicker solution for websites or appl
 | [](calendar/api/calendar_timeformat_config.md)    | @getshort(calendar/api/calendar_timeformat_config.md)    |
 | [](calendar/api/calendar_timepicker_config.md)    | @getshort(calendar/api/calendar_timepicker_config.md)    |
 | [](calendar/api/calendar_value_config.md)         | @getshort(calendar/api/calendar_value_config.md)         |
-| [](calendar/api/calendar_view_config.md)          | @getshort(calendar/api/calendar_view_config.md)          |
 | [](calendar/api/calendar_weeknumbers_config.md)   | @getshort(calendar/api/calendar_weeknumbers_config.md)   |
 | [](calendar/api/calendar_weekstart_config.md)     | @getshort(calendar/api/calendar_weekstart_config.md)     |
 | [](calendar/api/calendar_width_config.md)         | @getshort(calendar/api/calendar_width_config.md)         |

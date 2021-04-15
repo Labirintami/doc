@@ -82,4 +82,4 @@ var timepicker = new dhx.Timepicker("timepicker", {
 });
 ~~~
 
-{{sample timepicker/02_configuration/03_value.html}}
+[Timepicker. Value initialization](https://snippet.dhtmlx.com/3d5u4cxx)

@@ -23,7 +23,7 @@ toolbar.data.add({
 
 ### Properties
 
-The selectButton object has [the following properties](toolbar/api/api_customhtmlbutton_properties.md).
+You can provide the [following properties](toolbar/api/api_customhtmlbutton_properties.md) in the configuration object of a Custom HTML control.
 
 ## Working with Custom HTML
 

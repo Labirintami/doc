@@ -13,7 +13,7 @@ treegrid.ungroup();
 @template: api_method
 @descr:
 
-@relatedsample: treegrid/03_usage/15_group_by.html
+[TreeGrid. Group data items by a property](https://snippet.dhtmlx.com/bue6zm6w)
 
 @relatedapi: treegrid/api/treegrid_groupby_method.md
 

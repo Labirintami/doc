@@ -30,7 +30,7 @@ var form = new dhx.Form("form_container", {
 
 ### Properties
 
-[List of the Colorpicker properties](form/api/colorpicker/api_colorpicker_properties.md)
+View [the full list of configuration properties of the Colorpicker control](form/api/colorpicker/api_colorpicker_properties.md).
 
 ## Working with ColorPicker
 
@@ -46,11 +46,11 @@ var value = form.getItem("colorpicker").getValue();
 
 ### Methods
 
-[List of the Colorpicker methods](form/api/api_overview.md#methods-5)
+Check [the full list of methods of the ColorPicker control](form/api/api_overview.md#methods-5).
 
 ### Events
 
-[List of the Colorpicker events](form/api/api_overview.md#events-5)
+Check [the full list of events of the ColorPicker control](form/api/api_overview.md#events-5).
 
 
 ## Working with the dhtmlxColorPicker widget

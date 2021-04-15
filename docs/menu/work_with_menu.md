@@ -147,10 +147,10 @@ menu.isSelected("align-left"); // -> returns true/false
 Getting selected items
 ---------------------------
 
-To get the selected items, call the [getSelected()](ribbon/api/ribbon_getselected_method.md) method. The method returns an array of string values with IDs of selected items:
+To get the selected items, call the [getSelected()](menu/api/menu_getselected_method.md) method. The method returns an array of string values with IDs of selected items:
 
 ~~~js
-ribbon.getSelected(); // -> ["selected_1", "selected_1.1"]
+menu.getSelected(); // -> ["selected_1", "selected_1.1"]
 ~~~
 
 Using Tree collection API

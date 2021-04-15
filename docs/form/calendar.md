@@ -30,7 +30,7 @@ var form = new dhx.Form("form_container", {
 
 ## Properties
 
-[List of the Datepicker properties](form/api/calendar/api_calendar_properties.md)
+View [the full list of configuration properties of the Datepicker control](form/api/calendar/api_calendar_properties.md).
 
 
 ## Working with DatePicker
@@ -49,11 +49,11 @@ var value = form.getItem("datepicker").getValue(true);
 
 ### Methods
 
-[List of the Datepicker methods](form/api/api_overview.md#methods-2)
+Check [the full list of methods of the Datepicker control](form/api/api_overview.md#methods-2).
 
 ### Events
 
-[List of the Datepicker events](form/api/api_overview.md#events-2)
+Check [the full list of events of the Datepicker control](form/api/api_overview.md#events-2).
 
 ## Working with the dhtmlxCalendar widget
 

@@ -8,5 +8,5 @@ title: paint
 @signature: paint(): void;
 
 @example:
-tabbar.destructor();
+tabbar.paint();
 

@@ -50,7 +50,7 @@ var form = new dhx.Form("form_container", {
 
 ### Properties
 
-[List of the Select properties](form/api/select/api_select_properties.md)
+View [the full list of configuration properties of the Select control](form/api/select/api_select_properties.md).
 
 ## Working with Select
 
@@ -64,8 +64,8 @@ var value = form.getItem("select").getValue();
 
 ### Methods
 
-[List of the Select methods](form/api/api_overview.md#methods-9)
+Check [the full list of methods of the Select control](form/api/api_overview.md#methods-9).
 
 ### Events
 
-[List of the Select events](form/api/api_overview.md#events-9)
+Check [the full list of events of the Select control](form/api/api_overview.md#events-9).
