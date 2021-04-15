@@ -666,18 +666,18 @@ title: Form API overview
 
 ### Methods
 
-| Name                                                       | Description                                                       |
-| :--------------------------------------------------------- | :---------------------------------------------------------------- |
-| [](form/api/сontainer/сontainer_attach_method.md)        | @getshort(form/api/сontainer/сontainer_attach_method.md)        |
-| [](form/api/сontainer/сontainer_attachHTML_method.md)    | @getshort(form/api/сontainer/сontainer_attachHTML_method.md)    |
-| [](form/api/сontainer/сontainer_show_method.md)          | @getshort(form/api/сontainer/сontainer_show_method.md)          |
-| [](form/api/сontainer/сontainer_hide_method.md)          | @getshort(form/api/сontainer/сontainer_hide_method.md)          |
-| [](form/api/сontainer/сontainer_enable_method.md)        | @getshort(form/api/сontainer/сontainer_enable_method.md)        |
-| [](form/api/сontainer/сontainer_disable_method.md)       | @getshort(form/api/сontainer/сontainer_disable_method.md)       |
-| [](form/api/сontainer/сontainer_isVisible_method.md)     | @getshort(form/api/сontainer/сontainer_isVisible_method.md)     |
-| [](form/api/сontainer/сontainer_isDisabled_method.md)    | @getshort(form/api/сontainer/сontainer_isDisabled_method.md)    |
-| [](form/api/сontainer/сontainer_setProperties_method.md) | @getshort(form/api/сontainer/сontainer_setProperties_method.md) |
-| [](form/api/сontainer/сontainer_getProperties_method.md) | @getshort(form/api/сontainer/сontainer_getProperties_method.md) |
+| Name                                                     | Description                                                     |
+| :------------------------------------------------------- | :-------------------------------------------------------------- |
+| [](form/api/container/container_attach_method.md)        | @getshort(form/api/container/container_attach_method.md)        |
+| [](form/api/container/container_attachHTML_method.md)    | @getshort(form/api/container/container_attachHTML_method.md)    |
+| [](form/api/container/container_show_method.md)          | @getshort(form/api/container/container_show_method.md)          |
+| [](form/api/container/container_hide_method.md)          | @getshort(form/api/container/container_hide_method.md)          |
+| [](form/api/container/container_enable_method.md)        | @getshort(form/api/container/container_enable_method.md)        |
+| [](form/api/container/container_disable_method.md)       | @getshort(form/api/container/container_disable_method.md)       |
+| [](form/api/container/container_isVisible_method.md)     | @getshort(form/api/container/container_isVisible_method.md)     |
+| [](form/api/container/container_isDisabled_method.md)    | @getshort(form/api/container/container_isDisabled_method.md)    |
+| [](form/api/container/container_setProperties_method.md) | @getshort(form/api/container/container_setProperties_method.md) |
+| [](form/api/container/container_getProperties_method.md) | @getshort(form/api/container/container_getProperties_method.md) |
 
 ### Events
 
@@ -694,4 +694,4 @@ title: Form API overview
 
 ### Properties
 
-[List of the Container control properties](form/api/сontainer/api_сontainer_properties.md) 
+[List of the Container control properties](form/api/container/api_container_properties.md) 

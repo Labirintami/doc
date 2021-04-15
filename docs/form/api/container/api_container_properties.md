@@ -12,7 +12,7 @@ title: Container properties
 - `height` - (string|number|"content") the height of a control 
 - `padding` - (string|number) sets padding between a cell and a border of a control
 - `css` - (string) adds style classes to a control string
-  
+
 -----
 
 | Name     | Description                                                               |
