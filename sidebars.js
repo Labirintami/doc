@@ -1318,6 +1318,7 @@ module.exports = {
                                 "form/colorpicker",
                                 "form/combo",
                                 "form/container",
+                                "form/container2",
                                 "form/input",
                                 "form/radiogroup",
                                 "form/select",
