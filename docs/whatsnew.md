@@ -61,7 +61,7 @@ The update brings various changes in the API methods. Check the [Migration artic
 
 #### Combobox
 
-- The ability to specify the initial value of the combobox via the [value](combo/api/combobox_value_config.md) configuration property
+- The ability to specify the initial value of the combobox via the [value](combobox/api/combobox_value_config.md) configuration property
 
 #### DataView
 
@@ -85,21 +85,21 @@ The update brings various changes in the API methods. Check the [Migration artic
 
 - New Form controls: [CheckboxGroup](form/checkboxgroup.md) and [Spacer](form/spacer.md)
 - New "focus()" method of Form controls: [DatePicker](form/api/calendar/calendar_focus_method.md), [Checkbox](form/api/checkbox/checkbox_focus_method.md), [ColorPicker](form/api/colorpicker/colorpicker_focus_method.md), [Combo](form/api/combo/combo_focus_method.md), [Input](form/api/input/input_focus_method.md), [RadioGroup](form/api/radiogroup/radiogroup_focus_method.md), [Select](form/api/select/select_focus_method.md), [Textarea](form/api/textarea/textarea_focus_method.md), [TimePicker](form/api/timepicker/timepicker_focus_method.md) 
-- The new "getProperties()" and "setProperties()" methods are added for Form controls: [Button](form/api/refs/button_methods.md), [DatePicker](form/api/refs/calendar_methods.md), [Checkbox](form/api/refs/checkbox_methods.md), [ColorPicker](form/api/refs/colorpicker_methods.md), [Combo](form/api/refs/combo_methods.md), [Input](form/api/refs/input_methods.md), [RadioGroup](form/api/refs/radiogroup_methods.md), [Select](form/api/refs/select_methods.md), [SimpleVault](form/api/refs/simplevault_methods.md), [Slider](form/api/refs/slider_methods.md), [Text](form/api/refs/text_methods.md), [Textarea](form/api/refs/textarea_methods.md), [TimePicker](form/api/refs/timepicker_methods.md)
-- The Event Systems are added for Form controls: [Button](form/api/refs/button_events.md), [DatePicker](form/api/refs/calendar_events.md), [Checkbox](form/api/refs/checkbox_events.md), [ColorPicker](form/api/refs/colorpicker_events.md), [Combo](form/api/refs/combo_events.md), [Input](form/api/refs/input_events.md), [RadioGroup](form/api/refs/radiogroup_events.md), [Select](form/api/refs/select_events.md), [Slider](form/api/refs/slider_events.md), [Text](form/api/refs/text_events.md), [Textarea](form/api/refs/textarea_events.md), [TimePicker](form/api/refs/timepicker_events.md) 
+- The new "getProperties()" and "setProperties()" methods are added for Form controls: [Button](form/api/api_overview.md#button-api), [DatePicker](form/api/api_overview.md#datepicker-api), [Checkbox](form/api/api_overview.md#checkbox-api), [ColorPicker](form/api/api_overview.md#colorpicker-api), [Combo](form/api/api_overview.md#combo-api), [Input](form/api/api_overview.md#input-api), [RadioGroup](form/api/api_overview.md#radiogroup-api), [Select](form/api/api_overview.md#select-api), [SimpleVault](form/api/api_overview.md#simple-vault-api), [Slider](form/api/api_overview.md#slider-api), [Text](form/api/api_overview.md#text-api), [Textarea](form/api/api_overview.md#textarea-api), [TimePicker](form/api/api_overview.md#timepicker-api)
+- The Event Systems are added for Form controls: [Button](form/api/api_overview.md#events-1), [DatePicker](form/api/api_overview.md#events-2), [Checkbox](form/api/api_overview.md#events-3), [ColorPicker](form/api/api_overview.md#events-5), [Combo](form/api/api_overview.md#events-6), [Input](form/api/api_overview.md#events-7), [RadioGroup](form/api/api_overview.md#events-8), [Select](form/api/api_overview.md#events-9), [Slider](form/api/api_overview.md#events-11), [Text](form/api/api_overview.md#events-13), [Textarea](form/api/api_overview.md#events-14), [TimePicker](form/api/api_overview.md#events-15) 
 - SimpleVault control. New events: 
 [AfterHide](form/api/simplevault/simplevault_afterhide_event.md), [AfterShow](form/api/simplevault/simplevault_aftershow_event.md), [AfterValidate](form/api/simplevault/simplevault_aftervalidate_event.md), [BeforeHide](form/api/simplevault/simplevault_beforehide_event.md), [BeforeShow](form/api/simplevault/simplevault_beforeshow_event.md), [BeforeValidate](form/api/simplevault/simplevault_beforevalidate_event.md), [Change](form/api/simplevault/simplevault_change_event.md)
-- Checkbox control. The [isChecked()](form/api/checkbox/checkbox_ischecked_method.md) method and the ["text"](form/checkbox.md) property are added
-- Input control. The new ["minlength", "min", "max"](form/input.md#adding-input) attributes are added 
-- Input control. The validations for [minimal/maximal values](form/work_with_form.md#values-validation) and for [number of characters](form/work_with_form.md#length-validation) allowed in the input are added
-- RadioGroup control. The ability to define the initial value via the ["value"](form/radiogroup.md#adding-radiogroup) attribute
-- RadioGroup control. The ["padding", "label", "labelWidth", "labelPosition", "hiddenLabel", "helpMessage"](form/radiogroup.md#adding-radiogroup) attributes are added
-- Radio button of the RadioGroup control. The ["text", "padding", "hidden"](form/radiogroup.md#adding-radiogroup) configuration properties are added
-- Select control. The ability to make an option of the control disabled via the ["disabled" attribute of the "option" property](form/select.md)
-- Text control. The ["inputType"](form/text.md#adding-text) attribute is added
-- Textarea control. The ["maxlength", "minlength"](form/textarea.md#adding-textarea) attributes are added
-- Textarea control. The validation for [number of characters](form/work_with_form.md#length_validation) allowed in the textarea field is added 
-- TimePicker control. The ["valueFormat"](form/timepicker.md#adding-timepicker) attribute is added
+- Checkbox control. The [isChecked()](form/api/checkbox/checkbox_ischecked_method.md) method and the ["text"](form/api/checkbox/api_checkbox_properties.md) property are added
+- Input control. The new ["minlength", "min", "max"](form/api/input/api_input_properties.md) attributes are added 
+- Input control. The validations for [minimal/maximal values](form/work_with_form.md#minimal-and-maximal-values) and for [number of characters](form/work_with_form.md#number-of-allowed-characters) allowed in the input are added
+- RadioGroup control. The ability to define the initial value via the ["value"](form/api/radiogroup/api_radiogroup_properties.md) attribute
+- RadioGroup control. The ["padding", "label", "labelWidth", "labelPosition", "hiddenLabel", "helpMessage"](form/api/radiogroup/api_radiogroup_properties.md) attributes are added
+- Radio button of the RadioGroup control. The ["text", "padding", "hidden"](form/api/radiogroup/api_radiogroup_properties.md#radiobutton-properties) configuration properties are added
+- Select control. The ability to make an option of the control disabled via the ["disabled" attribute of the "option" property](form/api/select/api_select_properties.md)
+- Text control. The ["inputType"](form/api/text/api_text_properties.md) attribute is added
+- Textarea control. The ["maxlength", "minlength"](form/api/textarea/api_textarea_properties.md) attributes are added
+- Textarea control. The validation for [number of characters](form/work_with_form.md#number-of-allowed-characters) allowed in the textarea field is added 
+- TimePicker control. The ["valueFormat"](form/api/timepicker/api_timepicker_properties.md) attribute is added
  
 #### Grid
 
@@ -108,7 +108,7 @@ The update brings various changes in the API methods. Check the [Migration artic
 - New events of Grid columns: [beforeColumnHide](grid/api/grid_beforecolumnhide_event.md), [afterColumnHide](grid/api/grid_aftercolumnhide_event.md), [beforeColumnShow](grid/api/grid_beforecolumnshow_event.md), [afterColumnShow](grid/api/grid_aftercolumnshow_event.md)
 - New drag-n-drop events of Grid rows: [afterRowDrag](grid/api/grid_afterrowdrag_event.md), [afterRowDrop](grid/api/grid_afterrowdrop_event.md), [beforeRowDrag](grid/api/grid_beforerowdrag_event.md), [beforeRowDrop](grid/api/grid_beforerowdrop_event.md), [canRowDrop](grid/api/grid_canrowdrop_event.md), [cancelRowDrop](grid/api/grid_cancelrowdrop_event.md), [dragRowIn](grid/api/grid_dragrowin_event.md), [dragRowOut](grid/api/grid_dragrowout_event.md), [dragRowStart](grid/api/grid_dragrowstart_event.md)
 - New events of Grid rows: [beforeRowHide](grid/api/grid_beforerowhide_event.md), [afterRowHide](grid/api/grid_afterrowhide_event.md), [beforeRowShow](grid/api/grid_beforerowshow_event.md), [afterRowShow](grid/api/grid_afterrowshow_event.md) 
-- The ability [to hide and show a row of Grid](grid/usage.md#hiding-showing-a-row) via the corresponding [hideRow()](grid/api/grid_hiderow_method.md) and [showRow()](grid/api/grid_showrow_method.md) methods of Grid
+- The ability [to hide and show a row of Grid](grid/usage.md#hidingshowing-a-row) via the corresponding [hideRow()](grid/api/grid_hiderow_method.md) and [showRow()](grid/api/grid_showrow_method.md) methods of Grid
 - The ability to check whether a row of Grid is hidden via the [isRowHidden()](grid/api/grid_isrowhidden_method.md) method of Grid
 - The ability [to get an object of the header filter by column id](grid/usage.md#getting-header-filter) using the [getHeaderFilter()](grid/api/grid_getheaderfilter_method.md) method of Grid
 - The ability [to enable/disable selection of cells](grid/usage_selection.md) in Grid via the related [enable()](grid/api/selection/selection_enable_method.md)/ [disable()](grid/api/selection/selection_disable_method.md) methods of the Selection object of Grid
@@ -172,7 +172,7 @@ The update brings various changes in the API methods. Check the [Migration artic
 - New events of TreeGrid columns: [beforeColumnHide](treegrid/api/treegrid_beforecolumnhide_event.md), [afterColumnHide](treegrid/api/treegrid_aftercolumnhide_event.md), [beforeColumnShow](treegrid/api/treegrid_beforecolumnshow_event.md), [afterColumnShow](treegrid/api/treegrid_aftercolumnshow_event.md)
 - New drag-n-drop events of TreeGrid rows: [afterRowDrag](treegrid/api/treegrid_afterrowdrag_event.md), [afterRowDrop](treegrid/api/treegrid_afterrowdrop_event.md), [beforeRowDrag](treegrid/api/treegrid_beforerowdrag_event.md), [beforeRowDrop](treegrid/api/treegrid_beforerowdrop_event.md), [canRowDrop](treegrid/api/treegrid_canrowdrop_event.md), [cancelRowDrop](treegrid/api/treegrid_cancelrowdrop_event.md), [dragRowIn](treegrid/api/treegrid_dragrowin_event.md), [dragRowOut](treegrid/api/treegrid_dragrowout_event.md), [dragRowStart](treegrid/api/treegrid_dragrowstart_event.md)
 - New events of TreeGrid rows: [beforeRowHide](treegrid/api/treegrid_beforerowhide_event.md), [afterRowHide](treegrid/api/treegrid_afterrowhide_event.md), [beforeRowShow](treegrid/api/treegrid_beforerowshow_event.md), [afterRowShow](treegrid/api/treegrid_afterrowshow_event.md)
-- The ability [to hide and show a row of TreeGrid](treegrid/usage.md#hiding-showing-a-row) via the corresponding [hideRow()](treegrid/api/treegrid_hiderow_method.md) and [showRow()](treegrid/api/treegrid_showrow_method.md) methods of TreeGrid
+- The ability [to hide and show a row of TreeGrid](treegrid/usage.md#hidingshowing-a-row) via the corresponding [hideRow()](treegrid/api/treegrid_hiderow_method.md) and [showRow()](treegrid/api/treegrid_showrow_method.md) methods of TreeGrid
 - The ability to check whether a row of TreeGrid is hidden via the [isRowHidden()](treegrid/api/treegrid_isrowhidden_method.md) method of TreeGrid
 - The ability [to get an object of the header filter by column id](treegrid/usage.md#getting-header-filter) using the [getHeaderFilter()](treegrid/api/treegrid_getheaderfilter_method.md) method of TreeGrid
 - The ability [to enable/disable selection of cells](treegrid/usage_selection.md) in TreeGrid via the related [enable()](treegrid/api/selection/selection_enable_method.md)/ [disable()](treegrid/api/selection/selection_disable_method.md) methods of the Selection object of TreeGrid
@@ -185,12 +185,12 @@ The update brings various changes in the API methods. Check the [Migration artic
 - Form. The [afterHide](form/api/form_afterhide_event.md), [afterShow](form/api/form_aftershow_event.md), [beforeHide](form/api/form_beforehide_event.md), [beforeShow](form/api/form_beforeshow_event.md) events are updated - the `id` parameter is replaced with the `name` and `value` ones.
 - Form. The [validate()](form/api/form_validate_method.md) method is updated - now the method validates only the required fields or the fields that contain validation rules. The new "silent" parameter is added.
 - Form and Form controls. The types of the "width/height" properties are updated - the *number* and *"content"* types are added.
-- Form controls. The "value" attribute is updated - the *number* type is added ([Input](form/input.md#adding-input)/[Text](form/text.md#adding-text)/[Select](form/select.md)) 
+- Form controls. The "value" attribute is updated - the *number* type is added ([Input](form/api/input/api_input_properties.md)/[Text](form/api/text/api_text_properties.md)/[Select](form/api/select/api_select_properties.md)) 
 - Form controls. The "validate()" method is updated - the new "silent" and "validateValue" parameters are added ([DatePicker](form/api/calendar/calendar_validate_method.md), [ColorPicker](form/api/colorpicker/colorpicker_validate_method.md), [Combo](form/api/combo/combo_validate_method.md), [Input](form/api/input/input_validate_method.md), [Textarea](form/api/textarea/textarea_validate_method.md), [TimePicker](form/api/timepicker/timepicker_validate_method.md))
 - Checkbox control of Form. The [getValue()](form/api/checkbox/checkbox_getvalue_method.md) method is updated
-- Input control of Form. The ability to define the type for the input field via the ["inputType"](form/input.md#adding-input) attribute
-- TimePicker control of Form. The ["value"](form/timepicker.md#adding-timepicker) attribute is updated- the ability to specify the value as a Date, a number, an array, an object is added.
-- SimpleValult control of Form. The form/api/simplevault/simplevault_beforeuploadfile_event.md, form/api/simplevault/simplevault_uploadbegin_event.md, form/api/simplevault/simplevault_uploadcomplete_event.md, form/api/simplevault/simplevault_uploadfail_event.md, form/api/simplevault/simplevault_uploadfile_event.md, form/api/simplevault/simplevault_uploadprogress_event.md events are improved
+- Input control of Form. The ability to define the type for the input field via the ["inputType"](form/api/input/api_input_properties.md) attribute
+- TimePicker control of Form. The ["value"](form/timepicker.md#adding-timepicker) attribute is updated - the ability to specify the value as a Date, a number, an array, an object is added.
+- SimpleVault control of Form. The [](form/api/simplevault/simplevault_beforeuploadfile_event), [](form/api/simplevault/simplevault_uploadbegin_event.md), [](form/api/simplevault/simplevault_uploadcomplete_event.md), [](form/api/simplevault/simplevault_uploadfail_event.md), [](form/api/simplevault/simplevault_uploadfile_event.md), [](form/api/simplevault/simplevault_uploadprogress_event.md) events are improved
 - TimePicker control of Form. The [getValue()](form/api/timepicker/timepicker_getvalue_method.md)/ [setValue()](form/api/timepicker/timepicker_setvalue_method.md) methods are updated
 - Form. The [getValue()](form/api/form_getvalue_method.md) method is updated
 - Grid/TreeGrid. The "splitAt" configuration property is replaced by the "leftSplit" one 
@@ -199,30 +199,30 @@ The update brings various changes in the API methods. Check the [Migration artic
 - Layout. [Layout patterns](layout/layout_patterns.md) section is added to docs
 - Layout. The [gravity](layout/api/layout_gravity_config.md) property of a Layout cell is updated
 - [Layout](layout/cell_configuration.md#autosize-for-cells). The ability to configure a Layout cell so that its width/ height would automatically adjust to the width/ height of the cell content
-- [Menu](menu/configuring_menu_items.md)/[Ribbon](ribbon/controls.md)/[Sidebar](sidebar/controls.md)/[Toolbar](toolbar/controls_list.md). Improved controls.
-- [Menu](menu/work_with_menu.md#disabling-enabling-menu-options)/[Ribbon](ribbon/operating_ribbon.md#disabling-and-enabling-controls)/[Sidebar](sidebar/work_with_sidebar.md#disabling-and-enabling-controls)/[Toolbar](toolbar/common_methods.md#disabling-and-enabling-controls). The "disable()"/"enable()" methods are updated - now it is possible to disable/enable all items of the widget at once.
-- [Menu](menu/work_with_menu.md#hiding-showing-menu-options)/[Ribbon](ribbon/operating_ribbon.md#hiding-and-showing-controls)/[Sidebar](sidebar/work_with_sidebar.md#hiding-and-showing-controls)/[Toolbar](toolbar/common_methods.md#hiding-and-showing-controls). The "hide()"/"show()" methods are updated - now it is possible to hide/show all items of the widget at once.
-- TimePicker. The timepicker/api/timepicker_afterclose_event.md, timepicker/api/timepicker_beforeclose_event.md  events are updated - the "value" parameter is added.
-- TimePicker. The timepicker/api/timepicker_change_event.md event is updated - the *object* type of the "value" parameter is added.
+- Menu, Ribbon, Sidebar, Toolbar. Improved controls.
+- [Menu](menu/work_with_menu.md#disablingenabling-menu-options)/[Ribbon](ribbon/operating_ribbon.md#disabling-and-enabling-controls)/[Sidebar](sidebar/work_with_sidebar.md#disabling-and-enabling-controls)/[Toolbar](toolbar/common_methods.md#disabling-and-enabling-controls). The "disable()"/"enable()" methods are updated - now it is possible to disable/enable all items of the widget at once.
+- [Menu](menu/work_with_menu.md#hidingshowing-menu-options)/[Ribbon](ribbon/operating_ribbon.md#hiding-and-showing-controls)/[Sidebar](sidebar/work_with_sidebar.md#hiding-and-showing-controls)/[Toolbar](toolbar/common_methods.md#hiding-and-showing-controls). The "hide()"/"show()" methods are updated - now it is possible to hide/show all items of the widget at once.
+- TimePicker. The [](timepicker/api/timepicker_afterclose_event.md), [](timepicker/api/timepicker_beforeclose_event.md)  events are updated - the "value" parameter is added.
+- TimePicker. The [](timepicker/api/timepicker_change_event.md) event is updated - the *object* type of the "value" parameter is added.
 - Toolbar. The ability to pass the id of a Toolbar control to the [getState()](toolbar/api/toolbar_getstate_method.md) method is added
 - Window. The [AfterHide](window/api/window_afterhide_event.md), [AfterShow](window/api/window_aftershow_event.md), [BeforeHide](window/api/window_beforehide_event.md), [BeforeShow](window/api/window_beforeshow_event.md), [HeaderDoubleClick](window/api/window_headerdoubleclick_event.md) events are updated - the new "position" and (or) "events" parameters are added.
-- Data Collection. The [filter()](data_collection/api/filter.md) method is improved - the "smartFilter" attribute of the "config" parameter is added 
-- Data Collection. The [sort](data_collection/api/sort.md) method is updated - the "config" parameter is added
-- Selection object. The [add()](selection/api/add.md) and [remove()](selection/api/remove.md) methods are improved
+- Data Collection. The [filter()](data_collection/api/datacollection_filter_method.md) method is improved - the "smartFilter" attribute of the "config" parameter is added 
+- Data Collection. The [sort()](data_collection/api/datacollection_sort_method.md) method is updated - the "config" parameter is added
+- Selection object. The [add()](selection/api/selection_add_method.md) and [remove()](selection/api/selection_remove_method.md) methods are improved
 - Types of Selection are added to the TypeScript definitions
 
 ### Fixes
 
 - The incorrect display of the [tooltip](slider/api/slider_tooltip_config.md) of Slider when the [range](slider/api/slider_range_config.md) property is enabled
 - Issues with the [width](layout/api/layout_width_config.md), [height](layout/api/layout_height_config.md), [padding](layout/api/layout_padding_config.md) properties of a Layout cell when setting their values as `number` type
-- Issues with the selection/api/after_unselect_event.md and selection/api/before_unselect_event.md events of the Selection object when using in List/DataView 
-- Issue with the data_collection/api/update.md method of Data Collection
-- Issue with the tree_collection/api/update.md method of Tree Collection
+- Issues with the [](selection/api/selection_afterunselect_event.md) and [](selection/api/selection_beforeunselect_event.md) events of the Selection object when using in List/DataView 
+- Issue with the [update()](data_collection/api/datacollection_update_method.md) method of Data Collection
+- Issue with the [update()](tree_collection/api/treecollection_update_method.md) method of Tree Collection
 - The issue which caused the width of Grid columns not to be changed via the configuration when the [autoWidth](grid/api/grid_autowidth_config.md) option is enabled and Grid is attached to a Tabbar cell
-- The issue with the ability to use numeric fields of Form without their validation. Now it is possible to define the number type for the input via the ["inputType"](form/input.md#adding-input) attribute.
+- The issue with the ability to use numeric fields of Form without their validation. Now it is possible to define the number type for the input via the ["inputType"](form/api/input/api_input_properties.md) attribute.
 - The incorrect work of the [autoEmptyRow](grid/api/grid_autoemptyrow_config.md) configuration property of Grid which caused empty rows to appear at the top and at the bottom of the Grid after [loading data from an external file](grid/data_loading.md#external-data-loading)
-- The incorrect work of the [save()](data_collection/api/save.md) method of Data Collection
-- Issue with the [add()](tree_collection/api/add.md) method of Tree Collection when using in Tree/ TreeGrid
+- The incorrect work of the [save()](data_collection/api/datacollection_save_method.md) method of Data Collection
+- Issue with the [add()](tree_collection/api/treecollection_add_method.md) method of Tree Collection when using in Tree/ TreeGrid
 - The issue with dynamic loading of data into Grid and Tree when using the url with additional parameters
 - The issue which caused nested items of Menu not to close after hovering a mouse pointer back over the parent item
 - The issue which caused a nested tabbar to display in the same mode as the parent tabbar although different display modes were applied to the nested and parent tabbars
@@ -232,8 +232,8 @@ The update brings various changes in the API methods. Check the [Migration artic
 - The incorrect behavior of the Tab key when navigating through the header filters in Grid
 - The issue that invoked a warning in the console after unchecking the checkbox of an item in Tree
 - The incorrect behavior of resizable cells of Layout when attaching Layout into a Window
-- The issue with incorrect saving of Grid data when using the [data.update()](data_collection/api/update.md) method called from the [AfterEditEnd](grid/api/grid_aftereditend_event.md) event, and applying the [data.save()](data_collection/api/save.html) method
-- The incorrect work of the [data.save()](data_collection/api/save.html) method which caused only the first change of the Grid row to save
+- The issue with incorrect saving of Grid data when using the [data.update()](data_collection/api/datacollection_update_method.md) method called from the [AfterEditEnd](grid/api/grid_aftereditend_event.md) event, and applying the [data.save()](data_collection/api/datacollection_save_method.md) method
+- The incorrect work of the [data.save()](data_collection/api/datacollection_save_method.md) method which caused only the first change of the Grid row to save
 
 
 Version 6.5.8
@@ -253,10 +253,10 @@ Version 6.5.7
 
 ### Fixes
 
-- Fix the incorrect work of the grid/api/grid_aftereditend_event.md, grid/api/grid_aftereditstart_event.md, grid/api/grid_beforeeditend_event.md, grid/api/grid_beforeeditstart_event.md events for cells with the checkbox editor type in Grid
+- Fix the incorrect work of the [](grid/api/grid_aftereditend_event.md), [](grid/api/grid_aftereditstart_event.md), [](grid/api/grid_beforeeditend_event.md), [](grid/api/grid_beforeeditstart_event.md) events for cells with the checkbox editor type in Grid
 - Fix the issue with rendering [a tooltip on hovering over the slider thumb](slider/api/slider_tooltip_config.md) when the slider is attached both to a Layout and a Window at the same time
-- Fix the issue with [a tooltip added to a Title control of Toolbar](toolbar/text.md#adding-a-tooltip) which caused a tooltip not to be shown
-- Fix the issue with drag and drop of Grid columns with [selectFilter](grid/configuration.md#header-footer-content) filled
+- Fix the issue with [a tooltip added to a Title control of Toolbar](toolbar/title.md#adding-a-tooltip) which caused a tooltip not to be shown
+- Fix the issue with drag and drop of Grid columns with [selectFilter](grid/configuration.md#headerfooter-content) filled
 
 Version 6.5.6
 -------------
@@ -297,7 +297,7 @@ Version 6.5.4
 - Fix the issue which caused hidden columns of Grid to be displayed in the exported Excel file
 - Fix the incorrect behavior of scrolling Grid container when using [keyboard navigation](grid/configuration.md#keyboard-navigation) in a grid with [frozen columns](grid/configuration.md#frozen-columns)
 - Fix the incorrect rendering of a [Spline chart](chart/charts_overview.md#line-and-spline-chart) when a data set contains less than 3 records
-- Fix the issue with visualization of the [mark](grid/configuration.md#columns) property of a Grid column after data reloading
+- Fix the issue with visualization of the [mark](grid/api/api_gridcolumn_properties.md) property of a Grid column after data reloading
 - Fix the issue which caused a footer of a grid not to be included to the exported file
 
 Version 6.5.3
@@ -307,13 +307,13 @@ Version 6.5.3
 
 ### Fixes
 
-- Fix the behavior of the grid/api/grid_keynavigation_config.md property of Grid when the grid is attached to a collapsed Layout cell
+- Fix the behavior of the [](grid/api/grid_keynavigation_config.md) property of Grid when the grid is attached to a collapsed Layout cell
 - Fix the issue with positioning of a popup relative to a Window
 - Fix issues with the event system of a checkbox editor in Grid 
 - Fix the issue with calculation of Grid height when Grid has [frozen columns](grid/configuration.md#frozen-columns)
-- Fix the behavior of the grid/api/grid_adjust_config.md property of Grid when some columns are [hidden](grid/configuration.md#hidden-columns) 
+- Fix the behavior of the [](grid/api/grid_adjust_config.md) property of Grid when some columns are [hidden](grid/configuration.md#hidden-columns) 
 - Mechanism of appearing of a Popup widget on a page is reworked
-- Checking the incorrect data of the grid/api/selection/selection_setcell_method.md method of Grid is added
+- Checking the incorrect data of the [](grid/api/selection/selection_setcell_method.md) method of Grid is added
 - Fix issues with minimal and maximal values of scales in Chart
 
 
@@ -325,8 +325,8 @@ Version 6.5.2
 ### Fixes
 
 - Fixed types in d.ts 
-- Issue with the grid/api/grid_editcell_method.md method in Grid
-- Issue with the grid/api/grid_removerowcss_method.md method in Grid
+- Issue with the [](grid/api/grid_editcell_method.md) method in Grid
+- Issue with the [](grid/api/grid_removerowcss_method.md) method in Grid
 - Issue with Grid while using together with Window
 - Issue with "email" validation rule of input in Form 
 - Improved editing mode when drag and drop is enabled in Tree
@@ -409,7 +409,7 @@ Version 6.4.4
 - Fix the behavior of charts placed into a cell of Tabbar in IE
 - Fix issue with the layout/api/layout_aftershow_event.md event of Layout not being called
 - Fix the incorrect work of the [destructor()](grid/api/grid_destructor_method.md) method when combo filters are not specified in Grid
-- Fix the incorrect work of the combo/api/combobox_change_event.md event when the combo/api/combobox_multiselection_config.md property is enabled in Combobox
+- Fix the incorrect work of the [Change](combobox/api/combobox_change_event.md) event when the combobox/api/combobox_multiselection_config.md property is enabled in Combobox
 - Fix the incorrect work of the colorpicker/api/colorpicker_change_event.md event while calling the [clear()](colorpicker/api/colorpicker_clear_method.md) method in ColorPicker
 - Fix issue with the [getValue()](form/api/form_getvalue_method.md) method of Form
 - Fix the incorrect work of the form/api/form_change_event.md event  while calling the [clear()](form/api/form_clear_method.md) method for Form controls (Input, Textarea, Checkbox, RadioGroup, Select, DatePicker, TimePicker, ColorPicker, Combo)
@@ -501,10 +501,10 @@ Version 6.4
 
 #### Combobox
 
-- The possibility [to check whether a combobox is disabled on the page](combo/work_with_combo.md#checking-if-a-combobox-is-disabled) using the combo/api/combobox_isdisabled_method.md method
-- The combo/api/combobox_beforeclose_event.md and combo/api/combobox_afterclose_event.md events are added
-- The ability to specify an array of data objects before initialization via the combo/api/combobox_data_config.md configuration property
-- The possibility to define the position of a label of a combobox using the combo/api/combobox_labelposition_config.md property
+- The possibility [to check whether a combobox is disabled on the page](combobox/work_with_combo.md#checking-if-a-combobox-is-disabled) using the combobox/api/combobox_isdisabled_method.md method
+- The combobox/api/combobox_beforeclose_event.md and combobox/api/combobox_afterclose_event.md events are added
+- The ability to specify an array of data objects before initialization via the combobox/api/combobox_data_config.md configuration property
+- The possibility to define the position of a label of a combobox using the combobox/api/combobox_labelposition_config.md property
 
 
 #### Dataview

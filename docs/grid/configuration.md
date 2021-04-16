@@ -296,7 +296,7 @@ var grid = new dhx.Grid("grid", {
 });
 ~~~
 
-<h3 id="columneditors">Setting type of column editor</h3>
+### Setting type of column editor
 
 You can specify the way of editing the cells of a Grid column depending on its content as simple input, select control, date picker, checkbox or combobox. The type of the used editor is defined by the **editorType** property of a [column](grid/api/grid_columns_config.md).
 There are five types of column editors:
@@ -784,8 +784,7 @@ The arrow shortcut keys listed below do not work when the **selection** property
     </tbody>
 </table>
 
-
-### **Shortcut keys for editing**
+### Shortcut keys for editing
 
 It is also possible to use shortcut keys for editing a cell in Grid by setting [editable:true](grid/api/grid_editable_config.md) property in the configuration object of Grid.
 
@@ -960,7 +959,7 @@ var grid = new dhx.Grid("grid_container", {
 
 {{editor    https://snippet.dhtmlx.com/r3prvlmo	Grid. Sortable Columns}}
 
-###Sorting separate columns
+### Sorting separate columns
 
 You can make separate columns sortable by specifying the [sortable:true](grid/api/grid_sortable_config.md) property in the configuration of a column:
 
