@@ -681,16 +681,15 @@ title: Form API overview
 
 ### Events
 
-| Name | Description |
-| :--- | :---------- |
-|      |             |
-|      |             |
-|      |             |
-|      |             |
-|      |             |
-|      |             |
-|      |             |
-|      |             |
+| Name                                                    | Description                                                    |
+| :------------------------------------------------------ | :------------------------------------------------------------- |
+| [](container/container_afterchangeproperties_event.md)  | @getshort(container/container_afterchangeproperties_event.md)  |
+| [](container/container_afterhide_event.md)              | @getshort(container/container_afterhide_event.md)              |
+| [](container/container_aftershow_event.md)              | @getshort(container/container_aftershow_event.md)              |
+| [](container/container_beforechangeproperties_event.md) | @getshort(container/container_beforechangeproperties_event.md) |
+| [](container/container_beforehide_event.md)             | @getshort(container/container_beforehide_event.md)             |
+| [](container/container_beforeshow_event.md)             | @getshort(container/container_beforeshow_event.md)             |
+
 
 ### Properties
 

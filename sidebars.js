@@ -1296,7 +1296,19 @@ module.exports = {
                                         "form/api/container/container_getproperties_method",
                                       ],
                                     },
-                                    
+                                    {
+                                      type: "category",
+                                      label: "Events",
+                                      collapsed: true,
+                                      items: [
+                                        "form/api/container/container_afterchangeproperties_event",
+                                        "form/api/container/container_afterhide_event",
+                                        "form/api/container/container_aftershow_event",
+                                        "form/api/container/container_beforechangeproperties_event",
+                                        "form/api/container/container_beforehide_event",
+                                        "form/api/container/container_beforeshow_event",
+                                      ],
+                                    },
                                     {
                                       type: "doc",
                                       id: "form/api/container/api_container_properties",
