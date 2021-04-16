@@ -1285,17 +1285,18 @@ module.exports = {
                                       collapsed: true,
                                       items: [
                                         "form/api/container/container_attach_method",
-                                        "form/api/container/container_attachHTML_method",
+                                        "form/api/container/container_attachhtml_method",
                                         "form/api/container/container_show_method",
                                         "form/api/container/container_hide_method",
                                         "form/api/container/container_enable_method",
                                         "form/api/container/container_disable_method",
-                                        "form/api/container/container_isVisible_method",
-                                        "form/api/container/container_isDisabled_method",
-                                        "form/api/container/container_setProperties_method",
-                                        "form/api/container/container_getProperties_method",
+                                        "form/api/container/container_isvisible_method",
+                                        "form/api/container/container_isdisabled_method",
+                                        "form/api/container/container_setproperties_method",
+                                        "form/api/container/container_getproperties_method",
                                       ],
                                     },
+                                    
                                     {
                                       type: "doc",
                                       id: "form/api/container/api_container_properties",

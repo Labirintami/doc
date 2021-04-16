@@ -669,15 +669,15 @@ title: Form API overview
 | Name                                                     | Description                                                     |
 | :------------------------------------------------------- | :-------------------------------------------------------------- |
 | [](form/api/container/container_attach_method.md)        | @getshort(form/api/container/container_attach_method.md)        |
-| [](form/api/container/container_attachHTML_method.md)    | @getshort(form/api/container/container_attachHTML_method.md)    |
+| [](form/api/container/container_attachhtml_method.md)    | @getshort(form/api/container/container_attachhtml_method.md)    |
 | [](form/api/container/container_show_method.md)          | @getshort(form/api/container/container_show_method.md)          |
 | [](form/api/container/container_hide_method.md)          | @getshort(form/api/container/container_hide_method.md)          |
 | [](form/api/container/container_enable_method.md)        | @getshort(form/api/container/container_enable_method.md)        |
 | [](form/api/container/container_disable_method.md)       | @getshort(form/api/container/container_disable_method.md)       |
-| [](form/api/container/container_isVisible_method.md)     | @getshort(form/api/container/container_isVisible_method.md)     |
-| [](form/api/container/container_isDisabled_method.md)    | @getshort(form/api/container/container_isDisabled_method.md)    |
-| [](form/api/container/container_setProperties_method.md) | @getshort(form/api/container/container_setProperties_method.md) |
-| [](form/api/container/container_getProperties_method.md) | @getshort(form/api/container/container_getProperties_method.md) |
+| [](form/api/container/container_isvisible_method.md)     | @getshort(form/api/container/container_isvisible_method.md)     |
+| [](form/api/container/container_isdisabled_method.md)    | @getshort(form/api/container/container_isdisabled_method.md)    |
+| [](form/api/container/container_setproperties_method.md) | @getshort(form/api/container/container_setproperties_method.md) |
+| [](form/api/container/container_getproperties_method.md) | @getshort(form/api/container/container_getproperties_method.md) |
 
 ### Events
 
